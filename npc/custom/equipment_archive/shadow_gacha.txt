@@ -203,7 +203,7 @@ S_Draw_G01:
 		.@item = .SPG01P[rand(getarraysize(.SPG01P))];
 		break;
 	}
-	callsub S_Award;
+	callsub S_Award,.@item,.@price;
 	return;
 
 S_Draw_S01:
@@ -235,7 +235,7 @@ S_Draw_S01:
 		.@item = .SPS01P[rand(getarraysize(.SPS01P))];
 		break;
 	}
-	callsub S_Award;
+	callsub S_Award,.@item,.@price;
 	return;
 
 S_Draw_S02:
@@ -267,7 +267,7 @@ S_Draw_S02:
 		.@item = .SPS02P[rand(getarraysize(.SPS02P))];
 		break;
 	}
-	callsub S_Award;
+	callsub S_Award,.@item,.@price;
 	return;
 
 S_Draw_S03:
@@ -299,7 +299,7 @@ S_Draw_S03:
 		.@item = .SPS03P[rand(getarraysize(.SPS03P))];
 		break;
 	}
-	callsub S_Award;
+	callsub S_Award,.@item,.@price;
 	return;
 
 S_Draw_S04:
@@ -319,7 +319,7 @@ S_Draw_S04:
 		.@item = .SPS04D[rand(getarraysize(.SPS04D))];
 		break;
 	}
-	callsub S_Award;
+	callsub S_Award,.@item,.@price;
 	return;
 
 S_Draw_S05:
@@ -351,7 +351,7 @@ S_Draw_S05:
 		.@item = .SPS05P[rand(getarraysize(.SPS05P))];
 		break;
 	}
-	callsub S_Award;
+	callsub S_Award,.@item,.@price;
 	return;
 
 S_Draw_S06:
@@ -383,7 +383,7 @@ S_Draw_S06:
 		.@item = .SPS06P[rand(getarraysize(.SPS06P))];
 		break;
 	}
-	callsub S_Award;
+	callsub S_Award,.@item,.@price;
 	return;
 
 S_Draw_S07:
@@ -415,7 +415,7 @@ S_Draw_S07:
 		.@item = .SPS07P[rand(getarraysize(.SPS07P))];
 		break;
 	}
-	callsub S_Award;
+	callsub S_Award,.@item,.@price;
 	return;
 
 S_Draw_T01:
@@ -447,7 +447,7 @@ S_Draw_T01:
 		.@item = .SPT01P[rand(getarraysize(.SPT01P))];
 		break;
 	}
-	callsub S_Award;
+	callsub S_Award,.@item,.@price;
 	return;
 
 S_Draw_T02:
@@ -479,7 +479,7 @@ S_Draw_T02:
 		.@item = .SPT02P[rand(getarraysize(.SPT02P))];
 		break;
 	}
-	callsub S_Award;
+	callsub S_Award,.@item,.@price;
 	return;
 
 S_Draw_T03:
@@ -511,7 +511,7 @@ S_Draw_T03:
 		.@item = .SPT03P[rand(getarraysize(.SPT03P))];
 		break;
 	}
-	callsub S_Award;
+	callsub S_Award,.@item,.@price;
 	return;
 
 S_Draw_T04:
@@ -543,7 +543,7 @@ S_Draw_T04:
 		.@item = .SPT04P[rand(getarraysize(.SPT04P))];
 		break;
 	}
-	callsub S_Award;
+	callsub S_Award,.@item,.@price;
 	return;
 
 S_Draw_T05:
@@ -575,7 +575,7 @@ S_Draw_T05:
 		.@item = .SPT05P[rand(getarraysize(.SPT05P))];
 		break;
 	}
-	callsub S_Award;
+	callsub S_Award,.@item,.@price;
 	return;
 
 S_Draw_T06:
@@ -607,7 +607,7 @@ S_Draw_T06:
 		.@item = .SPT06P[rand(getarraysize(.SPT06P))];
 		break;
 	}
-	callsub S_Award;
+	callsub S_Award,.@item,.@price;
 	return;
 
 S_Draw_T07:
@@ -639,7 +639,7 @@ S_Draw_T07:
 		.@item = .SPT07P[rand(getarraysize(.SPT07P))];
 		break;
 	}
-	callsub S_Award;
+	callsub S_Award,.@item,.@price;
 	return;
 
 S_Draw_T08:
@@ -671,7 +671,7 @@ S_Draw_T08:
 		.@item = .SPT08P[rand(getarraysize(.SPT08P))];
 		break;
 	}
-	callsub S_Award;
+	callsub S_Award,.@item,.@price;
 	return;
 
 S_Draw_T09:
@@ -703,7 +703,7 @@ S_Draw_T09:
 		.@item = .SPT09P[rand(getarraysize(.SPT09P))];
 		break;
 	}
-	callsub S_Award;
+	callsub S_Award,.@item,.@price;
 	return;
 
 S_Draw_T10:
@@ -735,7 +735,7 @@ S_Draw_T10:
 		.@item = .SPT10P[rand(getarraysize(.SPT10P))];
 		break;
 	}
-	callsub S_Award;
+	callsub S_Award,.@item,.@price;
 	return;
 
 S_Draw_T11:
@@ -767,7 +767,7 @@ S_Draw_T11:
 		.@item = .SPT11P[rand(getarraysize(.SPT11P))];
 		break;
 	}
-	callsub S_Award;
+	callsub S_Award,.@item,.@price;
 	return;
 
 S_Draw_T12:
@@ -799,7 +799,7 @@ S_Draw_T12:
 		.@item = .SPT12P[rand(getarraysize(.SPT12P))];
 		break;
 	}
-	callsub S_Award;
+	callsub S_Award,.@item,.@price;
 	return;
 
 S_Draw_T13:
@@ -825,7 +825,7 @@ S_Draw_T13:
 		.@item = .SPT13P[rand(getarraysize(.SPT13P))];
 		break;
 	}
-	callsub S_Award;
+	callsub S_Award,.@item,.@price;
 	return;
 
 S_Draw_T14:
@@ -851,7 +851,7 @@ S_Draw_T14:
 		.@item = .SPT14P[rand(getarraysize(.SPT14P))];
 		break;
 	}
-	callsub S_Award;
+	callsub S_Award,.@item,.@price;
 	return;
 
 S_Draw_T15:
@@ -871,7 +871,7 @@ S_Draw_T15:
 		.@item = .SPT15S[rand(getarraysize(.SPT15S))];
 		break;
 	}
-	callsub S_Award;
+	callsub S_Award,.@item,.@price;
 	return;
 
 S_Draw_T16:
@@ -891,7 +891,7 @@ S_Draw_T16:
 		.@item = .SPT16S[rand(getarraysize(.SPT16S))];
 		break;
 	}
-	callsub S_Award;
+	callsub S_Award,.@item,.@price;
 	return;
 
 S_Draw_F01:
@@ -923,7 +923,7 @@ S_Draw_F01:
 		.@item = .SPF01P[rand(getarraysize(.SPF01P))];
 		break;
 	}
-	callsub S_Award;
+	callsub S_Award,.@item,.@price;
 	return;
 
 S_Draw_F02:
@@ -955,7 +955,7 @@ S_Draw_F02:
 		.@item = .SPF02P[rand(getarraysize(.SPF02P))];
 		break;
 	}
-	callsub S_Award;
+	callsub S_Award,.@item,.@price;
 	return;
 
 S_Draw_F03:
@@ -987,7 +987,7 @@ S_Draw_F03:
 		.@item = .SPF03P[rand(getarraysize(.SPF03P))];
 		break;
 	}
-	callsub S_Award;
+	callsub S_Award,.@item,.@price;
 	return;
 
 S_Draw_F04:
@@ -1019,7 +1019,7 @@ S_Draw_F04:
 		.@item = .SPF04P[rand(getarraysize(.SPF04P))];
 		break;
 	}
-	callsub S_Award;
+	callsub S_Award,.@item,.@price;
 	return;
 
 S_Draw_F05:
@@ -1051,7 +1051,7 @@ S_Draw_F05:
 		.@item = .SPF05P[rand(getarraysize(.SPF05P))];
 		break;
 	}
-	callsub S_Award;
+	callsub S_Award,.@item,.@price;
 	return;
 
 S_Draw_F06:
@@ -1083,7 +1083,7 @@ S_Draw_F06:
 		.@item = .SPF06P[rand(getarraysize(.SPF06P))];
 		break;
 	}
-	callsub S_Award;
+	callsub S_Award,.@item,.@price;
 	return;
 
 S_Draw_F07:
@@ -1115,7 +1115,7 @@ S_Draw_F07:
 		.@item = .SPF07P[rand(getarraysize(.SPF07P))];
 		break;
 	}
-	callsub S_Award;
+	callsub S_Award,.@item,.@price;
 	return;
 
 S_Draw_F08:
@@ -1147,7 +1147,7 @@ S_Draw_F08:
 		.@item = .SPF08P[rand(getarraysize(.SPF08P))];
 		break;
 	}
-	callsub S_Award;
+	callsub S_Award,.@item,.@price;
 	return;
 
 S_Draw_F09:
@@ -1179,7 +1179,7 @@ S_Draw_F09:
 		.@item = .SPF09P[rand(getarraysize(.SPF09P))];
 		break;
 	}
-	callsub S_Award;
+	callsub S_Award,.@item,.@price;
 	return;
 
 S_Draw_F10:
@@ -1211,7 +1211,7 @@ S_Draw_F10:
 		.@item = .SPF10P[rand(getarraysize(.SPF10P))];
 		break;
 	}
-	callsub S_Award;
+	callsub S_Award,.@item,.@price;
 	return;
 
 S_Draw_F11:
@@ -1243,7 +1243,7 @@ S_Draw_F11:
 		.@item = .SPF11P[rand(getarraysize(.SPF11P))];
 		break;
 	}
-	callsub S_Award;
+	callsub S_Award,.@item,.@price;
 	return;
 
 S_Draw_F12:
@@ -1275,7 +1275,7 @@ S_Draw_F12:
 		.@item = .SPF12P[rand(getarraysize(.SPF12P))];
 		break;
 	}
-	callsub S_Award;
+	callsub S_Award,.@item,.@price;
 	return;
 
 S_Draw_F13:
@@ -1301,7 +1301,7 @@ S_Draw_F13:
 		.@item = .SPF13P[rand(getarraysize(.SPF13P))];
 		break;
 	}
-	callsub S_Award;
+	callsub S_Award,.@item,.@price;
 	return;
 
 S_Draw_F14:
@@ -1327,7 +1327,7 @@ S_Draw_F14:
 		.@item = .SPF14P[rand(getarraysize(.SPF14P))];
 		break;
 	}
-	callsub S_Award;
+	callsub S_Award,.@item,.@price;
 	return;
 
 S_Draw_F15:
@@ -1353,7 +1353,7 @@ S_Draw_F15:
 		.@item = .SPF15P[rand(getarraysize(.SPF15P))];
 		break;
 	}
-	callsub S_Award;
+	callsub S_Award,.@item,.@price;
 	return;
 
 S_Draw_F16:
@@ -1379,10 +1379,21 @@ S_Draw_F16:
 		.@item = .SPF16P[rand(getarraysize(.SPF16P))];
 		break;
 	}
-	callsub S_Award;
+	callsub S_Award,.@item,.@price;
 	return;
 
 S_Award:
+	// callsub starts a new .@ scope, so receive the selected reward explicitly.
+	.@item = getarg(0);
+	.@price = getarg(1);
+
+	if (.@item <= 0) {
+		mes "[Shadow Capsule]";
+		mes "No valid reward was selected. Please contact a game master.";
+		logmes "[EA_SHADOW_ERROR] aid="+getcharid(3)+" cid="+getcharid(0)+" invalid_item="+.@item+" price="+.@price;
+		close;
+	}
+
 	if (Zeny < .@price) {
 		mes "[Shadow Capsule]";
 		mes "You do not have enough Zeny.";
@@ -1391,7 +1402,10 @@ S_Award:
 
 	if (!checkweight(.@item,1)) {
 		mes "[Shadow Capsule]";
-		mes "Your inventory is full or too heavy.";
+		if ((MaxWeight - Weight) < getiteminfo(.@item, ITEMINFO_WEIGHT))
+			mes "You are carrying too much weight.";
+		else
+			mes "You do not have a free inventory slot.";
 		close;
 	}
 
