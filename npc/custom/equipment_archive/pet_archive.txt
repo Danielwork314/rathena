@@ -1,0 +1,41 @@
+//===== rAthena Script =======================================
+//= Pet Archive Clerk
+//============================================================
+
+prontera,176,180,4	script	Pet Archive#EA	895,{
+	mes "[Pet Archive]";
+	mes "Pet eggs cost 200,000 Zeny.";
+	mes "Pet equipment costs 100,000 Zeny.";
+	next;
+	switch(select("Pet eggs:Pet equipment:Close")) {
+	case 1:
+		switch(select("Page 1 (40 items):Page 2 (40 items):Page 3 (40 items):Page 4 (29 items):Back")) {
+		case 1:
+			close2;
+			callshop "EAPEG01",1;
+			end;
+		case 2:
+			close2;
+			callshop "EAPEG02",1;
+			end;
+		case 3:
+			close2;
+			callshop "EAPEG03",1;
+			end;
+		case 4:
+			close2;
+			callshop "EAPEG04",1;
+			end;
+		case 5:
+			close;
+		}
+		close;
+	case 2:
+		close2;
+		callshop "EAPET01",1;
+		end;
+	case 3:
+		close;
+	}
+	close;
+}

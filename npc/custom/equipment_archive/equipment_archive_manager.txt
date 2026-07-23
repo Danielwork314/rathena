@@ -1,0 +1,1148 @@
+//===== rAthena Script =======================================
+//= Equipment Archive Manager
+//===== Description: =========================================
+//= Opens generated shops for non-monster-drop equipment.
+//============================================================
+
+prontera,170,180,4	script	Equipment Archive#EA	53,{
+	mes "[Equipment Archive]";
+	mes "Browse high-level equipment that is not listed as a direct monster drop.";
+	next;
+	switch(select("Weapons:Headgear:Armor:Shields:Garments:Shoes:Accessories:Price information:Close")) {
+	case 1:
+		callfunc "F_EAW";
+		close;
+	case 2:
+		callfunc "F_EAH";
+		close;
+	case 3:
+		callfunc "F_EAA";
+		close;
+	case 4:
+		callfunc "F_EAS";
+		close;
+	case 5:
+		callfunc "F_EAG";
+		close;
+	case 6:
+		callfunc "F_EAF";
+		close;
+	case 7:
+		callfunc "F_EAX";
+		close;
+	case 8:
+		mes "[Equipment Archive]";
+		mes "Lv 100-129: 200,000 Zeny";
+		mes "Lv 130-159: 500,000 Zeny";
+		mes "Lv 160-199: 1,000,000 Zeny";
+		mes "Lv 200+: 2,000,000 Zeny";
+		mes "Only the highest-slot functionally identical version is sold.";
+		mes "NoStorage, rental and trial items are excluded.";
+		close;
+	case 9:
+		close;
+	}
+	close;
+}
+
+function	script	F_EAWASW	{
+	close2;
+	callshop "EAWASW01",1;
+	end;
+}
+
+function	script	F_EAWADG	{
+	close2;
+	callshop "EAWADG01",1;
+	end;
+}
+
+function	script	F_EAWASP	{
+	close2;
+	callshop "EAWASP01",1;
+	end;
+}
+
+function	script	F_EAWAAX	{
+	close2;
+	callshop "EAWAAX01",1;
+	end;
+}
+
+function	script	F_EAWAMC	{
+	close2;
+	callshop "EAWAMC01",1;
+	end;
+}
+
+function	script	F_EAWAST	{
+	switch(select("Page 1 (40 items):Page 2 (7 items):Back")) {
+	case 1:
+		close2;
+		callshop "EAWAST01",1;
+		end;
+	case 2:
+		close2;
+		callshop "EAWAST02",1;
+		end;
+	case 3:
+		return;
+	}
+	return;
+}
+
+function	script	F_EAWABW	{
+	close2;
+	callshop "EAWABW01",1;
+	end;
+}
+
+function	script	F_EAWABK	{
+	close2;
+	callshop "EAWABK01",1;
+	end;
+}
+
+function	script	F_EAWAKN	{
+	close2;
+	callshop "EAWAKN01",1;
+	end;
+}
+
+function	script	F_EAWAKT	{
+	close2;
+	callshop "EAWAKT01",1;
+	end;
+}
+
+function	script	F_EAWAMU	{
+	close2;
+	callshop "EAWAMU01",1;
+	end;
+}
+
+function	script	F_EAWAWH	{
+	close2;
+	callshop "EAWAWH01",1;
+	end;
+}
+
+function	script	F_EAWAGN	{
+	close2;
+	callshop "EAWAGN01",1;
+	end;
+}
+
+function	script	F_EAWAHU	{
+	close2;
+	callshop "EAWAHU01",1;
+	end;
+}
+
+function	script	F_EAWBSW	{
+	close2;
+	callshop "EAWBSW01",1;
+	end;
+}
+
+function	script	F_EAWBDG	{
+	close2;
+	callshop "EAWBDG01",1;
+	end;
+}
+
+function	script	F_EAWBSP	{
+	close2;
+	callshop "EAWBSP01",1;
+	end;
+}
+
+function	script	F_EAWBAX	{
+	close2;
+	callshop "EAWBAX01",1;
+	end;
+}
+
+function	script	F_EAWBMC	{
+	close2;
+	callshop "EAWBMC01",1;
+	end;
+}
+
+function	script	F_EAWBST	{
+	close2;
+	callshop "EAWBST01",1;
+	end;
+}
+
+function	script	F_EAWBBW	{
+	close2;
+	callshop "EAWBBW01",1;
+	end;
+}
+
+function	script	F_EAWBBK	{
+	close2;
+	callshop "EAWBBK01",1;
+	end;
+}
+
+function	script	F_EAWBKN	{
+	close2;
+	callshop "EAWBKN01",1;
+	end;
+}
+
+function	script	F_EAWBKT	{
+	close2;
+	callshop "EAWBKT01",1;
+	end;
+}
+
+function	script	F_EAWBMU	{
+	close2;
+	callshop "EAWBMU01",1;
+	end;
+}
+
+function	script	F_EAWBWH	{
+	close2;
+	callshop "EAWBWH01",1;
+	end;
+}
+
+function	script	F_EAWBGN	{
+	close2;
+	callshop "EAWBGN01",1;
+	end;
+}
+
+function	script	F_EAWBHU	{
+	close2;
+	callshop "EAWBHU01",1;
+	end;
+}
+
+function	script	F_EAWCSW	{
+	close2;
+	callshop "EAWCSW01",1;
+	end;
+}
+
+function	script	F_EAWCDG	{
+	close2;
+	callshop "EAWCDG01",1;
+	end;
+}
+
+function	script	F_EAWCSP	{
+	close2;
+	callshop "EAWCSP01",1;
+	end;
+}
+
+function	script	F_EAWCAX	{
+	close2;
+	callshop "EAWCAX01",1;
+	end;
+}
+
+function	script	F_EAWCMC	{
+	close2;
+	callshop "EAWCMC01",1;
+	end;
+}
+
+function	script	F_EAWCST	{
+	close2;
+	callshop "EAWCST01",1;
+	end;
+}
+
+function	script	F_EAWCBW	{
+	close2;
+	callshop "EAWCBW01",1;
+	end;
+}
+
+function	script	F_EAWCBK	{
+	close2;
+	callshop "EAWCBK01",1;
+	end;
+}
+
+function	script	F_EAWCKN	{
+	close2;
+	callshop "EAWCKN01",1;
+	end;
+}
+
+function	script	F_EAWCKT	{
+	close2;
+	callshop "EAWCKT01",1;
+	end;
+}
+
+function	script	F_EAWCMU	{
+	close2;
+	callshop "EAWCMU01",1;
+	end;
+}
+
+function	script	F_EAWCWH	{
+	close2;
+	callshop "EAWCWH01",1;
+	end;
+}
+
+function	script	F_EAWCGN	{
+	close2;
+	callshop "EAWCGN01",1;
+	end;
+}
+
+function	script	F_EAWCHU	{
+	close2;
+	callshop "EAWCHU01",1;
+	end;
+}
+
+function	script	F_EAWDSW	{
+	switch(select("Page 1 (40 items):Page 2 (2 items):Back")) {
+	case 1:
+		close2;
+		callshop "EAWDSW01",1;
+		end;
+	case 2:
+		close2;
+		callshop "EAWDSW02",1;
+		end;
+	case 3:
+		return;
+	}
+	return;
+}
+
+function	script	F_EAWDDG	{
+	switch(select("Page 1 (40 items):Page 2 (6 items):Back")) {
+	case 1:
+		close2;
+		callshop "EAWDDG01",1;
+		end;
+	case 2:
+		close2;
+		callshop "EAWDDG02",1;
+		end;
+	case 3:
+		return;
+	}
+	return;
+}
+
+function	script	F_EAWDSP	{
+	close2;
+	callshop "EAWDSP01",1;
+	end;
+}
+
+function	script	F_EAWDAX	{
+	close2;
+	callshop "EAWDAX01",1;
+	end;
+}
+
+function	script	F_EAWDMC	{
+	close2;
+	callshop "EAWDMC01",1;
+	end;
+}
+
+function	script	F_EAWDST	{
+	switch(select("Page 1 (40 items):Page 2 (38 items):Back")) {
+	case 1:
+		close2;
+		callshop "EAWDST01",1;
+		end;
+	case 2:
+		close2;
+		callshop "EAWDST02",1;
+		end;
+	case 3:
+		return;
+	}
+	return;
+}
+
+function	script	F_EAWDBW	{
+	close2;
+	callshop "EAWDBW01",1;
+	end;
+}
+
+function	script	F_EAWDBK	{
+	close2;
+	callshop "EAWDBK01",1;
+	end;
+}
+
+function	script	F_EAWDKN	{
+	close2;
+	callshop "EAWDKN01",1;
+	end;
+}
+
+function	script	F_EAWDKT	{
+	close2;
+	callshop "EAWDKT01",1;
+	end;
+}
+
+function	script	F_EAWDMU	{
+	close2;
+	callshop "EAWDMU01",1;
+	end;
+}
+
+function	script	F_EAWDWH	{
+	close2;
+	callshop "EAWDWH01",1;
+	end;
+}
+
+function	script	F_EAWDGN	{
+	switch(select("Page 1 (40 items):Page 2 (8 items):Back")) {
+	case 1:
+		close2;
+		callshop "EAWDGN01",1;
+		end;
+	case 2:
+		close2;
+		callshop "EAWDGN02",1;
+		end;
+	case 3:
+		return;
+	}
+	return;
+}
+
+function	script	F_EAWDHU	{
+	close2;
+	callshop "EAWDHU01",1;
+	end;
+}
+
+function	script	F_EAWA	{
+	switch(select("Swords (35):Daggers (30):Spears (19):Axes (16):Maces (21):Staves (47):Bows (22):Books (17):Knuckles (9):Katars (13):Instruments (12):Whips (13):Guns (27):Huuma (4):Back")) {
+	case 1:
+		callfunc "F_EAWASW";
+		return;
+	case 2:
+		callfunc "F_EAWADG";
+		return;
+	case 3:
+		callfunc "F_EAWASP";
+		return;
+	case 4:
+		callfunc "F_EAWAAX";
+		return;
+	case 5:
+		callfunc "F_EAWAMC";
+		return;
+	case 6:
+		callfunc "F_EAWAST";
+		return;
+	case 7:
+		callfunc "F_EAWABW";
+		return;
+	case 8:
+		callfunc "F_EAWABK";
+		return;
+	case 9:
+		callfunc "F_EAWAKN";
+		return;
+	case 10:
+		callfunc "F_EAWAKT";
+		return;
+	case 11:
+		callfunc "F_EAWAMU";
+		return;
+	case 12:
+		callfunc "F_EAWAWH";
+		return;
+	case 13:
+		callfunc "F_EAWAGN";
+		return;
+	case 14:
+		callfunc "F_EAWAHU";
+		return;
+	case 15:
+		return;
+	}
+	return;
+}
+
+function	script	F_EAWB	{
+	switch(select("Swords (16):Daggers (17):Spears (11):Axes (9):Maces (11):Staves (21):Bows (9):Books (6):Knuckles (7):Katars (8):Instruments (5):Whips (4):Guns (26):Huuma (5):Back")) {
+	case 1:
+		callfunc "F_EAWBSW";
+		return;
+	case 2:
+		callfunc "F_EAWBDG";
+		return;
+	case 3:
+		callfunc "F_EAWBSP";
+		return;
+	case 4:
+		callfunc "F_EAWBAX";
+		return;
+	case 5:
+		callfunc "F_EAWBMC";
+		return;
+	case 6:
+		callfunc "F_EAWBST";
+		return;
+	case 7:
+		callfunc "F_EAWBBW";
+		return;
+	case 8:
+		callfunc "F_EAWBBK";
+		return;
+	case 9:
+		callfunc "F_EAWBKN";
+		return;
+	case 10:
+		callfunc "F_EAWBKT";
+		return;
+	case 11:
+		callfunc "F_EAWBMU";
+		return;
+	case 12:
+		callfunc "F_EAWBWH";
+		return;
+	case 13:
+		callfunc "F_EAWBGN";
+		return;
+	case 14:
+		callfunc "F_EAWBHU";
+		return;
+	case 15:
+		return;
+	}
+	return;
+}
+
+function	script	F_EAWC	{
+	switch(select("Swords (20):Daggers (16):Spears (11):Axes (12):Maces (15):Staves (32):Bows (19):Books (7):Knuckles (9):Katars (10):Instruments (7):Whips (7):Guns (14):Huuma (5):Back")) {
+	case 1:
+		callfunc "F_EAWCSW";
+		return;
+	case 2:
+		callfunc "F_EAWCDG";
+		return;
+	case 3:
+		callfunc "F_EAWCSP";
+		return;
+	case 4:
+		callfunc "F_EAWCAX";
+		return;
+	case 5:
+		callfunc "F_EAWCMC";
+		return;
+	case 6:
+		callfunc "F_EAWCST";
+		return;
+	case 7:
+		callfunc "F_EAWCBW";
+		return;
+	case 8:
+		callfunc "F_EAWCBK";
+		return;
+	case 9:
+		callfunc "F_EAWCKN";
+		return;
+	case 10:
+		callfunc "F_EAWCKT";
+		return;
+	case 11:
+		callfunc "F_EAWCMU";
+		return;
+	case 12:
+		callfunc "F_EAWCWH";
+		return;
+	case 13:
+		callfunc "F_EAWCGN";
+		return;
+	case 14:
+		callfunc "F_EAWCHU";
+		return;
+	case 15:
+		return;
+	}
+	return;
+}
+
+function	script	F_EAWD	{
+	switch(select("Swords (42):Daggers (46):Spears (26):Axes (18):Maces (21):Staves (78):Bows (25):Books (40):Knuckles (18):Katars (15):Instruments (18):Whips (18):Guns (48):Huuma (13):Back")) {
+	case 1:
+		callfunc "F_EAWDSW";
+		return;
+	case 2:
+		callfunc "F_EAWDDG";
+		return;
+	case 3:
+		callfunc "F_EAWDSP";
+		return;
+	case 4:
+		callfunc "F_EAWDAX";
+		return;
+	case 5:
+		callfunc "F_EAWDMC";
+		return;
+	case 6:
+		callfunc "F_EAWDST";
+		return;
+	case 7:
+		callfunc "F_EAWDBW";
+		return;
+	case 8:
+		callfunc "F_EAWDBK";
+		return;
+	case 9:
+		callfunc "F_EAWDKN";
+		return;
+	case 10:
+		callfunc "F_EAWDKT";
+		return;
+	case 11:
+		callfunc "F_EAWDMU";
+		return;
+	case 12:
+		callfunc "F_EAWDWH";
+		return;
+	case 13:
+		callfunc "F_EAWDGN";
+		return;
+	case 14:
+		callfunc "F_EAWDHU";
+		return;
+	case 15:
+		return;
+	}
+	return;
+}
+
+function	script	F_EAW	{
+	switch(select("Lv 100-129 (285):Lv 130-159 (155):Lv 160-199 (184):Lv 200+ (426):Back")) {
+	case 1:
+		callfunc "F_EAWA";
+		return;
+	case 2:
+		callfunc "F_EAWB";
+		return;
+	case 3:
+		callfunc "F_EAWC";
+		return;
+	case 4:
+		callfunc "F_EAWD";
+		return;
+	case 5:
+		return;
+	}
+	return;
+}
+
+function	script	F_EAHA	{
+	switch(select("Page 1 (40 items):Page 2 (40 items):Page 3 (40 items):Page 4 (40 items):Page 5 (40 items):Page 6 (35 items):Back")) {
+	case 1:
+		close2;
+		callshop "EAHA01",1;
+		end;
+	case 2:
+		close2;
+		callshop "EAHA02",1;
+		end;
+	case 3:
+		close2;
+		callshop "EAHA03",1;
+		end;
+	case 4:
+		close2;
+		callshop "EAHA04",1;
+		end;
+	case 5:
+		close2;
+		callshop "EAHA05",1;
+		end;
+	case 6:
+		close2;
+		callshop "EAHA06",1;
+		end;
+	case 7:
+		return;
+	}
+	return;
+}
+
+function	script	F_EAHB	{
+	switch(select("Page 1 (40 items):Page 2 (28 items):Back")) {
+	case 1:
+		close2;
+		callshop "EAHB01",1;
+		end;
+	case 2:
+		close2;
+		callshop "EAHB02",1;
+		end;
+	case 3:
+		return;
+	}
+	return;
+}
+
+function	script	F_EAHC	{
+	switch(select("Page 1 (40 items):Page 2 (40 items):Page 3 (33 items):Back")) {
+	case 1:
+		close2;
+		callshop "EAHC01",1;
+		end;
+	case 2:
+		close2;
+		callshop "EAHC02",1;
+		end;
+	case 3:
+		close2;
+		callshop "EAHC03",1;
+		end;
+	case 4:
+		return;
+	}
+	return;
+}
+
+function	script	F_EAHD	{
+	switch(select("Page 1 (40 items):Page 2 (40 items):Page 3 (40 items):Page 4 (24 items):Back")) {
+	case 1:
+		close2;
+		callshop "EAHD01",1;
+		end;
+	case 2:
+		close2;
+		callshop "EAHD02",1;
+		end;
+	case 3:
+		close2;
+		callshop "EAHD03",1;
+		end;
+	case 4:
+		close2;
+		callshop "EAHD04",1;
+		end;
+	case 5:
+		return;
+	}
+	return;
+}
+
+function	script	F_EAH	{
+	switch(select("Lv 100-129 (235):Lv 130-159 (68):Lv 160-199 (113):Lv 200+ (144):Back")) {
+	case 1:
+		callfunc "F_EAHA";
+		return;
+	case 2:
+		callfunc "F_EAHB";
+		return;
+	case 3:
+		callfunc "F_EAHC";
+		return;
+	case 4:
+		callfunc "F_EAHD";
+		return;
+	case 5:
+		return;
+	}
+	return;
+}
+
+function	script	F_EAAA	{
+	switch(select("Page 1 (40 items):Page 2 (40 items):Page 3 (8 items):Back")) {
+	case 1:
+		close2;
+		callshop "EAAA01",1;
+		end;
+	case 2:
+		close2;
+		callshop "EAAA02",1;
+		end;
+	case 3:
+		close2;
+		callshop "EAAA03",1;
+		end;
+	case 4:
+		return;
+	}
+	return;
+}
+
+function	script	F_EAAB	{
+	switch(select("Page 1 (40 items):Page 2 (1 items):Back")) {
+	case 1:
+		close2;
+		callshop "EAAB01",1;
+		end;
+	case 2:
+		close2;
+		callshop "EAAB02",1;
+		end;
+	case 3:
+		return;
+	}
+	return;
+}
+
+function	script	F_EAAC	{
+	close2;
+	callshop "EAAC01",1;
+	end;
+}
+
+function	script	F_EAAD	{
+	switch(select("Page 1 (40 items):Page 2 (23 items):Back")) {
+	case 1:
+		close2;
+		callshop "EAAD01",1;
+		end;
+	case 2:
+		close2;
+		callshop "EAAD02",1;
+		end;
+	case 3:
+		return;
+	}
+	return;
+}
+
+function	script	F_EAA	{
+	switch(select("Lv 100-129 (88):Lv 130-159 (41):Lv 160-199 (30):Lv 200+ (63):Back")) {
+	case 1:
+		callfunc "F_EAAA";
+		return;
+	case 2:
+		callfunc "F_EAAB";
+		return;
+	case 3:
+		callfunc "F_EAAC";
+		return;
+	case 4:
+		callfunc "F_EAAD";
+		return;
+	case 5:
+		return;
+	}
+	return;
+}
+
+function	script	F_EASA	{
+	switch(select("Page 1 (40 items):Page 2 (9 items):Back")) {
+	case 1:
+		close2;
+		callshop "EASA01",1;
+		end;
+	case 2:
+		close2;
+		callshop "EASA02",1;
+		end;
+	case 3:
+		return;
+	}
+	return;
+}
+
+function	script	F_EASB	{
+	close2;
+	callshop "EASB01",1;
+	end;
+}
+
+function	script	F_EASC	{
+	close2;
+	callshop "EASC01",1;
+	end;
+}
+
+function	script	F_EASD	{
+	close2;
+	callshop "EASD01",1;
+	end;
+}
+
+function	script	F_EAS	{
+	switch(select("Lv 100-129 (49):Lv 130-159 (7):Lv 160-199 (3):Lv 200+ (13):Back")) {
+	case 1:
+		callfunc "F_EASA";
+		return;
+	case 2:
+		callfunc "F_EASB";
+		return;
+	case 3:
+		callfunc "F_EASC";
+		return;
+	case 4:
+		callfunc "F_EASD";
+		return;
+	case 5:
+		return;
+	}
+	return;
+}
+
+function	script	F_EAGA	{
+	switch(select("Page 1 (40 items):Page 2 (40 items):Page 3 (40 items):Page 4 (7 items):Back")) {
+	case 1:
+		close2;
+		callshop "EAGA01",1;
+		end;
+	case 2:
+		close2;
+		callshop "EAGA02",1;
+		end;
+	case 3:
+		close2;
+		callshop "EAGA03",1;
+		end;
+	case 4:
+		close2;
+		callshop "EAGA04",1;
+		end;
+	case 5:
+		return;
+	}
+	return;
+}
+
+function	script	F_EAGB	{
+	close2;
+	callshop "EAGB01",1;
+	end;
+}
+
+function	script	F_EAGC	{
+	close2;
+	callshop "EAGC01",1;
+	end;
+}
+
+function	script	F_EAGD	{
+	switch(select("Page 1 (40 items):Page 2 (18 items):Back")) {
+	case 1:
+		close2;
+		callshop "EAGD01",1;
+		end;
+	case 2:
+		close2;
+		callshop "EAGD02",1;
+		end;
+	case 3:
+		return;
+	}
+	return;
+}
+
+function	script	F_EAG	{
+	switch(select("Lv 100-129 (127):Lv 130-159 (39):Lv 160-199 (19):Lv 200+ (58):Back")) {
+	case 1:
+		callfunc "F_EAGA";
+		return;
+	case 2:
+		callfunc "F_EAGB";
+		return;
+	case 3:
+		callfunc "F_EAGC";
+		return;
+	case 4:
+		callfunc "F_EAGD";
+		return;
+	case 5:
+		return;
+	}
+	return;
+}
+
+function	script	F_EAFA	{
+	switch(select("Page 1 (40 items):Page 2 (40 items):Page 3 (40 items):Back")) {
+	case 1:
+		close2;
+		callshop "EAFA01",1;
+		end;
+	case 2:
+		close2;
+		callshop "EAFA02",1;
+		end;
+	case 3:
+		close2;
+		callshop "EAFA03",1;
+		end;
+	case 4:
+		return;
+	}
+	return;
+}
+
+function	script	F_EAFB	{
+	close2;
+	callshop "EAFB01",1;
+	end;
+}
+
+function	script	F_EAFC	{
+	close2;
+	callshop "EAFC01",1;
+	end;
+}
+
+function	script	F_EAFD	{
+	switch(select("Page 1 (40 items):Page 2 (26 items):Back")) {
+	case 1:
+		close2;
+		callshop "EAFD01",1;
+		end;
+	case 2:
+		close2;
+		callshop "EAFD02",1;
+		end;
+	case 3:
+		return;
+	}
+	return;
+}
+
+function	script	F_EAF	{
+	switch(select("Lv 100-129 (120):Lv 130-159 (17):Lv 160-199 (25):Lv 200+ (66):Back")) {
+	case 1:
+		callfunc "F_EAFA";
+		return;
+	case 2:
+		callfunc "F_EAFB";
+		return;
+	case 3:
+		callfunc "F_EAFC";
+		return;
+	case 4:
+		callfunc "F_EAFD";
+		return;
+	case 5:
+		return;
+	}
+	return;
+}
+
+function	script	F_EAXA	{
+	switch(select("Page 1 (40 items):Page 2 (40 items):Page 3 (40 items):Page 4 (40 items):Page 5 (40 items):Page 6 (40 items):Page 7 (37 items):Back")) {
+	case 1:
+		close2;
+		callshop "EAXA01",1;
+		end;
+	case 2:
+		close2;
+		callshop "EAXA02",1;
+		end;
+	case 3:
+		close2;
+		callshop "EAXA03",1;
+		end;
+	case 4:
+		close2;
+		callshop "EAXA04",1;
+		end;
+	case 5:
+		close2;
+		callshop "EAXA05",1;
+		end;
+	case 6:
+		close2;
+		callshop "EAXA06",1;
+		end;
+	case 7:
+		close2;
+		callshop "EAXA07",1;
+		end;
+	case 8:
+		return;
+	}
+	return;
+}
+
+function	script	F_EAXB	{
+	switch(select("Page 1 (40 items):Page 2 (15 items):Back")) {
+	case 1:
+		close2;
+		callshop "EAXB01",1;
+		end;
+	case 2:
+		close2;
+		callshop "EAXB02",1;
+		end;
+	case 3:
+		return;
+	}
+	return;
+}
+
+function	script	F_EAXC	{
+	switch(select("Page 1 (40 items):Page 2 (40 items):Page 3 (6 items):Back")) {
+	case 1:
+		close2;
+		callshop "EAXC01",1;
+		end;
+	case 2:
+		close2;
+		callshop "EAXC02",1;
+		end;
+	case 3:
+		close2;
+		callshop "EAXC03",1;
+		end;
+	case 4:
+		return;
+	}
+	return;
+}
+
+function	script	F_EAXD	{
+	switch(select("Page 1 (40 items):Page 2 (40 items):Page 3 (37 items):Back")) {
+	case 1:
+		close2;
+		callshop "EAXD01",1;
+		end;
+	case 2:
+		close2;
+		callshop "EAXD02",1;
+		end;
+	case 3:
+		close2;
+		callshop "EAXD03",1;
+		end;
+	case 4:
+		return;
+	}
+	return;
+}
+
+function	script	F_EAX	{
+	switch(select("Lv 100-129 (277):Lv 130-159 (55):Lv 160-199 (86):Lv 200+ (117):Back")) {
+	case 1:
+		callfunc "F_EAXA";
+		return;
+	case 2:
+		callfunc "F_EAXB";
+		return;
+	case 3:
+		callfunc "F_EAXC";
+		return;
+	case 4:
+		callfunc "F_EAXD";
+		return;
+	case 5:
+		return;
+	}
+	return;
+}
