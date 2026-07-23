@@ -1,0 +1,8 @@
+Equipment Archive NPC locations
+================================
+Center line: prontera 156,227
+
+Equipment Archive : prontera 153,227
+Costume Capsule   : prontera 155,227
+Shadow Capsule    : prontera 157,227
+Pet Archive       : prontera 159,227

@@ -5,7 +5,7 @@
 //= Selected-slot draw: 300,000 Zeny.
 //============================================================
 
-prontera,174,180,4	script	Shadow Capsule#EA	731,{
+prontera,157,227,4	script	Shadow Capsule#EA	731,{
 	mes "[Shadow Capsule]";
 	mes "All-slot draw: 100,000 Zeny.";
 	mes "Selected-slot draw: 300,000 Zeny.";

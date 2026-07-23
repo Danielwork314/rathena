@@ -4,7 +4,7 @@
 //= Opens generated shops for non-monster-drop equipment.
 //============================================================
 
-prontera,170,180,4	script	Equipment Archive#EA	53,{
+prontera,153,227,4	script	Equipment Archive#EA	53,{
 	mes "[Equipment Archive]";
 	mes "Browse high-level equipment that is not listed as a direct monster drop.";
 	next;

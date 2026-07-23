@@ -1,0 +1,40 @@
+rAthena Equipment Archive NPC - Build Report
+============================================================
+Source ZIP SHA-256: 3d64a5fc3b401b25bc8d7d9ec366bc0fd2b9a43721074e81a746582d5e7ad9d7
+
+Original equipment records: 12982
+Approved filtered non-monster-drop records: 7700
+Safety-excluded records: 467
+NPC-included records: 7233
+
+Included by category:
+  Accessories: 535
+  Armor: 222
+  Costumes: 3183
+  Garments: 243
+  Headgear: 560
+  Pet Eggs: 149
+  Pet Equipment: 28
+  Shadow Gear: 963
+  Shields: 72
+  Shoes: 228
+  Weapons: 1050
+
+Excluded by reason:
+  Rental item: 11
+  Trade.NoStorage=true: 455
+  Trial item: 1
+
+Ordinary hidden shop pages: 0
+Pet hidden shop pages: 0
+Costume all-pool size: 3183
+Shadow all-pool size: 963
+
+Static checks passed:
+  - every callshop target has one hidden shop
+  - every hidden shop page contains at most 40 items
+  - every included ID exists in item_db_equip.yml
+  - no included item is listed in direct monster drops
+  - ordinary shop equipment has EquipLevelMin >= 100
+  - ordinary functional duplicates were reduced to highest slot count
+  - NoStorage/rental/trial items are excluded and audited

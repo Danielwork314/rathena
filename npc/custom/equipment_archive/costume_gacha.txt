@@ -4,7 +4,7 @@
 //= 100,000 Zeny per random costume draw.
 //============================================================
 
-prontera,172,180,4	script	Costume Capsule#EA	99,{
+prontera,155,227,4	script	Costume Capsule#EA	99,{
 	mes "[Costume Capsule]";
 	mes "Each draw costs 100,000 Zeny and awards one random costume.";
 	mes "Duplicate results are possible.";

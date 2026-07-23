@@ -2,7 +2,7 @@
 //= Pet Archive Clerk
 //============================================================
 
-prontera,176,180,4	script	Pet Archive#EA	895,{
+prontera,159,227,4	script	Pet Archive#EA	895,{
 	mes "[Pet Archive]";
 	mes "Pet eggs cost 200,000 Zeny.";
 	mes "Pet equipment costs 100,000 Zeny.";
