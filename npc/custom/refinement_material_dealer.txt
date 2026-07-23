@@ -1,0 +1,8 @@
+//===== rAthena Script =======================================
+//= Refinement Material Dealer
+//===== Description: =========================================
+//= Sells traditional and Ether-series HD / Enriched
+//= refinement materials for a play-for-fun server.
+//============================================================
+
+prontera,160,187,4	shop	Refinement Material Dealer#custom	53,7619:10000,7620:10000,6241:30000,6240:30000,6225:100000,6226:100000,1000333:50000,1000334:50000,1000335:200000,1000336:200000,1000371:800000,1000369:800000
