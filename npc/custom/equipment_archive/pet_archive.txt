@@ -4,12 +4,13 @@
 
 prontera,159,227,4	script	Pet Archive#EA	895,{
 	mes "[Pet Archive]";
+	mes "Every item is supported by this client ItemInfo.";
 	mes "Pet eggs cost 200,000 Zeny.";
 	mes "Pet equipment costs 100,000 Zeny.";
 	next;
 	switch(select("Pet eggs:Pet equipment:Close")) {
 	case 1:
-		switch(select("Page 1 (40 items):Page 2 (40 items):Page 3 (40 items):Page 4 (29 items):Back")) {
+		switch(select("Page 1 (40 items):Page 2 (40 items):Page 3 (40 items):Page 4 (10 items):Back")) {
 		case 1:
 			close2;
 			callshop "EAPEG01",1;

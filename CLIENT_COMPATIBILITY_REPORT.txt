@@ -1,0 +1,52 @@
+rAthena Equipment Archive - Client Compatibility Report
+========================================================
+Server DB ZIP SHA-256: 3d64a5fc3b401b25bc8d7d9ec366bc0fd2b9a43721074e81a746582d5e7ad9d7
+itemInfo_true.lub SHA-256: df7e1d558f6ccf2d11ebf9147ca6605579ab22137460aa9e616be6a0a2b6ac97
+itemInfo source ZIP SHA-256: c4f00b84b4649d6dc973e0ecc3f85804df7fb98cb3a486f419cf582bda1a88f9
+
+Records reconstructed from itemInfo_true.lub: 21,945
+Client records with nonblank identified name/resource: 21,929
+
+Previous NPC package items: 7,233
+Client-supported NPC items: 4,171
+Removed Unknown Item candidates: 3,062
+
+Included by category:
+  Accessories: 204
+  Armor: 104
+  Costumes: 1,532
+  Garments: 95
+  Headgear: 275
+  Pet Eggs: 130
+  Pet Equipment: 25
+  Shadow Gear: 963
+  Shields: 20
+  Shoes: 98
+  Weapons: 725
+
+Removed by category:
+  Accessories: 331
+  Armor: 118
+  Costumes: 1,651
+  Garments: 148
+  Headgear: 285
+  Pet Eggs: 19
+  Pet Equipment: 3
+  Shields: 52
+  Shoes: 130
+  Weapons: 325
+
+Ordinary equipment: 1,521
+Costume pool: 1,532
+Shadow pool: 963
+Pet eggs: 130
+Pet equipment: 25
+Hidden shop pages: 99
+
+Validation passed:
+  - every NPC item exists in the server item DB
+  - every NPC item exists in active itemInfo_true.lub
+  - every NPC item has a nonblank client display and resource name
+  - every callshop target has exactly one generated hidden shop
+  - every hidden shop page contains at most 40 items
+  - generated scripts and manifests contain the same Item IDs

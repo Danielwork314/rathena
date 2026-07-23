@@ -1,14 +1,14 @@
 //===== rAthena Script =======================================
 //= Shadow Capsule
 //===== Description: =========================================
-//= All-slot draw: 100,000 Zeny.
-//= Selected-slot draw: 300,000 Zeny.
+//= Client-compatible shadow equipment capsule.
 //============================================================
 
 prontera,157,227,4	script	Shadow Capsule#EA	731,{
 	mes "[Shadow Capsule]";
 	mes "All-slot draw: 100,000 Zeny.";
 	mes "Selected-slot draw: 300,000 Zeny.";
+	mes "Every result is supported by this client ItemInfo.";
 	mes "Duplicate results are possible.";
 	next;
 	.@choice = select("All shadow gear:Shadow weapon:Shadow shield:Shadow armor:Shadow shoes:Shadow earring:Shadow pendant:Close");

@@ -1,12 +1,12 @@
 //===== rAthena Script =======================================
 //= Equipment Archive Manager
 //===== Description: =========================================
-//= Opens generated shops for non-monster-drop equipment.
+//= Client-compatible high-level equipment archive.
 //============================================================
 
 prontera,153,227,4	script	Equipment Archive#EA	53,{
 	mes "[Equipment Archive]";
-	mes "Browse high-level equipment that is not listed as a direct monster drop.";
+	mes "Every item in these shops is supported by this client ItemInfo.";
 	next;
 	switch(select("Weapons:Headgear:Armor:Shields:Garments:Shoes:Accessories:Price information:Close")) {
 	case 1:
@@ -36,8 +36,7 @@ prontera,153,227,4	script	Equipment Archive#EA	53,{
 		mes "Lv 130-159: 500,000 Zeny";
 		mes "Lv 160-199: 1,000,000 Zeny";
 		mes "Lv 200+: 2,000,000 Zeny";
-		mes "Only the highest-slot functionally identical version is sold.";
-		mes "NoStorage, rental and trial items are excluded.";
+		mes "Unknown Item entries were removed using itemInfo_true.lub.";
 		close;
 	case 9:
 		close;
@@ -76,19 +75,9 @@ function	script	F_EAWAMC	{
 }
 
 function	script	F_EAWAST	{
-	switch(select("Page 1 (40 items):Page 2 (7 items):Back")) {
-	case 1:
-		close2;
-		callshop "EAWAST01",1;
-		end;
-	case 2:
-		close2;
-		callshop "EAWAST02",1;
-		end;
-	case 3:
-		return;
-	}
-	return;
+	close2;
+	callshop "EAWAST01",1;
+	end;
 }
 
 function	script	F_EAWABW	{
@@ -324,7 +313,7 @@ function	script	F_EAWDSW	{
 }
 
 function	script	F_EAWDDG	{
-	switch(select("Page 1 (40 items):Page 2 (6 items):Back")) {
+	switch(select("Page 1 (40 items):Page 2 (5 items):Back")) {
 	case 1:
 		close2;
 		callshop "EAWDDG01",1;
@@ -432,7 +421,7 @@ function	script	F_EAWDHU	{
 }
 
 function	script	F_EAWA	{
-	switch(select("Swords (35):Daggers (30):Spears (19):Axes (16):Maces (21):Staves (47):Bows (22):Books (17):Knuckles (9):Katars (13):Instruments (12):Whips (13):Guns (27):Huuma (4):Back")) {
+	switch(select("Swords (10):Daggers (11):Spears (3):Axes (3):Maces (8):Staves (18):Bows (6):Books (3):Knuckles (3):Katars (4):Instruments (3):Whips (3):Guns (13):Huuma (2):Back")) {
 	case 1:
 		callfunc "F_EAWASW";
 		return;
@@ -482,7 +471,7 @@ function	script	F_EAWA	{
 }
 
 function	script	F_EAWB	{
-	switch(select("Swords (16):Daggers (17):Spears (11):Axes (9):Maces (11):Staves (21):Bows (9):Books (6):Knuckles (7):Katars (8):Instruments (5):Whips (4):Guns (26):Huuma (5):Back")) {
+	switch(select("Swords (8):Daggers (5):Spears (3):Axes (2):Maces (6):Staves (10):Bows (6):Books (3):Knuckles (3):Katars (3):Instruments (1):Whips (1):Guns (11):Huuma (1):Back")) {
 	case 1:
 		callfunc "F_EAWBSW";
 		return;
@@ -532,7 +521,7 @@ function	script	F_EAWB	{
 }
 
 function	script	F_EAWC	{
-	switch(select("Swords (20):Daggers (16):Spears (11):Axes (12):Maces (15):Staves (32):Bows (19):Books (7):Knuckles (9):Katars (10):Instruments (7):Whips (7):Guns (14):Huuma (5):Back")) {
+	switch(select("Swords (17):Daggers (15):Spears (8):Axes (8):Maces (14):Staves (25):Bows (15):Books (6):Knuckles (8):Katars (8):Instruments (6):Whips (6):Guns (8):Huuma (3):Back")) {
 	case 1:
 		callfunc "F_EAWCSW";
 		return;
@@ -582,7 +571,7 @@ function	script	F_EAWC	{
 }
 
 function	script	F_EAWD	{
-	switch(select("Swords (42):Daggers (46):Spears (26):Axes (18):Maces (21):Staves (78):Bows (25):Books (40):Knuckles (18):Katars (15):Instruments (18):Whips (18):Guns (48):Huuma (13):Back")) {
+	switch(select("Swords (42):Daggers (45):Spears (26):Axes (18):Maces (21):Staves (78):Bows (25):Books (40):Knuckles (18):Katars (15):Instruments (18):Whips (18):Guns (48):Huuma (13):Back")) {
 	case 1:
 		callfunc "F_EAWDSW";
 		return;
@@ -632,7 +621,7 @@ function	script	F_EAWD	{
 }
 
 function	script	F_EAW	{
-	switch(select("Lv 100-129 (285):Lv 130-159 (155):Lv 160-199 (184):Lv 200+ (426):Back")) {
+	switch(select("Lv 100-129 (90):Lv 130-159 (63):Lv 160-199 (147):Lv 200+ (425):Back")) {
 	case 1:
 		callfunc "F_EAWA";
 		return;
@@ -652,7 +641,7 @@ function	script	F_EAW	{
 }
 
 function	script	F_EAHA	{
-	switch(select("Page 1 (40 items):Page 2 (40 items):Page 3 (40 items):Page 4 (40 items):Page 5 (40 items):Page 6 (35 items):Back")) {
+	switch(select("Page 1 (40 items):Page 2 (9 items):Back")) {
 	case 1:
 		close2;
 		callshop "EAHA01",1;
@@ -662,45 +651,19 @@ function	script	F_EAHA	{
 		callshop "EAHA02",1;
 		end;
 	case 3:
-		close2;
-		callshop "EAHA03",1;
-		end;
-	case 4:
-		close2;
-		callshop "EAHA04",1;
-		end;
-	case 5:
-		close2;
-		callshop "EAHA05",1;
-		end;
-	case 6:
-		close2;
-		callshop "EAHA06",1;
-		end;
-	case 7:
 		return;
 	}
 	return;
 }
 
 function	script	F_EAHB	{
-	switch(select("Page 1 (40 items):Page 2 (28 items):Back")) {
-	case 1:
-		close2;
-		callshop "EAHB01",1;
-		end;
-	case 2:
-		close2;
-		callshop "EAHB02",1;
-		end;
-	case 3:
-		return;
-	}
-	return;
+	close2;
+	callshop "EAHB01",1;
+	end;
 }
 
 function	script	F_EAHC	{
-	switch(select("Page 1 (40 items):Page 2 (40 items):Page 3 (33 items):Back")) {
+	switch(select("Page 1 (40 items):Page 2 (40 items):Page 3 (16 items):Back")) {
 	case 1:
 		close2;
 		callshop "EAHC01",1;
@@ -720,7 +683,7 @@ function	script	F_EAHC	{
 }
 
 function	script	F_EAHD	{
-	switch(select("Page 1 (40 items):Page 2 (40 items):Page 3 (40 items):Page 4 (24 items):Back")) {
+	switch(select("Page 1 (40 items):Page 2 (40 items):Page 3 (22 items):Back")) {
 	case 1:
 		close2;
 		callshop "EAHD01",1;
@@ -734,17 +697,13 @@ function	script	F_EAHD	{
 		callshop "EAHD03",1;
 		end;
 	case 4:
-		close2;
-		callshop "EAHD04",1;
-		end;
-	case 5:
 		return;
 	}
 	return;
 }
 
 function	script	F_EAH	{
-	switch(select("Lv 100-129 (235):Lv 130-159 (68):Lv 160-199 (113):Lv 200+ (144):Back")) {
+	switch(select("Lv 100-129 (49):Lv 130-159 (28):Lv 160-199 (96):Lv 200+ (102):Back")) {
 	case 1:
 		callfunc "F_EAHA";
 		return;
@@ -764,39 +723,15 @@ function	script	F_EAH	{
 }
 
 function	script	F_EAAA	{
-	switch(select("Page 1 (40 items):Page 2 (40 items):Page 3 (8 items):Back")) {
-	case 1:
-		close2;
-		callshop "EAAA01",1;
-		end;
-	case 2:
-		close2;
-		callshop "EAAA02",1;
-		end;
-	case 3:
-		close2;
-		callshop "EAAA03",1;
-		end;
-	case 4:
-		return;
-	}
-	return;
+	close2;
+	callshop "EAAA01",1;
+	end;
 }
 
 function	script	F_EAAB	{
-	switch(select("Page 1 (40 items):Page 2 (1 items):Back")) {
-	case 1:
-		close2;
-		callshop "EAAB01",1;
-		end;
-	case 2:
-		close2;
-		callshop "EAAB02",1;
-		end;
-	case 3:
-		return;
-	}
-	return;
+	close2;
+	callshop "EAAB01",1;
+	end;
 }
 
 function	script	F_EAAC	{
@@ -806,7 +741,7 @@ function	script	F_EAAC	{
 }
 
 function	script	F_EAAD	{
-	switch(select("Page 1 (40 items):Page 2 (23 items):Back")) {
+	switch(select("Page 1 (40 items):Page 2 (5 items):Back")) {
 	case 1:
 		close2;
 		callshop "EAAD01",1;
@@ -822,7 +757,7 @@ function	script	F_EAAD	{
 }
 
 function	script	F_EAA	{
-	switch(select("Lv 100-129 (88):Lv 130-159 (41):Lv 160-199 (30):Lv 200+ (63):Back")) {
+	switch(select("Lv 100-129 (23):Lv 130-159 (12):Lv 160-199 (24):Lv 200+ (45):Back")) {
 	case 1:
 		callfunc "F_EAAA";
 		return;
@@ -842,24 +777,8 @@ function	script	F_EAA	{
 }
 
 function	script	F_EASA	{
-	switch(select("Page 1 (40 items):Page 2 (9 items):Back")) {
-	case 1:
-		close2;
-		callshop "EASA01",1;
-		end;
-	case 2:
-		close2;
-		callshop "EASA02",1;
-		end;
-	case 3:
-		return;
-	}
-	return;
-}
-
-function	script	F_EASB	{
 	close2;
-	callshop "EASB01",1;
+	callshop "EASA01",1;
 	end;
 }
 
@@ -876,47 +795,26 @@ function	script	F_EASD	{
 }
 
 function	script	F_EAS	{
-	switch(select("Lv 100-129 (49):Lv 130-159 (7):Lv 160-199 (3):Lv 200+ (13):Back")) {
+	switch(select("Lv 100-129 (8):Lv 160-199 (1):Lv 200+ (11):Back")) {
 	case 1:
 		callfunc "F_EASA";
 		return;
 	case 2:
-		callfunc "F_EASB";
-		return;
-	case 3:
 		callfunc "F_EASC";
 		return;
-	case 4:
+	case 3:
 		callfunc "F_EASD";
 		return;
-	case 5:
+	case 4:
 		return;
 	}
 	return;
 }
 
 function	script	F_EAGA	{
-	switch(select("Page 1 (40 items):Page 2 (40 items):Page 3 (40 items):Page 4 (7 items):Back")) {
-	case 1:
-		close2;
-		callshop "EAGA01",1;
-		end;
-	case 2:
-		close2;
-		callshop "EAGA02",1;
-		end;
-	case 3:
-		close2;
-		callshop "EAGA03",1;
-		end;
-	case 4:
-		close2;
-		callshop "EAGA04",1;
-		end;
-	case 5:
-		return;
-	}
-	return;
+	close2;
+	callshop "EAGA01",1;
+	end;
 }
 
 function	script	F_EAGB	{
@@ -932,7 +830,7 @@ function	script	F_EAGC	{
 }
 
 function	script	F_EAGD	{
-	switch(select("Page 1 (40 items):Page 2 (18 items):Back")) {
+	switch(select("Page 1 (40 items):Page 2 (7 items):Back")) {
 	case 1:
 		close2;
 		callshop "EAGD01",1;
@@ -948,7 +846,7 @@ function	script	F_EAGD	{
 }
 
 function	script	F_EAG	{
-	switch(select("Lv 100-129 (127):Lv 130-159 (39):Lv 160-199 (19):Lv 200+ (58):Back")) {
+	switch(select("Lv 100-129 (28):Lv 130-159 (10):Lv 160-199 (10):Lv 200+ (47):Back")) {
 	case 1:
 		callfunc "F_EAGA";
 		return;
@@ -968,23 +866,9 @@ function	script	F_EAG	{
 }
 
 function	script	F_EAFA	{
-	switch(select("Page 1 (40 items):Page 2 (40 items):Page 3 (40 items):Back")) {
-	case 1:
-		close2;
-		callshop "EAFA01",1;
-		end;
-	case 2:
-		close2;
-		callshop "EAFA02",1;
-		end;
-	case 3:
-		close2;
-		callshop "EAFA03",1;
-		end;
-	case 4:
-		return;
-	}
-	return;
+	close2;
+	callshop "EAFA01",1;
+	end;
 }
 
 function	script	F_EAFB	{
@@ -1000,7 +884,7 @@ function	script	F_EAFC	{
 }
 
 function	script	F_EAFD	{
-	switch(select("Page 1 (40 items):Page 2 (26 items):Back")) {
+	switch(select("Page 1 (40 items):Page 2 (18 items):Back")) {
 	case 1:
 		close2;
 		callshop "EAFD01",1;
@@ -1016,7 +900,7 @@ function	script	F_EAFD	{
 }
 
 function	script	F_EAF	{
-	switch(select("Lv 100-129 (120):Lv 130-159 (17):Lv 160-199 (25):Lv 200+ (66):Back")) {
+	switch(select("Lv 100-129 (22):Lv 130-159 (6):Lv 160-199 (12):Lv 200+ (58):Back")) {
 	case 1:
 		callfunc "F_EAFA";
 		return;
@@ -1036,7 +920,7 @@ function	script	F_EAF	{
 }
 
 function	script	F_EAXA	{
-	switch(select("Page 1 (40 items):Page 2 (40 items):Page 3 (40 items):Page 4 (40 items):Page 5 (40 items):Page 6 (40 items):Page 7 (37 items):Back")) {
+	switch(select("Page 1 (40 items):Page 2 (3 items):Back")) {
 	case 1:
 		close2;
 		callshop "EAXA01",1;
@@ -1046,49 +930,19 @@ function	script	F_EAXA	{
 		callshop "EAXA02",1;
 		end;
 	case 3:
-		close2;
-		callshop "EAXA03",1;
-		end;
-	case 4:
-		close2;
-		callshop "EAXA04",1;
-		end;
-	case 5:
-		close2;
-		callshop "EAXA05",1;
-		end;
-	case 6:
-		close2;
-		callshop "EAXA06",1;
-		end;
-	case 7:
-		close2;
-		callshop "EAXA07",1;
-		end;
-	case 8:
 		return;
 	}
 	return;
 }
 
 function	script	F_EAXB	{
-	switch(select("Page 1 (40 items):Page 2 (15 items):Back")) {
-	case 1:
-		close2;
-		callshop "EAXB01",1;
-		end;
-	case 2:
-		close2;
-		callshop "EAXB02",1;
-		end;
-	case 3:
-		return;
-	}
-	return;
+	close2;
+	callshop "EAXB01",1;
+	end;
 }
 
 function	script	F_EAXC	{
-	switch(select("Page 1 (40 items):Page 2 (40 items):Page 3 (6 items):Back")) {
+	switch(select("Page 1 (40 items):Page 2 (8 items):Back")) {
 	case 1:
 		close2;
 		callshop "EAXC01",1;
@@ -1098,17 +952,13 @@ function	script	F_EAXC	{
 		callshop "EAXC02",1;
 		end;
 	case 3:
-		close2;
-		callshop "EAXC03",1;
-		end;
-	case 4:
 		return;
 	}
 	return;
 }
 
 function	script	F_EAXD	{
-	switch(select("Page 1 (40 items):Page 2 (40 items):Page 3 (37 items):Back")) {
+	switch(select("Page 1 (40 items):Page 2 (35 items):Back")) {
 	case 1:
 		close2;
 		callshop "EAXD01",1;
@@ -1118,17 +968,13 @@ function	script	F_EAXD	{
 		callshop "EAXD02",1;
 		end;
 	case 3:
-		close2;
-		callshop "EAXD03",1;
-		end;
-	case 4:
 		return;
 	}
 	return;
 }
 
 function	script	F_EAX	{
-	switch(select("Lv 100-129 (277):Lv 130-159 (55):Lv 160-199 (86):Lv 200+ (117):Back")) {
+	switch(select("Lv 100-129 (43):Lv 130-159 (38):Lv 160-199 (48):Lv 200+ (75):Back")) {
 	case 1:
 		callfunc "F_EAXA";
 		return;
