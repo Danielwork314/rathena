@@ -4,7 +4,6 @@
 
 prontera,159,227,4	script	Pet Archive#EA	895,{
 	mes "[Pet Archive]";
-	mes "Every item is supported by this client ItemInfo.";
 	mes "Pet eggs cost 200,000 Zeny.";
 	mes "Pet equipment costs 100,000 Zeny.";
 	next;

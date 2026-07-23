@@ -1,12 +1,12 @@
 //===== rAthena Script =======================================
 //= Equipment Archive Manager
 //===== Description: =========================================
-//= Client-compatible high-level equipment archive.
+//= Uses the active SystemEN ItemInfo compatibility list.
 //============================================================
 
 prontera,153,227,4	script	Equipment Archive#EA	53,{
 	mes "[Equipment Archive]";
-	mes "Every item in these shops is supported by this client ItemInfo.";
+	mes "All shop items are present in the active English ItemInfo.";
 	next;
 	switch(select("Weapons:Headgear:Armor:Shields:Garments:Shoes:Accessories:Price information:Close")) {
 	case 1:
@@ -36,7 +36,7 @@ prontera,153,227,4	script	Equipment Archive#EA	53,{
 		mes "Lv 130-159: 500,000 Zeny";
 		mes "Lv 160-199: 1,000,000 Zeny";
 		mes "Lv 200+: 2,000,000 Zeny";
-		mes "Unknown Item entries were removed using itemInfo_true.lub.";
+		mes "Items missing from the active ItemInfo were removed.";
 		close;
 	case 9:
 		close;
@@ -297,7 +297,7 @@ function	script	F_EAWCHU	{
 }
 
 function	script	F_EAWDSW	{
-	switch(select("Page 1 (40 items):Page 2 (2 items):Back")) {
+	switch(select("Page 1 (40 items):Page 2 (1 items):Back")) {
 	case 1:
 		close2;
 		callshop "EAWDSW01",1;
@@ -313,7 +313,7 @@ function	script	F_EAWDSW	{
 }
 
 function	script	F_EAWDDG	{
-	switch(select("Page 1 (40 items):Page 2 (5 items):Back")) {
+	switch(select("Page 1 (40 items):Page 2 (4 items):Back")) {
 	case 1:
 		close2;
 		callshop "EAWDDG01",1;
@@ -347,7 +347,7 @@ function	script	F_EAWDMC	{
 }
 
 function	script	F_EAWDST	{
-	switch(select("Page 1 (40 items):Page 2 (38 items):Back")) {
+	switch(select("Page 1 (40 items):Page 2 (36 items):Back")) {
 	case 1:
 		close2;
 		callshop "EAWDST01",1;
@@ -571,7 +571,7 @@ function	script	F_EAWC	{
 }
 
 function	script	F_EAWD	{
-	switch(select("Swords (42):Daggers (45):Spears (26):Axes (18):Maces (21):Staves (78):Bows (25):Books (40):Knuckles (18):Katars (15):Instruments (18):Whips (18):Guns (48):Huuma (13):Back")) {
+	switch(select("Swords (41):Daggers (44):Spears (25):Axes (17):Maces (19):Staves (76):Bows (24):Books (38):Knuckles (17):Katars (14):Instruments (17):Whips (17):Guns (48):Huuma (13):Back")) {
 	case 1:
 		callfunc "F_EAWDSW";
 		return;
@@ -621,7 +621,7 @@ function	script	F_EAWD	{
 }
 
 function	script	F_EAW	{
-	switch(select("Lv 100-129 (90):Lv 130-159 (63):Lv 160-199 (147):Lv 200+ (425):Back")) {
+	switch(select("Lv 100-129 (90):Lv 130-159 (63):Lv 160-199 (147):Lv 200+ (410):Back")) {
 	case 1:
 		callfunc "F_EAWA";
 		return;
@@ -683,7 +683,7 @@ function	script	F_EAHC	{
 }
 
 function	script	F_EAHD	{
-	switch(select("Page 1 (40 items):Page 2 (40 items):Page 3 (22 items):Back")) {
+	switch(select("Page 1 (40 items):Page 2 (40 items):Page 3 (10 items):Back")) {
 	case 1:
 		close2;
 		callshop "EAHD01",1;
@@ -703,7 +703,7 @@ function	script	F_EAHD	{
 }
 
 function	script	F_EAH	{
-	switch(select("Lv 100-129 (49):Lv 130-159 (28):Lv 160-199 (96):Lv 200+ (102):Back")) {
+	switch(select("Lv 100-129 (49):Lv 130-159 (28):Lv 160-199 (96):Lv 200+ (90):Back")) {
 	case 1:
 		callfunc "F_EAHA";
 		return;
@@ -830,7 +830,7 @@ function	script	F_EAGC	{
 }
 
 function	script	F_EAGD	{
-	switch(select("Page 1 (40 items):Page 2 (7 items):Back")) {
+	switch(select("Page 1 (40 items):Page 2 (1 items):Back")) {
 	case 1:
 		close2;
 		callshop "EAGD01",1;
@@ -846,7 +846,7 @@ function	script	F_EAGD	{
 }
 
 function	script	F_EAG	{
-	switch(select("Lv 100-129 (28):Lv 130-159 (10):Lv 160-199 (10):Lv 200+ (47):Back")) {
+	switch(select("Lv 100-129 (28):Lv 130-159 (10):Lv 160-199 (10):Lv 200+ (41):Back")) {
 	case 1:
 		callfunc "F_EAGA";
 		return;
