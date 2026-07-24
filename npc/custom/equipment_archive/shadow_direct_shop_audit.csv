@@ -1,0 +1,964 @@
+Tier,Job Family,Slot,Item ID,AegisName,Display Name,Database Type,Direct Price,Validation
+General,General shadows,Shadow Weapon,24001,T_Dex1_Weapon_S,Shadow Gauntlets (Tier 1),Shadowgear,300000,PASS
+General,General shadows,Shadow Weapon,24007,T_Dex2_Weapon_S,Shadow Gauntlets (Tier 2),Shadowgear,300000,PASS
+General,General shadows,Shadow Weapon,24012,S_Promotion_Weapon,Shadow Weapon,Shadowgear,300000,PASS
+General,General shadows,Shadow Weapon,24019,S_Physical_Weapon,Physical Weapon (Shadow),Shadowgear,300000,PASS
+General,General shadows,Shadow Weapon,24022,S_Magical_Weapon,Magical Weapon (Shadow),Shadowgear,300000,PASS
+General,General shadows,Shadow Weapon,24031,S_Kingbird_Weapon,Kingbird's Shadow Weapon,Shadowgear,300000,PASS
+General,General shadows,Shadow Weapon,24032,S_Cri_Hit_Weapon,Critical Hit Shadow Weapon,Shadowgear,300000,PASS
+General,General shadows,Shadow Weapon,24033,S_Healing_Weapon,Healing Shadow Weapon,Shadowgear,300000,PASS
+General,General shadows,Shadow Weapon,24034,S_Lucky_Weapon,Lucky Shadow Weapon,Shadowgear,300000,PASS
+General,General shadows,Shadow Weapon,24043,S_Dexterous_Weapon,Dexterous Shadow Weapon,Shadowgear,300000,PASS
+General,General shadows,Shadow Weapon,24075,S_Big_Weapon,Large Shadow Weapon,Shadowgear,300000,PASS
+General,General shadows,Shadow Weapon,24076,S_Medium_Weapon,Medium Shadow Weapon,Shadowgear,300000,PASS
+General,General shadows,Shadow Weapon,24077,S_Small_Weapon,Small Shadow Weapon,Shadowgear,300000,PASS
+General,General shadows,Shadow Weapon,24078,S_Spiritual_Weapon,Spiritual Shadow Weapon,Shadowgear,300000,PASS
+General,General shadows,Shadow Weapon,24087,S_Gemstone_Weapon,Gemstone Shadow Weapon,Shadowgear,300000,PASS
+General,General shadows,Shadow Weapon,24099,Unfreez_Weapon_S,Unfreezing Shadow Weapon,Shadowgear,300000,PASS
+General,General shadows,Shadow Weapon,24104,S_Neutral_Weapon,Neutral Shadow Weapon,Shadowgear,300000,PASS
+General,General shadows,Shadow Weapon,24110,S_Caster_Weapon,Caster Shadow Weapon,Shadowgear,300000,PASS
+General,General shadows,Shadow Weapon,24117,S_Greed_Weapon,Grid Shadow Weapon,Shadowgear,300000,PASS
+General,General shadows,Shadow Weapon,24123,S_Heal_Weapon,Heal Shadow Weapon,Shadowgear,300000,PASS
+General,General shadows,Shadow Weapon,24129,S_Hiding_Weapon,Hiding Shadow Weapon,Shadowgear,300000,PASS
+General,General shadows,Shadow Weapon,24135,S_Cloaking_Weapon,Cloaking Shadow Weapon,Shadowgear,300000,PASS
+General,General shadows,Shadow Weapon,24141,S_Teleport_Weapon,Teleport Shadow Weapon,Shadowgear,300000,PASS
+General,General shadows,Shadow Weapon,24147,S_Steal_Weapon,Steal Shadow Weapon,Shadowgear,300000,PASS
+General,General shadows,Shadow Weapon,24152,S_Solid_Weapon,Solid Shadow Weapon,Shadowgear,300000,PASS
+General,General shadows,Shadow Weapon,24156,S_Executioner_Weapon,Demi-Human Shadow Weapon,Shadowgear,300000,PASS
+General,General shadows,Shadow Weapon,24157,S_Exorcist_Weapon,Exorcist Shadow Weapon,Shadowgear,300000,PASS
+General,General shadows,Shadow Weapon,24158,S_Hunting_Weapon,Hunting Shadow Weapon,Shadowgear,300000,PASS
+General,General shadows,Shadow Weapon,24159,S_Insect_Net_Weapon,Insect Shadow Weapon,Shadowgear,300000,PASS
+General,General shadows,Shadow Weapon,24160,S_Fishing_Weapon,Fishing Shadow Weapon,Shadowgear,300000,PASS
+General,General shadows,Shadow Weapon,24161,S_Dragon_Killer_Weapon,Dragon Killer Shadow Weapon,Shadowgear,300000,PASS
+General,General shadows,Shadow Weapon,24162,S_Corrupt_Weapon,Angelus Shadow Weapon,Shadowgear,300000,PASS
+General,General shadows,Shadow Weapon,24163,S_Vibration_Weapon,Formless Shadow Weapon,Shadowgear,300000,PASS
+General,General shadows,Shadow Weapon,24164,S_Holy_Water_Weapon,Holy Water Shadow Weapon,Shadowgear,300000,PASS
+General,General shadows,Shadow Weapon,24165,S_Scissors_Weapon,Plant Shadow Weapon,Shadowgear,300000,PASS
+General,General shadows,Shadow Weapon,24170,S_M_Executioner_Weapon,Magic Demi-Human Shadow Weapon,Shadowgear,300000,PASS
+General,General shadows,Shadow Weapon,24171,S_M_Exorcist_Weapon,Magic Exorcist Shadow Weapon,Shadowgear,300000,PASS
+General,General shadows,Shadow Weapon,24172,S_M_Hunting_Weapon,Magic Hunting Shadow Weapon,Shadowgear,300000,PASS
+General,General shadows,Shadow Weapon,24173,S_M_Insect_Net_Weapon,Magic Insect Shadow Weapon,Shadowgear,300000,PASS
+General,General shadows,Shadow Weapon,24174,S_M_Fishing_Weapon,Magic Fishing Shadow Weapon,Shadowgear,300000,PASS
+General,General shadows,Shadow Weapon,24175,S_M_Dragon_K_Weapon,Magic Dragon Killer Shadow Weapon,Shadowgear,300000,PASS
+General,General shadows,Shadow Weapon,24176,S_M_Corrupt_Weapon,Magic Angelus Shadow Weapon,Shadowgear,300000,PASS
+General,General shadows,Shadow Weapon,24177,S_M_Vibration_Weapon,Magic Formless Shadow Weapon,Shadowgear,300000,PASS
+General,General shadows,Shadow Weapon,24178,S_M_Holy_Water_Weapon,Magic Holy Water Shadow Weapon,Shadowgear,300000,PASS
+General,General shadows,Shadow Weapon,24179,S_M_Scissors_Weapon,Magic Caesars Shadow Weapon,Shadowgear,300000,PASS
+General,General shadows,Shadow Weapon,24183,S_Bearers_Weapon,Bearer's Shadow Weapon,Shadowgear,300000,PASS
+General,General shadows,Shadow Weapon,24223,S_Enhance_Force_Weapon,Enhanced Force Shadow Weapon,Shadowgear,300000,PASS
+General,General shadows,Shadow Weapon,24224,S_Force_Weapon,Force Shadow Weapon,Shadowgear,300000,PASS
+General,General shadows,Shadow Weapon,24227,S_Enhance_Spirit_Weapon,Enhanced Soul Shadow Weapon,Shadowgear,300000,PASS
+General,General shadows,Shadow Weapon,24228,S_Spirit_Weapon,Soul Shadow Weapon,Shadowgear,300000,PASS
+General,General shadows,Shadow Weapon,24233,S_Exceed_Weapon,Exceeding Shadow Weapon,Shadowgear,300000,PASS
+General,General shadows,Shadow Weapon,24324,S2_Spiritual_Weapon,Spiritual Shadow Weapon II,Shadowgear,300000,PASS
+General,General shadows,Shadow Weapon,24328,S2_Force_Ex_Weapon,Force Executioner Shadow Weapon,Shadowgear,300000,PASS
+General,General shadows,Shadow Weapon,24329,S2_Spirit_M_E_Weapon,Spirit Magic Executioner Shadow Weapon,Shadowgear,300000,PASS
+General,General shadows,Shadow Weapon,24335,S2_Gemstone_Weapon,Gemstone Shadow Weapon II,Shadowgear,300000,PASS
+General,General shadows,Shadow Weapon,24343,S_Blitz_Weapon,Blitz Shadow Weapon,Shadowgear,300000,PASS
+General,General shadows,Shadow Weapon,24356,Unfreez_Weapon_S2,Unfreezing Shadow Weapon II,Shadowgear,300000,PASS
+General,General shadows,Shadow Weapon,24358,S2_Neutral_Weapon,Neutral Shadow Weapon II,Shadowgear,300000,PASS
+General,General shadows,Shadow Weapon,24360,S_Tension_Weapon,Tension Shadow Weapon,Shadowgear,300000,PASS
+General,General shadows,Shadow Weapon,24363,S_Elegant_Weapon,Elegant Shadow Weapon,Shadowgear,300000,PASS
+General,General shadows,Shadow Weapon,24370,S_MortalBlow_Weapon,Mortal Blow Shadow Weapon,Shadowgear,300000,PASS
+General,General shadows,Shadow Weapon,24380,Sentimental_Weapone_S,Sentimental Shadow Weapon,Shadowgear,300000,PASS
+General,General shadows,Shadow Weapon,24383,Enchanting_Weapone_S,Enchanting Shadow Weapon,Shadowgear,300000,PASS
+General,General shadows,Shadow Weapon,24386,S_Infinity_Weapon,Infinity Shadow Weapon,Shadowgear,300000,PASS
+General,General shadows,Shadow Weapon,24423,S_Tempest_Weapon,Tempest Shadow Weapon,Shadowgear,300000,PASS
+General,General shadows,Shadow Weapon,24425,S_PerfectSize_Weapon,Perfect Size Shadow Weapon,Shadowgear,300000,PASS
+General,General shadows,Shadow Weapon,24427,S_M_Exo_Co_Weapon,Magic Exorcist Current Shadow Weapon,Shadowgear,300000,PASS
+General,General shadows,Shadow Weapon,24428,S_M_Viv_Dr_Weapon,Magic Vibration Dragon Killer Shadow Weapon,Shadowgear,300000,PASS
+General,General shadows,Shadow Weapon,24429,S_M_Sci_Hu_Weapon,Magic Caesars Hunting Shadow Weapon,Shadowgear,300000,PASS
+General,General shadows,Shadow Weapon,24430,S_M_Fis_In_Weapon,Magic Fishing Insect Shadow Weapon,Shadowgear,300000,PASS
+General,General shadows,Shadow Weapon,24431,S_M_Exe_Ho_Weapon,Magic Executioner Holy Water Shadow Weapon,Shadowgear,300000,PASS
+General,General shadows,Shadow Weapon,24432,S_Penetration_Weapon,Penetration Shadow Weapon,Shadowgear,300000,PASS
+General,General shadows,Shadow Weapon,24434,S_Exe_Ho_Weapon,Executioner Holy Water Shadow Weapon,Shadowgear,300000,PASS
+General,General shadows,Shadow Weapon,24435,S_Fis_In_Weapon,Fishing Insect Shadow Weapon,Shadowgear,300000,PASS
+General,General shadows,Shadow Weapon,24436,S_Sci_Hu_Weapon,Scissors Hunting Shadow Weapon,Shadowgear,300000,PASS
+General,General shadows,Shadow Weapon,24437,S_Viv_Dr_Weapon,Vibration Dragon Killer Shadow Weapon,Shadowgear,300000,PASS
+General,General shadows,Shadow Weapon,24438,S_Exo_Co_Weapon,Exorcist Corrupt Shadow Weapon,Shadowgear,300000,PASS
+General,General shadows,Shadow Weapon,24439,S_Hasty_Weapon,Hasty Shadow Weapon,Shadowgear,300000,PASS
+General,General shadows,Shadow Weapon,24673,S_Mammoth_Weapon,Mammoth Shadow Weapon,ShadowGear,300000,PASS
+General,General shadows,Shadow Weapon,24686,S_Absorb_Weapon,Absorb Shadow Weapon,ShadowGear,300000,PASS
+General,General shadows,Shadow Weapon,24725,S_AutoSpell_Weapon,Auto Spell Shadow Weapon,ShadowGear,300000,PASS
+General,General shadows,Shadow Weapon,24734,S_Durable_Weapon,Durable Weapon Shadow,ShadowGear,300000,PASS
+General,General shadows,Shadow Weapon,24736,S_Clever_Weapon,Clever Weapon Shadow,ShadowGear,300000,PASS
+General,General shadows,Shadow Weapon,24738,S_CriticalHit_Weapon,Critical Hit Weapon Shadow,ShadowGear,300000,PASS
+General,General shadows,Shadow Weapon,24745,S_KingbirdAnc_Weapon,Kingbird Ancient Shadow Weapon,ShadowGear,300000,PASS
+General,General shadows,Shadow Weapon,24751,S_P_Power_Weapon,Physical Power Shadow Weapon,ShadowGear,300000,PASS
+General,General shadows,Shadow Weapon,24753,S_M_Spell_Weapon,Magical Spell Shadow Weapon,ShadowGear,300000,PASS
+General,General shadows,Shadow Weapon,24755,S_Concentration_Weapon,Concentration Shadow Weapon,ShadowGear,300000,PASS
+General,General shadows,Shadow Weapon,24757,S_Wisdom_Weapon,Wisdom Shadow Weapon,ShadowGear,300000,PASS
+General,General shadows,Shadow Weapon,24759,S_Stamina_Weapon,Stamina Shadow Weapon,ShadowGear,300000,PASS
+General,General shadows,Shadow Weapon,24761,S_Creative_Weapon,Creative Shadow Weapon,ShadowGear,300000,PASS
+General,General shadows,Shadow Weapon,24768,S_Mega_Blitz_Weapon,Mega Blitz Shadow Weapon,ShadowGear,300000,PASS
+General,General shadows,Shadow Weapon,24770,S_EXP_Weapon,Experience Shadow Weapon,ShadowGear,300000,PASS
+General,General shadows,Shadow Weapon,24779,1LvWeaponS,1Lv Shadow Weapon,ShadowGear,300000,PASS
+General,General shadows,Shadow Weapon,24792,S_Master_Weapon,Master Shadow Weapon,ShadowGear,300000,PASS
+General,General shadows,Shadow Shield,24002,T_Luk1_Shield_S,Shadow Shield (Tier 1),Shadowgear,300000,PASS
+General,General shadows,Shadow Shield,24008,T_Luk2_Shield_S,Shadow Shield (Tier 2),Shadowgear,300000,PASS
+General,General shadows,Shadow Shield,24015,S_Promotion_Shield,Shadow Shield,Shadowgear,300000,PASS
+General,General shadows,Shadow Shield,24026,S_Athena_Shield,Athena Shield (Shadow),Shadowgear,300000,PASS
+General,General shadows,Shadow Shield,24039,S_Athletic_Shield,Athletic Shadow Shield,Shadowgear,300000,PASS
+General,General shadows,Shadow Shield,24044,S_Vital_Shield,Vital Shadow Shield,Shadowgear,300000,PASS
+General,General shadows,Shadow Shield,24052,S_Cranial_Shield,Cranial Shield (Shadow),Shadowgear,300000,PASS
+General,General shadows,Shadow Shield,24053,S_Safeguard_Shield,Safeguard Shield (Shadow),Shadowgear,300000,PASS
+General,General shadows,Shadow Shield,24054,S_Brutal_Shield,Brutal Shield (Shadow),Shadowgear,300000,PASS
+General,General shadows,Shadow Shield,24055,S_Gargantua_Shield,Gargantua Shield (Shadow),Shadowgear,300000,PASS
+General,General shadows,Shadow Shield,24056,S_Homers_Shield,Homers Shield (Shadow),Shadowgear,300000,PASS
+General,General shadows,Shadow Shield,24057,S_Dragoon_Shield,Dragoon Shield (Shadow),Shadowgear,300000,PASS
+General,General shadows,Shadow Shield,24058,S_Satanic_Shield,Satanic Shield (Shadow),Shadowgear,300000,PASS
+General,General shadows,Shadow Shield,24059,S_Flameguard_Shield,Flameguard Shield (Shadow),Shadowgear,300000,PASS
+General,General shadows,Shadow Shield,24060,S_Requiem_Shield,Requiem Shield (Shadow),Shadowgear,300000,PASS
+General,General shadows,Shadow Shield,24061,S_Cadi_Shield,Cadi Shield (Shadow),Shadowgear,300000,PASS
+General,General shadows,Shadow Shield,24083,S_Malicious_Shield,Malicious Shas Shadow Shield,Shadowgear,300000,PASS
+General,General shadows,Shadow Shield,24086,S_Gemstone_Shield,Gemstone Shadow Shield,Shadowgear,300000,PASS
+General,General shadows,Shadow Shield,24090,S_Stability_Shield,Stability Shadow Shield,Shadowgear,300000,PASS
+General,General shadows,Shadow Shield,24113,S_Spell_Flow_Shield,Spellflow Shadow Shield,Shadowgear,300000,PASS
+General,General shadows,Shadow Shield,24116,S_Greed_Shield,Grid Shadow Shield,Shadowgear,300000,PASS
+General,General shadows,Shadow Shield,24122,S_Heal_Shield,Heal Shadow Shield,Shadowgear,300000,PASS
+General,General shadows,Shadow Shield,24128,S_Hiding_Shield,Hiding Shadow Shield,Shadowgear,300000,PASS
+General,General shadows,Shadow Shield,24134,S_Cloaking_Shield,Cloaking Shadow Shield,Shadowgear,300000,PASS
+General,General shadows,Shadow Shield,24140,S_Teleport_Shield,Teleport Shadow Shield,Shadowgear,300000,PASS
+General,General shadows,Shadow Shield,24146,S_Steal_Shield,Steal Shadow Shield,Shadowgear,300000,PASS
+General,General shadows,Shadow Shield,24182,S_Bearers_Shield,Bearer's Shadow Shield,Shadowgear,300000,PASS
+General,General shadows,Shadow Shield,24198,S_Basis_Shield,Basis Shadow Shield,Shadowgear,300000,PASS
+General,General shadows,Shadow Shield,24199,S_Hallowed_Shield,Hallowed Shadow Shield,Shadowgear,300000,PASS
+General,General shadows,Shadow Shield,24200,S_Saharic_Shield,Saharic Shadow Shield,Shadowgear,300000,PASS
+General,General shadows,Shadow Shield,24201,S_Underneath_Shield,Underneath Shadow Shield,Shadowgear,300000,PASS
+General,General shadows,Shadow Shield,24202,S_Flam_Shield,Flame Shadow Shield,Shadowgear,300000,PASS
+General,General shadows,Shadow Shield,24203,S_Windy_Shield,Windy Shadow Shield,Shadowgear,300000,PASS
+General,General shadows,Shadow Shield,24204,S_Envenom_Shield,Envenom Shadow Shield,Shadowgear,300000,PASS
+General,General shadows,Shadow Shield,24205,S_Damned_Shield,Damned Shadow Shield,Shadowgear,300000,PASS
+General,General shadows,Shadow Shield,24206,S_Geist_Shield,Exorcism Shadow Shield,Shadowgear,300000,PASS
+General,General shadows,Shadow Shield,24207,S_Divine_Shield,Divine Shadow Shield,Shadowgear,300000,PASS
+General,General shadows,Shadow Shield,24209,S_Expert_Shield,Expert Shadow Shield,Shadowgear,300000,PASS
+General,General shadows,Shadow Shield,24211,S_Beginner_Shield,Beginner Shadow Shield,Shadowgear,300000,PASS
+General,General shadows,Shadow Shield,24213,S_Rookie_Shield,Rookie Shadow Shield,Shadowgear,300000,PASS
+General,General shadows,Shadow Shield,24215,S_Advanced_Shield,Advanced Shadow Shield,Shadowgear,300000,PASS
+General,General shadows,Shadow Shield,24232,S_Blitz_Shield,Blitz Shadow Shield,Shadowgear,300000,PASS
+General,General shadows,Shadow Shield,24241,S_Caster_Shield,Caster Shadow Shield,Shadowgear,300000,PASS
+General,General shadows,Shadow Shield,24244,S_Reload_Shield,Reload Shadow Shield,Shadowgear,300000,PASS
+General,General shadows,Shadow Shield,24323,S2_Spell_Flow_Shield,Spellflow Shadow Shield II,Shadowgear,300000,PASS
+General,General shadows,Shadow Shield,24327,S_Sigrun_Shield,Sigrun Shadow Shield,Shadowgear,300000,PASS
+General,General shadows,Shadow Shield,24332,S_Critical_Shield,Critical Shadow Shield,Shadowgear,300000,PASS
+General,General shadows,Shadow Shield,24336,S2_Gemstone_Shield,Gemstone Shadow Shield II,Shadowgear,300000,PASS
+General,General shadows,Shadow Shield,24342,S_AllRace_Shield,All Race Shadow Shield,Shadowgear,300000,PASS
+General,General shadows,Shadow Shield,24345,S_Tempest_Shield,Tempest Shadow Shield,Shadowgear,300000,PASS
+General,General shadows,Shadow Shield,24366,S_Healing_Shield,Healing Shadow Shield,Shadowgear,300000,PASS
+General,General shadows,Shadow Shield,24374,S_Penetration_Shield,Penetration Shadow Shield,Shadowgear,300000,PASS
+General,General shadows,Shadow Shield,24394,S_Physical_Shield,Physical Shadow Shield,Shadowgear,300000,PASS
+General,General shadows,Shadow Shield,24397,S_Magical_Shield,Magical Shadow Shield,Shadowgear,300000,PASS
+General,General shadows,Shadow Shield,24399,S_ImmunedAthena_Shield,Immune Athena Shadow Shield,Shadowgear,300000,PASS
+General,General shadows,Shadow Shield,24674,S_Mammoth_Shield,Mammoth Shadow Shield,ShadowGear,300000,PASS
+General,General shadows,Shadow Shield,24683,S_EXP_Shield,Experience Shadow Shield,ShadowGear,300000,PASS
+General,General shadows,Shadow Shield,24685,S_Absorb_Shield,Absorb Shadow Shield,ShadowGear,300000,PASS
+General,General shadows,Shadow Shield,24722,S_AutoSpell_Shield,Auto Spell Shadow Shield,ShadowGear,300000,PASS
+General,General shadows,Shadow Shield,24732,S_Hasty_Shield,Hasty Shadow Shield,ShadowGear,300000,PASS
+General,General shadows,Shadow Shield,24733,S_Infinity_Shield,Infinity Shadow Shield,ShadowGear,300000,PASS
+General,General shadows,Shadow Shield,24735,S_Durable_Shield,Durable Shield Shadow,ShadowGear,300000,PASS
+General,General shadows,Shadow Shield,24737,S_Clever_Shield,Clever Shield Shadow,ShadowGear,300000,PASS
+General,General shadows,Shadow Shield,24746,S_S_Reload_Shield,Separate Reload Shadow Shield,ShadowGear,300000,PASS
+General,General shadows,Shadow Shield,24752,S_P_Power_Shield,Physical Power Shadow Shield,ShadowGear,300000,PASS
+General,General shadows,Shadow Shield,24754,S_M_Spell_Shield,Magical Spell Shadow Shield,ShadowGear,300000,PASS
+General,General shadows,Shadow Shield,24756,S_Concentration_Shield,Concentration Shadow Shield,ShadowGear,300000,PASS
+General,General shadows,Shadow Shield,24758,S_Wisdom_Shield,Wisdom Shadow Shield,ShadowGear,300000,PASS
+General,General shadows,Shadow Shield,24760,S_Stamina_Shield,Stamina Shadow Shield,ShadowGear,300000,PASS
+General,General shadows,Shadow Shield,24762,S_Creative_Shield,Creative Shadow Shield,ShadowGear,300000,PASS
+General,General shadows,Shadow Shield,24767,S_Mega_Blitz_Shield,Mega Blitz Shadow Shield,ShadowGear,300000,PASS
+General,General shadows,Shadow Shield,24780,1LvShieldS,1Lv Shadow Shield,ShadowGear,300000,PASS
+General,General shadows,Shadow Shield,24793,S_Master_Shield,Master Shadow Shield,ShadowGear,300000,PASS
+General,General shadows,Shadow Armor,15280,S_CriticalHit_Armor,Critical Hit Shadow Armor,Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24000,T_Str1_Armor_S,Shadow Armor (Tier 1),Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24006,T_Str2_Armor_S,Shadow Armor (Tier 2),Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24013,S_Promotion_Armor,Shadow Armor,Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24024,S_Breezy_Armor,Breeze Armor (Shadow),Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24027,S_Immune_Armor,Immune Shadow Armor,Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24028,S_Hard_Armor,Hard Shadow Armor,Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24029,S_Ancient_Armor,Ancient Shadow Armor,Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24030,S_Critical_Armor,Critital Shadow Armor,Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24037,S_Dexterous_Armor,Dexterous Shadow Armor,Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24040,S_Lucky_Armor,Lucky Shadow Armor,Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24072,S_Big_Armor,Large Shadow Armor,Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24073,S_Medium_Armor,Medium Shadow Armor,Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24074,S_Small_Armor,Small Shadow Armor,Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24081,S_Malicious_Armor,Malicious Shas Shadow Armor,Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24084,S_Gemstone_Armor,Gemstone Shadow Armor,Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24091,S_Plasterer's_Armor,Harrods Plaster Shadow Armor,Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24093,S_Insomniac_Armor,Insomnia Shadow Armor,Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24095,S_Peerless_Armor,Peerless Shadow Armor,Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24097,S_Adurate_Armor,Andre Shadow Armor,Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24112,S_Spell_Flow_Armor,Spellflow Shadow Armor,Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24114,S_Greed_Armor,Grid Shadow Armor,Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24120,S_Heal_Armor,Heal Shadow Armor,Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24126,S_Hiding_Armor,Hiding Shadow Armor,Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24132,S_Cloaking_Armor,Cloaking Shadow Armor,Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24138,S_Teleport_Armor,Teleport Shadow Armor,Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24144,S_Steal_Armor,Steal Shadow Armor,Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24154,S_Immortal_Armor,Solid Shadow Armor,Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24180,S_Bearers_Armor,Bearer's Shadow Armor,Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24186,S_Basis_Armor,Basis Shadow Armor,Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24187,S_Hallowed_Armor,Hallowed Shadow Armor,Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24188,S_Saharic_Armor,Underneith Shadow Armor,Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24189,S_Underneath_Armor,Underneath Shadow Armor,Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24190,S_Flam_Armor,Flame Shadow Armor,Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24191,S_Windy_Armor,Windy Shadow Armor,Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24192,S_Envenom_Armor,Envenom Shadow Armor,Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24193,S_Damned_Armor,Damned Shadow Armor,Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24194,S_Geist_Armor,Exorcism Shadow Armor,Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24195,S_Divine_Armor,Divine Shadow Armor,Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24197,S_Hasty_Armor,Hasty Shadow Armor,Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24216,S_Attack_Armor,Attack Shadow Armor,Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24219,S_ColdBolt_Armor,Cold Bolt Shadow Armor,Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24220,S_FireBolt_Armor,Fire Bolt Shadow Armor,Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24221,S_LightingBolt_Armor,Lightning Bolt Shadow Armor,Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24222,S_EarthSpike_Armor,Earth Spike Shadow Armor,Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24242,S_Caster_Armor,Caster Shadow Armor,Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24245,S_Reload_Armor,Reload Shadow Armor,Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24269,S_Knight_Armor,Knight Shadow Armor,Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24270,S_Crusader_Armor,Crusader Shadow Armor,Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24271,S_Blacksmith_Armor,Blacksmith Shadow Armor,Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24272,S_Alchemist_Armor,Alchemist Shadow Armor,Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24273,S_Priest_Armor,Priest Shadow Armor,Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24274,S_Monk_Armor,Monk Shadow Armor,Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24275,S_Assassin_Armor,Assassin Shadow Armor,Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24276,S_Rogue_Armor,Rogue Shadow Armor,Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24277,S_Wizard_Armor,Wizard Shadow Armor,Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24278,S_Sage_Armor,Sage Shadow Armor,Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24279,S_Hunter_Armor,Hunter Shadow Armor,Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24280,S_Bard_Armor,Bard Shadow Armor,Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24281,S_Dancer_Armor,Dancer Shadow Armor,Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24325,S2_Malicious_Armor,Malicious Shadow Armor II,Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24326,S_Sigrun_Armor,Sigrun Shadow Armor,Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24330,S2_Caster_Armor,Caster Shadow Armor II,Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24331,S2_Reload_Armor,Reload Shadow Armor II,Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24334,S_MagicCompose_Armor,Magic Compose Shadow Armor,Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24337,S2_Bearers_Armor,Bearer's Shadow Armor II,Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24344,S_Blitz_Armor,Blitz Shadow Armor,Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24347,S_M_ExeHoly_Armor,Magic Executioner Holy Water Shadow Armor,Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24348,S_M_ExoCorrupt_Armor,Magic Exorcist Corrupted Shadow Armor,Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24349,S_M_DragonVib_Armor,Magic Vibration Dragon Killer Shadow Armor,Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24350,S_M_SciHunting_Armor,Magic Scissor Hunting Shadow Armor,Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24351,S_M_FishInsect_Armor,Magic Fishing Insect Net Shadow Armor,Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24352,S2_Plasterer's_Armor,Plasterer's Shadow Armor II,Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24354,S2_Peerless_Armor,Peerless Shadow Armor II,Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24375,S_ExeHoly_Armor,Executioner Holy Water Shadow Armor,Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24376,S_ExoCorrupt_Armor,Exorcist Corrupted Shadow Armor,Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24377,S_DragonVib_Armor,Vibration Dragon Killer Shadow Armor,Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24378,S_SciHunting_Armor,Scissor Hunting Shadow Armor,Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24379,S_FishInsect_Armor,Fishing Insect Net Shadow Armor,Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24395,S_Physical_Armor,Physical Shadow Armor,Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24398,S_Magical_Armor,Magical Shadow Armor,Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24401,S_KingbirdAncient_Armor,Kingbird Ancient Shadow Armor,Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24424,S_Tempest_Armor,Tempest Shadow Armor,Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24426,S_PerfectSize_Armor,Perfect Size Shadow Armor,Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24433,S_Penetration_Armor,Penetration Shadow Armor,Shadowgear,300000,PASS
+General,General shadows,Shadow Armor,24663,S_FullPene_Armor,Full Penetration Shadow Armor,ShadowGear,300000,PASS
+General,General shadows,Shadow Armor,24667,S_FullTemp_Armor,Full Tempest Shadow Armor,ShadowGear,300000,PASS
+General,General shadows,Shadow Armor,24669,S_Mammoth_Armor,Mammoth Shadow Armor,ShadowGear,300000,PASS
+General,General shadows,Shadow Armor,24675,S_TrueGem_Armor,True Gemstone Shadow Armor,ShadowGear,300000,PASS
+General,General shadows,Shadow Armor,24679,S_M_Mammoth_Armor,Maximum Mammoth Shadow Armor,ShadowGear,300000,PASS
+General,General shadows,Shadow Armor,24723,S_AutoSpell_Armor,Auto Spell Shadow Armor,ShadowGear,300000,PASS
+General,General shadows,Shadow Armor,24728,S_M_AutoSpell_Armor,Major Auto Spell Shadow Armor,ShadowGear,300000,PASS
+General,General shadows,Shadow Armor,24747,S_SpellCaster_Armor,Spell Caster Shadow Armor,ShadowGear,300000,PASS
+General,General shadows,Shadow Armor,24764,S_R_Bearers_Armor,Lord Bearer's Shadow Armor,ShadowGear,300000,PASS
+General,General shadows,Shadow Armor,24778,1LvArmorS,1Lv Shadow Armor,ShadowGear,300000,PASS
+General,General shadows,Shadow Armor,24872,S_Full_Power_Armor,Full Power Shadow Armor,ShadowGear,300000,PASS
+General,General shadows,Shadow Armor,24874,S_Full_Rate_Armor,Full Rate Shadow Armor,ShadowGear,300000,PASS
+General,General shadows,Shadow Armor,24883,S_Full_Spell_Armor,Full Spell Shadow Armor,ShadowGear,300000,PASS
+General,General shadows,Shadow Armor,24993,S_Magical_M_Armor,Magical Master Shadow Armor,ShadowGear,300000,PASS
+General,General shadows,Shadow Armor,24997,S_Spell_M_Armor,Spell Master Shadow Armor,ShadowGear,300000,PASS
+General,General shadows,Shadow Armor,1270001,S_Sorcery_M_Armor,Sorcery Master Shadow Armor,ShadowGear,300000,PASS
+General,General shadows,Shadow Armor,1270005,S_Sword_M_Armor,Sword Master Shadow Armor,ShadowGear,300000,PASS
+General,General shadows,Shadow Armor,1270009,S_Bow_M_Armor,Bow Master Shadow Armor,ShadowGear,300000,PASS
+General,General shadows,Shadow Armor,1270013,S_Fatal_M_Armor,Fatal Master Shadow Armor,ShadowGear,300000,PASS
+General,General shadows,Shadow Shoes,24003,T_Agi1_Shoes_S,Shadow Shoes (Tier 1),Shadowgear,300000,PASS
+General,General shadows,Shadow Shoes,24009,T_Agi2_Shoes_S,Shadow Shoes (Tier 2),Shadowgear,300000,PASS
+General,General shadows,Shadow Shoes,24014,S_Promotion_Shoes,Shadow Shoes,Shadowgear,300000,PASS
+General,General shadows,Shadow Shoes,24025,S_Champion_Shoes,Champion Shoes (Shadow),Shadowgear,300000,PASS
+General,General shadows,Shadow Shoes,24038,S_Vital_Shoes,Vital Shadow Shoes,Shadowgear,300000,PASS
+General,General shadows,Shadow Shoes,24045,S_Athletic_Shoes,Athletic Shadow Shoes,Shadowgear,300000,PASS
+General,General shadows,Shadow Shoes,24062,S_Bloody_Shoes,Bloody Shoes (Shadow),Shadowgear,300000,PASS
+General,General shadows,Shadow Shoes,24063,S_Liberation_Shoes,Liberation Shoes (Shadow),Shadowgear,300000,PASS
+General,General shadows,Shadow Shoes,24064,S_Chemical_Shoes,Chemical Shoes (Shadow),Shadowgear,300000,PASS
+General,General shadows,Shadow Shoes,24065,S_Clamorous_Shoes,Clamorous Shoes (Shadow),Shadowgear,300000,PASS
+General,General shadows,Shadow Shoes,24066,S_Insecticide_Shoes,Insecticide Shoes (Shadow),Shadowgear,300000,PASS
+General,General shadows,Shadow Shoes,24067,S_Fisher_Shoes,Fisher Shoes (Shadow),Shadowgear,300000,PASS
+General,General shadows,Shadow Shoes,24068,S_Seraphim_Shoes,Seraphim Shoes (Shadow),Shadowgear,300000,PASS
+General,General shadows,Shadow Shoes,24069,S_Beholder_Shoes,Beholder Shoes (Shadow),Shadowgear,300000,PASS
+General,General shadows,Shadow Shoes,24070,S_Divine_Shoes,Divine Shoes (Shadow),Shadowgear,300000,PASS
+General,General shadows,Shadow Shoes,24071,S_Dragoon_Shoes,Dragoon Shoes (Shadow),Shadowgear,300000,PASS
+General,General shadows,Shadow Shoes,24082,S_Malicious_Shoes,Malicious Shas Shadow Shoes,Shadowgear,300000,PASS
+General,General shadows,Shadow Shoes,24085,S_Gemstone_Shoes,Gemstone Shadow Shoes,Shadowgear,300000,PASS
+General,General shadows,Shadow Shoes,24092,S_Plasterer's_Shoes,Harrods Plaster Shadow Shoes,Shadowgear,300000,PASS
+General,General shadows,Shadow Shoes,24094,S_Insomniac_Shoes,Insomnia Shadow Shoes,Shadowgear,300000,PASS
+General,General shadows,Shadow Shoes,24096,S_Peerless_Shoes,Peerless Shadow Shoes,Shadowgear,300000,PASS
+General,General shadows,Shadow Shoes,24098,S_Adurate_Shoes,Andre Shadow Shoes,Shadowgear,300000,PASS
+General,General shadows,Shadow Shoes,24111,S_Spell_Flow_Shoes,Spellflow Shadow Shoes,Shadowgear,300000,PASS
+General,General shadows,Shadow Shoes,24115,S_Greed_Shoes,Grid Shadow Shoes,Shadowgear,300000,PASS
+General,General shadows,Shadow Shoes,24121,S_Heal_Shoes,Heal Shadow Shoes,Shadowgear,300000,PASS
+General,General shadows,Shadow Shoes,24127,S_Hiding_Shoes,Hiding Shadow Shoes,Shadowgear,300000,PASS
+General,General shadows,Shadow Shoes,24133,S_Cloaking_Shoes,Cloaking Shadow Shoes,Shadowgear,300000,PASS
+General,General shadows,Shadow Shoes,24139,S_Teleport_Shoes,Teleport Shadow Shoes,Shadowgear,300000,PASS
+General,General shadows,Shadow Shoes,24145,S_Steal_Shoes,Steal Shadow Shoes,Shadowgear,300000,PASS
+General,General shadows,Shadow Shoes,24181,S_Bearers_Shoes,Bearer's Shadow Shoes,Shadowgear,300000,PASS
+General,General shadows,Shadow Shoes,24196,S_Hasty_Shoes,Hasty Shadow Shoes,Shadowgear,300000,PASS
+General,General shadows,Shadow Shoes,24208,S_Expert_Shoes,Expert Shadow Shoes,Shadowgear,300000,PASS
+General,General shadows,Shadow Shoes,24210,S_Beginner_Shoes,Beginner Shadow Shoes,Shadowgear,300000,PASS
+General,General shadows,Shadow Shoes,24212,S_Rookie_Shoes,Rookie Shadow Shoes,Shadowgear,300000,PASS
+General,General shadows,Shadow Shoes,24214,S_Advanced_Shoes,Advanced Shadow Shoes,Shadowgear,300000,PASS
+General,General shadows,Shadow Shoes,24231,S_Blitz_Shoes,Blitz Shadow Shoes,Shadowgear,300000,PASS
+General,General shadows,Shadow Shoes,24240,S_Caster_Shoes,Caster Shadow Shoes,Shadowgear,300000,PASS
+General,General shadows,Shadow Shoes,24243,S_Reload_Shoes,Reload Shadow Shoes,Shadowgear,300000,PASS
+General,General shadows,Shadow Shoes,24256,S_Knight_Shoes,Knight Shadow Shoes,Shadowgear,300000,PASS
+General,General shadows,Shadow Shoes,24257,S_Crusader_Shoes,Crusader Shadow Shoes,Shadowgear,300000,PASS
+General,General shadows,Shadow Shoes,24258,S_Blacksmith_Shoes,Blacksmith Shadow Shoes,Shadowgear,300000,PASS
+General,General shadows,Shadow Shoes,24259,S_Alchemist_Shoes,Alchemist Shadow Shoes,Shadowgear,300000,PASS
+General,General shadows,Shadow Shoes,24260,S_Priest_Shoes,Priest Shadow Shoes,Shadowgear,300000,PASS
+General,General shadows,Shadow Shoes,24261,S_Monk_Shoes,Monk Shadow Shoes,Shadowgear,300000,PASS
+General,General shadows,Shadow Shoes,24262,S_Assassin_Shoes,Assassin Shadow Shoes,Shadowgear,300000,PASS
+General,General shadows,Shadow Shoes,24263,S_Rogue_Shoes,Rogue Shadow Shoes,Shadowgear,300000,PASS
+General,General shadows,Shadow Shoes,24264,S_Wizard_Shoes,Wizard Shadow Shoes,Shadowgear,300000,PASS
+General,General shadows,Shadow Shoes,24265,S_Sage_Shoes,Sage Shadow Shoes,Shadowgear,300000,PASS
+General,General shadows,Shadow Shoes,24266,S_Hunter_Shoes,Hunter Shadow Shoes,Shadowgear,300000,PASS
+General,General shadows,Shadow Shoes,24267,S_Bard_Shoes,Bard Shadow Shoes,Shadowgear,300000,PASS
+General,General shadows,Shadow Shoes,24268,S_Dancer_Shoes,Dancer Shadow Shoes,Shadowgear,300000,PASS
+General,General shadows,Shadow Shoes,24320,S2_Hasty_Shoes,Hasty Shadow Shoes II,Shadowgear,300000,PASS
+General,General shadows,Shadow Shoes,24333,S_Critical_Shoes,Critical Shadow Shoes,Shadowgear,300000,PASS
+General,General shadows,Shadow Shoes,24338,S2_Bearers_Shoes,Bearer's Shadow Shoes II,Shadowgear,300000,PASS
+General,General shadows,Shadow Shoes,24341,S_AllRace_Shoes,All Race Shadow Shoes,Shadowgear,300000,PASS
+General,General shadows,Shadow Shoes,24346,S_Tempest_Shoes,Tempest Shadow Shoes,Shadowgear,300000,PASS
+General,General shadows,Shadow Shoes,24353,S2_Insomniac_Shoes,Insomniac Shadow Shoes II,Shadowgear,300000,PASS
+General,General shadows,Shadow Shoes,24355,S2_Adurate_Shoes,Adulate Shadow Shoes II,Shadowgear,300000,PASS
+General,General shadows,Shadow Shoes,24367,S_Healing_Shoes,Healing Shadow Shoes,Shadowgear,300000,PASS
+General,General shadows,Shadow Shoes,24373,S_Penetration_Shoes,Penetration Shadow Shoes,Shadowgear,300000,PASS
+General,General shadows,Shadow Shoes,24393,S_Physical_Shoes,Physical Shadow Shoes,Shadowgear,300000,PASS
+General,General shadows,Shadow Shoes,24396,S_Magical_Shoes,Magical Shadow Shoes,Shadowgear,300000,PASS
+General,General shadows,Shadow Shoes,24400,S_HardChamption_Shoes,Hard Champion Shadow Shoes,Shadowgear,300000,PASS
+General,General shadows,Shadow Shoes,24664,S_FullPene_Shoes,Full Penetration Shadow Shoes,ShadowGear,300000,PASS
+General,General shadows,Shadow Shoes,24666,S_FullTemp_Shoes,Full Tempest Shadow Shoes,ShadowGear,300000,PASS
+General,General shadows,Shadow Shoes,24670,S_Mammoth_Shoes,Mammoth Shadow Shoes,ShadowGear,300000,PASS
+General,General shadows,Shadow Shoes,24676,S_TrueGem_Shoes,True Gemstone Shadow Shoes,ShadowGear,300000,PASS
+General,General shadows,Shadow Shoes,24680,S_M_Mammoth_Shoes,Maximum Mammoth Shadow Shoes,ShadowGear,300000,PASS
+General,General shadows,Shadow Shoes,24724,S_AutoSpell_Shoes,Auto Spell Shadow Shoes,ShadowGear,300000,PASS
+General,General shadows,Shadow Shoes,24729,S_M_AutoSpell_Shoes,Major Auto Spell Shadow Shoes,ShadowGear,300000,PASS
+General,General shadows,Shadow Shoes,24748,S_SpellCaster_Shoes,Spell Caster Shadow Shoes,ShadowGear,300000,PASS
+General,General shadows,Shadow Shoes,24763,S_R_Bearers_Shoes,Lord Bearer's Shadow Shoes,ShadowGear,300000,PASS
+General,General shadows,Shadow Shoes,24781,1LvShoesS,1Lv Shadow Shoes,ShadowGear,300000,PASS
+General,General shadows,Shadow Shoes,24873,S_Full_Power_Shoes,Full Power Shadow Shoes,ShadowGear,300000,PASS
+General,General shadows,Shadow Shoes,24875,S_Full_Rate_Shoes,Full Rate Shadow Shoes,ShadowGear,300000,PASS
+General,General shadows,Shadow Shoes,24884,S_Full_Spell_Shoes,Full Spell Shadow Shoes,ShadowGear,300000,PASS
+General,General shadows,Shadow Shoes,24994,S_Magical_M_Shoes,Magical Master Shadow Shoes,ShadowGear,300000,PASS
+General,General shadows,Shadow Shoes,24998,S_Spell_M_Shoes,Spell Master Shadow Shoes,ShadowGear,300000,PASS
+General,General shadows,Shadow Shoes,1270002,S_Sorcery_M_Shoes,Sorcery Master Shadow Shoes,ShadowGear,300000,PASS
+General,General shadows,Shadow Shoes,1270006,S_Sword_M_Shoes,Sword Master Shadow Shoes,ShadowGear,300000,PASS
+General,General shadows,Shadow Shoes,1270010,S_Bow_M_Shoes,Bow Master Shadow Shoes,ShadowGear,300000,PASS
+General,General shadows,Shadow Shoes,1270014,S_Fatal_M_Shoes,Fatal Master Shadow Shoes,ShadowGear,300000,PASS
+General,General shadows,Shadow Earring,24004,T_Vit1_Acc_R_S,Shadow Ring (Tier 1),Shadowgear,300000,PASS
+General,General shadows,Shadow Earring,24010,T_Vit2_Acc_R_S,Shadow Ring (Tier 2),Shadowgear,300000,PASS
+General,General shadows,Shadow Earring,24016,S_Promotion_Earring,Shadow Earring,Shadowgear,300000,PASS
+General,General shadows,Shadow Earring,24018,S_Physical_Earring,Physical Earring (Shadow),Shadowgear,300000,PASS
+General,General shadows,Shadow Earring,24021,S_Magical_Earring,Magical Earring (Shadow),Shadowgear,300000,PASS
+General,General shadows,Shadow Earring,24035,S_Power_Earring,Power Shadow Earring,Shadowgear,300000,PASS
+General,General shadows,Shadow Earring,24042,S_Int_Earring,Intelligent Shadow Earring,Shadowgear,300000,PASS
+General,General shadows,Shadow Earring,24049,S_Hard_Earring,Hard Earring (Shadow),Shadowgear,300000,PASS
+General,General shadows,Shadow Earring,24050,S_Wise_Earring,Wise Earring (Shadow),Shadowgear,300000,PASS
+General,General shadows,Shadow Earring,24051,S_Athena_Earring,Athena Earring (Shadow),Shadowgear,300000,PASS
+General,General shadows,Shadow Earring,24079,S_Spiritual_Earring,Spiritual Shadow Earring,Shadowgear,300000,PASS
+General,General shadows,Shadow Earring,24088,S_Gemstone_Earring,Gemstone Shadow Earring,Shadowgear,300000,PASS
+General,General shadows,Shadow Earring,24100,Unfreeze_Earing_S,Unfreezing Shadow Earring,Shadowgear,300000,PASS
+General,General shadows,Shadow Earring,24102,Vitality_Earing_S,Vitality Shadow Earring,Shadowgear,300000,PASS
+General,General shadows,Shadow Earring,24105,S_Neutral_Earring,Neutral Shadow Earring,Shadowgear,300000,PASS
+General,General shadows,Shadow Earring,24107,S_Curse_Lift_Earring,Frozen Curse Shadow Earring,Shadowgear,300000,PASS
+General,General shadows,Shadow Earring,24109,S_Caster_earring,Caster Shadow Earrings,Shadowgear,300000,PASS
+General,General shadows,Shadow Earring,24118,S_Greed_Earring,Grid Shadow Earring,Shadowgear,300000,PASS
+General,General shadows,Shadow Earring,24124,S_Heal_Earring,Heal Shadow Earring,Shadowgear,300000,PASS
+General,General shadows,Shadow Earring,24130,S_Hiding_Earring,Hiding Shadow Earring,Shadowgear,300000,PASS
+General,General shadows,Shadow Earring,24136,S_Cloaking_Earring,Cloaking Shadow Earring,Shadowgear,300000,PASS
+General,General shadows,Shadow Earring,24142,S_Teleport_Earring,Teleport Shadow Earring,Shadowgear,300000,PASS
+General,General shadows,Shadow Earring,24148,S_Steal_Earring,Steal Shadow Earring,Shadowgear,300000,PASS
+General,General shadows,Shadow Earring,24150,S_Infinity_Earring,Infinity Shadow Earring,Shadowgear,300000,PASS
+General,General shadows,Shadow Earring,24153,S_Solid_Earring,Solid Shadow Earring,Shadowgear,300000,PASS
+General,General shadows,Shadow Earring,24166,S_Penetration_Earring,Penetration Shadow Earring,Shadowgear,300000,PASS
+General,General shadows,Shadow Earring,24168,S_Tempest_Earring,Tempest Shadow Earring,Shadowgear,300000,PASS
+General,General shadows,Shadow Earring,24184,S_Bearers_Earring,Bearer's Shadow Earring,Shadowgear,300000,PASS
+General,General shadows,Shadow Earring,24217,S_Blitz_Earring,Blitz Shadow Earring,Shadowgear,300000,PASS
+General,General shadows,Shadow Earring,24225,S_Force_Earring,Force Shadow Earring,Shadowgear,300000,PASS
+General,General shadows,Shadow Earring,24229,S_Spirit_Earring,Soul Shadow Earring,Shadowgear,300000,PASS
+General,General shadows,Shadow Earring,24234,S_Titan_Earring,Titan Shadow Earring,Shadowgear,300000,PASS
+General,General shadows,Shadow Earring,24236,S_Boned_Earring,Boned Shadow Earring,Shadowgear,300000,PASS
+General,General shadows,Shadow Earring,24238,S_Gigantic_Earring,Gigantic Shadow Earring,Shadowgear,300000,PASS
+General,General shadows,Shadow Earring,24246,S_Swordman_earring,Swordman Shadow Earring,Shadowgear,300000,PASS
+General,General shadows,Shadow Earring,24247,S_Merchant_earring,Merchant Shadow Earring,Shadowgear,300000,PASS
+General,General shadows,Shadow Earring,24248,S_Acolyte_earring,Acolyte Shadow Earring,Shadowgear,300000,PASS
+General,General shadows,Shadow Earring,24249,S_Magician_earring,Magician Shadow Earring,Shadowgear,300000,PASS
+General,General shadows,Shadow Earring,24322,S2_Gemstone_Earring,Gemstone Shadow Earring II,Shadowgear,300000,PASS
+General,General shadows,Shadow Earring,24339,S_AllMighty_Earring,Almighty Shadow Earring,Shadowgear,300000,PASS
+General,General shadows,Shadow Earring,24357,Vitality_Earing_S2,Vitality Shadow Earring II,Shadowgear,300000,PASS
+General,General shadows,Shadow Earring,24361,S_Tension_Earring,Tension Shadow Earring,Shadowgear,300000,PASS
+General,General shadows,Shadow Earring,24364,S_Elegant_Earring,Elegant Shadow Earring,Shadowgear,300000,PASS
+General,General shadows,Shadow Earring,24368,S_Restore_Earring,Restore Shadow Earring,Shadowgear,300000,PASS
+General,General shadows,Shadow Earring,24371,S_MortalBlow_Earring,Mortal Blow Shadow Earring,Shadowgear,300000,PASS
+General,General shadows,Shadow Earring,24381,Sentimental_Earring_S,Sentimental Shadow Earring,Shadowgear,300000,PASS
+General,General shadows,Shadow Earring,24384,Enchanting_Earring_S,Enchanting Shadow Earring,Shadowgear,300000,PASS
+General,General shadows,Shadow Earring,24661,S_FullPene_Earring,Full Penetration Shadow Earring,ShadowGear,300000,PASS
+General,General shadows,Shadow Earring,24665,S_FullTemp_Earring,Full Tempest Shadow Earring,ShadowGear,300000,PASS
+General,General shadows,Shadow Earring,24672,S_Mammoth_Earring,Mammoth Shadow Earring,ShadowGear,300000,PASS
+General,General shadows,Shadow Earring,24677,S_TrueGem_Earring,True Gemstone Shadow Earring,ShadowGear,300000,PASS
+General,General shadows,Shadow Earring,24681,S_M_Mammoth_Earring,Maximum Mammoth Shadow Earring,ShadowGear,300000,PASS
+General,General shadows,Shadow Earring,24727,S_AutoSpell_Earring,Auto Spell Shadow Earring,ShadowGear,300000,PASS
+General,General shadows,Shadow Earring,24730,S_M_AutoSpell_Earring,Major Auto Spell Shadow Earring,ShadowGear,300000,PASS
+General,General shadows,Shadow Earring,24749,S_SpellCaster_Earring,Spell Caster Shadow Earring,ShadowGear,300000,PASS
+General,General shadows,Shadow Earring,24766,S_R_Bearers_Earring,Lord Bearer's Shadow Earring,ShadowGear,300000,PASS
+General,General shadows,Shadow Earring,24782,1LvEarringS,1Lv Shadow Earring,ShadowGear,300000,PASS
+General,General shadows,Shadow Earring,24877,S_Focusing_Earring,Focusing Shadow Earring,ShadowGear,300000,PASS
+General,General shadows,Shadow Earring,24879,S_Stout_Earring,Stout Shadow Earring,ShadowGear,300000,PASS
+General,General shadows,Shadow Earring,24886,S_Centering_Earring,Centering Shadow Earring,ShadowGear,300000,PASS
+General,General shadows,Shadow Earring,24888,S_Witty_Earring,Witty Shadow Earring,ShadowGear,300000,PASS
+General,General shadows,Shadow Earring,24995,S_Magical_M_Earring,Magical Master Shadow Earring,ShadowGear,300000,PASS
+General,General shadows,Shadow Earring,24999,S_Spell_M_Earring,Spell Master Shadow Earring,ShadowGear,300000,PASS
+General,General shadows,Shadow Earring,28391,S_Thief_earring,Thief Shadow Earring,Shadowgear,300000,PASS
+General,General shadows,Shadow Earring,28392,S_Archer_earring,Archer Shadow Earring,Shadowgear,300000,PASS
+General,General shadows,Shadow Earring,1270003,S_Sorcery_M_Earring,Sorcery Master Shadow Earring,ShadowGear,300000,PASS
+General,General shadows,Shadow Earring,1270007,S_Sword_M_Earring,Sword Master Shadow Earring,ShadowGear,300000,PASS
+General,General shadows,Shadow Earring,1270011,S_Bow_M_Earring,Bow Master Shadow Earring,ShadowGear,300000,PASS
+General,General shadows,Shadow Earring,1270015,S_Fatal_M_Earring,Fatal Master Shadow Earring,ShadowGear,300000,PASS
+General,General shadows,Shadow Pendant,24005,T_Int1_Acc_L_S,Shadow Pendant (Tier 1),Shadowgear,300000,PASS
+General,General shadows,Shadow Pendant,24011,T_Int2_Acc_L_S,Shadow Pendant (Tier 2),Shadowgear,300000,PASS
+General,General shadows,Shadow Pendant,24017,S_Promotion_Pendant,Shadow Pendant,Shadowgear,300000,PASS
+General,General shadows,Shadow Pendant,24020,S_Physical_Pendant,Physical Pendant (Shadow),Shadowgear,300000,PASS
+General,General shadows,Shadow Pendant,24023,S_Magical_Pendant,Magical Pencil (Shadow),Shadowgear,300000,PASS
+General,General shadows,Shadow Pendant,24036,S_Int_Pendant,Intelligent Shadow Pendant,Shadowgear,300000,PASS
+General,General shadows,Shadow Pendant,24041,S_Power_Pendant,Power Shadow Pendant,Shadowgear,300000,PASS
+General,General shadows,Shadow Pendant,24046,S_Resist_Spell_Pendant,Resist Spell Power Pendant (Shadow),Shadowgear,300000,PASS
+General,General shadows,Shadow Pendant,24047,S_Rapid_Pendant,Rapid Pendant (Shadow),Shadowgear,300000,PASS
+General,General shadows,Shadow Pendant,24048,S_Caster_Pendant,Caster Pendant (Shadow),Shadowgear,300000,PASS
+General,General shadows,Shadow Pendant,24080,S_Spiritual_Pendent,Spiritual Shadow Pendant,Shadowgear,300000,PASS
+General,General shadows,Shadow Pendant,24089,S_Gemstone_Pendent,Gemstone Shadow Pendant,Shadowgear,300000,PASS
+General,General shadows,Shadow Pendant,24101,Unfreeze_Pendent_S,Unfreezing Shadow Pendant,Shadowgear,300000,PASS
+General,General shadows,Shadow Pendant,24103,Vitality_Pendant_S,Vitality Shadow Pendant,Shadowgear,300000,PASS
+General,General shadows,Shadow Pendant,24106,S_Neutral_Pendent,Neutral Shadow Pendant,Shadowgear,300000,PASS
+General,General shadows,Shadow Pendant,24108,S_Curse_Lift_Pendent,Frozen Curse Shadow Pendant,Shadowgear,300000,PASS
+General,General shadows,Shadow Pendant,24119,S_Greed_Pendant,Grid Shadow Pendant,Shadowgear,300000,PASS
+General,General shadows,Shadow Pendant,24125,S_Heal_Pendant,Heal Shadow Pendant,Shadowgear,300000,PASS
+General,General shadows,Shadow Pendant,24131,S_Hiding_Pendant,Hiding Shadow Pendant,Shadowgear,300000,PASS
+General,General shadows,Shadow Pendant,24137,S_Cloaking_Pendant,Cloaking Shadow Pendant,Shadowgear,300000,PASS
+General,General shadows,Shadow Pendant,24143,S_Teleport_Pendant,Teleport Shadow Pendant,Shadowgear,300000,PASS
+General,General shadows,Shadow Pendant,24149,S_Steal_Pendant,Steal Shadow Pendant,Shadowgear,300000,PASS
+General,General shadows,Shadow Pendant,24151,S_Infinity_Pendant,Infinity Shadow Pendant,Shadowgear,300000,PASS
+General,General shadows,Shadow Pendant,24155,S_Immortal_Pendant,Solid Shadow Pendant,Shadowgear,300000,PASS
+General,General shadows,Shadow Pendant,24167,S_Penetration_Pendent,Penetration Shadow Pendant,Shadowgear,300000,PASS
+General,General shadows,Shadow Pendant,24169,S_Tempest_Pendent,Tempest Pendant Shadow,Shadowgear,300000,PASS
+General,General shadows,Shadow Pendant,24185,S_Bearers_Pendent,Bearer's Shadow Pendant,Shadowgear,300000,PASS
+General,General shadows,Shadow Pendant,24218,S_Blitz_Pendent,Blitz Shadow Pendant,Shadowgear,300000,PASS
+General,General shadows,Shadow Pendant,24226,S_Force_Pendant,Force Shadow Pendant,Shadowgear,300000,PASS
+General,General shadows,Shadow Pendant,24230,S_Spirit_Pendant,Soul Shadow Pendant,Shadowgear,300000,PASS
+General,General shadows,Shadow Pendant,24235,S_Titan_Pendant,Titan Shadow Pendant,Shadowgear,300000,PASS
+General,General shadows,Shadow Pendant,24237,S_Boned_Pendant,Boned Shadow Pendant,Shadowgear,300000,PASS
+General,General shadows,Shadow Pendant,24239,S_Gigantic_Pendant,Gigantic Shadow Pendant,Shadowgear,300000,PASS
+General,General shadows,Shadow Pendant,24250,S_Swordman_Pendant,Swordman Shadow Pendant,Shadowgear,300000,PASS
+General,General shadows,Shadow Pendant,24251,S_Merchant_Pendant,Merchant Shadow Pendant,Shadowgear,300000,PASS
+General,General shadows,Shadow Pendant,24252,S_Acolyte_Pendant,Acolyte Shadow Pendant,Shadowgear,300000,PASS
+General,General shadows,Shadow Pendant,24253,S_Thief_Pendant,Thief Shadow Pendant,Shadowgear,300000,PASS
+General,General shadows,Shadow Pendant,24254,S_Magician_Pendant,Magician Shadow Pendant,Shadowgear,300000,PASS
+General,General shadows,Shadow Pendant,24255,S_Archer_Pendant,Archer Shadow Pendant,Shadowgear,300000,PASS
+General,General shadows,Shadow Pendant,24321,S2_Bearers_Pendent,Bearer's Shadow Pendant II,Shadowgear,300000,PASS
+General,General shadows,Shadow Pendant,24340,S_AllMighty_Pendant,Almighty Shadow Pendant,Shadowgear,300000,PASS
+General,General shadows,Shadow Pendant,24359,S2_Curse_Lift_Pendent,Uncursed Shadow Pendant II,Shadowgear,300000,PASS
+General,General shadows,Shadow Pendant,24362,S_Tension_Pendent,Tension Shadow Pendant,Shadowgear,300000,PASS
+General,General shadows,Shadow Pendant,24365,S_Elegant_Pendent,Elegant Shadow Pendant,Shadowgear,300000,PASS
+General,General shadows,Shadow Pendant,24369,S_Restore_Pendent,Restore Shadow Pendant,Shadowgear,300000,PASS
+General,General shadows,Shadow Pendant,24372,S_MortalBlow_Pendent,Mortal Blow Shadow Pendant,Shadowgear,300000,PASS
+General,General shadows,Shadow Pendant,24382,Sentimental_Pendant_S,Sentimental Shadow Pendant,Shadowgear,300000,PASS
+General,General shadows,Shadow Pendant,24385,Enchanting_Pendant_S,Enchanting Shadow Pendant,Shadowgear,300000,PASS
+General,General shadows,Shadow Pendant,24662,S_FullPene_Pendant,Full Penetration Shadow Pendant,ShadowGear,300000,PASS
+General,General shadows,Shadow Pendant,24668,S_FullTemp_Pendant,Full Tempest Shadow Pendant,ShadowGear,300000,PASS
+General,General shadows,Shadow Pendant,24671,S_Mammoth_Pendant,Mammoth Shadow Pendant,ShadowGear,300000,PASS
+General,General shadows,Shadow Pendant,24678,S_TrueGem_Pendant,True Gemstone Shadow Pendant,ShadowGear,300000,PASS
+General,General shadows,Shadow Pendant,24682,S_M_Mammoth_Pendant,Maximum Mammoth Shadow Pendant,ShadowGear,300000,PASS
+General,General shadows,Shadow Pendant,24726,S_AutoSpell_Pendant,Auto Spell Shadow Pendant,ShadowGear,300000,PASS
+General,General shadows,Shadow Pendant,24731,S_M_AutoSpell_Pendant,Major Auto Spell Shadow Pendant,ShadowGear,300000,PASS
+General,General shadows,Shadow Pendant,24750,S_SpellCaster_Pendant,Spell Caster Shadow Pendant,ShadowGear,300000,PASS
+General,General shadows,Shadow Pendant,24765,S_R_Bearers_Pendant,Lord Bearer's Shadow Pendant,ShadowGear,300000,PASS
+General,General shadows,Shadow Pendant,24783,1LvPendantS,1Lv Shadow Pendant,ShadowGear,300000,PASS
+General,General shadows,Shadow Pendant,24876,S_Focusing_Pendant,Focusing Shadow Pendant,ShadowGear,300000,PASS
+General,General shadows,Shadow Pendant,24878,S_Stout_Pendant,Stout Shadow Pendant,ShadowGear,300000,PASS
+General,General shadows,Shadow Pendant,24885,S_Centering_Pendant,Centering Shadow Pendant,ShadowGear,300000,PASS
+General,General shadows,Shadow Pendant,24887,S_Witty_Pendant,Witty Shadow Pendant,ShadowGear,300000,PASS
+General,General shadows,Shadow Pendant,24996,S_Magical_M_Pendant,Magical Master Shadow Pendant,ShadowGear,300000,PASS
+General,General shadows,Shadow Pendant,1270000,S_Spell_M_Pendant,Spell Master Shadow Pendant,ShadowGear,300000,PASS
+General,General shadows,Shadow Pendant,1270004,S_Sorcery_M_Pendant,Sorcery Master Shadow Pendant,ShadowGear,300000,PASS
+General,General shadows,Shadow Pendant,1270008,S_Sword_M_Pendant,Sword Master Shadow Pendant,ShadowGear,300000,PASS
+General,General shadows,Shadow Pendant,1270012,S_Bow_M_Pendant,Bow Master Shadow Pendant,ShadowGear,300000,PASS
+General,General shadows,Shadow Pendant,1270016,S_Fatal_M_Pendant,Fatal Master Shadow Pendant,ShadowGear,300000,PASS
+Second / Expanded,Gunslinger / Rebellion,Shadow Weapon,24283,S_Gunslinger_Weapon,Gunslinger Shadow Weapon,Shadowgear,300000,PASS
+Second / Expanded,Gunslinger / Rebellion,Shadow Weapon,24601,S_Tail_Dragon_Weapon,Tail Dragon Shadow Weapon,ShadowGear,300000,PASS
+Second / Expanded,Gunslinger / Rebellion,Shadow Weapon,24607,S_God_Hammer_Weapon,God Hammer Shadow Weapon,ShadowGear,300000,PASS
+Second / Expanded,Gunslinger / Rebellion,Shadow Weapon,24613,S_Trip_Weapon,Trip Shadow Weapon,ShadowGear,300000,PASS
+Second / Expanded,Gunslinger / Rebellion,Shadow Shield,24319,S_Gunslinger_Shield,Gunslinger Shadow Shield,Shadowgear,300000,PASS
+Second / Expanded,Gunslinger / Rebellion,Shadow Shield,24602,S_Tail_Dragon_Shield,Tail Dragon Shadow Shield,ShadowGear,300000,PASS
+Second / Expanded,Gunslinger / Rebellion,Shadow Shield,24608,S_God_Hammer_Shield,God Hammer Shadow Shield,ShadowGear,300000,PASS
+Second / Expanded,Gunslinger / Rebellion,Shadow Shield,24614,S_Trip_Shield,Trip Shadow Shield,ShadowGear,300000,PASS
+Second / Expanded,Gunslinger / Rebellion,Shadow Armor,24402,S_Rebellion_Armor,Rebellion Shadow Armor,Shadowgear,300000,PASS
+Second / Expanded,Gunslinger / Rebellion,Shadow Armor,24603,S_Tail_Dragon_Armor,Tail Dragon Shadow Armor,ShadowGear,300000,PASS
+Second / Expanded,Gunslinger / Rebellion,Shadow Armor,24609,S_God_Hammer_Armor,God Hammer Shadow Armor,ShadowGear,300000,PASS
+Second / Expanded,Gunslinger / Rebellion,Shadow Armor,24615,S_Trip_Armor,Trip Shadow Armor,ShadowGear,300000,PASS
+Second / Expanded,Gunslinger / Rebellion,Shadow Shoes,24405,S_Rebellion_Shoes,Rebellion Shadow Shoes,Shadowgear,300000,PASS
+Second / Expanded,Gunslinger / Rebellion,Shadow Shoes,24606,S_Flare_Dance_Shoes,Flare Dance Shadow Shoes,ShadowGear,300000,PASS
+Second / Expanded,Gunslinger / Rebellion,Shadow Shoes,24612,S_Shatter_Buster_Shoes,Shatter Buster Shadow Shoes,ShadowGear,300000,PASS
+Second / Expanded,Gunslinger / Rebellion,Shadow Earring,24604,S_Flare_Dance_Earing,Flare Dance Shadow Earring,ShadowGear,300000,PASS
+Second / Expanded,Gunslinger / Rebellion,Shadow Earring,24610,S_Shatter_Buster_Earing,Shatter Buster Shadow Earring,ShadowGear,300000,PASS
+Second / Expanded,Gunslinger / Rebellion,Shadow Pendant,24605,S_Flare_Dance_Pendant,Flare Dance Shadow Pendant,ShadowGear,300000,PASS
+Second / Expanded,Gunslinger / Rebellion,Shadow Pendant,24611,S_Shatter_B_Pendant,Shatter Buster Shadow Pendant,ShadowGear,300000,PASS
+Second / Expanded,Kagerou / Oboro / Ninja,Shadow Weapon,24285,S_Ninja_Weapon,Ninja Shadow Weapon,Shadowgear,300000,PASS
+Second / Expanded,Kagerou / Oboro / Ninja,Shadow Weapon,24622,S_Kunai_Weapon,Kunai Shadow Weapon,ShadowGear,300000,PASS
+Second / Expanded,Kagerou / Oboro / Ninja,Shadow Weapon,24628,S_Kamaenraku_Weapon,First Exploding Draft Shadow Weapon,ShadowGear,300000,PASS
+Second / Expanded,Kagerou / Oboro / Ninja,Shadow Shield,24314,S_Ninja_Shield,Ninja Shadow Shield,Shadowgear,300000,PASS
+Second / Expanded,Kagerou / Oboro / Ninja,Shadow Shield,24623,S_Kunai_Shield,Kunai Shadow Shield,ShadowGear,300000,PASS
+Second / Expanded,Kagerou / Oboro / Ninja,Shadow Shield,24629,S_Kamaenraku_Shield,First Exploding Draft Shadow Shield,ShadowGear,300000,PASS
+Second / Expanded,Kagerou / Oboro / Ninja,Shadow Armor,24403,S_Kagerou_Armor,Kagerou Shadow Armor,Shadowgear,300000,PASS
+Second / Expanded,Kagerou / Oboro / Ninja,Shadow Armor,24404,S_Oboro_Armor,Oboro Shadow Armor,Shadowgear,300000,PASS
+Second / Expanded,Kagerou / Oboro / Ninja,Shadow Armor,24624,S_Kunai_Armor,Kunai Shadow Armor,ShadowGear,300000,PASS
+Second / Expanded,Kagerou / Oboro / Ninja,Shadow Armor,24630,S_Kamaenraku_Armor,First Exploding Draft Shadow Armor,ShadowGear,300000,PASS
+Second / Expanded,Kagerou / Oboro / Ninja,Shadow Shoes,24406,S_Kagerou_Shoes,Kagerou Shadow Shoes,Shadowgear,300000,PASS
+Second / Expanded,Kagerou / Oboro / Ninja,Shadow Shoes,24407,S_Oboro_Shoes,Oboro Shadow Shoes,Shadowgear,300000,PASS
+Second / Expanded,Kagerou / Oboro / Ninja,Shadow Shoes,24627,S_Syuriken_Shoes,Cross Shuriken Shadow Shoes,ShadowGear,300000,PASS
+Second / Expanded,Kagerou / Oboro / Ninja,Shadow Shoes,24633,S_Huusouka_Shoes,Wind Spear Petal Shadow Shoes,ShadowGear,300000,PASS
+Second / Expanded,Kagerou / Oboro / Ninja,Shadow Earring,24625,S_Syuriken_Earing,Cross Shuriken Shadow Earring,ShadowGear,300000,PASS
+Second / Expanded,Kagerou / Oboro / Ninja,Shadow Earring,24631,S_Huusouka_Earing,Wind Spear Petal Shadow Earring,ShadowGear,300000,PASS
+Second / Expanded,Kagerou / Oboro / Ninja,Shadow Pendant,24626,S_Syuriken_Pendant,Cross Shuriken Shadow Pendant,ShadowGear,300000,PASS
+Second / Expanded,Kagerou / Oboro / Ninja,Shadow Pendant,24632,S_Huusouka_Pendant,Wind Spear Petal Shadow Pendant,ShadowGear,300000,PASS
+Second / Expanded,Spirit Handler / Summoner,Shadow Weapon,24286,S_DoramMagical_Weapon,Doram Magical Shadow Weapon,Shadowgear,300000,PASS
+Second / Expanded,Spirit Handler / Summoner,Shadow Weapon,24287,S_DoramPhysical_Weapon,Doram Physical Shadow Weapon,Shadowgear,300000,PASS
+Second / Expanded,Spirit Handler / Summoner,Shadow Weapon,24634,S_Pickyrush_Weapon,Picky Rush Shadow Weapon,ShadowGear,300000,PASS
+Second / Expanded,Spirit Handler / Summoner,Shadow Weapon,24640,S_Catnip_Weapon,Catnip Shadow Weapon,ShadowGear,300000,PASS
+Second / Expanded,Spirit Handler / Summoner,Shadow Shield,24316,S_DoramPhysical_Shield,Doram Physical Shadow Shield,Shadowgear,300000,PASS
+Second / Expanded,Spirit Handler / Summoner,Shadow Shield,24317,S_DoramMagical_Shield,Doram Magical Shadow Shield,Shadowgear,300000,PASS
+Second / Expanded,Spirit Handler / Summoner,Shadow Shield,24635,S_Pickyrush_Shield,Picky Rush Shadow Shield,ShadowGear,300000,PASS
+Second / Expanded,Spirit Handler / Summoner,Shadow Shield,24641,S_Catnip_Shield,Catnip Shadow Shield,ShadowGear,300000,PASS
+Second / Expanded,Spirit Handler / Summoner,Shadow Armor,24408,S_DoramPhysical_Armor,Doram Physical Shadow Armor,Shadowgear,300000,PASS
+Second / Expanded,Spirit Handler / Summoner,Shadow Armor,24410,S_DoramMagical_Armor,Doram Magical Shadow Armor,Shadowgear,300000,PASS
+Second / Expanded,Spirit Handler / Summoner,Shadow Armor,24636,S_Pickyrush_Armor,Picky Rush Shadow Armor,ShadowGear,300000,PASS
+Second / Expanded,Spirit Handler / Summoner,Shadow Armor,24642,S_Catnip_Armor,Catnip Shadow Armor,ShadowGear,300000,PASS
+Second / Expanded,Spirit Handler / Summoner,Shadow Shoes,24409,S_DoramPhysical_Shoes,Doram Physical Shadow Shoes,Shadowgear,300000,PASS
+Second / Expanded,Spirit Handler / Summoner,Shadow Shoes,24411,S_DoramMagical_Shoes,Doram Magical Shadow Shoes,Shadowgear,300000,PASS
+Second / Expanded,Spirit Handler / Summoner,Shadow Shoes,24639,S_SavageRabbit_Shoes,Savage Rabbit Shadow Shoes,ShadowGear,300000,PASS
+Second / Expanded,Spirit Handler / Summoner,Shadow Shoes,24645,S_Silvervine_Shoes,Silvervine Shadow Shoes,ShadowGear,300000,PASS
+Second / Expanded,Spirit Handler / Summoner,Shadow Earring,24637,S_SavageRabbit_Earing,Savage Rabbit Shadow Earring,ShadowGear,300000,PASS
+Second / Expanded,Spirit Handler / Summoner,Shadow Earring,24643,S_Silvervine_Earing,Silvervine Shadow Earring,ShadowGear,300000,PASS
+Second / Expanded,Spirit Handler / Summoner,Shadow Pendant,24638,S_SavageRabbit_Pendant,Savage Rabbit Shadow Pendant,ShadowGear,300000,PASS
+Second / Expanded,Spirit Handler / Summoner,Shadow Pendant,24644,S_Silvervine_Pendant,Silvervine Shadow Pendant,ShadowGear,300000,PASS
+Second / Expanded,Soul Linker / Star Gladiator / Taekwon,Shadow Weapon,24284,S_Taekwon_Weapon,Taekwondo Shadow Weapon,Shadowgear,300000,PASS
+Second / Expanded,Soul Linker / Star Gladiator / Taekwon,Shadow Shield,24315,S_Taekwon_Shield,Taekwon Shadow Shield,Shadowgear,300000,PASS
+Second / Expanded,Star Gladiator,Shadow Weapon,24646,S_Sunshine_Weapon,Sunshine Shadow Weapon,ShadowGear,300000,PASS
+Second / Expanded,Star Gladiator,Shadow Weapon,24652,S_Stardust_Weapon,Stardust Shadow Weapon,ShadowGear,300000,PASS
+Second / Expanded,Star Gladiator,Shadow Shield,24647,S_Sunshine_Shield,Sunshine Shadow Shield,ShadowGear,300000,PASS
+Second / Expanded,Star Gladiator,Shadow Shield,24653,S_Stardust_Shield,Stardust Shadow Shield,ShadowGear,300000,PASS
+Second / Expanded,Star Gladiator,Shadow Armor,24648,S_Sunshine_Armor,Sunshine Shadow Armor,ShadowGear,300000,PASS
+Second / Expanded,Star Gladiator,Shadow Armor,24654,S_Stardust_Armor,Stardust Shadow Armor,ShadowGear,300000,PASS
+Second / Expanded,Star Gladiator,Shadow Shoes,24651,S_Moonlight_Shoes,Moonlight Shadow Shoes,ShadowGear,300000,PASS
+Second / Expanded,Star Gladiator,Shadow Earring,24649,S_Moonlight_Earring,Moonlight Shadow Earring,ShadowGear,300000,PASS
+Second / Expanded,Star Gladiator,Shadow Pendant,24650,S_Moonlight_Pendant,Moonlight Shadow Pendant,ShadowGear,300000,PASS
+Second / Expanded,Soul Linker,Shadow Weapon,24655,S_S_Weapon,Es Shadow Weapon,ShadowGear,300000,PASS
+Second / Expanded,Soul Linker,Shadow Shield,24656,S_S_Shield,Es Shadow Shield,ShadowGear,300000,PASS
+Second / Expanded,Soul Linker,Shadow Armor,24657,S_S_Armor,Es Shadow Armor,ShadowGear,300000,PASS
+Second / Expanded,Soul Linker,Shadow Shoes,24660,S_Evilcurse_Shoes,Evil Curse Shadow Shoes,ShadowGear,300000,PASS
+Second / Expanded,Soul Linker,Shadow Earring,24658,S_Evilcurse_Earring,Evil Curse Shadow Earring,ShadowGear,300000,PASS
+Second / Expanded,Soul Linker,Shadow Pendant,24659,S_Evilcurse_Pendant,Evil Curse Shadow Pendant,ShadowGear,300000,PASS
+Second / Expanded,Novice / Super Novice,Shadow Weapon,24282,S_SuperNovice_Weapon,Super Novice Shadow Weapon,Shadowgear,300000,PASS
+Second / Expanded,Novice / Super Novice,Shadow Weapon,24619,S_Super_Power_Weapon,Super Power Shadow Weapon,ShadowGear,300000,PASS
+Second / Expanded,Novice / Super Novice,Shadow Shield,24318,S_SuperNovice_Shield,Super Novice Shadow Shield,Shadowgear,300000,PASS
+Second / Expanded,Novice / Super Novice,Shadow Shield,24616,S_Super_Magic_Shield,Super Magic Shadow Shield,ShadowGear,300000,PASS
+Second / Expanded,Novice / Super Novice,Shadow Armor,24617,S_Super_Magic_Armor,Super Magic Shadow Armor,ShadowGear,300000,PASS
+Second / Expanded,Novice / Super Novice,Shadow Shoes,24618,S_Super_Magic_Shoes,Super Magic Shadow Shoes,ShadowGear,300000,PASS
+Second / Expanded,Novice / Super Novice,Shadow Earring,24621,S_Super_Power_Earing,Super Power Shadow Earring,ShadowGear,300000,PASS
+Second / Expanded,Novice / Super Novice,Shadow Pendant,24620,S_Super_Power_Pendant,Super Power Shadow Pendant,ShadowGear,300000,PASS
+Third / Advanced,Rune Knight,Shadow Weapon,24288,S_Runeknight_Weapon,Rune Knight Shadow Weapon,Shadowgear,300000,PASS
+Third / Advanced,Rune Knight,Shadow Weapon,24443,S_Ignition_Weapon,Ignition Shadow Weapon,Shadowgear,300000,PASS
+Third / Advanced,Rune Knight,Shadow Weapon,24449,S_F_Breath_Weapon,Fire Breath Shadow Weapon,Shadowgear,300000,PASS
+Third / Advanced,Rune Knight,Shadow Shield,24301,S_Runeknight_Shield,Rune Knight Shadow Shield,Shadowgear,300000,PASS
+Third / Advanced,Rune Knight,Shadow Shield,24441,S_Sonic_Shield,Sonic Shadow Shield,Shadowgear,300000,PASS
+Third / Advanced,Rune Knight,Shadow Shield,24447,S_W_Breath_Shield,Cold Breath Shadow Shield,Shadowgear,300000,PASS
+Third / Advanced,Rune Knight,Shadow Armor,24440,S_Sonic_Armor,Sonic Shadow Armor,Shadowgear,300000,PASS
+Third / Advanced,Rune Knight,Shadow Armor,24446,S_W_Breath_Armor,Cold Breath Shadow Armor,Shadowgear,300000,PASS
+Third / Advanced,Rune Knight,Shadow Shoes,24442,S_Sonic_Shoes,Sonic Shadow Shoes,Shadowgear,300000,PASS
+Third / Advanced,Rune Knight,Shadow Shoes,24448,S_W_Breath_Shoes,Cold Breath Shadow Shoes,Shadowgear,300000,PASS
+Third / Advanced,Rune Knight,Shadow Earring,24445,S_Ignition_Earing,Ignition Shadow Earring,Shadowgear,300000,PASS
+Third / Advanced,Rune Knight,Shadow Earring,24451,S_F_Breath_Earing,Fire Breath Shadow Earring,Shadowgear,300000,PASS
+Third / Advanced,Rune Knight,Shadow Pendant,24444,S_Ignition_Pendant,Ignition Shadow Pendant,Shadowgear,300000,PASS
+Third / Advanced,Rune Knight,Shadow Pendant,24450,S_F_Breath_Pendant,Fire Breath Shadow Pendant,Shadowgear,300000,PASS
+Third / Advanced,Royal Guard,Shadow Weapon,24289,S_Royalguard_Weapon,Royal Guard Shadow Weapon,Shadowgear,300000,PASS
+Third / Advanced,Royal Guard,Shadow Weapon,24575,S_Chain_Press_Weapon,Chain Press Shadow Weapon,ShadowGear,300000,PASS
+Third / Advanced,Royal Guard,Shadow Weapon,24581,S_Genesis_Weapon,Genesis Shadow Weapon,ShadowGear,300000,PASS
+Third / Advanced,Royal Guard,Shadow Shield,24302,S_Royalguard_Shield,Royal Guard Shadow Shield,Shadowgear,300000,PASS
+Third / Advanced,Royal Guard,Shadow Shield,24573,S_Brand_Shield,Brand Shadow Shield,ShadowGear,300000,PASS
+Third / Advanced,Royal Guard,Shadow Shield,24579,S_Banish_Cannon_Shield,Banishing Cannon Shadow Shield,ShadowGear,300000,PASS
+Third / Advanced,Royal Guard,Shadow Armor,24572,S_Brand_Armor,Brand Shadow Armor,ShadowGear,300000,PASS
+Third / Advanced,Royal Guard,Shadow Armor,24578,S_Banish_Cannon_Armor,Banishing Cannon Shadow Armor,ShadowGear,300000,PASS
+Third / Advanced,Royal Guard,Shadow Shoes,24574,S_Brand_Shoes,Brand Shadow Shoes,ShadowGear,300000,PASS
+Third / Advanced,Royal Guard,Shadow Shoes,24580,S_Banish_Cannon_Shoes,Banishing Cannon Shadow Shoes,ShadowGear,300000,PASS
+Third / Advanced,Royal Guard,Shadow Earring,24577,S_Chain_Press_Earing,Chain Press Shadow Earring,ShadowGear,300000,PASS
+Third / Advanced,Royal Guard,Shadow Earring,24583,S_Genesis_Earing,Genesis Shadow Earring,ShadowGear,300000,PASS
+Third / Advanced,Royal Guard,Shadow Pendant,24576,S_Chain_Press_Pendant,Chain Press Shadow Pendant,ShadowGear,300000,PASS
+Third / Advanced,Royal Guard,Shadow Pendant,24582,S_Genesis_Pendant,Genesis Shadow Pendant,ShadowGear,300000,PASS
+Third / Advanced,Guillotine Cross,Shadow Weapon,24294,S_Guillotine_Weapon,Guillotine Cross Shadow Weapon,Shadowgear,300000,PASS
+Third / Advanced,Guillotine Cross,Shadow Weapon,24539,S_Katar_Weapon,Katar Shadow Weapon,ShadowGear,300000,PASS
+Third / Advanced,Guillotine Cross,Shadow Weapon,24545,S_Ripper_Weapon,Ripper Slasher Shadow Weapon,ShadowGear,300000,PASS
+Third / Advanced,Guillotine Cross,Shadow Shield,24307,S_Guillotine_Shield,Guillotine Cross Shadow Shield,Shadowgear,300000,PASS
+Third / Advanced,Guillotine Cross,Shadow Shield,24537,S_Rolling_Shield,Rolling Shadow Shield,ShadowGear,300000,PASS
+Third / Advanced,Guillotine Cross,Shadow Shield,24543,S_Slash_Shield,Slash Shadow Shield,ShadowGear,300000,PASS
+Third / Advanced,Guillotine Cross,Shadow Armor,24536,S_Rolling_Armor,Rolling Shadow Armor,ShadowGear,300000,PASS
+Third / Advanced,Guillotine Cross,Shadow Armor,24542,S_Slash_Armor,Slash Shadow Armor,ShadowGear,300000,PASS
+Third / Advanced,Guillotine Cross,Shadow Shoes,24538,S_Rolling_Shoes,Rolling Shadow Shoes,ShadowGear,300000,PASS
+Third / Advanced,Guillotine Cross,Shadow Shoes,24544,S_Slash_Shoes,Slash Shadow Shoes,ShadowGear,300000,PASS
+Third / Advanced,Guillotine Cross,Shadow Earring,24541,S_Katar_Earing,Katar Shadow Earring,ShadowGear,300000,PASS
+Third / Advanced,Guillotine Cross,Shadow Earring,24547,S_Ripper_Earing,Ripper Slasher Shadow Earring,ShadowGear,300000,PASS
+Third / Advanced,Guillotine Cross,Shadow Pendant,24540,S_Katar_Pendant,Katar Shadow Pendant,ShadowGear,300000,PASS
+Third / Advanced,Guillotine Cross,Shadow Pendant,24546,S_Ripper_Pendant,Ripper Slasher Shadow Pendant,ShadowGear,300000,PASS
+Third / Advanced,Shadow Chaser,Shadow Weapon,24295,S_Shadowchaser_Weapon,Shadow Chaser Shadow Weapon,Shadowgear,300000,PASS
+Third / Advanced,Shadow Chaser,Shadow Weapon,24527,S_Shadowspell_Weapon,Shadowspell Shadow Weapon,ShadowGear,300000,PASS
+Third / Advanced,Shadow Chaser,Shadow Weapon,24533,S_Paint_Weapon,Paint Shadow Weapon,ShadowGear,300000,PASS
+Third / Advanced,Shadow Chaser,Shadow Shield,24308,S_Shadowchaser_Shield,Shadow Chaser Shadow Shield,Shadowgear,300000,PASS
+Third / Advanced,Shadow Chaser,Shadow Shield,24525,S_Triangle_Shield,Triangle Shadow Shield,ShadowGear,300000,PASS
+Third / Advanced,Shadow Chaser,Shadow Shield,24531,S_Menace_Shield,Menace Shadow Shield,ShadowGear,300000,PASS
+Third / Advanced,Shadow Chaser,Shadow Armor,24524,S_Triangle_Armor,Triangle Shadow Armor,ShadowGear,300000,PASS
+Third / Advanced,Shadow Chaser,Shadow Armor,24530,S_Menace_Armor,Menace Shadow Armor,ShadowGear,300000,PASS
+Third / Advanced,Shadow Chaser,Shadow Shoes,24526,S_Triangle_Shoes,Triangle Shadow Shoes,ShadowGear,300000,PASS
+Third / Advanced,Shadow Chaser,Shadow Shoes,24532,S_Menace_Shoes,Menace Shadow Shoes,ShadowGear,300000,PASS
+Third / Advanced,Shadow Chaser,Shadow Earring,24529,S_Shadowspell_Earing,Shadowspell Shadow Earring,ShadowGear,300000,PASS
+Third / Advanced,Shadow Chaser,Shadow Earring,24535,S_Paint_Earing,Paint Shadow Earring,ShadowGear,300000,PASS
+Third / Advanced,Shadow Chaser,Shadow Pendant,24528,S_Shadowspell_Pendant,Shadowspell Shadow Pendant,ShadowGear,300000,PASS
+Third / Advanced,Shadow Chaser,Shadow Pendant,24534,S_Paint_Pendant,Paint Shadow Pendant,ShadowGear,300000,PASS
+Third / Advanced,Arch Bishop,Shadow Weapon,24292,S_Archbishop_Weapon,Arch Bishop Shadow Weapon,Shadowgear,300000,PASS
+Third / Advanced,Arch Bishop,Shadow Weapon,24491,S_Adoramus_Weapon,Adora Shadow Weapon,ShadowGear,300000,PASS
+Third / Advanced,Arch Bishop,Shadow Weapon,24497,S_Magnus_Weapon,Magnus Shadow Weapon,ShadowGear,300000,PASS
+Third / Advanced,Arch Bishop,Shadow Shield,24305,S_Archbishop_Shield,Archbishop Shadow Shield,Shadowgear,300000,PASS
+Third / Advanced,Arch Bishop,Shadow Shield,24489,S_Duplelight_Shield,Duplex Shadow Shield,ShadowGear,300000,PASS
+Third / Advanced,Arch Bishop,Shadow Shield,24495,S_Judex_Shield,Judex Shadow Shield,ShadowGear,300000,PASS
+Third / Advanced,Arch Bishop,Shadow Armor,24488,S_Duplelight_Armor,Duplex Shadow Armor,ShadowGear,300000,PASS
+Third / Advanced,Arch Bishop,Shadow Armor,24494,S_Judex_Armor,Judex Shadow Armor,ShadowGear,300000,PASS
+Third / Advanced,Arch Bishop,Shadow Shoes,24490,S_Duplelight_Shoes,Duplex Shadow Shoes,ShadowGear,300000,PASS
+Third / Advanced,Arch Bishop,Shadow Shoes,24496,S_Judex_Shoes,Judex Shadow Shoes,ShadowGear,300000,PASS
+Third / Advanced,Arch Bishop,Shadow Earring,24493,S_Adoramus_Earing,Adora Shadow Earring,ShadowGear,300000,PASS
+Third / Advanced,Arch Bishop,Shadow Earring,24499,S_Magnus_Earing,Magnus Shadow Earring,ShadowGear,300000,PASS
+Third / Advanced,Arch Bishop,Shadow Pendant,24492,S_Adoramus_Pendant,Adora Shadow Pendant,ShadowGear,300000,PASS
+Third / Advanced,Arch Bishop,Shadow Pendant,24498,S_Magnus_Pendant,Magnus Shadow Pendant,ShadowGear,300000,PASS
+Third / Advanced,Sura,Shadow Weapon,24293,S_Sura_weapon,Sura Shadow Weapon,Shadowgear,300000,PASS
+Third / Advanced,Sura,Shadow Weapon,24479,S_Skynetblow_Weapon,Sky Blow Shadow Weapon,ShadowGear,300000,PASS
+Third / Advanced,Sura,Shadow Weapon,24485,S_TigerCannon_Weapon,Tiger Shadow Weapon,ShadowGear,300000,PASS
+Third / Advanced,Sura,Shadow Shield,24306,S_Sura_Shield,Sura Shadow Shield,Shadowgear,300000,PASS
+Third / Advanced,Sura,Shadow Shield,24477,S_Rampage_Shield,Rampage Shadow Shield,ShadowGear,300000,PASS
+Third / Advanced,Sura,Shadow Shield,24483,S_Knucklearrow_Shield,Knuckle Shadow Shield,ShadowGear,300000,PASS
+Third / Advanced,Sura,Shadow Armor,24476,S_Rampage_Armor,Rampage Shadow Armor,ShadowGear,300000,PASS
+Third / Advanced,Sura,Shadow Armor,24482,S_Knucklearrow_Armor,Knuckle Shadow Armor,ShadowGear,300000,PASS
+Third / Advanced,Sura,Shadow Shoes,24478,S_Rampage_Shoes,Rampage Shadow Shoes,ShadowGear,300000,PASS
+Third / Advanced,Sura,Shadow Shoes,24484,S_Knucklearrow_Shoes,Knuckle Shadow Shoes,ShadowGear,300000,PASS
+Third / Advanced,Sura,Shadow Earring,24481,S_Skynetblow_Earing,Sky Net Blow Shadow Earring,ShadowGear,300000,PASS
+Third / Advanced,Sura,Shadow Earring,24487,S_Tigercannon_Earing,Tiger Shadow Earring,ShadowGear,300000,PASS
+Third / Advanced,Sura,Shadow Pendant,24480,S_Skynetblow_Pendant,Sky Blow Shadow Pendant,ShadowGear,300000,PASS
+Third / Advanced,Sura,Shadow Pendant,24486,S_Tigercannon_Pendant,Tiger Shadow Pendant,ShadowGear,300000,PASS
+Third / Advanced,Mechanic,Shadow Weapon,24290,S_Mechanic_weapon,Mechanic Shadow Weapon,Shadowgear,300000,PASS
+Third / Advanced,Mechanic,Shadow Weapon,24467,S_Boomerang_Weapon,Boomerang Shadow Weapon,Shadowgear,300000,PASS
+Third / Advanced,Mechanic,Shadow Weapon,24473,S_Arms_Weapon,Arm Shadow Weapon,Shadowgear,300000,PASS
+Third / Advanced,Mechanic,Shadow Shield,24303,S_Mechanic_Shield,Mechanic Shadow Shield,Shadowgear,300000,PASS
+Third / Advanced,Mechanic,Shadow Shield,24465,S_Tornado_Shield,Tornado Shadow Shield,Shadowgear,300000,PASS
+Third / Advanced,Mechanic,Shadow Shield,24471,S_Vulcan_Shield,Vulcan Shadow Shield,Shadowgear,300000,PASS
+Third / Advanced,Mechanic,Shadow Armor,24464,S_Tornado_Armor,Tornado Shadow Armor,Shadowgear,300000,PASS
+Third / Advanced,Mechanic,Shadow Armor,24470,S_Vulcan_Armor,Vulcan Shadow Armor,Shadowgear,300000,PASS
+Third / Advanced,Mechanic,Shadow Shoes,24466,S_Tornado_Shoes,Tornado Shadow Shoes,Shadowgear,300000,PASS
+Third / Advanced,Mechanic,Shadow Shoes,24472,S_Vulcan_Shoes,Vulcan Shadow Shoes,Shadowgear,300000,PASS
+Third / Advanced,Mechanic,Shadow Earring,24469,S_Boomerang_Earing,Boomerang Shadow Earring,Shadowgear,300000,PASS
+Third / Advanced,Mechanic,Shadow Earring,24475,S_Arms_Earing,Arm Shadow Earring,Shadowgear,300000,PASS
+Third / Advanced,Mechanic,Shadow Pendant,24468,S_Boomerang_Pendant,Boomerang Shadow Pendant,Shadowgear,300000,PASS
+Third / Advanced,Mechanic,Shadow Pendant,24474,S_Arms_Pendant,Arm Shadow Pendant,Shadowgear,300000,PASS
+Third / Advanced,Genetic,Shadow Weapon,24291,S_Genetic_Weapon,Genetic Shadow Weapon,Shadowgear,300000,PASS
+Third / Advanced,Genetic,Shadow Weapon,24563,S_Cannon_Cart_Weapon,Cannon Cart Shadow Weapon,ShadowGear,300000,PASS
+Third / Advanced,Genetic,Shadow Weapon,24569,S_Crazy_Weapon,Crazy Shadow Weapon,ShadowGear,300000,PASS
+Third / Advanced,Genetic,Shadow Shield,24304,S_Genetic_Shield,Genetic Shadow Shield,Shadowgear,300000,PASS
+Third / Advanced,Genetic,Shadow Shield,24561,S_Cart_Tornado_Shield,Tornado Shadow Shield,ShadowGear,300000,PASS
+Third / Advanced,Genetic,Shadow Shield,24567,S_Spore_Bomb_Shield,Spore Bomb Shadow Shield,ShadowGear,300000,PASS
+Third / Advanced,Genetic,Shadow Armor,24560,S_Cart_Tornado_Armor,Tornado Shadow Armor,ShadowGear,300000,PASS
+Third / Advanced,Genetic,Shadow Armor,24566,S_Spore_Bomb_Armor,Spore Bomb Shadow Armor,ShadowGear,300000,PASS
+Third / Advanced,Genetic,Shadow Shoes,24562,S_Cart_Tornado_Shoes,Tornado Shadow Shoes,ShadowGear,300000,PASS
+Third / Advanced,Genetic,Shadow Shoes,24568,S_Spore_Bomb_Shoes,Spore Bomb Shadow Shoes,ShadowGear,300000,PASS
+Third / Advanced,Genetic,Shadow Earring,24565,S_Cannon_Cart_Earing,Cannon Cart Shadow Earring,ShadowGear,300000,PASS
+Third / Advanced,Genetic,Shadow Earring,24571,S_Crazy_Earing,Crazy Shadow Earring,ShadowGear,300000,PASS
+Third / Advanced,Genetic,Shadow Pendant,24564,S_Cannon_Cart_Pendant,Cannon Cart Shadow Pendant,ShadowGear,300000,PASS
+Third / Advanced,Genetic,Shadow Pendant,24570,S_Crazy_Pendant,Crazy Shadow Pendant,ShadowGear,300000,PASS
+Third / Advanced,Ranger,Shadow Weapon,24298,S_Ranger_Weapon,Ranger Shadow Weapon,Shadowgear,300000,PASS
+Third / Advanced,Ranger,Shadow Weapon,24455,S_Aimed_Weapon,Aimed Shadow Weapon,Shadowgear,300000,PASS
+Third / Advanced,Ranger,Shadow Weapon,24461,S_Shooting_Weapon,Shooting Shadow Weapon,Shadowgear,300000,PASS
+Third / Advanced,Ranger,Shadow Shield,24311,S_Ranger_Shield,Ranger Shadow Shield,Shadowgear,300000,PASS
+Third / Advanced,Ranger,Shadow Shield,24453,S_Cluster_Shield,Cluster Shadow Shield,Shadowgear,300000,PASS
+Third / Advanced,Ranger,Shadow Shield,24459,S_Arrow_Shield,Arrow Shadow Shield,Shadowgear,300000,PASS
+Third / Advanced,Ranger,Shadow Armor,24452,S_Cluster_Armor,Cluster Shadow Armor,Shadowgear,300000,PASS
+Third / Advanced,Ranger,Shadow Armor,24458,S_Arrow_Armor,Arrow Shadow Armor,Shadowgear,300000,PASS
+Third / Advanced,Ranger,Shadow Shoes,24454,S_Cluster_Shoes,Cluster Shadow Shoes,Shadowgear,300000,PASS
+Third / Advanced,Ranger,Shadow Shoes,24460,S_Arrow_Shoes,Arrow Shadow Shoes,Shadowgear,300000,PASS
+Third / Advanced,Ranger,Shadow Earring,24457,S_Aimed_Earing,Aimed Shadow Earring,Shadowgear,300000,PASS
+Third / Advanced,Ranger,Shadow Earring,24463,S_Shooting_Earing,Shooting Shadow Earring,Shadowgear,300000,PASS
+Third / Advanced,Ranger,Shadow Pendant,24456,S_Aimed_Pendant,Aimed Shadow Pendant,Shadowgear,300000,PASS
+Third / Advanced,Ranger,Shadow Pendant,24462,S_Shooting_Pendant,Shooting Shadow Pendant,Shadowgear,300000,PASS
+Third / Advanced,Minstrel / Wanderer,Shadow Weapon,24299,S_Minstrel_Weapon,Maestro Shadow Weapon,Shadowgear,300000,PASS
+Third / Advanced,Minstrel / Wanderer,Shadow Weapon,24300,S_Wanderer_Weapon,Wanderer Shadow Weapon,Shadowgear,300000,PASS
+Third / Advanced,Minstrel / Wanderer,Shadow Weapon,24503,S_Arrowvulcan_Weapon,Arrow Vulcan Shadow Weapon,ShadowGear,300000,PASS
+Third / Advanced,Minstrel / Wanderer,Shadow Weapon,24509,S_Reverberation_Weapon,Vibrating Shadow Weapon,ShadowGear,300000,PASS
+Third / Advanced,Minstrel / Wanderer,Shadow Shield,24312,S_Minstrel_Shield,Minstrel Shadow Shield,Shadowgear,300000,PASS
+Third / Advanced,Minstrel / Wanderer,Shadow Shield,24313,S_Wanderer_Shield,Wanderer Shadow Shield,Shadowgear,300000,PASS
+Third / Advanced,Minstrel / Wanderer,Shadow Shield,24501,S_Rainstorm_Shield,Rainstorm Shadow Shield,ShadowGear,300000,PASS
+Third / Advanced,Minstrel / Wanderer,Shadow Shield,24507,S_Metalic_Shield,Metallic Shadow Shield,ShadowGear,300000,PASS
+Third / Advanced,Minstrel / Wanderer,Shadow Armor,24500,S_Rainstorm_Armor,Rainstorm Shadow Armor,ShadowGear,300000,PASS
+Third / Advanced,Minstrel / Wanderer,Shadow Armor,24506,S_Metalic_Armor,Metallic Shadow Armor,ShadowGear,300000,PASS
+Third / Advanced,Minstrel / Wanderer,Shadow Shoes,24502,S_Rainstorm_Shoes,Rainstorm Shadow Shoes,ShadowGear,300000,PASS
+Third / Advanced,Minstrel / Wanderer,Shadow Shoes,24508,S_Metalic_Shoes,Metallic Shadow Shoes,ShadowGear,300000,PASS
+Third / Advanced,Minstrel / Wanderer,Shadow Earring,24505,S_Arrowvulcan_Earing,Arrow Vulcan Shadow Earring,ShadowGear,300000,PASS
+Third / Advanced,Minstrel / Wanderer,Shadow Earring,24511,S_Reverberation_Earing,Vibration Shadow Earring,ShadowGear,300000,PASS
+Third / Advanced,Minstrel / Wanderer,Shadow Pendant,24504,S_Arrowvulcan_Pendant,Arrow Vulcan Shadow Pendant,ShadowGear,300000,PASS
+Third / Advanced,Minstrel / Wanderer,Shadow Pendant,24510,S_Reverberation_Pendant,Vibration Shadow Pendant,ShadowGear,300000,PASS
+Third / Advanced,Warlock,Shadow Weapon,24296,S_Warlock_Weapon,Warlock Shadow Weapon,Shadowgear,300000,PASS
+Third / Advanced,Warlock,Shadow Weapon,24515,S_Strain_Weapon,Strain Shadow Weapon,ShadowGear,300000,PASS
+Third / Advanced,Warlock,Shadow Weapon,24521,S_Chain_Weapon,Chain Shadow Weapon,ShadowGear,300000,PASS
+Third / Advanced,Warlock,Shadow Shield,24309,S_Warlock_Shield,Warlock Shadow Shield,Shadowgear,300000,PASS
+Third / Advanced,Warlock,Shadow Shield,24513,S_Jack_Shield,Jack Shadow Shield,ShadowGear,300000,PASS
+Third / Advanced,Warlock,Shadow Shield,24519,S_Crimson_Shield,Crimson Shadow Shield,ShadowGear,300000,PASS
+Third / Advanced,Warlock,Shadow Armor,24512,S_Jack_Armor,Jack Shadow Armor,ShadowGear,300000,PASS
+Third / Advanced,Warlock,Shadow Armor,24518,S_Crimson_Armor,Crimson Shadow Armor,ShadowGear,300000,PASS
+Third / Advanced,Warlock,Shadow Shoes,24514,S_Jack_Shoes,Jack Shadow Shoes,ShadowGear,300000,PASS
+Third / Advanced,Warlock,Shadow Shoes,24520,S_Crimson_Shoes,Crimson Shadow Shoes,ShadowGear,300000,PASS
+Third / Advanced,Warlock,Shadow Earring,24517,S_Strain_Earing,Strain Shadow Earring,ShadowGear,300000,PASS
+Third / Advanced,Warlock,Shadow Earring,24523,S_Chain_Earing,Chain Shadow Earring,ShadowGear,300000,PASS
+Third / Advanced,Warlock,Shadow Pendant,24516,S_Strain_Pendant,Strain Shadow Pendant,ShadowGear,300000,PASS
+Third / Advanced,Warlock,Shadow Pendant,24522,S_Chain_Pendant,Chain Shadow Pendant,ShadowGear,300000,PASS
+Third / Advanced,Sorcerer,Shadow Weapon,24297,S_Sorcerer_Weapon,Sorcerer Shadow Weapon,Shadowgear,300000,PASS
+Third / Advanced,Sorcerer,Shadow Weapon,24551,S_Grave_Weapon,Grave Shadow Weapon,ShadowGear,300000,PASS
+Third / Advanced,Sorcerer,Shadow Weapon,24557,S_Varetyr_Weapon,Varetyr Shadow Weapon,ShadowGear,300000,PASS
+Third / Advanced,Sorcerer,Shadow Shield,24310,S_Sorcerer_Shield,Sorcerer Shadow Shield,Shadowgear,300000,PASS
+Third / Advanced,Sorcerer,Shadow Shield,24549,S_Dust_Shield,Dust Shadow Shield,ShadowGear,300000,PASS
+Third / Advanced,Sorcerer,Shadow Shield,24555,S_Psychic_Shield,Psychic Shadow Shield,ShadowGear,300000,PASS
+Third / Advanced,Sorcerer,Shadow Armor,24548,S_Dust_Armor,Dust Shadow Armor,ShadowGear,300000,PASS
+Third / Advanced,Sorcerer,Shadow Armor,24554,S_Psychic_Armor,Psychic Shadow Armor,ShadowGear,300000,PASS
+Third / Advanced,Sorcerer,Shadow Shoes,24550,S_Dust_Shoes,Dust Shadow Shoes,ShadowGear,300000,PASS
+Third / Advanced,Sorcerer,Shadow Shoes,24556,S_Psychic_Shoes,Psychic Shadow Shoes,ShadowGear,300000,PASS
+Third / Advanced,Sorcerer,Shadow Earring,24553,S_Grave_Earing,Grave Shadow Earring,ShadowGear,300000,PASS
+Third / Advanced,Sorcerer,Shadow Earring,24559,S_Varetyr_Earing,Varetyr Shadow Earring,ShadowGear,300000,PASS
+Third / Advanced,Sorcerer,Shadow Pendant,24552,S_Grave_Pendant,Grave Shadow Pendant,ShadowGear,300000,PASS
+Third / Advanced,Sorcerer,Shadow Pendant,24558,S_Varetyr_Pendant,Varetyr Shadow Pendant,ShadowGear,300000,PASS
+Third / Advanced,Night Watch,Shadow Armor,24848,S_NW_Armor,M. Night Watch Shadow Armor,ShadowGear,300000,PASS
+Third / Advanced,Night Watch,Shadow Armor,24928,S_NW_WB_Armor,Wild Bullet Shadow Armor,ShadowGear,300000,PASS
+Third / Advanced,Night Watch,Shadow Armor,1270140,S_NW_NF_Armor,Night Fire Shadow Armor,ShadowGear,300000,PASS
+Third / Advanced,Night Watch,Shadow Shoes,24849,S_NW_Shoes,M. Night Watch Shadow Shoes,ShadowGear,300000,PASS
+Third / Advanced,Night Watch,Shadow Shoes,24929,S_NW_WB_Shoes,Wild Bullet Shadow Shoes,ShadowGear,300000,PASS
+Third / Advanced,Night Watch,Shadow Shoes,1270141,S_NW_NF_Shoes,Night Fire Shadow Shoes,ShadowGear,300000,PASS
+Third / Advanced,Night Watch,Shadow Earring,24850,S_NW_Earring,M. Night Watch Shadow Earring,ShadowGear,300000,PASS
+Third / Advanced,Night Watch,Shadow Earring,24926,S_NW_SO_Earring,Spiral One Shadow Earring,ShadowGear,300000,PASS
+Third / Advanced,Night Watch,Shadow Earring,1270138,S_NW_MS_Earring,Midnight Shooting Shadow Earring,ShadowGear,300000,PASS
+Third / Advanced,Night Watch,Shadow Pendant,24851,S_NW_Pendant,M. Night Watch Shadow Pendant,ShadowGear,300000,PASS
+Third / Advanced,Night Watch,Shadow Pendant,24927,S_NW_SO_Pendant,Spiral One Shadow Pendant,ShadowGear,300000,PASS
+Third / Advanced,Night Watch,Shadow Pendant,1270139,S_NW_MS_Pendant,Midnight Shooting Shadow Pendant,ShadowGear,300000,PASS
+Third / Advanced,Shinkiro / Shiranui,Shadow Armor,24856,S_SS_Armor,M. Shinkiro & Shiranui Shadow Armor,ShadowGear,300000,PASS
+Third / Advanced,Shinkiro / Shiranui,Shadow Armor,24916,S_SS_KR_Armor,Golden Blooded Cannon Shadow Armor,ShadowGear,300000,PASS
+Third / Advanced,Shinkiro / Shiranui,Shadow Armor,1270125,S_SS_KF_Armor,Kunai Shuriken Shadow Armor,ShadowGear,300000,PASS
+Third / Advanced,Shinkiro / Shiranui,Shadow Shoes,24857,S_SS_Shoes,M. Shinkiro & Shiranui Shadow Shoes,ShadowGear,300000,PASS
+Third / Advanced,Shinkiro / Shiranui,Shadow Shoes,24917,S_SS_KR_Shoes,Golden Blooded Cannon Shadow Shoes,ShadowGear,300000,PASS
+Third / Advanced,Shinkiro / Shiranui,Shadow Shoes,1270126,S_SS_KF_Shoes,Kunai Shuriken Shadow Shoes,ShadowGear,300000,PASS
+Third / Advanced,Shinkiro / Shiranui,Shadow Earring,24858,S_SS_Earring,M. Shinkiro & Shiranui Shadow Earring,ShadowGear,300000,PASS
+Third / Advanced,Shinkiro / Shiranui,Shadow Earring,24914,S_SS_SR_Earring,Red Thunder Cannon Shadow Earring,ShadowGear,300000,PASS
+Third / Advanced,Shinkiro / Shiranui,Shadow Earring,1270123,S_SS_KK_Earring,Shadow Dance Shadow Earring,ShadowGear,300000,PASS
+Third / Advanced,Shinkiro / Shiranui,Shadow Pendant,24859,S_SS_Pendant,M. Shinkiro & Shiranui Shadow Pendant,ShadowGear,300000,PASS
+Third / Advanced,Shinkiro / Shiranui,Shadow Pendant,24915,S_SS_SR_Pendant,Red Thunder Cannon Shadow Pendant,ShadowGear,300000,PASS
+Third / Advanced,Shinkiro / Shiranui,Shadow Pendant,1270124,S_SS_KK_Pendant,Shadow Dance Shadow Pendant,ShadowGear,300000,PASS
+Third / Advanced,Star Gladiator,Shadow Armor,24412,S_Star_Emperor_Armor,Star Emperor Shadow Armor,Shadowgear,300000,PASS
+Third / Advanced,Star Gladiator,Shadow Shoes,24413,S_Star_Emperor_Shoes,Star Emperor Shadow Shoes,Shadowgear,300000,PASS
+Third / Advanced,Soul Linker,Shadow Armor,24414,S_Soul_Reaper_Armor,Soul Reaper Shadow Armor,Shadowgear,300000,PASS
+Third / Advanced,Soul Linker,Shadow Shoes,24415,S_Soul_Reaper_Shoes,Soul Reaper Shadow Shoes,Shadowgear,300000,PASS
+Fourth,Dragon Knight,Shadow Armor,24800,S_DK_Armor,M. Dragon Knight Shadow Armor,ShadowGear,300000,PASS
+Fourth,Dragon Knight,Shadow Armor,24920,S_DK_HS_Armor,Hack Slasher Shadow Armor,ShadowGear,300000,PASS
+Fourth,Dragon Knight,Shadow Armor,1270025,S_DK_MB_Armor,Madness Breath Shadow Armor,ShadowGear,300000,PASS
+Fourth,Dragon Knight,Shadow Shoes,24801,S_DK_Shoes,M. Dragon Knight Shadow Shoes,ShadowGear,300000,PASS
+Fourth,Dragon Knight,Shadow Shoes,24921,S_DK_HS_Shoes,Hack Slasher Shadow Shoes,ShadowGear,300000,PASS
+Fourth,Dragon Knight,Shadow Shoes,1270026,S_DK_MB_Shoes,Madness Breath Shadow Shoes,ShadowGear,300000,PASS
+Fourth,Dragon Knight,Shadow Earring,24802,S_DK_Earring,M. Dragon Knight Shadow Earring,ShadowGear,300000,PASS
+Fourth,Dragon Knight,Shadow Earring,24918,S_DK_SS_Earring,Storm Servant Shadow Earring,ShadowGear,300000,PASS
+Fourth,Dragon Knight,Shadow Earring,1270023,S_DK_DS_Earring,Dragonic Spear Shadow Earring,ShadowGear,300000,PASS
+Fourth,Dragon Knight,Shadow Pendant,24803,S_DK_Pendant,M. Dragon Knight Shadow Pendant,ShadowGear,300000,PASS
+Fourth,Dragon Knight,Shadow Pendant,24919,S_DK_SS_Pendant,Storm Servant Shadow Pendant,ShadowGear,300000,PASS
+Fourth,Dragon Knight,Shadow Pendant,1270024,S_DK_DS_Pendant,Dragonic Spear Shadow Pendant,ShadowGear,300000,PASS
+Fourth,Imperial Guard,Shadow Armor,24804,S_IG_Armor,M. Imperial Guard Shadow Armor,ShadowGear,300000,PASS
+Fourth,Imperial Guard,Shadow Armor,24950,S_IG_RF_Armor,Rain Pressure Shadow Armor,ShadowGear,300000,PASS
+Fourth,Imperial Guard,Shadow Armor,1270041,S_IG_SS_Armor,Shield Shooter Shadow Armor,ShadowGear,300000,PASS
+Fourth,Imperial Guard,Shadow Shoes,24805,S_IG_Shoes,M. Imperial Guard Shadow Shoes,ShadowGear,300000,PASS
+Fourth,Imperial Guard,Shadow Shoes,24951,S_IG_RF_Shoes,Rain Pressure Shadow Shoes,ShadowGear,300000,PASS
+Fourth,Imperial Guard,Shadow Shoes,1270042,S_IG_SS_Shoes,Shield Shooter Shadow Shoes,ShadowGear,300000,PASS
+Fourth,Imperial Guard,Shadow Earring,24806,S_IG_Earring,M. Imperial Guard Shadow Earring,ShadowGear,300000,PASS
+Fourth,Imperial Guard,Shadow Earring,24948,S_IG_OC_Earring,Over Cross Shadow Earring,ShadowGear,300000,PASS
+Fourth,Imperial Guard,Shadow Earring,1270039,S_IG_RS_Earring,Radiant Shadow Earring,ShadowGear,300000,PASS
+Fourth,Imperial Guard,Shadow Pendant,24807,S_IG_Pendant,M. Imperial Guard Shadow Pendant,ShadowGear,300000,PASS
+Fourth,Imperial Guard,Shadow Pendant,24949,S_IG_OC_Pendant,Over Cross Shadow Pendant,ShadowGear,300000,PASS
+Fourth,Imperial Guard,Shadow Pendant,1270040,S_IG_RS_Pendant,Radiant Shadow Pendant,ShadowGear,300000,PASS
+Fourth,Shadow Cross,Shadow Armor,24808,S_SHC_Armor,M. Shadow Cross Shadow Armor,ShadowGear,300000,PASS
+Fourth,Shadow Cross,Shadow Armor,24908,S_SHC_SI_Armor,Savage Shadow Armor,ShadowGear,300000,PASS
+Fourth,Shadow Cross,Shadow Armor,1270081,S_SHC_ST_Armor,Stab Shadow Armor,ShadowGear,300000,PASS
+Fourth,Shadow Cross,Shadow Shoes,24809,S_SHC_Shoes,M. Shadow Cross Shadow Shoes,ShadowGear,300000,PASS
+Fourth,Shadow Cross,Shadow Shoes,24909,S_SHC_SI_Shoes,Savage Shadow Shoes,ShadowGear,300000,PASS
+Fourth,Shadow Cross,Shadow Shoes,1270082,S_SHC_ST_Shoes,Stab Shadow Shoes,ShadowGear,300000,PASS
+Fourth,Shadow Cross,Shadow Earring,24810,S_SHC_Earring,M. Shadow Cross Shadow Earring,ShadowGear,300000,PASS
+Fourth,Shadow Cross,Shadow Earring,24906,S_SHC_EC_Earring,Eternal Cross Shadow Earring,ShadowGear,300000,PASS
+Fourth,Shadow Cross,Shadow Earring,1270079,S_SHC_CR_Earring,Crater Shadow Earring,ShadowGear,300000,PASS
+Fourth,Shadow Cross,Shadow Pendant,24811,S_SHC_Pendant,M. Shadow Cross Shadow Pendant,ShadowGear,300000,PASS
+Fourth,Shadow Cross,Shadow Pendant,24907,S_SHC_EC_Pendant,Eternal Cross Shadow Pendant,ShadowGear,300000,PASS
+Fourth,Shadow Cross,Shadow Pendant,1270080,S_SHC_CR_Pendant,Crater Shadow Pendant,ShadowGear,300000,PASS
+Fourth,Abyss Chaser,Shadow Armor,24812,S_ABC_Armor,M. Abyss Chaser Shadow Armor,ShadowGear,300000,PASS
+Fourth,Abyss Chaser,Shadow Armor,24985,S_ABC_FA_Armor,From Abyss Shadow Armor,ShadowGear,300000,PASS
+Fourth,Abyss Chaser,Shadow Armor,1270097,S_ABC_FR_Armor,Frenzy Reaction Shot Shadow Armor,ShadowGear,300000,PASS
+Fourth,Abyss Chaser,Shadow Shoes,24813,S_ABC_Shoes,M. Abyss Chaser Shadow Shoes,ShadowGear,300000,PASS
+Fourth,Abyss Chaser,Shadow Shoes,24986,S_ABC_FA_Shoes,From Abyss Shadow Shoes,ShadowGear,300000,PASS
+Fourth,Abyss Chaser,Shadow Shoes,1270098,S_ABC_FR_Shoes,Frenzy Reaction Shot Shadow Shoes,ShadowGear,300000,PASS
+Fourth,Abyss Chaser,Shadow Earring,24814,S_ABC_Earring,M. Abyss Chaser Shadow Earring,ShadowGear,300000,PASS
+Fourth,Abyss Chaser,Shadow Earring,24983,S_ABC_AF_Earring,Abyss Flame Shadow Earring,ShadowGear,300000,PASS
+Fourth,Abyss Chaser,Shadow Earring,1270095,S_ABC_DB_Earring,Deft Breaker Shadow Earring,ShadowGear,300000,PASS
+Fourth,Abyss Chaser,Shadow Pendant,24815,S_ABC_Pendant,M. Abyss Chaser Shadow Pendant,ShadowGear,300000,PASS
+Fourth,Abyss Chaser,Shadow Pendant,24984,S_ABC_AF_Pendant,Abyss Flame Shadow Pendant,ShadowGear,300000,PASS
+Fourth,Abyss Chaser,Shadow Pendant,1270096,S_ABC_DB_Pendant,Deft Breaker Shadow Pendant,ShadowGear,300000,PASS
+Fourth,Cardinal,Shadow Armor,24816,S_CD_Armor,M. Cardinal Shadow Armor,ShadowGear,300000,PASS
+Fourth,Cardinal,Shadow Armor,24969,S_CD_DF_Armor,Divinus Shadow Armor,ShadowGear,300000,PASS
+Fourth,Cardinal,Shadow Armor,1270117,S_CD_EP_Armor,Effltio Shadow Armor,ShadowGear,300000,PASS
+Fourth,Cardinal,Shadow Shoes,24817,S_CD_Shoes,M. Cardinal Shadow Shoes,ShadowGear,300000,PASS
+Fourth,Cardinal,Shadow Shoes,24970,S_CD_DF_Shoes,Divinus Shadow Shoes,ShadowGear,300000,PASS
+Fourth,Cardinal,Shadow Shoes,1270118,S_CD_EP_Shoes,Effltio Shadow Shoes,ShadowGear,300000,PASS
+Fourth,Cardinal,Shadow Earring,24818,S_CD_Earring,M. Cardinal Shadow Earring,ShadowGear,300000,PASS
+Fourth,Cardinal,Shadow Earring,24967,S_CD_AR_Earring,Arbit Shadow Earring,ShadowGear,300000,PASS
+Fourth,Cardinal,Shadow Earring,1270115,S_CD_FP_Earring,Fracella Shadow Earring,ShadowGear,300000,PASS
+Fourth,Cardinal,Shadow Pendant,24819,S_CD_Pendant,M. Cardinal Shadow Pendant,ShadowGear,300000,PASS
+Fourth,Cardinal,Shadow Pendant,24968,S_CD_AR_Pendant,Arbit Shadow Pendant,ShadowGear,300000,PASS
+Fourth,Cardinal,Shadow Pendant,1270116,S_CD_FP_Pendant,Fracella Shadow Pendant,ShadowGear,300000,PASS
+Fourth,Inquisitor,Shadow Armor,24820,S_IQ_Armor,M. Inquisitor Shadow Armor,ShadowGear,300000,PASS
+Fourth,Inquisitor,Shadow Armor,24954,S_IQ_BFB_Armor,Blazing Flame Blast Shadow Armor,ShadowGear,300000,PASS
+Fourth,Inquisitor,Shadow Armor,1270085,S_IQ_FB_Armor,Flame Bomb Shadow Armor,ShadowGear,300000,PASS
+Fourth,Inquisitor,Shadow Shoes,24821,S_IQ_Shoes,M. Inquisitor Shadow Shoes,ShadowGear,300000,PASS
+Fourth,Inquisitor,Shadow Shoes,24955,S_IQ_BFB_Shoes,Blazing Flame Blast Shadow Shoes,ShadowGear,300000,PASS
+Fourth,Inquisitor,Shadow Shoes,1270086,S_IQ_FB_Shoes,Flame Bomb Shadow Shoes,ShadowGear,300000,PASS
+Fourth,Inquisitor,Shadow Earring,24822,S_IQ_Earring,M. Inquisitor Shadow Earring,ShadowGear,300000,PASS
+Fourth,Inquisitor,Shadow Earring,24952,S_IQ_EB_Earring,Explosion Shadow Earring,ShadowGear,300000,PASS
+Fourth,Inquisitor,Shadow Earring,1270083,S_IQ_TP_Earring,Punish Shadow Earring,ShadowGear,300000,PASS
+Fourth,Inquisitor,Shadow Pendant,24823,S_IQ_Pendant,M. Inquisitor Shadow Pendant,ShadowGear,300000,PASS
+Fourth,Inquisitor,Shadow Pendant,24953,S_IQ_EB_Pendant,Explosion Shadow Pendant,ShadowGear,300000,PASS
+Fourth,Inquisitor,Shadow Pendant,1270084,S_IQ_TP_Pendant,Punish Shadow Pendant,ShadowGear,300000,PASS
+Fourth,Meister,Shadow Armor,24824,S_MT_Armor,M. Meister Shadow Armor,ShadowGear,300000,PASS
+Fourth,Meister,Shadow Armor,24938,S_MT_PR_Armor,Powerful Rush Shadow Armor,ShadowGear,300000,PASS
+Fourth,Meister,Shadow Armor,1270037,S_MT_SC_Armor,Spark Cannonade Shadow Armor,ShadowGear,300000,PASS
+Fourth,Meister,Shadow Shoes,24825,S_MT_Shoes,M. Meister Shadow Shoes,ShadowGear,300000,PASS
+Fourth,Meister,Shadow Shoes,24939,S_MT_PR_Shoes,Powerful Rush Shadow Shoes,ShadowGear,300000,PASS
+Fourth,Meister,Shadow Shoes,1270038,S_MT_SC_Shoes,Spark Cannonade Shadow Shoes,ShadowGear,300000,PASS
+Fourth,Meister,Shadow Earring,24826,S_MT_Earring,M. Meister Shadow Earring,ShadowGear,300000,PASS
+Fourth,Meister,Shadow Earring,24936,S_MT_MS_Earring,Mighty Stomp Shadow Earring,ShadowGear,300000,PASS
+Fourth,Meister,Shadow Earring,1270035,S_MT_TL_Earring,Triple Shadow Earring,ShadowGear,300000,PASS
+Fourth,Meister,Shadow Pendant,24827,S_MT_Pendant,M. Meister Shadow Pendant,ShadowGear,300000,PASS
+Fourth,Meister,Shadow Pendant,24937,S_MT_MS_Pendant,Mighty Stomp Shadow Pendant,ShadowGear,300000,PASS
+Fourth,Meister,Shadow Pendant,1270036,S_MT_TL_Pendant,Triple Shadow Pendant,ShadowGear,300000,PASS
+Fourth,Biolo,Shadow Armor,24828,S_BO_Armor,M. Biolo Shadow Armor,ShadowGear,300000,PASS
+Fourth,Biolo,Shadow Armor,24942,S_BO_MD_Armor,Mystery Dust Shadow Armor,ShadowGear,300000,PASS
+Fourth,Biolo,Shadow Armor,1270029,S_BO_TH_Armor,Thorns Shadow Armor,ShadowGear,300000,PASS
+Fourth,Biolo,Shadow Shoes,24829,S_BO_Shoes,M. Biolo Shadow Shoes,ShadowGear,300000,PASS
+Fourth,Biolo,Shadow Shoes,24943,S_BO_MD_Shoes,Mystery Dust Shadow Shoes,ShadowGear,300000,PASS
+Fourth,Biolo,Shadow Shoes,1270030,S_BO_TH_Shoes,Thorns Shadow Shoes,ShadowGear,300000,PASS
+Fourth,Biolo,Shadow Earring,24830,S_BO_Earring,M. Biolo Shadow Earring,ShadowGear,300000,PASS
+Fourth,Biolo,Shadow Earring,24940,S_BO_EP_Earring,Explosive Shadow Earring,ShadowGear,300000,PASS
+Fourth,Biolo,Shadow Earring,1270027,S_BO_AC_Earring,Acidified Shadow Earring,ShadowGear,300000,PASS
+Fourth,Biolo,Shadow Pendant,24831,S_BO_Pendant,M. Biolo Shadow Pendant,ShadowGear,300000,PASS
+Fourth,Biolo,Shadow Pendant,24941,S_BO_EP_Pendant,Explosive Shadow Pendant,ShadowGear,300000,PASS
+Fourth,Biolo,Shadow Pendant,1270028,S_BO_AC_Pendant,Acidified Shadow Pendant,ShadowGear,300000,PASS
+Fourth,Windhawk,Shadow Armor,24832,S_WH_Armor,M. Windhawk Shadow Armor,ShadowGear,300000,PASS
+Fourth,Windhawk,Shadow Armor,24912,S_WH_CB_Armor,Crescive Shadow Armor,ShadowGear,300000,PASS
+Fourth,Windhawk,Shadow Armor,1270132,S_WH_AT_Armor,Advanced Trap Shadow Armor,ShadowGear,300000,PASS
+Fourth,Windhawk,Shadow Shoes,24833,S_WH_Shoes,M. Windhawk Shadow Shoes,ShadowGear,300000,PASS
+Fourth,Windhawk,Shadow Shoes,24913,S_WH_CB_Shoes,Crescive Shadow Shoes,ShadowGear,300000,PASS
+Fourth,Windhawk,Shadow Shoes,1270133,S_WH_AT_Shoes,Advanced Trap Shadow Shoes,ShadowGear,300000,PASS
+Fourth,Windhawk,Shadow Earring,24834,S_WH_Earring,M. Windhawk Shadow Earring,ShadowGear,300000,PASS
+Fourth,Windhawk,Shadow Earring,24910,S_WH_GS_Earring,Gale Shadow Earring,ShadowGear,300000,PASS
+Fourth,Windhawk,Shadow Earring,1270130,S_WH_WH_Earring,Wild Hawk Shadow Earring,ShadowGear,300000,PASS
+Fourth,Windhawk,Shadow Pendant,24835,S_WH_Pendant,M. Windhawk Shadow Pendant,ShadowGear,300000,PASS
+Fourth,Windhawk,Shadow Pendant,24911,S_WH_GS_Pendant,Gale Shadow Pendant,ShadowGear,300000,PASS
+Fourth,Windhawk,Shadow Pendant,1270131,S_WH_WH_Pendant,Wild Hawk Shadow Pendant,ShadowGear,300000,PASS
+Fourth,Troubadour / Trouvere,Shadow Armor,24836,S_TR_Armor,M. Troubadour & Trouvere Shadow Armor,ShadowGear,300000,PASS
+Fourth,Troubadour / Trouvere,Shadow Armor,24924,S_TR_MF_Armor,Metallic Fury Shadow Armor,ShadowGear,300000,PASS
+Fourth,Troubadour / Trouvere,Shadow Armor,1270136,S_TR_RB_Armor,Blossom Shadow Armor,ShadowGear,300000,PASS
+Fourth,Troubadour / Trouvere,Shadow Shoes,24837,S_TR_Shoes,M. Troubadour & Trouvere Shadow Shoes,ShadowGear,300000,PASS
+Fourth,Troubadour / Trouvere,Shadow Shoes,24925,S_TR_MF_Shoes,Metallic Fury Shadow Shoes,ShadowGear,300000,PASS
+Fourth,Troubadour / Trouvere,Shadow Shoes,1270137,S_TR_RB_Shoes,Blossom Shadow Shoes,ShadowGear,300000,PASS
+Fourth,Troubadour / Trouvere,Shadow Earring,24838,S_TR_Earring,M. Troubadour & Trouvere Shadow Earring,ShadowGear,300000,PASS
+Fourth,Troubadour / Trouvere,Shadow Earring,24922,S_TR_RW_Earring,Rhythmical Shadow Earring,ShadowGear,300000,PASS
+Fourth,Troubadour / Trouvere,Shadow Earring,1270134,S_TR_MS_Earring,Musical Shooting Shadow Earring,ShadowGear,300000,PASS
+Fourth,Troubadour / Trouvere,Shadow Pendant,24839,S_TR_Pendant,M. Troubadour & Trouvere Shadow Pendant,ShadowGear,300000,PASS
+Fourth,Troubadour / Trouvere,Shadow Pendant,24923,S_TR_RW_Pendant,Rhythmical Shadow Pendant,ShadowGear,300000,PASS
+Fourth,Troubadour / Trouvere,Shadow Pendant,1270135,S_TR_MS_Pendant,Musical Shooting Shadow Pendant,ShadowGear,300000,PASS
+Fourth,Arch Mage,Shadow Armor,24840,S_AG_Armor,M. Arch Mage Shadow Armor,ShadowGear,300000,PASS
+Fourth,Arch Mage,Shadow Armor,24973,S_AG_SH_Armor,Storm Hurricane Shadow Armor,ShadowGear,300000,PASS
+Fourth,Arch Mage,Shadow Armor,1270093,S_AG_VST_Armor,Violent Soul Tremor Shadow Armor,ShadowGear,300000,PASS
+Fourth,Arch Mage,Shadow Shoes,24841,S_AG_Shoes,M. Arch Mage Shadow Shoes,ShadowGear,300000,PASS
+Fourth,Arch Mage,Shadow Shoes,24974,S_AG_SH_Shoes,Storm Hurricane Shadow Shoes,ShadowGear,300000,PASS
+Fourth,Arch Mage,Shadow Shoes,1270094,S_AG_VST_Shoes,Violent Soul Tremor Shadow Shoes,ShadowGear,300000,PASS
+Fourth,Arch Mage,Shadow Earring,24842,S_AG_Earring,M. Arch Mage Shadow Earring,ShadowGear,300000,PASS
+Fourth,Arch Mage,Shadow Earring,24971,S_AG_FB_Earring,Flare Bloom Shadow Earring,ShadowGear,300000,PASS
+Fourth,Arch Mage,Shadow Earring,1270091,S_AG_CI_Earring,Crystal Illusion Shadow Earring,ShadowGear,300000,PASS
+Fourth,Arch Mage,Shadow Pendant,24843,S_AG_Pendant,M. Arch Mage Shadow Pendant,ShadowGear,300000,PASS
+Fourth,Arch Mage,Shadow Pendant,24972,S_AG_FB_Pendant,Flare Bloom Shadow Pendant,ShadowGear,300000,PASS
+Fourth,Arch Mage,Shadow Pendant,1270092,S_AG_CI_Pendant,Crystal Illusion Shadow Pendant,ShadowGear,300000,PASS
+Fourth,Elemental Master,Shadow Armor,24844,S_EM_Armor,M. Elemental Master Shadow Armor,ShadowGear,300000,PASS
+Fourth,Elemental Master,Shadow Armor,24981,S_EM_LS_Armor,Lightning Swamp Shadow Armor,ShadowGear,300000,PASS
+Fourth,Elemental Master,Shadow Armor,1270121,S_EM_TP_Armor,Terra Stream Shadow Armor,ShadowGear,300000,PASS
+Fourth,Elemental Master,Shadow Shoes,24845,S_EM_Shoes,M. Elemental Master Shadow Shoes,ShadowGear,300000,PASS
+Fourth,Elemental Master,Shadow Shoes,24982,S_EM_LS_Shoes,Lightning Swamp Shadow Shoes,ShadowGear,300000,PASS
+Fourth,Elemental Master,Shadow Shoes,1270122,S_EM_TP_Shoes,Terra Stream Shadow Shoes,ShadowGear,300000,PASS
+Fourth,Elemental Master,Shadow Earring,24846,S_EM_Earring,M. Elemental Master Shadow Earring,ShadowGear,300000,PASS
+Fourth,Elemental Master,Shadow Earring,24979,S_EM_CO_Earring,Conflagrative Shadow Earring,ShadowGear,300000,PASS
+Fourth,Elemental Master,Shadow Earring,1270119,S_EM_DS_Earring,Diamond Shadow Earring,ShadowGear,300000,PASS
+Fourth,Elemental Master,Shadow Pendant,24847,S_EM_Pendant,M. Elemental Master Shadow Pendant,ShadowGear,300000,PASS
+Fourth,Elemental Master,Shadow Pendant,24980,S_EM_CO_Pendant,Conflagrative Shadow Pendant,ShadowGear,300000,PASS
+Fourth,Elemental Master,Shadow Pendant,1270120,S_EM_DS_Pendant,Diamond Shadow Pendant,ShadowGear,300000,PASS
+Fourth,Spirit Handler,Shadow Armor,24852,S_SH_Armor,M. Spirit Handler Shadow Armor,ShadowGear,300000,PASS
+Fourth,Spirit Handler,Shadow Armor,24958,S_SU_HB_Armor,Hogogong Battering Shadow Armor,ShadowGear,300000,PASS
+Fourth,Spirit Handler,Shadow Armor,1270033,S_SU_BSP_Armor,Hyunrok Breeze Spirit Shadow Armor,ShadowGear,300000,PASS
+Fourth,Spirit Handler,Shadow Shoes,24853,S_SH_Shoes,M. Spirit Handler Shadow Shoes,ShadowGear,300000,PASS
+Fourth,Spirit Handler,Shadow Shoes,24959,S_SU_HB_Shoes,Hogogong Battering Shadow Shoes,ShadowGear,300000,PASS
+Fourth,Spirit Handler,Shadow Shoes,1270034,S_SU_BSP_Shoes,Hyunrok Breeze Spirit Shadow Shoes,ShadowGear,300000,PASS
+Fourth,Spirit Handler,Shadow Earring,24854,S_SH_Earring,M. Spirit Handler Shadow Earring,ShadowGear,300000,PASS
+Fourth,Spirit Handler,Shadow Earring,24956,S_SU_CS_Earring,Chulho Claw Shadow Earring,ShadowGear,300000,PASS
+Fourth,Spirit Handler,Shadow Earring,1270031,S_SU_HRC_Earring,Hyunrok Cannon Shadow Earring,ShadowGear,300000,PASS
+Fourth,Spirit Handler,Shadow Pendant,24855,S_SH_Pendant,M. Spirit Handler Shadow Pendant,ShadowGear,300000,PASS
+Fourth,Spirit Handler,Shadow Pendant,24957,S_SU_CS_Pendant,Chulho Claw Shadow Pendant,ShadowGear,300000,PASS
+Fourth,Spirit Handler,Shadow Pendant,1270032,S_SU_HRC_Pendant,Hyunrok Cannon Shadow Pendant,ShadowGear,300000,PASS
+Fourth,Sky Emperor,Shadow Armor,24860,S_SKE_Armor,M. Sky Emperor Shadow Armor,ShadowGear,300000,PASS
+Fourth,Sky Emperor,Shadow Armor,24977,S_SKE_SB_Armor,Sunset Blast Shadow Armor,ShadowGear,300000,PASS
+Fourth,Sky Emperor,Shadow Armor,1270101,S_SKE_DB_Armor,Dawn Break Shot Shadow Armor,ShadowGear,300000,PASS
+Fourth,Sky Emperor,Shadow Shoes,24861,S_SKE_Shoes,M. Sky Emperor Shadow Shoes,ShadowGear,300000,PASS
+Fourth,Sky Emperor,Shadow Shoes,24978,S_SKE_SB_Shoes,Sunset Blast Shadow Shoes,ShadowGear,300000,PASS
+Fourth,Sky Emperor,Shadow Shoes,1270102,S_SKE_DB_Shoes,Dawn Break Shadow Shoes,ShadowGear,300000,PASS
+Fourth,Sky Emperor,Shadow Earring,24862,S_SKE_Earring,M. Sky Emperor Shadow Earring,ShadowGear,300000,PASS
+Fourth,Sky Emperor,Shadow Earring,24975,S_SKE_NS_Earring,Noon Sun Shadow Earring,ShadowGear,300000,PASS
+Fourth,Sky Emperor,Shadow Earring,1270099,S_SKE_MS_Earring,Midnight Kick Shadow Earring,ShadowGear,300000,PASS
+Fourth,Sky Emperor,Shadow Pendant,24863,S_SKE_Pendant,M. Sky Emperor Shadow Pendant,ShadowGear,300000,PASS
+Fourth,Sky Emperor,Shadow Pendant,24976,S_SKE_NS_Pendant,Noon Sun Shadow Pendant,ShadowGear,300000,PASS
+Fourth,Sky Emperor,Shadow Pendant,1270100,S_SKE_MS_Pendant,Midnight Kick Shadow Pendant,ShadowGear,300000,PASS
+Fourth,Soul Ascetic,Shadow Armor,24864,S_SOA_Armor,M. Soul Ascetic Shadow Armor,ShadowGear,300000,PASS
+Fourth,Soul Ascetic,Shadow Armor,24989,S_SOA_TOFG_Armor,Four Bearing God Shadow Armor,ShadowGear,300000,PASS
+Fourth,Soul Ascetic,Shadow Armor,1270045,S_SOA_MS_Armor,Exorcism of Malicious Soul Shadow Armor,ShadowGear,300000,PASS
+Fourth,Soul Ascetic,Shadow Shoes,24865,S_SOA_Shoes,M. Soul Ascetic Shadow Shoes,ShadowGear,300000,PASS
+Fourth,Soul Ascetic,Shadow Shoes,24990,S_SOA_TOFG_Shoes,Four Bearing God Shadow Shoes,ShadowGear,300000,PASS
+Fourth,Soul Ascetic,Shadow Shoes,1270046,S_SOA_MS_Shoes,Exorcism of Malicious Soul Shadow Shoes,ShadowGear,300000,PASS
+Fourth,Soul Ascetic,Shadow Earring,24866,S_SOA_Earring,M. Soul Ascetic Shadow Earring,ShadowGear,300000,PASS
+Fourth,Soul Ascetic,Shadow Earring,24987,S_SOA_TOWB_Earring,Talisman of White Black Shadow Earring,ShadowGear,300000,PASS
+Fourth,Soul Ascetic,Shadow Earring,1270043,S_SOA_TS_Earring,Talisman of Red Blue Shadow Earring,ShadowGear,300000,PASS
+Fourth,Soul Ascetic,Shadow Pendant,24867,S_SOA_Pendant,M. Soul Ascetic Shadow Pendant,ShadowGear,300000,PASS
+Fourth,Soul Ascetic,Shadow Pendant,24988,S_SOA_TOWB_Pendant,Talisman of White Black Shadow Pendant,ShadowGear,300000,PASS
+Fourth,Soul Ascetic,Shadow Pendant,1270044,S_SOA_TS_Pendant,Talisman of Red Blue Shadow Pendant,ShadowGear,300000,PASS
+Fourth,Hyper Novice,Shadow Armor,24868,S_HN_Armor,M. Hyper Novice Shadow Armor,ShadowGear,300000,PASS
+Fourth,Hyper Novice,Shadow Armor,24946,S_HN_TB_Armor,Thunder Buster Shadow Armor,ShadowGear,300000,PASS
+Fourth,Hyper Novice,Shadow Armor,1270089,S_HN_DB_Armor,Double Blow Shadow Armor,ShadowGear,300000,PASS
+Fourth,Hyper Novice,Shadow Shoes,24869,S_HN_Shoes,M. Hyper Novice Shadow Shoes,ShadowGear,300000,PASS
+Fourth,Hyper Novice,Shadow Shoes,24947,S_HN_TB_Shoes,Thunder Buster Cannon Shadow Shoes,ShadowGear,300000,PASS
+Fourth,Hyper Novice,Shadow Shoes,1270090,S_HN_DB_Shoes,Double Blow Shadow Shoes,ShadowGear,300000,PASS
+Fourth,Hyper Novice,Shadow Earring,24870,S_HN_Earring,M. Hyper Novice Shadow Earring,ShadowGear,300000,PASS
+Fourth,Hyper Novice,Shadow Earring,24944,S_HN_VJ_Earring,Vulcan Jack Shadow Earring,ShadowGear,300000,PASS
+Fourth,Hyper Novice,Shadow Earring,1270087,S_HN_MC_Earring,Max Chain Shadow Earring,ShadowGear,300000,PASS
+Fourth,Hyper Novice,Shadow Pendant,24871,S_HN_Pendant,M. Hyper Novice Shadow Pendant,ShadowGear,300000,PASS
+Fourth,Hyper Novice,Shadow Pendant,24945,S_HN_VJ_Pendant,Vulcan Jack Shadow Pendant,ShadowGear,300000,PASS
+Fourth,Hyper Novice,Shadow Pendant,1270088,S_HN_MC_Pendant,Max Chain Shadow Pendant,ShadowGear,300000,PASS

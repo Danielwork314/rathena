@@ -1,15 +1,18 @@
 //===== rAthena Script =======================================
-//= Shadow Capsule
+//= Shadow Equipment Shop
 //===== Description: =========================================
-//= Job-tier and job-family based shadow equipment capsule.
+//= Job-tier, job-family and slot based direct shadow equipment shop.
 //============================================================
 
-prontera,157,227,4	script	Shadow Capsule#EA	731,{
-	mes "[Shadow Capsule]";
-	mes "Choose a job tier, then a job family and equipment slot.";
-	mes "Any-slot draw: 100,000 Zeny.";
-	mes "Selected-slot draw: 300,000 Zeny.";
-	mes "Duplicate results are possible.";
+prontera,157,227,4	script	Shadow Equipment Shop#EA	731,{
+	function S_Sell_List;
+	function S_Confirm_Buy;
+
+	mes "[Shadow Equipment Shop]";
+	mes "Choose a job tier, job family and equipment slot.";
+	mes "Select the exact shadow equipment you want to buy.";
+	mes "Each item costs ^0055FF"+callfunc("F_InsertComma",.DirectPrice)+" Zeny^000000.";
+	mes "There are no random draws or duplicate results.";
 	next;
 	switch(select("General shadows:Second / expanded jobs:Third / advanced jobs:Fourth jobs:Close")) {
 	case 1:
@@ -119,8 +122,8 @@ S_Tier_Third:
 	return;
 
 S_Tier_Fourth:
-	mes "[Shadow Capsule]";
-	mes "This tier contains only shadow equipment made specifically for fourth jobs.";
+	mes "[Shadow Equipment Shop]";
+	mes "This tier sells only shadow equipment made specifically for fourth jobs.";
 	mes "The current database has fourth-job-specific armor, shoes, earrings and pendants, but no fourth-job-specific shadow weapons or shields.";
 	next;
 	.@job_choice = select("Dragon Knight (12):Imperial Guard (12):Shadow Cross (12):Abyss Chaser (12):Cardinal (12):Inquisitor (12):Meister (12):Biolo (12):Windhawk (12):Troubadour / Trouvere (12):Arch Mage (12):Elemental Master (12):Spirit Handler (12):Sky Emperor (12):Soul Ascetic (12):Hyper Novice (12):Back");
@@ -179,1176 +182,1045 @@ S_Tier_Fourth:
 	return;
 
 S_Draw_G01:
-	.@choice = select("Any slot - 100,000 Zeny:Shadow weapon - 300,000 Zeny:Shadow shield - 300,000 Zeny:Shadow armor - 300,000 Zeny:Shadow shoes - 300,000 Zeny:Shadow earring - 300,000 Zeny:Shadow pendant - 300,000 Zeny:Back");
-	if (.@choice == 8)
+	.@choice = select("Shadow weapon:Shadow shield:Shadow armor:Shadow shoes:Shadow earring:Shadow pendant:Back");
+	if (.@choice == 7)
 		return;
 
-	.@price = (.@choice == 1) ? 100000 : 300000;
 	switch (.@choice) {
 	case 1:
-		.@item = .SPG01A[rand(getarraysize(.SPG01A))];
-		break;
+		S_Sell_List(.SPG01W);
+		return;
 	case 2:
-		.@item = .SPG01W[rand(getarraysize(.SPG01W))];
-		break;
+		S_Sell_List(.SPG01D);
+		return;
 	case 3:
-		.@item = .SPG01D[rand(getarraysize(.SPG01D))];
-		break;
+		S_Sell_List(.SPG01R);
+		return;
 	case 4:
-		.@item = .SPG01R[rand(getarraysize(.SPG01R))];
-		break;
+		S_Sell_List(.SPG01S);
+		return;
 	case 5:
-		.@item = .SPG01S[rand(getarraysize(.SPG01S))];
-		break;
+		S_Sell_List(.SPG01E);
+		return;
 	case 6:
-		.@item = .SPG01E[rand(getarraysize(.SPG01E))];
-		break;
-	case 7:
-		.@item = .SPG01P[rand(getarraysize(.SPG01P))];
-		break;
+		S_Sell_List(.SPG01P);
+		return;
 	}
-	callsub S_Award,.@item,.@price;
 	return;
 
 S_Draw_S01:
-	.@choice = select("Any slot - 100,000 Zeny:Shadow weapon - 300,000 Zeny:Shadow shield - 300,000 Zeny:Shadow armor - 300,000 Zeny:Shadow shoes - 300,000 Zeny:Shadow earring - 300,000 Zeny:Shadow pendant - 300,000 Zeny:Back");
-	if (.@choice == 8)
+	.@choice = select("Shadow weapon:Shadow shield:Shadow armor:Shadow shoes:Shadow earring:Shadow pendant:Back");
+	if (.@choice == 7)
 		return;
 
-	.@price = (.@choice == 1) ? 100000 : 300000;
 	switch (.@choice) {
 	case 1:
-		.@item = .SPS01A[rand(getarraysize(.SPS01A))];
-		break;
+		S_Sell_List(.SPS01W);
+		return;
 	case 2:
-		.@item = .SPS01W[rand(getarraysize(.SPS01W))];
-		break;
+		S_Sell_List(.SPS01D);
+		return;
 	case 3:
-		.@item = .SPS01D[rand(getarraysize(.SPS01D))];
-		break;
+		S_Sell_List(.SPS01R);
+		return;
 	case 4:
-		.@item = .SPS01R[rand(getarraysize(.SPS01R))];
-		break;
+		S_Sell_List(.SPS01S);
+		return;
 	case 5:
-		.@item = .SPS01S[rand(getarraysize(.SPS01S))];
-		break;
+		S_Sell_List(.SPS01E);
+		return;
 	case 6:
-		.@item = .SPS01E[rand(getarraysize(.SPS01E))];
-		break;
-	case 7:
-		.@item = .SPS01P[rand(getarraysize(.SPS01P))];
-		break;
+		S_Sell_List(.SPS01P);
+		return;
 	}
-	callsub S_Award,.@item,.@price;
 	return;
 
 S_Draw_S02:
-	.@choice = select("Any slot - 100,000 Zeny:Shadow weapon - 300,000 Zeny:Shadow shield - 300,000 Zeny:Shadow armor - 300,000 Zeny:Shadow shoes - 300,000 Zeny:Shadow earring - 300,000 Zeny:Shadow pendant - 300,000 Zeny:Back");
-	if (.@choice == 8)
+	.@choice = select("Shadow weapon:Shadow shield:Shadow armor:Shadow shoes:Shadow earring:Shadow pendant:Back");
+	if (.@choice == 7)
 		return;
 
-	.@price = (.@choice == 1) ? 100000 : 300000;
 	switch (.@choice) {
 	case 1:
-		.@item = .SPS02A[rand(getarraysize(.SPS02A))];
-		break;
+		S_Sell_List(.SPS02W);
+		return;
 	case 2:
-		.@item = .SPS02W[rand(getarraysize(.SPS02W))];
-		break;
+		S_Sell_List(.SPS02D);
+		return;
 	case 3:
-		.@item = .SPS02D[rand(getarraysize(.SPS02D))];
-		break;
+		S_Sell_List(.SPS02R);
+		return;
 	case 4:
-		.@item = .SPS02R[rand(getarraysize(.SPS02R))];
-		break;
+		S_Sell_List(.SPS02S);
+		return;
 	case 5:
-		.@item = .SPS02S[rand(getarraysize(.SPS02S))];
-		break;
+		S_Sell_List(.SPS02E);
+		return;
 	case 6:
-		.@item = .SPS02E[rand(getarraysize(.SPS02E))];
-		break;
-	case 7:
-		.@item = .SPS02P[rand(getarraysize(.SPS02P))];
-		break;
+		S_Sell_List(.SPS02P);
+		return;
 	}
-	callsub S_Award,.@item,.@price;
 	return;
 
 S_Draw_S03:
-	.@choice = select("Any slot - 100,000 Zeny:Shadow weapon - 300,000 Zeny:Shadow shield - 300,000 Zeny:Shadow armor - 300,000 Zeny:Shadow shoes - 300,000 Zeny:Shadow earring - 300,000 Zeny:Shadow pendant - 300,000 Zeny:Back");
-	if (.@choice == 8)
+	.@choice = select("Shadow weapon:Shadow shield:Shadow armor:Shadow shoes:Shadow earring:Shadow pendant:Back");
+	if (.@choice == 7)
 		return;
 
-	.@price = (.@choice == 1) ? 100000 : 300000;
 	switch (.@choice) {
 	case 1:
-		.@item = .SPS03A[rand(getarraysize(.SPS03A))];
-		break;
+		S_Sell_List(.SPS03W);
+		return;
 	case 2:
-		.@item = .SPS03W[rand(getarraysize(.SPS03W))];
-		break;
+		S_Sell_List(.SPS03D);
+		return;
 	case 3:
-		.@item = .SPS03D[rand(getarraysize(.SPS03D))];
-		break;
+		S_Sell_List(.SPS03R);
+		return;
 	case 4:
-		.@item = .SPS03R[rand(getarraysize(.SPS03R))];
-		break;
+		S_Sell_List(.SPS03S);
+		return;
 	case 5:
-		.@item = .SPS03S[rand(getarraysize(.SPS03S))];
-		break;
+		S_Sell_List(.SPS03E);
+		return;
 	case 6:
-		.@item = .SPS03E[rand(getarraysize(.SPS03E))];
-		break;
-	case 7:
-		.@item = .SPS03P[rand(getarraysize(.SPS03P))];
-		break;
+		S_Sell_List(.SPS03P);
+		return;
 	}
-	callsub S_Award,.@item,.@price;
 	return;
 
 S_Draw_S04:
-	.@choice = select("Any slot - 100,000 Zeny:Shadow weapon - 300,000 Zeny:Shadow shield - 300,000 Zeny:Back");
-	if (.@choice == 4)
+	.@choice = select("Shadow weapon:Shadow shield:Back");
+	if (.@choice == 3)
 		return;
 
-	.@price = (.@choice == 1) ? 100000 : 300000;
 	switch (.@choice) {
 	case 1:
-		.@item = .SPS04A[rand(getarraysize(.SPS04A))];
-		break;
+		S_Sell_List(.SPS04W);
+		return;
 	case 2:
-		.@item = .SPS04W[rand(getarraysize(.SPS04W))];
-		break;
-	case 3:
-		.@item = .SPS04D[rand(getarraysize(.SPS04D))];
-		break;
+		S_Sell_List(.SPS04D);
+		return;
 	}
-	callsub S_Award,.@item,.@price;
 	return;
 
 S_Draw_S05:
-	.@choice = select("Any slot - 100,000 Zeny:Shadow weapon - 300,000 Zeny:Shadow shield - 300,000 Zeny:Shadow armor - 300,000 Zeny:Shadow shoes - 300,000 Zeny:Shadow earring - 300,000 Zeny:Shadow pendant - 300,000 Zeny:Back");
-	if (.@choice == 8)
+	.@choice = select("Shadow weapon:Shadow shield:Shadow armor:Shadow shoes:Shadow earring:Shadow pendant:Back");
+	if (.@choice == 7)
 		return;
 
-	.@price = (.@choice == 1) ? 100000 : 300000;
 	switch (.@choice) {
 	case 1:
-		.@item = .SPS05A[rand(getarraysize(.SPS05A))];
-		break;
+		S_Sell_List(.SPS05W);
+		return;
 	case 2:
-		.@item = .SPS05W[rand(getarraysize(.SPS05W))];
-		break;
+		S_Sell_List(.SPS05D);
+		return;
 	case 3:
-		.@item = .SPS05D[rand(getarraysize(.SPS05D))];
-		break;
+		S_Sell_List(.SPS05R);
+		return;
 	case 4:
-		.@item = .SPS05R[rand(getarraysize(.SPS05R))];
-		break;
+		S_Sell_List(.SPS05S);
+		return;
 	case 5:
-		.@item = .SPS05S[rand(getarraysize(.SPS05S))];
-		break;
+		S_Sell_List(.SPS05E);
+		return;
 	case 6:
-		.@item = .SPS05E[rand(getarraysize(.SPS05E))];
-		break;
-	case 7:
-		.@item = .SPS05P[rand(getarraysize(.SPS05P))];
-		break;
+		S_Sell_List(.SPS05P);
+		return;
 	}
-	callsub S_Award,.@item,.@price;
 	return;
 
 S_Draw_S06:
-	.@choice = select("Any slot - 100,000 Zeny:Shadow weapon - 300,000 Zeny:Shadow shield - 300,000 Zeny:Shadow armor - 300,000 Zeny:Shadow shoes - 300,000 Zeny:Shadow earring - 300,000 Zeny:Shadow pendant - 300,000 Zeny:Back");
-	if (.@choice == 8)
+	.@choice = select("Shadow weapon:Shadow shield:Shadow armor:Shadow shoes:Shadow earring:Shadow pendant:Back");
+	if (.@choice == 7)
 		return;
 
-	.@price = (.@choice == 1) ? 100000 : 300000;
 	switch (.@choice) {
 	case 1:
-		.@item = .SPS06A[rand(getarraysize(.SPS06A))];
-		break;
+		S_Sell_List(.SPS06W);
+		return;
 	case 2:
-		.@item = .SPS06W[rand(getarraysize(.SPS06W))];
-		break;
+		S_Sell_List(.SPS06D);
+		return;
 	case 3:
-		.@item = .SPS06D[rand(getarraysize(.SPS06D))];
-		break;
+		S_Sell_List(.SPS06R);
+		return;
 	case 4:
-		.@item = .SPS06R[rand(getarraysize(.SPS06R))];
-		break;
+		S_Sell_List(.SPS06S);
+		return;
 	case 5:
-		.@item = .SPS06S[rand(getarraysize(.SPS06S))];
-		break;
+		S_Sell_List(.SPS06E);
+		return;
 	case 6:
-		.@item = .SPS06E[rand(getarraysize(.SPS06E))];
-		break;
-	case 7:
-		.@item = .SPS06P[rand(getarraysize(.SPS06P))];
-		break;
+		S_Sell_List(.SPS06P);
+		return;
 	}
-	callsub S_Award,.@item,.@price;
 	return;
 
 S_Draw_S07:
-	.@choice = select("Any slot - 100,000 Zeny:Shadow weapon - 300,000 Zeny:Shadow shield - 300,000 Zeny:Shadow armor - 300,000 Zeny:Shadow shoes - 300,000 Zeny:Shadow earring - 300,000 Zeny:Shadow pendant - 300,000 Zeny:Back");
-	if (.@choice == 8)
+	.@choice = select("Shadow weapon:Shadow shield:Shadow armor:Shadow shoes:Shadow earring:Shadow pendant:Back");
+	if (.@choice == 7)
 		return;
 
-	.@price = (.@choice == 1) ? 100000 : 300000;
 	switch (.@choice) {
 	case 1:
-		.@item = .SPS07A[rand(getarraysize(.SPS07A))];
-		break;
+		S_Sell_List(.SPS07W);
+		return;
 	case 2:
-		.@item = .SPS07W[rand(getarraysize(.SPS07W))];
-		break;
+		S_Sell_List(.SPS07D);
+		return;
 	case 3:
-		.@item = .SPS07D[rand(getarraysize(.SPS07D))];
-		break;
+		S_Sell_List(.SPS07R);
+		return;
 	case 4:
-		.@item = .SPS07R[rand(getarraysize(.SPS07R))];
-		break;
+		S_Sell_List(.SPS07S);
+		return;
 	case 5:
-		.@item = .SPS07S[rand(getarraysize(.SPS07S))];
-		break;
+		S_Sell_List(.SPS07E);
+		return;
 	case 6:
-		.@item = .SPS07E[rand(getarraysize(.SPS07E))];
-		break;
-	case 7:
-		.@item = .SPS07P[rand(getarraysize(.SPS07P))];
-		break;
+		S_Sell_List(.SPS07P);
+		return;
 	}
-	callsub S_Award,.@item,.@price;
 	return;
 
 S_Draw_T01:
-	.@choice = select("Any slot - 100,000 Zeny:Shadow weapon - 300,000 Zeny:Shadow shield - 300,000 Zeny:Shadow armor - 300,000 Zeny:Shadow shoes - 300,000 Zeny:Shadow earring - 300,000 Zeny:Shadow pendant - 300,000 Zeny:Back");
-	if (.@choice == 8)
+	.@choice = select("Shadow weapon:Shadow shield:Shadow armor:Shadow shoes:Shadow earring:Shadow pendant:Back");
+	if (.@choice == 7)
 		return;
 
-	.@price = (.@choice == 1) ? 100000 : 300000;
 	switch (.@choice) {
 	case 1:
-		.@item = .SPT01A[rand(getarraysize(.SPT01A))];
-		break;
+		S_Sell_List(.SPT01W);
+		return;
 	case 2:
-		.@item = .SPT01W[rand(getarraysize(.SPT01W))];
-		break;
+		S_Sell_List(.SPT01D);
+		return;
 	case 3:
-		.@item = .SPT01D[rand(getarraysize(.SPT01D))];
-		break;
+		S_Sell_List(.SPT01R);
+		return;
 	case 4:
-		.@item = .SPT01R[rand(getarraysize(.SPT01R))];
-		break;
+		S_Sell_List(.SPT01S);
+		return;
 	case 5:
-		.@item = .SPT01S[rand(getarraysize(.SPT01S))];
-		break;
+		S_Sell_List(.SPT01E);
+		return;
 	case 6:
-		.@item = .SPT01E[rand(getarraysize(.SPT01E))];
-		break;
-	case 7:
-		.@item = .SPT01P[rand(getarraysize(.SPT01P))];
-		break;
+		S_Sell_List(.SPT01P);
+		return;
 	}
-	callsub S_Award,.@item,.@price;
 	return;
 
 S_Draw_T02:
-	.@choice = select("Any slot - 100,000 Zeny:Shadow weapon - 300,000 Zeny:Shadow shield - 300,000 Zeny:Shadow armor - 300,000 Zeny:Shadow shoes - 300,000 Zeny:Shadow earring - 300,000 Zeny:Shadow pendant - 300,000 Zeny:Back");
-	if (.@choice == 8)
+	.@choice = select("Shadow weapon:Shadow shield:Shadow armor:Shadow shoes:Shadow earring:Shadow pendant:Back");
+	if (.@choice == 7)
 		return;
 
-	.@price = (.@choice == 1) ? 100000 : 300000;
 	switch (.@choice) {
 	case 1:
-		.@item = .SPT02A[rand(getarraysize(.SPT02A))];
-		break;
+		S_Sell_List(.SPT02W);
+		return;
 	case 2:
-		.@item = .SPT02W[rand(getarraysize(.SPT02W))];
-		break;
+		S_Sell_List(.SPT02D);
+		return;
 	case 3:
-		.@item = .SPT02D[rand(getarraysize(.SPT02D))];
-		break;
+		S_Sell_List(.SPT02R);
+		return;
 	case 4:
-		.@item = .SPT02R[rand(getarraysize(.SPT02R))];
-		break;
+		S_Sell_List(.SPT02S);
+		return;
 	case 5:
-		.@item = .SPT02S[rand(getarraysize(.SPT02S))];
-		break;
+		S_Sell_List(.SPT02E);
+		return;
 	case 6:
-		.@item = .SPT02E[rand(getarraysize(.SPT02E))];
-		break;
-	case 7:
-		.@item = .SPT02P[rand(getarraysize(.SPT02P))];
-		break;
+		S_Sell_List(.SPT02P);
+		return;
 	}
-	callsub S_Award,.@item,.@price;
 	return;
 
 S_Draw_T03:
-	.@choice = select("Any slot - 100,000 Zeny:Shadow weapon - 300,000 Zeny:Shadow shield - 300,000 Zeny:Shadow armor - 300,000 Zeny:Shadow shoes - 300,000 Zeny:Shadow earring - 300,000 Zeny:Shadow pendant - 300,000 Zeny:Back");
-	if (.@choice == 8)
+	.@choice = select("Shadow weapon:Shadow shield:Shadow armor:Shadow shoes:Shadow earring:Shadow pendant:Back");
+	if (.@choice == 7)
 		return;
 
-	.@price = (.@choice == 1) ? 100000 : 300000;
 	switch (.@choice) {
 	case 1:
-		.@item = .SPT03A[rand(getarraysize(.SPT03A))];
-		break;
+		S_Sell_List(.SPT03W);
+		return;
 	case 2:
-		.@item = .SPT03W[rand(getarraysize(.SPT03W))];
-		break;
+		S_Sell_List(.SPT03D);
+		return;
 	case 3:
-		.@item = .SPT03D[rand(getarraysize(.SPT03D))];
-		break;
+		S_Sell_List(.SPT03R);
+		return;
 	case 4:
-		.@item = .SPT03R[rand(getarraysize(.SPT03R))];
-		break;
+		S_Sell_List(.SPT03S);
+		return;
 	case 5:
-		.@item = .SPT03S[rand(getarraysize(.SPT03S))];
-		break;
+		S_Sell_List(.SPT03E);
+		return;
 	case 6:
-		.@item = .SPT03E[rand(getarraysize(.SPT03E))];
-		break;
-	case 7:
-		.@item = .SPT03P[rand(getarraysize(.SPT03P))];
-		break;
+		S_Sell_List(.SPT03P);
+		return;
 	}
-	callsub S_Award,.@item,.@price;
 	return;
 
 S_Draw_T04:
-	.@choice = select("Any slot - 100,000 Zeny:Shadow weapon - 300,000 Zeny:Shadow shield - 300,000 Zeny:Shadow armor - 300,000 Zeny:Shadow shoes - 300,000 Zeny:Shadow earring - 300,000 Zeny:Shadow pendant - 300,000 Zeny:Back");
-	if (.@choice == 8)
+	.@choice = select("Shadow weapon:Shadow shield:Shadow armor:Shadow shoes:Shadow earring:Shadow pendant:Back");
+	if (.@choice == 7)
 		return;
 
-	.@price = (.@choice == 1) ? 100000 : 300000;
 	switch (.@choice) {
 	case 1:
-		.@item = .SPT04A[rand(getarraysize(.SPT04A))];
-		break;
+		S_Sell_List(.SPT04W);
+		return;
 	case 2:
-		.@item = .SPT04W[rand(getarraysize(.SPT04W))];
-		break;
+		S_Sell_List(.SPT04D);
+		return;
 	case 3:
-		.@item = .SPT04D[rand(getarraysize(.SPT04D))];
-		break;
+		S_Sell_List(.SPT04R);
+		return;
 	case 4:
-		.@item = .SPT04R[rand(getarraysize(.SPT04R))];
-		break;
+		S_Sell_List(.SPT04S);
+		return;
 	case 5:
-		.@item = .SPT04S[rand(getarraysize(.SPT04S))];
-		break;
+		S_Sell_List(.SPT04E);
+		return;
 	case 6:
-		.@item = .SPT04E[rand(getarraysize(.SPT04E))];
-		break;
-	case 7:
-		.@item = .SPT04P[rand(getarraysize(.SPT04P))];
-		break;
+		S_Sell_List(.SPT04P);
+		return;
 	}
-	callsub S_Award,.@item,.@price;
 	return;
 
 S_Draw_T05:
-	.@choice = select("Any slot - 100,000 Zeny:Shadow weapon - 300,000 Zeny:Shadow shield - 300,000 Zeny:Shadow armor - 300,000 Zeny:Shadow shoes - 300,000 Zeny:Shadow earring - 300,000 Zeny:Shadow pendant - 300,000 Zeny:Back");
-	if (.@choice == 8)
+	.@choice = select("Shadow weapon:Shadow shield:Shadow armor:Shadow shoes:Shadow earring:Shadow pendant:Back");
+	if (.@choice == 7)
 		return;
 
-	.@price = (.@choice == 1) ? 100000 : 300000;
 	switch (.@choice) {
 	case 1:
-		.@item = .SPT05A[rand(getarraysize(.SPT05A))];
-		break;
+		S_Sell_List(.SPT05W);
+		return;
 	case 2:
-		.@item = .SPT05W[rand(getarraysize(.SPT05W))];
-		break;
+		S_Sell_List(.SPT05D);
+		return;
 	case 3:
-		.@item = .SPT05D[rand(getarraysize(.SPT05D))];
-		break;
+		S_Sell_List(.SPT05R);
+		return;
 	case 4:
-		.@item = .SPT05R[rand(getarraysize(.SPT05R))];
-		break;
+		S_Sell_List(.SPT05S);
+		return;
 	case 5:
-		.@item = .SPT05S[rand(getarraysize(.SPT05S))];
-		break;
+		S_Sell_List(.SPT05E);
+		return;
 	case 6:
-		.@item = .SPT05E[rand(getarraysize(.SPT05E))];
-		break;
-	case 7:
-		.@item = .SPT05P[rand(getarraysize(.SPT05P))];
-		break;
+		S_Sell_List(.SPT05P);
+		return;
 	}
-	callsub S_Award,.@item,.@price;
 	return;
 
 S_Draw_T06:
-	.@choice = select("Any slot - 100,000 Zeny:Shadow weapon - 300,000 Zeny:Shadow shield - 300,000 Zeny:Shadow armor - 300,000 Zeny:Shadow shoes - 300,000 Zeny:Shadow earring - 300,000 Zeny:Shadow pendant - 300,000 Zeny:Back");
-	if (.@choice == 8)
+	.@choice = select("Shadow weapon:Shadow shield:Shadow armor:Shadow shoes:Shadow earring:Shadow pendant:Back");
+	if (.@choice == 7)
 		return;
 
-	.@price = (.@choice == 1) ? 100000 : 300000;
 	switch (.@choice) {
 	case 1:
-		.@item = .SPT06A[rand(getarraysize(.SPT06A))];
-		break;
+		S_Sell_List(.SPT06W);
+		return;
 	case 2:
-		.@item = .SPT06W[rand(getarraysize(.SPT06W))];
-		break;
+		S_Sell_List(.SPT06D);
+		return;
 	case 3:
-		.@item = .SPT06D[rand(getarraysize(.SPT06D))];
-		break;
+		S_Sell_List(.SPT06R);
+		return;
 	case 4:
-		.@item = .SPT06R[rand(getarraysize(.SPT06R))];
-		break;
+		S_Sell_List(.SPT06S);
+		return;
 	case 5:
-		.@item = .SPT06S[rand(getarraysize(.SPT06S))];
-		break;
+		S_Sell_List(.SPT06E);
+		return;
 	case 6:
-		.@item = .SPT06E[rand(getarraysize(.SPT06E))];
-		break;
-	case 7:
-		.@item = .SPT06P[rand(getarraysize(.SPT06P))];
-		break;
+		S_Sell_List(.SPT06P);
+		return;
 	}
-	callsub S_Award,.@item,.@price;
 	return;
 
 S_Draw_T07:
-	.@choice = select("Any slot - 100,000 Zeny:Shadow weapon - 300,000 Zeny:Shadow shield - 300,000 Zeny:Shadow armor - 300,000 Zeny:Shadow shoes - 300,000 Zeny:Shadow earring - 300,000 Zeny:Shadow pendant - 300,000 Zeny:Back");
-	if (.@choice == 8)
+	.@choice = select("Shadow weapon:Shadow shield:Shadow armor:Shadow shoes:Shadow earring:Shadow pendant:Back");
+	if (.@choice == 7)
 		return;
 
-	.@price = (.@choice == 1) ? 100000 : 300000;
 	switch (.@choice) {
 	case 1:
-		.@item = .SPT07A[rand(getarraysize(.SPT07A))];
-		break;
+		S_Sell_List(.SPT07W);
+		return;
 	case 2:
-		.@item = .SPT07W[rand(getarraysize(.SPT07W))];
-		break;
+		S_Sell_List(.SPT07D);
+		return;
 	case 3:
-		.@item = .SPT07D[rand(getarraysize(.SPT07D))];
-		break;
+		S_Sell_List(.SPT07R);
+		return;
 	case 4:
-		.@item = .SPT07R[rand(getarraysize(.SPT07R))];
-		break;
+		S_Sell_List(.SPT07S);
+		return;
 	case 5:
-		.@item = .SPT07S[rand(getarraysize(.SPT07S))];
-		break;
+		S_Sell_List(.SPT07E);
+		return;
 	case 6:
-		.@item = .SPT07E[rand(getarraysize(.SPT07E))];
-		break;
-	case 7:
-		.@item = .SPT07P[rand(getarraysize(.SPT07P))];
-		break;
+		S_Sell_List(.SPT07P);
+		return;
 	}
-	callsub S_Award,.@item,.@price;
 	return;
 
 S_Draw_T08:
-	.@choice = select("Any slot - 100,000 Zeny:Shadow weapon - 300,000 Zeny:Shadow shield - 300,000 Zeny:Shadow armor - 300,000 Zeny:Shadow shoes - 300,000 Zeny:Shadow earring - 300,000 Zeny:Shadow pendant - 300,000 Zeny:Back");
-	if (.@choice == 8)
+	.@choice = select("Shadow weapon:Shadow shield:Shadow armor:Shadow shoes:Shadow earring:Shadow pendant:Back");
+	if (.@choice == 7)
 		return;
 
-	.@price = (.@choice == 1) ? 100000 : 300000;
 	switch (.@choice) {
 	case 1:
-		.@item = .SPT08A[rand(getarraysize(.SPT08A))];
-		break;
+		S_Sell_List(.SPT08W);
+		return;
 	case 2:
-		.@item = .SPT08W[rand(getarraysize(.SPT08W))];
-		break;
+		S_Sell_List(.SPT08D);
+		return;
 	case 3:
-		.@item = .SPT08D[rand(getarraysize(.SPT08D))];
-		break;
+		S_Sell_List(.SPT08R);
+		return;
 	case 4:
-		.@item = .SPT08R[rand(getarraysize(.SPT08R))];
-		break;
+		S_Sell_List(.SPT08S);
+		return;
 	case 5:
-		.@item = .SPT08S[rand(getarraysize(.SPT08S))];
-		break;
+		S_Sell_List(.SPT08E);
+		return;
 	case 6:
-		.@item = .SPT08E[rand(getarraysize(.SPT08E))];
-		break;
-	case 7:
-		.@item = .SPT08P[rand(getarraysize(.SPT08P))];
-		break;
+		S_Sell_List(.SPT08P);
+		return;
 	}
-	callsub S_Award,.@item,.@price;
 	return;
 
 S_Draw_T09:
-	.@choice = select("Any slot - 100,000 Zeny:Shadow weapon - 300,000 Zeny:Shadow shield - 300,000 Zeny:Shadow armor - 300,000 Zeny:Shadow shoes - 300,000 Zeny:Shadow earring - 300,000 Zeny:Shadow pendant - 300,000 Zeny:Back");
-	if (.@choice == 8)
+	.@choice = select("Shadow weapon:Shadow shield:Shadow armor:Shadow shoes:Shadow earring:Shadow pendant:Back");
+	if (.@choice == 7)
 		return;
 
-	.@price = (.@choice == 1) ? 100000 : 300000;
 	switch (.@choice) {
 	case 1:
-		.@item = .SPT09A[rand(getarraysize(.SPT09A))];
-		break;
+		S_Sell_List(.SPT09W);
+		return;
 	case 2:
-		.@item = .SPT09W[rand(getarraysize(.SPT09W))];
-		break;
+		S_Sell_List(.SPT09D);
+		return;
 	case 3:
-		.@item = .SPT09D[rand(getarraysize(.SPT09D))];
-		break;
+		S_Sell_List(.SPT09R);
+		return;
 	case 4:
-		.@item = .SPT09R[rand(getarraysize(.SPT09R))];
-		break;
+		S_Sell_List(.SPT09S);
+		return;
 	case 5:
-		.@item = .SPT09S[rand(getarraysize(.SPT09S))];
-		break;
+		S_Sell_List(.SPT09E);
+		return;
 	case 6:
-		.@item = .SPT09E[rand(getarraysize(.SPT09E))];
-		break;
-	case 7:
-		.@item = .SPT09P[rand(getarraysize(.SPT09P))];
-		break;
+		S_Sell_List(.SPT09P);
+		return;
 	}
-	callsub S_Award,.@item,.@price;
 	return;
 
 S_Draw_T10:
-	.@choice = select("Any slot - 100,000 Zeny:Shadow weapon - 300,000 Zeny:Shadow shield - 300,000 Zeny:Shadow armor - 300,000 Zeny:Shadow shoes - 300,000 Zeny:Shadow earring - 300,000 Zeny:Shadow pendant - 300,000 Zeny:Back");
-	if (.@choice == 8)
+	.@choice = select("Shadow weapon:Shadow shield:Shadow armor:Shadow shoes:Shadow earring:Shadow pendant:Back");
+	if (.@choice == 7)
 		return;
 
-	.@price = (.@choice == 1) ? 100000 : 300000;
 	switch (.@choice) {
 	case 1:
-		.@item = .SPT10A[rand(getarraysize(.SPT10A))];
-		break;
+		S_Sell_List(.SPT10W);
+		return;
 	case 2:
-		.@item = .SPT10W[rand(getarraysize(.SPT10W))];
-		break;
+		S_Sell_List(.SPT10D);
+		return;
 	case 3:
-		.@item = .SPT10D[rand(getarraysize(.SPT10D))];
-		break;
+		S_Sell_List(.SPT10R);
+		return;
 	case 4:
-		.@item = .SPT10R[rand(getarraysize(.SPT10R))];
-		break;
+		S_Sell_List(.SPT10S);
+		return;
 	case 5:
-		.@item = .SPT10S[rand(getarraysize(.SPT10S))];
-		break;
+		S_Sell_List(.SPT10E);
+		return;
 	case 6:
-		.@item = .SPT10E[rand(getarraysize(.SPT10E))];
-		break;
-	case 7:
-		.@item = .SPT10P[rand(getarraysize(.SPT10P))];
-		break;
+		S_Sell_List(.SPT10P);
+		return;
 	}
-	callsub S_Award,.@item,.@price;
 	return;
 
 S_Draw_T11:
-	.@choice = select("Any slot - 100,000 Zeny:Shadow weapon - 300,000 Zeny:Shadow shield - 300,000 Zeny:Shadow armor - 300,000 Zeny:Shadow shoes - 300,000 Zeny:Shadow earring - 300,000 Zeny:Shadow pendant - 300,000 Zeny:Back");
-	if (.@choice == 8)
+	.@choice = select("Shadow weapon:Shadow shield:Shadow armor:Shadow shoes:Shadow earring:Shadow pendant:Back");
+	if (.@choice == 7)
 		return;
 
-	.@price = (.@choice == 1) ? 100000 : 300000;
 	switch (.@choice) {
 	case 1:
-		.@item = .SPT11A[rand(getarraysize(.SPT11A))];
-		break;
+		S_Sell_List(.SPT11W);
+		return;
 	case 2:
-		.@item = .SPT11W[rand(getarraysize(.SPT11W))];
-		break;
+		S_Sell_List(.SPT11D);
+		return;
 	case 3:
-		.@item = .SPT11D[rand(getarraysize(.SPT11D))];
-		break;
+		S_Sell_List(.SPT11R);
+		return;
 	case 4:
-		.@item = .SPT11R[rand(getarraysize(.SPT11R))];
-		break;
+		S_Sell_List(.SPT11S);
+		return;
 	case 5:
-		.@item = .SPT11S[rand(getarraysize(.SPT11S))];
-		break;
+		S_Sell_List(.SPT11E);
+		return;
 	case 6:
-		.@item = .SPT11E[rand(getarraysize(.SPT11E))];
-		break;
-	case 7:
-		.@item = .SPT11P[rand(getarraysize(.SPT11P))];
-		break;
+		S_Sell_List(.SPT11P);
+		return;
 	}
-	callsub S_Award,.@item,.@price;
 	return;
 
 S_Draw_T12:
-	.@choice = select("Any slot - 100,000 Zeny:Shadow weapon - 300,000 Zeny:Shadow shield - 300,000 Zeny:Shadow armor - 300,000 Zeny:Shadow shoes - 300,000 Zeny:Shadow earring - 300,000 Zeny:Shadow pendant - 300,000 Zeny:Back");
-	if (.@choice == 8)
+	.@choice = select("Shadow weapon:Shadow shield:Shadow armor:Shadow shoes:Shadow earring:Shadow pendant:Back");
+	if (.@choice == 7)
 		return;
 
-	.@price = (.@choice == 1) ? 100000 : 300000;
 	switch (.@choice) {
 	case 1:
-		.@item = .SPT12A[rand(getarraysize(.SPT12A))];
-		break;
+		S_Sell_List(.SPT12W);
+		return;
 	case 2:
-		.@item = .SPT12W[rand(getarraysize(.SPT12W))];
-		break;
+		S_Sell_List(.SPT12D);
+		return;
 	case 3:
-		.@item = .SPT12D[rand(getarraysize(.SPT12D))];
-		break;
+		S_Sell_List(.SPT12R);
+		return;
 	case 4:
-		.@item = .SPT12R[rand(getarraysize(.SPT12R))];
-		break;
+		S_Sell_List(.SPT12S);
+		return;
 	case 5:
-		.@item = .SPT12S[rand(getarraysize(.SPT12S))];
-		break;
+		S_Sell_List(.SPT12E);
+		return;
 	case 6:
-		.@item = .SPT12E[rand(getarraysize(.SPT12E))];
-		break;
-	case 7:
-		.@item = .SPT12P[rand(getarraysize(.SPT12P))];
-		break;
+		S_Sell_List(.SPT12P);
+		return;
 	}
-	callsub S_Award,.@item,.@price;
 	return;
 
 S_Draw_T13:
-	.@choice = select("Any slot - 100,000 Zeny:Shadow armor - 300,000 Zeny:Shadow shoes - 300,000 Zeny:Shadow earring - 300,000 Zeny:Shadow pendant - 300,000 Zeny:Back");
-	if (.@choice == 6)
+	.@choice = select("Shadow armor:Shadow shoes:Shadow earring:Shadow pendant:Back");
+	if (.@choice == 5)
 		return;
 
-	.@price = (.@choice == 1) ? 100000 : 300000;
 	switch (.@choice) {
 	case 1:
-		.@item = .SPT13A[rand(getarraysize(.SPT13A))];
-		break;
+		S_Sell_List(.SPT13R);
+		return;
 	case 2:
-		.@item = .SPT13R[rand(getarraysize(.SPT13R))];
-		break;
+		S_Sell_List(.SPT13S);
+		return;
 	case 3:
-		.@item = .SPT13S[rand(getarraysize(.SPT13S))];
-		break;
+		S_Sell_List(.SPT13E);
+		return;
 	case 4:
-		.@item = .SPT13E[rand(getarraysize(.SPT13E))];
-		break;
-	case 5:
-		.@item = .SPT13P[rand(getarraysize(.SPT13P))];
-		break;
+		S_Sell_List(.SPT13P);
+		return;
 	}
-	callsub S_Award,.@item,.@price;
 	return;
 
 S_Draw_T14:
-	.@choice = select("Any slot - 100,000 Zeny:Shadow armor - 300,000 Zeny:Shadow shoes - 300,000 Zeny:Shadow earring - 300,000 Zeny:Shadow pendant - 300,000 Zeny:Back");
-	if (.@choice == 6)
+	.@choice = select("Shadow armor:Shadow shoes:Shadow earring:Shadow pendant:Back");
+	if (.@choice == 5)
 		return;
 
-	.@price = (.@choice == 1) ? 100000 : 300000;
 	switch (.@choice) {
 	case 1:
-		.@item = .SPT14A[rand(getarraysize(.SPT14A))];
-		break;
+		S_Sell_List(.SPT14R);
+		return;
 	case 2:
-		.@item = .SPT14R[rand(getarraysize(.SPT14R))];
-		break;
+		S_Sell_List(.SPT14S);
+		return;
 	case 3:
-		.@item = .SPT14S[rand(getarraysize(.SPT14S))];
-		break;
+		S_Sell_List(.SPT14E);
+		return;
 	case 4:
-		.@item = .SPT14E[rand(getarraysize(.SPT14E))];
-		break;
-	case 5:
-		.@item = .SPT14P[rand(getarraysize(.SPT14P))];
-		break;
+		S_Sell_List(.SPT14P);
+		return;
 	}
-	callsub S_Award,.@item,.@price;
 	return;
 
 S_Draw_T15:
-	.@choice = select("Any slot - 100,000 Zeny:Shadow armor - 300,000 Zeny:Shadow shoes - 300,000 Zeny:Back");
-	if (.@choice == 4)
+	.@choice = select("Shadow armor:Shadow shoes:Back");
+	if (.@choice == 3)
 		return;
 
-	.@price = (.@choice == 1) ? 100000 : 300000;
 	switch (.@choice) {
 	case 1:
-		.@item = .SPT15A[rand(getarraysize(.SPT15A))];
-		break;
+		S_Sell_List(.SPT15R);
+		return;
 	case 2:
-		.@item = .SPT15R[rand(getarraysize(.SPT15R))];
-		break;
-	case 3:
-		.@item = .SPT15S[rand(getarraysize(.SPT15S))];
-		break;
+		S_Sell_List(.SPT15S);
+		return;
 	}
-	callsub S_Award,.@item,.@price;
 	return;
 
 S_Draw_T16:
-	.@choice = select("Any slot - 100,000 Zeny:Shadow armor - 300,000 Zeny:Shadow shoes - 300,000 Zeny:Back");
-	if (.@choice == 4)
+	.@choice = select("Shadow armor:Shadow shoes:Back");
+	if (.@choice == 3)
 		return;
 
-	.@price = (.@choice == 1) ? 100000 : 300000;
 	switch (.@choice) {
 	case 1:
-		.@item = .SPT16A[rand(getarraysize(.SPT16A))];
-		break;
+		S_Sell_List(.SPT16R);
+		return;
 	case 2:
-		.@item = .SPT16R[rand(getarraysize(.SPT16R))];
-		break;
-	case 3:
-		.@item = .SPT16S[rand(getarraysize(.SPT16S))];
-		break;
+		S_Sell_List(.SPT16S);
+		return;
 	}
-	callsub S_Award,.@item,.@price;
 	return;
 
 S_Draw_F01:
-	.@choice = select("Any fourth-job slot - 100,000 Zeny:Shadow armor - 300,000 Zeny:Shadow shoes - 300,000 Zeny:Shadow earring - 300,000 Zeny:Shadow pendant - 300,000 Zeny:Back");
-	if (.@choice == 6)
+	.@choice = select("Shadow armor:Shadow shoes:Shadow earring:Shadow pendant:Back");
+	if (.@choice == 5)
 		return;
 
-	.@price = (.@choice == 1) ? 100000 : 300000;
 	switch (.@choice) {
 	case 1:
-		.@item = .SPF01A[rand(getarraysize(.SPF01A))];
-		break;
+		S_Sell_List(.SPF01R);
+		return;
 	case 2:
-		.@item = .SPF01R[rand(getarraysize(.SPF01R))];
-		break;
+		S_Sell_List(.SPF01S);
+		return;
 	case 3:
-		.@item = .SPF01S[rand(getarraysize(.SPF01S))];
-		break;
+		S_Sell_List(.SPF01E);
+		return;
 	case 4:
-		.@item = .SPF01E[rand(getarraysize(.SPF01E))];
-		break;
-	case 5:
-		.@item = .SPF01P[rand(getarraysize(.SPF01P))];
-		break;
+		S_Sell_List(.SPF01P);
+		return;
 	}
-	callsub S_Award,.@item,.@price;
 	return;
 
 S_Draw_F02:
-	.@choice = select("Any fourth-job slot - 100,000 Zeny:Shadow armor - 300,000 Zeny:Shadow shoes - 300,000 Zeny:Shadow earring - 300,000 Zeny:Shadow pendant - 300,000 Zeny:Back");
-	if (.@choice == 6)
+	.@choice = select("Shadow armor:Shadow shoes:Shadow earring:Shadow pendant:Back");
+	if (.@choice == 5)
 		return;
 
-	.@price = (.@choice == 1) ? 100000 : 300000;
 	switch (.@choice) {
 	case 1:
-		.@item = .SPF02A[rand(getarraysize(.SPF02A))];
-		break;
+		S_Sell_List(.SPF02R);
+		return;
 	case 2:
-		.@item = .SPF02R[rand(getarraysize(.SPF02R))];
-		break;
+		S_Sell_List(.SPF02S);
+		return;
 	case 3:
-		.@item = .SPF02S[rand(getarraysize(.SPF02S))];
-		break;
+		S_Sell_List(.SPF02E);
+		return;
 	case 4:
-		.@item = .SPF02E[rand(getarraysize(.SPF02E))];
-		break;
-	case 5:
-		.@item = .SPF02P[rand(getarraysize(.SPF02P))];
-		break;
+		S_Sell_List(.SPF02P);
+		return;
 	}
-	callsub S_Award,.@item,.@price;
 	return;
 
 S_Draw_F03:
-	.@choice = select("Any fourth-job slot - 100,000 Zeny:Shadow armor - 300,000 Zeny:Shadow shoes - 300,000 Zeny:Shadow earring - 300,000 Zeny:Shadow pendant - 300,000 Zeny:Back");
-	if (.@choice == 6)
+	.@choice = select("Shadow armor:Shadow shoes:Shadow earring:Shadow pendant:Back");
+	if (.@choice == 5)
 		return;
 
-	.@price = (.@choice == 1) ? 100000 : 300000;
 	switch (.@choice) {
 	case 1:
-		.@item = .SPF03A[rand(getarraysize(.SPF03A))];
-		break;
+		S_Sell_List(.SPF03R);
+		return;
 	case 2:
-		.@item = .SPF03R[rand(getarraysize(.SPF03R))];
-		break;
+		S_Sell_List(.SPF03S);
+		return;
 	case 3:
-		.@item = .SPF03S[rand(getarraysize(.SPF03S))];
-		break;
+		S_Sell_List(.SPF03E);
+		return;
 	case 4:
-		.@item = .SPF03E[rand(getarraysize(.SPF03E))];
-		break;
-	case 5:
-		.@item = .SPF03P[rand(getarraysize(.SPF03P))];
-		break;
+		S_Sell_List(.SPF03P);
+		return;
 	}
-	callsub S_Award,.@item,.@price;
 	return;
 
 S_Draw_F04:
-	.@choice = select("Any fourth-job slot - 100,000 Zeny:Shadow armor - 300,000 Zeny:Shadow shoes - 300,000 Zeny:Shadow earring - 300,000 Zeny:Shadow pendant - 300,000 Zeny:Back");
-	if (.@choice == 6)
+	.@choice = select("Shadow armor:Shadow shoes:Shadow earring:Shadow pendant:Back");
+	if (.@choice == 5)
 		return;
 
-	.@price = (.@choice == 1) ? 100000 : 300000;
 	switch (.@choice) {
 	case 1:
-		.@item = .SPF04A[rand(getarraysize(.SPF04A))];
-		break;
+		S_Sell_List(.SPF04R);
+		return;
 	case 2:
-		.@item = .SPF04R[rand(getarraysize(.SPF04R))];
-		break;
+		S_Sell_List(.SPF04S);
+		return;
 	case 3:
-		.@item = .SPF04S[rand(getarraysize(.SPF04S))];
-		break;
+		S_Sell_List(.SPF04E);
+		return;
 	case 4:
-		.@item = .SPF04E[rand(getarraysize(.SPF04E))];
-		break;
-	case 5:
-		.@item = .SPF04P[rand(getarraysize(.SPF04P))];
-		break;
+		S_Sell_List(.SPF04P);
+		return;
 	}
-	callsub S_Award,.@item,.@price;
 	return;
 
 S_Draw_F05:
-	.@choice = select("Any fourth-job slot - 100,000 Zeny:Shadow armor - 300,000 Zeny:Shadow shoes - 300,000 Zeny:Shadow earring - 300,000 Zeny:Shadow pendant - 300,000 Zeny:Back");
-	if (.@choice == 6)
+	.@choice = select("Shadow armor:Shadow shoes:Shadow earring:Shadow pendant:Back");
+	if (.@choice == 5)
 		return;
 
-	.@price = (.@choice == 1) ? 100000 : 300000;
 	switch (.@choice) {
 	case 1:
-		.@item = .SPF05A[rand(getarraysize(.SPF05A))];
-		break;
+		S_Sell_List(.SPF05R);
+		return;
 	case 2:
-		.@item = .SPF05R[rand(getarraysize(.SPF05R))];
-		break;
+		S_Sell_List(.SPF05S);
+		return;
 	case 3:
-		.@item = .SPF05S[rand(getarraysize(.SPF05S))];
-		break;
+		S_Sell_List(.SPF05E);
+		return;
 	case 4:
-		.@item = .SPF05E[rand(getarraysize(.SPF05E))];
-		break;
-	case 5:
-		.@item = .SPF05P[rand(getarraysize(.SPF05P))];
-		break;
+		S_Sell_List(.SPF05P);
+		return;
 	}
-	callsub S_Award,.@item,.@price;
 	return;
 
 S_Draw_F06:
-	.@choice = select("Any fourth-job slot - 100,000 Zeny:Shadow armor - 300,000 Zeny:Shadow shoes - 300,000 Zeny:Shadow earring - 300,000 Zeny:Shadow pendant - 300,000 Zeny:Back");
-	if (.@choice == 6)
+	.@choice = select("Shadow armor:Shadow shoes:Shadow earring:Shadow pendant:Back");
+	if (.@choice == 5)
 		return;
 
-	.@price = (.@choice == 1) ? 100000 : 300000;
 	switch (.@choice) {
 	case 1:
-		.@item = .SPF06A[rand(getarraysize(.SPF06A))];
-		break;
+		S_Sell_List(.SPF06R);
+		return;
 	case 2:
-		.@item = .SPF06R[rand(getarraysize(.SPF06R))];
-		break;
+		S_Sell_List(.SPF06S);
+		return;
 	case 3:
-		.@item = .SPF06S[rand(getarraysize(.SPF06S))];
-		break;
+		S_Sell_List(.SPF06E);
+		return;
 	case 4:
-		.@item = .SPF06E[rand(getarraysize(.SPF06E))];
-		break;
-	case 5:
-		.@item = .SPF06P[rand(getarraysize(.SPF06P))];
-		break;
+		S_Sell_List(.SPF06P);
+		return;
 	}
-	callsub S_Award,.@item,.@price;
 	return;
 
 S_Draw_F07:
-	.@choice = select("Any fourth-job slot - 100,000 Zeny:Shadow armor - 300,000 Zeny:Shadow shoes - 300,000 Zeny:Shadow earring - 300,000 Zeny:Shadow pendant - 300,000 Zeny:Back");
-	if (.@choice == 6)
+	.@choice = select("Shadow armor:Shadow shoes:Shadow earring:Shadow pendant:Back");
+	if (.@choice == 5)
 		return;
 
-	.@price = (.@choice == 1) ? 100000 : 300000;
 	switch (.@choice) {
 	case 1:
-		.@item = .SPF07A[rand(getarraysize(.SPF07A))];
-		break;
+		S_Sell_List(.SPF07R);
+		return;
 	case 2:
-		.@item = .SPF07R[rand(getarraysize(.SPF07R))];
-		break;
+		S_Sell_List(.SPF07S);
+		return;
 	case 3:
-		.@item = .SPF07S[rand(getarraysize(.SPF07S))];
-		break;
+		S_Sell_List(.SPF07E);
+		return;
 	case 4:
-		.@item = .SPF07E[rand(getarraysize(.SPF07E))];
-		break;
-	case 5:
-		.@item = .SPF07P[rand(getarraysize(.SPF07P))];
-		break;
+		S_Sell_List(.SPF07P);
+		return;
 	}
-	callsub S_Award,.@item,.@price;
 	return;
 
 S_Draw_F08:
-	.@choice = select("Any fourth-job slot - 100,000 Zeny:Shadow armor - 300,000 Zeny:Shadow shoes - 300,000 Zeny:Shadow earring - 300,000 Zeny:Shadow pendant - 300,000 Zeny:Back");
-	if (.@choice == 6)
+	.@choice = select("Shadow armor:Shadow shoes:Shadow earring:Shadow pendant:Back");
+	if (.@choice == 5)
 		return;
 
-	.@price = (.@choice == 1) ? 100000 : 300000;
 	switch (.@choice) {
 	case 1:
-		.@item = .SPF08A[rand(getarraysize(.SPF08A))];
-		break;
+		S_Sell_List(.SPF08R);
+		return;
 	case 2:
-		.@item = .SPF08R[rand(getarraysize(.SPF08R))];
-		break;
+		S_Sell_List(.SPF08S);
+		return;
 	case 3:
-		.@item = .SPF08S[rand(getarraysize(.SPF08S))];
-		break;
+		S_Sell_List(.SPF08E);
+		return;
 	case 4:
-		.@item = .SPF08E[rand(getarraysize(.SPF08E))];
-		break;
-	case 5:
-		.@item = .SPF08P[rand(getarraysize(.SPF08P))];
-		break;
+		S_Sell_List(.SPF08P);
+		return;
 	}
-	callsub S_Award,.@item,.@price;
 	return;
 
 S_Draw_F09:
-	.@choice = select("Any fourth-job slot - 100,000 Zeny:Shadow armor - 300,000 Zeny:Shadow shoes - 300,000 Zeny:Shadow earring - 300,000 Zeny:Shadow pendant - 300,000 Zeny:Back");
-	if (.@choice == 6)
+	.@choice = select("Shadow armor:Shadow shoes:Shadow earring:Shadow pendant:Back");
+	if (.@choice == 5)
 		return;
 
-	.@price = (.@choice == 1) ? 100000 : 300000;
 	switch (.@choice) {
 	case 1:
-		.@item = .SPF09A[rand(getarraysize(.SPF09A))];
-		break;
+		S_Sell_List(.SPF09R);
+		return;
 	case 2:
-		.@item = .SPF09R[rand(getarraysize(.SPF09R))];
-		break;
+		S_Sell_List(.SPF09S);
+		return;
 	case 3:
-		.@item = .SPF09S[rand(getarraysize(.SPF09S))];
-		break;
+		S_Sell_List(.SPF09E);
+		return;
 	case 4:
-		.@item = .SPF09E[rand(getarraysize(.SPF09E))];
-		break;
-	case 5:
-		.@item = .SPF09P[rand(getarraysize(.SPF09P))];
-		break;
+		S_Sell_List(.SPF09P);
+		return;
 	}
-	callsub S_Award,.@item,.@price;
 	return;
 
 S_Draw_F10:
-	.@choice = select("Any fourth-job slot - 100,000 Zeny:Shadow armor - 300,000 Zeny:Shadow shoes - 300,000 Zeny:Shadow earring - 300,000 Zeny:Shadow pendant - 300,000 Zeny:Back");
-	if (.@choice == 6)
+	.@choice = select("Shadow armor:Shadow shoes:Shadow earring:Shadow pendant:Back");
+	if (.@choice == 5)
 		return;
 
-	.@price = (.@choice == 1) ? 100000 : 300000;
 	switch (.@choice) {
 	case 1:
-		.@item = .SPF10A[rand(getarraysize(.SPF10A))];
-		break;
+		S_Sell_List(.SPF10R);
+		return;
 	case 2:
-		.@item = .SPF10R[rand(getarraysize(.SPF10R))];
-		break;
+		S_Sell_List(.SPF10S);
+		return;
 	case 3:
-		.@item = .SPF10S[rand(getarraysize(.SPF10S))];
-		break;
+		S_Sell_List(.SPF10E);
+		return;
 	case 4:
-		.@item = .SPF10E[rand(getarraysize(.SPF10E))];
-		break;
-	case 5:
-		.@item = .SPF10P[rand(getarraysize(.SPF10P))];
-		break;
+		S_Sell_List(.SPF10P);
+		return;
 	}
-	callsub S_Award,.@item,.@price;
 	return;
 
 S_Draw_F11:
-	.@choice = select("Any fourth-job slot - 100,000 Zeny:Shadow armor - 300,000 Zeny:Shadow shoes - 300,000 Zeny:Shadow earring - 300,000 Zeny:Shadow pendant - 300,000 Zeny:Back");
-	if (.@choice == 6)
+	.@choice = select("Shadow armor:Shadow shoes:Shadow earring:Shadow pendant:Back");
+	if (.@choice == 5)
 		return;
 
-	.@price = (.@choice == 1) ? 100000 : 300000;
 	switch (.@choice) {
 	case 1:
-		.@item = .SPF11A[rand(getarraysize(.SPF11A))];
-		break;
+		S_Sell_List(.SPF11R);
+		return;
 	case 2:
-		.@item = .SPF11R[rand(getarraysize(.SPF11R))];
-		break;
+		S_Sell_List(.SPF11S);
+		return;
 	case 3:
-		.@item = .SPF11S[rand(getarraysize(.SPF11S))];
-		break;
+		S_Sell_List(.SPF11E);
+		return;
 	case 4:
-		.@item = .SPF11E[rand(getarraysize(.SPF11E))];
-		break;
-	case 5:
-		.@item = .SPF11P[rand(getarraysize(.SPF11P))];
-		break;
+		S_Sell_List(.SPF11P);
+		return;
 	}
-	callsub S_Award,.@item,.@price;
 	return;
 
 S_Draw_F12:
-	.@choice = select("Any fourth-job slot - 100,000 Zeny:Shadow armor - 300,000 Zeny:Shadow shoes - 300,000 Zeny:Shadow earring - 300,000 Zeny:Shadow pendant - 300,000 Zeny:Back");
-	if (.@choice == 6)
+	.@choice = select("Shadow armor:Shadow shoes:Shadow earring:Shadow pendant:Back");
+	if (.@choice == 5)
 		return;
 
-	.@price = (.@choice == 1) ? 100000 : 300000;
 	switch (.@choice) {
 	case 1:
-		.@item = .SPF12A[rand(getarraysize(.SPF12A))];
-		break;
+		S_Sell_List(.SPF12R);
+		return;
 	case 2:
-		.@item = .SPF12R[rand(getarraysize(.SPF12R))];
-		break;
+		S_Sell_List(.SPF12S);
+		return;
 	case 3:
-		.@item = .SPF12S[rand(getarraysize(.SPF12S))];
-		break;
+		S_Sell_List(.SPF12E);
+		return;
 	case 4:
-		.@item = .SPF12E[rand(getarraysize(.SPF12E))];
-		break;
-	case 5:
-		.@item = .SPF12P[rand(getarraysize(.SPF12P))];
-		break;
+		S_Sell_List(.SPF12P);
+		return;
 	}
-	callsub S_Award,.@item,.@price;
 	return;
 
 S_Draw_F13:
-	.@choice = select("Any fourth-job slot - 100,000 Zeny:Shadow armor - 300,000 Zeny:Shadow shoes - 300,000 Zeny:Shadow earring - 300,000 Zeny:Shadow pendant - 300,000 Zeny:Back");
-	if (.@choice == 6)
+	.@choice = select("Shadow armor:Shadow shoes:Shadow earring:Shadow pendant:Back");
+	if (.@choice == 5)
 		return;
 
-	.@price = (.@choice == 1) ? 100000 : 300000;
 	switch (.@choice) {
 	case 1:
-		.@item = .SPF13A[rand(getarraysize(.SPF13A))];
-		break;
+		S_Sell_List(.SPF13R);
+		return;
 	case 2:
-		.@item = .SPF13R[rand(getarraysize(.SPF13R))];
-		break;
+		S_Sell_List(.SPF13S);
+		return;
 	case 3:
-		.@item = .SPF13S[rand(getarraysize(.SPF13S))];
-		break;
+		S_Sell_List(.SPF13E);
+		return;
 	case 4:
-		.@item = .SPF13E[rand(getarraysize(.SPF13E))];
-		break;
-	case 5:
-		.@item = .SPF13P[rand(getarraysize(.SPF13P))];
-		break;
+		S_Sell_List(.SPF13P);
+		return;
 	}
-	callsub S_Award,.@item,.@price;
 	return;
 
 S_Draw_F14:
-	.@choice = select("Any fourth-job slot - 100,000 Zeny:Shadow armor - 300,000 Zeny:Shadow shoes - 300,000 Zeny:Shadow earring - 300,000 Zeny:Shadow pendant - 300,000 Zeny:Back");
-	if (.@choice == 6)
+	.@choice = select("Shadow armor:Shadow shoes:Shadow earring:Shadow pendant:Back");
+	if (.@choice == 5)
 		return;
 
-	.@price = (.@choice == 1) ? 100000 : 300000;
 	switch (.@choice) {
 	case 1:
-		.@item = .SPF14A[rand(getarraysize(.SPF14A))];
-		break;
+		S_Sell_List(.SPF14R);
+		return;
 	case 2:
-		.@item = .SPF14R[rand(getarraysize(.SPF14R))];
-		break;
+		S_Sell_List(.SPF14S);
+		return;
 	case 3:
-		.@item = .SPF14S[rand(getarraysize(.SPF14S))];
-		break;
+		S_Sell_List(.SPF14E);
+		return;
 	case 4:
-		.@item = .SPF14E[rand(getarraysize(.SPF14E))];
-		break;
-	case 5:
-		.@item = .SPF14P[rand(getarraysize(.SPF14P))];
-		break;
+		S_Sell_List(.SPF14P);
+		return;
 	}
-	callsub S_Award,.@item,.@price;
 	return;
 
 S_Draw_F15:
-	.@choice = select("Any fourth-job slot - 100,000 Zeny:Shadow armor - 300,000 Zeny:Shadow shoes - 300,000 Zeny:Shadow earring - 300,000 Zeny:Shadow pendant - 300,000 Zeny:Back");
-	if (.@choice == 6)
+	.@choice = select("Shadow armor:Shadow shoes:Shadow earring:Shadow pendant:Back");
+	if (.@choice == 5)
 		return;
 
-	.@price = (.@choice == 1) ? 100000 : 300000;
 	switch (.@choice) {
 	case 1:
-		.@item = .SPF15A[rand(getarraysize(.SPF15A))];
-		break;
+		S_Sell_List(.SPF15R);
+		return;
 	case 2:
-		.@item = .SPF15R[rand(getarraysize(.SPF15R))];
-		break;
+		S_Sell_List(.SPF15S);
+		return;
 	case 3:
-		.@item = .SPF15S[rand(getarraysize(.SPF15S))];
-		break;
+		S_Sell_List(.SPF15E);
+		return;
 	case 4:
-		.@item = .SPF15E[rand(getarraysize(.SPF15E))];
-		break;
-	case 5:
-		.@item = .SPF15P[rand(getarraysize(.SPF15P))];
-		break;
+		S_Sell_List(.SPF15P);
+		return;
 	}
-	callsub S_Award,.@item,.@price;
 	return;
 
 S_Draw_F16:
-	.@choice = select("Any fourth-job slot - 100,000 Zeny:Shadow armor - 300,000 Zeny:Shadow shoes - 300,000 Zeny:Shadow earring - 300,000 Zeny:Shadow pendant - 300,000 Zeny:Back");
-	if (.@choice == 6)
+	.@choice = select("Shadow armor:Shadow shoes:Shadow earring:Shadow pendant:Back");
+	if (.@choice == 5)
 		return;
 
-	.@price = (.@choice == 1) ? 100000 : 300000;
 	switch (.@choice) {
 	case 1:
-		.@item = .SPF16A[rand(getarraysize(.SPF16A))];
-		break;
+		S_Sell_List(.SPF16R);
+		return;
 	case 2:
-		.@item = .SPF16R[rand(getarraysize(.SPF16R))];
-		break;
+		S_Sell_List(.SPF16S);
+		return;
 	case 3:
-		.@item = .SPF16S[rand(getarraysize(.SPF16S))];
-		break;
+		S_Sell_List(.SPF16E);
+		return;
 	case 4:
-		.@item = .SPF16E[rand(getarraysize(.SPF16E))];
-		break;
-	case 5:
-		.@item = .SPF16P[rand(getarraysize(.SPF16P))];
-		break;
+		S_Sell_List(.SPF16P);
+		return;
 	}
-	callsub S_Award,.@item,.@price;
 	return;
-
-S_Award:
-	// callsub starts a new .@ scope, so receive the selected reward explicitly.
-	.@item = getarg(0);
-	.@price = getarg(1);
-
-	if (.@item <= 0) {
-		mes "[Shadow Capsule]";
-		mes "No valid reward was selected. Please contact a game master.";
-		logmes "[EA_SHADOW_ERROR] aid="+getcharid(3)+" cid="+getcharid(0)+" invalid_item="+.@item+" price="+.@price;
-		close;
+function S_Sell_List	{
+	.@size = getarraysize(getarg(0));
+	if (.@size <= 0) {
+		mes "[Shadow Equipment Shop]";
+		mes "No items are available in this category.";
+		return;
 	}
 
-	if (Zeny < .@price) {
-		mes "[Shadow Capsule]";
+	.@page = 0;
+	while (true) {
+		.@start = .@page * .PageSize;
+		.@end = .@start + .PageSize;
+		if (.@end > .@size)
+			.@end = .@size;
+
+		.@menu$ = "";
+		for (.@i = .@start; .@i < .@end; .@i++) {
+			.@item = getelementofarray(getarg(0), .@i);
+			.@menu$ += getitemname(.@item)+" ["+.@item+"]:";
+		}
+
+		.@shown = .@end - .@start;
+		.@has_next = (.@end < .@size);
+		.@has_prev = (.@page > 0);
+		if (.@has_next)
+			.@menu$ += "Next page:";
+		if (.@has_prev)
+			.@menu$ += "Previous page:";
+		.@menu$ += "Back";
+
+		mes "[Shadow Equipment Shop]";
+		mes "Page "+(.@page + 1)+" / "+((.@size + .PageSize - 1) / .PageSize)+".";
+		mes "Each item costs ^0055FF"+callfunc("F_InsertComma",.DirectPrice)+" Zeny^000000.";
+		next;
+		.@choice = select(.@menu$);
+
+		if (.@choice <= .@shown) {
+			.@item = getelementofarray(getarg(0), .@start + .@choice - 1);
+			S_Confirm_Buy(.@item);
+			return;
+		}
+
+		.@cursor = .@shown;
+		if (.@has_next) {
+			.@cursor++;
+			if (.@choice == .@cursor) {
+				.@page++;
+				continue;
+			}
+		}
+		if (.@has_prev) {
+			.@cursor++;
+			if (.@choice == .@cursor) {
+				.@page--;
+				continue;
+			}
+		}
+		return;
+	}
+	return;
+}
+
+function S_Confirm_Buy	{
+	.@item = getarg(0);
+	if (.@item <= 0) {
+		mes "[Shadow Equipment Shop]";
+		mes "No valid item was selected. Please contact a game master.";
+		logmes "[EA_SHADOW_SHOP_ERROR] aid="+getcharid(3)+" cid="+getcharid(0)+" invalid_item="+.@item;
+		return;
+	}
+
+	mes "[Shadow Equipment Shop]";
+	mes "Item: ^0055FF"+getitemname(.@item)+"^000000";
+	mes "Item ID: "+.@item;
+	mes "Price: ^0055FF"+callfunc("F_InsertComma",.DirectPrice)+" Zeny^000000";
+	next;
+	if (select("Buy:Back") == 2)
+		return;
+
+	if (Zeny < .DirectPrice) {
+		mes "[Shadow Equipment Shop]";
 		mes "You do not have enough Zeny.";
-		close;
+		return;
 	}
 
 	if (!checkweight(.@item,1)) {
-		mes "[Shadow Capsule]";
+		mes "[Shadow Equipment Shop]";
 		if ((MaxWeight - Weight) < getiteminfo(.@item, ITEMINFO_WEIGHT))
 			mes "You are carrying too much weight.";
 		else
 			mes "You do not have a free inventory slot.";
-		close;
+		return;
 	}
 
-	Zeny -= .@price;
+	Zeny -= .DirectPrice;
 	getitem .@item,1;
-	logmes "[EA_SHADOW] aid="+getcharid(3)+" cid="+getcharid(0)+" item="+.@item+" price="+.@price;
-	mes "[Shadow Capsule]";
-	mes "You received ^0055FF"+getitemname(.@item)+"^000000.";
-	close;
+	logmes "[EA_SHADOW_SHOP] aid="+getcharid(3)+" cid="+getcharid(0)+" item="+.@item+" price="+.DirectPrice;
+	mes "[Shadow Equipment Shop]";
+	mes "Purchased ^0055FF"+getitemname(.@item)+"^000000.";
+	return;
+}
 
 OnInit:
+	.DirectPrice = 300000;
+	.PageSize = 8;
 	setarray .SPG01A[0],15280,24000,24001,24002,24003,24004,24005,24006,24007,24008,24009,24010,24011,24012,24013,24014,24015,24016,24017,24018,24019,24020,24021,24022,24023,24024,24025,24026,24027,24028,24029,24030,24031,24032,24033,24034,24035,24036,24037,24038,24039,24040,24041,24042,24043,24044,24045,24046,24047,24048,24049,24050,24051,24052,24053,24054,24055,24056,24057,24058,24059,24060,24061,24062,24063,24064,24065,24066,24067,24068,24069,24070,24071,24072,24073,24074,24075,24076,24077,24078;
 	setarray .SPG01A[80],24079,24080,24081,24082,24083,24084,24085,24086,24087,24088,24089,24090,24091,24092,24093,24094,24095,24096,24097,24098,24099,24100,24101,24102,24103,24104,24105,24106,24107,24108,24109,24110,24111,24112,24113,24114,24115,24116,24117,24118,24119,24120,24121,24122,24123,24124,24125,24126,24127,24128,24129,24130,24131,24132,24133,24134,24135,24136,24137,24138,24139,24140,24141,24142,24143,24144,24145,24146,24147,24148,24149,24150,24151,24152,24153,24154,24155,24156,24157,24158;
 	setarray .SPG01A[160],24159,24160,24161,24162,24163,24164,24165,24166,24167,24168,24169,24170,24171,24172,24173,24174,24175,24176,24177,24178,24179,24180,24181,24182,24183,24184,24185,24186,24187,24188,24189,24190,24191,24192,24193,24194,24195,24196,24197,24198,24199,24200,24201,24202,24203,24204,24205,24206,24207,24208,24209,24210,24211,24212,24213,24214,24215,24216,24217,24218,24219,24220,24221,24222,24223,24224,24225,24226,24227,24228,24229,24230,24231,24232,24233,24234,24235,24236,24237,24238;
