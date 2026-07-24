@@ -1,0 +1,14 @@
+Shadow Capsule reward scope fix
+================================
+Updated S_Award call sites: 40
+
+Root cause:
+- callsub creates a new .@ scope in rAthena.
+- The selected .@item and .@price were not passed into S_Award.
+- S_Award therefore evaluated checkweight(0,1), producing the misleading
+  inventory-full message even when the inventory was not full.
+
+Fix:
+- Every S_Award call now passes item and price as arguments.
+- S_Award reads getarg(0) and getarg(1).
+- Invalid reward, overweight and inventory-slot errors are separated.

@@ -1,0 +1,92 @@
+system,base_item_id,base_item,result_item_id,result_item,native_success_percent,zeny_cost
+Episode 11.1,1460,Trident,1461,Trident,25,200000
+Episode 11.1,1950,Rope,1951,Rope,25,200000
+Episode 11.1,1901,Violin,1902,Violin,25,200000
+Episode 11.1,1519,Chain,1520,Chain,20,300000
+Episode 11.1,1219,Gladius,1220,Gladius,20,300000
+Episode 11.1,1714,Gakkung Bow,1716,Gakkung Bow,20,300000
+Episode 11.1,1407,Pike,1408,Pike,20,200000
+Episode 11.1,1123,Haedonggum,1128,Haedonggum,20,300000
+Episode 11.1,1905,Lute,1906,Lute,20,300000
+Episode 11.1,1954,Wire Whip,1955,Wire Whip,20,300000
+Episode 11.1,1801,Waghnak,1802,Waghnak,20,300000
+Episode 11.1,1713,Arbalest,1715,Arbalest,20,300000
+Episode 11.1,1718,Hunter Bow,1726,Hunter Bow,20,500000
+Episode 11.1,1619,Survivor's Rod (Int),1620,Survivor's Rod (Int),20,500000
+Episode 11.1,1168,Zweihander,1171,Zweihander,20,800000
+Episode 11.1,1129,Flamberge,1149,Flamberge,20,500000
+Episode 11.1,1261,Infiltrator,1266,Infiltrator,20,700000
+Episode 11.1,1722,Ballista,1727,Ballista,20,500000
+Episode 11.1,1522,Stunner,1532,Stunner,20,500000
+Episode 11.1,1814,Berserk,1816,Berserk,20,500000
+Episode 11.1,1163,Claymore,1172,Claymore,20,500000
+Episode 11.1,13002,Ginnungagap,13019,Ginnungagap,10,1000000
+Episode 11.1,2307,Mantle,2308,Mantle,25,200000
+Episode 11.1,2309,Coat,2310,Coat,25,200000
+Episode 11.1,2232,Circlet,2233,Circlet,25,200000
+Episode 11.1,2216,Biretta,2217,Biretta,25,200000
+Episode 11.1,2107,Mirror Shield,2108,Mirror Shield,20,250000
+Episode 11.1,2314,Chain Mail,2315,Chain Mail,20,250000
+Episode 11.1,2325,Saint's Robe,2326,Saint's Robe,20,300000
+Episode 11.1,2321,Silk Robe,2322,Silk Robe,20,300000
+Episode 11.1,2405,Boots,2406,Boots,20,300000
+Episode 11.1,2403,Shoes,2404,Shoes,20,300000
+Episode 11.1,2503,Muffler,2504,Muffler,20,300000
+Episode 11.1,2101,Guard,2102,Guard,20,300000
+Episode 11.1,2103,Buckler,2104,Buckler,20,300000
+Episode 11.1,2105,Shield,2106,Shield,20,250000
+Episode 11.1,5046,Bongun Hat,5168,Bongun Hat,20,250000
+Episode 11.1,2230,Gemmed Sallet,2231,Gemmed Sallet,20,400000
+Episode 11.1,5114,Bucket Hat,5120,Bucket Hat,20,400000
+Episode 11.1,2109,Memory Book,2121,Memory Book,20,400000
+Episode 11.1,2330,Tights,2331,Tights,20,400000
+Episode 11.1,2341,Legion Plate Armor,2342,Legion Plate Armor,20,400000
+Episode 11.1,2316,Full Plate,2317,Full Plate,20,400000
+Episode 11.1,2335,Thief Clothes,2336,Thief Clothes,20,400000
+Episode 11.1,2411,Greaves,2412,Greaves,20,400000
+Episode 11.1,5092,Coif,5093,Coif,20,400000
+Episode 11.1,2505,Manteau,2506,Manteau,20,400000
+Episode 11.1,2228,Helm,2229,Helm,20,400000
+Episode 11.1,2337,Ninja Suit,2359,Ninja Suit,20,400000
+Episode 11.1,2299,Orc Helm,5157,Orc Helm,20,400000
+Episode 11.1,2507,Ancient Cape,2525,Ancient Cape,20,400000
+Episode 11.1,2251,Monk Hat,5158,Monk Hat,20,400000
+Episode 11.1,2246,Golden Gear,5159,Golden Gear,20,400000
+Episode 11.1,2605,Brooch,2625,Brooch,20,400000
+Episode 11.1,2264,Munak Hat,5167,Munak Hat,20,300000
+Episode 11.1,2256,Majestic Goat,5160,Majestic Goat,10,2000000
+Episode 11.1,2258,Spiky Band,5161,Spiky Band,10,2000000
+Episode 11.1,5017,Bone Helm,5162,Bone Helm,10,2000000
+Episode 11.1,5019,Corsair,5163,Corsair,10,2000000
+Episode 11.1,2235,Crown,5165,Crown,10,2000000
+Episode 11.1,2234,Tiara,5164,Tiara,10,2000000
+Episode 11.1,5053,Sphinx Hat,5166,Sphinx Hat,10,1000000
+Episode 11.1,2343,Robe of Cast,2360,Robe of Cast,10,1000000
+Episode 11.1,2602,Earring,2622,Earring,10,1000000
+Episode 11.1,2601,Ring,2621,Ring,10,1000000
+Episode 11.1,2619,Bow Thimble,2671,Bow Thimble,10,1000000
+Episode 12,1554,Book of Mother Earth,1569,Book of Mother Earth,25,200000
+Episode 12,1553,Book of Billows,1568,Book of Billows,25,200000
+Episode 12,1556,Book of Gust of Wind,1571,Book of Gust of Wind,25,200000
+Episode 12,1555,Book of the Blazing Sun,1570,Book of Blazing Sun,25,200000
+Episode 12,1304,Orcish Axe,1309,Orcish Axe,25,200000
+Episode 12,1113,Scimitar,1114,Scimitar,25,200000
+Episode 12,1523,Spike,1538,Spike,20,300000
+Episode 12,13001,Dragon Killer,13030,Dragon Killer,20,500000
+Episode 12,1225,Mailbreaker,13032,Mailbreaker,10,1000000
+Episode 12,1224,Swordbreaker,13031,Swordbreaker,10,1000000
+Episode 12,1232,Assassin Dagger,13033,Assassin Dagger,10,1000000
+Episode 12,2253,Sunflower,5351,Sunflower,25,100000
+Episode 12,5012,Ph.D Hat,5347,Ph.D Hat,25,100000
+Episode 12,2244,Big Ribbon,5348,Big Ribbon,25,100000
+Episode 12,5016,Boy's Cap,5349,Boy's Cap,25,100000
+Episode 12,2609,Skull Ring,2715,Skull Ring,20,300000
+Episode 12,2409,High Heels,2432,High Heels,20,300000
+Episode 12,2287,Pirate Bandana,5350,Pirate Bandana,10,500000
+Episode 12,2425,Black Leather Boots,2434,Black Leather Boots,10,500000
+Episode 12,2334,Mage Coat,2372,Mage Coat,10,1000000
+Episode 12,2327,Holy Robe,2373,Holy Robe,5,1000000
+Episode 12,2111,Sacred Mission,2128,Sacred Mission,5,1000000
+Episode 12,2522,Undershirt,2523,Undershirt,5,1000000
+Episode 12,2339,Pantie,2371,Pantie,5,1000000
+Episode 12 special,5022,Hat of the Sun God,5353,Hat of the Sun God,90,200000000

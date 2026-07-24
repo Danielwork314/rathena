@@ -1,0 +1,68 @@
+﻿Item ID,AegisName,Server English Name,Category,EquipLevelMin,Slots,Reason
+28145,Sky_Rush_Axe,Sky Rush Axe,Weapons,240,2,Item ID absent from active SystemEN/LuaFiles514/itemInfo.lua
+400757,C_WH_Fox_Hood_Twin,Costume White Fox Hood Twin,Costumes,0,0,Item ID absent from active SystemEN/LuaFiles514/itemInfo.lua
+401000,C_Liamette_Hair_Band,Costume Liamette Hair Band,Costumes,0,0,Item ID absent from active SystemEN/LuaFiles514/itemInfo.lua
+401001,C_N_Piamette_Bonnet,Costume Piamette Bonnet,Costumes,0,0,Item ID absent from active SystemEN/LuaFiles514/itemInfo.lua
+401055,Stardust_Crown_SV,Silver Stardust Crown,Headgear,250,1,Item ID absent from active SystemEN/LuaFiles514/itemInfo.lua
+401056,Stardust_Crown_SC,Scarlet Stardust Crown,Headgear,250,1,Item ID absent from active SystemEN/LuaFiles514/itemInfo.lua
+401057,Stardust_Crown_VI,Violet Stardust Crown,Headgear,250,1,Item ID absent from active SystemEN/LuaFiles514/itemInfo.lua
+401058,Sky_Rune_Crown_IG,Celestial Rune Crown (Imperial Guard),Headgear,240,1,Item ID absent from active SystemEN/LuaFiles514/itemInfo.lua
+401059,Sky_Rune_Crown_ABC,Celestial Rune Crown (Abyss Chaser),Headgear,240,1,Item ID absent from active SystemEN/LuaFiles514/itemInfo.lua
+401060,Sky_Rune_Crown_SH,Rune Crown of the Sky (Spiritualist),Headgear,240,1,Item ID absent from active SystemEN/LuaFiles514/itemInfo.lua
+401062,aegis_401062,Costume Ignis Cap (Red),Costumes,0,0,Item ID absent from active SystemEN/LuaFiles514/itemInfo.lua
+401115,Sky_Rune_Crown_MS,Sky Rune Crown (Meister),Headgear,240,1,Item ID absent from active SystemEN/LuaFiles514/itemInfo.lua
+401116,Sky_Rune_Crown_WH,Sky Rune Crown (Windhawk),Headgear,240,1,Item ID absent from active SystemEN/LuaFiles514/itemInfo.lua
+401117,Sky_Rune_Crown_HN,Sky Rune Crown (Hyper Novice),Headgear,240,1,Item ID absent from active SystemEN/LuaFiles514/itemInfo.lua
+401118,Sky_Rune_Crown_CD,Sky Rune Crown (Cardinal),Headgear,240,1,Item ID absent from active SystemEN/LuaFiles514/itemInfo.lua
+401119,Sky_Rune_Crown_IQ,Sky Rune Crown (Inquisitor),Headgear,240,1,Item ID absent from active SystemEN/LuaFiles514/itemInfo.lua
+401120,Sky_Rune_Crown_SKE,Sky Rune Crown (Sky Emperor),Headgear,240,1,Item ID absent from active SystemEN/LuaFiles514/itemInfo.lua
+410198,C_2022Cosutama_Imp_JP,Costume Deviruchi Party,Costumes,0,0,Item ID absent from active SystemEN/LuaFiles514/itemInfo.lua
+410278,C_Blink_Eyes_Bloody,Costume Twinkling Bloody Eye,Costumes,0,0,Item ID absent from active SystemEN/LuaFiles514/itemInfo.lua
+410280,aegis_410280,Costume Niflheim Night Sky,Costumes,0,0,Item ID absent from active SystemEN/LuaFiles514/itemInfo.lua
+410384,C_Blink_Eyes_WH_Serpent,Costume Blink Eyes White Serpent,Costumes,0,0,Item ID absent from active SystemEN/LuaFiles514/itemInfo.lua
+410471,C_Gear_Monocle,Costume Gear Monocle,Costumes,0,0,Item ID absent from active SystemEN/LuaFiles514/itemInfo.lua
+410474,C_Chained_Bear,Costume Chained Bear,Costumes,0,0,Item ID absent from active SystemEN/LuaFiles514/itemInfo.lua
+410491,C_Violet_Starlight,Costume Violet Starlight,Costumes,0,0,Item ID absent from active SystemEN/LuaFiles514/itemInfo.lua
+420382,C_Atque_Poenitentia,Costume Atokwe Poenitentia,Costumes,0,0,Item ID absent from active SystemEN/LuaFiles514/itemInfo.lua
+420426,C_WH_Fox_Hood_Twin_N,Costume White Fox Hood Twin (No Decoration),Costumes,0,0,Item ID absent from active SystemEN/LuaFiles514/itemInfo.lua
+420448,C_Deep_You_N,Costume Abyssal,Costumes,0,0,Item ID absent from active SystemEN/LuaFiles514/itemInfo.lua
+420449,C_Deep_You,Costume Abyssal Hair,Costumes,0,0,Item ID absent from active SystemEN/LuaFiles514/itemInfo.lua
+420514,C_Wonderful_Long_N,Costume Wonderful Long (No Decoration),Costumes,0,0,Item ID absent from active SystemEN/LuaFiles514/itemInfo.lua
+420515,C_Wonderful_Long,Costume Wonderful Long,Costumes,0,0,Item ID absent from active SystemEN/LuaFiles514/itemInfo.lua
+420516,C_Forest_Friends,Costume Forest Friends,Costumes,0,0,Item ID absent from active SystemEN/LuaFiles514/itemInfo.lua
+420570,C_Feather_Hair_TT,Costume Winged Twin Hair,Costumes,0,0,Item ID absent from active SystemEN/LuaFiles514/itemInfo.lua
+420571,C_Feather_Hair_BD,Costume Feather Blonde Hair,Costumes,0,0,Item ID absent from active SystemEN/LuaFiles514/itemInfo.lua
+420575,C_N_Piamette_RollHair,Costume Piamette Rollhair,Costumes,0,0,Item ID absent from active SystemEN/LuaFiles514/itemInfo.lua
+420576,C_Nightmare_Chain,Costume Nightmare Chain,Costumes,0,0,Item ID absent from active SystemEN/LuaFiles514/itemInfo.lua
+420642,C_OpenAir_Headset_Red,Costume Open Air Headset (Red),Costumes,0,0,Item ID absent from active SystemEN/LuaFiles514/itemInfo.lua
+480469,C_Con_of_Singapura_MSP,Costume Con of Singapura,Costumes,0,0,Item ID absent from active SystemEN/LuaFiles514/itemInfo.lua
+480473,C_FB_EvilSprit,Costume Fallen Bishop Evil Spirit,Costumes,0,0,Item ID absent from active SystemEN/LuaFiles514/itemInfo.lua
+480494,C_Halloween_Candypouch,Costume Halloween Candy Pouch,Costumes,0,0,Item ID absent from active SystemEN/LuaFiles514/itemInfo.lua
+480521,C_White_Fox_Tail,Costume White Fox Tail,Costumes,0,0,Item ID absent from active SystemEN/LuaFiles514/itemInfo.lua
+480616,C_Qualifier_1st,Costume: Royal Knight's Rune Sword,Costumes,0,0,Item ID absent from active SystemEN/LuaFiles514/itemInfo.lua
+480617,C_Qualifier_2nd,Costume: Royal Knight's Greatsword,Costumes,0,0,Item ID absent from active SystemEN/LuaFiles514/itemInfo.lua
+480618,C_Qualifier_3rd,Costume: Knight's Greatsword,Costumes,0,0,Item ID absent from active SystemEN/LuaFiles514/itemInfo.lua
+480627,C_2025RosFesta,Costume ROS 2025 Champion Coat,Costumes,0,0,Item ID absent from active SystemEN/LuaFiles514/itemInfo.lua
+480629,C_Clock_Rod,Costume Clock Rod,Costumes,0,0,Item ID absent from active SystemEN/LuaFiles514/itemInfo.lua
+480631,C_Detective_Mag_Glass,Costume Detective's Magnifying Glass,Costumes,0,0,Item ID absent from active SystemEN/LuaFiles514/itemInfo.lua
+480632,C_N_Mad_Bunny,Costume Mad Bunny Nightmare,Costumes,0,0,Item ID absent from active SystemEN/LuaFiles514/itemInfo.lua
+480669,aegis_480669,Executioner's Cloak,Garments,250,1,Item ID absent from active SystemEN/LuaFiles514/itemInfo.lua
+480670,aegis_480670,Sharpshooter Muffler,Garments,250,1,Item ID absent from active SystemEN/LuaFiles514/itemInfo.lua
+480671,aegis_480671,Fighter's Cloak,Garments,250,1,Item ID absent from active SystemEN/LuaFiles514/itemInfo.lua
+480672,aegis_480672,Champion's Cloak,Garments,250,1,Item ID absent from active SystemEN/LuaFiles514/itemInfo.lua
+480673,aegis_480673,Scholar's Muffler,Garments,250,1,Item ID absent from active SystemEN/LuaFiles514/itemInfo.lua
+480674,aegis_480674,Wizard's Cloak,Garments,250,1,Item ID absent from active SystemEN/LuaFiles514/itemInfo.lua
+500134,Sky_Napalm_Sword,Celestial Napalm Sword,Weapons,240,2,Item ID absent from active SystemEN/LuaFiles514/itemInfo.lua
+510199,Sky_Chasing_Dagger,Chasing Dagger of the Sky,Weapons,240,2,Item ID absent from active SystemEN/LuaFiles514/itemInfo.lua
+530076,Sky_Imperial_Spear,Imperial Spear of the Sky,Weapons,240,2,Item ID absent from active SystemEN/LuaFiles514/itemInfo.lua
+540119,Judgment_Day,Judgment Day,Weapons,265,2,Item ID absent from active SystemEN/LuaFiles514/itemInfo.lua
+540122,Sky_Moon_Book,Celestial Moonsong Book,Weapons,240,2,Item ID absent from active SystemEN/LuaFiles514/itemInfo.lua
+550187,Sky_Chulho_Foxtail,Foxtail of the Sky,Weapons,240,2,Item ID absent from active SystemEN/LuaFiles514/itemInfo.lua
+550190,Sky_Arbi_Rod,Celestial Arby Rod,Weapons,240,2,Item ID absent from active SystemEN/LuaFiles514/itemInfo.lua
+560086,Sky_Destroy_Knuckle,Celestial Annihilation,Weapons,240,2,Item ID absent from active SystemEN/LuaFiles514/itemInfo.lua
+570090,Geige,Gaig,Weapons,265,2,Item ID absent from active SystemEN/LuaFiles514/itemInfo.lua
+580090,Needle_Whip,Needle Whip,Weapons,265,2,Item ID absent from active SystemEN/LuaFiles514/itemInfo.lua
+590111,Submarine_Anchor,Submarine Anchor,Weapons,265,2,Item ID absent from active SystemEN/LuaFiles514/itemInfo.lua
+590112,Jack_O_Rush,Jack O' Rush,Weapons,265,2,Item ID absent from active SystemEN/LuaFiles514/itemInfo.lua
+610089,Vida_Nocturno,Vida Noctorno,Weapons,265,3,Item ID absent from active SystemEN/LuaFiles514/itemInfo.lua
+700125,Sky_Crescive_Bow,Celestial Crescent Bow,Weapons,240,2,Item ID absent from active SystemEN/LuaFiles514/itemInfo.lua

@@ -1,40 +1,47 @@
-rAthena Equipment Archive NPC - Build Report
-============================================================
-Source ZIP SHA-256: 3d64a5fc3b401b25bc8d7d9ec366bc0fd2b9a43721074e81a746582d5e7ad9d7
+rAthena Equipment Archive Active ItemInfo + Shadow Job Tier Report
+=================================================================
 
-Original equipment records: 12982
-Approved filtered non-monster-drop records: 7700
-Safety-excluded records: 467
-NPC-included records: 7233
+Authoritative client file:
+  SystemEN/LuaFiles514/itemInfo.lua
 
-Included by category:
-  Accessories: 535
-  Armor: 222
-  Costumes: 3183
-  Garments: 243
-  Headgear: 560
-  Pet Eggs: 149
-  Pet Equipment: 28
+Previous package items: 4,171
+Final active-ItemInfo items: 4,104
+Newly removed Unknown Item candidates: 67
+
+Final items by category:
+  Accessories: 204
+  Armor: 104
+  Costumes: 1,498
+  Garments: 89
+  Headgear: 263
+  Pet Eggs: 130
+  Pet Equipment: 25
   Shadow Gear: 963
-  Shields: 72
-  Shoes: 228
-  Weapons: 1050
+  Shields: 20
+  Shoes: 98
+  Weapons: 710
 
-Excluded by reason:
-  Rental item: 11
-  Trade.NoStorage=true: 455
-  Trial item: 1
+Newly removed by category:
+  Costumes: 34
+  Garments: 6
+  Headgear: 12
+  Weapons: 15
 
-Ordinary hidden shop pages: 0
-Pet hidden shop pages: 0
-Costume all-pool size: 3183
-Shadow all-pool size: 963
+Shadow items: 963
+Shadow pool definitions: 40
+General shadow items: 491
+Second / expanded shadow items: 82
+Third / advanced shadow items: 198
+Fourth job shadow items: 366
 
-Static checks passed:
+Important:
+  Third/Fourth shared equipment appears in both eligible tier menus.
+  NoStorage/rental/trial exclusions from the previous package remain excluded.
+
+Validation passed:
+  - every NPC item exists in the server item DB
+  - every NPC item exists in the active English ItemInfo
+  - every NPC item has a nonblank active client name and resource
   - every callshop target has one hidden shop
-  - every hidden shop page contains at most 40 items
-  - every included ID exists in item_db_equip.yml
-  - no included item is listed in direct monster drops
-  - ordinary shop equipment has EquipLevelMin >= 100
-  - ordinary functional duplicates were reduced to highest slot count
-  - NoStorage/rental/trial items are excluded and audited
+  - every hidden shop page has at most 40 items
+  - every shadow item appears in at least one job-tier all-slot pool

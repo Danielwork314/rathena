@@ -1,0 +1,302 @@
+//===== rAthena Script =======================================
+//= Pet Evolution Guide and Material Shops
+//===== Description: =========================================
+//= Covers every active Evolution route in db/re/pet_db.yml.
+//= Actual evolution uses the native Pet Status window.
+//============================================================
+
+function	script	F_PetEvolutionArchive	{
+	mes "[Pet Evolution]";
+	mes "The server uses the native pet evolution system.";
+	mes "A pet must be Loyal, summoned, and have its accessory removed.";
+	mes "Carry the listed materials, then use the Evolve button in the Pet Status window.";
+	next;
+	switch(select("Check my active pet:Evolution materials:General instructions:Back")) {
+	case 1:
+		.@pet_class = getpetinfo(PETINFO_CLASS);
+		if (.@pet_class <= 0) {
+			mes "[Pet Evolution]";
+			mes "You do not currently have a summoned pet.";
+			close;
+		}
+		mes "[Pet Evolution]";
+		mes "Active pet: ^0055FF" + getpetinfo(PETINFO_NAME) + "^000000";
+		mes "Intimacy: ^0055FF" + getpetinfo(PETINFO_INTIMATE) + " / 1000^000000";
+		if (getpetinfo(PETINFO_INTIMATE) < PET_INTIMATE_LOYAL)
+			mes "^FF0000The pet is not Loyal yet. Evolution requires at least 910 intimacy.^000000";
+		next;
+		switch(.@pet_class) {
+		case 1002:
+			mes "[Pet Evolution]";
+			mes "Route: ^0055FFPoring -> Mastering^000000";
+			mes "Required materials:";
+			mes "- 10x Yggdrasil Leaf (You have: " + countitem(610) + ")";
+			mes "- 3x Unripe Apple (You have: " + countitem(619) + ")";
+			break;
+		case 1019:
+			mes "[Pet Evolution]";
+			mes "Route: ^0055FFPeco Peco -> Grand Peco^000000";
+			mes "Required materials:";
+			mes "- 10x Pet Food (You have: " + countitem(537) + ")";
+			mes "- 3x Fatty Chubby Earthworm (You have: " + countitem(632) + ")";
+			mes "- 300x Peco Peco Feather (You have: " + countitem(7101) + ")";
+			mes "- 1x Peco Peco Card (You have: " + countitem(4031) + ")";
+			mes "- 10x Mastela Fruit (You have: " + countitem(522) + ")";
+			break;
+		case 1023:
+			mes "[Pet Evolution]";
+			mes "Route: ^0055FFOrc Warrior -> High Orc^000000";
+			mes "Required materials:";
+			mes "- 3x Orc Trophy (You have: " + countitem(635) + ")";
+			mes "- 1x Orcish Sword (You have: " + countitem(1124) + ")";
+			mes "- 500x Orcish Voucher (You have: " + countitem(931) + ")";
+			mes "- 1x Cigarette (You have: " + countitem(2267) + ")";
+			mes "- 1x Orc Warrior Card (You have: " + countitem(4066) + ")";
+			break;
+		case 1029:
+			mes "[Pet Evolution]";
+			mes "Route: ^0055FFIsis -> Little Isis^000000";
+			mes "Required materials:";
+			mes "- 3x Armlet of Obedience (You have: " + countitem(639) + ")";
+			mes "- 1x Queen's Hair Ornament (You have: " + countitem(10006) + ")";
+			mes "- 300x Shining Scale (You have: " + countitem(954) + ")";
+			mes "- 6x 3carat Diamond (You have: " + countitem(732) + ")";
+			break;
+		case 1040:
+			mes "[Pet Evolution]";
+			mes "Route: ^0055FFGolem -> Fire Golem^000000";
+			mes "Required materials:";
+			mes "- 500x Stone Heart (You have: " + countitem(953) + ")";
+			mes "- 3x Magical Lithography (You have: " + countitem(12371) + ")";
+			mes "- 1x Fire Golem Card (You have: " + countitem(27029) + ")";
+			mes "- 20x Red Blood (You have: " + countitem(990) + ")";
+			break;
+		case 1041:
+			mes "[Pet Evolution]";
+			mes "Route: ^0055FFMummy -> Ancient Mummy^000000";
+			mes "Required materials:";
+			mes "- 3x Elixir Bandages (You have: " + countitem(23256) + ")";
+			mes "- 200x Rune of Darkness (You have: " + countitem(7511) + ")";
+			mes "- 30x Gold (You have: " + countitem(969) + ")";
+			mes "- 1x Ancient Mummy Card (You have: " + countitem(4248) + ")";
+			break;
+		case 1052:
+			mes "[Pet Evolution]";
+			mes "Route: ^0055FFRocker -> Metaller^000000";
+			mes "Required materials:";
+			mes "- 3x Singing Plant (You have: " + countitem(707) + ")";
+			mes "- 777x Grasshopper's Leg (You have: " + countitem(940) + ")";
+			mes "- 200x Yellow Herb (You have: " + countitem(508) + ")";
+			mes "- 1x Metaller Card (You have: " + countitem(4057) + ")";
+			break;
+		case 1057:
+			mes "[Pet Evolution]";
+			mes "Route: ^0055FFYoyo -> Choco^000000";
+			mes "Required materials:";
+			mes "- 3x Tropical Banana (You have: " + countitem(634) + ")";
+			mes "- 2x Yoyo Doll (You have: " + countitem(753) + ")";
+			mes "- 300x Cacao (You have: " + countitem(7182) + ")";
+			mes "- 1x Yoyo Card (You have: " + countitem(4051) + ")";
+			break;
+		case 1063:
+			mes "[Pet Evolution]";
+			mes "Route: ^0055FFLunatic -> Leaf Lunatic^000000";
+			mes "Required materials:";
+			mes "- 100x Huge Leaf (You have: " + countitem(7198) + ")";
+			mes "- 250x Clover (You have: " + countitem(705) + ")";
+			mes "- 30x Four Leaf Clover (You have: " + countitem(706) + ")";
+			mes "- 1x Leaf Lunatic Card (You have: " + countitem(4663) + ")";
+			break;
+		case 1090:
+			mes "[Pet Evolution]";
+			mes "Route: ^0055FFMastering -> Angeling^000000";
+			mes "Required materials:";
+			mes "- 20x Yellow Potion (You have: " + countitem(503) + ")";
+			mes "- 1x Halo (You have: " + countitem(2282) + ")";
+			mes "- 50x White Herb (You have: " + countitem(509) + ")";
+			mes "- 200x Jellopy (You have: " + countitem(909) + ")";
+			break;
+		case 1107:
+			mes "[Pet Evolution]";
+			mes "Route: ^0055FFBaby Desert Wolf -> Desert Wolf^000000";
+			mes "Required materials:";
+			mes "- 3x Well-Dried Bone (You have: " + countitem(628) + ")";
+			mes "- 1x Desert Wolf Card (You have: " + countitem(4082) + ")";
+			mes "- 300x Claw of Desert Wolf (You have: " + countitem(7030) + ")";
+			mes "- 20x Animal Skin (You have: " + countitem(919) + ")";
+			break;
+		case 1109:
+			mes "[Pet Evolution]";
+			mes "Route: ^0055FFDeviruchi -> Diabolic2^000000";
+			mes "Required materials:";
+			mes "- 3x Contract in Shadow (You have: " + countitem(641) + ")";
+			mes "- 250x Little Evil Wing (You have: " + countitem(1039) + ")";
+			mes "- 30x Hand of God (You have: " + countitem(1009) + ")";
+			mes "- 1x Deviruchi Card (You have: " + countitem(4122) + ")";
+			break;
+		case 1110:
+			mes "[Pet Evolution]";
+			mes "Route: ^0055FFDokebi -> Am Mut^000000";
+			mes "Required materials:";
+			mes "- 3x Old Broom (You have: " + countitem(637) + ")";
+			mes "- 3x Violet Dyestuffs (You have: " + countitem(981) + ")";
+			mes "- 300x Dokebi Horn (You have: " + countitem(1021) + ")";
+			mes "- 3x Gold (You have: " + countitem(969) + ")";
+			break;
+		case 1113:
+			mes "[Pet Evolution]";
+			mes "Route: ^0055FFDrops -> Eggring^000000";
+			mes "Required materials:";
+			mes "- 20x Piece of Egg Shell (You have: " + countitem(7032) + ")";
+			mes "- 10x Old Frying Pan (You have: " + countitem(7031) + ")";
+			mes "- 3x Apple Juice (You have: " + countitem(531) + ")";
+			mes "- 1x Eggring Card (You have: " + countitem(4659) + ")";
+			next;
+			mes "[Pet Evolution]";
+			mes "Route: ^0055FFDrops -> Sweets Drops^000000";
+			mes "Required materials:";
+			mes "- 500x Sweets Festival Coin (You have: " + countitem(25290) + ")";
+			mes "- 50x Candy (You have: " + countitem(529) + ")";
+			mes "- 50x Candy Cane (You have: " + countitem(530) + ")";
+			mes "- 1x Drops Card (You have: " + countitem(4004) + ")";
+			break;
+		case 1155:
+			mes "[Pet Evolution]";
+			mes "Route: ^0055FFPetite -> Deleter 2^000000";
+			mes "Required materials:";
+			mes "- 3x Shining Stone (You have: " + countitem(640) + ")";
+			mes "- 100x Petite's Tail (You have: " + countitem(6260) + ")";
+			mes "- 150x Aloevera (You have: " + countitem(606) + ")";
+			mes "- 1x Earth Deleter Card (You have: " + countitem(4279) + ")";
+			break;
+		case 1167:
+			mes "[Pet Evolution]";
+			mes "Route: ^0055FFSavage Babe -> Savage^000000";
+			mes "Required materials:";
+			mes "- 10x Pet Food (You have: " + countitem(537) + ")";
+			mes "- 3x Sweet Milk (You have: " + countitem(627) + ")";
+			mes "- 100x Meat (You have: " + countitem(517) + ")";
+			mes "- 50x Feather (You have: " + countitem(949) + ")";
+			break;
+		case 1180:
+			mes "[Pet Evolution]";
+			mes "Route: ^0055FFNine Tail -> Cat o' Nine Tails^000000";
+			mes "Required materials:";
+			mes "- 3x Sap Liquid (You have: " + countitem(23187) + ")";
+			mes "- 999x Nine Tails (You have: " + countitem(1022) + ")";
+			mes "- 1x Punisher (You have: " + countitem(10008) + ")";
+			mes "- 1x Nine Tail Card (You have: " + countitem(4159) + ")";
+			break;
+		case 1188:
+			mes "[Pet Evolution]";
+			mes "Route: ^0055FFBongun -> Yao Jun^000000";
+			mes "Required materials:";
+			mes "- 1x Hyegun Hat (You have: " + countitem(5367) + ")";
+			mes "- 100x Munak Doll (You have: " + countitem(7277) + ")";
+			mes "- 50x Old Portrait (You have: " + countitem(7014) + ")";
+			mes "- 1x Yao Jun Card (You have: " + countitem(4328) + ")";
+			break;
+		case 1208:
+			mes "[Pet Evolution]";
+			mes "Route: ^0055FFWanderer -> Corrupted Wanderer^000000";
+			mes "Required materials:";
+			mes "- 500x Skull (You have: " + countitem(7005) + ")";
+			mes "- 50x Hand of God (You have: " + countitem(1009) + ")";
+			mes "- 100x Fabric (You have: " + countitem(1059) + ")";
+			mes "- 1x Wanderer Card (You have: " + countitem(4210) + ")";
+			break;
+		case 1275:
+			mes "[Pet Evolution]";
+			mes "Route: ^0055FFAlice -> Aliza^000000";
+			mes "Required materials:";
+			mes "- 500x Alice's Apron (You have: " + countitem(7047) + ")";
+			mes "- 200x Green Herb (You have: " + countitem(511) + ")";
+			mes "- 30x Elunium (You have: " + countitem(985) + ")";
+			mes "- 1x Alice Card (You have: " + countitem(4253) + ")";
+			break;
+		case 1379:
+			mes "[Pet Evolution]";
+			mes "Route: ^0055FFNightmare Terror -> Rigid Nightmare Terror^000000";
+			mes "Required materials:";
+			mes "- 500x Burning Horseshoe (You have: " + countitem(7120) + ")";
+			mes "- 100x Blue Herb (You have: " + countitem(510) + ")";
+			mes "- 100x Shell (You have: " + countitem(935) + ")";
+			mes "- 1x Nightmare Terror Card (You have: " + countitem(4166) + ")";
+			break;
+		case 1622:
+			mes "[Pet Evolution]";
+			mes "Route: ^0055FFTeddy Bear -> Abandoned Teddy Bear^000000";
+			mes "Required materials:";
+			mes "- 3x Small Needle Kit (You have: " + countitem(23189) + ")";
+			mes "- 300x Cursed Seal (You have: " + countitem(7442) + ")";
+			mes "- 50x Cursed Ruby (You have: " + countitem(724) + ")";
+			mes "- 1x Teddy Bear Card (You have: " + countitem(4340) + ")";
+			next;
+			mes "[Pet Evolution]";
+			mes "Route: ^0055FFTeddy Bear -> Aliot^000000";
+			mes "Required materials:";
+			mes "- 500x Rusty Screw (You have: " + countitem(7317) + ")";
+			mes "- 100x Honey (You have: " + countitem(518) + ")";
+			mes "- 10x Opal (You have: " + countitem(727) + ")";
+			mes "- 1x Teddy Bear Card (You have: " + countitem(4340) + ")";
+			next;
+			mes "[Pet Evolution]";
+			mes "Route: ^0055FFTeddy Bear -> Alicel^000000";
+			mes "Required materials:";
+			mes "- 500x Rusty Screw (You have: " + countitem(7317) + ")";
+			mes "- 100x Honey (You have: " + countitem(518) + ")";
+			mes "- 50x Bloody Page (You have: " + countitem(7449) + ")";
+			mes "- 1x Teddy Bear Card (You have: " + countitem(4340) + ")";
+			break;
+		case 1632:
+			mes "[Pet Evolution]";
+			mes "Route: ^0055FFGremlin -> Hodremlin^000000";
+			mes "Required materials:";
+			mes "- 3x Unprocessed Parts (You have: " + countitem(23188) + ")";
+			mes "- 50x Damp Darkness (You have: " + countitem(6100) + ")";
+			mes "- 200x Will of the Darkness (You have: " + countitem(7340) + ")";
+			mes "- 1x Hodremlin Card (You have: " + countitem(4413) + ")";
+			break;
+		case 20696:
+			mes "[Pet Evolution]";
+			mes "Route: ^0055FFChild Admin Beta -> Child Admin Alpha^000000";
+			mes "Required materials:";
+			mes "- 500x Barmil Ticket (You have: " + countitem(1000103) + ")";
+			mes "- 50x Metal Fragment (You have: " + countitem(7095) + ")";
+			mes "- 10x Fragment (You have: " + countitem(7094) + ")";
+			break;
+		default:
+			mes "[Pet Evolution]";
+			mes "This pet has no evolution route in the active pet database.";
+			break;
+		}
+		next;
+		mes "[Pet Evolution]";
+		mes "Before pressing Evolve: reach Loyal intimacy, remove the pet accessory, and keep every required material in your inventory.";
+		close;
+	case 2:
+		switch(select("Page 1 (40 items):Page 2 (40 items):Page 3 (20 items):Back")) {
+		case 1: close2; callshop "EAPEV01",1; end;
+		case 2: close2; callshop "EAPEV02",1; end;
+		case 3: close2; callshop "EAPEV03",1; end;
+		default: close;
+		}
+	case 3:
+		mes "[Pet Evolution]";
+		mes "1. Hatch and summon an evolvable pet.";
+		mes "2. Raise its intimacy to Loyal (910 or higher).";
+		mes "3. Remove any pet accessory.";
+		mes "4. Carry all required evolution materials.";
+		mes "5. Open the Pet Status window and press Evolve.";
+		next;
+		mes "Evolution consumes the listed materials and changes the current pet egg into the evolved pet egg.";
+		mes "The evolved pet begins with the intimacy configured by the native pet database.";
+		close;
+	default:
+		close;
+	}
+}
+
+-	shop	EAPEV01	-1,732:55000,4253:1000000,7047:2424,606:1500,4248:1000000,919:1000,531:1000,639:18000,1000103:10000,7449:1000,510:1000,7120:1000,7182:1000,529:1000,530:1000,2267:1000,7030:1000,705:1000,641:1000,724:1000,7442:1332,6100:1000,4082:1000000,4122:1000000,1021:1000,4004:1000000,4279:1000000,4659:1000000,23256:1000,985:1100,1059:1000,632:5000,949:1000,27029:1000000,706:80000,7094:1344,969:150000,940:1000,511:1000,2282:1000
+-	shop	EAPEV02	-1,1009:1000,4413:1000000,518:1000,7198:1000,5367:1000,909:1000,4663:1000000,1039:2000,12371:1000,522:8500,517:1000,7095:1075,4057:1000000,7277:8900,4166:1000000,4159:1000000,1022:1000,637:1000,7031:1000,7014:1500,727:6000,635:1000,4066:1000000,1124:1000,931:1000,4031:1000000,7101:1000,537:1000,6260:1000,7032:1000,10008:1000,10006:1000,990:1000,7511:2526,7317:1000,23187:1000,935:1000,954:1000,640:3000,707:1000
+-	shop	EAPEV03	-1,7005:1044,23189:1000,953:1000,627:7000,25290:10000,4340:1000000,634:1000,23188:1000,619:1000,981:8000,4210:1000000,628:10000,509:1000,7340:1000,4328:1000000,508:1000,503:1000,610:12000,4051:1000000,753:6000

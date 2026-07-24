@@ -7,8 +7,9 @@ prontera,159,227,4	script	Pet Archive#EA	895,{
 	mes "Pet eggs cost 200,000 Zeny.";
 	mes "Pet equipment costs 100,000 Zeny.";
 	mes "Pet food and the Pet Incubator use their normal database purchase prices.";
+	mes "Pet evolution materials and route guidance are also available.";
 	next;
-	switch(select("Pet eggs:Pet equipment:Pet food:Close")) {
+	switch(select("Pet eggs:Pet equipment:Pet food:Pet evolution:Close")) {
 	case 1:
 		switch(select("Page 1 (40 items):Page 2 (40 items):Page 3 (40 items):Page 4 (10 items):Back")) {
 		case 1:
@@ -50,6 +51,9 @@ prontera,159,227,4	script	Pet Archive#EA	895,{
 		}
 		close;
 	case 4:
+		callfunc "F_PetEvolutionArchive";
+		close;
+	case 5:
 		close;
 	}
 	close;

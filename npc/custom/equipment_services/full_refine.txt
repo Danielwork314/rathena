@@ -1,16 +1,16 @@
 //===== rAthena Script =======================================
 //= Custom Full Equipment Refiner
 //===== Description: =========================================
-//= Raises every currently equipped, natively refinable item to
-//= +11 or +20 for one fixed Zeny fee. Items already at or above
-//= the selected target are preserved and never downgraded.
+//= Raises currently equipped standard refinable equipment to
+//= +11 or +20 for one fixed Zeny fee. Shadow Equipment is excluded
+//= because its native maximum is +10 and it has a dedicated refiner.
 //============================================================
 
 prontera,172,180,4	script	Master Refiner#custom_full	4_M_DWARF,{
 	disable_items;
 	mes "[Master Refiner]";
-	mes "I can safely raise all of your currently equipped refinable items at once.";
-	mes "Items that cannot normally be refined will be skipped.";
+	mes "I can safely raise your currently equipped standard refinable items at once.";
+	mes "Items that cannot normally be refined and all Shadow Equipment will be skipped.";
 	next;
 
 	switch (select("Raise equipped items to +11 - 1,000,000 Zeny:Raise equipped items to +20 - 3,000,000 Zeny:Cancel")) {
@@ -29,9 +29,7 @@ prontera,172,180,4	script	Master Refiner#custom_full	4_M_DWARF,{
 	setarray .@slots[0],
 		EQI_HEAD_TOP, EQI_HEAD_MID, EQI_HEAD_LOW,
 		EQI_ARMOR, EQI_HAND_L, EQI_HAND_R, EQI_GARMENT, EQI_SHOES,
-		EQI_ACC_L, EQI_ACC_R,
-		EQI_SHADOW_ARMOR, EQI_SHADOW_WEAPON, EQI_SHADOW_SHIELD,
-		EQI_SHADOW_SHOES, EQI_SHADOW_ACC_R, EQI_SHADOW_ACC_L;
+		EQI_ACC_L, EQI_ACC_R;
 
 	.@eligible = 0;
 	for (.@i = 0; .@i < getarraysize(.@slots); ++.@i) {

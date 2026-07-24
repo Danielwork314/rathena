@@ -1,0 +1,7 @@
+Card Remover location
+=====================
+NPC name: Wise Old Woman
+Map: prontera
+Coordinates: 139,225
+
+Only the NPC location was changed. Costs, materials and failure settings remain unchanged.
