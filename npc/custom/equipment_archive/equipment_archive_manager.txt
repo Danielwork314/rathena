@@ -1,44 +1,48 @@
 //===== rAthena Script =======================================
 //= Equipment Archive Manager
 //===== Description: =========================================
-//= Uses the active SystemEN ItemInfo compatibility list.
+//= Opens the database-filtered below-Lv-100 archive and the client-filtered Lv 100+ archive.
 //============================================================
 
 prontera,153,227,4	script	Equipment Archive#EA	53,{
 	mes "[Equipment Archive]";
-	mes "All shop items are present in the active English ItemInfo.";
+	mes "Browse non-monster-drop equipment from the active Renewal database.";
 	next;
-	switch(select("Weapons:Headgear:Armor:Shields:Garments:Shoes:Accessories:Price information:Close")) {
+	switch(select("Below Lv 100 equipment:Lv 100+ Weapons:Lv 100+ Headgear:Lv 100+ Armor:Lv 100+ Shields:Lv 100+ Garments:Lv 100+ Shoes:Lv 100+ Accessories:Price information:Close")) {
 	case 1:
-		callfunc "F_EAW";
+		callfunc "F_EAL";
 		close;
 	case 2:
-		callfunc "F_EAH";
+		callfunc "F_EAW";
 		close;
 	case 3:
-		callfunc "F_EAA";
+		callfunc "F_EAH";
 		close;
 	case 4:
-		callfunc "F_EAS";
+		callfunc "F_EAA";
 		close;
 	case 5:
-		callfunc "F_EAG";
+		callfunc "F_EAS";
 		close;
 	case 6:
-		callfunc "F_EAF";
+		callfunc "F_EAG";
 		close;
 	case 7:
-		callfunc "F_EAX";
+		callfunc "F_EAF";
 		close;
 	case 8:
+		callfunc "F_EAX";
+		close;
+	case 9:
 		mes "[Equipment Archive]";
+		mes "Below Lv 100: 100,000 Zeny";
 		mes "Lv 100-129: 200,000 Zeny";
 		mes "Lv 130-159: 500,000 Zeny";
 		mes "Lv 160-199: 1,000,000 Zeny";
 		mes "Lv 200+: 2,000,000 Zeny";
-		mes "Items missing from the active ItemInfo were removed.";
+		mes "Direct monster drops, temporary items and database test equipment are excluded.";
 		close;
-	case 9:
+	case 10:
 		close;
 	}
 	close;

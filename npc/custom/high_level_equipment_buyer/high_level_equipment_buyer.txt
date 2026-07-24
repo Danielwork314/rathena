@@ -1,0 +1,239 @@
+//===== rAthena Script =======================================
+//= High-Level Equipment Buyer - Script-only Edition
+//===== Description: =========================================
+//= Uses the normal batch Sell interface.
+//= Approved high-level monster-drop equipment with native
+//= sell value 10 Zeny has a base purchase price of 100,000.
+//= Every transaction is force-calculated as Overcharge Lv.10
+//= (+24%), even when the player does not know the skill.
+//= No source modification or recompilation is required.
+//============================================================
+
+-	shop	HLBuyerShop#HLEB	-1,501:1
+
+prontera,161,227,4	script	High-Level Buyer#HLEB	4_M_MERCHANT,{
+	disable_items;
+	mes "[High-Level Equipment Buyer]";
+	mes "I purchase approved equipment dropped by high-level monsters.";
+	mes "Their base purchase price is ^0000FF100,000 Zeny each^000000.";
+	next;
+	mes "[High-Level Equipment Buyer]";
+	mes "Every sale here automatically receives ^0000FFOvercharge Lv.10 (+24%)^000000,";
+	mes "even if you do not know the skill.";
+	mes "An approved item therefore pays ^0000FF124,000 Zeny each^000000.";
+	next;
+	switch(select("Sell items:How pricing works:Close")) {
+	case 1:
+		mes "[High-Level Equipment Buyer]";
+		mes "The Sell window cannot display this NPC's script-calculated prices.";
+		mes "It may show the database price or your own Overcharge rate.";
+		next;
+		mes "[High-Level Equipment Buyer]";
+		mes "The final payment is always recalculated here with Overcharge Lv.10.";
+		mes "You may select many item types and quantities in one transaction.";
+		close2;
+		callshop "HLBuyerShop#HLEB",2;
+		npcshopattach "HLBuyerShop#HLEB";
+		end;
+	case 2:
+		mes "[High-Level Equipment Buyer]";
+		mes "Approved special equipment must meet all of these rules:";
+		mes "- Equipment requirement is Level 100 or higher.";
+		mes "- Its native sell value is 10 Zeny.";
+		mes "- Every known direct monster source is Level 100 or higher.";
+		next;
+		mes "[High-Level Equipment Buyer]";
+		mes "Approved equipment:";
+		mes "100,000 base + Overcharge Lv.10 = ^0000FF124,000 Zeny each^000000.";
+		next;
+		mes "[High-Level Equipment Buyer]";
+		mes "Other normally sellable items keep their database Sell value,";
+		mes "then receive the same forced Overcharge Lv.10 bonus.";
+		close;
+	default:
+		close;
+	}
+
+OnSellItem:
+	disable_items;
+	.@sale_count = getarraysize(@sold_nameid);
+	if (.@sale_count <= 0) {
+		mes "[High-Level Equipment Buyer]";
+		mes "You did not select anything.";
+		close;
+	}
+
+	.@total = 0;
+	.@special_total = 0;
+	.@normal_total = 0;
+	.@special_quantity = 0;
+	.@unique_count = 0;
+
+	// First pass: validate the submitted values, calculate payment and
+	// aggregate identical item instances. Nothing is deleted in this pass.
+	for (.@i = 0; .@i < .@sale_count; ++.@i) {
+		.@item_id = @sold_nameid[.@i];
+		.@quantity = @sold_quantity[.@i];
+
+		if (.@item_id <= 0 || .@quantity <= 0 || getiteminfo(.@item_id, ITEMINFO_ID) != .@item_id) {
+			mes "[High-Level Equipment Buyer]";
+			mes "The submitted sale contains invalid item data.";
+			mes "No item was removed and no Zeny was paid.";
+			close;
+		}
+
+		// Pet eggs carry a separate pet database record. The native C++ shop
+		// deletes that record, while a pure script cannot safely do so.
+		if (getiteminfo(.@item_id, ITEMINFO_TYPE) == IT_PETEGG) {
+			mes "[High-Level Equipment Buyer]";
+			mes "Pet eggs cannot be sold through this special buyer.";
+			mes "Remove the pet egg from the batch and try again.";
+			close;
+		}
+
+		.@base_price = getiteminfo(.@item_id, ITEMINFO_SELL);
+		if (inarray(.SpecialItems[0], .@item_id) >= 0)
+			.@base_price = .SpecialPrice;
+
+		if (.@base_price < 0) {
+			mes "[High-Level Equipment Buyer]";
+			mes "One selected item has no valid Sell value.";
+			mes "No item was removed and no Zeny was paid.";
+			close;
+		}
+
+		// Overcharge Lv.10 uses +24%. Integer division intentionally matches
+		// rAthena's normal truncation behavior.
+		.@unit_price = (.@base_price * .OverchargePercent) / 100;
+		if (.@unit_price < 1)
+			.@unit_price = 1;
+
+		.@line_total = .@unit_price * .@quantity;
+		if (.@line_total < 0 || .@total > MAX_ZENY - .@line_total) {
+			mes "[High-Level Equipment Buyer]";
+			mes "The selected transaction is too large.";
+			mes "Please sell fewer items at one time.";
+			close;
+		}
+
+		.@total += .@line_total;
+		if (inarray(.SpecialItems[0], .@item_id) >= 0) {
+			.@special_total += .@line_total;
+			.@special_quantity += .@quantity;
+		}
+		else
+			.@normal_total += .@line_total;
+
+		// The exact item signature is used so refined, carded, graded and
+		// random-option equipment is removed from the correct item stack.
+		.@key$ = sprintf("%d|%d|%d|%d|%d|%d|%d|%d|%d|%d|%d|%d|%d|%d|%d|%d|%d|%d|%d|%d|%d|%d|%d|%d",
+			.@item_id, @sold_identify[.@i], @sold_refine[.@i], @sold_attribute[.@i], @sold_enchantgrade[.@i],
+			@sold_card1[.@i], @sold_card2[.@i], @sold_card3[.@i], @sold_card4[.@i],
+			@sold_option_id1[.@i], @sold_option_val1[.@i], @sold_option_param1[.@i],
+			@sold_option_id2[.@i], @sold_option_val2[.@i], @sold_option_param2[.@i],
+			@sold_option_id3[.@i], @sold_option_val3[.@i], @sold_option_param3[.@i],
+			@sold_option_id4[.@i], @sold_option_val4[.@i], @sold_option_param4[.@i],
+			@sold_option_id5[.@i], @sold_option_val5[.@i], @sold_option_param5[.@i]);
+
+		.@u = inarray(.@unique_key$[0], .@key$);
+		if (.@u < 0) {
+			.@u = .@unique_count++;
+			.@unique_key$[.@u] = .@key$;
+			.@unique_item_id[.@u] = .@item_id;
+			.@unique_quantity[.@u] = .@quantity;
+			.@unique_identify[.@u] = @sold_identify[.@i];
+			.@unique_refine[.@u] = @sold_refine[.@i];
+			.@unique_attribute[.@u] = @sold_attribute[.@i];
+			.@unique_grade[.@u] = @sold_enchantgrade[.@i];
+			.@unique_card1[.@u] = @sold_card1[.@i];
+			.@unique_card2[.@u] = @sold_card2[.@i];
+			.@unique_card3[.@u] = @sold_card3[.@i];
+			.@unique_card4[.@u] = @sold_card4[.@i];
+			.@unique_option_id1[.@u] = @sold_option_id1[.@i];
+			.@unique_option_val1[.@u] = @sold_option_val1[.@i];
+			.@unique_option_param1[.@u] = @sold_option_param1[.@i];
+			.@unique_option_id2[.@u] = @sold_option_id2[.@i];
+			.@unique_option_val2[.@u] = @sold_option_val2[.@i];
+			.@unique_option_param2[.@u] = @sold_option_param2[.@i];
+			.@unique_option_id3[.@u] = @sold_option_id3[.@i];
+			.@unique_option_val3[.@u] = @sold_option_val3[.@i];
+			.@unique_option_param3[.@u] = @sold_option_param3[.@i];
+			.@unique_option_id4[.@u] = @sold_option_id4[.@i];
+			.@unique_option_val4[.@u] = @sold_option_val4[.@i];
+			.@unique_option_param4[.@u] = @sold_option_param4[.@i];
+			.@unique_option_id5[.@u] = @sold_option_id5[.@i];
+			.@unique_option_val5[.@u] = @sold_option_val5[.@i];
+			.@unique_option_param5[.@u] = @sold_option_param5[.@i];
+		}
+		else
+			.@unique_quantity[.@u] += .@quantity;
+	}
+
+	if (Zeny > MAX_ZENY - .@total) {
+		mes "[High-Level Equipment Buyer]";
+		mes "Receiving this payment would exceed the Zeny limit.";
+		mes "Spend some Zeny or sell fewer items, then try again.";
+		close;
+	}
+
+	// Second pass: verify every exact item signature and aggregate quantity.
+	for (.@u = 0; .@u < .@unique_count; ++.@u) {
+		setarray .@option_id[0],
+			.@unique_option_id1[.@u], .@unique_option_id2[.@u], .@unique_option_id3[.@u], .@unique_option_id4[.@u], .@unique_option_id5[.@u];
+		setarray .@option_val[0],
+			.@unique_option_val1[.@u], .@unique_option_val2[.@u], .@unique_option_val3[.@u], .@unique_option_val4[.@u], .@unique_option_val5[.@u];
+		setarray .@option_param[0],
+			.@unique_option_param1[.@u], .@unique_option_param2[.@u], .@unique_option_param3[.@u], .@unique_option_param4[.@u], .@unique_option_param5[.@u];
+
+		if (countitem4(.@unique_item_id[.@u], .@unique_identify[.@u], .@unique_refine[.@u], .@unique_attribute[.@u],
+			.@unique_card1[.@u], .@unique_card2[.@u], .@unique_card3[.@u], .@unique_card4[.@u], .@unique_grade[.@u],
+			.@option_id[0], .@option_val[0], .@option_param[0]) < .@unique_quantity[.@u]) {
+			mes "[High-Level Equipment Buyer]";
+			mes "Your inventory changed before the sale could be completed.";
+			mes "No item was removed and no Zeny was paid.";
+			close;
+		}
+	}
+
+	// Third pass: all validation succeeded, so remove the exact items.
+	for (.@u = 0; .@u < .@unique_count; ++.@u) {
+		setarray .@option_id[0],
+			.@unique_option_id1[.@u], .@unique_option_id2[.@u], .@unique_option_id3[.@u], .@unique_option_id4[.@u], .@unique_option_id5[.@u];
+		setarray .@option_val[0],
+			.@unique_option_val1[.@u], .@unique_option_val2[.@u], .@unique_option_val3[.@u], .@unique_option_val4[.@u], .@unique_option_val5[.@u];
+		setarray .@option_param[0],
+			.@unique_option_param1[.@u], .@unique_option_param2[.@u], .@unique_option_param3[.@u], .@unique_option_param4[.@u], .@unique_option_param5[.@u];
+
+		delitem4 .@unique_item_id[.@u], .@unique_quantity[.@u], .@unique_identify[.@u], .@unique_refine[.@u], .@unique_attribute[.@u],
+			.@unique_card1[.@u], .@unique_card2[.@u], .@unique_card3[.@u], .@unique_card4[.@u], .@unique_grade[.@u],
+			.@option_id[0], .@option_val[0], .@option_param[0];
+	}
+
+	Zeny += .@total;
+	mes "[High-Level Equipment Buyer]";
+	mes "Sale completed with forced Overcharge Lv.10.";
+	if (.@special_quantity > 0)
+		mes "Special equipment: " + .@special_quantity + " item(s), " + callfunc("F_InsertComma", .@special_total) + " Zeny.";
+	if (.@normal_total > 0)
+		mes "Other items: " + callfunc("F_InsertComma", .@normal_total) + " Zeny.";
+	mes "Total received: ^0000FF" + callfunc("F_InsertComma", .@total) + " Zeny^000000.";
+	close;
+
+OnInit:
+	.SpecialPrice = 100000;
+	.OverchargePercent = 124;
+	setarray .SpecialItems[0],
+		2859,2860,2861,2862,2883,2884,2886,2887,2890,2891,15025,15026,
+		15027,15028,15029,15030,15036,15037,15038,15039,15042,15043,28380,1191,
+		1287,1649,1746,13090,16003,28608,2153,1433,1654,1830,1930,1984,
+		13061,16010,2465,2853,2864,2865,2866,1985,13062,13138,28223,28224,
+		28225,28226,2854,2894,2988,2989,2990,2991,15100,15101,1660,1935,
+		1989,1990,2011,2012,2013,2014,16018,16031,18122,18123,15129,20789,
+		22084,1400,1450,1600,1800,1900,1996,2026,13128,13328,13455,16041,
+		18121,21016,28008,28107,28605,28706,21018,28010,15156,20790,22085;
+
+	// The dummy item only initializes the invisible shop. The NPC is opened
+	// in sell-only mode, so players never see a Buy list.
+	npcshopitem "HLBuyerShop#HLEB",501,1;
+	end;
+}

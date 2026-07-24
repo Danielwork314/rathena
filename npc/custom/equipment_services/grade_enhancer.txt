@@ -1,0 +1,98 @@
+//===== rAthena Script =======================================
+//= Custom Step-by-Step Grade Enhancer
+//===== Description: =========================================
+//= Raises one equipped, natively Gradable item by exactly one
+//= stage for 750,000 Zeny. No materials and no failure chance.
+//= Refine, cards, enchants and random options are preserved.
+//============================================================
+
+prontera,174,180,4	script	Grade Artisan#custom_step	4_F_JOB_BLACKSMITH,{
+	disable_items;
+	.@cost = 750000;
+
+	mes "[Grade Artisan]";
+	mes "I can raise one eligible equipped item by exactly one Grade stage.";
+	mes "Each stage costs ^FF0000750,000 Zeny^000000 and requires no materials.";
+	mes "The original Grade eligibility and refine requirements still apply.";
+	next;
+
+	setarray .@candidate_slots[0],
+		EQI_HEAD_TOP, EQI_HEAD_MID, EQI_HEAD_LOW,
+		EQI_ARMOR, EQI_HAND_L, EQI_HAND_R,
+		EQI_GARMENT, EQI_SHOES, EQI_ACC_L, EQI_ACC_R;
+
+	.@menu$ = "";
+	.@count = 0;
+	for (.@i = 0; .@i < getarraysize(.@candidate_slots); ++.@i) {
+		.@slot = .@candidate_slots[.@i];
+		if (getequipid(.@slot) <= 0)
+			continue;
+		.@selected_slots[.@count] = .@slot;
+		.@menu$ += F_getpositionname(.@slot) + " - [" + getequipname(.@slot) + "]:";
+		++.@count;
+	}
+
+	if (!.@count) {
+		mes "[Grade Artisan]";
+		mes "Equip the item you want to enhance first.";
+		close;
+	}
+
+	.@choice = select(.@menu$ + "Cancel") - 1;
+	if (.@choice >= .@count)
+		close;
+	.@slot = .@selected_slots[.@choice];
+
+	.@item_id = getequipid(.@slot);
+	.@refine = getequiprefinerycnt(.@slot);
+	.@grade = getenchantgrade(.@slot);
+	setarray .@card[0],
+		getequipcardid(.@slot, 0), getequipcardid(.@slot, 1),
+		getequipcardid(.@slot, 2), getequipcardid(.@slot, 3);
+
+	if (.@grade < ENCHANTGRADE_NONE || .@grade >= ENCHANTGRADE_A) {
+		mes "[Grade Artisan]";
+		mes "That item is already at the highest Grade, or cannot be processed.";
+		close;
+	}
+
+	setarray .@grade_name$[0], "None", "D", "C", "B", "A";
+	.@next_grade = .@grade + 1;
+
+	mes "[Grade Artisan]";
+	mes "Item: ^0055FF" + getequipname(.@slot) + "^000000";
+	mes "Grade: ^0055FF" + .@grade_name$[.@grade] + " -> " + .@grade_name$[.@next_grade] + "^000000";
+	mes "Fee: ^FF0000" + callfunc("F_InsertComma", .@cost) + " Zeny^000000";
+	mes "Success is guaranteed. Refine, cards, enchants and random options are preserved.";
+	next;
+	if (select("Enhance one stage:Cancel") == 2)
+		close;
+
+	if (Zeny < .@cost) {
+		mes "[Grade Artisan]";
+		mes "You do not have enough Zeny.";
+		close;
+	}
+
+	if (callfunc("F_IsEquipIDHack", .@slot, .@item_id) ||
+		callfunc("F_IsEquipRefineHack", .@slot, .@refine) ||
+		callfunc("F_IsEquipCardHack", .@slot, .@card[0], .@card[1], .@card[2], .@card[3]) ||
+		getenchantgrade(.@slot) != .@grade) {
+		mes "[Grade Artisan]";
+		mes "The selected equipment changed. Please try again.";
+		close;
+	}
+
+	.@result = upgradeequipgrade(.@slot);
+	if (.@result != .@next_grade) {
+		mes "[Grade Artisan]";
+		mes "This equipment cannot advance from its current state.";
+		mes "Only items marked Gradable and supported by the native Grade table can be enhanced.";
+		close;
+	}
+
+	Zeny -= .@cost;
+	mes "[Grade Artisan]";
+	mes "Success. The item advanced to Grade ^0055FF" + .@grade_name$[.@result] + "^000000.";
+	close;
+}

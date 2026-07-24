@@ -1,0 +1,25 @@
+ItemID,AegisName,Name,EquipLevelMin,NativeSell,Reason
+1196,Chrome_Twohand_Sword,Chrome Two-Handed Sword,110,10,Also drops from monster below Lv100 (minimum 1)
+13431,Chrome_Sword,Chrome Sword,110,10,Also drops from monster below Lv100 (minimum 1)
+19189,Racing_C_Mecha,Racing Cap (Mechanic),100,10,NoSell restriction
+19190,Racing_C_Gene,Racing Cap (Geneticist),100,10,NoSell restriction
+19191,Racing_C_Cross,Racing Cap (Guillotine Cross),100,10,NoSell restriction
+19192,Racing_C_Chaser,Racing Cap (Shadow Chaser),100,10,NoSell restriction
+19193,Racing_C_Warlock,Racing Cap (Warlock),100,10,NoSell restriction
+19194,Racing_C_Sorcer,Racing Cap (Sorcerer),100,10,NoSell restriction
+19195,Racing_C_Rune,Racing Cap (Rune Knight),100,10,NoSell restriction
+19196,Racing_C_Royal,Racing Cap (Royal Guard),100,10,NoSell restriction
+19197,Racing_C_Bishop,Racing Cap (Archbishop),100,10,NoSell restriction
+19198,Racing_C_Sura,Racing Cap (Sura),100,10,NoSell restriction
+19199,Racing_C_Ranger,Racing Cap (Ranger),100,10,NoSell restriction
+19200,Racing_C_Mins,Racing Cap (Minstrel),100,10,NoSell restriction
+19201,Racing_C_Wander,Racing Cap (Wanderer),100,10,NoSell restriction
+19202,Racing_C_Gunner,Racing Cap (Gunslinger),100,10,NoSell restriction
+19203,Racing_C_Ninja,Racing Cap (Ninja),100,10,NoSell restriction
+19204,Racing_C_Super,Racing Cap (Super Novice),100,10,NoSell restriction
+19205,Racing_C_Doram,Racing Cap (Summoner),100,10,NoSell restriction
+19396,Racing_C_Star,Racing Cap (Star Gladiator),100,10,NoSell restriction
+19397,Racing_C_Soul,Racing Cap (Soul Linker),100,10,NoSell restriction
+20931,Rainbow_Scarf_Jp,Prism Rangers Scarf,100,10,NoSell restriction
+28381,Pretty_G_Necklace,Cute Grass Necklace,100,10,Also drops from monster below Lv100 (minimum 95)
+28382,Charm_G_Necklace,Charm Grass Necklace,100,10,Also drops from monster below Lv100 (minimum 95)

@@ -26785,6 +26785,146 @@ BUILDIN_FUNC(refineui){
 #endif
 }
 
+/*==========================================
+ * Set an equipped item's refine level directly while preserving the item.
+ * Respects the item's native Refineable flag and rental restriction.
+ * setequiprefine <equipment slot>,<target refine>{,<char_id>}
+ * Returns the resulting refine level, 0 when ineligible, or -1 when empty.
+ *------------------------------------------*/
+BUILDIN_FUNC(setequiprefine){
+	map_session_data* sd;
+
+	if( !script_charid2sd( 4, sd ) ){
+		script_pushint( st, -1 );
+		return SCRIPT_CMD_FAILURE;
+	}
+
+	int32 position = script_getnum( st, 2 );
+	int32 target = cap_value( script_getnum( st, 3 ), 0, MAX_REFINE );
+	int32 index = -1;
+
+	if( equip_index_check( position ) ){
+		index = pc_checkequip( sd, equip_bitmask[position] );
+	}else{
+		ShowError( "buildin_setequiprefine: Unknown equip index '%d'\n", position );
+		script_pushint( st, -1 );
+		return SCRIPT_CMD_FAILURE;
+	}
+
+	if( index < 0 || index >= MAX_INVENTORY || sd->inventory_data[index] == nullptr ){
+		script_pushint( st, -1 );
+		return SCRIPT_CMD_SUCCESS;
+	}
+
+	struct item& item = sd->inventory.u.items_inventory[index];
+	item_data* data = sd->inventory_data[index];
+
+	if( data->flag.no_refine || item.expire_time ){
+		script_pushint( st, 0 );
+		return SCRIPT_CMD_SUCCESS;
+	}
+
+	if( item.refine >= target ){
+		script_pushint( st, item.refine );
+		return SCRIPT_CMD_SUCCESS;
+	}
+
+	uint32 equip_position = item.equip;
+	log_pick_pc( sd, LOG_TYPE_SCRIPT, -1, &item );
+	item.refine = target;
+	pc_unequipitem( sd, index, 2 );
+	clif_refine( *sd, index, ITEMREFINING_SUCCESS );
+	clif_delitem( *sd, index, 1, 3 );
+	log_pick_pc( sd, LOG_TYPE_SCRIPT, 1, &item );
+	clif_additem( sd, index, 1, 0 );
+	pc_equipitem( sd, index, equip_position );
+	clif_misceffect( *sd, NOTIFYEFFECT_REFINE_SUCCESS );
+
+	script_pushint( st, item.refine );
+	return SCRIPT_CMD_SUCCESS;
+}
+
+/*==========================================
+ * Increase an equipped item's enchant grade by exactly one stage.
+ * Respects Gradable, item type/level support, and the native grade table.
+ * The custom service intentionally preserves refine, cards and options.
+ * upgradeequipgrade <equipment slot>{,<char_id>}
+ * Returns the resulting grade, 0 when ineligible, or -1 when empty.
+ *------------------------------------------*/
+BUILDIN_FUNC(upgradeequipgrade){
+	map_session_data* sd;
+
+	if( !script_charid2sd( 3, sd ) ){
+		script_pushint( st, -1 );
+		return SCRIPT_CMD_FAILURE;
+	}
+
+	int32 position = script_getnum( st, 2 );
+	int32 index = -1;
+
+	if( equip_index_check( position ) ){
+		index = pc_checkequip( sd, equip_bitmask[position] );
+	}else{
+		ShowError( "buildin_upgradeequipgrade: Unknown equip index '%d'\n", position );
+		script_pushint( st, -1 );
+		return SCRIPT_CMD_FAILURE;
+	}
+
+	if( index < 0 || index >= MAX_INVENTORY || sd->inventory_data[index] == nullptr ){
+		script_pushint( st, -1 );
+		return SCRIPT_CMD_SUCCESS;
+	}
+
+	struct item& item = sd->inventory.u.items_inventory[index];
+	item_data* data = sd->inventory_data[index];
+
+	if( !data->flag.gradable || item.expire_time || item.enchantgrade >= MAX_ENCHANTGRADE ){
+		script_pushint( st, 0 );
+		return SCRIPT_CMD_SUCCESS;
+	}
+
+	std::shared_ptr<s_enchantgrade> enchantgrade = enchantgrade_db.find( data->type );
+	if( enchantgrade == nullptr ){
+		script_pushint( st, 0 );
+		return SCRIPT_CMD_SUCCESS;
+	}
+
+	uint16 level = 0;
+	if( data->type == IT_WEAPON ){
+		level = data->weapon_level;
+	}else if( data->type == IT_ARMOR ){
+		level = data->armor_level;
+	}else{
+		script_pushint( st, 0 );
+		return SCRIPT_CMD_SUCCESS;
+	}
+
+	const auto& levels = enchantgrade->levels.find( level );
+	if( levels == enchantgrade->levels.end() ){
+		script_pushint( st, 0 );
+		return SCRIPT_CMD_SUCCESS;
+	}
+
+	std::shared_ptr<s_enchantgradelevel> grade_level = util::map_find( levels->second, static_cast<e_enchantgrade>( item.enchantgrade ) );
+	if( grade_level == nullptr || grade_level->chances[item.refine] == 0 ){
+		script_pushint( st, 0 );
+		return SCRIPT_CMD_SUCCESS;
+	}
+
+	uint32 equip_position = item.equip;
+	log_pick_pc( sd, LOG_TYPE_SCRIPT, -1, &item );
+	item.enchantgrade = min( item.enchantgrade + 1, MAX_ENCHANTGRADE );
+	pc_unequipitem( sd, index, 3 );
+	clif_delitem( *sd, index, 1, 3 );
+	log_pick_pc( sd, LOG_TYPE_SCRIPT, 1, &item );
+	clif_additem( sd, index, 1, 0 );
+	pc_equipitem( sd, index, equip_position );
+	clif_misceffect( *sd, NOTIFYEFFECT_REFINE_SUCCESS );
+
+	script_pushint( st, item.enchantgrade );
+	return SCRIPT_CMD_SUCCESS;
+}
+
 BUILDIN_FUNC(getenchantgrade){
 	map_session_data *sd;
 
@@ -28602,6 +28742,8 @@ struct script_function buildin_func[] = {
 	BUILDIN_DEF2(rentalcountitem, "rentalcountitem3", "viiiiiiirrr?"),
 	BUILDIN_DEF2(rentalcountitem, "rentalcountitem4", "viiiiiiiirrr?"),
 
+	BUILDIN_DEF(setequiprefine, "ii?"),
+	BUILDIN_DEF(upgradeequipgrade, "i?"),
 	BUILDIN_DEF(getenchantgrade, "??"),
 
 	BUILDIN_DEF(mob_setidleevent, "is"),

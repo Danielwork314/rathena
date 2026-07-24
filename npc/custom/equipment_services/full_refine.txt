@@ -1,0 +1,95 @@
+//===== rAthena Script =======================================
+//= Custom Full Equipment Refiner
+//===== Description: =========================================
+//= Raises every currently equipped, natively refinable item to
+//= +11 or +20 for one fixed Zeny fee. Items already at or above
+//= the selected target are preserved and never downgraded.
+//============================================================
+
+prontera,172,180,4	script	Master Refiner#custom_full	4_M_DWARF,{
+	disable_items;
+	mes "[Master Refiner]";
+	mes "I can safely raise all of your currently equipped refinable items at once.";
+	mes "Items that cannot normally be refined will be skipped.";
+	next;
+
+	switch (select("Raise equipped items to +11 - 1,000,000 Zeny:Raise equipped items to +20 - 3,000,000 Zeny:Cancel")) {
+	case 1:
+		.@target = 11;
+		.@cost = 1000000;
+		break;
+	case 2:
+		.@target = 20;
+		.@cost = 3000000;
+		break;
+	default:
+		close;
+	}
+
+	setarray .@slots[0],
+		EQI_HEAD_TOP, EQI_HEAD_MID, EQI_HEAD_LOW,
+		EQI_ARMOR, EQI_HAND_L, EQI_HAND_R, EQI_GARMENT, EQI_SHOES,
+		EQI_ACC_L, EQI_ACC_R,
+		EQI_SHADOW_ARMOR, EQI_SHADOW_WEAPON, EQI_SHADOW_SHIELD,
+		EQI_SHADOW_SHOES, EQI_SHADOW_ACC_R, EQI_SHADOW_ACC_L;
+
+	.@eligible = 0;
+	for (.@i = 0; .@i < getarraysize(.@slots); ++.@i) {
+		.@slot = .@slots[.@i];
+		if (getequipid(.@slot) > 0 && getequipisenableref(.@slot) && getequiprefinerycnt(.@slot) < .@target)
+			.@eligible = 1;
+	}
+
+	if (!.@eligible) {
+		mes "[Master Refiner]";
+		mes "None of your equipped items can be raised to +" + .@target + ".";
+		mes "Already-high or natively unrefinable equipment was left unchanged.";
+		close;
+	}
+
+	mes "[Master Refiner]";
+	mes "Target: ^0055FF+" + .@target + "^000000";
+	mes "Total fee: ^FF0000" + callfunc("F_InsertComma", .@cost) + " Zeny^000000";
+	mes "This service has no failure chance and uses no materials.";
+	mes "Equipment above the target will not be downgraded.";
+	next;
+	if (select("Proceed:Cancel") == 2)
+		close;
+
+	if (Zeny < .@cost) {
+		mes "[Master Refiner]";
+		mes "You do not have enough Zeny.";
+		close;
+	}
+
+	// Recheck immediately before charging and modifying equipment.
+	.@eligible = 0;
+	for (.@i = 0; .@i < getarraysize(.@slots); ++.@i) {
+		.@slot = .@slots[.@i];
+		if (getequipid(.@slot) > 0 && getequipisenableref(.@slot) && getequiprefinerycnt(.@slot) < .@target)
+			.@eligible = 1;
+	}
+	if (!.@eligible) {
+		mes "[Master Refiner]";
+		mes "There is no longer any eligible equipment to refine.";
+		close;
+	}
+
+	Zeny -= .@cost;
+	.@changed = 0;
+	for (.@i = 0; .@i < getarraysize(.@slots); ++.@i) {
+		.@slot = .@slots[.@i];
+		if (getequipid(.@slot) <= 0 || !getequipisenableref(.@slot) || getequiprefinerycnt(.@slot) >= .@target)
+			continue;
+
+		.@before = getequiprefinerycnt(.@slot);
+		.@after = setequiprefine(.@slot, .@target);
+		if (.@after == .@target && .@after > .@before)
+			++.@changed;
+	}
+
+	mes "[Master Refiner]";
+	mes "Finished. " + .@changed + " equipped item(s) were raised to +" + .@target + ".";
+	mes "All ineligible and already-high equipment was left unchanged.";
+	close;
+}

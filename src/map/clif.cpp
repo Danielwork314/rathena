@@ -2238,6 +2238,19 @@ void clif_buylist( const map_session_data& sd, const npc_data& nd ){
 	p->packetLength = sizeof( *p );
 
 	for( int32 i = 0, count = 0, discount = npc_shop_discount( &nd ); i < nd.u.shop.count; i++ ){
+		std::shared_ptr<item_data> id = item_db.find( nd.u.shop.shop_item[i].nameid );
+
+		if( id == nullptr ){
+			continue;
+		}
+
+		// A pet egg item is usable only when an active pet database entry exists.
+		// Hide unsupported eggs from shops while still allowing Live import entries
+		// to become available automatically.
+		if( id->type == IT_PETEGG && pet_db_search( id->nameid, PET_EGG ) == nullptr ){
+			continue;
+		}
+
 		int32 val = nd.u.shop.shop_item[i].value;
 
 		p->items[count].price = val;
@@ -2245,8 +2258,6 @@ void clif_buylist( const map_session_data& sd, const npc_data& nd ){
 		p->items[count].itemType = itemtype( nd.u.shop.shop_item[i].nameid );
 		p->items[count].itemId = client_nameid( nd.u.shop.shop_item[i].nameid );
 #if PACKETVER_MAIN_NUM >= 20210203 || PACKETVER_RE_NUM >= 20211103
-		std::shared_ptr<item_data> id = item_db.find(nd.u.shop.shop_item[i].nameid);
-
 		p->items[count].viewSprite = id->look;
 		p->items[count].location = pc_equippoint_sub( &sd, id.get() );
 #endif

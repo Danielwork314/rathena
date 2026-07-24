@@ -2850,6 +2850,15 @@ e_purchase_result npc_buylist( map_session_data* sd, std::vector<s_npc_buy_list>
 		if( !id )
 			return e_purchase_result::PURCHASE_FAIL_COUNT; // item no longer in itemdb
 
+		// Pet eggs are special inventory items backed by a pet database entry.
+		// Reject unsupported eggs before charging the player. Without this check,
+		// pet_create_egg() fails after Zeny has already been deducted.
+		if( id->type == IT_PETEGG && pet_db_search( nameid, PET_EGG ) == nullptr ){
+			ShowWarning( "Player %s (%d:%d) tried to buy unsupported pet egg %u from NPC shop %s.\n",
+				sd->status.name, sd->status.account_id, sd->status.char_id, nameid, nd->exname );
+			return e_purchase_result::PURCHASE_FAIL_GOODS;
+		}
+
 		if( !itemdb_isstackable2(id.get()) && amount > 1 ) { //Exploit? You can't buy more than 1 of equipment types o.O
 			ShowWarning("Player %s (%d:%d) sent a hexed packet trying to buy %d of nonstackable item %u!\n",
 				sd->status.name, sd->status.account_id, sd->status.char_id, amount, nameid);
