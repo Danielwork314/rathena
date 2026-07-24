@@ -45,16 +45,49 @@ function Is_Baby	{
 
 // Checks if the player can change to fourth class.
 // Note: This does not include the level checks.
+function	Is_Primary_Third_Class	{
+	// Strip the rebirth marker so normal and transcendent variants
+	// are checked against the same primary third-class family.
+	.@eac = getarg(0, eaclass())&(~EAJL_UPPER);
+	switch (.@eac) {
+		case EAJ_RUNE_KNIGHT:
+		case EAJ_WARLOCK:
+		case EAJ_RANGER:
+		case EAJ_ARCH_BISHOP:
+		case EAJ_MECHANIC:
+		case EAJ_GUILLOTINE_CROSS:
+		case EAJ_ROYAL_GUARD:
+		case EAJ_SORCERER:
+		case EAJ_MINSTRELWANDERER:
+		case EAJ_SURA:
+		case EAJ_GENETIC:
+		case EAJ_SHADOW_CHASER:
+			return true;
+	}
+	return false;
+}
+
+// Primary fourth jobs do not have separate _T job IDs.
+// Strip EAJL_UPPER before adding EAJL_FOURTH, otherwise a transcendent
+// third class such as Royal Guard_T produces an unmapped class value.
+function	Fourth_Target_Class	{
+	.@eac = getarg(0, eaclass());
+	return roclass((.@eac&(~EAJL_UPPER))|EAJL_FOURTH);
+}
+
 function	Can_Change_Fourth	{
-	// To change to fourth class you need to be:
-	// * Transcendent Third Class
+	.@eac = eaclass();
 	if( !.FourthClass )
 		return false; // Fourth job change disabled
-	if( (eaclass()&(EAJL_THIRD|EAJL_UPPER)) != (EAJL_THIRD|EAJL_UPPER) )
-		return false; // Not Transcendent Third Class
-	if( eaclass()&EAJL_FOURTH )
+	if( !(.@eac&EAJL_THIRD) || !Is_Primary_Third_Class(.@eac) )
+		return false; // Not one of the primary third classes
+	if( .@eac&EAJL_BABY )
+		return false; // Baby classes do not use this fourth-class path
+	if( .@eac&EAJL_FOURTH )
 		return false; // Already Fourth Class
-	if( roclass(eaclass()|EAJL_FOURTH) < 0 )
+	if( !(.@eac&EAJL_UPPER) && !.AllowNormalThirdToFourth )
+		return false; // Normal third classes are disabled by configuration
+	if( Fourth_Target_Class(.@eac) < 0 )
 		return false; // Job has no Fourth Class
 	return true;
 }
@@ -171,7 +204,7 @@ function	Job_Options	{
 	if( .@fourth_possible ) {
 		// Fourth Job change (displayed below rebirth)
 		Require_Level(.Req_Fourth[0], .Req_Fourth[1]);
-		Job_Options(.@job_opt, roclass(.@eac|EAJL_FOURTH));
+		Job_Options(.@job_opt, Fourth_Target_Class(.@eac));
 	}
 	 
 	if (.SecondExpanded && 
@@ -504,6 +537,7 @@ OnInit:
 	
 	// Settings
 	.FourthClass = true;				// Enable fourth classes?
+	.AllowNormalThirdToFourth = true;	// Allow normal and transcendent primary third classes to enter fourth class?
 	.FourthExpanded = true;				// Enable new expanded fourth classes: Ex. Hyper Novice, Rebellion, Shinkiro/Shiranui?
 	.ThirdClass = true;					// Enable third classes?
 	.RebirthClass = true;				// Enable rebirth classes?

@@ -1,20 +1,20 @@
 //===== rAthena Script =======================================
-//= Custom Zeny Shadow Equipment Refiner
+//= Custom One-click Maximum Shadow Equipment Refiner
 //===== Description: =========================================
-//= Clones the native Shadow Blacksmith flow while removing all
-//= ore requirements. Native success rates, +10 maximum and the
-//= original destruction risk are preserved. Each attempt costs
-//= 200,000 Zeny.
+//= Safely raises one selected equipped Shadow Equipment item
+//= directly to the native maximum of +10 for one fixed Zeny fee.
+//= No ore, no failure chance and no destruction risk.
 //============================================================
 
 prontera,158,223,4	script	Shadow Refiner#custom	4_F_JOB_BLACKSMITH,{
+	.@target = 10;
 	.@zeny_cost = 200000;
 	disable_items;
 
 	mes "[Shadow Refiner]";
-	mes "I refine equipped Shadow Equipment without requiring any ore.";
-	mes "Each attempt costs ^FF0000200,000 Zeny^000000.";
-	mes "The native success rate, +10 maximum and destruction risk are unchanged.";
+	mes "I can safely raise one equipped Shadow Equipment item directly to ^0055FF+10^000000.";
+	mes "This one-click service costs ^FF0000200,000 Zeny^000000.";
+	mes "No ore is required, and there is no failure or destruction risk.";
 	next;
 
 	setarray .@slots[0],
@@ -25,21 +25,18 @@ prontera,158,223,4	script	Shadow Refiner#custom	4_F_JOB_BLACKSMITH,{
 	for (.@i = 0; .@i < getarraysize(.@slots); ++.@i) {
 		.@slot = .@slots[.@i];
 		.@menu$ += getequipisequiped(.@slot)
-			? F_getpositionname(.@slot) + " - [" + getequipname(.@slot) + "]"
+			? F_getpositionname(.@slot) + " - [" + getequipname(.@slot) + "] +" + getequiprefinerycnt(.@slot)
 			: F_getpositionname(.@slot) + " - [Not equipped]";
 		.@menu$ += ":";
 	}
-	.@menu$ += "Refine information:Cancel";
+	.@menu$ += "Service information:Cancel";
 
 	.@choice = select(.@menu$) - 1;
 	if (.@choice == getarraysize(.@slots)) {
 		mes "[Shadow Refiner]";
-		mes "Shadow Weapon gains ATK and MATK as its refine level rises.";
-		mes "Other Shadow parts gain Max HP from refinement.";
-		next;
-		mes "[Shadow Refiner]";
-		mes "The safe refine level is +4 and the maximum is +10.";
-		mes "Above the safe level, a failed normal attempt destroys the Shadow Equipment.";
+		mes "This service raises one selected equipped Shadow Equipment item directly to +10.";
+		mes "It does not affect normal equipment, and equipment already at +10 is left unchanged.";
+		mes "The total fee is 200,000 Zeny regardless of the current refine level.";
 		close;
 	}
 	if (.@choice > getarraysize(.@slots))
@@ -51,62 +48,55 @@ prontera,158,223,4	script	Shadow Refiner#custom	4_F_JOB_BLACKSMITH,{
 		mes "Equip the Shadow item in that position first.";
 		close;
 	}
+	if (!getequipisenableref(.@part)) {
+		mes "[Shadow Refiner]";
+		mes "This Shadow Equipment cannot be refined.";
+		close;
+	}
 
 	.@equip_id = getequipid(.@part);
+	.@refine = getequiprefinerycnt(.@part);
 	setarray .@card[0],
 		getequipcardid(.@part,0), getequipcardid(.@part,1),
 		getequipcardid(.@part,2), getequipcardid(.@part,3);
 
-	while (1) {
-		.@refine = getequiprefinerycnt(.@part);
-		if (.@refine >= 10) {
-			mes "[Shadow Refiner]";
-			mes "That Shadow Equipment is already at the maximum of +10.";
-			close;
-		}
-		if (!getequipisenableref(.@part)) {
-			mes "[Shadow Refiner]";
-			mes "This Shadow Equipment cannot be refined.";
-			close;
-		}
-
-		.@chance = getequippercentrefinery(.@part);
+	if (.@refine >= .@target) {
 		mes "[Shadow Refiner]";
-		mes "Item: ^0055FF" + getequipname(.@part) + "^000000";
-		mes "Current refine: ^0055FF+" + .@refine + "^000000";
-		mes "Next attempt: ^0055FF+" + (.@refine + 1) + "^000000";
-		mes "Success chance: ^0055FF" + .@chance + "%^000000";
-		mes "Fee: ^FF0000" + callfunc("F_InsertComma", .@zeny_cost) + " Zeny^000000";
-		if (.@chance < 100)
-			mes "^FF0000Failure will destroy the Shadow Equipment.^000000";
-		next;
-		if (select("Refine one level:Cancel") == 2)
-			close;
-
-		if (Zeny < .@zeny_cost) {
-			mes "[Shadow Refiner]";
-			mes "You do not have enough Zeny.";
-			close;
-		}
-
-		// Revalidate immediately before charging and changing equipment.
-		if (callfunc("F_IsEquipIDHack", .@part, .@equip_id) ||
-			callfunc("F_IsEquipCardHack", .@part, .@card[0], .@card[1], .@card[2], .@card[3]) ||
-			callfunc("F_IsEquipRefineHack", .@part, .@refine))
-			close;
-
-		Zeny -= .@zeny_cost;
-		if (.@chance > rand(100)) {
-			successrefitem .@part;
-			mes "[Shadow Refiner]";
-			mes "Success! The Shadow Equipment is now +" + (.@refine + 1) + ".";
-			next;
-			continue;
-		}
-
-		failedrefitem .@part;
-		mes "[Shadow Refiner]";
-		mes "The refinement failed and the Shadow Equipment was destroyed.";
+		mes "^0055FF" + getequipname(.@part) + "^000000 is already at the maximum of +10.";
 		close;
 	}
+
+	mes "[Shadow Refiner]";
+	mes "Item: ^0055FF" + getequipname(.@part) + "^000000";
+	mes "Current refine: ^0055FF+" + .@refine + "^000000";
+	mes "Result: ^0055FF+10^000000";
+	mes "Total fee: ^FF0000" + callfunc("F_InsertComma", .@zeny_cost) + " Zeny^000000";
+	mes "The upgrade is guaranteed and uses no materials.";
+	next;
+	if (select("Raise directly to +10:Cancel") == 2)
+		close;
+
+	if (Zeny < .@zeny_cost) {
+		mes "[Shadow Refiner]";
+		mes "You do not have enough Zeny.";
+		close;
+	}
+
+	// Revalidate immediately before modifying the selected equipment.
+	if (callfunc("F_IsEquipIDHack", .@part, .@equip_id) ||
+		callfunc("F_IsEquipCardHack", .@part, .@card[0], .@card[1], .@card[2], .@card[3]) ||
+		callfunc("F_IsEquipRefineHack", .@part, .@refine))
+		close;
+
+	successrefitem .@part, .@target - .@refine;
+	if (getequiprefinerycnt(.@part) != .@target) {
+		mes "[Shadow Refiner]";
+		mes "The equipment could not be raised to +10, so no Zeny was charged.";
+		close;
+	}
+
+	Zeny -= .@zeny_cost;
+	mes "[Shadow Refiner]";
+	mes "Success! ^0055FF" + getequipname(.@part) + "^000000 is now ^0055FF+10^000000.";
+	close;
 }
