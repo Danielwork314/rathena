@@ -1,0 +1,825 @@
+﻿Item ID,AegisName,English Name,Category,Required Level,Slots,Buy,Sell,Locations,Removal Reason
+590084,Orcish_Mace_BR,Orc Mace,Weapons,1,2,,,Right_Hand,Alternate regional-server marker (BR)
+550149,Areias_Staff_BR,Staff of the Sands,Weapons,99,2,,,Right_Hand,Alternate regional-server marker (BR)
+400477,Ferramentas_BR,Agricultural Tools,Headgear,1,1,,,Head_Top,Alternate regional-server marker (BR)
+15921,Charm_Of_Nature_BR,Charm Of Great Nature,Headgear,1,0,,,Head_Low,Alternate regional-server marker (BR)
+15923,Charm_Of_Wind_BR,Charm of Leafwind,Headgear,1,0,,,Head_Low,Alternate regional-server marker (BR)
+15922,Charm_Of_Frozen_BR,Charm Of Mistic Frozen,Headgear,1,0,,,Head_Low,Alternate regional-server marker (BR)
+15920,Charm_Of_Flame_Heart_BR,Flaming Heart,Headgear,1,0,,,Head_Low,Alternate regional-server marker (BR)
+15369,Cylinder_Hairband_BR,Futuristic Tiara,Headgear,90,0,,,Head_Top,Alternate regional-server marker (BR)
+400614,Areias_Helm_BR,Helm of the Sands,Headgear,1,0,,,Head_Top,Alternate regional-server marker (BR)
+420238,Morcegos_BR,Illusionary Bat,Headgear,1,0,,,Head_Top,Alternate regional-server marker (BR)
+410306,Demons_Eye_BR,Illusionary Lens,Headgear,1,1,,,Head_Mid,Alternate regional-server marker (BR)
+19252,KarduiEar_BR,Kardui Ears,Headgear,70,0,,,Head_Mid,Alternate regional-server marker (BR)
+400619,Khalitz_Helm_BR,Knight's Helm,Headgear,1,1,,,Head_Top,Alternate regional-server marker (BR)
+400486,Coroa_Monarca_BR,Monarch's Crown,Headgear,1,1,,,Head_Top,Alternate regional-server marker (BR)
+400467,Tiara_Norte_BR,Northern Tiara,Headgear,1,1,,,Head_Top,Alternate regional-server marker (BR)
+420253,Republic_Scarf_BR,Republic scarf,Headgear,99,0,,,Head_Low,Alternate regional-server marker (BR)
+19318,Royalguard_Necklace_BR,Royal Guard Rosary,Headgear,80,0,,,Head_Low,Alternate regional-server marker (BR)
+400470,Tiara_Sul_BR,Southern Tiara,Headgear,1,1,,,Head_Top,Alternate regional-server marker (BR)
+15924,Tatoo_Brush_BR,Tattoo Brush,Headgear,1,0,,,Head_Low,Alternate regional-server marker (BR)
+400622,Tiger_Glass_BR,Tiger Glasses,Headgear,1,1,,,Head_Top,Alternate regional-server marker (BR)
+15254,Abyss_Dress_BR,Abyssal Dress,Armor,90,1,,,Armor,Alternate regional-server marker (BR)
+15239,Angeling_Suit_BR,Angeling Robes,Armor,90,1,,,Armor,Alternate regional-server marker (BR)
+15238,EvilDragon_Armor_BR,Evil Dragon Armor,Armor,99,1,,,Armor,Alternate regional-server marker (BR)
+15219,Ghostring_Suit_BR,Ghostring Robe,Armor,90,1,,,Armor,Alternate regional-server marker (BR)
+15272,Khalitzburg_Armor_BR,Khalitzburg Armor,Armor,1,1,,,Armor,Alternate regional-server marker (BR)
+28944,Scutum_BR,Sleiporing Shield,Shields,10,1,,,Left_Hand,Alternate regional-server marker (BR)
+20909,BattleSurcoat_BR,Battle Haori,Garments,70,1,,,Garment,Alternate regional-server marker (BR)
+480332,Ice_Dream_Tree_BR,Dream Guardian,Garments,1,1,,,Garment,Alternate regional-server marker (BR)
+20904,Etran_Shirt_BR,Etran Shirt,Garments,1,1,,,Garment,Alternate regional-server marker (BR)
+22149,Thorny_Shoes_BR,Spiked Boots,Shoes,70,1,,,Shoes,Alternate regional-server marker (BR)
+490582,Cat_Can_BR,Cat Food,Accessories,1,1,,,Left_Accessory,Alternate regional-server marker (BR)
+490451,Colar_Rubi_BR,Crimson Necklace,Accessories,70,0,,,Both_Accessory,Alternate regional-server marker (BR)
+28515,Imperial_Ring_BR,Imperial Ring,Accessories,50,1,,,Both_Accessory,Alternate regional-server marker (BR)
+28537,Arquiens_Necklace_BR,Juperos Necklace,Accessories,20,1,,,Both_Accessory,Alternate regional-server marker (BR)
+28538,Glove_Of_Wizard_BR,Magician's Gloves,Accessories,80,1,20,,Both_Accessory,Alternate regional-server marker (BR)
+5601,Br_Beret,Brazil Beret,Headgear,1,0,20,,Head_Top,Alternate regional-server marker (Br)
+5600,Br_Twin_Ribbon,Brazil Twin Ribbon,Headgear,1,0,20,,Head_Top,Alternate regional-server marker (Br)
+5477,Bro_Flag,Brazilian Flag Hat,Headgear,30,1,20,,Head_Top,Alternate regional-server marker (Bro)
+1340,Arcanite_Hammer_EXE,Arcanite Hammer,Weapons,70,1,,,Right_Hand,Alternate regional-server marker (EXE)
+1871,Bauxite_Knuckle_EXE,Bauxite Knuckle,Weapons,70,0,,,Right_Hand,Alternate regional-server marker (EXE)
+26175,Chromium_Staff_EXE,Chromium Staff,Weapons,70,1,,,Both_Hand,Alternate regional-server marker (EXE)
+1339,Hauyne_Huuma_EXE,Hauyne Huuma,Weapons,70,1,,,Both_Hand,Alternate regional-server marker (EXE)
+26176,Karlite_Staff_EXE,Karlite Staff,Weapons,70,1,,,Right_Hand,Alternate regional-server marker (EXE)
+18200,Realgar_Shooter_EXE,Realgar Shooter,Weapons,70,1,,,Both_Hand,Alternate regional-server marker (EXE)
+32305,Titanium_Gun_EXE,Titanium Gun,Weapons,70,1,,,Both_Hand,Alternate regional-server marker (EXE)
+15827,Ceryne_Hat_EXE,Ceryne's Hat,Headgear,50,1,,,Head_Top,Alternate regional-server marker (EXE)
+15828,Germes_Hat_EXE,Cetio's Hat,Headgear,50,1,,,Head_Top,Alternate regional-server marker (EXE)
+15832,Cetrion_Circlet_EXE,Cetrion Circlet (OSM),Headgear,50,1,,,Head_Top,Alternate regional-server marker (EXE)
+15834,DRaiden_Sakkat_EXE,Dark Raiden's Sakkat,Headgear,50,1,,,Head_Top,Alternate regional-server marker (EXE)
+15855,Ermac_Veil_EXE,Ermac's Veil (OSM),Headgear,50,1,,,Head_Top,Alternate regional-server marker (EXE)
+15885,Erron_Hat_EXE,Erron's Hat (OSM),Headgear,50,1,,,Head_Top,Alternate regional-server marker (EXE)
+15829,Flaward_Hat_EXE,Flaward's Hat,Headgear,50,1,,,Head_Top,Alternate regional-server marker (EXE)
+15830,Germes_Horn_EXE,Germes's Horn,Headgear,50,1,,,Head_Top,Alternate regional-server marker (EXE)
+15878,Joker_Card_EXE,Joker's Card (OSM),Headgear,50,0,,,Head_Low,Alternate regional-server marker (EXE)
+15880,Joker_Face_EXE,Joker's Face (OSM),Headgear,50,0,,,Head_Mid,Alternate regional-server marker (EXE)
+15831,Kuken_Hat_EXE,Kuken's Hat,Headgear,50,1,,,Head_Top,Alternate regional-server marker (EXE)
+15879,KungJin_Headpiece_EXE,Kung Jin's Headpiece (OSM),Headgear,50,1,,,Head_Top,Alternate regional-server marker (EXE)
+15822,Magaleta_Ribbon_EXE,Magaleta's Ribbon,Headgear,50,1,,,Head_Top,Alternate regional-server marker (EXE)
+15848,Motaro_Horn_EXE,Motaro's Horn (OSM),Headgear,50,1,,,Head_Top,Alternate regional-server marker (EXE)
+15884,Nezuko_Bamboo_EXE,Nezuko's Bamboo (OSM),Headgear,50,0,,,Head_Low,Alternate regional-server marker (EXE)
+15883,Nezuko_Eyes_EXE,Nezuko's Eyes (OSM),Headgear,50,0,,,Head_Mid,Alternate regional-server marker (EXE)
+15826,Seyrandel_Hat_EXE,Seyrandel's Hat,Headgear,50,1,,,Head_Top,Alternate regional-server marker (EXE)
+15857,Shang_Rainbow_EXE,Shang Tsung's Rainbow (OSM),Headgear,50,1,,,Head_Top,Alternate regional-server marker (EXE)
+15845,Shaokahn_Helmet_EXE,Shao Kahn's Helmet (OSM),Headgear,50,1,,,Head_Top,Alternate regional-server marker (EXE)
+15451,Albatross_Armor_EXE,Albatross's Armor,Armor,80,1,,,Armor,Alternate regional-server marker (EXE)
+15450,SKahn_Yoroi_EXE,Shao Kahn Yoroi (OSM),Armor,50,1,,,Armor,Alternate regional-server marker (EXE)
+15449,Skarlet_Robe_EXE,Skarlet's Robe (OSM),Armor,50,1,,,Armor,Alternate regional-server marker (EXE)
+20862,EXE_Backpack,EXE Backpack,Garments,1,1,,,Garment,Alternate regional-server marker (EXE)
+15444,Night_Owl_Shawl_EXE,Night Owl Shawl (OSM),Garments,50,1,,,Garment,Alternate regional-server marker (EXE)
+15887,Odious_Robe_EXE,Odious's Robe,Garments,80,0,,,Garment,Alternate regional-server marker (EXE)
+22249,Insidious_Shoes_EXE,Insidious's Shoes,Shoes,80,1,,,Shoes,Alternate regional-server marker (EXE)
+15833,Cetrion_Bracelet_EXE,Cetrion Bracelet (OSM),Accessories,50,1,,,Both_Accessory,Alternate regional-server marker (EXE)
+15446,Cetrion_Ring_EXE,Cetrion's Ring (OSM),Accessories,50,1,,,Left_Accessory,Alternate regional-server marker (EXE)
+32282,Erron_Black_Glove_EXE,Erron's Black Glove (OSM),Accessories,50,1,,,Both_Accessory,Alternate regional-server marker (EXE)
+15849,Kintaro_Bracelet_EXE,Kintaro's Bracelet (OSM),Accessories,50,1,,,Both_Accessory,Alternate regional-server marker (EXE)
+15856,Kronika_Orb_EXE,Kronika's Orb (OSM),Accessories,50,1,,,Both_Accessory,Alternate regional-server marker (EXE)
+15835,STsung_Speller1_EXE,Kronika's Speller (Phy.),Accessories,50,1,,,Both_Accessory,Alternate regional-server marker (EXE)
+15850,STsung_Speller2_EXE,Kronika's Speller Mag (OSM),Accessories,50,1,,,Both_Accessory,Alternate regional-server marker (EXE)
+32281,Scorpion_Chain_EXE,Scorpion's Chain (OSM),Accessories,50,1,,,Both_Accessory,Alternate regional-server marker (EXE)
+18792,Idn_Sakkat,Indonesian Independence Sakkat,Headgear,45,0,10,,Head_Top,Alternate regional-server marker (Idn)
+13005,Counter_Dagger_IL_J,Angelic Wing Dagger,Weapons,1,1,20,,Right_Hand,Alternate regional-server marker (J)
+26167,Aquarius_Staff_J,Aquarius Staff,Weapons,0,1,20,,Right_Hand,Alternate regional-server marker (J)
+32031,Aries_Spear_J,Aries Spear,Weapons,0,1,20,,Right_Hand,Alternate regional-server marker (J)
+1335,Cancer_Axe_J,Cancer Axe,Weapons,1,1,,,Right_Hand,Alternate regional-server marker (J)
+700004,Capricon_Bow_Of_Rogue_J,Capricorn Thief Bow,Weapons,0,1,20,,Both_Hand,Alternate regional-server marker (J)
+2029,TStaff_Of_E_Slayer_J,Devil God's Staff,Weapons,70,0,56000,,Both_Hand,Alternate regional-server marker (J)
+580004,Gemini_Rope_J,Gemini Rope,Weapons,0,1,20,,Right_Hand,Alternate regional-server marker (J)
+570004,Gemini_Violin_J,Gemini Violin,Weapons,0,1,20,,Right_Hand,Alternate regional-server marker (J)
+16098,Leo_Mace_J,Leo Mace,Weapons,0,1,20,,Right_Hand,Alternate regional-server marker (J)
+1150,Libra_Krasnaya_J,Libra's Krasnaya,Weapons,1,1,,,Both_Hand,Alternate regional-server marker (J)
+640006,Pisces_Staff_O_S_J,Pisces Staff of Soul,Weapons,0,1,20,,Both_Hand,Alternate regional-server marker (J)
+28643,Pollux_Book_J,Pollux Book,Weapons,0,1,20,,Right_Hand,Alternate regional-server marker (J)
+28784,Procyon_Dagger_J,Procyon Dagger,Weapons,0,1,20,,Right_Hand,Alternate regional-server marker (J)
+28047,Scorpio_Katar_J,Scorpio Katar,Weapons,0,1,20,,Both_Hand,Alternate regional-server marker (J)
+1100,Taurus_Sword_J,Taurus Sword,Weapons,0,1,20,,Right_Hand,Alternate regional-server marker (J)
+640002,Virgo_Divine_Cross_J,Virgo Divine Cross,Weapons,0,1,20,,Both_Hand,Alternate regional-server marker (J)
+5973,Ancient_Elven_Ear_J,Ancient Elven Ear,Headgear,70,0,,,Head_Mid,Alternate regional-server marker (J)
+5486,J_Anniversary_Hat,Anniversary Hat,Headgear,0,0,20,,Head_Top,Alternate regional-server marker (J)
+18504,Anubis_Helm_J,Anubis Helm J,Headgear,70,0,20,,"Head_Low, Head_Mid, Head_Top",Alternate regional-server marker (J)
+19496,Aquarius_Crown_J,Aquarius Crown,Headgear,0,0,20,,Head_Top,Alternate regional-server marker (J)
+19460,Black_Veil_J,Black Veil,Headgear,0,1,20,,Head_Top,Alternate regional-server marker (J)
+5940,Boitata_Hat_J,Boitata Hat,Headgear,20,1,,,Head_Top,Alternate regional-server marker (J)
+5560,Bullock_Helm_J,Bullock Helm,Headgear,75,0,20,,Head_Top,Alternate regional-server marker (J)
+18782,Butterfly_Wing_Ear_J,Butterfly Wing Ear,Headgear,0,0,20,,Head_Mid,Alternate regional-server marker (J)
+19449,Cancer_Crown_J,Cancer Crown,Headgear,0,0,20,,Head_Top,Alternate regional-server marker (J)
+400015,Capricon_Diadem_J,Capricon Diadem,Headgear,0,0,20,,Head_Top,Alternate regional-server marker (J)
+5657,Antique_Pipe_J,Captain's Pipe,Headgear,30,0,20,,Head_Low,Alternate regional-server marker (J)
+5880,Cheering_Whistle_J,Cheering Whistle,Headgear,0,0,20,,Head_Low,Alternate regional-server marker (J)
+5815,Classic_Hat_J,Classic Hat,Headgear,0,0,20,,Head_Top,Alternate regional-server marker (J)
+5653,Darkness_Helm_J,Darkness Helm,Headgear,70,1,20,,Head_Top,Alternate regional-server marker (J)
+19142,Droop_Gunslinger_J,Drooping Rebellion,Headgear,1,1,20,,Head_Top,Alternate regional-server marker (J)
+19320,Dwarf_Beard_J,Dwarf's Mustache,Headgear,1,0,20,,Head_Low,Alternate regional-server marker (J)
+18864,Earth_Goddess_Flower_J,Earth Goddess Flower,Headgear,1,0,10,,Head_Top,Alternate regional-server marker (J)
+5533,Emperor_Wreath_J,Emperor Wreath,Headgear,80,1,20,,Head_Top,Alternate regional-server marker (J)
+5655,Dark_Snake_Lord_Hat_J,Evil Snake Lord Hat,Headgear,60,0,20,,Head_Top,Alternate regional-server marker (J)
+5534,Fox_Hat_J,Fox Hat,Headgear,70,0,20,,"Head_Low, Head_Mid",Alternate regional-server marker (J)
+5934,Happy_Balloon_J,Happy Balloon,Headgear,10,0,,,Head_Low,Alternate regional-server marker (J)
+19269,Angel_Of_Happiness_J,Happy Flapping Angel Wings,Headgear,30,1,20,,Head_Top,Alternate regional-server marker (J)
+5654,Holy_Marching_Hat_J,Holy Marching Hat,Headgear,1,1,20,,Head_Top,Alternate regional-server marker (J)
+5602,Jaguar_Hat_J,Jaguar Hat J,Headgear,50,1,20,,"Head_Low, Head_Mid",Alternate regional-server marker (J)
+19447,Leo_Crown_J,Leo Crown,Headgear,0,0,20,,Head_Top,Alternate regional-server marker (J)
+19468,Libra_Diadem_J,Libra Diadem,Headgear,0,0,20,,Head_Top,Alternate regional-server marker (J)
+5562,Good_Wedding_Veil_J,Luxurious Wedding Veil,Headgear,45,1,,,"Head_Mid, Head_Top",Alternate regional-server marker (J)
+5561,Rabbit_Magic_Hat_J,Magic Rabbit Hat,Headgear,0,0,,,Head_Top,Alternate regional-server marker (J)
+18598,Mini_Tree_J,Mini Tree J,Headgear,0,1,20,,Head_Top,Alternate regional-server marker (J)
+5938,Octopus_Hat_J,Octopus Hat,Headgear,60,1,20,,Head_Top,Alternate regional-server marker (J)
+5532,Pirate_Dagger_J,Pirate Dagger,Headgear,0,0,20,,Head_Low,Alternate regional-server marker (J)
+15823,Golden_Crown_J,Pollux Crown,Headgear,0,0,20,,Head_Top,Alternate regional-server marker (J)
+5487,J_Poringcake_Hat,Poring Cake Hat,Headgear,0,0,20,,Head_Top,Alternate regional-server marker (J)
+5669,Poring_Party_Hat_J,Poring Party Hat J,Headgear,1,0,20,,Head_Top,Alternate regional-server marker (J)
+5879,Poring_Sunglasses_J,Poring Sunglasses,Headgear,10,0,20,,Head_Mid,Alternate regional-server marker (J)
+15824,Phoenix_Crown_J,Procyon Crown,Headgear,0,0,20,,Head_Top,Alternate regional-server marker (J)
+5816,Cowboy_Hat_J,Purple Cowboy Hat,Headgear,0,0,20,,Head_Top,Alternate regional-server marker (J)
+18778,Pink_Bunny_Band_J,Rabbit Hairband (Peach),Headgear,0,0,400000,,Head_Top,Alternate regional-server marker (J)
+5656,Scooter_Hat_J,Scooter Helmet,Headgear,50,1,20,,Head_Top,Alternate regional-server marker (J)
+19471,Scorpio_Crown_J,Scorpio Crown,Headgear,0,0,20,,Head_Top,Alternate regional-server marker (J)
+5359,J_Captain_Hat,Ship Captain Hat,Headgear,60,1,20,,Head_Top,Alternate regional-server marker (J)
+420013,Spirit_Of_Chung_E_J,Spirit of Chun Yi,Headgear,1,0,20,,Head_Low,Alternate regional-server marker (J)
+18869,Donut_In_Mouth_J,Sugar Donut,Headgear,1,0,20,,Head_Low,Alternate regional-server marker (J)
+19473,Taurus_Diadem_J,Taurus Diadem,Headgear,0,0,20,,Head_Top,Alternate regional-server marker (J)
+5488,J_Twin_Santahat,Twin Santa Hat,Headgear,0,0,20,,Head_Top,Alternate regional-server marker (J)
+18861,Zaha_Doll_Hat_J,Zaha Doll Hat,Headgear,50,1,10,,Head_Top,Alternate regional-server marker (J)
+15426,Aquarius_Mail_J,Aquarius Mail,Armor,0,1,20,,Armor,Alternate regional-server marker (J)
+450129,Aries_Mail_J,Aries Mail,Armor,0,1,20,,Armor,Alternate regional-server marker (J)
+450158,Triad_God_Mail_J__,Awakening Triad God Mail,Armor,99,1,,,Armor,Alternate regional-server marker (J)
+15412,Cancer_Mail_J,Cancer Mail,Armor,0,1,20,,Armor,Alternate regional-server marker (J)
+450011,Capricon_Mail_J,Capricon Mail,Armor,0,1,20,,Armor,Alternate regional-server marker (J)
+18862,Armor_Chiu_J,Chiu Armor,Armor,70,1,20,,Armor,Alternate regional-server marker (J)
+15275,Doram_Only_Suit_J,Doram Suit,Armor,1,1,20,,Armor,Alternate regional-server marker (J)
+450130,Gemini_Mail_J,Gemini Mail,Armor,0,1,20,,Armor,Alternate regional-server marker (J)
+15276,Doram_High_Suit_J,High-End Doram Suit,Armor,1,1,20,,Armor,Alternate regional-server marker (J)
+15421,Triad_God_Mail_J_,Kuraokami's Feather Robe,Armor,99,1,,,Armor,Alternate regional-server marker (J)
+15408,Leo_Mail_J,Leo Mail,Armor,0,1,20,,Armor,Alternate regional-server marker (J)
+15418,Libra_Mail_J,Libra Mail,Armor,0,1,20,,Armor,Alternate regional-server marker (J)
+450133,Pisces_Mail_J,Pisces Mail,Armor,0,1,20,,Armor,Alternate regional-server marker (J)
+15447,Pollux_Robe_J,Pollux Robe,Armor,0,1,20,,Armor,Alternate regional-server marker (J)
+15448,Procyon_Robe_J,Procyon Robe,Armor,0,1,20,,Armor,Alternate regional-server marker (J)
+450140,Sagittarius_Mail_J,Sagittarius Mail,Armor,0,1,20,,Armor,Alternate regional-server marker (J)
+15424,Scorpio_Mail_J,Scorpio Mail,Armor,0,1,20,,Armor,Alternate regional-server marker (J)
+15425,Taurus_Mail_J,Taurus Mail,Armor,0,1,20,,Armor,Alternate regional-server marker (J)
+450015,Virgo_Mail_J,Virgo Mail,Armor,0,1,20,,Armor,Alternate regional-server marker (J)
+15274,White_Eco_Shirt_J,White Leaf T-Shirt,Armor,1,1,,,Armor,Alternate regional-server marker (J)
+15273,White_Shirt_J,White T-Shirt,Armor,1,1,,,Armor,Alternate regional-server marker (J)
+460002,Aries_Shield_J,Aries Shield,Shields,0,0,20,,Left_Hand,Alternate regional-server marker (J)
+2188,Svalinn_J,Svalinn,Shields,65,1,10,,Left_Hand,Alternate regional-server marker (J)
+20767,Bravery_Bag_J,Adventurer's Backpack,Garments,1,0,,,Garment,Alternate regional-server marker (J)
+20784,Amistr_Bag_J,Amistr Bag,Garments,1,1,,,Garment,Alternate regional-server marker (J)
+20972,Aquarius_Manteau_J,Aquarius Manteau,Garments,0,0,20,,Garment,Alternate regional-server marker (J)
+20768,Archangel_Wing_J,Archangel Wing,Garments,1,0,,,Garment,Alternate regional-server marker (J)
+480022,Aries_Manteau_J,Aries Manteau,Garments,0,0,20,,Garment,Alternate regional-server marker (J)
+20954,Cancer_Manteau_J,Cancer Manteau,Garments,0,0,20,,Garment,Alternate regional-server marker (J)
+480006,Capricon_Manteau_J,Capricon Manteau,Garments,0,0,20,,Garment,Alternate regional-server marker (J)
+20915,Doram_Only_Cape_J,Doram Cape,Garments,1,1,20,,Garment,Alternate regional-server marker (J)
+480026,Gemini_Manteau_J,Gemini Manteau,Garments,0,0,20,,Garment,Alternate regional-server marker (J)
+20916,Doram_High_Cape_J,High-End Doram Cape,Garments,1,1,20,,Garment,Alternate regional-server marker (J)
+20812,Kirin_Wing_J,Kirin Wing,Garments,1,1,20,,Garment,Alternate regional-server marker (J)
+20951,Leo_Mantle_J,Leo Manteau,Garments,0,0,20,,Garment,Alternate regional-server marker (J)
+20970,Libra_Manteau_J,Libra Manteau,Garments,0,0,20,,Garment,Alternate regional-server marker (J)
+480041,Pisces_Manteau_J,Pisces Manteau,Garments,0,0,20,,Garment,Alternate regional-server marker (J)
+20983,Pollux_Mantle_J,Pollux Mantle,Garments,0,0,20,,Garment,Alternate regional-server marker (J)
+20984,Procyon_Mantle_J,Procyon Mantle,Garments,0,0,20,,Garment,Alternate regional-server marker (J)
+480050,Sagittarius_Manteau_J,Sagittarius Manteau,Garments,0,0,20,,Garment,Alternate regional-server marker (J)
+20976,Scorpio_Manteau_J,Scorpio Manteau,Garments,0,0,20,,Garment,Alternate regional-server marker (J)
+20861,SwordWing_J,Sword Wing,Garments,1,1,20,,Garment,Alternate regional-server marker (J)
+20971,Taurus_Manteau_J,Taurus Manteau,Garments,0,0,20,,Garment,Alternate regional-server marker (J)
+480009,Virgo_Manteau_J,Virgo Manteau,Garments,0,0,20,,Garment,Alternate regional-server marker (J)
+22231,Aquarius_Shoes_J,Aquarius Shoes,Shoes,0,0,20,,Shoes,Alternate regional-server marker (J)
+470024,Aries_Shoes_J,Aries Shoes,Shoes,0,0,20,,Shoes,Alternate regional-server marker (J)
+22216,Cancer_Shoes_J,Cancer Shoes,Shoes,0,0,20,,Shoes,Alternate regional-server marker (J)
+470010,Capricon_Shoes_J,Capricon Shoes,Shoes,0,0,20,,Shoes,Alternate regional-server marker (J)
+22185,Doram_Only_Shoes_J,Doram Shoes,Shoes,1,1,20,,Shoes,Alternate regional-server marker (J)
+470032,Gemini_Shoes_J,Gemini Shoes,Shoes,0,0,20,,Shoes,Alternate regional-server marker (J)
+22186,Doram_High_Shoes_J,High-End Doram Shoes,Shoes,1,1,20,,Shoes,Alternate regional-server marker (J)
+22213,Leo_Shoes_J,Leo Shoes,Shoes,0,0,20,,Shoes,Alternate regional-server marker (J)
+22227,Libra_Shoes_J,Libra Shoes,Shoes,0,0,20,,Shoes,Alternate regional-server marker (J)
+470038,Pisces_Shoes_J,Pisces Shoes,Shoes,0,0,20,,Shoes,Alternate regional-server marker (J)
+2400,Pollux_Shoes_J,Pollux Shoes,Shoes,0,0,20,,Shoes,Alternate regional-server marker (J)
+22242,Procyon_Shoes_J,Procyon Shoes,Shoes,0,0,20,,Shoes,Alternate regional-server marker (J)
+470045,Sagittarius_Shoes_J,Sagittarius Shoes,Shoes,0,0,20,,Shoes,Alternate regional-server marker (J)
+22233,Scorpio_Shoes_J,Scorpio Shoes,Shoes,0,0,20,,Shoes,Alternate regional-server marker (J)
+22230,Taurus_Shoes_J,Taurus Shoes,Shoes,0,0,20,,Shoes,Alternate regional-server marker (J)
+470014,Virgo_Shoes_J,Virgo Shoes,Shoes,0,0,20,,Shoes,Alternate regional-server marker (J)
+32266,Aquarius_Ring_J,Aquarius Ring,Accessories,0,0,20,,Both_Accessory,Alternate regional-server marker (J)
+490028,Aries_Ring_J,Aries Ring,Accessories,0,0,20,,Both_Accessory,Alternate regional-server marker (J)
+32253,Cancer_Ring_J,Cancer Ring,Accessories,0,0,20,,Both_Accessory,Alternate regional-server marker (J)
+490009,Capricon_Ring_J,Capricon Ring,Accessories,0,0,20,,Both_Accessory,Alternate regional-server marker (J)
+2982,Earth_Ring_J,Earth Ring,Accessories,30,1,20,,Both_Accessory,Alternate regional-server marker (J)
+490032,Gemini_Ring_J,Gemini Ring,Accessories,0,0,20,,Both_Accessory,Alternate regional-server marker (J)
+28581,MiddleSaurelCharm_J,High Grade Horse Mackerel Amulet,Accessories,0,1,20,,Both_Accessory,Alternate regional-server marker (J)
+28584,MiddleLeafCharm_J,High Grade Leaf Amulet,Accessories,0,1,20,,Both_Accessory,Alternate regional-server marker (J)
+28587,MiddleRabbitCharm_J,High Grade Rabbit Amulet,Accessories,0,1,20,,Both_Accessory,Alternate regional-server marker (J)
+28580,LowSaurelCharm_J,Horse Mackerel Amulet,Accessories,0,1,20,,Both_Accessory,Alternate regional-server marker (J)
+28583,LowLeafCharm_J,Leaf Amulet,Accessories,0,1,20,,Both_Accessory,Alternate regional-server marker (J)
+32247,Leo_Ring_J,Leo Ring,Accessories,0,0,20,,Both_Accessory,Alternate regional-server marker (J)
+32261,Libra_Ring_J,Libra Ring,Accessories,0,0,20,,Both_Accessory,Alternate regional-server marker (J)
+2955,Neutral_Ring_J,Neutral Ring,Accessories,30,1,20,,Both_Accessory,Alternate regional-server marker (J)
+490034,Pisces_Ring_J,Pisces Ring,Accessories,0,0,20,,Both_Accessory,Alternate regional-server marker (J)
+32293,Pollux_Ring_J,Pollux Ring,Accessories,0,0,20,,Both_Accessory,Alternate regional-server marker (J)
+32294,Procyon_Ring_J,Procyon Ring,Accessories,0,0,20,,Both_Accessory,Alternate regional-server marker (J)
+28586,LowRabbitCharm_J,Rabbit Amulet,Accessories,0,1,20,,Both_Accessory,Alternate regional-server marker (J)
+490041,Sagittarius_Ring_J,Sagittarius Ring,Accessories,0,0,20,,Both_Accessory,Alternate regional-server marker (J)
+32267,Scorpio_Ring_J,Scorpio Ring,Accessories,0,0,20,,Both_Accessory,Alternate regional-server marker (J)
+32264,Taurus_Ring_J,Taurus Ring,Accessories,0,0,20,,Both_Accessory,Alternate regional-server marker (J)
+490010,Virgo_Ring_J,Virgo Ring,Accessories,0,0,20,,Both_Accessory,Alternate regional-server marker (J)
+19219,JP_EV12,Drooping Chuni Penguin,Headgear,1,0,20,,Head_Top,Alternate regional-server marker (JP)
+19446,Injured_Eyepatch_JP_,Injured Eyepatch,Headgear,99,1,2000000,,Head_Mid,Alternate regional-server marker (JP)
+19444,Star_Eyepatch_JP_,Star Eyepatch,Headgear,99,1,,,Head_Mid,Alternate regional-server marker (JP)
+19299,Tree_Of_Sprout_JP,Tree Sprout,Headgear,80,0,20,,Head_Low,Alternate regional-server marker (JP)
+480245,JP_EV17,Crowned Cinnamon Backpack,Garments,1,0,,,Garment,Alternate regional-server marker (JP)
+22245,Space_shoes_JP_,Awakened Special Environment Boots,Shoes,99,1,,,Shoes,Alternate regional-server marker (JP)
+22203,Space_shoes_JP,Special Environment Boots,Shoes,99,1,,,Shoes,Alternate regional-server marker (JP)
+18811,JRO_White_Snake,White Snake,Headgear,0,1,20,,Head_Top,Alternate regional-server marker (JRO)
+19025,Puppy_Ears_Hat_Jp,Puppy Ears Hat,Headgear,10,1,,,Head_Top,Alternate regional-server marker (Jp)
+400344,Angel_Of_Happiness_ROC,Angel Of Happiness,Headgear,1,1,,,Head_Top,Alternate regional-server marker (ROC)
+400399,GWar2022s3_1st_ROC,Bronze Crown,Headgear,1,1,,,Head_Top,Alternate regional-server marker (ROC)
+400472,Circlet_Of_Phoenix_ROC,Circlet Of Phoenix,Headgear,70,0,,,Head_Top,Alternate regional-server marker (ROC)
+400455,Diadem_Of_Bruenhild_ROC,Diadem Of Bruenhild,Headgear,80,1,,,Head_Top,Alternate regional-server marker (ROC)
+420137,FlyingGalapago_ROC,Frenzy Galapago,Headgear,55,0,,,Head_Low,Alternate regional-server marker (ROC)
+420215,Gang_Scarf_ROC,Gang Scarf,Headgear,1,0,,,Head_Low,Alternate regional-server marker (ROC)
+400410,Heaven_Cage_ROC,Heaven Cage,Headgear,40,1,,,Head_Top,Alternate regional-server marker (ROC)
+400413,Kafra_Employee_Band_ROC,Kafra Employee Band,Headgear,1,0,,,Head_Top,Alternate regional-server marker (ROC)
+400418,NymphGreen_ROC,Nymph Green Sapphire,Headgear,60,1,,,Head_Top,Alternate regional-server marker (ROC)
+400412,Old_Pink_Poo_Hat_ROC,Pink Poo Hat,Headgear,1,1,,,Head_Top,Alternate regional-server marker (ROC)
+420138,Poker_Card_In_Mouth_ROC,Poker Card In Mouth,Headgear,10,0,,,Head_Low,Alternate regional-server marker (ROC)
+400478,Red_Commando_ROC,Red Commando Beret,Headgear,70,1,,,Head_Top,Alternate regional-server marker (ROC)
+420248,ThirdEyeGod_ROC,Third Eye God,Headgear,1,0,,,Head_Low,Alternate regional-server marker (ROC)
+430006,Wanderers_Sakkat_ROC,Wanderer's Sakkat,Headgear,60,1,,,"Head_Mid, Head_Top",Alternate regional-server marker (ROC)
+450269,Kafra_Suit_ROC,Kafra Suit,Armor,1,1,,,Armor,Alternate regional-server marker (ROC)
+450424,The_RO_Shirts_ROC,The Ragnarok T-Shirts,Armor,3,1,,,Armor,Alternate regional-server marker (ROC)
+480193,Enforcer_Cape_ROC,Enforcer Cape,Garments,70,1,,,Garment,Alternate regional-server marker (ROC)
+480307,Fallen_Angel_Wing_ROC,Fallen Angel Wing,Garments,0,1,,,Garment,Alternate regional-server marker (ROC)
+480194,AmistrBag_Heal_ROC,Heal Amistr Bag,Garments,1,1,,,Garment,Alternate regional-server marker (ROC)
+480333,Medical_Cape_ROC,Medical Cape,Garments,50,1,,,Garment,Alternate regional-server marker (ROC)
+480240,Mortal_Cape_ROC,Mortal Cape,Garments,1,1,,,Garment,Alternate regional-server marker (ROC)
+480226,Wing_Of_Happiness_ROC,Wing Of Happiness,Garments,1,1,,,Garment,Alternate regional-server marker (ROC)
+470170,Temporal_Boots_ROC,Temporal Boots,Shoes,20,0,,,Shoes,Alternate regional-server marker (ROC)
+470164,Temporal_Agi_Boots_ROC_,Temporal Boots Agi,Shoes,70,1,,,Shoes,Alternate regional-server marker (ROC)
+470166,Temporal_Dex_Boots_ROC_,Temporal Boots Dex,Shoes,70,1,,,Shoes,Alternate regional-server marker (ROC)
+470168,Temporal_Int_Boots_ROC_,Temporal Boots Int,Shoes,70,1,,,Shoes,Alternate regional-server marker (ROC)
+470169,Temporal_Luk_Boots_ROC_,Temporal Boots Luk,Shoes,70,1,,,Shoes,Alternate regional-server marker (ROC)
+470167,Temporal_STR_Boots_ROC_,Temporal Boots Str,Shoes,70,1,,,Shoes,Alternate regional-server marker (ROC)
+470165,Temporal_Vit_Boots_ROC_,Temporal Boots Vit,Shoes,70,1,,,Shoes,Alternate regional-server marker (ROC)
+490308,Golden_Ring_1stAniv_ROC,1st Golden Ring,Accessories,50,0,,,Left_Accessory,Alternate regional-server marker (ROC)
+490295,Armaia_Belt_ROC,Armaia Belt,Accessories,1,1,,,Both_Accessory,Alternate regional-server marker (ROC)
+490351,Assassin_Amulet_ROC,Assassin Amulet,Accessories,80,1,,,Both_Accessory,Alternate regional-server marker (ROC)
+490475,Chemical_Glove_ROC,Chemical Glove,Accessories,70,1,,,Both_Accessory,Alternate regional-server marker (ROC)
+490378,Maebia_Book_ROC,Curse of Maebia Book,Accessories,60,1,,,Both_Accessory,Alternate regional-server marker (ROC)
+490236,Double_Badge_ROC,Double Badge,Accessories,20,1,,,Both_Accessory,Alternate regional-server marker (ROC)
+490282,Kenshi_Gauntlet_ROC,Kenshi Gauntlet,Accessories,50,1,,,Both_Accessory,Alternate regional-server marker (ROC)
+490267,Shadow_Ring_ROC,Shadow Ring,Accessories,20,1,,,Both_Accessory,Alternate regional-server marker (ROC)
+28103,Ru_Blue_Axe_M,Blue Twohand Axe,Weapons,1,1,10,,Both_Hand,Alternate regional-server marker (Ru)
+28787,Rotten_Garden_knife_TH,Rotten Garden Knife,Weapons,70,4,,,Right_Hand,Alternate regional-server marker (TH)
+19221,Golden_Angel_Band_TH,Golden Angel Hairband,Headgear,1,0,,,Head_Top,Alternate regional-server marker (TH)
+15968,Orange_Rabbit_TH,Orange Rabbit,Headgear,1,0,,,Head_Mid,Alternate regional-server marker (TH)
+15977,Shrine_Maiden_Hat_TH,Shrine Maiden Ribbon,Headgear,50,0,,,Head_Mid,Alternate regional-server marker (TH)
+15932,Vassalage_Necklace_TH,Vassalage Necklace,Headgear,30,0,,,Head_Low,Alternate regional-server marker (TH)
+420342,WL_Security_Drone_TH,Wireless Security Drone,Headgear,1,0,,,Head_Low,Alternate regional-server marker (TH)
+15980,Wonder_Egg_Basket_TH,Wonder Egg Basket,Headgear,1,0,,,Head_Mid,Alternate regional-server marker (TH)
+20833,Fallen_Angel_Wing_TH,Fallen Angel Wing,Garments,1,1,,,Garment,Alternate regional-server marker (TH)
+20841,Golden_Angel_Wing_TH,Golden Angel Wing,Garments,1,1,,,Garment,Alternate regional-server marker (TH)
+490392,Scarlet_Worm_TH,Scarlet Worm Charm,Accessories,50,1,,,Both_Accessory,Alternate regional-server marker (TH)
+490246,Vassalage_Ring_TH,Vassalage Ring,Accessories,30,1,,,Left_Accessory,Alternate regional-server marker (TH)
+19276,Return_TW_1th_Hat,1st Anniversary Commemorative Hat,Headgear,1,1,20,,Head_Top,Alternate regional-server marker (TW)
+19433,ResonateTaego_TW,Ancient Resonance,Headgear,99,1,,,Head_Top,Alternate regional-server marker (TW)
+19353,C_BearBalloon_TW,Bear Catches Balloon,Headgear,1,0,,,Head_Low,Alternate regional-server marker (TW)
+19217,TW_Cock_Hat,Cock Hat,Headgear,1,1,,,"Head_Low, Head_Mid, Head_Top",Alternate regional-server marker (TW)
+420032,TwinCannon_TW,Double Barrel Cannon,Headgear,1,0,,,Head_Low,Alternate regional-server marker (TW)
+420065,Angeling_Balloon_TW,Eternal Poring Balloon,Headgear,1,0,,,Head_Low,Alternate regional-server marker (TW)
+5217,Magestic_Goat_TW,Evolved Majestic Goat,Headgear,0,0,20,,Head_Top,Alternate regional-server marker (TW)
+5224,Orc_Hero_Helm_TW,Evolved Orc Hero Helm,Headgear,55,0,500000,,"Head_Mid, Head_Top",Alternate regional-server marker (TW)
+19401,Gothic_Heart_Wing_TW,Fallen Wing Hairpin,Headgear,1,1,,,Head_Top,Alternate regional-server marker (TW)
+400433,Gothic_HW_TW_LT,Fallen Wing Hairpin-LT,Headgear,1,1,,,Head_Top,Alternate regional-server marker (TW)
+400006,Orcsuccessionhelm_TW,Heritage Symbol of the Orcs,Headgear,1,1,,,Head_Top,Alternate regional-server marker (TW)
+400017,Kukulkan_Head_TW,Kukulkan Skull,Headgear,70,1,,,Head_Top,Alternate regional-server marker (TW)
+19371,C_BaphoJ_Parachute_TW,Little Buffet Parachute,Headgear,1,0,,,Head_Low,Alternate regional-server marker (TW)
+19393,Magic_Star_TW,Magic Star,Headgear,1,0,,,Head_Mid,Alternate regional-server marker (TW)
+19435,PoringBeret_TW,Poring Beret,Headgear,1,1,,,Head_Top,Alternate regional-server marker (TW)
+19295,Red_Baby_Dragon_TW,Red Baby Dragon,Headgear,90,1,,,Head_Top,Alternate regional-server marker (TW)
+19298,Tatenasi_Helmet_TW,Sealed Tatenasi Helm,Headgear,70,1,,,Head_Top,Alternate regional-server marker (TW)
+15211,Return_TW_1th_Armor,1st Anniversary Commemorative Armor,Armor,1,1,20,,Armor,Alternate regional-server marker (TW)
+450175,Temporal_Armor_TW,Exotic Temporal Armor,Armor,1,1,,,Armor,Alternate regional-server marker (TW)
+450131,Fallen_Angel_Armor_TW,Fallen Angel Armor,Armor,30,1,,,Armor,Alternate regional-server marker (TW)
+450017,Kukulkan_Skin_TW,Kukulkan Skin,Armor,70,1,,,Armor,Alternate regional-server marker (TW)
+15215,Tatenasi_Armor_TW,Sealed Tatenasi Armor,Armor,99,1,,,Armor,Alternate regional-server marker (TW)
+460027,Titan_Shield_TW,Titan Shield,Shields,1,1,,,Left_Hand,Alternate regional-server marker (TW)
+20910,Etran_Shirt_TW,Etran Shirt,Garments,1,1,,,Garment,Alternate regional-server marker (TW)
+20866,Golden_Angel_Wing_TW,Golden Angel Wing,Garments,1,1,,,Garment,Alternate regional-server marker (TW)
+480015,Kukulkan_Feather_TW,Kukulkan Feather,Garments,70,1,,,Garment,Alternate regional-server marker (TW)
+480115,Light_Of_World_TW,Light of the World Asprika,Garments,1,1,,,Garment,Alternate regional-server marker (TW)
+22191,Nergal_Shoes_TW,Fire Thunder Great Boots,Shoes,99,1,,,Shoes,Alternate regional-server marker (TW)
+490089,Alice_Hug_Pillow_TW,Alice Maid Pillow,Accessories,1,1,,,Left_Accessory,Alternate regional-server marker (TW)
+490389,ATW_Ring_TW,Barrier Ring,Accessories,50,1,,,Right_Accessory,Alternate regional-server marker (TW)
+28597,CherryBlossom_Badge_TW,Cherry Badge,Accessories,0,1,,,Both_Accessory,Alternate regional-server marker (TW)
+28536,Emerald_Earring_TW,Emerald Earring,Accessories,50,1,,,Left_Accessory,Alternate regional-server marker (TW)
+490023,Kukulkan_Tooth_TW,Kukulkan's Tooth,Accessories,70,1,,,Both_Accessory,Alternate regional-server marker (TW)
+490387,Zongzi_Lotusleaf_TW,Lotus Leaf Sticky Rice Amulet,Accessories,1,0,,,Both_Accessory,Alternate regional-server marker (TW)
+32270,Luminous_Blue_Stone_TW,Luminous Blue Stone,Accessories,90,1,,,Both_Accessory,Alternate regional-server marker (TW)
+490233,Zongzi_Charm_TW,Rice Dumpling Amulet,Accessories,1,1,,,Both_Accessory,Alternate regional-server marker (TW)
+28595,BlueDragonRing_TW,Ring of the Blue Dragon,Accessories,1,1,,,Right_Accessory,Alternate regional-server marker (TW)
+28567,King_of_Spirit_Ring_TW,Ring of the Elf King,Accessories,50,0,,,Both_Accessory,Alternate regional-server marker (TW)
+2815,Th_Ring_Of_Water,Ring Of Water,Accessories,0,0,20,,Both_Accessory,Alternate regional-server marker (Th)
+2031,Tw_Staff_Of_Malang_J,Cat's cane - Swordfish,Weapons,40,1,50000,,Both_Hand,Alternate regional-server marker (Tw)
+18680,Tw_Frog_Hat,Tw Frog Hat,Headgear,35,0,20,,Head_Top,Alternate regional-server marker (Tw)
+18753,Tw_Rice_Ball,Tw Rice Ball,Headgear,0,0,20,,Head_Top,Alternate regional-server marker (Tw)
+2870,Tw_8th_Anni_Ring,Tw 8th Anni Ring,Accessories,0,0,,,Both_Accessory,Alternate regional-server marker (Tw)
+420246,Arbitrator_Shawl_US,Arbitrator Shawl,Headgear,1,0,,,Head_Low,Alternate regional-server marker (US)
+420422,Red_Bat_US,Bat Von Blood,Headgear,1,0,,,Head_Low,Alternate regional-server marker (US)
+420314,White_Fox_US,Calming White Fox,Headgear,1,0,,,Head_Low,Alternate regional-server marker (US)
+420315,Morcegos_US,Naughty Bats,Headgear,1,0,,,Head_Low,Alternate regional-server marker (US)
+400667,Peco_Warrior_Hat_US,Peco Warrior Hat,Headgear,1,1,,,Head_Top,Alternate regional-server marker (US)
+460084,Alice_Pillow_US,Alice Body Pillow,Shields,1,1,,,Left_Hand,Alternate regional-server marker (US)
+1327,Axe_Z,Axe,Weapons,3,4,,,Right_Hand,Alternate regional-server marker (Z)
+13476,Blade_Z,Blade,Weapons,2,4,1,,Right_Hand,Alternate regional-server marker (Z)
+520034,Z_Boost_N_Axe,Boosting Glacier Axe,Weapons,1,0,,,Right_Hand,Alternate regional-server marker (Z)
+540077,Z_Boost_N_Book,Boosting Glacier Book,Weapons,1,0,,,Right_Hand,Alternate regional-server marker (Z)
+700081,Z_Boost_N_Bow,Boosting Glacier Bow,Weapons,1,0,,,Both_Hand,Alternate regional-server marker (Z)
+510125,Z_Boost_N_Dagger,Boosting Glacier Dagger,Weapons,1,0,,,Right_Hand,Alternate regional-server marker (Z)
+570052,Z_Boost_N_instrument,Boosting Glacier Instrument,Weapons,1,0,,,Right_Hand,Alternate regional-server marker (Z)
+610057,Z_Boost_N_Katar,Boosting Glacier Katar,Weapons,1,0,,,Both_Hand,Alternate regional-server marker (Z)
+560051,Z_Boost_N_Claw,Boosting Glacier Knuckle,Weapons,1,0,,,Right_Hand,Alternate regional-server marker (Z)
+530050,Z_Boost_N_Lance,Boosting Glacier Lance,Weapons,1,0,,,Right_Hand,Alternate regional-server marker (Z)
+840030,Z_Boost_N_Launcher,Boosting Glacier Launcher,Weapons,1,0,,,Both_Hand,Alternate regional-server marker (Z)
+590067,Z_Boost_N_Mace,Boosting Glacier Mace,Weapons,1,0,,,Right_Hand,Alternate regional-server marker (Z)
+830034,Z_Boost_N_Gatling,Boosting Glacier Minigun,Weapons,1,0,,,Both_Hand,Alternate regional-server marker (Z)
+510124,Z_Boost_N_Nindo,Boosting Glacier Nindo,Weapons,1,0,,,Right_Hand,Alternate regional-server marker (Z)
+500082,Z_Boost_N_OH_Sword,Boosting Glacier One-Handed Sword,Weapons,1,0,,,Right_Hand,Alternate regional-server marker (Z)
+800036,Z_Boost_N_Revolber,Boosting Glacier Revolver,Weapons,1,0,,,Both_Hand,Alternate regional-server marker (Z)
+810037,Z_Boost_N_Rifle,Boosting Glacier Rifle,Weapons,1,0,,,Both_Hand,Alternate regional-server marker (Z)
+820030,Z_Boost_N_Shotgun,Boosting Glacier Shotgun,Weapons,1,0,,,Both_Hand,Alternate regional-server marker (Z)
+650044,Z_Boost_N_Huuma,Boosting Glacier Shuriken,Weapons,1,0,,,Both_Hand,Alternate regional-server marker (Z)
+510123,Z_Boost_N_Sotaedo,Boosting Glacier Sotaedo,Weapons,1,0,,,Right_Hand,Alternate regional-server marker (Z)
+550122,Z_Boost_N_Staff,Boosting Glacier Staff,Weapons,1,0,,,Right_Hand,Alternate regional-server marker (Z)
+600045,Z_Boost_N_Sword,Boosting Glacier Sword,Weapons,1,0,,,Both_Hand,Alternate regional-server marker (Z)
+580053,Z_Boost_N_Whip,Boosting Glacier Whip,Weapons,1,0,,,Right_Hand,Alternate regional-server marker (Z)
+520035,Z_Boost_P_Axe,Boosting Ice & Snow Axe,Weapons,1,0,,,Right_Hand,Alternate regional-server marker (Z)
+540078,Z_Boost_P_Book,Boosting Ice & Snow Book,Weapons,1,0,,,Right_Hand,Alternate regional-server marker (Z)
+700082,Z_Boost_P_Bow,Boosting Ice & Snow Bow,Weapons,1,0,,,Both_Hand,Alternate regional-server marker (Z)
+510128,Z_Boost_P_Dagger,Boosting Ice & Snow Dagger,Weapons,1,0,,,Right_Hand,Alternate regional-server marker (Z)
+570053,Z_Boost_P_instrumen,Boosting Ice & Snow Instrument,Weapons,1,0,,,Right_Hand,Alternate regional-server marker (Z)
+610058,Z_Boost_P_Katar,Boosting Ice & Snow Katar,Weapons,1,0,,,Both_Hand,Alternate regional-server marker (Z)
+560052,Z_Boost_P_Claw,Boosting Ice & Snow Knuckle,Weapons,1,0,,,Right_Hand,Alternate regional-server marker (Z)
+530051,Z_Boost_P_Lance,Boosting Ice & Snow Lance,Weapons,1,0,,,Right_Hand,Alternate regional-server marker (Z)
+840031,Z_Boost_P_Launcher,Boosting Ice & Snow Launcher,Weapons,1,0,,,Both_Hand,Alternate regional-server marker (Z)
+590068,Z_Boost_P_Mace,Boosting Ice & Snow Mace,Weapons,1,0,,,Right_Hand,Alternate regional-server marker (Z)
+830035,Z_Boost_P_Gatling,Boosting Ice & Snow Minigun,Weapons,1,0,,,Both_Hand,Alternate regional-server marker (Z)
+510127,Z_Boost_P_Nindo,Boosting Ice & Snow Nindo,Weapons,1,0,,,Right_Hand,Alternate regional-server marker (Z)
+500083,Z_Boost_P_OH_Sword,Boosting Ice & Snow One-Handed Sword,Weapons,1,0,,,Right_Hand,Alternate regional-server marker (Z)
+800037,Z_Boost_P_Revolver,Boosting Ice & Snow Revolver,Weapons,1,0,,,Both_Hand,Alternate regional-server marker (Z)
+810038,Z_Boost_P_Rifle,Boosting Ice & Snow Rifle,Weapons,1,0,,,Both_Hand,Alternate regional-server marker (Z)
+820031,Z_Boost_P_Shotgun,Boosting Ice & Snow Shotgun,Weapons,1,0,,,Both_Hand,Alternate regional-server marker (Z)
+650045,Z_Boost_P_Huuma,Boosting Ice & Snow Shuriken,Weapons,1,0,,,Both_Hand,Alternate regional-server marker (Z)
+510126,Z_Boost_P_Sotaedo,Boosting Ice & Snow Sotaedo,Weapons,1,0,,,Right_Hand,Alternate regional-server marker (Z)
+550123,Z_Boost_P_Staff,Boosting Ice & Snow Staff,Weapons,1,0,,,Right_Hand,Alternate regional-server marker (Z)
+600046,Z_Boost_P_Sword,Boosting Ice & Snow Sword,Weapons,1,0,,,Both_Hand,Alternate regional-server marker (Z)
+580054,Z_Boost_P_Whip,Boosting Ice & Snow Whip,Weapons,1,0,,,Right_Hand,Alternate regional-server marker (Z)
+13497,Edge_Z,Edge,Weapons,60,1,1,,Right_Hand,Alternate regional-server marker (Z)
+13475,Falchion_Z,Falchion,Weapons,2,4,1,,Right_Hand,Alternate regional-server marker (Z)
+550005,Woe_Wand2_Z,Intermediate Guild Member's Arc Wand,Weapons,70,1,,,Right_Hand,Alternate regional-server marker (Z)
+520001,Woe_One_Hand_Axe2_Z,Intermediate Guild Member's Cleaver,Weapons,70,1,,,Right_Hand,Alternate regional-server marker (Z)
+600005,Woe_Twohand_Sword2_Z,Intermediate Guild Member's Craymore,Weapons,70,1,,,Both_Hand,Alternate regional-server marker (Z)
+640001,Woe_T_Staff2_Z,Intermediate Guild Member's Destruction Staff,Weapons,70,1,,,Both_Hand,Alternate regional-server marker (Z)
+560003,Woe_Pist2_Z,Intermediate Guild Member's Fist,Weapons,70,1,,,Right_Hand,Alternate regional-server marker (Z)
+500006,Woe_Onehand_Sword2_Z,Intermediate Guild Member's Flamberge,Weapons,70,1,,,Right_Hand,Alternate regional-server marker (Z)
+510005,Woe_Knife2_Z,Intermediate Guild Member's Gladius,Weapons,70,1,,,Right_Hand,Alternate regional-server marker (Z)
+570003,Woe_Instrument2_Z,Intermediate Guild Member's Guitar,Weapons,70,1,,,Right_Hand,Alternate regional-server marker (Z)
+550004,Woe_Healstaff2_Z,Intermediate Guild Member's Healing Staff,Weapons,70,1,,,Right_Hand,Alternate regional-server marker (Z)
+700005,Woe_Bow2_Z,Intermediate Guild Member's Hunter Bow,Weapons,70,1,,,Both_Hand,Alternate regional-server marker (Z)
+650001,Woe_Huuma2_Z,Intermediate Guild Member's Huuma Shuriken,Weapons,70,1,,,Both_Hand,Alternate regional-server marker (Z)
+610004,Woe_Katar2_Z,Intermediate Guild Member's Jamadhar,Weapons,70,1,,,Both_Hand,Alternate regional-server marker (Z)
+630001,Woe_T_Lance2_Z,Intermediate Guild Member's Lance,Weapons,70,1,,,Right_Hand,Alternate regional-server marker (Z)
+580003,Woe_Whip2_Z,Intermediate Guild Member's Lariat,Weapons,70,1,,,Right_Hand,Alternate regional-server marker (Z)
+590004,Woe_Club_2_Z,Intermediate Guild Member's Morning Star,Weapons,70,1,,,Right_Hand,Alternate regional-server marker (Z)
+530001,Woe_Onehand_Spear2_Z,Intermediate Guild Member's Pike,Weapons,70,1,,,Right_Hand,Alternate regional-server marker (Z)
+620001,Woe_Twohand_Axe2_Z,Intermediate Guild Member's Two-Handed Axe,Weapons,70,1,,,Both_Hand,Alternate regional-server marker (Z)
+26147,Woe_Wand1_Z,Lesser Guild Member's Arc Wand,Weapons,70,0,,,Right_Hand,Alternate regional-server marker (Z)
+1329,Woe_One_Hand_Axe1_Z,Lesser Guild Member's Cleaver,Weapons,70,0,,,Right_Hand,Alternate regional-server marker (Z)
+21044,Woe_Twohand_Sword1_Z,Lesser Guild Member's Craymore,Weapons,70,0,,,Both_Hand,Alternate regional-server marker (Z)
+2052,Woe_T_Staff1_Z,Lesser Guild Member's Destruction Staff,Weapons,70,0,,,Both_Hand,Alternate regional-server marker (Z)
+1859,Woe_Pist1_Z,Lesser Guild Member's Fist,Weapons,70,0,,,Right_Hand,Alternate regional-server marker (Z)
+13490,Woe_Onehand_Sword1_Z,Lesser Guild Member's Flamberge,Weapons,70,0,,,Both_Hand,Alternate regional-server marker (Z)
+28751,Woe_Knife1_Z,Lesser Guild Member's Gladius,Weapons,70,0,,,Right_Hand,Alternate regional-server marker (Z)
+32103,Woe_Instrument1_Z,Lesser Guild Member's Guitar,Weapons,70,0,,,Right_Hand,Alternate regional-server marker (Z)
+26146,Woe_Healstaff1_Z,Lesser Guild Member's Healing Staff,Weapons,70,0,,,Right_Hand,Alternate regional-server marker (Z)
+18175,Woe_Bow1_Z,Lesser Guild Member's Hunter Bow,Weapons,70,0,,,Both_Hand,Alternate regional-server marker (Z)
+650000,Woe_Huuma1_Z,Lesser Guild Member's Huuma Shuriken,Weapons,70,0,,,Both_Hand,Alternate regional-server marker (Z)
+28036,Woe_Katar1_Z,Lesser Guild Member's Jamadhar,Weapons,70,0,,,Both_Hand,Alternate regional-server marker (Z)
+26019,Woe_T_Lance1_Z,Lesser Guild Member's Lance,Weapons,70,0,,,Both_Hand,Alternate regional-server marker (Z)
+26210,Woe_Whip1_Z,Lesser Guild Member's Lariat,Weapons,70,0,,,Right_Hand,Alternate regional-server marker (Z)
+16085,Woe_Club_1_Z,Lesser Guild Member's Morning Star,Weapons,70,0,,,Right_Hand,Alternate regional-server marker (Z)
+32015,Woe_Onehand_Spear1_Z,Lesser Guild Member's Pike,Weapons,70,0,,,Right_Hand,Alternate regional-server marker (Z)
+28133,Woe_Twohand_Axe1_Z,Lesser Guild Member's Two-Handed Axe,Weapons,70,0,,,Both_Hand,Alternate regional-server marker (Z)
+13498,Nagan_Z,Nagan,Weapons,60,1,1,,Right_Hand,Alternate regional-server marker (Z)
+13477,Lapier_Z,Rapier,Weapons,14,3,10,,Right_Hand,Alternate regional-server marker (Z)
+13480,Ring_Pommel_Saber_Z,Ring Pommel Saber,Weapons,14,3,1,,Right_Hand,Alternate regional-server marker (Z)
+13481,Saber_Z,Saber,Weapons,27,3,1,,Right_Hand,Alternate regional-server marker (Z)
+13478,Scimiter_Z,Scimitar,Weapons,14,3,10,,Right_Hand,Alternate regional-server marker (Z)
+13474,Sword_Z,Sword,Weapons,2,4,1,,Right_Hand,Alternate regional-server marker (Z)
+400584,Z_Boost_Hat,Boosting Headband,Headgear,1,1,,,Head_Top,Alternate regional-server marker (Z)
+19388,Crow_Tengu_Mask_Z,Celestial Crow Mask,Headgear,60,0,,,Head_Mid,Alternate regional-server marker (Z)
+19399,Grand_Peco_Band_Z,Grand Peco Hairband,Headgear,60,1,,,Head_Top,Alternate regional-server marker (Z)
+19400,Sleepr_Hat_Z,Sleeper Hat,Headgear,60,1,,,Head_Top,Alternate regional-server marker (Z)
+15256,Adventurer_Suit_Z,Adventurer's Suit,Armor,1,1,,,Armor,Alternate regional-server marker (Z)
+450300,Z_Boost_Armor,Boosted Adventurer's Armor,Armor,1,0,,,Armor,Alternate regional-server marker (Z)
+450301,Z_Boost_Set1_Armor,Boosting Forged Mail Type A,Armor,1,0,,,Armor,Alternate regional-server marker (Z)
+450302,Z_Boost_Set2_Armor,Boosting Forged Mail Type B,Armor,1,0,,,Armor,Alternate regional-server marker (Z)
+450303,Z_Boost_Set3_Armor,Boosting Forged Mail Type C,Armor,1,0,,,Armor,Alternate regional-server marker (Z)
+450304,Z_Boost_Set4_Armor,Boosting Forged Mail Type D,Armor,1,0,,,Armor,Alternate regional-server marker (Z)
+450340,Z_Boost_Set1_Armor_01,Boosting Mail Type A,Armor,1,1,,,Armor,Alternate regional-server marker (Z)
+450341,Z_Boost_Set2_Armor_01,Boosting Mail Type B,Armor,1,1,,,Armor,Alternate regional-server marker (Z)
+450342,Z_Boost_Set3_Armor_01,Boosting Mail Type C,Armor,1,1,,,Armor,Alternate regional-server marker (Z)
+450343,Z_Boost_Set4_Armor_01,Boosting Mail Type D,Armor,1,1,,,Armor,Alternate regional-server marker (Z)
+15260,Chain_Mail_Z,Chain Mail,Armor,0,1,,,Armor,Alternate regional-server marker (Z)
+15258,Coat_Z,Coat,Armor,0,1,,,Armor,Alternate regional-server marker (Z)
+15261,Plate_Armor_Z,Full Plate,Armor,40,1,,,Armor,Alternate regional-server marker (Z)
+15281,Khalitzburg_Armor_Z,Khalitzburg Knight Armor,Armor,60,1,,,Armor,Alternate regional-server marker (Z)
+15255,Leather_Jacket_Z,Leather Jacket,Armor,1,1,,,Armor,Alternate regional-server marker (Z)
+15257,Mantle_Z,Mantle,Armor,0,1,,,Armor,Alternate regional-server marker (Z)
+15259,Padded_Armor_Z,Padded Armor,Armor,0,1,,,Armor,Alternate regional-server marker (Z)
+15264,Saint_Robe_Z,Saint's Robe,Armor,0,1,,,Armor,Alternate regional-server marker (Z)
+15263,Scapulare_Z,Scapulare,Armor,0,1,,,Armor,Alternate regional-server marker (Z)
+15262,Silk_Robe_Z,Silk Robe,Armor,0,1,,,Armor,Alternate regional-server marker (Z)
+15267,Silver_Robe_Z,Silver Robe,Armor,0,1,,,Armor,Alternate regional-server marker (Z)
+15268,Thief_Clothes_Z,Thief Clothes,Armor,0,1,,,Armor,Alternate regional-server marker (Z)
+15266,Tights_Z,Tights,Armor,45,1,,,Armor,Alternate regional-server marker (Z)
+15265,Wooden_Mail_Z,Wooden Mail,Armor,0,1,,,Armor,Alternate regional-server marker (Z)
+480353,Z_Boost_Manteau,Boosted Adventurer's Pauldrons,Garments,1,0,,,Garment,Alternate regional-server marker (Z)
+480401,Z_Boost_Set1_Hood_01,Boosting Cloak Type A,Garments,1,1,,,Garment,Alternate regional-server marker (Z)
+480402,Z_Boost_Set2_Hood_01,Boosting Cloak Type B,Garments,1,1,,,Garment,Alternate regional-server marker (Z)
+480403,Z_Boost_Set3_Hood_01,Boosting Cloak Type C,Garments,1,1,,,Garment,Alternate regional-server marker (Z)
+480404,Z_Boost_Set4_Hood_01,Boosting Cloak Type D,Garments,1,1,,,Garment,Alternate regional-server marker (Z)
+480354,Z_Boost_Set1_Hood,Boosting Forged Cloak Type A,Garments,1,0,,,Garment,Alternate regional-server marker (Z)
+480355,Z_Boost_Set2_Hood,Boosting Forged Cloak Type B,Garments,1,0,,,Garment,Alternate regional-server marker (Z)
+480356,Z_Boost_Set3_Hood,Boosting Forged Cloak Type C,Garments,1,0,,,Garment,Alternate regional-server marker (Z)
+480357,Z_Boost_Set4_Hood,Boosting Forged Cloak Type D,Garments,1,0,,,Garment,Alternate regional-server marker (Z)
+470216,Z_Boost_Greave,Boosted Adventurer's Boots,Shoes,1,0,,,Shoes,Alternate regional-server marker (Z)
+470250,Z_Boost_Set1_Boots_01,Boosting Boots Type A,Shoes,1,0,,,Shoes,Alternate regional-server marker (Z)
+470251,Z_Boost_Set2_Boots_01,Boosting Boots Type B,Shoes,1,0,,,Shoes,Alternate regional-server marker (Z)
+470252,Z_Boost_Set3_Boots_01,Boosting Boots Type C,Shoes,1,0,,,Shoes,Alternate regional-server marker (Z)
+470253,Z_Boost_Set4_Boots_01,Boosting Boots Type D,Shoes,1,0,,,Shoes,Alternate regional-server marker (Z)
+470217,Z_Boost_Set1_Boots,Boosting Forged Boots Type A,Shoes,1,0,,,Shoes,Alternate regional-server marker (Z)
+470218,Z_Boost_Set2_Boots,Boosting Forged Boots Type B,Shoes,1,0,,,Shoes,Alternate regional-server marker (Z)
+470219,Z_Boost_Set3_Boots,Boosting Forged Boots Type C,Shoes,1,0,,,Shoes,Alternate regional-server marker (Z)
+470220,Z_Boost_Set4_Boots,Boosting Forged Boots Type D,Shoes,1,0,,,Shoes,Alternate regional-server marker (Z)
+470231,Z_Sandals,Sandals,Shoes,0,0,,,Shoes,Alternate regional-server marker (Z)
+490474,Z_Boost_Ring,Boosting Ring,Accessories,1,1,,,Both_Accessory,Alternate regional-server marker (Z)
+13479,Tsurugi_z,Tsurugi,Weapons,27,2,1,,Right_Hand,Alternate regional-server marker (z)
+400345,Comp_AngelHappiness_ROC,[Not For Sale] Angel Of Happiness,Headgear,1,1,,,Head_Top,Competition or not-for-sale variant
+15970,Comp_CD_In_MouthK,[Not For Sale] CD in Mouth K,Headgear,10,0,,,Head_Low,Competition or not-for-sale variant
+400473,Comp_CircletPhoenix_ROC,[Not For Sale] Circlet Of Phoenix,Headgear,70,0,,,Head_Top,Competition or not-for-sale variant
+400443,Comp_Cloud_Buster_ROC,[Not For Sale] Cloud Buster,Headgear,1,0,,,Head_Top,Competition or not-for-sale variant
+15928,Comp_Cookie_Hat_TH,[Not For Sale] Cookie Hat,Headgear,0,0,,,Head_Top,Competition or not-for-sale variant
+400417,Comp_Deep_Hairband_ROC,[Not For Sale] Deep Blue Angel Hairband,Headgear,1,1,,,Head_Top,Competition or not-for-sale variant
+410305,aegis_410305,[Not For Sale] Diabolus Wing,Headgear,90,0,,,Head_Mid,Competition or not-for-sale variant
+400456,Comp_D_Of_Bruenhild_ROC,[Not For Sale] Diadem Of Bruenhild,Headgear,80,1,,,Head_Top,Competition or not-for-sale variant
+420370,Comp_ES_in_Mouth,[Not For Sale] Earth Stone In Mouth,Headgear,1,0,,,Head_Low,Competition or not-for-sale variant
+400659,aegis_400659,[Not For Sale] Fairy's Crown,Headgear,50,1,,,Head_Top,Competition or not-for-sale variant
+430003,Comp_F_P_Mask_ROC,[Not For Sale] Fancy Phantom Mask,Headgear,20,1,,,"Head_Mid, Head_Top",Competition or not-for-sale variant
+400677,aegis_400677,[Not For Sale] Flaward Hat,Headgear,50,1,,,Head_Top,Competition or not-for-sale variant
+400441,Comp_FoxBellRibbon_ROC,[Not For Sale] Fox Ears Bell Ribbon,Headgear,50,0,,,Head_Top,Competition or not-for-sale variant
+420216,Comp_Gang_Scarf_ROC,[Not For Sale] Gang Scarf,Headgear,1,0,,,Head_Low,Competition or not-for-sale variant
+400499,aegis_400499,[Not For Sale] Germes Horn,Headgear,70,1,,,Head_Top,Competition or not-for-sale variant
+15958,Comp_FaceWorm_Breath,[Not For Sale] Giant Snake Breath,Headgear,0,0,,,Head_Low,Competition or not-for-sale variant
+400501,aegis_400501,[Not For Sale] Gigant Helm,Headgear,50,1,,,Head_Top,Competition or not-for-sale variant
+400489,aegis_400489,[Not For Sale] Hairband Of Asmodeus,Headgear,55,1,,,Head_Top,Competition or not-for-sale variant
+400513,aegis_400513,[Not For Sale] Hat of Desert,Headgear,50,1,,,Head_Top,Competition or not-for-sale variant
+400411,Comp_Heaven_Cage_ROC,[Not For Sale] Heaven Cage,Headgear,40,1,,,Head_Top,Competition or not-for-sale variant
+400286,Comp_Hunting_Cap_Gust,[Not For Sale] Hunting Cap of Gust,Headgear,90,1,,,Head_Top,Competition or not-for-sale variant
+420257,aegis_420257,[Not For Sale] Imperial Glory,Headgear,70,0,,,Head_Low,Competition or not-for-sale variant
+15947,Comp_Blue_Rear_Ribbon,[Not For Sale] Indigo Rear Ribbon,Headgear,0,0,,,Head_Low,Competition or not-for-sale variant
+420135,Comp_Isabella_Carrot,[Not For Sale] Isabella Carrot,Headgear,70,0,,,Head_Low,Competition or not-for-sale variant
+15955,Comp_Kafra_Employ_Band,[Not For Sale] Kafra Employee Band,Headgear,1,1,,,Head_Top,Competition or not-for-sale variant
+400753,aegis_400753,[Not For Sale] Khalitzburg Knight Blue Helm,Headgear,70,1,,,Head_Top,Competition or not-for-sale variant
+400295,Comp_Knit_Cap_Of_Water,[Not For Sale] Knit Cap Of Water,Headgear,90,1,,,Head_Top,Competition or not-for-sale variant
+400419,Comp_NymphGreen_ROC,[Not For Sale] Nymph Green Sapphire,Headgear,60,1,,,Head_Top,Competition or not-for-sale variant
+15967,Comp_Pink_Angel_B,[Not For Sale] Pink Angeling Bubble,Headgear,1,0,,,Head_Low,Competition or not-for-sale variant
+400680,aegis_400680,[Not For Sale] Pink Shampoo Hat,Headgear,90,1,,,Head_Top,Competition or not-for-sale variant
+400479,Comp_Red_Commando_ROC,[Not For Sale] Red Commando Beret,Headgear,70,1,,,Head_Top,Competition or not-for-sale variant
+15978,Comp_ShrineMaiden_TH,[Not For Sale] Shrine Maiden Ribbon,Headgear,50,0,,,Head_Mid,Competition or not-for-sale variant
+15966,Comp_Sigruns_Wing,[Not For Sale] Sigrun's Wing,Headgear,1,0,,,Head_Mid,Competition or not-for-sale variant
+400279,Comp_Silk_Hat_Of_Earth_,[Not For Sale] Silk Hat of Earth,Headgear,90,1,,,Head_Top,Competition or not-for-sale variant
+400276,Comp_Bright_Fury_ROC,[Not For Sale] Sinulog Hat,Headgear,1,1,,,Head_Top,Competition or not-for-sale variant
+400275,Comp_Skull_Cap_ROC,[Not For Sale] Skull Cap,Headgear,10,1,40,,Head_Top,Competition or not-for-sale variant
+400273,Comp_Smoky_TransformHat,[Not For Sale] Smokie Transformation Leaf,Headgear,0,1,,,Head_Top,Competition or not-for-sale variant
+400442,Comp_Super_Scell_ROC,[Not For Sale] Super Scell,Headgear,1,0,,,Head_Top,Competition or not-for-sale variant
+400632,aegis_400632,[Not For Sale] Themis Helm,Headgear,50,1,,,Head_Top,Competition or not-for-sale variant
+420249,Comp_ThirdEyeGod_ROC,[Not For Sale] Third Eye God,Headgear,1,0,,,Head_Low,Competition or not-for-sale variant
+400274,Comp_VanarHelm_ROC,[Not for Sale] Vanargandr Helm,Headgear,80,1,,,Head_Top,Competition or not-for-sale variant
+430007,Comp_WandererSakkat_ROC,[Not For Sale] Wanderer's Sakkat,Headgear,60,1,,,"Head_Mid, Head_Top",Competition or not-for-sale variant
+420139,Comp_FlyingGalapago_ROC,[Not For Sale]Frenzy Galapago,Headgear,55,0,,,Head_Low,Competition or not-for-sale variant
+15477,Comp_Overwh_D_Armor,[Not For Sale] Excellent Dexterous Armor,Armor,1,1,,,Armor,Competition or not-for-sale variant
+450378,aegis_450378,[Not For Sale] Fallen Flame Armor,Armor,30,1,,,Armor,Competition or not-for-sale variant
+450376,aegis_450376,[Not For Sale] Fallen Violet Armor,Armor,30,1,,,Armor,Competition or not-for-sale variant
+15469,Comp_Einherial_Armor,[Not For Sale] Fallen Warrior Armor,Armor,90,1,,,Armor,Competition or not-for-sale variant
+15472,Comp_Kafra_Suit,[Not For Sale] Kafra Uniform,Armor,1,1,,,Armor,Competition or not-for-sale variant
+15473,Comp_Overwhelm_Str_Armo,[Not for Sale] Soaring Physical Armor,Armor,1,1,,,Armor,Competition or not-for-sale variant
+15475,Comp_Overwh_Agi_Armor,[Not For Sale] Splendid Swift Armor,Armor,1,1,,,Armor,Competition or not-for-sale variant
+15474,Comp_Overwhelm_V_Armor,[Not for Sale] Strong Healthy Armor,Armor,1,1,,,Armor,Competition or not-for-sale variant
+15478,Comp_Overwh_L_Armor,[Not For Sale] Unexpected Fortune Armor,Armor,1,1,,,Armor,Competition or not-for-sale variant
+480519,aegis_480519,[Not For Sale] White Knight Armor,Armor,85,1,,,Armor,Competition or not-for-sale variant
+28972,Comp_Mad_Bunny_K,[Not For Sale] Cursed Mad Bunny,Shields,1,0,,,Left_Hand,Competition or not-for-sale variant
+460065,Comp_Rose_Quartz_Shield,[Not For Sale] Rose Quartz Shield,Shields,1,1,,,Left_Hand,Competition or not-for-sale variant
+480206,Comp_Anti_Manteau_TH,[Not For Sale] Anti Magic Manteau,Garments,99,1,,,Garment,Competition or not-for-sale variant
+480248,Comp_Bag_Antonio_Melee,[Not For Sale] Candy Bag Backpack (Physical),Garments,1,1,,,Garment,Competition or not-for-sale variant
+480277,Comp_Chrismas_Tree,[Not For Sale] Christmas Guardian Tree,Garments,0,1,,,Garment,Competition or not-for-sale variant
+480195,Comp_Enforcer_Cape_ROC,[Not For Sale] Enforcer Cape,Garments,70,1,,,Garment,Competition or not-for-sale variant
+480308,Comp_FAngel_Wing_ROC,[Not For Sale] Fallen Angel Wing,Garments,0,1,,,Garment,Competition or not-for-sale variant
+480238,Comp_Geffen_M_Muffle,[Not For Sale] Geffen Magic Muffler,Garments,99,1,,,Garment,Competition or not-for-sale variant
+480262,Comp_Golden_Wings_ROC,[Not For Sale] Golden Wings,Garments,0,1,,,Garment,Competition or not-for-sale variant
+480196,Comp_AmistrBag_Heal_ROC,[Not For Sale] Heal Amistr Bag,Garments,1,1,,,Garment,Competition or not-for-sale variant
+480514,aegis_480514,[Not For Sale] Manteau of Flame Heart,Garments,70,1,,,Garment,Competition or not-for-sale variant
+480334,Comp_Medical_Cape_ROC,[Not For Sale] Medical Cape,Garments,50,1,,,Garment,Competition or not-for-sale variant
+480241,Comp_Mortal_Cape_ROC,[Not For Sale] Mortal Cape,Garments,1,1,,,Garment,Competition or not-for-sale variant
+480227,Comp_Wing_Happiness_ROC,[Not For Sale] Wing Of Happiness,Garments,1,1,,,Garment,Competition or not-for-sale variant
+470249,Comp_Drago_Slayer_Shoes,[Not For Sale] Dragon Slayer Shoes,Shoes,30,1,,,Shoes,Competition or not-for-sale variant
+470282,aegis_470282,[Not For Sale] Elemental Boots,Shoes,99,1,,,Shoes,Competition or not-for-sale variant
+470281,aegis_470281,[Not For Sale] Enforcer Shoes,Shoes,90,0,,,Shoes,Competition or not-for-sale variant
+490209,Comp_Angel_Egg_ROC,[Not for Sale] Angel Egg,Accessories,1,1,,,Both_Accessory,Competition or not-for-sale variant
+490296,Comp_Armaia_Belt_ROC,[Not For Sale] Armaia Belt,Accessories,1,1,,,Both_Accessory,Competition or not-for-sale variant
+490352,Comp_AssassinAmulet_ROC,[Not For Sale] Assassin Amulet,Accessories,80,1,,,Both_Accessory,Competition or not-for-sale variant
+490538,aegis_490538,[Not For Sale] Bomber Glove,Accessories,70,1,,,Both_Accessory,Competition or not-for-sale variant
+490649,aegis_490649,[Not For Sale] Charm of Flame Heart,Accessories,70,1,,,Both_Accessory,Competition or not-for-sale variant
+490476,Comp_Chemical_Glove_ROC,[Not For Sale] Chemical Glove,Accessories,70,1,,,Both_Accessory,Competition or not-for-sale variant
+490379,Comp_Maebia_Book_ROC,[Not For Sale] Curse of Maebia Book,Accessories,60,1,,,Both_Accessory,Competition or not-for-sale variant
+490237,Comp_Double_Badge_ROC,[Not For Sale] Double Badge,Accessories,20,1,,,Both_Accessory,Competition or not-for-sale variant
+490556,aegis_490556,[Not For Sale] Fairy's Necklace,Accessories,50,1,,,Both_Accessory,Competition or not-for-sale variant
+490241,Comp_Gyges_Ring,[Not For Sale] Gyges Ring,Accessories,50,1,,,Both_Accessory,Competition or not-for-sale variant
+490283,Comp_Kenshi_Gauntlet_RO,[Not For Sale] Kenshi Gauntlet,Accessories,50,1,,,Both_Accessory,Competition or not-for-sale variant
+490232,Comp_Luminous_Blue_Ston,[Not For Sale] Luminous Blue Stone,Accessories,90,1,,,Both_Accessory,Competition or not-for-sale variant
+490426,aegis_490426,[Not For Sale] Magictool Ice,Accessories,70,1,,,Both_Accessory,Competition or not-for-sale variant
+490393,Comp_Scarlet_Worm_TH,[Not For Sale] Scarlet Worm Charm,Accessories,50,1,,,Both_Accessory,Competition or not-for-sale variant
+490268,Comp_Shadow_Ring_ROC,[Not For Sale] Shadow Ring,Accessories,20,1,,,Both_Accessory,Competition or not-for-sale variant
+490210,Comp_Trapezohedron,[Not For Sale] Shining Trapezohedron,Accessories,90,1,,,Both_Accessory,Competition or not-for-sale variant
+15470,Comp_Sprint_Glove,[Not For Sale] Sprint Gloves,Accessories,1,1,,,Both_Accessory,Competition or not-for-sale variant
+5106,Cone_Hat_INA,2nd Anniversary Hat,Headgear,1,0,20,,Head_Top,Country-specific regional item
+5321,Indonesian_Bandana,Bandana Merah Putih,Headgear,0,0,20,,Head_Top,Country-specific regional item
+5308,Brazilian_Flag_Hat,Brazil National Flag Hat,Headgear,0,1,20,,Head_Top,Country-specific regional item
+5432,Brazil_Baseball_Cap,bRO 4th Anniversary Hat,Headgear,0,0,20,,Head_Top,Country-specific regional item
+5484,Taiwan_Flag_Hat,Holidays Hat,Headgear,0,0,20,,Head_Top,Country-specific regional item
+5423,Lovecap_China,I Love China,Headgear,0,0,20,,Head_Top,Country-specific regional item
+18509,RWC2010_Indonesia,RWC2010 Indonesia,Headgear,15,1,20,,Head_Top,Country-specific regional item
+5301,Russian_Ribbon,Victory Hairband,Headgear,0,0,,,Head_Top,Country-specific regional item
+5504,China_Wedding_Veil,Wedding Weil,Headgear,70,0,20,,"Head_Low, Head_Mid, Head_Top",Country-specific regional item
+15022,Brazil_Swimsuit,Brazil Swimsuit,Armor,1,0,20,,Armor,Country-specific regional item
+2871,Brazilian_Emblem,Brazilian Emblem,Accessories,60,1,20,,Both_Accessory,Country-specific regional item
+18871,Event_Sweet_Candy2,Very Sweet Candy,Headgear,1,0,10,,Head_Low,Event-only item
+18870,Event_Sweet_Candy,Very Sweet Candy Bar,Headgear,1,0,10,,Head_Low,Event-only item
+2397,Incredible_Coat,Incredible Event Resignation Coat,Armor,0,0,10,,Armor,Event-only item
+13055,F_Asura_C,Asura,Weapons,1,0,1,,Right_Hand,Event/free duplicate variant
+13059,E_Asura_C,Asura,Weapons,1,0,1,,Right_Hand,Event/free duplicate variant
+13054,F_Combat_Knife_C,Combat Knife,Weapons,1,0,1,,Right_Hand,Event/free duplicate variant
+13058,E_Combat_Knife_C,Combat Knife,Weapons,1,0,1,,Right_Hand,Event/free duplicate variant
+13056,F_Counter_Dagger_C,Counter Dagger,Weapons,1,0,1,,Right_Hand,Event/free duplicate variant
+13060,E_Counter_Dagger_C,Counter Dagger,Weapons,1,0,1,,Right_Hand,Event/free duplicate variant
+13426,F_Cutlas_C,Cutlus,Weapons,0,0,2,,Right_Hand,Event/free duplicate variant
+13429,E_Cutlas_C,Cutlus,Weapons,0,0,2,,Right_Hand,Event/free duplicate variant
+1581,F_Diary_Of_Great_Sage_C,Diary Of Great Sage,Weapons,1,2,1,,Right_Hand,Event/free duplicate variant
+1582,E_Diary_Of_Great_Sage_C,Diary Of Great Sage,Weapons,1,2,1,,Right_Hand,Event/free duplicate variant
+1194,F_Executioner_C,Executioner,Weapons,0,0,2,,Both_Hand,Event/free duplicate variant
+1195,E_Executioner_C,Executioner,Weapons,0,0,2,,Both_Hand,Event/free duplicate variant
+1390,E_Right_Epsilon_C,Light Epsilon,Weapons,1,0,1,,Both_Hand,Event/free duplicate variant
+13053,F_Moonlight_Sword_C,Moonlight Sword,Weapons,0,0,2,,Right_Hand,Event/free duplicate variant
+13057,E_Moonlight_Sword_C,Moonlight Sword,Weapons,0,0,2,,Right_Hand,Event/free duplicate variant
+1431,F_Pole_Axe_C,Pole Axe,Weapons,1,0,1,,Right_Hand,Event/free duplicate variant
+1432,E_Pole_Axe_C,Pole Axe,Weapons,1,0,1,,Right_Hand,Event/free duplicate variant
+1315,F_Right_Epsilon_C,Right Epsilon,Weapons,1,0,1,,Both_Hand,Event/free duplicate variant
+18101,F_Bow_Of_Rudra_C,Rudra Bow,Weapons,0,0,2,,Both_Hand,Event/free duplicate variant
+18102,E_Bow_Of_Rudra_C,Rudra Bow,Weapons,0,0,2,,Both_Hand,Event/free duplicate variant
+13427,F_Solar_Sword_C,Solar Sword,Weapons,0,0,2,,Right_Hand,Event/free duplicate variant
+13430,E_Solar_Sword_C,Solar Sword,Weapons,0,0,2,,Right_Hand,Event/free duplicate variant
+16008,F_Spanner_C,Spanner,Weapons,0,0,2,,Right_Hand,Event/free duplicate variant
+16009,E_Spanner_C,Spanner,Weapons,0,0,2,,Right_Hand,Event/free duplicate variant
+1389,E_Tomahawk_C,Tomahawk,Weapons,0,0,2,,Both_Hand,Event/free duplicate variant
+5706,E_Alice_Doll,E Alice Doll,Headgear,30,1,20,,Head_Top,Event/free duplicate variant
+5731,E_Apple_OE_Archer_C,E Apple OE Archer C,Headgear,1,0,1,,Head_Top,Event/free duplicate variant
+5695,E_Blue_Drooping_Kitty,E Blue Drooping Kitty,Headgear,0,0,250000,,Head_Top,Event/free duplicate variant
+5702,E_Bunny_Band_,E Bunny Band,Headgear,0,0,20,,Head_Top,Event/free duplicate variant
+5729,E_Bunny_Band_C,E Bunny Band C,Headgear,1,0,1,,Head_Top,Event/free duplicate variant
+5701,E_Cat_Hat,E Cat Hat,Headgear,0,0,20,,Head_Top,Event/free duplicate variant
+5730,E_Centimental_Flower_C,E Centimental Flower C,Headgear,1,0,1,,Head_Low,Event/free duplicate variant
+5713,E_Charming_Ribbon,E Charming Ribbon,Headgear,10,1,20,,Head_Top,Event/free duplicate variant
+5708,E_Chick_Hat,E Chick Hat,Headgear,10,0,20,,Head_Top,Event/free duplicate variant
+5726,E_Crescent_Helm,E Crescent Helm,Headgear,50,0,20,,"Head_Mid, Head_Top",Event/free duplicate variant
+5718,E_Dragon_Skull,E Dragon Skull,Headgear,50,0,20,,Head_Top,Event/free duplicate variant
+5716,E_Drooping_Bunny_,E Drooping Bunny,Headgear,0,0,20,,Head_Top,Event/free duplicate variant
+5732,E_Elven_Ears_C,E Elven Ears C,Headgear,1,0,1,,Head_Mid,Event/free duplicate variant
+5728,E_Fantastic_Wig,E Fantastic Wig,Headgear,0,0,20,,"Head_Mid, Head_Top",Event/free duplicate variant
+5699,E_Fish_On_Head_,E Fish On Head,Headgear,50,0,20,,Head_Top,Event/free duplicate variant
+5696,E_Flying_Angel,E Flying Angel,Headgear,10,0,20,,Head_Top,Event/free duplicate variant
+5700,E_Hibiscus,E Hibiscus,Headgear,10,0,20,,Head_Top,Event/free duplicate variant
+5723,E_Jumping_Poring,E Jumping Poring,Headgear,0,0,,,Head_Top,Event/free duplicate variant
+5717,E_Kettle_Hat,E Kettle Hat,Headgear,30,0,20,,Head_Top,Event/free duplicate variant
+5734,E_Magestic_Goat_C,E Magestic Goat C,Headgear,0,0,2,,Head_Top,Event/free duplicate variant
+5703,E_Magestic_Goat_TW,E Magestic Goat TW,Headgear,0,0,20,,Head_Top,Event/free duplicate variant
+5722,E_Magic_Eyes,E Magic Eyes,Headgear,30,0,20,,Head_Top,Event/free duplicate variant
+5705,E_Mini_Propeller_,E Mini Propeller,Headgear,0,0,20,,Head_Top,Event/free duplicate variant
+5698,E_Pair_OE_Red_Ribbon_,E Pair OE Red Ribbon,Headgear,45,0,20,,Head_Mid,Event/free duplicate variant
+5711,E_Pecopeco_Hairband,E Pecopeco Hairband,Headgear,0,0,20,,Head_Top,Event/free duplicate variant
+5720,E_Pink_Fur_Hat,E Pink Fur Hat,Headgear,0,0,20,,Head_Top,Event/free duplicate variant
+5721,E_Puppy_Hat,E Puppy Hat,Headgear,30,0,20,,Head_Top,Event/free duplicate variant
+5719,E_Ramen_Hat,E Ramen Hat,Headgear,0,0,20,,Head_Top,Event/free duplicate variant
+5707,E_Red_Glasses,E Red Glasses,Headgear,0,0,20,,Head_Mid,Event/free duplicate variant
+5724,E_Robo_Eye,E Robo Eye,Headgear,10,0,20,,Head_Mid,Event/free duplicate variant
+5704,E_Sheep_Hat,E Sheep Hat,Headgear,0,0,20,,Head_Top,Event/free duplicate variant
+5697,E_Smoking_Pipe_,E Smoking Pipe,Headgear,0,0,20,,Head_Low,Event/free duplicate variant
+5727,E_Tiger_Mask,E Tiger Mask,Headgear,50,0,20,,"Head_Mid, Head_Top",Event/free duplicate variant
+5712,E_Vacation_Hat,E Vacation Hat,Headgear,30,1,20,,Head_Top,Event/free duplicate variant
+5710,E_Vane_Hairpin,E Vane Hairpin,Headgear,30,1,20,,Head_Top,Event/free duplicate variant
+5715,E_Vanilmirth_Hat,E Vanilmirth Hat,Headgear,30,0,20,,Head_Top,Event/free duplicate variant
+5714,E_Water_Lily_Crown,E Water Lily Crown,Headgear,30,1,20,,Head_Top,Event/free duplicate variant
+5709,E_White_Deviruchi_Cap,E White Deviruchi Cap,Headgear,64,0,20,,Head_Top,Event/free duplicate variant
+5725,E_Yellow_Wizardry_Hat,E Yellow Wizardry Hat,Headgear,0,0,20,,Head_Top,Event/free duplicate variant
+5623,F_Alice_Doll,F Alice Doll,Headgear,30,1,20,,Head_Top,Event/free duplicate variant
+5649,F_Apple_Of_Archer_C,F Apple Of Archer C,Headgear,1,0,1,,Head_Top,Event/free duplicate variant
+5612,F_Blue_Drooping_Kitty,F Blue Drooping Kitty,Headgear,0,0,250000,,Head_Top,Event/free duplicate variant
+5619,F_Bunny_Band_,F Bunny Band,Headgear,0,0,20,,Head_Top,Event/free duplicate variant
+5647,F_Bunny_Band_C,F Bunny Band C,Headgear,1,0,1,,Head_Top,Event/free duplicate variant
+5618,F_Cat_Hat,F Cat Hat,Headgear,0,0,20,,Head_Top,Event/free duplicate variant
+5648,F_Centimental_Flower_C,F Centimental Flower C,Headgear,1,0,1,,Head_Low,Event/free duplicate variant
+5630,F_Charming_Ribbon,F Charming Ribbon,Headgear,10,1,20,,Head_Top,Event/free duplicate variant
+5625,F_Chick_Hat,F Chick Hat,Headgear,10,0,20,,Head_Top,Event/free duplicate variant
+5643,F_Crescent_Helm,F Crescent Helm,Headgear,50,0,20,,"Head_Mid, Head_Top",Event/free duplicate variant
+5635,F_Dragon_Skull,F Dragon Skull,Headgear,50,0,20,,Head_Top,Event/free duplicate variant
+5633,F_Drooping_Bunny_,F Drooping Bunny,Headgear,0,0,20,,Head_Top,Event/free duplicate variant
+5650,F_Elven_Ears_C,F Elven Ears C,Headgear,1,0,1,,Head_Mid,Event/free duplicate variant
+5645,F_Fantastic_Wig,F Fantastic Wig,Headgear,0,0,20,,"Head_Mid, Head_Top",Event/free duplicate variant
+5616,F_Fish_On_Head_,F Fish On Head,Headgear,50,0,20,,Head_Top,Event/free duplicate variant
+5613,F_Flying_Angel,F Flying Angel,Headgear,10,0,20,,Head_Top,Event/free duplicate variant
+5617,F_Hibiscus,F Hibiscus,Headgear,10,0,20,,Head_Top,Event/free duplicate variant
+5640,F_Jumping_Poring,F Jumping Poring,Headgear,0,0,,,Head_Top,Event/free duplicate variant
+5634,F_Kettle_Hat,F Kettle Hat,Headgear,30,0,20,,Head_Top,Event/free duplicate variant
+5652,F_Magestic_Goat_C,F Magestic Goat C,Headgear,0,0,2,,Head_Top,Event/free duplicate variant
+5620,F_Magestic_Goat_TW,F Magestic Goat TW,Headgear,0,0,20,,Head_Top,Event/free duplicate variant
+5639,F_Magic_Eyes,F Magic Eyes,Headgear,30,0,20,,Head_Top,Event/free duplicate variant
+5622,F_Mini_Propeller_,F Mini Propeller,Headgear,0,0,20,,Head_Top,Event/free duplicate variant
+5615,F_Pair_Of_Red_Ribbon_,F Pair Of Red Ribbon,Headgear,45,0,20,,Head_Mid,Event/free duplicate variant
+5628,F_Pecopeco_Hairband,F Pecopeco Hairband,Headgear,0,0,20,,Head_Top,Event/free duplicate variant
+5637,F_Pink_Fur_Hat,F Pink Fur Hat,Headgear,0,0,20,,Head_Top,Event/free duplicate variant
+5638,F_Puppy_Hat,F Puppy Hat,Headgear,30,0,20,,Head_Top,Event/free duplicate variant
+5636,F_Ramen_Hat,F Ramen Hat,Headgear,0,0,20,,Head_Top,Event/free duplicate variant
+5624,F_Red_Glasses,F Red Glasses,Headgear,0,0,20,,Head_Mid,Event/free duplicate variant
+5641,F_Robo_Eye,F Robo Eye,Headgear,10,0,20,,Head_Mid,Event/free duplicate variant
+5621,F_Sheep_Hat,F Sheep Hat,Headgear,0,0,20,,Head_Top,Event/free duplicate variant
+5614,F_Smoking_Pipe_,F Smoking Pipe,Headgear,0,0,20,,Head_Low,Event/free duplicate variant
+5644,F_Tiger_Mask,F Tiger Mask,Headgear,50,0,20,,"Head_Mid, Head_Top",Event/free duplicate variant
+5629,F_Vacation_Hat,F Vacation Hat,Headgear,30,1,20,,Head_Top,Event/free duplicate variant
+5627,F_Vane_Hairpin,F Vane Hairpin,Headgear,30,1,20,,Head_Top,Event/free duplicate variant
+5632,F_Vanilmirth_Hat,F Vanilmirth Hat,Headgear,30,0,20,,Head_Top,Event/free duplicate variant
+5631,F_Water_Lily_Crown,F Water Lily Crown,Headgear,30,1,20,,Head_Top,Event/free duplicate variant
+5646,F_Whisper_Mask,F Whisper Mask,Headgear,0,0,20,,"Head_Low, Head_Mid, Head_Top",Event/free duplicate variant
+5626,F_White_Deviruchi_Cap,F White Deviruchi Cap,Headgear,64,0,20,,Head_Top,Event/free duplicate variant
+5642,F_Yellow_Wizardry_Hat,F Yellow Wizardry Hat,Headgear,0,0,20,,Head_Top,Event/free duplicate variant
+5681,F_Ribbon_Green,Green Ribbon,Headgear,0,0,800,,Head_Top,Event/free duplicate variant
+5735,E_Ribbon_Green,Green Ribbon,Headgear,0,0,800,,Head_Top,Event/free duplicate variant
+2834,F_All_In_One_Ring,All In One Ring,Accessories,0,0,20,,Both_Accessory,Event/free duplicate variant
+2846,E_All_In_One_Ring,All In One Ring,Accessories,0,0,20,,Both_Accessory,Event/free duplicate variant
+2835,F_Critical_Ring_C,Critical Ring,Accessories,1,0,1,,Both_Accessory,Event/free duplicate variant
+2847,E_Critical_Ring_C,Critical Ring,Accessories,1,0,1,,Both_Accessory,Event/free duplicate variant
+5733,E_Brooch_C,E Brooch C,Accessories,1,0,1,,Both_Accessory,Event/free duplicate variant
+2842,F_Earing_C,Earring,Accessories,1,0,1,,Both_Accessory,Event/free duplicate variant
+5651,F_Brooch_C,F Brooch C,Accessories,1,0,1,,Both_Accessory,Event/free duplicate variant
+2836,F_Glove_C,Glove,Accessories,1,0,1,,Both_Accessory,Event/free duplicate variant
+2848,E_Glove_C,Glove,Accessories,1,0,1,,Both_Accessory,Event/free duplicate variant
+2838,F_Necklace_C,Necklace,Accessories,1,0,1,,Both_Accessory,Event/free duplicate variant
+2851,E_Necklace_C,Necklace,Accessories,1,0,1,,Both_Accessory,Event/free duplicate variant
+2839,F_Ring_C,Ring,Accessories,1,0,1,,Both_Accessory,Event/free duplicate variant
+2850,E_Ring_C,Ring,Accessories,1,0,1,,Both_Accessory,Event/free duplicate variant
+2840,F_Rosary_C,Rosary,Accessories,1,0,1,,Both_Accessory,Event/free duplicate variant
+2852,E_Rosary_C,Rosary,Accessories,1,0,1,,Both_Accessory,Event/free duplicate variant
+2837,F_Safety_Ring_C,Safety Ring,Accessories,1,0,1,,Both_Accessory,Event/free duplicate variant
+2849,E_Safety_Ring_C,Safety Ring,Accessories,1,0,1,,Both_Accessory,Event/free duplicate variant
+410587,aegis_410587,Mermaid Headphones (Global Cooldown),Headgear,0,0,,,Head_Mid,Not present in the 2025-07-16 rAthena equipment snapshot
+410590,26_3_MidHat1_,Mermaid Headphones (Global Cooldown),Headgear,0,1,,,Head_Mid,Not present in the 2025-07-16 rAthena equipment snapshot
+410589,aegis_410589,Mermaid Headphones (MAXHP),Headgear,0,0,,,Head_Mid,Not present in the 2025-07-16 rAthena equipment snapshot
+410592,26_3_MidHat3_,Mermaid Headphones (MAXHP),Headgear,0,1,,,Head_Mid,Not present in the 2025-07-16 rAthena equipment snapshot
+410588,aegis_410588,Mermaid Headphones (Variable Casting),Headgear,0,0,,,Head_Mid,Not present in the 2025-07-16 rAthena equipment snapshot
+410591,26_3_MidHat2_,Mermaid Headphones (Variable Casting),Headgear,0,1,,,Head_Mid,Not present in the 2025-07-16 rAthena equipment snapshot
+490894,Lucky_Ring,Lucky Ring,Accessories,1,1,,,Both_Accessory,Not present in the 2025-07-16 rAthena equipment snapshot
+490895,Lucky_Ring_LT,Lucky Ring-LT,Accessories,1,1,,,Both_Accessory,Not present in the 2025-07-16 rAthena equipment snapshot
+490801,ROS2025_Ring_TH,Ragnarok Stars 2025 Ring,Accessories,1,1,,,Both_Accessory,Not present in the 2025-07-16 rAthena equipment snapshot
+1949,2nd_Job_Weapon12,Bard Guild Violin,Weapons,50,2,,,Right_Hand,Placeholder or untranslated Aegis name
+630042,aegis_630042,Trident,Weapons,33,3,,,Both_Hand,Placeholder or untranslated Aegis name
+2050,2nd_Job_Weapon8,Wizard Guild Staff,Weapons,50,0,,,Both_Hand,Placeholder or untranslated Aegis name
+18940,10_Gallon_Hat_Of_Flame,10 Gallon Hat Of Flame,Headgear,90,0,10,,Head_Top,Placeholder or untranslated Aegis name
+19027,10_Type_Glasses,10 Type Glasses,Headgear,10,0,,,Head_Mid,Placeholder or untranslated Aegis name
+19045,14_RainbowWing,104 Styles Rainbow Feathers,Headgear,10,0,,,Head_Mid,Placeholder or untranslated Aegis name
+19038,12th_Crown,12 Anniversary Crown of Saint,Headgear,0,1,10,,Head_Top,Placeholder or untranslated Aegis name
+19039,12th_ElvenEars,12 Anniversary Elf Ears,Headgear,0,0,10,,Head_Mid,Placeholder or untranslated Aegis name
+5688,2009Love_Daddy,2009 Love Dad,Headgear,1,0,20,,Head_Top,Placeholder or untranslated Aegis name
+18686,2011_RMSC_1,2011 RMSC 1,Headgear,1,1,20,,Head_Top,Placeholder or untranslated Aegis name
+18687,2011_RMSC_2,2011 RMSC 2,Headgear,1,1,20,,Head_Top,Placeholder or untranslated Aegis name
+18688,2011_RMSC_3,2011 RMSC 3,Headgear,1,1,20,,Head_Top,Placeholder or untranslated Aegis name
+18689,2011_RMSC_4,2011 RMSC 4,Headgear,1,0,20,,Head_Top,Placeholder or untranslated Aegis name
+18830,2012RMSCNO3,2012 RWC 2nd Runner Helmet,Headgear,60,1,1000,,Head_Top,Placeholder or untranslated Aegis name
+18829,2012RMSCNO2,2012 RWC Runners-Up Helmet,Headgear,60,1,1000,,Head_Top,Placeholder or untranslated Aegis name
+18831,2012RMSCNO4,2012 RWC Special Helmet,Headgear,95,1,,,Head_Top,Placeholder or untranslated Aegis name
+18828,2012RMSCNO1,2012 RWC Winners Helmet,Headgear,60,1,1000,,Head_Top,Placeholder or untranslated Aegis name
+400014,2019RTC_CeleAura_TW,2019 RTC Memorial Poring Pool,Headgear,1,0,,,Head_Low,Placeholder or untranslated Aegis name
+410102,2021RTC_Headset_3_TW,2021RTC 3rd Place Gaming Headset,Headgear,1,1,,,Head_Mid,Placeholder or untranslated Aegis name
+410100,2021RTC_Headset_1_TW,2021RTC Champion Gaming Headset,Headgear,1,1,,,Head_Mid,Placeholder or untranslated Aegis name
+400164,2021RTC_Headset_TW,2021RTC Gaming Headset,Headgear,0,0,,,Head_Mid,Placeholder or untranslated Aegis name
+410101,2021RTC_Headset_2_TW,2021RTC Runner-Up Gaming Headset,Headgear,1,1,,,Head_Mid,Placeholder or untranslated Aegis name
+420186,20th_Anniversary_TW,20th Anniversary Balloon,Headgear,1,0,,,Head_Low,Placeholder or untranslated Aegis name
+18577,24_Bolt,24 Bolt,Headgear,10,0,20,,Head_Mid,Placeholder or untranslated Aegis name
+19034,37_Sculpt,307 Styles Scute,Headgear,10,0,,,Head_Mid,Placeholder or untranslated Aegis name
+5788,3D_Glasses,3D Glasses,Headgear,1,0,20,,Head_Mid,Placeholder or untranslated Aegis name
+19041,666_DevilEar,666 Styles Demon's Ears,Headgear,10,0,,,Head_Mid,Placeholder or untranslated Aegis name
+18610,7th_Anni_Hat_B,7th Anni Hat B,Headgear,0,0,20,,Head_Top,Placeholder or untranslated Aegis name
+5936,8_Type_PurgatorialWing,8 Styles Purgatory Wings,Headgear,10,0,20,,Head_Mid,Placeholder or untranslated Aegis name
+19037,93_BloodyWing,93 Styles Bloody Wings,Headgear,10,1,,,Head_Mid,Placeholder or untranslated Aegis name
+18579,9th_Anni_Hat,9th Anni Hat,Headgear,0,0,,,Head_Top,Placeholder or untranslated Aegis name
+410349,aegis_410349,Adventurous Poring,Headgear,1,1,,,Head_Top,Placeholder or untranslated Aegis name
+18809,8th_Anni_Hat_B,Bandana 8th Anniversary,Headgear,0,0,,,Head_Top,Placeholder or untranslated Aegis name
+410304,aegis_410304,Diabolus Wing,Headgear,90,0,,,Head_Mid,Placeholder or untranslated Aegis name
+400658,aegis_400658,Fairy's Crown,Headgear,50,1,,,Head_Top,Placeholder or untranslated Aegis name
+400676,aegis_400676,Flaward Hat,Headgear,50,1,,,Head_Top,Placeholder or untranslated Aegis name
+400498,aegis_400498,Germes Horn,Headgear,70,1,,,Head_Top,Placeholder or untranslated Aegis name
+400500,aegis_400500,Gigant Helm,Headgear,50,1,,,Head_Top,Placeholder or untranslated Aegis name
+400488,aegis_400488,Hairband Of Asmodeus,Headgear,55,1,,,Head_Top,Placeholder or untranslated Aegis name
+400512,aegis_400512,Hat of Desert,Headgear,50,1,,,Head_Top,Placeholder or untranslated Aegis name
+5853,1Aniversary_Crown,IdRO Crown,Headgear,1,0,10,,Head_Top,Placeholder or untranslated Aegis name
+420256,aegis_420256,Imperial Glory,Headgear,70,0,,,Head_Low,Placeholder or untranslated Aegis name
+400750,aegis_400750,Khalitzburg Knight Blue Helm,Headgear,70,1,,,Head_Top,Placeholder or untranslated Aegis name
+410291,aegis_410291,Little Abyss Dragon,Headgear,60,0,,,Head_Mid,Placeholder or untranslated Aegis name
+400679,aegis_400679,Pink Shampoo Hat,Headgear,90,1,,,Head_Top,Placeholder or untranslated Aegis name
+400368,20th_Anniversary_Hat_TW,RO 20th Anniversary Limited Cap,Headgear,1,1,,,Head_Top,Placeholder or untranslated Aegis name
+410207,aegis_410207,Silk of Soul,Headgear,1,0,,,Head_Mid,Placeholder or untranslated Aegis name
+400631,aegis_400631,Themis Helm,Headgear,50,1,,,Head_Top,Placeholder or untranslated Aegis name
+15035,2010Love_Daddy,2010 Love Dad,Armor,0,1,10,,Armor,Placeholder or untranslated Aegis name
+15059,2011Love_Daddy,2011Love Daddy,Armor,0,1,20,,Armor,Placeholder or untranslated Aegis name
+15228,90Lv_Cloth,Conqueror's Cloth,Armor,90,1,,,Armor,Placeholder or untranslated Aegis name
+15230,90Lv_Dress,Conqueror's Dress,Armor,90,1,,,Armor,Placeholder or untranslated Aegis name
+15227,90Lv_Mail,Conqueror's Mail,Armor,90,1,,,Armor,Placeholder or untranslated Aegis name
+15229,90Lv_Robe,Conqueror's Robe,Armor,90,1,,,Armor,Placeholder or untranslated Aegis name
+15224,80Lv_Cloth,Contingent Cloth,Armor,80,1,,,Armor,Placeholder or untranslated Aegis name
+15226,80Lv_Dress,Contingent Dress,Armor,80,1,,,Armor,Placeholder or untranslated Aegis name
+15223,80Lv_Mail,Contingent Mail,Armor,80,1,,,Armor,Placeholder or untranslated Aegis name
+15225,80Lv_Robe,Contingent Robe,Armor,80,1,,,Armor,Placeholder or untranslated Aegis name
+15221,70Lv_Armor,Expedition's Armor,Armor,70,1,,,Armor,Placeholder or untranslated Aegis name
+15222,70Lv_Robe,Expedition's Robe,Armor,70,1,,,Armor,Placeholder or untranslated Aegis name
+450377,aegis_450377,Fallen Flame Armor,Armor,30,1,,,Armor,Placeholder or untranslated Aegis name
+450375,aegis_450375,Fallen Violet Armor,Armor,30,1,,,Armor,Placeholder or untranslated Aegis name
+15220,60Lv_Suits,Subjugation Team's Armor,Armor,60,1,,,Armor,Placeholder or untranslated Aegis name
+480518,aegis_480518,White Knight Armor,Armor,85,1,,,Armor,Placeholder or untranslated Aegis name
+480413,aegis_480413,[Not for Sale] Fire Dragon Coat,Garments,30,1,,,Garment,Placeholder or untranslated Aegis name
+480343,aegis_480343,Battle Surcoat,Garments,70,1,,,Garment,Placeholder or untranslated Aegis name
+20877,90Lv_Cape,Conqueror's Cape,Garments,90,1,,,Garment,Placeholder or untranslated Aegis name
+20875,90Lv_Cloak,Conqueror's Cloak,Garments,90,1,,,Garment,Placeholder or untranslated Aegis name
+20874,90Lv_Manteau,Conqueror's Manteau,Garments,90,1,,,Garment,Placeholder or untranslated Aegis name
+20876,90Lv_Muffler,Conqueror's Muffler,Garments,90,1,,,Garment,Placeholder or untranslated Aegis name
+20873,80Lv_Cape,Contingent Cape,Garments,80,1,,,Garment,Placeholder or untranslated Aegis name
+20871,80Lv_Cloak,Contingent Cloak,Garments,80,1,,,Garment,Placeholder or untranslated Aegis name
+20870,80Lv_Manteau,Contingent Manteau,Garments,80,1,,,Garment,Placeholder or untranslated Aegis name
+20872,80Lv_Muffler,Contingent Muffler,Garments,80,1,,,Garment,Placeholder or untranslated Aegis name
+20868,70Lv_Manteau,Expedition's Manteau,Garments,70,1,,,Garment,Placeholder or untranslated Aegis name
+20869,70Lv_Muffler,Expedition's Muffler,Garments,70,1,,,Garment,Placeholder or untranslated Aegis name
+480412,aegis_480412,Fire Dragon Coat,Garments,30,1,,,Garment,Placeholder or untranslated Aegis name
+480435,aegis_480435,Giant God Snake Skin,Garments,1,1,,,Garment,Placeholder or untranslated Aegis name
+480414,aegis_480414,Hood,Garments,0,1,,,Garment,Placeholder or untranslated Aegis name
+480509,aegis_480509,Owl Baron Cloak,Garments,70,1,,,Garment,Placeholder or untranslated Aegis name
+20867,60Lv_Hood,Subjugation Team's Shoulder Belt,Garments,60,1,,,Garment,Placeholder or untranslated Aegis name
+470230,aegis_470230,Boots,Shoes,0,1,,,Shoes,Placeholder or untranslated Aegis name
+22158,90Lv_Boots,Conqueror's Boots,Shoes,90,1,,,Shoes,Placeholder or untranslated Aegis name
+22157,90Lv_Greave,Conqueror's Greaves,Shoes,90,1,,,Shoes,Placeholder or untranslated Aegis name
+22160,90Lv_Sandal,Conqueror's Magic Shoes,Shoes,90,1,,,Shoes,Placeholder or untranslated Aegis name
+22159,90Lv_Shoes,Conqueror's Shoes,Shoes,90,1,,,Shoes,Placeholder or untranslated Aegis name
+22154,80Lv_Boots,Contingent Boots,Shoes,80,1,,,Shoes,Placeholder or untranslated Aegis name
+22153,80Lv_Greave,Contingent Greaves,Shoes,80,1,,,Shoes,Placeholder or untranslated Aegis name
+22156,80Lv_Sandal,Contingent Sandal,Shoes,80,1,,,Shoes,Placeholder or untranslated Aegis name
+22155,80Lv_Shoes,Contingent Shoes,Shoes,80,1,,,Shoes,Placeholder or untranslated Aegis name
+470280,aegis_470280,Enforcer Shoes,Shoes,90,1,,,Shoes,Placeholder or untranslated Aegis name
+22151,70Lv_Boots,Expedition's Boots,Shoes,70,1,,,Shoes,Placeholder or untranslated Aegis name
+22152,70Lv_Shoes,Expedition's Shoes,Shoes,70,1,250,,Shoes,Placeholder or untranslated Aegis name
+470234,aegis_470234,Greaves,Shoes,65,0,,,Shoes,Placeholder or untranslated Aegis name
+470235,aegis_470235,Novice Shoes,Shoes,40,1,,,Shoes,Placeholder or untranslated Aegis name
+470229,aegis_470229,Shoes,Shoes,0,1,,,Shoes,Placeholder or untranslated Aegis name
+22150,60Lv_Sandal,Subjugation Team's Boots,Shoes,60,1,,,Shoes,Placeholder or untranslated Aegis name
+2975,10th_Anni_Badge_J,10th Anniversary Badge,Accessories,10,0,20,,Both_Accessory,Placeholder or untranslated Aegis name
+2897,2011RWC_Necklace_J,2011RWC Necklace J,Accessories,1,0,,,Both_Accessory,Placeholder or untranslated Aegis name
+28516,2017RTCRING,2017 RTC Ring,Accessories,1,0,,,Both_Accessory,Placeholder or untranslated Aegis name
+400490,aegis_400490,[Not for Sale] Boxer Glove,Accessories,55,1,,,Both_Accessory,Placeholder or untranslated Aegis name
+490537,aegis_490537,Bomber Glove,Accessories,70,1,,,Both_Accessory,Placeholder or untranslated Aegis name
+490399,aegis_490399,Boxer Glove,Accessories,55,1,,,Both_Accessory,Placeholder or untranslated Aegis name
+490648,aegis_490648,Charm of Flame Heart,Accessories,70,1,,,Both_Accessory,Placeholder or untranslated Aegis name
+28547,90Lv_Gloves,Conqueror's Glove,Accessories,90,1,,,Both_Accessory,Placeholder or untranslated Aegis name
+28548,90Lv_Mring,Conqueror's Magic Ring,Accessories,90,1,,,Both_Accessory,Placeholder or untranslated Aegis name
+28549,90Lv_Necklace,Conqueror's Necklace,Accessories,90,1,,,Both_Accessory,Placeholder or untranslated Aegis name
+28546,90Lv_Aring,Conqueror's Ring,Accessories,90,1,,,Both_Accessory,Placeholder or untranslated Aegis name
+28543,80Lv_Gloves,Contingent Glove,Accessories,80,1,,,Both_Accessory,Placeholder or untranslated Aegis name
+28544,80Lv_Mring,Contingent Magic Ring,Accessories,80,1,,,Both_Accessory,Placeholder or untranslated Aegis name
+28545,80Lv_Necklace,Contingent Necklace,Accessories,80,1,,,Both_Accessory,Placeholder or untranslated Aegis name
+28542,80Lv_Aring,Contingent Ring,Accessories,80,1,,,Both_Accessory,Placeholder or untranslated Aegis name
+28541,70Lv_Mring,Expedition's Magic Ring,Accessories,70,1,,,Both_Accessory,Placeholder or untranslated Aegis name
+28540,70Lv_Ring,Expedition's Ring,Accessories,70,1,,,Both_Accessory,Placeholder or untranslated Aegis name
+490555,aegis_490555,Fairy's Necklace,Accessories,50,1,,,Both_Accessory,Placeholder or untranslated Aegis name
+490581,aegis_490581,Fallen Angel Tear,Accessories,1,1,,,Both_Accessory,Placeholder or untranslated Aegis name
+490425,aegis_490425,Magictool Ice,Accessories,70,1,,,Both_Accessory,Placeholder or untranslated Aegis name
+490597,aegis_490597,Ring of Chivalry,Accessories,70,1,,,Left_Accessory,Placeholder or untranslated Aegis name
+28539,60Lv_Ring,Subjugation Team's Ring,Accessories,60,1,,,Both_Accessory,Placeholder or untranslated Aegis name
+18516,RTC_2nd_Headgear,RTC 2nd Winner Hat,Headgear,1,1,20,,Head_Mid,Regional or tournament variant
+18517,RTC_3rd_Headgear,RTC 3rd Winner Hat,Headgear,1,1,20,,Head_Mid,Regional or tournament variant
+5603,RTC_Winner_Only,RTC First Place,Headgear,1,1,,,Head_Top,Regional or tournament variant
+5604,RTC_Second_Best,RTC Second Place,Headgear,1,1,,,Head_Top,Regional or tournament variant
+5605,RTC_Third_Best,RTC Third Place,Headgear,1,1,,,Head_Top,Regional or tournament variant
+18515,RTC_Winner_Headgear,RTC Winner Hat,Headgear,1,1,20,,Head_Mid,Regional or tournament variant

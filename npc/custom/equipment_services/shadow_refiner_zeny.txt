@@ -7,7 +7,7 @@
 //= 200,000 Zeny.
 //============================================================
 
-prontera,180,180,4	script	Shadow Refiner#custom	4_F_JOB_BLACKSMITH,{
+prontera,158,223,4	script	Shadow Refiner#custom	4_F_JOB_BLACKSMITH,{
 	.@zeny_cost = 200000;
 	disable_items;
 

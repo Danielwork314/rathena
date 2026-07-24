@@ -1,25 +1,30 @@
 //===== rAthena Script =======================================
-//= Custom Step-by-Step Grade Enhancer
+//= Custom Step-by-Step Grade Enhancer - Script-only
 //===== Description: =========================================
 //= Raises one equipped, natively Gradable item by exactly one
 //= stage for 750,000 Zeny. No materials and no failure chance.
-//= Refine, cards, enchants and random options are preserved.
+//= Uses validated native @grade execution; item identity and all
+//= refine, cards, binding, enchants and random options stay intact.
 //============================================================
 
-prontera,174,180,4	script	Grade Artisan#custom_step	4_F_JOB_BLACKSMITH,{
+prontera,154,223,4	script	Grade Artisan#custom_step	4_F_JOB_BLACKSMITH,{
 	disable_items;
 	.@cost = 750000;
 
 	mes "[Grade Artisan]";
 	mes "I can raise one eligible equipped item by exactly one Grade stage.";
 	mes "Each stage costs ^FF0000750,000 Zeny^000000 and requires no materials.";
-	mes "The original Grade eligibility and refine requirements still apply.";
+	mes "The native Gradable whitelist and minimum refine requirements still apply.";
 	next;
 
 	setarray .@candidate_slots[0],
 		EQI_HEAD_TOP, EQI_HEAD_MID, EQI_HEAD_LOW,
 		EQI_ARMOR, EQI_HAND_L, EQI_HAND_R,
 		EQI_GARMENT, EQI_SHOES, EQI_ACC_L, EQI_ACC_R;
+	setarray .@candidate_masks[0],
+		EQP_HEAD_TOP, EQP_HEAD_MID, EQP_HEAD_LOW,
+		EQP_ARMOR, EQP_HAND_L, EQP_HAND_R,
+		EQP_GARMENT, EQP_SHOES, EQP_ACC_L, EQP_ACC_R;
 
 	.@menu$ = "";
 	.@count = 0;
@@ -28,6 +33,7 @@ prontera,174,180,4	script	Grade Artisan#custom_step	4_F_JOB_BLACKSMITH,{
 		if (getequipid(.@slot) <= 0)
 			continue;
 		.@selected_slots[.@count] = .@slot;
+		.@selected_masks[.@count] = .@candidate_masks[.@i];
 		.@menu$ += F_getpositionname(.@slot) + " - [" + getequipname(.@slot) + "]:";
 		++.@count;
 	}
@@ -42,28 +48,43 @@ prontera,174,180,4	script	Grade Artisan#custom_step	4_F_JOB_BLACKSMITH,{
 	if (.@choice >= .@count)
 		close;
 	.@slot = .@selected_slots[.@choice];
+	.@mask = .@selected_masks[.@choice];
 
 	.@item_id = getequipid(.@slot);
 	.@refine = getequiprefinerycnt(.@slot);
 	.@grade = getenchantgrade(.@slot);
 	setarray .@card[0],
-		getequipcardid(.@slot, 0), getequipcardid(.@slot, 1),
-		getequipcardid(.@slot, 2), getequipcardid(.@slot, 3);
+		getequipcardid(.@slot,0), getequipcardid(.@slot,1),
+		getequipcardid(.@slot,2), getequipcardid(.@slot,3);
 
+	if (inarray(.GradableItems[0], .@item_id) < 0 && inarray(.LiveGradableItems[0], .@item_id) < 0) {
+		mes "[Grade Artisan]";
+		mes "This item is not marked Gradable in the current approved whitelist.";
+		close;
+	}
 	if (.@grade < ENCHANTGRADE_NONE || .@grade >= ENCHANTGRADE_A) {
 		mes "[Grade Artisan]";
 		mes "That item is already at the highest Grade, or cannot be processed.";
 		close;
 	}
 
+	// Native enchantgrade.yml minimum refine entries:
+	// None -> D: +9, D -> C: +10, C -> B: +11, B -> A: +11.
+	setarray .@minimum_refine[0], 9,10,11,11;
+	if (.@refine < .@minimum_refine[.@grade]) {
+		mes "[Grade Artisan]";
+		mes "This stage requires at least refine ^FF0000+" + .@minimum_refine[.@grade] + "^000000.";
+		mes "Current refine: ^0055FF+" + .@refine + "^000000.";
+		close;
+	}
+
 	setarray .@grade_name$[0], "None", "D", "C", "B", "A";
 	.@next_grade = .@grade + 1;
-
 	mes "[Grade Artisan]";
 	mes "Item: ^0055FF" + getequipname(.@slot) + "^000000";
 	mes "Grade: ^0055FF" + .@grade_name$[.@grade] + " -> " + .@grade_name$[.@next_grade] + "^000000";
 	mes "Fee: ^FF0000" + callfunc("F_InsertComma", .@cost) + " Zeny^000000";
-	mes "Success is guaranteed. Refine, cards, enchants and random options are preserved.";
+	mes "Success is guaranteed. All existing item data stays intact.";
 	next;
 	if (select("Enhance one stage:Cancel") == 2)
 		close;
@@ -73,26 +94,75 @@ prontera,174,180,4	script	Grade Artisan#custom_step	4_F_JOB_BLACKSMITH,{
 		mes "You do not have enough Zeny.";
 		close;
 	}
-
-	if (callfunc("F_IsEquipIDHack", .@slot, .@item_id) ||
-		callfunc("F_IsEquipRefineHack", .@slot, .@refine) ||
-		callfunc("F_IsEquipCardHack", .@slot, .@card[0], .@card[1], .@card[2], .@card[3]) ||
-		getenchantgrade(.@slot) != .@grade) {
+	if (getequipid(.@slot) != .@item_id ||
+		getequiprefinerycnt(.@slot) != .@refine ||
+		getenchantgrade(.@slot) != .@grade ||
+		callfunc("F_IsEquipCardHack", .@slot, .@card[0], .@card[1], .@card[2], .@card[3])) {
 		mes "[Grade Artisan]";
-		mes "The selected equipment changed. Please try again.";
+		mes "The selected equipment changed. No Zeny was charged.";
 		close;
 	}
 
-	.@result = upgradeequipgrade(.@slot);
-	if (.@result != .@next_grade) {
+	// Script atcommand executes with GM 99 authority, but only after all
+	// native eligibility and refine checks above have passed.
+	atcommand "@grade " + .@mask + " 1";
+	if (getenchantgrade(.@slot) != .@next_grade) {
 		mes "[Grade Artisan]";
-		mes "This equipment cannot advance from its current state.";
-		mes "Only items marked Gradable and supported by the native Grade table can be enhanced.";
+		mes "The Grade change did not complete. No Zeny was charged.";
 		close;
 	}
 
 	Zeny -= .@cost;
 	mes "[Grade Artisan]";
-	mes "Success. The item advanced to Grade ^0055FF" + .@grade_name$[.@result] + "^000000.";
+	mes "Success. The item advanced to Grade ^0055FF" + .@grade_name$[.@next_grade] + "^000000.";
 	close;
+
+OnInit:
+	setarray .GradableItems[0], 1341,15282,21063,26140,28145,28785,28789,400105,400106,400107,400109,400110,400111,400135,400142,400145,
+		400151,400152,400153,400154,400155,400156,400245,400246,400374,400375,400376,400377,400378,400379,400380,400381,
+		400382,400383,400384,400385,400386,400387,400388,400389,400390,400391,400392,400393,400394,400395,400400,400433,
+		400445,400465,400529,400530,400531,400532,400533,400534,400535,400536,400537,400538,400539,400540,400541,400542,
+		400543,400544,400545,400546,400547,400548,400549,400550,400551,400608,400609,400610,400628,400629,400630,400650,
+		400651,400652,400661,400662,400663,400673,400674,400675,400694,400695,400696,400723,400724,400975,400976,400977,
+		400978,400979,400980,400981,400982,400983,400984,400985,400986,400987,400988,400989,400990,400991,400992,401055,
+		401056,401057,401058,401059,401060,401115,401116,401117,401118,401119,401120,450169,450170,450171,450172,450173,
+		450174,450200,450201,450202,450203,450217,450234,450243,450244,450245,450263,450264,450265,450266,450267,450268,
+		450270,450271,450272,450274,450279,450280,450281,450282,450283,450284,450285,450293,450294,450295,450296,450297,
+		450298,450299,450350,450351,450386,450387,450388,450389,450391,450412,450413,450416,450426,450427,450440,450441,
+		460013,460020,460040,460053,460066,460072,460078,460084,460092,460093,460095,460096,460097,470071,470072,470073,
+		470074,470076,470077,470094,470108,470109,470110,470111,470122,470173,470174,470175,470176,470182,470183,470196,
+		470197,470198,470199,470204,470205,470207,470208,470209,470210,470211,470212,470213,470214,470215,470221,470222,
+		470223,470224,470225,470226,470236,470237,470238,470247,470260,470261,470265,470266,470269,470283,470289,470290,
+		470291,470303,470304,470325,470326,470327,470328,470329,470330,470333,470334,470335,470336,470337,470338,470339,
+		480145,480146,480147,480148,480174,480230,480231,480232,480233,480283,480284,480312,480324,480338,480345,480346,
+		480347,480348,480349,480350,480351,480352,480415,480416,480453,480454,480471,480479,480495,480496,480504,480520,
+		480522,480526,480539,480540,480545,480546,480669,480670,480671,480672,480673,480674,490276,490277,490278,500019,
+		500020,500024,500027,500028,500038,500039,500040,500044,500045,500046,500054,500055,500056,500062,500063,500065,
+		500066,500072,500074,500092,500093,500094,500101,500102,500103,500107,500120,500134,510027,510028,510030,510033,
+		510040,510041,510049,510050,510051,510052,510056,510057,510060,510072,510075,510076,510077,510091,510092,510102,
+		510103,510105,510139,510150,510151,510152,510153,510165,510166,510172,510192,510199,520009,520021,520031,530010,
+		530012,530014,530019,530023,530034,530035,530045,530054,530057,530058,530060,530072,530074,530076,540014,540015,
+		540024,540025,540026,540035,540041,540042,540044,540045,540046,540048,540053,540054,540055,540056,540058,540059,
+		540060,540074,540075,540079,540080,540081,540082,540083,540086,540087,540088,540090,540091,540094,540096,540110,
+		540111,540114,540115,540119,540122,550019,550020,550023,550029,550045,550046,550054,550055,550056,550060,550061,
+		550062,550063,550064,550065,550066,550067,550068,550082,550088,550089,550090,550091,550092,550093,550094,550115,
+		550116,550117,550118,550119,550130,550131,550132,550133,550134,550135,550141,550143,550144,550145,550146,550148,
+		550150,550152,550155,550156,550159,550176,550177,550178,550187,550190,560012,560013,560017,560020,560021,560026,
+		560027,560030,560036,560037,560038,560048,560060,560061,560067,560068,560072,560081,560086,570013,570016,570019,
+		570020,570027,570028,570032,570033,570036,570037,570045,570062,570063,570072,570073,570075,570087,570090,580013,
+		580016,580019,580020,580027,580028,580033,580034,580037,580038,580046,580061,580062,580072,580073,580075,580087,
+		580090,590016,590017,590020,590023,590024,590030,590034,590036,590045,590047,590048,590049,590062,590063,590079,
+		590080,590087,590107,590111,590112,600014,600016,600018,600023,600024,600030,600031,600041,600054,600059,600071,
+		610016,610019,610022,610023,610033,610034,610035,610041,610042,610044,610045,610054,610064,610065,610071,610072,
+		610085,610089,620006,620009,620015,620016,620019,620020,620022,620037,620040,620043,620058,630009,630013,630019,
+		630027,630028,630041,630045,630049,630060,640014,640015,640017,640021,640022,640027,640028,640031,640034,640035,
+		640036,640037,640046,640049,640050,640053,640054,640064,640065,640067,650019,650021,650022,650024,650028,650029,
+		650033,650034,650046,650047,650049,650058,700022,700023,700024,700025,700029,700033,700034,700035,700045,700046,
+		700049,700050,700059,700060,700065,700066,700076,700092,700093,700094,700100,700101,700108,700109,700119,700121,
+		700125,800009,800011,800012,800013,800015,800016,800026,800027,800042,810005,810007,810008,810009,810015,810026,
+		810027,810034,810040,810042,810049,820004,820006,820007,820011,820020,820021,820028,830008,830010,830011,830012,
+		830015,830025,830026,830033,830038,840004,840006,840007,840008,840010,840020,840021,840028,840032,840039;
+	// Add Live-import-only Gradable Item IDs here when needed.
+	setarray .LiveGradableItems[0], 0;
+	end;
 }

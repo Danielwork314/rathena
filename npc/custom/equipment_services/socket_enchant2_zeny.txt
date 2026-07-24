@@ -425,4 +425,4 @@ function	script	F_CustomSocketEnchant12	{
 	close;
 }
 
-prontera,178,180,4	duplicate(CustomSocketEnchant12)	Socket Artisan II#custom	86
+prontera,160,223,4	duplicate(CustomSocketEnchant12)	Socket Artisan II#custom	86

@@ -1,12 +1,13 @@
 //===== rAthena Script =======================================
-//= Custom Full Equipment Refiner
+//= Custom Full Equipment Refiner - Script-only
 //===== Description: =========================================
 //= Raises currently equipped standard refinable equipment to
-//= +11 or +20 for one fixed Zeny fee. Shadow Equipment is excluded
-//= because its native maximum is +10 and it has a dedicated refiner.
+//= +11 or +20 for one fixed Zeny fee.
+//= Uses native successrefitem; no source command or make needed.
+//= Shadow Equipment is excluded because its native maximum is +10.
 //============================================================
 
-prontera,172,180,4	script	Master Refiner#custom_full	4_M_DWARF,{
+prontera,156,223,4	script	Master Refiner#custom_full	4_M_DWARF,{
 	disable_items;
 	mes "[Master Refiner]";
 	mes "I can safely raise your currently equipped standard refinable items at once.";
@@ -28,14 +29,33 @@ prontera,172,180,4	script	Master Refiner#custom_full	4_M_DWARF,{
 
 	setarray .@slots[0],
 		EQI_HEAD_TOP, EQI_HEAD_MID, EQI_HEAD_LOW,
-		EQI_ARMOR, EQI_HAND_L, EQI_HAND_R, EQI_GARMENT, EQI_SHOES,
-		EQI_ACC_L, EQI_ACC_R;
+		EQI_ARMOR, EQI_HAND_L, EQI_HAND_R,
+		EQI_GARMENT, EQI_SHOES, EQI_ACC_L, EQI_ACC_R;
+	setarray .@masks[0],
+		EQP_HEAD_TOP, EQP_HEAD_MID, EQP_HEAD_LOW,
+		EQP_ARMOR, EQP_HAND_L, EQP_HAND_R,
+		EQP_GARMENT, EQP_SHOES, EQP_ACC_L, EQP_ACC_R;
 
+	getinventorylist;
 	.@eligible = 0;
+	.@processed_count = 0;
 	for (.@i = 0; .@i < getarraysize(.@slots); ++.@i) {
 		.@slot = .@slots[.@i];
-		if (getequipid(.@slot) > 0 && getequipisenableref(.@slot) && getequiprefinerycnt(.@slot) < .@target)
-			.@eligible = 1;
+		if (getequipid(.@slot) <= 0 || !getequipisenableref(.@slot) || getequiprefinerycnt(.@slot) >= .@target)
+			continue;
+
+		.@inventory_index = -1;
+		for (.@j = 0; .@j < @inventorylist_count; ++.@j) {
+			if (@inventorylist_id[.@j] == getequipid(.@slot) && (@inventorylist_equip[.@j] & .@masks[.@i])) {
+				.@inventory_index = @inventorylist_idx[.@j];
+				break;
+			}
+		}
+		if (.@inventory_index < 0 || inarray(.@processed_index[0], .@inventory_index) >= 0)
+			continue;
+
+		.@processed_index[.@processed_count++] = .@inventory_index;
+		.@eligible = 1;
 	}
 
 	if (!.@eligible) {
@@ -60,32 +80,40 @@ prontera,172,180,4	script	Master Refiner#custom_full	4_M_DWARF,{
 		close;
 	}
 
-	// Recheck immediately before charging and modifying equipment.
-	.@eligible = 0;
-	for (.@i = 0; .@i < getarraysize(.@slots); ++.@i) {
-		.@slot = .@slots[.@i];
-		if (getequipid(.@slot) > 0 && getequipisenableref(.@slot) && getequiprefinerycnt(.@slot) < .@target)
-			.@eligible = 1;
-	}
-	if (!.@eligible) {
-		mes "[Master Refiner]";
-		mes "There is no longer any eligible equipment to refine.";
-		close;
-	}
-
-	Zeny -= .@cost;
+	getinventorylist;
+	deletearray .@processed_index[0], getarraysize(.@processed_index);
+	.@processed_count = 0;
 	.@changed = 0;
+
 	for (.@i = 0; .@i < getarraysize(.@slots); ++.@i) {
 		.@slot = .@slots[.@i];
 		if (getequipid(.@slot) <= 0 || !getequipisenableref(.@slot) || getequiprefinerycnt(.@slot) >= .@target)
 			continue;
 
+		.@inventory_index = -1;
+		for (.@j = 0; .@j < @inventorylist_count; ++.@j) {
+			if (@inventorylist_id[.@j] == getequipid(.@slot) && (@inventorylist_equip[.@j] & .@masks[.@i])) {
+				.@inventory_index = @inventorylist_idx[.@j];
+				break;
+			}
+		}
+		if (.@inventory_index < 0 || inarray(.@processed_index[0], .@inventory_index) >= 0)
+			continue;
+
+		.@processed_index[.@processed_count++] = .@inventory_index;
 		.@before = getequiprefinerycnt(.@slot);
-		.@after = setequiprefine(.@slot, .@target);
-		if (.@after == .@target && .@after > .@before)
+		successrefitem .@slot, .@target - .@before;
+		if (getequiprefinerycnt(.@slot) == .@target)
 			++.@changed;
 	}
 
+	if (!.@changed) {
+		mes "[Master Refiner]";
+		mes "No equipment was changed, so no Zeny was charged.";
+		close;
+	}
+
+	Zeny -= .@cost;
 	mes "[Master Refiner]";
 	mes "Finished. " + .@changed + " equipped item(s) were raised to +" + .@target + ".";
 	mes "All ineligible and already-high equipment was left unchanged.";

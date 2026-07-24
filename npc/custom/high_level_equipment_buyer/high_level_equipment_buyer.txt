@@ -9,9 +9,9 @@
 //= No source modification or recompilation is required.
 //============================================================
 
--	shop	HLBuyerShop#HLEB	-1,501:1
+-	shop	HLBuyerShop#HLEB	-1,501:10
 
-prontera,161,227,4	script	High-Level Buyer#HLEB	4_M_MERCHANT,{
+prontera,161,227,4	script	High-Level Buyer#HLEB	1_M_MERCHANT,{
 	disable_items;
 	mes "[High-Level Equipment Buyer]";
 	mes "I purchase approved equipment dropped by high-level monsters.";
@@ -105,8 +105,6 @@ OnSellItem:
 		// Overcharge Lv.10 uses +24%. Integer division intentionally matches
 		// rAthena's normal truncation behavior.
 		.@unit_price = (.@base_price * .OverchargePercent) / 100;
-		if (.@unit_price < 1)
-			.@unit_price = 1;
 
 		.@line_total = .@unit_price * .@quantity;
 		if (.@line_total < 0 || .@total > MAX_ZENY - .@line_total) {
