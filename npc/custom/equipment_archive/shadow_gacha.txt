@@ -119,7 +119,11 @@ S_Tier_Third:
 	return;
 
 S_Tier_Fourth:
-	.@job_choice = select("Dragon Knight (26):Imperial Guard (26):Shadow Cross (26):Abyss Chaser (26):Cardinal (26):Inquisitor (26):Meister (26):Biolo (26):Windhawk (26):Troubadour / Trouvere (28):Arch Mage (26):Elemental Master (26):Spirit Handler (12):Sky Emperor (14):Soul Ascetic (14):Hyper Novice (12):Back");
+	mes "[Shadow Capsule]";
+	mes "This tier contains only shadow equipment made specifically for fourth jobs.";
+	mes "The current database has fourth-job-specific armor, shoes, earrings and pendants, but no fourth-job-specific shadow weapons or shields.";
+	next;
+	.@job_choice = select("Dragon Knight (12):Imperial Guard (12):Shadow Cross (12):Abyss Chaser (12):Cardinal (12):Inquisitor (12):Meister (12):Biolo (12):Windhawk (12):Troubadour / Trouvere (12):Arch Mage (12):Elemental Master (12):Spirit Handler (12):Sky Emperor (12):Soul Ascetic (12):Hyper Novice (12):Back");
 	if (.@job_choice == 17)
 		return;
 	switch (.@job_choice) {
@@ -895,8 +899,8 @@ S_Draw_T16:
 	return;
 
 S_Draw_F01:
-	.@choice = select("Any slot - 100,000 Zeny:Shadow weapon - 300,000 Zeny:Shadow shield - 300,000 Zeny:Shadow armor - 300,000 Zeny:Shadow shoes - 300,000 Zeny:Shadow earring - 300,000 Zeny:Shadow pendant - 300,000 Zeny:Back");
-	if (.@choice == 8)
+	.@choice = select("Any fourth-job slot - 100,000 Zeny:Shadow armor - 300,000 Zeny:Shadow shoes - 300,000 Zeny:Shadow earring - 300,000 Zeny:Shadow pendant - 300,000 Zeny:Back");
+	if (.@choice == 6)
 		return;
 
 	.@price = (.@choice == 1) ? 100000 : 300000;
@@ -905,21 +909,15 @@ S_Draw_F01:
 		.@item = .SPF01A[rand(getarraysize(.SPF01A))];
 		break;
 	case 2:
-		.@item = .SPF01W[rand(getarraysize(.SPF01W))];
-		break;
-	case 3:
-		.@item = .SPF01D[rand(getarraysize(.SPF01D))];
-		break;
-	case 4:
 		.@item = .SPF01R[rand(getarraysize(.SPF01R))];
 		break;
-	case 5:
+	case 3:
 		.@item = .SPF01S[rand(getarraysize(.SPF01S))];
 		break;
-	case 6:
+	case 4:
 		.@item = .SPF01E[rand(getarraysize(.SPF01E))];
 		break;
-	case 7:
+	case 5:
 		.@item = .SPF01P[rand(getarraysize(.SPF01P))];
 		break;
 	}
@@ -927,8 +925,8 @@ S_Draw_F01:
 	return;
 
 S_Draw_F02:
-	.@choice = select("Any slot - 100,000 Zeny:Shadow weapon - 300,000 Zeny:Shadow shield - 300,000 Zeny:Shadow armor - 300,000 Zeny:Shadow shoes - 300,000 Zeny:Shadow earring - 300,000 Zeny:Shadow pendant - 300,000 Zeny:Back");
-	if (.@choice == 8)
+	.@choice = select("Any fourth-job slot - 100,000 Zeny:Shadow armor - 300,000 Zeny:Shadow shoes - 300,000 Zeny:Shadow earring - 300,000 Zeny:Shadow pendant - 300,000 Zeny:Back");
+	if (.@choice == 6)
 		return;
 
 	.@price = (.@choice == 1) ? 100000 : 300000;
@@ -937,21 +935,15 @@ S_Draw_F02:
 		.@item = .SPF02A[rand(getarraysize(.SPF02A))];
 		break;
 	case 2:
-		.@item = .SPF02W[rand(getarraysize(.SPF02W))];
-		break;
-	case 3:
-		.@item = .SPF02D[rand(getarraysize(.SPF02D))];
-		break;
-	case 4:
 		.@item = .SPF02R[rand(getarraysize(.SPF02R))];
 		break;
-	case 5:
+	case 3:
 		.@item = .SPF02S[rand(getarraysize(.SPF02S))];
 		break;
-	case 6:
+	case 4:
 		.@item = .SPF02E[rand(getarraysize(.SPF02E))];
 		break;
-	case 7:
+	case 5:
 		.@item = .SPF02P[rand(getarraysize(.SPF02P))];
 		break;
 	}
@@ -959,8 +951,8 @@ S_Draw_F02:
 	return;
 
 S_Draw_F03:
-	.@choice = select("Any slot - 100,000 Zeny:Shadow weapon - 300,000 Zeny:Shadow shield - 300,000 Zeny:Shadow armor - 300,000 Zeny:Shadow shoes - 300,000 Zeny:Shadow earring - 300,000 Zeny:Shadow pendant - 300,000 Zeny:Back");
-	if (.@choice == 8)
+	.@choice = select("Any fourth-job slot - 100,000 Zeny:Shadow armor - 300,000 Zeny:Shadow shoes - 300,000 Zeny:Shadow earring - 300,000 Zeny:Shadow pendant - 300,000 Zeny:Back");
+	if (.@choice == 6)
 		return;
 
 	.@price = (.@choice == 1) ? 100000 : 300000;
@@ -969,21 +961,15 @@ S_Draw_F03:
 		.@item = .SPF03A[rand(getarraysize(.SPF03A))];
 		break;
 	case 2:
-		.@item = .SPF03W[rand(getarraysize(.SPF03W))];
-		break;
-	case 3:
-		.@item = .SPF03D[rand(getarraysize(.SPF03D))];
-		break;
-	case 4:
 		.@item = .SPF03R[rand(getarraysize(.SPF03R))];
 		break;
-	case 5:
+	case 3:
 		.@item = .SPF03S[rand(getarraysize(.SPF03S))];
 		break;
-	case 6:
+	case 4:
 		.@item = .SPF03E[rand(getarraysize(.SPF03E))];
 		break;
-	case 7:
+	case 5:
 		.@item = .SPF03P[rand(getarraysize(.SPF03P))];
 		break;
 	}
@@ -991,8 +977,8 @@ S_Draw_F03:
 	return;
 
 S_Draw_F04:
-	.@choice = select("Any slot - 100,000 Zeny:Shadow weapon - 300,000 Zeny:Shadow shield - 300,000 Zeny:Shadow armor - 300,000 Zeny:Shadow shoes - 300,000 Zeny:Shadow earring - 300,000 Zeny:Shadow pendant - 300,000 Zeny:Back");
-	if (.@choice == 8)
+	.@choice = select("Any fourth-job slot - 100,000 Zeny:Shadow armor - 300,000 Zeny:Shadow shoes - 300,000 Zeny:Shadow earring - 300,000 Zeny:Shadow pendant - 300,000 Zeny:Back");
+	if (.@choice == 6)
 		return;
 
 	.@price = (.@choice == 1) ? 100000 : 300000;
@@ -1001,21 +987,15 @@ S_Draw_F04:
 		.@item = .SPF04A[rand(getarraysize(.SPF04A))];
 		break;
 	case 2:
-		.@item = .SPF04W[rand(getarraysize(.SPF04W))];
-		break;
-	case 3:
-		.@item = .SPF04D[rand(getarraysize(.SPF04D))];
-		break;
-	case 4:
 		.@item = .SPF04R[rand(getarraysize(.SPF04R))];
 		break;
-	case 5:
+	case 3:
 		.@item = .SPF04S[rand(getarraysize(.SPF04S))];
 		break;
-	case 6:
+	case 4:
 		.@item = .SPF04E[rand(getarraysize(.SPF04E))];
 		break;
-	case 7:
+	case 5:
 		.@item = .SPF04P[rand(getarraysize(.SPF04P))];
 		break;
 	}
@@ -1023,8 +1003,8 @@ S_Draw_F04:
 	return;
 
 S_Draw_F05:
-	.@choice = select("Any slot - 100,000 Zeny:Shadow weapon - 300,000 Zeny:Shadow shield - 300,000 Zeny:Shadow armor - 300,000 Zeny:Shadow shoes - 300,000 Zeny:Shadow earring - 300,000 Zeny:Shadow pendant - 300,000 Zeny:Back");
-	if (.@choice == 8)
+	.@choice = select("Any fourth-job slot - 100,000 Zeny:Shadow armor - 300,000 Zeny:Shadow shoes - 300,000 Zeny:Shadow earring - 300,000 Zeny:Shadow pendant - 300,000 Zeny:Back");
+	if (.@choice == 6)
 		return;
 
 	.@price = (.@choice == 1) ? 100000 : 300000;
@@ -1033,21 +1013,15 @@ S_Draw_F05:
 		.@item = .SPF05A[rand(getarraysize(.SPF05A))];
 		break;
 	case 2:
-		.@item = .SPF05W[rand(getarraysize(.SPF05W))];
-		break;
-	case 3:
-		.@item = .SPF05D[rand(getarraysize(.SPF05D))];
-		break;
-	case 4:
 		.@item = .SPF05R[rand(getarraysize(.SPF05R))];
 		break;
-	case 5:
+	case 3:
 		.@item = .SPF05S[rand(getarraysize(.SPF05S))];
 		break;
-	case 6:
+	case 4:
 		.@item = .SPF05E[rand(getarraysize(.SPF05E))];
 		break;
-	case 7:
+	case 5:
 		.@item = .SPF05P[rand(getarraysize(.SPF05P))];
 		break;
 	}
@@ -1055,8 +1029,8 @@ S_Draw_F05:
 	return;
 
 S_Draw_F06:
-	.@choice = select("Any slot - 100,000 Zeny:Shadow weapon - 300,000 Zeny:Shadow shield - 300,000 Zeny:Shadow armor - 300,000 Zeny:Shadow shoes - 300,000 Zeny:Shadow earring - 300,000 Zeny:Shadow pendant - 300,000 Zeny:Back");
-	if (.@choice == 8)
+	.@choice = select("Any fourth-job slot - 100,000 Zeny:Shadow armor - 300,000 Zeny:Shadow shoes - 300,000 Zeny:Shadow earring - 300,000 Zeny:Shadow pendant - 300,000 Zeny:Back");
+	if (.@choice == 6)
 		return;
 
 	.@price = (.@choice == 1) ? 100000 : 300000;
@@ -1065,21 +1039,15 @@ S_Draw_F06:
 		.@item = .SPF06A[rand(getarraysize(.SPF06A))];
 		break;
 	case 2:
-		.@item = .SPF06W[rand(getarraysize(.SPF06W))];
-		break;
-	case 3:
-		.@item = .SPF06D[rand(getarraysize(.SPF06D))];
-		break;
-	case 4:
 		.@item = .SPF06R[rand(getarraysize(.SPF06R))];
 		break;
-	case 5:
+	case 3:
 		.@item = .SPF06S[rand(getarraysize(.SPF06S))];
 		break;
-	case 6:
+	case 4:
 		.@item = .SPF06E[rand(getarraysize(.SPF06E))];
 		break;
-	case 7:
+	case 5:
 		.@item = .SPF06P[rand(getarraysize(.SPF06P))];
 		break;
 	}
@@ -1087,8 +1055,8 @@ S_Draw_F06:
 	return;
 
 S_Draw_F07:
-	.@choice = select("Any slot - 100,000 Zeny:Shadow weapon - 300,000 Zeny:Shadow shield - 300,000 Zeny:Shadow armor - 300,000 Zeny:Shadow shoes - 300,000 Zeny:Shadow earring - 300,000 Zeny:Shadow pendant - 300,000 Zeny:Back");
-	if (.@choice == 8)
+	.@choice = select("Any fourth-job slot - 100,000 Zeny:Shadow armor - 300,000 Zeny:Shadow shoes - 300,000 Zeny:Shadow earring - 300,000 Zeny:Shadow pendant - 300,000 Zeny:Back");
+	if (.@choice == 6)
 		return;
 
 	.@price = (.@choice == 1) ? 100000 : 300000;
@@ -1097,21 +1065,15 @@ S_Draw_F07:
 		.@item = .SPF07A[rand(getarraysize(.SPF07A))];
 		break;
 	case 2:
-		.@item = .SPF07W[rand(getarraysize(.SPF07W))];
-		break;
-	case 3:
-		.@item = .SPF07D[rand(getarraysize(.SPF07D))];
-		break;
-	case 4:
 		.@item = .SPF07R[rand(getarraysize(.SPF07R))];
 		break;
-	case 5:
+	case 3:
 		.@item = .SPF07S[rand(getarraysize(.SPF07S))];
 		break;
-	case 6:
+	case 4:
 		.@item = .SPF07E[rand(getarraysize(.SPF07E))];
 		break;
-	case 7:
+	case 5:
 		.@item = .SPF07P[rand(getarraysize(.SPF07P))];
 		break;
 	}
@@ -1119,8 +1081,8 @@ S_Draw_F07:
 	return;
 
 S_Draw_F08:
-	.@choice = select("Any slot - 100,000 Zeny:Shadow weapon - 300,000 Zeny:Shadow shield - 300,000 Zeny:Shadow armor - 300,000 Zeny:Shadow shoes - 300,000 Zeny:Shadow earring - 300,000 Zeny:Shadow pendant - 300,000 Zeny:Back");
-	if (.@choice == 8)
+	.@choice = select("Any fourth-job slot - 100,000 Zeny:Shadow armor - 300,000 Zeny:Shadow shoes - 300,000 Zeny:Shadow earring - 300,000 Zeny:Shadow pendant - 300,000 Zeny:Back");
+	if (.@choice == 6)
 		return;
 
 	.@price = (.@choice == 1) ? 100000 : 300000;
@@ -1129,21 +1091,15 @@ S_Draw_F08:
 		.@item = .SPF08A[rand(getarraysize(.SPF08A))];
 		break;
 	case 2:
-		.@item = .SPF08W[rand(getarraysize(.SPF08W))];
-		break;
-	case 3:
-		.@item = .SPF08D[rand(getarraysize(.SPF08D))];
-		break;
-	case 4:
 		.@item = .SPF08R[rand(getarraysize(.SPF08R))];
 		break;
-	case 5:
+	case 3:
 		.@item = .SPF08S[rand(getarraysize(.SPF08S))];
 		break;
-	case 6:
+	case 4:
 		.@item = .SPF08E[rand(getarraysize(.SPF08E))];
 		break;
-	case 7:
+	case 5:
 		.@item = .SPF08P[rand(getarraysize(.SPF08P))];
 		break;
 	}
@@ -1151,8 +1107,8 @@ S_Draw_F08:
 	return;
 
 S_Draw_F09:
-	.@choice = select("Any slot - 100,000 Zeny:Shadow weapon - 300,000 Zeny:Shadow shield - 300,000 Zeny:Shadow armor - 300,000 Zeny:Shadow shoes - 300,000 Zeny:Shadow earring - 300,000 Zeny:Shadow pendant - 300,000 Zeny:Back");
-	if (.@choice == 8)
+	.@choice = select("Any fourth-job slot - 100,000 Zeny:Shadow armor - 300,000 Zeny:Shadow shoes - 300,000 Zeny:Shadow earring - 300,000 Zeny:Shadow pendant - 300,000 Zeny:Back");
+	if (.@choice == 6)
 		return;
 
 	.@price = (.@choice == 1) ? 100000 : 300000;
@@ -1161,21 +1117,15 @@ S_Draw_F09:
 		.@item = .SPF09A[rand(getarraysize(.SPF09A))];
 		break;
 	case 2:
-		.@item = .SPF09W[rand(getarraysize(.SPF09W))];
-		break;
-	case 3:
-		.@item = .SPF09D[rand(getarraysize(.SPF09D))];
-		break;
-	case 4:
 		.@item = .SPF09R[rand(getarraysize(.SPF09R))];
 		break;
-	case 5:
+	case 3:
 		.@item = .SPF09S[rand(getarraysize(.SPF09S))];
 		break;
-	case 6:
+	case 4:
 		.@item = .SPF09E[rand(getarraysize(.SPF09E))];
 		break;
-	case 7:
+	case 5:
 		.@item = .SPF09P[rand(getarraysize(.SPF09P))];
 		break;
 	}
@@ -1183,8 +1133,8 @@ S_Draw_F09:
 	return;
 
 S_Draw_F10:
-	.@choice = select("Any slot - 100,000 Zeny:Shadow weapon - 300,000 Zeny:Shadow shield - 300,000 Zeny:Shadow armor - 300,000 Zeny:Shadow shoes - 300,000 Zeny:Shadow earring - 300,000 Zeny:Shadow pendant - 300,000 Zeny:Back");
-	if (.@choice == 8)
+	.@choice = select("Any fourth-job slot - 100,000 Zeny:Shadow armor - 300,000 Zeny:Shadow shoes - 300,000 Zeny:Shadow earring - 300,000 Zeny:Shadow pendant - 300,000 Zeny:Back");
+	if (.@choice == 6)
 		return;
 
 	.@price = (.@choice == 1) ? 100000 : 300000;
@@ -1193,21 +1143,15 @@ S_Draw_F10:
 		.@item = .SPF10A[rand(getarraysize(.SPF10A))];
 		break;
 	case 2:
-		.@item = .SPF10W[rand(getarraysize(.SPF10W))];
-		break;
-	case 3:
-		.@item = .SPF10D[rand(getarraysize(.SPF10D))];
-		break;
-	case 4:
 		.@item = .SPF10R[rand(getarraysize(.SPF10R))];
 		break;
-	case 5:
+	case 3:
 		.@item = .SPF10S[rand(getarraysize(.SPF10S))];
 		break;
-	case 6:
+	case 4:
 		.@item = .SPF10E[rand(getarraysize(.SPF10E))];
 		break;
-	case 7:
+	case 5:
 		.@item = .SPF10P[rand(getarraysize(.SPF10P))];
 		break;
 	}
@@ -1215,8 +1159,8 @@ S_Draw_F10:
 	return;
 
 S_Draw_F11:
-	.@choice = select("Any slot - 100,000 Zeny:Shadow weapon - 300,000 Zeny:Shadow shield - 300,000 Zeny:Shadow armor - 300,000 Zeny:Shadow shoes - 300,000 Zeny:Shadow earring - 300,000 Zeny:Shadow pendant - 300,000 Zeny:Back");
-	if (.@choice == 8)
+	.@choice = select("Any fourth-job slot - 100,000 Zeny:Shadow armor - 300,000 Zeny:Shadow shoes - 300,000 Zeny:Shadow earring - 300,000 Zeny:Shadow pendant - 300,000 Zeny:Back");
+	if (.@choice == 6)
 		return;
 
 	.@price = (.@choice == 1) ? 100000 : 300000;
@@ -1225,21 +1169,15 @@ S_Draw_F11:
 		.@item = .SPF11A[rand(getarraysize(.SPF11A))];
 		break;
 	case 2:
-		.@item = .SPF11W[rand(getarraysize(.SPF11W))];
-		break;
-	case 3:
-		.@item = .SPF11D[rand(getarraysize(.SPF11D))];
-		break;
-	case 4:
 		.@item = .SPF11R[rand(getarraysize(.SPF11R))];
 		break;
-	case 5:
+	case 3:
 		.@item = .SPF11S[rand(getarraysize(.SPF11S))];
 		break;
-	case 6:
+	case 4:
 		.@item = .SPF11E[rand(getarraysize(.SPF11E))];
 		break;
-	case 7:
+	case 5:
 		.@item = .SPF11P[rand(getarraysize(.SPF11P))];
 		break;
 	}
@@ -1247,8 +1185,8 @@ S_Draw_F11:
 	return;
 
 S_Draw_F12:
-	.@choice = select("Any slot - 100,000 Zeny:Shadow weapon - 300,000 Zeny:Shadow shield - 300,000 Zeny:Shadow armor - 300,000 Zeny:Shadow shoes - 300,000 Zeny:Shadow earring - 300,000 Zeny:Shadow pendant - 300,000 Zeny:Back");
-	if (.@choice == 8)
+	.@choice = select("Any fourth-job slot - 100,000 Zeny:Shadow armor - 300,000 Zeny:Shadow shoes - 300,000 Zeny:Shadow earring - 300,000 Zeny:Shadow pendant - 300,000 Zeny:Back");
+	if (.@choice == 6)
 		return;
 
 	.@price = (.@choice == 1) ? 100000 : 300000;
@@ -1257,21 +1195,15 @@ S_Draw_F12:
 		.@item = .SPF12A[rand(getarraysize(.SPF12A))];
 		break;
 	case 2:
-		.@item = .SPF12W[rand(getarraysize(.SPF12W))];
-		break;
-	case 3:
-		.@item = .SPF12D[rand(getarraysize(.SPF12D))];
-		break;
-	case 4:
 		.@item = .SPF12R[rand(getarraysize(.SPF12R))];
 		break;
-	case 5:
+	case 3:
 		.@item = .SPF12S[rand(getarraysize(.SPF12S))];
 		break;
-	case 6:
+	case 4:
 		.@item = .SPF12E[rand(getarraysize(.SPF12E))];
 		break;
-	case 7:
+	case 5:
 		.@item = .SPF12P[rand(getarraysize(.SPF12P))];
 		break;
 	}
@@ -1279,7 +1211,7 @@ S_Draw_F12:
 	return;
 
 S_Draw_F13:
-	.@choice = select("Any slot - 100,000 Zeny:Shadow armor - 300,000 Zeny:Shadow shoes - 300,000 Zeny:Shadow earring - 300,000 Zeny:Shadow pendant - 300,000 Zeny:Back");
+	.@choice = select("Any fourth-job slot - 100,000 Zeny:Shadow armor - 300,000 Zeny:Shadow shoes - 300,000 Zeny:Shadow earring - 300,000 Zeny:Shadow pendant - 300,000 Zeny:Back");
 	if (.@choice == 6)
 		return;
 
@@ -1305,7 +1237,7 @@ S_Draw_F13:
 	return;
 
 S_Draw_F14:
-	.@choice = select("Any slot - 100,000 Zeny:Shadow armor - 300,000 Zeny:Shadow shoes - 300,000 Zeny:Shadow earring - 300,000 Zeny:Shadow pendant - 300,000 Zeny:Back");
+	.@choice = select("Any fourth-job slot - 100,000 Zeny:Shadow armor - 300,000 Zeny:Shadow shoes - 300,000 Zeny:Shadow earring - 300,000 Zeny:Shadow pendant - 300,000 Zeny:Back");
 	if (.@choice == 6)
 		return;
 
@@ -1331,7 +1263,7 @@ S_Draw_F14:
 	return;
 
 S_Draw_F15:
-	.@choice = select("Any slot - 100,000 Zeny:Shadow armor - 300,000 Zeny:Shadow shoes - 300,000 Zeny:Shadow earring - 300,000 Zeny:Shadow pendant - 300,000 Zeny:Back");
+	.@choice = select("Any fourth-job slot - 100,000 Zeny:Shadow armor - 300,000 Zeny:Shadow shoes - 300,000 Zeny:Shadow earring - 300,000 Zeny:Shadow pendant - 300,000 Zeny:Back");
 	if (.@choice == 6)
 		return;
 
@@ -1357,7 +1289,7 @@ S_Draw_F15:
 	return;
 
 S_Draw_F16:
-	.@choice = select("Any slot - 100,000 Zeny:Shadow armor - 300,000 Zeny:Shadow shoes - 300,000 Zeny:Shadow earring - 300,000 Zeny:Shadow pendant - 300,000 Zeny:Back");
+	.@choice = select("Any fourth-job slot - 100,000 Zeny:Shadow armor - 300,000 Zeny:Shadow shoes - 300,000 Zeny:Shadow earring - 300,000 Zeny:Shadow pendant - 300,000 Zeny:Back");
 	if (.@choice == 6)
 		return;
 
@@ -1578,103 +1510,91 @@ OnInit:
 	setarray .SPT16A[0],24414,24415;
 	setarray .SPT16R[0],24414;
 	setarray .SPT16S[0],24415;
-	setarray .SPF01A[0],24288,24301,24440,24441,24442,24443,24444,24445,24446,24447,24448,24449,24450,24451,24800,24801,24802,24803,24918,24919,24920,24921,1270023,1270024,1270025,1270026;
-	setarray .SPF01W[0],24288,24443,24449;
-	setarray .SPF01D[0],24301,24441,24447;
-	setarray .SPF01R[0],24440,24446,24800,24920,1270025;
-	setarray .SPF01S[0],24442,24448,24801,24921,1270026;
-	setarray .SPF01P[0],24444,24450,24803,24919,1270024;
-	setarray .SPF01E[0],24445,24451,24802,24918,1270023;
-	setarray .SPF02A[0],24289,24302,24572,24573,24574,24575,24576,24577,24578,24579,24580,24581,24582,24583,24804,24805,24806,24807,24948,24949,24950,24951,1270039,1270040,1270041,1270042;
-	setarray .SPF02W[0],24289,24575,24581;
-	setarray .SPF02D[0],24302,24573,24579;
-	setarray .SPF02R[0],24572,24578,24804,24950,1270041;
-	setarray .SPF02S[0],24574,24580,24805,24951,1270042;
-	setarray .SPF02P[0],24576,24582,24807,24949,1270040;
-	setarray .SPF02E[0],24577,24583,24806,24948,1270039;
-	setarray .SPF03A[0],24294,24307,24536,24537,24538,24539,24540,24541,24542,24543,24544,24545,24546,24547,24808,24809,24810,24811,24906,24907,24908,24909,1270079,1270080,1270081,1270082;
-	setarray .SPF03W[0],24294,24539,24545;
-	setarray .SPF03D[0],24307,24537,24543;
-	setarray .SPF03R[0],24536,24542,24808,24908,1270081;
-	setarray .SPF03S[0],24538,24544,24809,24909,1270082;
-	setarray .SPF03P[0],24540,24546,24811,24907,1270080;
-	setarray .SPF03E[0],24541,24547,24810,24906,1270079;
-	setarray .SPF04A[0],24295,24308,24524,24525,24526,24527,24528,24529,24530,24531,24532,24533,24534,24535,24812,24813,24814,24815,24983,24984,24985,24986,1270095,1270096,1270097,1270098;
-	setarray .SPF04W[0],24295,24527,24533;
-	setarray .SPF04D[0],24308,24525,24531;
-	setarray .SPF04R[0],24524,24530,24812,24985,1270097;
-	setarray .SPF04S[0],24526,24532,24813,24986,1270098;
-	setarray .SPF04P[0],24528,24534,24815,24984,1270096;
-	setarray .SPF04E[0],24529,24535,24814,24983,1270095;
-	setarray .SPF05A[0],24292,24305,24488,24489,24490,24491,24492,24493,24494,24495,24496,24497,24498,24499,24816,24817,24818,24819,24967,24968,24969,24970,1270115,1270116,1270117,1270118;
-	setarray .SPF05W[0],24292,24491,24497;
-	setarray .SPF05D[0],24305,24489,24495;
-	setarray .SPF05R[0],24488,24494,24816,24969,1270117;
-	setarray .SPF05S[0],24490,24496,24817,24970,1270118;
-	setarray .SPF05P[0],24492,24498,24819,24968,1270116;
-	setarray .SPF05E[0],24493,24499,24818,24967,1270115;
-	setarray .SPF06A[0],24293,24306,24476,24477,24478,24479,24480,24481,24482,24483,24484,24485,24486,24487,24820,24821,24822,24823,24952,24953,24954,24955,1270083,1270084,1270085,1270086;
-	setarray .SPF06W[0],24293,24479,24485;
-	setarray .SPF06D[0],24306,24477,24483;
-	setarray .SPF06R[0],24476,24482,24820,24954,1270085;
-	setarray .SPF06S[0],24478,24484,24821,24955,1270086;
-	setarray .SPF06P[0],24480,24486,24823,24953,1270084;
-	setarray .SPF06E[0],24481,24487,24822,24952,1270083;
-	setarray .SPF07A[0],24290,24303,24464,24465,24466,24467,24468,24469,24470,24471,24472,24473,24474,24475,24824,24825,24826,24827,24936,24937,24938,24939,1270035,1270036,1270037,1270038;
-	setarray .SPF07W[0],24290,24467,24473;
-	setarray .SPF07D[0],24303,24465,24471;
-	setarray .SPF07R[0],24464,24470,24824,24938,1270037;
-	setarray .SPF07S[0],24466,24472,24825,24939,1270038;
-	setarray .SPF07P[0],24468,24474,24827,24937,1270036;
-	setarray .SPF07E[0],24469,24475,24826,24936,1270035;
-	setarray .SPF08A[0],24291,24304,24560,24561,24562,24563,24564,24565,24566,24567,24568,24569,24570,24571,24828,24829,24830,24831,24940,24941,24942,24943,1270027,1270028,1270029,1270030;
-	setarray .SPF08W[0],24291,24563,24569;
-	setarray .SPF08D[0],24304,24561,24567;
-	setarray .SPF08R[0],24560,24566,24828,24942,1270029;
-	setarray .SPF08S[0],24562,24568,24829,24943,1270030;
-	setarray .SPF08P[0],24564,24570,24831,24941,1270028;
-	setarray .SPF08E[0],24565,24571,24830,24940,1270027;
-	setarray .SPF09A[0],24298,24311,24452,24453,24454,24455,24456,24457,24458,24459,24460,24461,24462,24463,24832,24833,24834,24835,24910,24911,24912,24913,1270130,1270131,1270132,1270133;
-	setarray .SPF09W[0],24298,24455,24461;
-	setarray .SPF09D[0],24311,24453,24459;
-	setarray .SPF09R[0],24452,24458,24832,24912,1270132;
-	setarray .SPF09S[0],24454,24460,24833,24913,1270133;
-	setarray .SPF09P[0],24456,24462,24835,24911,1270131;
-	setarray .SPF09E[0],24457,24463,24834,24910,1270130;
-	setarray .SPF10A[0],24299,24300,24312,24313,24500,24501,24502,24503,24504,24505,24506,24507,24508,24509,24510,24511,24836,24837,24838,24839,24922,24923,24924,24925,1270134,1270135,1270136,1270137;
-	setarray .SPF10W[0],24299,24300,24503,24509;
-	setarray .SPF10D[0],24312,24313,24501,24507;
-	setarray .SPF10R[0],24500,24506,24836,24924,1270136;
-	setarray .SPF10S[0],24502,24508,24837,24925,1270137;
-	setarray .SPF10P[0],24504,24510,24839,24923,1270135;
-	setarray .SPF10E[0],24505,24511,24838,24922,1270134;
-	setarray .SPF11A[0],24296,24309,24512,24513,24514,24515,24516,24517,24518,24519,24520,24521,24522,24523,24840,24841,24842,24843,24971,24972,24973,24974,1270091,1270092,1270093,1270094;
-	setarray .SPF11W[0],24296,24515,24521;
-	setarray .SPF11D[0],24309,24513,24519;
-	setarray .SPF11R[0],24512,24518,24840,24973,1270093;
-	setarray .SPF11S[0],24514,24520,24841,24974,1270094;
-	setarray .SPF11P[0],24516,24522,24843,24972,1270092;
-	setarray .SPF11E[0],24517,24523,24842,24971,1270091;
-	setarray .SPF12A[0],24297,24310,24548,24549,24550,24551,24552,24553,24554,24555,24556,24557,24558,24559,24844,24845,24846,24847,24979,24980,24981,24982,1270119,1270120,1270121,1270122;
-	setarray .SPF12W[0],24297,24551,24557;
-	setarray .SPF12D[0],24310,24549,24555;
-	setarray .SPF12R[0],24548,24554,24844,24981,1270121;
-	setarray .SPF12S[0],24550,24556,24845,24982,1270122;
-	setarray .SPF12P[0],24552,24558,24847,24980,1270120;
-	setarray .SPF12E[0],24553,24559,24846,24979,1270119;
+	setarray .SPF01A[0],24800,24801,24802,24803,24918,24919,24920,24921,1270023,1270024,1270025,1270026;
+
+	setarray .SPF01R[0],24800,24920,1270025;
+	setarray .SPF01S[0],24801,24921,1270026;
+	setarray .SPF01P[0],24803,24919,1270024;
+	setarray .SPF01E[0],24802,24918,1270023;
+	setarray .SPF02A[0],24804,24805,24806,24807,24948,24949,24950,24951,1270039,1270040,1270041,1270042;
+
+	setarray .SPF02R[0],24804,24950,1270041;
+	setarray .SPF02S[0],24805,24951,1270042;
+	setarray .SPF02P[0],24807,24949,1270040;
+	setarray .SPF02E[0],24806,24948,1270039;
+	setarray .SPF03A[0],24808,24809,24810,24811,24906,24907,24908,24909,1270079,1270080,1270081,1270082;
+
+	setarray .SPF03R[0],24808,24908,1270081;
+	setarray .SPF03S[0],24809,24909,1270082;
+	setarray .SPF03P[0],24811,24907,1270080;
+	setarray .SPF03E[0],24810,24906,1270079;
+	setarray .SPF04A[0],24812,24813,24814,24815,24983,24984,24985,24986,1270095,1270096,1270097,1270098;
+
+	setarray .SPF04R[0],24812,24985,1270097;
+	setarray .SPF04S[0],24813,24986,1270098;
+	setarray .SPF04P[0],24815,24984,1270096;
+	setarray .SPF04E[0],24814,24983,1270095;
+	setarray .SPF05A[0],24816,24817,24818,24819,24967,24968,24969,24970,1270115,1270116,1270117,1270118;
+
+	setarray .SPF05R[0],24816,24969,1270117;
+	setarray .SPF05S[0],24817,24970,1270118;
+	setarray .SPF05P[0],24819,24968,1270116;
+	setarray .SPF05E[0],24818,24967,1270115;
+	setarray .SPF06A[0],24820,24821,24822,24823,24952,24953,24954,24955,1270083,1270084,1270085,1270086;
+
+	setarray .SPF06R[0],24820,24954,1270085;
+	setarray .SPF06S[0],24821,24955,1270086;
+	setarray .SPF06P[0],24823,24953,1270084;
+	setarray .SPF06E[0],24822,24952,1270083;
+	setarray .SPF07A[0],24824,24825,24826,24827,24936,24937,24938,24939,1270035,1270036,1270037,1270038;
+
+	setarray .SPF07R[0],24824,24938,1270037;
+	setarray .SPF07S[0],24825,24939,1270038;
+	setarray .SPF07P[0],24827,24937,1270036;
+	setarray .SPF07E[0],24826,24936,1270035;
+	setarray .SPF08A[0],24828,24829,24830,24831,24940,24941,24942,24943,1270027,1270028,1270029,1270030;
+
+	setarray .SPF08R[0],24828,24942,1270029;
+	setarray .SPF08S[0],24829,24943,1270030;
+	setarray .SPF08P[0],24831,24941,1270028;
+	setarray .SPF08E[0],24830,24940,1270027;
+	setarray .SPF09A[0],24832,24833,24834,24835,24910,24911,24912,24913,1270130,1270131,1270132,1270133;
+
+	setarray .SPF09R[0],24832,24912,1270132;
+	setarray .SPF09S[0],24833,24913,1270133;
+	setarray .SPF09P[0],24835,24911,1270131;
+	setarray .SPF09E[0],24834,24910,1270130;
+	setarray .SPF10A[0],24836,24837,24838,24839,24922,24923,24924,24925,1270134,1270135,1270136,1270137;
+
+	setarray .SPF10R[0],24836,24924,1270136;
+	setarray .SPF10S[0],24837,24925,1270137;
+	setarray .SPF10P[0],24839,24923,1270135;
+	setarray .SPF10E[0],24838,24922,1270134;
+	setarray .SPF11A[0],24840,24841,24842,24843,24971,24972,24973,24974,1270091,1270092,1270093,1270094;
+
+	setarray .SPF11R[0],24840,24973,1270093;
+	setarray .SPF11S[0],24841,24974,1270094;
+	setarray .SPF11P[0],24843,24972,1270092;
+	setarray .SPF11E[0],24842,24971,1270091;
+	setarray .SPF12A[0],24844,24845,24846,24847,24979,24980,24981,24982,1270119,1270120,1270121,1270122;
+
+	setarray .SPF12R[0],24844,24981,1270121;
+	setarray .SPF12S[0],24845,24982,1270122;
+	setarray .SPF12P[0],24847,24980,1270120;
+	setarray .SPF12E[0],24846,24979,1270119;
 	setarray .SPF13A[0],24852,24853,24854,24855,24956,24957,24958,24959,1270031,1270032,1270033,1270034;
 	setarray .SPF13R[0],24852,24958,1270033;
 	setarray .SPF13S[0],24853,24959,1270034;
 	setarray .SPF13E[0],24854,24956,1270031;
 	setarray .SPF13P[0],24855,24957,1270032;
-	setarray .SPF14A[0],24412,24413,24860,24861,24862,24863,24975,24976,24977,24978,1270099,1270100,1270101,1270102;
-	setarray .SPF14R[0],24412,24860,24977,1270101;
-	setarray .SPF14S[0],24413,24861,24978,1270102;
+	setarray .SPF14A[0],24860,24861,24862,24863,24975,24976,24977,24978,1270099,1270100,1270101,1270102;
+	setarray .SPF14R[0],24860,24977,1270101;
+	setarray .SPF14S[0],24861,24978,1270102;
 	setarray .SPF14E[0],24862,24975,1270099;
 	setarray .SPF14P[0],24863,24976,1270100;
-	setarray .SPF15A[0],24414,24415,24864,24865,24866,24867,24987,24988,24989,24990,1270043,1270044,1270045,1270046;
-	setarray .SPF15R[0],24414,24864,24989,1270045;
-	setarray .SPF15S[0],24415,24865,24990,1270046;
+	setarray .SPF15A[0],24864,24865,24866,24867,24987,24988,24989,24990,1270043,1270044,1270045,1270046;
+	setarray .SPF15R[0],24864,24989,1270045;
+	setarray .SPF15S[0],24865,24990,1270046;
 	setarray .SPF15E[0],24866,24987,1270043;
 	setarray .SPF15P[0],24867,24988,1270044;
 	setarray .SPF16A[0],24868,24869,24870,24871,24944,24945,24946,24947,1270087,1270088,1270089,1270090;

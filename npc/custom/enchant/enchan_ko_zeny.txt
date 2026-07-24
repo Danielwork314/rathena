@@ -77,7 +77,7 @@ que_ng,77,20,3	script	Artisan Tene#custom_zeny	762,{
 		mes "Since I use a stable and unique way of adding options, there are no risks of ^ff0000'Reset Refine'^000000 or ^ff0000'Losing Cards'^000000 equipped.";
 		next;
 		mes "[Artisan Tene]";
-		mes "But since the costs of materials are high, I only ask for a ^5565AA small cost^000000 for my services with the exception of the material expenses.";
+		mes "This custom service does not require additional materials. You only need compatible equipped gear and the stated Zeny fee.";
 		next;
 		mes "[Artisan Tene]";
 		mes "Ha ha. I must have talked too much. Which class of equipment do you want to add an option to?";

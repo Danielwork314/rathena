@@ -1,0 +1,193 @@
+Job Family,Slot,Item ID,AegisName,Display Name,Fourth-only validation
+Dragon Knight,Shadow Armor,24800,S_DK_Armor,M. Dragon Knight Shadow Armor,PASS
+Dragon Knight,Shadow Armor,24920,S_DK_HS_Armor,Hack Slasher Shadow Armor,PASS
+Dragon Knight,Shadow Armor,1270025,S_DK_MB_Armor,Madness Breath Shadow Armor,PASS
+Dragon Knight,Shadow Shoes,24801,S_DK_Shoes,M. Dragon Knight Shadow Shoes,PASS
+Dragon Knight,Shadow Shoes,24921,S_DK_HS_Shoes,Hack Slasher Shadow Shoes,PASS
+Dragon Knight,Shadow Shoes,1270026,S_DK_MB_Shoes,Madness Breath Shadow Shoes,PASS
+Dragon Knight,Shadow Earring,24802,S_DK_Earring,M. Dragon Knight Shadow Earring,PASS
+Dragon Knight,Shadow Earring,24918,S_DK_SS_Earring,Storm Servant Shadow Earring,PASS
+Dragon Knight,Shadow Earring,1270023,S_DK_DS_Earring,Dragonic Spear Shadow Earring,PASS
+Dragon Knight,Shadow Pendant,24803,S_DK_Pendant,M. Dragon Knight Shadow Pendant,PASS
+Dragon Knight,Shadow Pendant,24919,S_DK_SS_Pendant,Storm Servant Shadow Pendant,PASS
+Dragon Knight,Shadow Pendant,1270024,S_DK_DS_Pendant,Dragonic Spear Shadow Pendant,PASS
+Imperial Guard,Shadow Armor,24804,S_IG_Armor,M. Imperial Guard Shadow Armor,PASS
+Imperial Guard,Shadow Armor,24950,S_IG_RF_Armor,Rain Pressure Shadow Armor,PASS
+Imperial Guard,Shadow Armor,1270041,S_IG_SS_Armor,Shield Shooter Shadow Armor,PASS
+Imperial Guard,Shadow Shoes,24805,S_IG_Shoes,M. Imperial Guard Shadow Shoes,PASS
+Imperial Guard,Shadow Shoes,24951,S_IG_RF_Shoes,Rain Pressure Shadow Shoes,PASS
+Imperial Guard,Shadow Shoes,1270042,S_IG_SS_Shoes,Shield Shooter Shadow Shoes,PASS
+Imperial Guard,Shadow Earring,24806,S_IG_Earring,M. Imperial Guard Shadow Earring,PASS
+Imperial Guard,Shadow Earring,24948,S_IG_OC_Earring,Over Cross Shadow Earring,PASS
+Imperial Guard,Shadow Earring,1270039,S_IG_RS_Earring,Radiant Shadow Earring,PASS
+Imperial Guard,Shadow Pendant,24807,S_IG_Pendant,M. Imperial Guard Shadow Pendant,PASS
+Imperial Guard,Shadow Pendant,24949,S_IG_OC_Pendant,Over Cross Shadow Pendant,PASS
+Imperial Guard,Shadow Pendant,1270040,S_IG_RS_Pendant,Radiant Shadow Pendant,PASS
+Shadow Cross,Shadow Armor,24808,S_SHC_Armor,M. Shadow Cross Shadow Armor,PASS
+Shadow Cross,Shadow Armor,24908,S_SHC_SI_Armor,Savage Shadow Armor,PASS
+Shadow Cross,Shadow Armor,1270081,S_SHC_ST_Armor,Stab Shadow Armor,PASS
+Shadow Cross,Shadow Shoes,24809,S_SHC_Shoes,M. Shadow Cross Shadow Shoes,PASS
+Shadow Cross,Shadow Shoes,24909,S_SHC_SI_Shoes,Savage Shadow Shoes,PASS
+Shadow Cross,Shadow Shoes,1270082,S_SHC_ST_Shoes,Stab Shadow Shoes,PASS
+Shadow Cross,Shadow Earring,24810,S_SHC_Earring,M. Shadow Cross Shadow Earring,PASS
+Shadow Cross,Shadow Earring,24906,S_SHC_EC_Earring,Eternal Cross Shadow Earring,PASS
+Shadow Cross,Shadow Earring,1270079,S_SHC_CR_Earring,Crater Shadow Earring,PASS
+Shadow Cross,Shadow Pendant,24811,S_SHC_Pendant,M. Shadow Cross Shadow Pendant,PASS
+Shadow Cross,Shadow Pendant,24907,S_SHC_EC_Pendant,Eternal Cross Shadow Pendant,PASS
+Shadow Cross,Shadow Pendant,1270080,S_SHC_CR_Pendant,Crater Shadow Pendant,PASS
+Abyss Chaser,Shadow Armor,24812,S_ABC_Armor,M. Abyss Chaser Shadow Armor,PASS
+Abyss Chaser,Shadow Armor,24985,S_ABC_FA_Armor,From Abyss Shadow Armor,PASS
+Abyss Chaser,Shadow Armor,1270097,S_ABC_FR_Armor,Frenzy Reaction Shot Shadow Armor,PASS
+Abyss Chaser,Shadow Shoes,24813,S_ABC_Shoes,M. Abyss Chaser Shadow Shoes,PASS
+Abyss Chaser,Shadow Shoes,24986,S_ABC_FA_Shoes,From Abyss Shadow Shoes,PASS
+Abyss Chaser,Shadow Shoes,1270098,S_ABC_FR_Shoes,Frenzy Reaction Shot Shadow Shoes,PASS
+Abyss Chaser,Shadow Earring,24814,S_ABC_Earring,M. Abyss Chaser Shadow Earring,PASS
+Abyss Chaser,Shadow Earring,24983,S_ABC_AF_Earring,Abyss Flame Shadow Earring,PASS
+Abyss Chaser,Shadow Earring,1270095,S_ABC_DB_Earring,Deft Breaker Shadow Earring,PASS
+Abyss Chaser,Shadow Pendant,24815,S_ABC_Pendant,M. Abyss Chaser Shadow Pendant,PASS
+Abyss Chaser,Shadow Pendant,24984,S_ABC_AF_Pendant,Abyss Flame Shadow Pendant,PASS
+Abyss Chaser,Shadow Pendant,1270096,S_ABC_DB_Pendant,Deft Breaker Shadow Pendant,PASS
+Cardinal,Shadow Armor,24816,S_CD_Armor,M. Cardinal Shadow Armor,PASS
+Cardinal,Shadow Armor,24969,S_CD_DF_Armor,Divinus Shadow Armor,PASS
+Cardinal,Shadow Armor,1270117,S_CD_EP_Armor,Effltio Shadow Armor,PASS
+Cardinal,Shadow Shoes,24817,S_CD_Shoes,M. Cardinal Shadow Shoes,PASS
+Cardinal,Shadow Shoes,24970,S_CD_DF_Shoes,Divinus Shadow Shoes,PASS
+Cardinal,Shadow Shoes,1270118,S_CD_EP_Shoes,Effltio Shadow Shoes,PASS
+Cardinal,Shadow Earring,24818,S_CD_Earring,M. Cardinal Shadow Earring,PASS
+Cardinal,Shadow Earring,24967,S_CD_AR_Earring,Arbit Shadow Earring,PASS
+Cardinal,Shadow Earring,1270115,S_CD_FP_Earring,Fracella Shadow Earring,PASS
+Cardinal,Shadow Pendant,24819,S_CD_Pendant,M. Cardinal Shadow Pendant,PASS
+Cardinal,Shadow Pendant,24968,S_CD_AR_Pendant,Arbit Shadow Pendant,PASS
+Cardinal,Shadow Pendant,1270116,S_CD_FP_Pendant,Fracella Shadow Pendant,PASS
+Inquisitor,Shadow Armor,24820,S_IQ_Armor,M. Inquisitor Shadow Armor,PASS
+Inquisitor,Shadow Armor,24954,S_IQ_BFB_Armor,Blazing Flame Blast Shadow Armor,PASS
+Inquisitor,Shadow Armor,1270085,S_IQ_FB_Armor,Flame Bomb Shadow Armor,PASS
+Inquisitor,Shadow Shoes,24821,S_IQ_Shoes,M. Inquisitor Shadow Shoes,PASS
+Inquisitor,Shadow Shoes,24955,S_IQ_BFB_Shoes,Blazing Flame Blast Shadow Shoes,PASS
+Inquisitor,Shadow Shoes,1270086,S_IQ_FB_Shoes,Flame Bomb Shadow Shoes,PASS
+Inquisitor,Shadow Earring,24822,S_IQ_Earring,M. Inquisitor Shadow Earring,PASS
+Inquisitor,Shadow Earring,24952,S_IQ_EB_Earring,Explosion Shadow Earring,PASS
+Inquisitor,Shadow Earring,1270083,S_IQ_TP_Earring,Punish Shadow Earring,PASS
+Inquisitor,Shadow Pendant,24823,S_IQ_Pendant,M. Inquisitor Shadow Pendant,PASS
+Inquisitor,Shadow Pendant,24953,S_IQ_EB_Pendant,Explosion Shadow Pendant,PASS
+Inquisitor,Shadow Pendant,1270084,S_IQ_TP_Pendant,Punish Shadow Pendant,PASS
+Meister,Shadow Armor,24824,S_MT_Armor,M. Meister Shadow Armor,PASS
+Meister,Shadow Armor,24938,S_MT_PR_Armor,Powerful Rush Shadow Armor,PASS
+Meister,Shadow Armor,1270037,S_MT_SC_Armor,Spark Cannonade Shadow Armor,PASS
+Meister,Shadow Shoes,24825,S_MT_Shoes,M. Meister Shadow Shoes,PASS
+Meister,Shadow Shoes,24939,S_MT_PR_Shoes,Powerful Rush Shadow Shoes,PASS
+Meister,Shadow Shoes,1270038,S_MT_SC_Shoes,Spark Cannonade Shadow Shoes,PASS
+Meister,Shadow Earring,24826,S_MT_Earring,M. Meister Shadow Earring,PASS
+Meister,Shadow Earring,24936,S_MT_MS_Earring,Mighty Stomp Shadow Earring,PASS
+Meister,Shadow Earring,1270035,S_MT_TL_Earring,Triple Shadow Earring,PASS
+Meister,Shadow Pendant,24827,S_MT_Pendant,M. Meister Shadow Pendant,PASS
+Meister,Shadow Pendant,24937,S_MT_MS_Pendant,Mighty Stomp Shadow Pendant,PASS
+Meister,Shadow Pendant,1270036,S_MT_TL_Pendant,Triple Shadow Pendant,PASS
+Biolo,Shadow Armor,24828,S_BO_Armor,M. Biolo Shadow Armor,PASS
+Biolo,Shadow Armor,24942,S_BO_MD_Armor,Mystery Dust Shadow Armor,PASS
+Biolo,Shadow Armor,1270029,S_BO_TH_Armor,Thorns Shadow Armor,PASS
+Biolo,Shadow Shoes,24829,S_BO_Shoes,M. Biolo Shadow Shoes,PASS
+Biolo,Shadow Shoes,24943,S_BO_MD_Shoes,Mystery Dust Shadow Shoes,PASS
+Biolo,Shadow Shoes,1270030,S_BO_TH_Shoes,Thorns Shadow Shoes,PASS
+Biolo,Shadow Earring,24830,S_BO_Earring,M. Biolo Shadow Earring,PASS
+Biolo,Shadow Earring,24940,S_BO_EP_Earring,Explosive Shadow Earring,PASS
+Biolo,Shadow Earring,1270027,S_BO_AC_Earring,Acidified Shadow Earring,PASS
+Biolo,Shadow Pendant,24831,S_BO_Pendant,M. Biolo Shadow Pendant,PASS
+Biolo,Shadow Pendant,24941,S_BO_EP_Pendant,Explosive Shadow Pendant,PASS
+Biolo,Shadow Pendant,1270028,S_BO_AC_Pendant,Acidified Shadow Pendant,PASS
+Windhawk,Shadow Armor,24832,S_WH_Armor,M. Windhawk Shadow Armor,PASS
+Windhawk,Shadow Armor,24912,S_WH_CB_Armor,Crescive Shadow Armor,PASS
+Windhawk,Shadow Armor,1270132,S_WH_AT_Armor,Advanced Trap Shadow Armor,PASS
+Windhawk,Shadow Shoes,24833,S_WH_Shoes,M. Windhawk Shadow Shoes,PASS
+Windhawk,Shadow Shoes,24913,S_WH_CB_Shoes,Crescive Shadow Shoes,PASS
+Windhawk,Shadow Shoes,1270133,S_WH_AT_Shoes,Advanced Trap Shadow Shoes,PASS
+Windhawk,Shadow Earring,24834,S_WH_Earring,M. Windhawk Shadow Earring,PASS
+Windhawk,Shadow Earring,24910,S_WH_GS_Earring,Gale Shadow Earring,PASS
+Windhawk,Shadow Earring,1270130,S_WH_WH_Earring,Wild Hawk Shadow Earring,PASS
+Windhawk,Shadow Pendant,24835,S_WH_Pendant,M. Windhawk Shadow Pendant,PASS
+Windhawk,Shadow Pendant,24911,S_WH_GS_Pendant,Gale Shadow Pendant,PASS
+Windhawk,Shadow Pendant,1270131,S_WH_WH_Pendant,Wild Hawk Shadow Pendant,PASS
+Troubadour / Trouvere,Shadow Armor,24836,S_TR_Armor,M. Troubadour & Trouvere Shadow Armor,PASS
+Troubadour / Trouvere,Shadow Armor,24924,S_TR_MF_Armor,Metallic Fury Shadow Armor,PASS
+Troubadour / Trouvere,Shadow Armor,1270136,S_TR_RB_Armor,Blossom Shadow Armor,PASS
+Troubadour / Trouvere,Shadow Shoes,24837,S_TR_Shoes,M. Troubadour & Trouvere Shadow Shoes,PASS
+Troubadour / Trouvere,Shadow Shoes,24925,S_TR_MF_Shoes,Metallic Fury Shadow Shoes,PASS
+Troubadour / Trouvere,Shadow Shoes,1270137,S_TR_RB_Shoes,Blossom Shadow Shoes,PASS
+Troubadour / Trouvere,Shadow Earring,24838,S_TR_Earring,M. Troubadour & Trouvere Shadow Earring,PASS
+Troubadour / Trouvere,Shadow Earring,24922,S_TR_RW_Earring,Rhythmical Shadow Earring,PASS
+Troubadour / Trouvere,Shadow Earring,1270134,S_TR_MS_Earring,Musical Shooting Shadow Earring,PASS
+Troubadour / Trouvere,Shadow Pendant,24839,S_TR_Pendant,M. Troubadour & Trouvere Shadow Pendant,PASS
+Troubadour / Trouvere,Shadow Pendant,24923,S_TR_RW_Pendant,Rhythmical Shadow Pendant,PASS
+Troubadour / Trouvere,Shadow Pendant,1270135,S_TR_MS_Pendant,Musical Shooting Shadow Pendant,PASS
+Arch Mage,Shadow Armor,24840,S_AG_Armor,M. Arch Mage Shadow Armor,PASS
+Arch Mage,Shadow Armor,24973,S_AG_SH_Armor,Storm Hurricane Shadow Armor,PASS
+Arch Mage,Shadow Armor,1270093,S_AG_VST_Armor,Violent Soul Tremor Shadow Armor,PASS
+Arch Mage,Shadow Shoes,24841,S_AG_Shoes,M. Arch Mage Shadow Shoes,PASS
+Arch Mage,Shadow Shoes,24974,S_AG_SH_Shoes,Storm Hurricane Shadow Shoes,PASS
+Arch Mage,Shadow Shoes,1270094,S_AG_VST_Shoes,Violent Soul Tremor Shadow Shoes,PASS
+Arch Mage,Shadow Earring,24842,S_AG_Earring,M. Arch Mage Shadow Earring,PASS
+Arch Mage,Shadow Earring,24971,S_AG_FB_Earring,Flare Bloom Shadow Earring,PASS
+Arch Mage,Shadow Earring,1270091,S_AG_CI_Earring,Crystal Illusion Shadow Earring,PASS
+Arch Mage,Shadow Pendant,24843,S_AG_Pendant,M. Arch Mage Shadow Pendant,PASS
+Arch Mage,Shadow Pendant,24972,S_AG_FB_Pendant,Flare Bloom Shadow Pendant,PASS
+Arch Mage,Shadow Pendant,1270092,S_AG_CI_Pendant,Crystal Illusion Shadow Pendant,PASS
+Elemental Master,Shadow Armor,24844,S_EM_Armor,M. Elemental Master Shadow Armor,PASS
+Elemental Master,Shadow Armor,24981,S_EM_LS_Armor,Lightning Swamp Shadow Armor,PASS
+Elemental Master,Shadow Armor,1270121,S_EM_TP_Armor,Terra Stream Shadow Armor,PASS
+Elemental Master,Shadow Shoes,24845,S_EM_Shoes,M. Elemental Master Shadow Shoes,PASS
+Elemental Master,Shadow Shoes,24982,S_EM_LS_Shoes,Lightning Swamp Shadow Shoes,PASS
+Elemental Master,Shadow Shoes,1270122,S_EM_TP_Shoes,Terra Stream Shadow Shoes,PASS
+Elemental Master,Shadow Earring,24846,S_EM_Earring,M. Elemental Master Shadow Earring,PASS
+Elemental Master,Shadow Earring,24979,S_EM_CO_Earring,Conflagrative Shadow Earring,PASS
+Elemental Master,Shadow Earring,1270119,S_EM_DS_Earring,Diamond Shadow Earring,PASS
+Elemental Master,Shadow Pendant,24847,S_EM_Pendant,M. Elemental Master Shadow Pendant,PASS
+Elemental Master,Shadow Pendant,24980,S_EM_CO_Pendant,Conflagrative Shadow Pendant,PASS
+Elemental Master,Shadow Pendant,1270120,S_EM_DS_Pendant,Diamond Shadow Pendant,PASS
+Spirit Handler,Shadow Armor,24852,S_SH_Armor,M. Spirit Handler Shadow Armor,PASS
+Spirit Handler,Shadow Armor,24958,S_SU_HB_Armor,Hogogong Battering Shadow Armor,PASS
+Spirit Handler,Shadow Armor,1270033,S_SU_BSP_Armor,Hyunrok Breeze Spirit Shadow Armor,PASS
+Spirit Handler,Shadow Shoes,24853,S_SH_Shoes,M. Spirit Handler Shadow Shoes,PASS
+Spirit Handler,Shadow Shoes,24959,S_SU_HB_Shoes,Hogogong Battering Shadow Shoes,PASS
+Spirit Handler,Shadow Shoes,1270034,S_SU_BSP_Shoes,Hyunrok Breeze Spirit Shadow Shoes,PASS
+Spirit Handler,Shadow Earring,24854,S_SH_Earring,M. Spirit Handler Shadow Earring,PASS
+Spirit Handler,Shadow Earring,24956,S_SU_CS_Earring,Chulho Claw Shadow Earring,PASS
+Spirit Handler,Shadow Earring,1270031,S_SU_HRC_Earring,Hyunrok Cannon Shadow Earring,PASS
+Spirit Handler,Shadow Pendant,24855,S_SH_Pendant,M. Spirit Handler Shadow Pendant,PASS
+Spirit Handler,Shadow Pendant,24957,S_SU_CS_Pendant,Chulho Claw Shadow Pendant,PASS
+Spirit Handler,Shadow Pendant,1270032,S_SU_HRC_Pendant,Hyunrok Cannon Shadow Pendant,PASS
+Sky Emperor,Shadow Armor,24860,S_SKE_Armor,M. Sky Emperor Shadow Armor,PASS
+Sky Emperor,Shadow Armor,24977,S_SKE_SB_Armor,Sunset Blast Shadow Armor,PASS
+Sky Emperor,Shadow Armor,1270101,S_SKE_DB_Armor,Dawn Break Shot Shadow Armor,PASS
+Sky Emperor,Shadow Shoes,24861,S_SKE_Shoes,M. Sky Emperor Shadow Shoes,PASS
+Sky Emperor,Shadow Shoes,24978,S_SKE_SB_Shoes,Sunset Blast Shadow Shoes,PASS
+Sky Emperor,Shadow Shoes,1270102,S_SKE_DB_Shoes,Dawn Break Shadow Shoes,PASS
+Sky Emperor,Shadow Earring,24862,S_SKE_Earring,M. Sky Emperor Shadow Earring,PASS
+Sky Emperor,Shadow Earring,24975,S_SKE_NS_Earring,Noon Sun Shadow Earring,PASS
+Sky Emperor,Shadow Earring,1270099,S_SKE_MS_Earring,Midnight Kick Shadow Earring,PASS
+Sky Emperor,Shadow Pendant,24863,S_SKE_Pendant,M. Sky Emperor Shadow Pendant,PASS
+Sky Emperor,Shadow Pendant,24976,S_SKE_NS_Pendant,Noon Sun Shadow Pendant,PASS
+Sky Emperor,Shadow Pendant,1270100,S_SKE_MS_Pendant,Midnight Kick Shadow Pendant,PASS
+Soul Ascetic,Shadow Armor,24864,S_SOA_Armor,M. Soul Ascetic Shadow Armor,PASS
+Soul Ascetic,Shadow Armor,24989,S_SOA_TOFG_Armor,Four Bearing God Shadow Armor,PASS
+Soul Ascetic,Shadow Armor,1270045,S_SOA_MS_Armor,Exorcism of Malicious Soul Shadow Armor,PASS
+Soul Ascetic,Shadow Shoes,24865,S_SOA_Shoes,M. Soul Ascetic Shadow Shoes,PASS
+Soul Ascetic,Shadow Shoes,24990,S_SOA_TOFG_Shoes,Four Bearing God Shadow Shoes,PASS
+Soul Ascetic,Shadow Shoes,1270046,S_SOA_MS_Shoes,Exorcism of Malicious Soul Shadow Shoes,PASS
+Soul Ascetic,Shadow Earring,24866,S_SOA_Earring,M. Soul Ascetic Shadow Earring,PASS
+Soul Ascetic,Shadow Earring,24987,S_SOA_TOWB_Earring,Talisman of White Black Shadow Earring,PASS
+Soul Ascetic,Shadow Earring,1270043,S_SOA_TS_Earring,Talisman of Red Blue Shadow Earring,PASS
+Soul Ascetic,Shadow Pendant,24867,S_SOA_Pendant,M. Soul Ascetic Shadow Pendant,PASS
+Soul Ascetic,Shadow Pendant,24988,S_SOA_TOWB_Pendant,Talisman of White Black Shadow Pendant,PASS
+Soul Ascetic,Shadow Pendant,1270044,S_SOA_TS_Pendant,Talisman of Red Blue Shadow Pendant,PASS
+Hyper Novice,Shadow Armor,24868,S_HN_Armor,M. Hyper Novice Shadow Armor,PASS
+Hyper Novice,Shadow Armor,24946,S_HN_TB_Armor,Thunder Buster Shadow Armor,PASS
+Hyper Novice,Shadow Armor,1270089,S_HN_DB_Armor,Double Blow Shadow Armor,PASS
+Hyper Novice,Shadow Shoes,24869,S_HN_Shoes,M. Hyper Novice Shadow Shoes,PASS
+Hyper Novice,Shadow Shoes,24947,S_HN_TB_Shoes,Thunder Buster Cannon Shadow Shoes,PASS
+Hyper Novice,Shadow Shoes,1270090,S_HN_DB_Shoes,Double Blow Shadow Shoes,PASS
+Hyper Novice,Shadow Earring,24870,S_HN_Earring,M. Hyper Novice Shadow Earring,PASS
+Hyper Novice,Shadow Earring,24944,S_HN_VJ_Earring,Vulcan Jack Shadow Earring,PASS
+Hyper Novice,Shadow Earring,1270087,S_HN_MC_Earring,Max Chain Shadow Earring,PASS
+Hyper Novice,Shadow Pendant,24871,S_HN_Pendant,M. Hyper Novice Shadow Pendant,PASS
+Hyper Novice,Shadow Pendant,24945,S_HN_VJ_Pendant,Vulcan Jack Shadow Pendant,PASS
+Hyper Novice,Shadow Pendant,1270088,S_HN_MC_Pendant,Max Chain Shadow Pendant,PASS

@@ -125,7 +125,7 @@ sp_cor,104,136,3	script	RS26#custom_zeny	4_SYS_MSG,{
 				close;
 			case 3:
 				mes "[RS26]";
-				mes "You need to have a module that matches the efficacy to proceed with enhancement.";
+				mes "That module effect is not compatible with this equipment. No module item is required by this Zeny service.";
 				close;
 			case 4:
 				mes "[RS26]";

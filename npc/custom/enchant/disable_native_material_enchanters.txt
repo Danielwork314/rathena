@@ -1,0 +1,51 @@
+//===== rAthena Script =======================================
+//= Native Material Enchanter Guard
+//===== Description: =========================================
+//= Hides original material-cost enchant NPCs when equivalent
+//= custom Zeny-only services are enabled. Target equipment is
+//= still required; only additional material currencies are removed.
+//============================================================
+
+-	script	NativeMaterialEnchanterGuard	-1,{
+OnInit:
+	setarray .NativeNpc$[0],
+		"Apprentice Craftsman",
+		"Seiyablem#pay",
+		"Seiyablem#lhz",
+		"Seiyablem#prt",
+		"Seiyablem#moc",
+		"Leablem#pay",
+		"Leablem#lhz",
+		"Leablem#prt",
+		"Leablem#moc",
+		"RS26#illusion_enchant",
+		"Master of Relics#pa0829",
+		"Artifact Researcher#new",
+		"Master Tailor#pa0829",
+		"Pendant Crafter#pa0829",
+		"Bulberry Westhood#pa0829",
+		"Temple Item Manager#0hmoon",
+		"Sorcerer#Bio4Reward",
+		"Devil Enchant Master#prq",
+		"Black Beard Joe#pa0829",
+		"Aver De Dosh#cos_ect",
+		"Lace La Zard#cos_ect",
+		"Artifact Enhancer#pa0829_01",
+		"Artisan Tene#ko",
+		"Lisa#ep172_merchant",
+		"Illusion Enchanter#0",
+		"Contraband Processor#pa",
+		"Mass Charleston#2",
+		"MARS_01#pa0829",
+		"Hugin's Magician#pa0829",
+		"Dark magic master#pa082",
+		"Mayomayo#mal",
+		"Expert Enchanter Byrnes",
+		"Wandering Mind#JCv2";
+
+	for (.@i = 0; .@i < getarraysize(.NativeNpc$); ++.@i) {
+		if (getnpcid(0, .NativeNpc$[.@i]))
+			disablenpc .NativeNpc$[.@i];
+	}
+	end;
+}

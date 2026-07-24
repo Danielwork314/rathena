@@ -40,7 +40,7 @@ lhz_cube,235,24,4	script	Sorcerer#custom_zeny	4_M_UMDANCEKID,{
 		mes "And I entered to the laboratory here in order to investigate and oh gosh! I found those monsters which were like doppelgangers from 'Geffen Dungeon'. It was full of them.";
 		next;
 		mes "[Pudding]";
-		mes "From those monsters, I could find rare items like '^F2766EWill of Warrior^000000', '^952420Thirst for Blood^000000', and '^88C6F7Chill of the Dead^000000' which you cannot find in any other place.";
+		mes "The original process used Will of Warrior, Thirst for Blood and Chill of the Dead, but this custom service replaces those materials with Zeny fees.";
 		next;
 		emotion ET_QUESTION;
 		mes "[Pudding]";
@@ -97,7 +97,7 @@ lhz_cube,235,24,4	script	Sorcerer#custom_zeny	4_M_UMDANCEKID,{
 		mes "What do you say? Having both options.....quite nice, huh?";
 		next;
 		mes "[Pudding]";
-		mes "Equip a compatible Bio Laboratory item and bring 500,000 Zeny. I will be waiting.";
+		mes "Equip a compatible Bio Laboratory item and bring 500,000 Zeny. No additional material item is required.";
 		close;
 	case 3:
 		mes "[Pudding]";
@@ -114,7 +114,7 @@ lhz_cube,235,24,4	script	Sorcerer#custom_zeny	4_M_UMDANCEKID,{
 			switch(select("Ok, I don't have to know more.", "7 Armors", "14 Weapons")) {
 			case 1:
 				mes "[Pudding]";
-				mes "Equip a compatible Bio Laboratory item and bring 500,000 Zeny. I will be waiting.";
+				mes "Equip a compatible Bio Laboratory item and bring 500,000 Zeny. No additional material item is required.";
 				close;
 			case 2:
 				mes "< Armor List >";
