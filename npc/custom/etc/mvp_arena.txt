@@ -1,35 +1,50 @@
 //===== rAthena Script =======================================
-//= Complete Implemented MVP Arena
+//= Complete Unique MVP Arena
+//===== Based On: ============================================
+//= Darkchild's MVP Arena 1.4 structure
 //===== Description: =========================================
-//= Summon-based MVP arena containing every unique MVP that is:
-//= 1) defined as an MVP in db/re/mob_db.yml; and
-//= 2) referenced by an enabled field, quest, event, or instance script.
+//= One dedicated shared room per unique normally playable MVP.
+//= Each room contains exactly 3 copies of the same MVP ID.
+//= Every defeated slot respawns after exactly 30 seconds.
 //=
-//= Exact duplicate IDs are removed. Distinct difficulty/element variants
-//= remain available and are identified by their level in the menu.
+//= Validation rules:
+//= 1) Modes.Mvp: true in current Renewal mob_db.yml;
+//= 2) referenced by an enabled Renewal field/quest/event/instance script;
+//= 3) unique Monster ID and unique visible MVP name;
+//= 4) ordinarily damageable without its original instance controller.
+//=
+//= The original client supplies only 40 pvp_n maps, while this validated
+//= roster contains 151 unique MVP names. Rooms therefore use shared IM_NONE
+//= instances of pvp_n_1-1, created on demand and destroyed after 5 idle minutes.
 //============================================================
 
+// Entrance
 prontera,154,197,3	script	MVP Warper	768,{
-	mes "[MVP Warper]";
-	mes "Enter the Complete MVP Arena?";
-	mes "The arena contains ^0055FF155 unique implemented MVP IDs^000000, including instance MVPs.";
+	mes "[ ^0065DFMVP Warper^000000 ]";
+	mes "Would you like to enter";
+	mes "the Complete MVP Arena?";
+	mes " ";
+	mes "^0055FF151 unique normally playable MVPs^000000";
+	mes "One MVP type per room, 3 copies per room.";
 	next;
-	if (select("Enter:Cancel") == 2) close;
+	if (select("Enter:Cancel") == 2)
+		close;
 	warp "quiz_00",50,24;
 	close;
 }
 
+// Information
 quiz_00,49,31,4	script	MVP Arena Guide	778,{
-	mes "[MVP Arena Guide]";
-	mes "Choose a level group, then select one of eight arena copies.";
-	mes "Each room allows only ^FF0000one active MVP at a time^000000.";
+	mes "[ ^0065DFMVP Arena Guide^000000 ]";
+	mes "Choose a level Keeper and then choose an MVP.";
+	mes "Each MVP has its own shared room containing exactly ^FF00003 identical copies^000000.";
 	next;
-	switch(select("Arena information:Heal me:Return to Prontera:Cancel")) {
+	switch(select("Information:Heal me:Return to Prontera:Cancel")) {
 	case 1:
-		mes "[MVP Arena Guide]";
-		mes "Included MVPs are validated against the Renewal monster database and enabled NPC scripts.";
-		mes "Instance MVPs are included. Disabled events, unused clone IDs, and exact duplicate IDs are excluded.";
-		mes "Distinct forms such as normal/hard instance bosses remain separate because they use different monster IDs and stats.";
+		mes "[ ^0065DFMVP Arena Guide^000000 ]";
+		mes "Every defeated MVP slot returns after exactly ^0055FF30 seconds^000000.";
+		mes "Rooms are shared, hold up to 20 players, and close automatically after being empty for 5 minutes.";
+		mes "Duplicate variants, unused IDs, and script-dependent invulnerable bosses are excluded.";
 		close;
 	case 2:
 		specialeffect2 EF_HEAL2;
@@ -41,223 +56,296 @@ quiz_00,49,31,4	script	MVP Arena Guide	778,{
 	default:
 		close;
 	}
+}
+
+function	script	F_MvpArenaSelect	{
+	.@start = getarg(0);
+	.@size = getarg(1);
+	.@title$ = getarg(2);
+	.@per_page = 6;
+	.@page = 0;
+
+	while (1) {
+		.@offset = .@page * .@per_page;
+		.@remaining = .@size - .@offset;
+		.@shown = (.@remaining > .@per_page) ? .@per_page : .@remaining;
+		.@menu$ = "";
+
+		for (.@i = 0; .@i < .@shown; ++.@i) {
+			.@index = .@start + .@offset + .@i;
+			.@mob_id = $@MVP_ARENA_ID[.@index];
+			.@menu$ += getmonsterinfo(.@mob_id,MOB_NAME) + " [Lv " + getmonsterinfo(.@mob_id,MOB_LV) + "]:";
+		}
+
+		.@has_prev = (.@page > 0);
+		.@has_next = ((.@offset + .@shown) < .@size);
+		if (.@has_prev)
+			.@menu$ += "^777777Previous page^000000:";
+		if (.@has_next)
+			.@menu$ += "^0055FFNext page^000000:";
+		.@menu$ += "Cancel";
+
+		clear;
+		mes "[ " + .@title$ + " ]";
+		mes "Choose an MVP room.";
+		.@choice = select(.@menu$) - 1;
+
+		if (.@choice < .@shown)
+			return .@start + .@offset + .@choice;
+
+		.@nav = .@choice - .@shown;
+		if (.@has_prev) {
+			if (.@nav == 0) {
+				--.@page;
+				continue;
+			}
+			--.@nav;
+		}
+		if (.@has_next && .@nav == 0) {
+			++.@page;
+			continue;
+		}
+		return -1;
+	}
+}
+
+function	script	F_MvpArenaEnter	{
+	.@index = getarg(0);
+	if (.@index < 0 || .@index >= $@MVP_ARENA_SIZE)
+		return 0;
+
+	.@mob_id = $@MVP_ARENA_ID[.@index];
+	.@instance_id = $@MVP_ARENA_INSTANCE[.@index];
+
+	// Discard stale mappings left by idle destruction or script reload.
+	if (.@instance_id > 0 && instance_live_info(ILI_NAME,.@instance_id) != "Complete MVP Arena Room") {
+		$@MVP_ARENA_INSTANCE[.@index] = 0;
+		.@instance_id = 0;
+	}
+
+	if (.@instance_id <= 0) {
+		.@instance_id = instance_create("Complete MVP Arena Room",IM_NONE);
+		if (.@instance_id < 1) {
+			mes "[ MVP Arena ]";
+			mes "The room could not be created.";
+			mes "Instance error: " + .@instance_id;
+			close;
+		}
+
+		$@MVP_ARENA_INSTANCE[.@index] = .@instance_id;
+	}
+
+	// Instance maps are created through rAthena's queue. Do not access
+	// instance variables until instance_mapname confirms the room is busy.
+	.@map$ = instance_mapname("pvp_n_1-1",.@instance_id);
+	if (.@map$ == "") {
+		mes "[ MVP Arena ]";
+		mes "The " + getmonsterinfo(.@mob_id,MOB_NAME) + " room is being prepared.";
+		mes "Please choose the same room again after the instance queue finishes.";
+		close;
+	}
+
+	// Assign the canonical room owner only after the instance is fully ready.
+	if (getinstancevar('mvp_id,.@instance_id) <= 0) {
+		setinstancevar('mvp_id,.@mob_id,.@instance_id);
+		setinstancevar('room_index,.@index + 1,.@instance_id);
+	}
+
+	if (getinstancevar('mvp_id,.@instance_id) != .@mob_id) {
+		mes "[ MVP Arena ]";
+		mes "Room ownership validation failed.";
+		mes "Please report MVP ID " + .@mob_id + ".";
+		close;
+	}
+
+	if (!getinstancevar('configured,.@instance_id)) {
+		.@controller$ = instance_npcname("MVP Room#ctrl",.@instance_id);
+		if (.@controller$ == "") {
+			mes "[ MVP Arena ]";
+			mes "The room controller is not ready yet.";
+			mes "Please choose the same room again shortly.";
+			close;
+		}
+		donpcevent .@controller$ + "::OnConfigure";
+		for (.@wait = 0; .@wait < 10 && !getinstancevar('configured,.@instance_id); ++.@wait)
+			sleep2 100;
+
+		if (!getinstancevar('configured,.@instance_id)) {
+			mes "[ MVP Arena ]";
+			mes "The room failed to initialize.";
+			mes "Please report MVP ID " + .@mob_id + ".";
+			close;
+		}
+	}
+
+	if (getmapusers(.@map$) >= 20) {
+		mes "[ MVP Arena ]";
+		mes "This MVP room is full.";
+		close;
+	}
+
+	close2;
+	warp .@map$,102,102;
+	end;
 }
 
 function	script	F_MvpArenaKeeper	{
-	.@suffix = getarg(0);
-	.@title$ = getarg(1);
-	mes "[" + .@title$ + "]";
-	mes "Choose an arena copy.";
-	for (.@i = 1; .@i <= 8; ++.@i)
-		.@menu$ += "Arena " + .@i + " [" + getmapusers("pvp_n_"+.@i+"-"+.@suffix) + "/20]:";
-	.@room = select(.@menu$);
-	.@map$ = "pvp_n_"+.@room+"-"+.@suffix;
-	if (getmapusers(.@map$) >= 20) {
-		mes "[" + .@title$ + "]";
-		mes "That arena is full.";
+	.@start = getarg(0);
+	.@size = getarg(1);
+	.@title$ = getarg(2);
+	.@index = callfunc("F_MvpArenaSelect",.@start,.@size,.@title$);
+	if (.@index < 0)
 		close;
-	}
-	warp .@map$,102,102;
+
+	.@mob_id = $@MVP_ARENA_ID[.@index];
+	mes "[ " + .@title$ + " ]";
+	mes "Enter the dedicated room for";
+	mes "^FF0000" + getmonsterinfo(.@mob_id,MOB_NAME) + "^000000?";
+	mes "Monster ID: " + .@mob_id;
+	mes "Level: " + getmonsterinfo(.@mob_id,MOB_LV);
+	mes "Room population: 3 identical MVPs";
+	mes "Respawn: exactly 30 seconds";
+	next;
+	if (select("Enter room:Cancel") == 2)
+		close;
+	callfunc "F_MvpArenaEnter",.@index;
 	close;
 }
 
-quiz_00,56,31,4	script	Lv 1-99 MVPs	770,{ callfunc "F_MvpArenaKeeper",2,"Lv 1-99 MVPs"; }
-quiz_00,58,31,4	script	Lv 100-149 MVPs	773,{ callfunc "F_MvpArenaKeeper",3,"Lv 100-149 MVPs"; }
-quiz_00,60,31,4	script	Lv 150-199 MVPs	774,{ callfunc "F_MvpArenaKeeper",4,"Lv 150-199 MVPs"; }
-quiz_00,62,31,4	script	Lv 200+ MVPs	776,{ callfunc "F_MvpArenaKeeper",5,"Lv 200+ MVPs"; }
+// Keepers retain the original four-group lobby structure.
+quiz_00,56,31,4	script	Lv 1-99 MVPs	770,{ callfunc "F_MvpArenaKeeper",0,36,"Lv 1-99 MVPs"; }
+quiz_00,58,31,4	script	Lv 100-149 MVPs	773,{ callfunc "F_MvpArenaKeeper",36,49,"Lv 100-149 MVPs"; }
+quiz_00,60,31,4	script	Lv 150-199 MVPs	774,{ callfunc "F_MvpArenaKeeper",85,58,"Lv 150-199 MVPs"; }
+quiz_00,62,31,4	script	Lv 200+ MVPs	776,{ callfunc "F_MvpArenaKeeper",143,8,"Lv 200+ MVPs"; }
 
-function	script	F_MvpArenaSelect	{
-	.@group = getarg(0);
-	switch (.@group) {
-	case 1: .@array$ = "$@MVP_ARENA_L1_99"; .@size = $@MVP_ARENA_L1_99_SIZE; break;
-	case 2: .@array$ = "$@MVP_ARENA_L100_149"; .@size = $@MVP_ARENA_L100_149_SIZE; break;
-	case 3: .@array$ = "$@MVP_ARENA_L150_199"; .@size = $@MVP_ARENA_L150_199_SIZE; break;
-	case 4: .@array$ = "$@MVP_ARENA_L200_PLUS"; .@size = $@MVP_ARENA_L200_PLUS_SIZE; break;
-	default: return 0;
+// This controller is copied into every on-demand instance room.
+pvp_n_1-1,100,100,4	script	MVP Room#ctrl	727,{
+	if (!instance_id()) {
+		mes "[ MVP Room Controller ]";
+		mes "This is the inactive template map.";
+		close;
 	}
 
-	.@per_page = 6;
-	.@page = 0;
-	while (1) {
-		.@start = .@page * .@per_page;
-		.@remaining = .@size - .@start;
-		.@shown = .@remaining > .@per_page ? .@per_page : .@remaining;
-		.@menu$ = "";
-		for (.@i = 0; .@i < .@shown; ++.@i) {
-			.@id = getd(.@array$ + "[" + (.@start + .@i) + "]");
-			.@menu$ += getmonsterinfo(.@id,MOB_NAME) + " [Lv " + getmonsterinfo(.@id,MOB_LV) + "]:";
-		}
-		.@has_prev = .@page > 0;
-		.@has_next = (.@start + .@shown) < .@size;
-		if (.@has_prev) .@menu$ += "^777777Previous page^000000:";
-		if (.@has_next) .@menu$ += "^0055FFNext page^000000:";
-		.@menu$ += "Cancel";
-		.@choice = select(.@menu$) - 1;
-		if (.@choice < .@shown)
-			return getd(.@array$ + "[" + (.@start + .@choice) + "]");
-		.@nav = .@choice - .@shown;
-		if (.@has_prev) {
-			if (.@nav == 0) { --.@page; continue; }
-			--.@nav;
-		}
-		if (.@has_next && .@nav == 0) { ++.@page; continue; }
-		return 0;
-	}
-}
+	.@map$ = strcharinfo(3);
+	.@active = 0;
+	for (.@slot = 1; .@slot <= 3; ++.@slot)
+		.@active += mobcount(.@map$,strnpcinfo(3) + "::OnMvpDead" + .@slot);
 
-function	script	F_MvpArenaRoom	{
-	.@group = getarg(0);
-	mes "[MVP Arena Summoner]";
-	mes "Only one MVP can be active in this room.";
+	mes "[ MVP Room Controller ]";
+	mes "Room: ^FF0000" + getmonsterinfo('mvp_id,MOB_NAME) + "^000000";
+	mes "Monster ID: " + 'mvp_id;
+	mes "Active MVPs: " + .@active + " / 3";
+	mes "Each defeated slot respawns after exactly 30 seconds.";
 	next;
-	switch(select("Summon an MVP:Heal:Return to lobby:Return to Prontera:Cancel")) {
+	switch(select("Heal me:Return to MVP lobby:Return to Prontera:Cancel")) {
 	case 1:
-		if (mobcount("this",strnpcinfo(3)+"::OnMvpDead") > 0) {
-			mes "[MVP Arena Summoner]";
-			mes "Defeat the active MVP before summoning another one.";
-			close;
-		}
-		.@mob_id = callfunc("F_MvpArenaSelect",.@group);
-		if (!.@mob_id) close;
-		mes "[MVP Arena Summoner]";
-		mes "Summon ^FF0000"+getmonsterinfo(.@mob_id,MOB_NAME)+"^000000?";
-		mes "Level: "+getmonsterinfo(.@mob_id,MOB_LV);
-		next;
-		if (select("Summon:Cancel") == 2) close;
-		close2;
-		monster "this",0,0,getmonsterinfo(.@mob_id,MOB_NAME),.@mob_id,1,strnpcinfo(3)+"::OnMvpDead";
-		mapannounce strnpcinfo(4),getmonsterinfo(.@mob_id,MOB_NAME)+" has been summoned!",bc_map|bc_red;
-		end;
-	case 2:
 		specialeffect2 EF_HEAL2;
 		percentheal 100,100;
 		close;
-	case 3:
+	case 2:
 		warp "quiz_00",50,24;
 		close;
-	case 4:
+	case 3:
 		warp "prontera",156,179;
 		close;
 	default:
 		close;
 	}
+
+S_EnsureSlot:
+	.@slot = getarg(0);
+	.@map$ = instance_mapname("pvp_n_1-1");
+	if (.@map$ == "" || 'mvp_id <= 0)
+		return;
+
+	.@event$ = strnpcinfo(3) + "::OnMvpDead" + .@slot;
+	if (mobcount(.@map$,.@event$) > 0)
+		return;
+
+	// Restrict every slot to the known walkable centre area. Unlike 0,0,
+	// this cannot place the MVP in a distant or separated part of the map.
+	areamonster .@map$,96,96,106,106,"--ja--",'mvp_id,1,.@event$;
+	return;
+
+OnConfigure:
+	if (!instance_id() || 'mvp_id <= 0)
+		end;
+	callsub S_EnsureSlot,1;
+	callsub S_EnsureSlot,2;
+	callsub S_EnsureSlot,3;
+	'configured = 1;
+	end;
+
+OnMvpDead1:
+	sleep 30000;
+	if ('configured)
+		callsub S_EnsureSlot,1;
+	end;
+
+OnMvpDead2:
+	sleep 30000;
+	if ('configured)
+		callsub S_EnsureSlot,2;
+	end;
+
+OnMvpDead3:
+	sleep 30000;
+	if ('configured)
+		callsub S_EnsureSlot,3;
+	end;
+
+OnInstanceInit:
+	// A queued instance may initialize before the Keeper can assign its owner.
+	// When ownership is already available, reuse the same idempotent configure path.
+	if ('mvp_id > 0)
+		donpcevent strnpcinfo(3) + "::OnConfigure";
+	end;
+
+OnInstanceDestroy:
+	.@index = 'room_index - 1;
+	if (.@index >= 0 && .@index < $@MVP_ARENA_SIZE && $@MVP_ARENA_INSTANCE[.@index] == instance_id())
+		$@MVP_ARENA_INSTANCE[.@index] = 0;
+	'configured = 0;
+	end;
 }
 
--	script	MVP_Arena_Room_L1_99	-1,{
-	callfunc "F_MvpArenaRoom",1;
-OnMvpDead:
-	mapannounce strnpcinfo(4),getmonsterinfo(killedrid,MOB_NAME)+" has been defeated.",bc_map|bc_blue;
-	end;
-}
--	script	MVP_Arena_Room_L100_149	-1,{
-	callfunc "F_MvpArenaRoom",2;
-OnMvpDead:
-	mapannounce strnpcinfo(4),getmonsterinfo(killedrid,MOB_NAME)+" has been defeated.",bc_map|bc_blue;
-	end;
-}
--	script	MVP_Arena_Room_L150_199	-1,{
-	callfunc "F_MvpArenaRoom",3;
-OnMvpDead:
-	mapannounce strnpcinfo(4),getmonsterinfo(killedrid,MOB_NAME)+" has been defeated.",bc_map|bc_blue;
-	end;
-}
--	script	MVP_Arena_Room_L200_PLUS	-1,{
-	callfunc "F_MvpArenaRoom",4;
-OnMvpDead:
-	mapannounce strnpcinfo(4),getmonsterinfo(killedrid,MOB_NAME)+" has been defeated.",bc_map|bc_blue;
-	end;
-}
-
-pvp_n_1-2,100,100,4	duplicate(MVP_Arena_Room_L1_99)	MVP Summoner#A01	727
-pvp_n_2-2,100,100,4	duplicate(MVP_Arena_Room_L1_99)	MVP Summoner#A02	727
-pvp_n_3-2,100,100,4	duplicate(MVP_Arena_Room_L1_99)	MVP Summoner#A03	727
-pvp_n_4-2,100,100,4	duplicate(MVP_Arena_Room_L1_99)	MVP Summoner#A04	727
-pvp_n_5-2,100,100,4	duplicate(MVP_Arena_Room_L1_99)	MVP Summoner#A05	727
-pvp_n_6-2,100,100,4	duplicate(MVP_Arena_Room_L1_99)	MVP Summoner#A06	727
-pvp_n_7-2,100,100,4	duplicate(MVP_Arena_Room_L1_99)	MVP Summoner#A07	727
-pvp_n_8-2,100,100,4	duplicate(MVP_Arena_Room_L1_99)	MVP Summoner#A08	727
-pvp_n_1-3,100,100,4	duplicate(MVP_Arena_Room_L100_149)	MVP Summoner#B01	727
-pvp_n_2-3,100,100,4	duplicate(MVP_Arena_Room_L100_149)	MVP Summoner#B02	727
-pvp_n_3-3,100,100,4	duplicate(MVP_Arena_Room_L100_149)	MVP Summoner#B03	727
-pvp_n_4-3,100,100,4	duplicate(MVP_Arena_Room_L100_149)	MVP Summoner#B04	727
-pvp_n_5-3,100,100,4	duplicate(MVP_Arena_Room_L100_149)	MVP Summoner#B05	727
-pvp_n_6-3,100,100,4	duplicate(MVP_Arena_Room_L100_149)	MVP Summoner#B06	727
-pvp_n_7-3,100,100,4	duplicate(MVP_Arena_Room_L100_149)	MVP Summoner#B07	727
-pvp_n_8-3,100,100,4	duplicate(MVP_Arena_Room_L100_149)	MVP Summoner#B08	727
-pvp_n_1-4,100,100,4	duplicate(MVP_Arena_Room_L150_199)	MVP Summoner#C01	727
-pvp_n_2-4,100,100,4	duplicate(MVP_Arena_Room_L150_199)	MVP Summoner#C02	727
-pvp_n_3-4,100,100,4	duplicate(MVP_Arena_Room_L150_199)	MVP Summoner#C03	727
-pvp_n_4-4,100,100,4	duplicate(MVP_Arena_Room_L150_199)	MVP Summoner#C04	727
-pvp_n_5-4,100,100,4	duplicate(MVP_Arena_Room_L150_199)	MVP Summoner#C05	727
-pvp_n_6-4,100,100,4	duplicate(MVP_Arena_Room_L150_199)	MVP Summoner#C06	727
-pvp_n_7-4,100,100,4	duplicate(MVP_Arena_Room_L150_199)	MVP Summoner#C07	727
-pvp_n_8-4,100,100,4	duplicate(MVP_Arena_Room_L150_199)	MVP Summoner#C08	727
-pvp_n_1-5,100,100,4	duplicate(MVP_Arena_Room_L200_PLUS)	MVP Summoner#D01	727
-pvp_n_2-5,100,100,4	duplicate(MVP_Arena_Room_L200_PLUS)	MVP Summoner#D02	727
-pvp_n_3-5,100,100,4	duplicate(MVP_Arena_Room_L200_PLUS)	MVP Summoner#D03	727
-pvp_n_4-5,100,100,4	duplicate(MVP_Arena_Room_L200_PLUS)	MVP Summoner#D04	727
-pvp_n_5-5,100,100,4	duplicate(MVP_Arena_Room_L200_PLUS)	MVP Summoner#D05	727
-pvp_n_6-5,100,100,4	duplicate(MVP_Arena_Room_L200_PLUS)	MVP Summoner#D06	727
-pvp_n_7-5,100,100,4	duplicate(MVP_Arena_Room_L200_PLUS)	MVP Summoner#D07	727
-pvp_n_8-5,100,100,4	duplicate(MVP_Arena_Room_L200_PLUS)	MVP Summoner#D08	727
-
+// Validated canonical MVP roster, sorted by level and visible name.
 -	script	MVP_Arena_Database	-1,{
 OnInit:
-	setarray $@MVP_ARENA_L1_99[0],
+	setarray $@MVP_ARENA_ID[0],
 		3505,3810,1087,1147,1190,1115,1086,1038,1511,1159,1389,1046,
 		1059,1150,1688,1039,1980,1157,1957,1112,1251,2068,2156,1373,
-		2194,1272,1885,1630,1252,1779,1766,1767,2442,1956,1708,2441;
-	$@MVP_ARENA_L1_99_SIZE = 36;
-	setarray $@MVP_ARENA_L100_149[0],
-		2187,3658,1623,1492,2188,3426,3000,3427,1418,3428,3429,3430,
-		3628,1583,1312,3633,1785,3450,20346,2022,3758,20340,3621,2202,
-		1734,1685,3181,3796,1719,2131,20620,1871,20659,3757,1768,20642,
-		3073,2165,2087,2249,1658,1751,2253,2255,2362,3124,20667,2251,
-		1832,1874;
-	$@MVP_ARENA_L100_149_SIZE = 50;
-	setarray $@MVP_ARENA_L150_199[0],
-		2476,2475,2319,2942,1917,2483,2534,2529,2533,2189,2532,2190,
-		2535,3741,3029,1647,2996,2238,2240,2236,2241,1649,1651,3659,
-		1646,2235,2237,3190,1650,2239,3473,1648,3804,3254,20648,20273,
-		20277,3074,20381,3097,21395,21316,20621,21317,3241,3245,3246,3221,
-		3223,3224,20419,3240,3244,3242,3243,3220,3222,3225,20422,20421,
-		20601;
-	$@MVP_ARENA_L150_199_SIZE = 61;
-	setarray $@MVP_ARENA_L200_PLUS[0],
-		20811,20843,21301,20934,21360,21361,20928,20943;
-	$@MVP_ARENA_L200_PLUS_SIZE = 8;
+		2194,1272,1885,1630,1252,1779,1766,1767,2442,1956,1708,2441,
+		2187,1623,1492,2188,3426,3000,3427,1418,3428,3429,3430,3628,
+		1583,1312,3633,1785,3450,20346,2022,3758,20340,3621,2202,1734,
+		1685,3181,3796,1719,2131,20620,1871,20659,3757,1768,20642,3073,
+		2165,2087,2249,1658,1751,2253,2255,2362,3124,20667,2251,1832,
+		1874,2476,2475,2319,2942,1917,2483,2534,2529,2533,2189,2532,
+		2190,2535,3741,3029,1647,2996,2238,2240,2236,2241,1649,1651,
+		3659,1646,2235,2237,1650,2239,3473,1648,3804,3254,20648,20273,
+		20277,3074,20381,3097,21395,20621,3241,3245,3246,3221,3223,3224,
+		20419,3240,3244,3242,3243,3220,3222,3225,20422,20421,20601,20811,
+		20843,21301,20934,21360,21361,20928,20943;
+	$@MVP_ARENA_SIZE = 151;
 
-	killmonsterall "pvp_n_1-2";
-	killmonsterall "pvp_n_2-2";
-	killmonsterall "pvp_n_3-2";
-	killmonsterall "pvp_n_4-2";
-	killmonsterall "pvp_n_5-2";
-	killmonsterall "pvp_n_6-2";
-	killmonsterall "pvp_n_7-2";
-	killmonsterall "pvp_n_8-2";
-	killmonsterall "pvp_n_1-3";
-	killmonsterall "pvp_n_2-3";
-	killmonsterall "pvp_n_3-3";
-	killmonsterall "pvp_n_4-3";
-	killmonsterall "pvp_n_5-3";
-	killmonsterall "pvp_n_6-3";
-	killmonsterall "pvp_n_7-3";
-	killmonsterall "pvp_n_8-3";
-	killmonsterall "pvp_n_1-4";
-	killmonsterall "pvp_n_2-4";
-	killmonsterall "pvp_n_3-4";
-	killmonsterall "pvp_n_4-4";
-	killmonsterall "pvp_n_5-4";
-	killmonsterall "pvp_n_6-4";
-	killmonsterall "pvp_n_7-4";
-	killmonsterall "pvp_n_8-4";
-	killmonsterall "pvp_n_1-5";
-	killmonsterall "pvp_n_2-5";
-	killmonsterall "pvp_n_3-5";
-	killmonsterall "pvp_n_4-5";
-	killmonsterall "pvp_n_5-5";
-	killmonsterall "pvp_n_6-5";
-	killmonsterall "pvp_n_7-5";
-	killmonsterall "pvp_n_8-5";
+	for (.@i = 0; .@i < $@MVP_ARENA_SIZE; ++.@i)
+		$@MVP_ARENA_INSTANCE[.@i] = 0;
+
+	// Recover active room mappings after @reloadscript.
+	.@count = instance_list("pvp_n_1-1",IM_NONE);
+	for (.@i = 0; .@i < .@count; ++.@i) {
+		.@instance_id = .@instance_list[.@i];
+		if (instance_live_info(ILI_NAME,.@instance_id) != "Complete MVP Arena Room")
+			continue;
+		.@index = getinstancevar('room_index,.@instance_id) - 1;
+		if (.@index < 0 || .@index >= $@MVP_ARENA_SIZE)
+			continue;
+		if (getinstancevar('mvp_id,.@instance_id) != $@MVP_ARENA_ID[.@index])
+			continue;
+		$@MVP_ARENA_INSTANCE[.@index] = .@instance_id;
+	}
 	end;
 }
+
+// Preserve the original arena's no-nightmare-drop behavior on the template.
+pvp_n_1-1	mapflag	pvp_nightmaredrop	off

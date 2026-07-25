@@ -1,156 +1,152 @@
-Monster ID,AegisName,Name,Level,Arena Group,MVP EXP,MVP Drop Count,Validation Source,Validation Type
-3505,DR_BIG_EGGRING,Big Eggring,25,L1_99,0,3,npc/re/custom/lasagna/lasa_dun.txt:13,direct-spawn
-3810,MD_KING_PORING,King Poring,35,L1_99,0,3,npc/re/instances/PoringVillage.txt:633,direct-spawn
-1087,ORK_HERO,Orc Hero,50,L1_99,26730,3,npc/instances/EndlessTower.txt:834,direct-spawn
-1147,MAYA,Maya,55,L1_99,44640,3,npc/instances/EndlessTower.txt:490,direct-spawn
-1190,ORC_LORD,Orc Lord,55,L1_99,15553,3,npc/instances/EndlessTower.txt:835,direct-spawn
-1115,EDDGA,Eddga,65,L1_99,51975,3,npc/guild/agit_main.txt:233,direct-spawn
-1086,GOLDEN_BUG,Golden Thief Bug,65,L1_99,51030,3,npc/instances/EndlessTower.txt:435,direct-spawn
-1038,OSIRIS,Osiris,68,L1_99,61380,3,npc/instances/EndlessTower.txt:675,direct-spawn
-1511,AMON_RA,Amon Ra,69,L1_99,60030,3,npc/instances/EndlessTower.txt:704,direct-spawn
-1159,PHREEONI,Phreeoni,71,L1_99,31900,3,npc/instances/EndlessTower.txt:491,direct-spawn
-1389,DRACULA,Dracula,75,L1_99,85932,3,npc/re/instances/CentralLaboratory.txt:498,implemented-variable
-1046,DOPPELGANGER,Doppelganger,77,L1_99,86130,3,npc/instances/EndlessTower.txt:769,direct-spawn
-1059,MISTRESS,Mistress,78,L1_99,92070,3,npc/instances/EndlessTower.txt:463,direct-spawn
-1150,MOONLIGHT,Moonlight Flower,79,L1_99,91872,3,npc/instances/EndlessTower.txt:552,direct-spawn
-1688,LADY_TANEE,Lady Tanee,80,L1_99,91872,3,npc/re/instances/CentralLaboratory.txt:502,implemented-variable
-1039,BAPHOMET,Baphomet,81,L1_99,109044,3,npc/instances/EndlessTower.txt:870,direct-spawn
-1980,KUBLIN,Kublin,85,L1_99,24750,1,npc/events/gdevent_aru.txt:36,direct-spawn
-1157,PHARAOH,Pharaoh,85,L1_99,104400,3,npc/instances/EndlessTower.txt:703,direct-spawn
-1957,ENTWEIHEN,Entweihen Crothen,90,L1_99,0,1,npc/instances/EndlessTower.txt:1840,direct-spawn
-1112,DRAKE,Drake,91,L1_99,154548,3,npc/instances/EndlessTower.txt:520,direct-spawn
-1251,KNIGHT_OF_WINDSTORM,Stormy Knight,92,L1_99,124140,3,npc/guild/agit_main.txt:255,direct-spawn
-2068,BOITATA,Boitata,93,L1_99,37144,3,npc/re/instances/CentralLaboratory.txt:606,implemented-variable
-2156,LEAK,Leak,94,L1_99,118200,3,npc/re/instances/CentralLaboratory.txt:608,implemented-variable
-1373,LORD_OF_DEATH,Lord of the Dead,94,L1_99,131136,3,npc/re/instances/CentralLaboratory.txt:607,implemented-variable
-2194,MD_GIANT_OCTOPUS,Giant Octopus,95,L1_99,0,1,npc/re/instances/OctopusCave.txt:561,direct-spawn
-1272,DARK_LORD,Dark Lord,96,L1_99,214272,3,npc/instances/EndlessTower.txt:871,direct-spawn
-1885,GOPINICH,Gopinich,97,L1_99,214272,3,npc/re/mobs/dungeons/mosk_dun.txt:39,direct-spawn
-1630,BACSOJIN_,White Lady,97,L1_99,200448,3,npc/instances/EndlessTower.txt:585,direct-spawn
-1252,GARM,Hatii,98,L1_99,227664,3,npc/guild/agit_main.txt:256,direct-spawn
-1779,KTULLANUX,Ktullanux,98,L1_99,310672,3,npc/quests/quests_rachel.txt:3688,direct-spawn
-1766,EM_ANGELING,Angeling,99,L1_99,0,3,npc/other/poring_war.txt:1087,direct-spawn
-1767,EM_DEVILING,Deviling,99,L1_99,0,3,npc/other/poring_war.txt:1156,direct-spawn
-2442,B_SUPERNOVICE,King of the Alley,99,L1_99,54405,1,npc/re/mobs/dungeons/teg_dun.txt:30,direct-spawn
-1956,NAGHT_SIEGER,Naght Sieger,99,L1_99,0,1,npc/instances/EndlessTower.txt:2109,direct-spawn
-1708,THANATOS,Thanatos Phantom,99,L1_99,389820,3,npc/quests/thana_quest.txt:2224,direct-spawn
-2441,B_NOVICE,The Last One,99,L1_99,53133,1,npc/re/mobs/dungeons/teg_dun.txt:18,direct-spawn
-2187,COELACANTH_N_A,Gloomy Coelacanth,100,L100_149,0,1,npc/re/instances/MalangdoCulvert.txt:807,direct-spawn
-3658,MD_LICH_LORD_100,Lich Lord,100,L100_149,10000,3,npc/re/instances/FridayDungeon.txt:119,implemented-variable
-1623,RSX_0806,RSX-0806,100,L100_149,216000,3,npc/re/instances/CentralLaboratory.txt:743,implemented-variable
-1492,INCANTATION_SAMURAI,Samurai Specter,100,L100_149,225504,3,npc/instances/EndlessTower.txt:644,direct-spawn
-2188,COELACANTH_N_M,Weird Coelacanth,100,L100_149,0,1,npc/re/instances/MalangdoCulvert.txt:801,direct-spawn
-3426,MIN_EDDGA,Infinite Eddga,101,L100_149,100000,3,npc/re/instances/InfiniteSpace.txt:289,implemented-variable
-3000,EP14_MORS_BOSSB,Morocc Necromancer,101,L100_149,0,2,npc/re/instances/MorseCave.txt:974,direct-spawn
-3427,MIN_OSIRIS,Infinite Osiris,103,L100_149,100000,3,npc/re/instances/InfiniteSpace.txt:339,implemented-variable
-1418,DARK_SNAKE_LORD,Evil Snake Lord,105,L100_149,46872,3,npc/instances/EndlessTower.txt:733,direct-spawn
-3428,MIN_PHREEONI,Infinite Phreeoni,105,L100_149,100000,3,npc/re/instances/InfiniteSpace.txt:389,implemented-variable
-3429,MIN_ORK_HERO,Infinite Orc Hero,107,L100_149,100000,3,npc/re/instances/InfiniteSpace.txt:439,implemented-variable
-3430,MIN_TAO_GUNKA,Infinite Tao Gunka,109,L100_149,100000,3,npc/re/instances/InfiniteSpace.txt:489,implemented-variable
-3628,EP16_2_H_HUNTER_EV,Heart Hunter Ebel,110,L100_149,5000,3,npc/re/instances/HeartHunterWarBase.txt:1084,direct-spawn
-1583,TAO_GUNKA,Tao Gunka,110,L100_149,270000,3,npc/re/other/adven_boards.txt:1453,direct-spawn
-1312,TURTLE_GENERAL,Turtle General,110,L100_149,279936,3,npc/instances/EndlessTower.txt:616,direct-spawn
-3633,EP16_2_VENOM_KIMERA,Venomous Chimera,110,L100_149,5000,3,npc/re/mobs/dungeons/slabw01.txt:13,direct-spawn
-1785,ATROCE,Atroce,113,L100_149,351000,3,npc/instances/EndlessTower.txt:804,direct-spawn
-3450,BIJOU,Bijou,115,L100_149,2000,3,npc/re/instances/RoomOfConsciousness.txt:470,direct-spawn
-20346,MD_MIGUEL,Miguel,115,L100_149,0,2,npc/re/instances/OsOccupation.txt:604,direct-spawn
-2022,S_NYDHOG,Nidhoggur's Shadow,117,L100_149,1404000,3,npc/instances/NydhoggsNest.txt:1869,direct-spawn
-3758,ILL_MOONLIGHT,Angry Moonlight Flower,118,L100_149,701619,3,npc/re/mobs/dungeons/pay_dun.txt:191,direct-spawn
-20340,MD_EL_A17T,EL1-A17T,118,L100_149,0,2,npc/re/instances/CorOperation.txt:784,direct-spawn
-3621,EP16_2_MM_CUTIE,Pet Child,120,L100_149,5000,3,npc/re/instances/WernerLaboratoryCentralRoom.txt:1082,direct-spawn
-2202,KRAKEN,Kraken,124,L100_149,491666,3,npc/re/mobs/dungeons/iz_dun.txt:122,direct-spawn
-1734,KIEL_,Kiel D-01,125,L100_149,585000,3,npc/re/instances/CentralLaboratory.txt:747,implemented-variable
-1685,APOCALIPS_H,Vesper,128,L100_149,64935,3,npc/re/mobs/dungeons/juperos.txt:52,direct-spawn
-3181,E1_FELOCK,Captain Ferlock,130,L100_149,0,2,npc/re/instances/AirshipAssault.txt:1009,direct-spawn
-3796,ILL_KTULLANUX,Awakened Ktullanux,135,L100_149,0,3,npc/re/quests/quests_illusion_dungeons.txt:4870,direct-spawn
-1719,DETALE,Detardeurus,135,L100_149,1404000,3,npc/re/instances/CentralLaboratory.txt:748,implemented-variable
-2131,LOST_DRAGON,Lost Dragon,135,L100_149,9750,3,npc/re/instances/HazyForest.txt:522,direct-spawn
-20620,MD_REDPEPPER,Red Pepper,135,L100_149,11700000,2,npc/re/instances/HiddenGarden.txt:2103,direct-spawn
-1871,FALLINGBISHOP,Falling Bishop,138,L100_149,877500,3,npc/instances/EndlessTower.txt:902,direct-spawn
-20659,MD_PITAYA_BOSS,Pitaya Boss,138,L100_149,20328244,2,npc/re/instances/LostFarm.txt:1388,direct-spawn
-3757,ILL_DRACULA,Dracula of Rage,139,L100_149,1341376,2,npc/re/quests/quests_illusion_dungeons.txt:3942,direct-spawn
-1768,GLOOMUNDERNIGHT,Gloom Under Night,139,L100_149,702000,3,npc/re/instances/CentralLaboratory.txt:749,implemented-variable
-20642,MD_SWEETY,Sweety,139,L100_149,15600000,2,npc/re/instances/TwilightGarden.txt:704,direct-spawn
-3073,GRAND_PERE,Awakened Ferre,140,L100_149,0,2,npc/re/instances/NightmarishJitterbug.txt:4398,direct-spawn
-2165,I_QUEEN_SCARABA,Gold Queen Scaraba,140,L100_149,302555,3,npc/re/mobs/dungeons/dic_dun.txt:45,direct-spawn
-2087,QUEEN_SCARABA,Scaraba Queen,140,L100_149,133321,3,npc/re/instances/CentralLaboratory.txt:750,implemented-variable
-2249,PYURIEL,Angry Student Pyuriel,141,L100_149,750061,3,npc/re/mobs/dungeons/gld_re.txt:69,direct-spawn
-1658,B_YGNIZEM,Egnigem Cenia,141,L100_149,342680,3,npc/instances/EndlessTower.txt:768,direct-spawn
-1751,RANDGRIS,Valkyrie Randgris,141,L100_149,650000,3,npc/instances/EndlessTower.txt:959,direct-spawn
-2253,DAEHYON,General Daehyun,142,L100_149,750780,3,npc/re/instances/CentralLaboratory.txt:752,implemented-variable
-2255,KADES,Dark Guardian Kades,143,L100_149,802000,3,npc/re/instances/CentralLaboratory.txt:753,implemented-variable
-2362,N_AMON_RA,Amon Ra (Nightmare),145,L100_149,813243,3,npc/re/mobs/dungeons/moc_pryd.txt:82,direct-spawn
-3124,CHARLESTON3,Charleston 3,145,L100_149,0,2,npc/re/instances/CharlestonCrisis.txt:1218,direct-spawn
-20667,MD_SILVA_PAPILIA,Silva Papilia,145,L100_149,0,2,npc/re/instances/WaterGarden.txt:903,direct-spawn
-2251,GIOIA,Gioia,146,L100_149,751725,3,npc/re/mobs/dungeons/gld_re.txt:48,direct-spawn
-1832,IFRIT,Ifrit,146,L100_149,2176200,3,npc/instances/EndlessTower.txt:931,direct-spawn
-1874,BEELZEBUB_,Beelzebub,147,L100_149,2291250,3,npc/re/instances/CentralLaboratory.txt:755,implemented-variable
-2476,MG_AMDARAIS,Amdarais,150,L150_199,0,1,npc/re/instances/OldGlastHeim.txt:1872,direct-spawn
-2475,MG_CORRUPTION_ROOT,Corrupted Soul,150,L150_199,0,1,npc/re/instances/OldGlastHeim.txt:1209,direct-spawn
-2319,BUWAYA,Buwaya,151,L150_199,1500006,1,npc/re/instances/BuwayaCave.txt:391,direct-spawn
-2942,MM_EVIL_FANATICS,Evil Fanatics,151,L150_199,0,2,npc/re/instances/DevilTower.txt:1874,direct-spawn
-1917,MOROCC_,Wounded Morocc,151,L150_199,1316250,3,npc/re/mobs/fields/morocc.txt:220,direct-spawn
-2483,NG_BAPHOMET,Nightmare Baphomet,154,L150_199,198262,3,npc/re/mobs/dungeons/glastheim.txt:196,direct-spawn
-2534,FACEWORM_QUEEN_B,Blue Faceworm Queen,155,L150_199,90909,3,npc/re/instances/FacewormsNest.txt:1467,implemented-variable
-2529,FACEWORM_QUEEN,Faceworm Queen,155,L150_199,90909,3,npc/re/instances/FacewormsNest.txt:1446,direct-spawn
-2533,FACEWORM_QUEEN_G,Green Faceworm Queen,155,L150_199,90909,3,npc/re/instances/FacewormsNest.txt:1463,implemented-variable
-2189,COELACANTH_H_M,Mutant Coelacanth,155,L150_199,0,1,npc/re/instances/MalangdoCulvert.txt:803,direct-spawn
-2532,FACEWORM_QUEEN_R,Red Faceworm Queen,155,L150_199,90909,3,npc/re/instances/FacewormsNest.txt:1424,direct-spawn
-2190,COELACANTH_H_A,Violent Coelacanth,155,L150_199,0,1,npc/re/instances/MalangdoCulvert.txt:809,direct-spawn
-2535,FACEWORM_QUEEN_Y,Yellow Faceworm Queen,155,L150_199,90909,3,npc/re/instances/FacewormsNest.txt:1459,implemented-variable
-3741,MECHASPIDER,Spider Chariot,158,L150_199,0,3,npc/re/mobs/dungeons/rockridge.txt:18,direct-spawn
-3029,GRIM_REAPER_ANKOU,Reaper Yanku,159,L150_199,0,2,npc/re/instances/IsleOfBios.txt:614,direct-spawn
-1647,B_EREMES,Assassin Cross Eremes,160,L150_199,1360125,3,npc/re/instances/WolfchevLaboratory.txt:1970,direct-spawn
-2996,XM_CELINE_KIMI,Celine Kimi,160,L150_199,444444,3,npc/re/instances/HorrorToyFactory.txt:1071,direct-spawn
-2238,B_CHEN,Champion Chen,160,L150_199,1278392,3,npc/re/instances/WolfchevLaboratory.txt:1974,direct-spawn
-2240,B_ALPHOCCIO,Clown Alphoccio,160,L150_199,1056509,3,npc/re/instances/WolfchevLaboratory.txt:1976,direct-spawn
-2236,B_FLAMEL,Creator Flamel,160,L150_199,1305892,3,npc/re/instances/WolfchevLaboratory.txt:1978,direct-spawn
-2241,B_TRENTINI,Gypsy Trentini,160,L150_199,1115939,3,npc/re/instances/WolfchevLaboratory.txt:1972,direct-spawn
-1649,B_MAGALETA,High Priest Margaretha,160,L150_199,1126125,3,npc/re/instances/WolfchevLaboratory.txt:1986,direct-spawn
-1651,B_KATRINN,High Wizard Kathryne,160,L150_199,1053000,3,npc/re/instances/WolfchevLaboratory.txt:1984,direct-spawn
-3659,MD_LICH_LORD_160,Lich Lord,160,L150_199,100000,3,npc/re/instances/FridayDungeon.txt:128,implemented-variable
-1646,B_SEYREN,Lord Knight Seyren,160,L150_199,1508832,3,npc/re/instances/WolfchevLaboratory.txt:1964,direct-spawn
-2235,B_RANDEL,Paladin Randel,160,L150_199,1837244,3,npc/re/instances/WolfchevLaboratory.txt:1980,direct-spawn
-2237,B_CELIA,Professor Celia,160,L150_199,1256827,3,npc/re/instances/WolfchevLaboratory.txt:1982,direct-spawn
-3190,MM_SARAH,Sarah Irene,160,L150_199,0,2,npc/re/instances/SarahAndFenrir.txt:1193,direct-spawn
-1650,B_SHECIL,Sniper Cecil,160,L150_199,1334736,3,npc/re/instances/WolfchevLaboratory.txt:1966,direct-spawn
-2239,B_GERTIE,Stalker Gertie,160,L150_199,1105174,3,npc/re/instances/WolfchevLaboratory.txt:1968,direct-spawn
-3473,AS_RAGGED_GOLEM,Stefan.J.E.Wolf,160,L150_199,5000,3,npc/re/instances/SkyFortress.txt:1563,direct-spawn
-1648,B_HARWORD,Whitesmith Howard,160,L150_199,1155375,3,npc/re/instances/WolfchevLaboratory.txt:1988,direct-spawn
-3804,ILL_TURTLE_GENERAL,Ominous Turtle General,165,L150_199,0,3,npc/re/mobs/dungeons/tur_dun.txt:87,direct-spawn
-3254,T_W_O,T_W_O,165,L150_199,0,3,npc/re/instances/LastRoom.txt:389,direct-spawn
-20648,EP17_2_PITAYA_BOSS,Boss Meow,168,L150_199,20328244,2,npc/re/mobs/fields/ba_lost.txt:14,direct-spawn
-20273,ILL_TAO_GUNKA,Ancient Tao Gunka,169,L150_199,0,3,npc/re/mobs/dungeons/beach_dun.txt:64,implemented-variable
-20277,ILL_WOOTAN_DEFENDER,Ancient Wootan Defender,169,L150_199,0,3,npc/re/mobs/dungeons/beach_dun.txt:64,computed-spawn
-3074,TIMEHOLDER,Time Holder,170,L150_199,2291250,3,npc/re/mobs/dungeons/c_tower.txt:73,direct-spawn
-20381,EP17_1_R4885_BESTIA,R48-85-Bestia,174,L150_199,4001500,3,npc/re/mobs/dungeons/sp_rudus.txt:19,direct-spawn
-3097,MM_MOROCC_ADT,Despair God Morroc,175,L150_199,0,2,npc/re/instances/TempleOfDemonGod.txt:2002,direct-spawn
-21395,ILL_MAYA,Silent Maya,175,L150_199,0,3,npc/re/mobs/dungeons/anthell.txt:149,direct-spawn
-21316,EP18_MD_SCHULANG_R,Schulang,185,L150_199,0,2,npc/re/instances/VillaofDeception.txt:198,implemented-variable
-20621,MD_REDPEPPER_H,Senior Red Pepper,185,L150_199,11700000,2,npc/re/instances/HiddenGarden.txt:2108,direct-spawn
-21317,EP18_MD_DEMI_FREYJA_R,Twisted God Freyja,185,L150_199,0,2,npc/re/instances/VillaofDeception.txt:199,implemented-variable
-3241,V_B_FLAMEL,Genetic Flamel,186,L150_199,0,3,npc/re/mobs/dungeons/lhz_dun_n.txt:84,direct-spawn
-3245,V_B_ALPHOCCIO,Minstrel Alphoccio,186,L150_199,0,3,npc/re/mobs/dungeons/lhz_dun_n.txt:84,direct-spawn
-3246,V_B_TRENTINI,Wanderer Trentini,186,L150_199,0,3,npc/re/mobs/dungeons/lhz_dun_n.txt:84,direct-spawn
-3221,V_B_MAGALETA,Arch Bishop Margaretha,187,L150_199,0,3,npc/re/mobs/dungeons/lhz_dun_n.txt:84,direct-spawn
-3223,V_B_HARWORD,Mechanic Howard,187,L150_199,0,3,npc/re/mobs/dungeons/lhz_dun_n.txt:84,direct-spawn
-3224,V_B_KATRINN,Warlock Kathryne,187,L150_199,0,3,npc/re/mobs/dungeons/lhz_dun_n.txt:84,direct-spawn
-20419,MUSPELLSKOLL_H,Rigid Muspellskoll,188,L150_199,0,2,npc/re/mobs/dungeons/mag_dun.txt:44,direct-spawn
-3240,V_B_RANDEL,Royal Guard Randel,188,L150_199,0,3,npc/re/mobs/dungeons/lhz_dun_n.txt:84,direct-spawn
-3244,V_B_GERTIE,Shadow Chaser Gertie,188,L150_199,0,3,npc/re/mobs/dungeons/lhz_dun_n.txt:84,direct-spawn
-3242,V_B_CELIA,Sorcerer Celia,188,L150_199,0,3,npc/re/mobs/dungeons/lhz_dun_n.txt:84,direct-spawn
-3243,V_B_CHEN,Sura Chen,188,L150_199,0,3,npc/re/mobs/dungeons/lhz_dun_n.txt:84,direct-spawn
-3220,V_B_EREMES,Guillotine Cross Eremes,189,L150_199,0,3,npc/re/mobs/dungeons/lhz_dun_n.txt:84,direct-spawn
-3222,V_B_SHECIL,Ranger Cecil,189,L150_199,0,3,npc/re/mobs/dungeons/lhz_dun_n.txt:84,direct-spawn
-3225,V_B_SEYREN,Rune Knight Seyren,189,L150_199,0,3,npc/re/mobs/dungeons/lhz_dun_n.txt:84,direct-spawn
-20422,DARK_LORD_H,Corrupted Dark Lord,194,L150_199,0,2,npc/re/mobs/dungeons/glastheim.txt:219,direct-spawn
-20421,BRINARANEA_H,Corrupted Spider Queen,195,L150_199,0,2,npc/re/mobs/dungeons/glastheim.txt:218,direct-spawn
-20601,JUNGOLIANT,Jewel Ungoliant,197,L150_199,0,2,npc/re/mobs/dungeons/ein_dun.txt:52,direct-spawn
-20811,ILL_KRAKEN,Deep Sea Kraken,204,L200_PLUS,0,3,npc/re/mobs/dungeons/iz_dun.txt:145,direct-spawn
-20843,ILL_ABYSMAL_WITCH,Deep Sea Witch,205,L200_PLUS,0,3,npc/re/mobs/dungeons/iz_dun.txt:181,direct-spawn
-21301,EP18_BURNING_FANG,Burning Fang,212,L200_PLUS,0,2,npc/re/mobs/dungeons/oz_dun.txt:17,direct-spawn
-20934,R001_BESTIA,R001-Bestia,215,L200_PLUS,0,3,npc/re/mobs/dungeons/sp_rudus.txt:31,direct-spawn
-21360,EP18_MD_SCHULANG_L,Schulang,224,L200_PLUS,0,2,npc/re/instances/VillaofDeception.txt:175,implemented-variable
-21361,EP18_MD_DEMI_FREYJA_L,Twisted God Freyja,224,L200_PLUS,0,2,npc/re/instances/VillaofDeception.txt:176,implemented-variable
-20928,CHIMERA_THEONE,The One,245,L200_PLUS,0,3,npc/re/mobs/dungeons/amicitia.txt:18,direct-spawn
-20943,DEATH_WITCH,Death Witch,255,L200_PLUS,0,3,npc/re/mobs/dungeons/nif_dun.txt:18,direct-spawn
+﻿Room Index,Monster ID,AegisName,Name,Level,Arena Group,MVP Mode,Generic Arena Playable,Mob Skill DB,Validation Source,Validation Type,Canonical Selection
+1,3505,DR_BIG_EGGRING,Big Eggring,25,Lv 1-99,true,true,present,npc/re/custom/lasagna/lasa_dun.txt:13,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+2,3810,MD_KING_PORING,King Poring,35,Lv 1-99,true,true,present,npc/re/instances/PoringVillage.txt:633,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+3,1087,ORK_HERO,Orc Hero,50,Lv 1-99,true,true,present,npc/instances/EndlessTower.txt:834,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+4,1147,MAYA,Maya,55,Lv 1-99,true,true,present,npc/instances/EndlessTower.txt:490,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+5,1190,ORC_LORD,Orc Lord,55,Lv 1-99,true,true,present,npc/instances/EndlessTower.txt:835,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+6,1115,EDDGA,Eddga,65,Lv 1-99,true,true,present,npc/guild/agit_main.txt:233,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+7,1086,GOLDEN_BUG,Golden Thief Bug,65,Lv 1-99,true,true,present,npc/instances/EndlessTower.txt:435,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+8,1038,OSIRIS,Osiris,68,Lv 1-99,true,true,present,npc/instances/EndlessTower.txt:675,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+9,1511,AMON_RA,Amon Ra,69,Lv 1-99,true,true,present,npc/instances/EndlessTower.txt:704,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+10,1159,PHREEONI,Phreeoni,71,Lv 1-99,true,true,present,npc/instances/EndlessTower.txt:491,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+11,1389,DRACULA,Dracula,75,Lv 1-99,true,true,present,npc/re/instances/CentralLaboratory.txt:498,implemented-variable,Unique visible name; highest-level active implementation retained where variants share a name
+12,1046,DOPPELGANGER,Doppelganger,77,Lv 1-99,true,true,present,npc/instances/EndlessTower.txt:769,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+13,1059,MISTRESS,Mistress,78,Lv 1-99,true,true,present,npc/instances/EndlessTower.txt:463,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+14,1150,MOONLIGHT,Moonlight Flower,79,Lv 1-99,true,true,present,npc/instances/EndlessTower.txt:552,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+15,1688,LADY_TANEE,Lady Tanee,80,Lv 1-99,true,true,present,npc/re/instances/CentralLaboratory.txt:502,implemented-variable,Unique visible name; highest-level active implementation retained where variants share a name
+16,1039,BAPHOMET,Baphomet,81,Lv 1-99,true,true,present,npc/instances/EndlessTower.txt:870,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+17,1980,KUBLIN,Kublin,85,Lv 1-99,true,true,not required; active direct-spawn basic attacker,npc/events/gdevent_aru.txt:36,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+18,1157,PHARAOH,Pharaoh,85,Lv 1-99,true,true,present,npc/instances/EndlessTower.txt:703,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+19,1957,ENTWEIHEN,Entweihen Crothen,90,Lv 1-99,true,true,present,npc/instances/EndlessTower.txt:1840,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+20,1112,DRAKE,Drake,91,Lv 1-99,true,true,present,npc/instances/EndlessTower.txt:520,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+21,1251,KNIGHT_OF_WINDSTORM,Stormy Knight,92,Lv 1-99,true,true,present,npc/guild/agit_main.txt:255,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+22,2068,BOITATA,Boitata,93,Lv 1-99,true,true,present,npc/re/instances/CentralLaboratory.txt:606,implemented-variable,Unique visible name; highest-level active implementation retained where variants share a name
+23,2156,LEAK,Leak,94,Lv 1-99,true,true,present,npc/re/instances/CentralLaboratory.txt:608,implemented-variable,Unique visible name; highest-level active implementation retained where variants share a name
+24,1373,LORD_OF_DEATH,Lord of the Dead,94,Lv 1-99,true,true,present,npc/re/instances/CentralLaboratory.txt:607,implemented-variable,Unique visible name; highest-level active implementation retained where variants share a name
+25,2194,MD_GIANT_OCTOPUS,Giant Octopus,95,Lv 1-99,true,true,present,npc/re/instances/OctopusCave.txt:561,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+26,1272,DARK_LORD,Dark Lord,96,Lv 1-99,true,true,present,npc/instances/EndlessTower.txt:871,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+27,1885,GOPINICH,Gopinich,97,Lv 1-99,true,true,present,npc/re/mobs/dungeons/mosk_dun.txt:39,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+28,1630,BACSOJIN_,White Lady,97,Lv 1-99,true,true,present,npc/instances/EndlessTower.txt:585,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+29,1252,GARM,Hatii,98,Lv 1-99,true,true,present,npc/guild/agit_main.txt:256,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+30,1779,KTULLANUX,Ktullanux,98,Lv 1-99,true,true,present,npc/quests/quests_rachel.txt:3688,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+31,1766,EM_ANGELING,Angeling,99,Lv 1-99,true,true,present,npc/other/poring_war.txt:1087,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+32,1767,EM_DEVILING,Deviling,99,Lv 1-99,true,true,present,npc/other/poring_war.txt:1156,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+33,2442,B_SUPERNOVICE,King of the Alley,99,Lv 1-99,true,true,present,npc/re/mobs/dungeons/teg_dun.txt:30,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+34,1956,NAGHT_SIEGER,Naght Sieger,99,Lv 1-99,true,true,present,npc/instances/EndlessTower.txt:2109,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+35,1708,THANATOS,Thanatos Phantom,99,Lv 1-99,true,true,present,npc/quests/thana_quest.txt:2224,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+36,2441,B_NOVICE,The Last One,99,Lv 1-99,true,true,present,npc/re/mobs/dungeons/teg_dun.txt:18,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+37,2187,COELACANTH_N_A,Gloomy Coelacanth,100,Lv 100-149,true,true,present,npc/re/instances/MalangdoCulvert.txt:807,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+38,1623,RSX_0806,RSX-0806,100,Lv 100-149,true,true,present,npc/re/instances/CentralLaboratory.txt:743,implemented-variable,Unique visible name; highest-level active implementation retained where variants share a name
+39,1492,INCANTATION_SAMURAI,Samurai Specter,100,Lv 100-149,true,true,present,npc/instances/EndlessTower.txt:644,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+40,2188,COELACANTH_N_M,Weird Coelacanth,100,Lv 100-149,true,true,present,npc/re/instances/MalangdoCulvert.txt:801,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+41,3426,MIN_EDDGA,Infinite Eddga,101,Lv 100-149,true,true,present,npc/re/instances/InfiniteSpace.txt:289,implemented-variable,Unique visible name; highest-level active implementation retained where variants share a name
+42,3000,EP14_MORS_BOSSB,Morocc Necromancer,101,Lv 100-149,true,true,present,npc/re/instances/MorseCave.txt:974,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+43,3427,MIN_OSIRIS,Infinite Osiris,103,Lv 100-149,true,true,present,npc/re/instances/InfiniteSpace.txt:339,implemented-variable,Unique visible name; highest-level active implementation retained where variants share a name
+44,1418,DARK_SNAKE_LORD,Evil Snake Lord,105,Lv 100-149,true,true,present,npc/instances/EndlessTower.txt:733,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+45,3428,MIN_PHREEONI,Infinite Phreeoni,105,Lv 100-149,true,true,present,npc/re/instances/InfiniteSpace.txt:389,implemented-variable,Unique visible name; highest-level active implementation retained where variants share a name
+46,3429,MIN_ORK_HERO,Infinite Orc Hero,107,Lv 100-149,true,true,present,npc/re/instances/InfiniteSpace.txt:439,implemented-variable,Unique visible name; highest-level active implementation retained where variants share a name
+47,3430,MIN_TAO_GUNKA,Infinite Tao Gunka,109,Lv 100-149,true,true,present,npc/re/instances/InfiniteSpace.txt:489,implemented-variable,Unique visible name; highest-level active implementation retained where variants share a name
+48,3628,EP16_2_H_HUNTER_EV,Heart Hunter Ebel,110,Lv 100-149,true,true,present,npc/re/instances/HeartHunterWarBase.txt:1084,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+49,1583,TAO_GUNKA,Tao Gunka,110,Lv 100-149,true,true,present,npc/re/other/adven_boards.txt:1453,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+50,1312,TURTLE_GENERAL,Turtle General,110,Lv 100-149,true,true,present,npc/instances/EndlessTower.txt:616,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+51,3633,EP16_2_VENOM_KIMERA,Venomous Chimera,110,Lv 100-149,true,true,present,npc/re/mobs/dungeons/slabw01.txt:13,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+52,1785,ATROCE,Atroce,113,Lv 100-149,true,true,present,npc/instances/EndlessTower.txt:804,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+53,3450,BIJOU,Bijou,115,Lv 100-149,true,true,present,npc/re/instances/RoomOfConsciousness.txt:470,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+54,20346,MD_MIGUEL,Miguel,115,Lv 100-149,true,true,present,npc/re/instances/OsOccupation.txt:604,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+55,2022,S_NYDHOG,Nidhoggur's Shadow,117,Lv 100-149,true,true,present,npc/instances/NydhoggsNest.txt:1869,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+56,3758,ILL_MOONLIGHT,Angry Moonlight Flower,118,Lv 100-149,true,true,present,npc/re/mobs/dungeons/pay_dun.txt:191,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+57,20340,MD_EL_A17T,EL1-A17T,118,Lv 100-149,true,true,present,npc/re/instances/CorOperation.txt:784,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+58,3621,EP16_2_MM_CUTIE,Pet Child,120,Lv 100-149,true,true,present,npc/re/instances/WernerLaboratoryCentralRoom.txt:1082,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+59,2202,KRAKEN,Kraken,124,Lv 100-149,true,true,present,npc/re/mobs/dungeons/iz_dun.txt:122,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+60,1734,KIEL_,Kiel D-01,125,Lv 100-149,true,true,present,npc/re/instances/CentralLaboratory.txt:747,implemented-variable,Unique visible name; highest-level active implementation retained where variants share a name
+61,1685,APOCALIPS_H,Vesper,128,Lv 100-149,true,true,present,npc/re/mobs/dungeons/juperos.txt:52,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+62,3181,E1_FELOCK,Captain Ferlock,130,Lv 100-149,true,true,not required; active direct-spawn basic attacker,npc/re/instances/AirshipAssault.txt:1009,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+63,3796,ILL_KTULLANUX,Awakened Ktullanux,135,Lv 100-149,true,true,present,npc/re/quests/quests_illusion_dungeons.txt:4870,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+64,1719,DETALE,Detardeurus,135,Lv 100-149,true,true,present,npc/re/instances/CentralLaboratory.txt:748,implemented-variable,Unique visible name; highest-level active implementation retained where variants share a name
+65,2131,LOST_DRAGON,Lost Dragon,135,Lv 100-149,true,true,present,npc/re/instances/HazyForest.txt:522,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+66,20620,MD_REDPEPPER,Red Pepper,135,Lv 100-149,true,true,present,npc/re/instances/HiddenGarden.txt:2103,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+67,1871,FALLINGBISHOP,Falling Bishop,138,Lv 100-149,true,true,present,npc/instances/EndlessTower.txt:902,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+68,20659,MD_PITAYA_BOSS,Pitaya Boss,138,Lv 100-149,true,true,present,npc/re/instances/LostFarm.txt:1388,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+69,3757,ILL_DRACULA,Dracula of Rage,139,Lv 100-149,true,true,present,npc/re/quests/quests_illusion_dungeons.txt:3942,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+70,1768,GLOOMUNDERNIGHT,Gloom Under Night,139,Lv 100-149,true,true,present,npc/re/instances/CentralLaboratory.txt:749,implemented-variable,Unique visible name; highest-level active implementation retained where variants share a name
+71,20642,MD_SWEETY,Sweety,139,Lv 100-149,true,true,present,npc/re/instances/TwilightGarden.txt:704,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+72,3073,GRAND_PERE,Awakened Ferre,140,Lv 100-149,true,true,present,npc/re/instances/NightmarishJitterbug.txt:4398,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+73,2165,I_QUEEN_SCARABA,Gold Queen Scaraba,140,Lv 100-149,true,true,present,npc/re/mobs/dungeons/dic_dun.txt:45,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+74,2087,QUEEN_SCARABA,Scaraba Queen,140,Lv 100-149,true,true,present,npc/re/instances/CentralLaboratory.txt:750,implemented-variable,Unique visible name; highest-level active implementation retained where variants share a name
+75,2249,PYURIEL,Angry Student Pyuriel,141,Lv 100-149,true,true,present,npc/re/mobs/dungeons/gld_re.txt:69,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+76,1658,B_YGNIZEM,Egnigem Cenia,141,Lv 100-149,true,true,present,npc/instances/EndlessTower.txt:768,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+77,1751,RANDGRIS,Valkyrie Randgris,141,Lv 100-149,true,true,present,npc/instances/EndlessTower.txt:959,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+78,2253,DAEHYON,General Daehyun,142,Lv 100-149,true,true,present,npc/re/instances/CentralLaboratory.txt:752,implemented-variable,Unique visible name; highest-level active implementation retained where variants share a name
+79,2255,KADES,Dark Guardian Kades,143,Lv 100-149,true,true,present,npc/re/instances/CentralLaboratory.txt:753,implemented-variable,Unique visible name; highest-level active implementation retained where variants share a name
+80,2362,N_AMON_RA,Amon Ra (Nightmare),145,Lv 100-149,true,true,present,npc/re/mobs/dungeons/moc_pryd.txt:82,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+81,3124,CHARLESTON3,Charleston 3,145,Lv 100-149,true,true,present,npc/re/instances/CharlestonCrisis.txt:1218,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+82,20667,MD_SILVA_PAPILIA,Silva Papilia,145,Lv 100-149,true,true,present,npc/re/instances/WaterGarden.txt:903,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+83,2251,GIOIA,Gioia,146,Lv 100-149,true,true,present,npc/re/mobs/dungeons/gld_re.txt:48,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+84,1832,IFRIT,Ifrit,146,Lv 100-149,true,true,present,npc/instances/EndlessTower.txt:931,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+85,1874,BEELZEBUB_,Beelzebub,147,Lv 100-149,true,true,present,npc/re/instances/CentralLaboratory.txt:755,implemented-variable,Unique visible name; highest-level active implementation retained where variants share a name
+86,2476,MG_AMDARAIS,Amdarais,150,Lv 150-199,true,true,present,npc/re/instances/OldGlastHeim.txt:1872,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+87,2475,MG_CORRUPTION_ROOT,Corrupted Soul,150,Lv 150-199,true,true,present,npc/re/instances/OldGlastHeim.txt:1209,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+88,2319,BUWAYA,Buwaya,151,Lv 150-199,true,true,present,npc/re/instances/BuwayaCave.txt:391,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+89,2942,MM_EVIL_FANATICS,Evil Fanatics,151,Lv 150-199,true,true,present,npc/re/instances/DevilTower.txt:1874,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+90,1917,MOROCC_,Wounded Morocc,151,Lv 150-199,true,true,present,npc/re/mobs/fields/morocc.txt:220,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+91,2483,NG_BAPHOMET,Nightmare Baphomet,154,Lv 150-199,true,true,present,npc/re/mobs/dungeons/glastheim.txt:196,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+92,2534,FACEWORM_QUEEN_B,Blue Faceworm Queen,155,Lv 150-199,true,true,present,npc/re/instances/FacewormsNest.txt:1467,implemented-variable,Unique visible name; highest-level active implementation retained where variants share a name
+93,2529,FACEWORM_QUEEN,Faceworm Queen,155,Lv 150-199,true,true,present,npc/re/instances/FacewormsNest.txt:1446,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+94,2533,FACEWORM_QUEEN_G,Green Faceworm Queen,155,Lv 150-199,true,true,present,npc/re/instances/FacewormsNest.txt:1463,implemented-variable,Unique visible name; highest-level active implementation retained where variants share a name
+95,2189,COELACANTH_H_M,Mutant Coelacanth,155,Lv 150-199,true,true,present,npc/re/instances/MalangdoCulvert.txt:803,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+96,2532,FACEWORM_QUEEN_R,Red Faceworm Queen,155,Lv 150-199,true,true,present,npc/re/instances/FacewormsNest.txt:1424,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+97,2190,COELACANTH_H_A,Violent Coelacanth,155,Lv 150-199,true,true,present,npc/re/instances/MalangdoCulvert.txt:809,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+98,2535,FACEWORM_QUEEN_Y,Yellow Faceworm Queen,155,Lv 150-199,true,true,present,npc/re/instances/FacewormsNest.txt:1459,implemented-variable,Unique visible name; highest-level active implementation retained where variants share a name
+99,3741,MECHASPIDER,Spider Chariot,158,Lv 150-199,true,true,present,npc/re/mobs/dungeons/rockridge.txt:18,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+100,3029,GRIM_REAPER_ANKOU,Reaper Yanku,159,Lv 150-199,true,true,present,npc/re/instances/IsleOfBios.txt:614,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+101,1647,B_EREMES,Assassin Cross Eremes,160,Lv 150-199,true,true,present,npc/re/instances/WolfchevLaboratory.txt:1970,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+102,2996,XM_CELINE_KIMI,Celine Kimi,160,Lv 150-199,true,true,present,npc/re/instances/HorrorToyFactory.txt:1071,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+103,2238,B_CHEN,Champion Chen,160,Lv 150-199,true,true,present,npc/re/instances/WolfchevLaboratory.txt:1974,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+104,2240,B_ALPHOCCIO,Clown Alphoccio,160,Lv 150-199,true,true,present,npc/re/instances/WolfchevLaboratory.txt:1976,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+105,2236,B_FLAMEL,Creator Flamel,160,Lv 150-199,true,true,present,npc/re/instances/WolfchevLaboratory.txt:1978,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+106,2241,B_TRENTINI,Gypsy Trentini,160,Lv 150-199,true,true,present,npc/re/instances/WolfchevLaboratory.txt:1972,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+107,1649,B_MAGALETA,High Priest Margaretha,160,Lv 150-199,true,true,present,npc/re/instances/WolfchevLaboratory.txt:1986,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+108,1651,B_KATRINN,High Wizard Kathryne,160,Lv 150-199,true,true,present,npc/re/instances/WolfchevLaboratory.txt:1984,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+109,3659,MD_LICH_LORD_160,Lich Lord,160,Lv 150-199,true,true,present,npc/re/instances/FridayDungeon.txt:128,implemented-variable,Unique visible name; highest-level active implementation retained where variants share a name
+110,1646,B_SEYREN,Lord Knight Seyren,160,Lv 150-199,true,true,present,npc/re/instances/WolfchevLaboratory.txt:1964,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+111,2235,B_RANDEL,Paladin Randel,160,Lv 150-199,true,true,present,npc/re/instances/WolfchevLaboratory.txt:1980,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+112,2237,B_CELIA,Professor Celia,160,Lv 150-199,true,true,present,npc/re/instances/WolfchevLaboratory.txt:1982,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+113,1650,B_SHECIL,Sniper Cecil,160,Lv 150-199,true,true,present,npc/re/instances/WolfchevLaboratory.txt:1966,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+114,2239,B_GERTIE,Stalker Gertie,160,Lv 150-199,true,true,present,npc/re/instances/WolfchevLaboratory.txt:1968,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+115,3473,AS_RAGGED_GOLEM,Stefan.J.E.Wolf,160,Lv 150-199,true,true,present,npc/re/instances/SkyFortress.txt:1563,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+116,1648,B_HARWORD,Whitesmith Howard,160,Lv 150-199,true,true,present,npc/re/instances/WolfchevLaboratory.txt:1988,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+117,3804,ILL_TURTLE_GENERAL,Ominous Turtle General,165,Lv 150-199,true,true,present,npc/re/mobs/dungeons/tur_dun.txt:87,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+118,3254,T_W_O,T_W_O,165,Lv 150-199,true,true,present,npc/re/instances/LastRoom.txt:389,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+119,20648,EP17_2_PITAYA_BOSS,Boss Meow,168,Lv 150-199,true,true,present,npc/re/mobs/fields/ba_lost.txt:14,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+120,20273,ILL_TAO_GUNKA,Ancient Tao Gunka,169,Lv 150-199,true,true,present,npc/re/mobs/dungeons/beach_dun.txt:64,implemented-variable,Unique visible name; highest-level active implementation retained where variants share a name
+121,20277,ILL_WOOTAN_DEFENDER,Ancient Wootan Defender,169,Lv 150-199,true,true,present,npc/re/mobs/dungeons/beach_dun.txt:64,computed-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+122,3074,TIMEHOLDER,Time Holder,170,Lv 150-199,true,true,present,npc/re/mobs/dungeons/c_tower.txt:73,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+123,20381,EP17_1_R4885_BESTIA,R48-85-Bestia,174,Lv 150-199,true,true,present,npc/re/mobs/dungeons/sp_rudus.txt:19,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+124,3097,MM_MOROCC_ADT,Despair God Morroc,175,Lv 150-199,true,true,present,npc/re/instances/TempleOfDemonGod.txt:2002,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+125,21395,ILL_MAYA,Silent Maya,175,Lv 150-199,true,true,present,npc/re/mobs/dungeons/anthell.txt:149,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+126,20621,MD_REDPEPPER_H,Senior Red Pepper,185,Lv 150-199,true,true,present,npc/re/instances/HiddenGarden.txt:2108,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+127,3241,V_B_FLAMEL,Genetic Flamel,186,Lv 150-199,true,true,present,npc/re/mobs/dungeons/lhz_dun_n.txt:84,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+128,3245,V_B_ALPHOCCIO,Minstrel Alphoccio,186,Lv 150-199,true,true,present,npc/re/mobs/dungeons/lhz_dun_n.txt:84,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+129,3246,V_B_TRENTINI,Wanderer Trentini,186,Lv 150-199,true,true,present,npc/re/mobs/dungeons/lhz_dun_n.txt:84,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+130,3221,V_B_MAGALETA,Arch Bishop Margaretha,187,Lv 150-199,true,true,present,npc/re/mobs/dungeons/lhz_dun_n.txt:84,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+131,3223,V_B_HARWORD,Mechanic Howard,187,Lv 150-199,true,true,present,npc/re/mobs/dungeons/lhz_dun_n.txt:84,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+132,3224,V_B_KATRINN,Warlock Kathryne,187,Lv 150-199,true,true,present,npc/re/mobs/dungeons/lhz_dun_n.txt:84,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+133,20419,MUSPELLSKOLL_H,Rigid Muspellskoll,188,Lv 150-199,true,true,present,npc/re/mobs/dungeons/mag_dun.txt:44,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+134,3240,V_B_RANDEL,Royal Guard Randel,188,Lv 150-199,true,true,present,npc/re/mobs/dungeons/lhz_dun_n.txt:84,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+135,3244,V_B_GERTIE,Shadow Chaser Gertie,188,Lv 150-199,true,true,present,npc/re/mobs/dungeons/lhz_dun_n.txt:84,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+136,3242,V_B_CELIA,Sorcerer Celia,188,Lv 150-199,true,true,present,npc/re/mobs/dungeons/lhz_dun_n.txt:84,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+137,3243,V_B_CHEN,Sura Chen,188,Lv 150-199,true,true,present,npc/re/mobs/dungeons/lhz_dun_n.txt:84,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+138,3220,V_B_EREMES,Guillotine Cross Eremes,189,Lv 150-199,true,true,present,npc/re/mobs/dungeons/lhz_dun_n.txt:84,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+139,3222,V_B_SHECIL,Ranger Cecil,189,Lv 150-199,true,true,present,npc/re/mobs/dungeons/lhz_dun_n.txt:84,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+140,3225,V_B_SEYREN,Rune Knight Seyren,189,Lv 150-199,true,true,present,npc/re/mobs/dungeons/lhz_dun_n.txt:84,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+141,20422,DARK_LORD_H,Corrupted Dark Lord,194,Lv 150-199,true,true,present,npc/re/mobs/dungeons/glastheim.txt:219,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+142,20421,BRINARANEA_H,Corrupted Spider Queen,195,Lv 150-199,true,true,present,npc/re/mobs/dungeons/glastheim.txt:218,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+143,20601,JUNGOLIANT,Jewel Ungoliant,197,Lv 150-199,true,true,present,npc/re/mobs/dungeons/ein_dun.txt:52,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+144,20811,ILL_KRAKEN,Deep Sea Kraken,204,Lv 200+,true,true,present,npc/re/mobs/dungeons/iz_dun.txt:145,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+145,20843,ILL_ABYSMAL_WITCH,Deep Sea Witch,205,Lv 200+,true,true,present,npc/re/mobs/dungeons/iz_dun.txt:181,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+146,21301,EP18_BURNING_FANG,Burning Fang,212,Lv 200+,true,true,present,npc/re/mobs/dungeons/oz_dun.txt:17,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+147,20934,R001_BESTIA,R001-Bestia,215,Lv 200+,true,true,present,npc/re/mobs/dungeons/sp_rudus.txt:31,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+148,21360,EP18_MD_SCHULANG_L,Schulang,224,Lv 200+,true,true,present,npc/re/instances/VillaofDeception.txt:175,implemented-variable,Unique visible name; highest-level active implementation retained where variants share a name
+149,21361,EP18_MD_DEMI_FREYJA_L,Twisted God Freyja,224,Lv 200+,true,true,present,npc/re/instances/VillaofDeception.txt:176,implemented-variable,Unique visible name; highest-level active implementation retained where variants share a name
+150,20928,CHIMERA_THEONE,The One,245,Lv 200+,true,true,present,npc/re/mobs/dungeons/amicitia.txt:18,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
+151,20943,DEATH_WITCH,Death Witch,255,Lv 200+,true,true,present,npc/re/mobs/dungeons/nif_dun.txt:18,direct-spawn,Unique visible name; highest-level active implementation retained where variants share a name
