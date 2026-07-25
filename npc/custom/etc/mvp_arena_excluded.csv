@@ -1,0 +1,35 @@
+Monster ID,AegisName,Name,Level,Reason
+1399,EVENT_BAPHO,Baphomet,68,No active field/quest/event/instance spawn reference found in enabled Renewal NPC configuration; disabled event/clone/unused database entry.
+1502,PORING_V,Bring it on!,99,No active field/quest/event/instance spawn reference found in enabled Renewal NPC configuration; disabled event/clone/unused database entry.
+1518,BACSOJIN,White Lady,97,Duplicate/obsolete White Lady event ID; active implemented White Lady ID 1630 retained.
+1813,EVENT_HYDRO,Hydrolancer,99,No active field/quest/event/instance spawn reference found in enabled Renewal NPC configuration; disabled event/clone/unused database entry.
+1817,EVENT_DETALE,Detardeurus,99,No active field/quest/event/instance spawn reference found in enabled Renewal NPC configuration; disabled event/clone/unused database entry.
+1876,E_LORD_OF_DEATH,Lord of the Dead,99,No active field/quest/event/instance spawn reference found in enabled Renewal NPC configuration; disabled event/clone/unused database entry.
+2052,E_DARKLORD,Dark Lord,96,No active field/quest/event/instance spawn reference found in enabled Renewal NPC configuration; disabled event/clone/unused database entry.
+2075,E_VADON_X,Ragunta,1,No active field/quest/event/instance spawn reference found in enabled Renewal NPC configuration; disabled event/clone/unused database entry.
+2094,E_ORK_HERO2,Orc Hero,50,No active field/quest/event/instance spawn reference found in enabled Renewal NPC configuration; disabled event/clone/unused database entry.
+2095,E_EDDGA,Eddga,65,No active field/quest/event/instance spawn reference found in enabled Renewal NPC configuration; disabled event/clone/unused database entry.
+2096,E_OSIRIS2,Osiris,68,No active field/quest/event/instance spawn reference found in enabled Renewal NPC configuration; disabled event/clone/unused database entry.
+2097,E_DRACULA,Dracula,75,No active field/quest/event/instance spawn reference found in enabled Renewal NPC configuration; disabled event/clone/unused database entry.
+2098,E_DOPPELGANGER,Doppelganger,77,No active field/quest/event/instance spawn reference found in enabled Renewal NPC configuration; disabled event/clone/unused database entry.
+2099,E_MISTRESS,Mistress,78,No active field/quest/event/instance spawn reference found in enabled Renewal NPC configuration; disabled event/clone/unused database entry.
+2100,E_BAPHOMET2,Baphomet,81,No active field/quest/event/instance spawn reference found in enabled Renewal NPC configuration; disabled event/clone/unused database entry.
+2101,E_LORD_OF_DEATH2,Lord of the Dead,94,No active field/quest/event/instance spawn reference found in enabled Renewal NPC configuration; disabled event/clone/unused database entry.
+2102,E_DARK_LORD,Dark Lord,96,No active field/quest/event/instance spawn reference found in enabled Renewal NPC configuration; disabled event/clone/unused database entry.
+2103,E_KTULLANUX,Ktullanux,98,No active field/quest/event/instance spawn reference found in enabled Renewal NPC configuration; disabled event/clone/unused database entry.
+2104,E_DARK_SNAKE_LORD,Evil Snake Lord,105,No active field/quest/event/instance spawn reference found in enabled Renewal NPC configuration; disabled event/clone/unused database entry.
+2105,E_TURTLE_GENERAL,Turtle General,110,No active field/quest/event/instance spawn reference found in enabled Renewal NPC configuration; disabled event/clone/unused database entry.
+2106,E_APOCALIPS_H,Vesper,128,No active field/quest/event/instance spawn reference found in enabled Renewal NPC configuration; disabled event/clone/unused database entry.
+2107,E_FALLINGBISHOP,Fallen Bishop Hibram,138,No active field/quest/event/instance spawn reference found in enabled Renewal NPC configuration; disabled event/clone/unused database entry.
+2108,E_GLOOMUNDERNIGHT,Gloom Under Night,139,No active field/quest/event/instance spawn reference found in enabled Renewal NPC configuration; disabled event/clone/unused database entry.
+2109,E_RANDGRIS,Valkyrie Randgris,141,No active field/quest/event/instance spawn reference found in enabled Renewal NPC configuration; disabled event/clone/unused database entry.
+2110,E_IFRIT,Ifrit,146,No active field/quest/event/instance spawn reference found in enabled Renewal NPC configuration; disabled event/clone/unused database entry.
+2111,E_B_HARWORD,Whitesmith Howard,160,No active field/quest/event/instance spawn reference found in enabled Renewal NPC configuration; disabled event/clone/unused database entry.
+2112,E_B_SEYREN,Lord Knight Seyren,160,No active field/quest/event/instance spawn reference found in enabled Renewal NPC configuration; disabled event/clone/unused database entry.
+2113,E_B_EREMES,Assassin Cross Eremes,160,No active field/quest/event/instance spawn reference found in enabled Renewal NPC configuration; disabled event/clone/unused database entry.
+2212,E_KNIGHT_OF_WINDSTORM,Stormy Knight,92,No active field/quest/event/instance spawn reference found in enabled Renewal NPC configuration; disabled event/clone/unused database entry.
+2306,E_GOLDEN_BUG,Golden Thief Bug,65,No active field/quest/event/instance spawn reference found in enabled Renewal NPC configuration; disabled event/clone/unused database entry.
+2341,RWC_BOSS2011,2011 RWC Boss,141,No active field/quest/event/instance spawn reference found in enabled Renewal NPC configuration; disabled event/clone/unused database entry.
+2352,E_RSX_0805,RSX 0805,100,No active field/quest/event/instance spawn reference found in enabled Renewal NPC configuration; disabled event/clone/unused database entry.
+2564,GEFFEN_FENRIR,Fenrir,160,No active field/quest/event/instance spawn reference found in enabled Renewal NPC configuration; disabled event/clone/unused database entry.
+20668,MD_GRAN_PAPILIA,Gran Papilia,195,No active field/quest/event/instance spawn reference found in enabled Renewal NPC configuration; disabled event/clone/unused database entry.

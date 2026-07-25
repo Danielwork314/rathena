@@ -1,41 +1,35 @@
 //===== rAthena Script =======================================
-//= MVP Arena
-//===== By: ==================================================
-//= Darkchild
-//===== Current Version: =====================================
-//= 1.4
-//===== Compatible With: =====================================
-//= rAthena Project
+//= Complete Implemented MVP Arena
 //===== Description: =========================================
-//= Rooms containing 16 different MVPs
-//===== Additional Comments: =================================
-//= 1.0 - First version of script
-//= 1.1 - Optimised The MVP arena [massdriller]
-//= 1.2 - NPC in prontera [Silent]
-//= 1.3 - Removed Duplicates
-//= 1.4 - Optimized, text edited [Euphy]
+//= Summon-based MVP arena containing every unique MVP that is:
+//= 1) defined as an MVP in db/re/mob_db.yml; and
+//= 2) referenced by an enabled field, quest, event, or instance script.
+//=
+//= Exact duplicate IDs are removed. Distinct difficulty/element variants
+//= remain available and are identified by their level in the menu.
 //============================================================
 
-// Entrance
 prontera,154,197,3	script	MVP Warper	768,{
-	mes "[ ^0065DFMVP Warper^000000 ]";
-	mes "Would you like to enter";
-	mes "the MVP Arena?";
-	if (select("Yes!","No thanks.") == 2) close;
+	mes "[MVP Warper]";
+	mes "Enter the Complete MVP Arena?";
+	mes "The arena contains ^0055FF155 unique implemented MVP IDs^000000, including instance MVPs.";
+	next;
+	if (select("Enter:Cancel") == 2) close;
 	warp "quiz_00",50,24;
 	close;
 }
 
-// Information
 quiz_00,49,31,4	script	MVP Arena Guide	778,{
-	mes "[ ^0065DFMVP Arena Guide^000000 ]";
-	mes "Welcome and behold this sacred place. Here you will find out if you truly have what it takes to call yourself a warrior.";
+	mes "[MVP Arena Guide]";
+	mes "Choose a level group, then select one of eight arena copies.";
+	mes "Each room allows only ^FF0000one active MVP at a time^000000.";
 	next;
-	switch(select("Information","Heal me!","Return to Prontera","Cancel")) {
+	switch(select("Arena information:Heal me:Return to Prontera:Cancel")) {
 	case 1:
-		mes "[ ^0065DFMVP Arena Guide^000000 ]";
-		mes "There are four Keepers, and each can spawn four different MVPs.";
-		mes "There are eight rooms per Keeper, and sixteen MVPs in total.";
+		mes "[MVP Arena Guide]";
+		mes "Included MVPs are validated against the Renewal monster database and enabled NPC scripts.";
+		mes "Instance MVPs are included. Disabled events, unused clone IDs, and exact duplicate IDs are excluded.";
+		mes "Distinct forms such as normal/hard instance bosses remain separate because they use different monster IDs and stats.";
 		close;
 	case 2:
 		specialeffect2 EF_HEAL2;
@@ -44,241 +38,226 @@ quiz_00,49,31,4	script	MVP Arena Guide	778,{
 	case 3:
 		warp "prontera",156,179;
 		close;
-	case 4:
+	default:
 		close;
 	}
 }
 
-// Keepers
-function	script	Keeper	{
-	set .@arg, getarg(0);
-	mes "[ ^0065DF"+strnpcinfo(1)+"^000000 ]";
-	mes "Which arena would you";
-	mes "like to enter?";
-	for(set .@i,1; .@i<9; set .@i,.@i+1)
-		set .@menu$, .@menu$+"Arena "+.@i+" ["+getmapusers("pvp_n_"+.@i+"-"+.@arg)+"/20]:";
-	set .@i, select(.@menu$);
-	if (getmapusers("pvp_n_"+.@i+"-"+ .@arg)>19) {
-		mes "[ ^0065DF"+strnpcinfo(1)+"^000000 ]";
-		mes "Sorry, this arena is full!";
+function	script	F_MvpArenaKeeper	{
+	.@suffix = getarg(0);
+	.@title$ = getarg(1);
+	mes "[" + .@title$ + "]";
+	mes "Choose an arena copy.";
+	for (.@i = 1; .@i <= 8; ++.@i)
+		.@menu$ += "Arena " + .@i + " [" + getmapusers("pvp_n_"+.@i+"-"+.@suffix) + "/20]:";
+	.@room = select(.@menu$);
+	.@map$ = "pvp_n_"+.@room+"-"+.@suffix;
+	if (getmapusers(.@map$) >= 20) {
+		mes "[" + .@title$ + "]";
+		mes "That arena is full.";
 		close;
 	}
-	warp "pvp_n_"+.@i+"-"+ .@arg,102,102;
+	warp .@map$,102,102;
 	close;
 }
-quiz_00,56,31,4	script	Alpha MVP	770,{ callfunc "Keeper",2; }
-quiz_00,58,31,4	script	Beta MVP	773,{ callfunc "Keeper",3; }
-quiz_00,60,31,4	script	Theta MVP	774,{ callfunc "Keeper",4; }
-quiz_00,62,31,4	script	Epsilon MVP	776,{ callfunc "Keeper",5; }
 
-// Protectors
-function	script	Protector	{
-	switch(select(""+((getarg(0)=="")?"":"Harder Monsters")+":Heal:Exit")) {
+quiz_00,56,31,4	script	Lv 1-99 MVPs	770,{ callfunc "F_MvpArenaKeeper",2,"Lv 1-99 MVPs"; }
+quiz_00,58,31,4	script	Lv 100-149 MVPs	773,{ callfunc "F_MvpArenaKeeper",3,"Lv 100-149 MVPs"; }
+quiz_00,60,31,4	script	Lv 150-199 MVPs	774,{ callfunc "F_MvpArenaKeeper",4,"Lv 150-199 MVPs"; }
+quiz_00,62,31,4	script	Lv 200+ MVPs	776,{ callfunc "F_MvpArenaKeeper",5,"Lv 200+ MVPs"; }
+
+function	script	F_MvpArenaSelect	{
+	.@group = getarg(0);
+	switch (.@group) {
+	case 1: .@array$ = "$@MVP_ARENA_L1_99"; .@size = $@MVP_ARENA_L1_99_SIZE; break;
+	case 2: .@array$ = "$@MVP_ARENA_L100_149"; .@size = $@MVP_ARENA_L100_149_SIZE; break;
+	case 3: .@array$ = "$@MVP_ARENA_L150_199"; .@size = $@MVP_ARENA_L150_199_SIZE; break;
+	case 4: .@array$ = "$@MVP_ARENA_L200_PLUS"; .@size = $@MVP_ARENA_L200_PLUS_SIZE; break;
+	default: return 0;
+	}
+
+	.@per_page = 6;
+	.@page = 0;
+	while (1) {
+		.@start = .@page * .@per_page;
+		.@remaining = .@size - .@start;
+		.@shown = .@remaining > .@per_page ? .@per_page : .@remaining;
+		.@menu$ = "";
+		for (.@i = 0; .@i < .@shown; ++.@i) {
+			.@id = getd(.@array$ + "[" + (.@start + .@i) + "]");
+			.@menu$ += getmonsterinfo(.@id,MOB_NAME) + " [Lv " + getmonsterinfo(.@id,MOB_LV) + "]:";
+		}
+		.@has_prev = .@page > 0;
+		.@has_next = (.@start + .@shown) < .@size;
+		if (.@has_prev) .@menu$ += "^777777Previous page^000000:";
+		if (.@has_next) .@menu$ += "^0055FFNext page^000000:";
+		.@menu$ += "Cancel";
+		.@choice = select(.@menu$) - 1;
+		if (.@choice < .@shown)
+			return getd(.@array$ + "[" + (.@start + .@choice) + "]");
+		.@nav = .@choice - .@shown;
+		if (.@has_prev) {
+			if (.@nav == 0) { --.@page; continue; }
+			--.@nav;
+		}
+		if (.@has_next && .@nav == 0) { ++.@page; continue; }
+		return 0;
+	}
+}
+
+function	script	F_MvpArenaRoom	{
+	.@group = getarg(0);
+	mes "[MVP Arena Summoner]";
+	mes "Only one MVP can be active in this room.";
+	next;
+	switch(select("Summon an MVP:Heal:Return to lobby:Return to Prontera:Cancel")) {
 	case 1:
-		warp getarg(0),102,102;
+		if (mobcount("this",strnpcinfo(3)+"::OnMvpDead") > 0) {
+			mes "[MVP Arena Summoner]";
+			mes "Defeat the active MVP before summoning another one.";
+			close;
+		}
+		.@mob_id = callfunc("F_MvpArenaSelect",.@group);
+		if (!.@mob_id) close;
+		mes "[MVP Arena Summoner]";
+		mes "Summon ^FF0000"+getmonsterinfo(.@mob_id,MOB_NAME)+"^000000?";
+		mes "Level: "+getmonsterinfo(.@mob_id,MOB_LV);
+		next;
+		if (select("Summon:Cancel") == 2) close;
+		close2;
+		monster "this",0,0,getmonsterinfo(.@mob_id,MOB_NAME),.@mob_id,1,strnpcinfo(3)+"::OnMvpDead";
+		mapannounce strnpcinfo(4),getmonsterinfo(.@mob_id,MOB_NAME)+" has been summoned!",bc_map|bc_red;
 		end;
 	case 2:
 		specialeffect2 EF_HEAL2;
 		percentheal 100,100;
-		end;
+		close;
 	case 3:
+		warp "quiz_00",50,24;
+		close;
+	case 4:
 		warp "prontera",156,179;
-		end;
+		close;
+	default:
+		close;
 	}
 }
-pvp_n_1-2,100,100,4	script	MVP-Protector#01	727,{ callfunc "Protector","pvp_n_2-2"; }
-pvp_n_2-2,100,100,4	script	MVP-Protector#02	727,{ callfunc "Protector","pvp_n_3-2"; }
-pvp_n_3-2,100,100,4	script	MVP-Protector#03	727,{ callfunc "Protector","pvp_n_4-2"; }
-pvp_n_4-2,100,100,4	script	MVP-Protector#04	727,{ callfunc "Protector","pvp_n_5-2"; }
-pvp_n_5-2,100,100,4	script	MVP-Protector#05	727,{ callfunc "Protector","pvp_n_6-2"; }
-pvp_n_6-2,100,100,4	script	MVP-Protector#06	727,{ callfunc "Protector","pvp_n_7-2"; }
-pvp_n_7-2,100,100,4	script	MVP-Protector#07	727,{ callfunc "Protector","pvp_n_8-2"; }
-pvp_n_8-2,100,100,4	script	MVP-Protector#08	727,{ callfunc "Protector",""; }
-pvp_n_1-3,100,100,4	script	MVP-Protector#09	727,{ callfunc "Protector","pvp_n_2-3"; }
-pvp_n_2-3,100,100,4	script	MVP-Protector#10	727,{ callfunc "Protector","pvp_n_3-3"; }
-pvp_n_3-3,100,100,4	script	MVP-Protector#11	727,{ callfunc "Protector","pvp_n_4-3"; }
-pvp_n_4-3,100,100,4	script	MVP-Protector#12	727,{ callfunc "Protector","pvp_n_5-3"; }
-pvp_n_5-3,100,100,4	script	MVP-Protector#13	727,{ callfunc "Protector","pvp_n_6-3"; }
-pvp_n_6-3,100,100,4	script	MVP-Protector#14	727,{ callfunc "Protector","pvp_n_7-3"; }
-pvp_n_7-3,100,100,4	script	MVP-Protector#15	727,{ callfunc "Protector","pvp_n_8-3"; }
-pvp_n_8-3,100,100,4	script	MVP-Protector#16	727,{ callfunc "Protector",""; }
-pvp_n_1-4,100,100,4	script	MVP-Protector#17	727,{ callfunc "Protector","pvp_n_2-4"; }
-pvp_n_2-4,100,100,4	script	MVP-Protector#18	727,{ callfunc "Protector","pvp_n_3-4"; }
-pvp_n_3-4,100,100,4	script	MVP-Protector#19	727,{ callfunc "Protector","pvp_n_4-4"; }
-pvp_n_4-4,100,100,4	script	MVP-Protector#20	727,{ callfunc "Protector","pvp_n_5-4"; }
-pvp_n_5-4,100,100,4	script	MVP-Protector#21	727,{ callfunc "Protector","pvp_n_6-4"; }
-pvp_n_6-4,100,100,4	script	MVP-Protector#22	727,{ callfunc "Protector","pvp_n_7-4"; }
-pvp_n_7-4,100,100,4	script	MVP-Protector#23	727,{ callfunc "Protector","pvp_n_8-4"; }
-pvp_n_8-4,100,100,4	script	MVP-Protector#24	727,{ callfunc "Protector",""; }
-pvp_n_1-5,100,100,4	script	MVP-Protector#25	727,{ callfunc "Protector","pvp_n_2-5"; }
-pvp_n_2-5,100,100,4	script	MVP-Protector#26	727,{ callfunc "Protector","pvp_n_3-5"; }
-pvp_n_3-5,100,100,4	script	MVP-Protector#27	727,{ callfunc "Protector","pvp_n_4-5"; }
-pvp_n_4-5,100,100,4	script	MVP-Protector#28	727,{ callfunc "Protector","pvp_n_5-5"; }
-pvp_n_5-5,100,100,4	script	MVP-Protector#29	727,{ callfunc "Protector","pvp_n_6-5"; }
-pvp_n_6-5,100,100,4	script	MVP-Protector#30	727,{ callfunc "Protector","pvp_n_7-5"; }
-pvp_n_7-5,100,100,4	script	MVP-Protector#31	727,{ callfunc "Protector","pvp_n_8-5"; }
-pvp_n_8-5,100,100,4	script	MVP-Protector#32	727,{ callfunc "Protector",""; }
 
-// Alpha
-pvp_n_1-2,0,0	monster	Eddga	1115,3,60000,66000
-pvp_n_1-2,0,0	monster	Mistress	1059,1,60000,66000
-pvp_n_2-2,0,0	monster	Mistress	1059,3,60000,66000
-pvp_n_2-2,0,0	monster	Moonlight	1150,1,60000,66000
-pvp_n_3-2,0,0	monster	Mistress	1059,1,60000,66000
-pvp_n_3-2,0,0	monster	Moonlight	1150,2,60000,66000
-pvp_n_3-2,0,0	monster	Maya	1147,1,60000,66000
-pvp_n_4-2,0,0	monster	Eddga	1115,1,60000,66000
-pvp_n_4-2,0,0	monster	Mistress	1059,1,60000,66000
-pvp_n_4-2,0,0	monster	Moonlight	1150,1,60000,66000
-pvp_n_4-2,0,0	monster	Maya	1147,1,60000,66000
-pvp_n_5-2,0,0	monster	Eddga	1115,1,60000,66000
-pvp_n_5-2,0,0	monster	Mistress	1059,2,60000,66000
-pvp_n_5-2,0,0	monster	Moonlight	1150,1,60000,66000
-pvp_n_5-2,0,0	monster	Maya	1147,2,60000,66000
-pvp_n_6-2,0,0	monster	Eddga	1115,2,60000,66000
-pvp_n_6-2,0,0	monster	Mistress	1059,3,60000,66000
-pvp_n_6-2,0,0	monster	Moonlight	1150,1,60000,66000
-pvp_n_6-2,0,0	monster	Maya	1147,2,60000,66000
-pvp_n_7-2,0,0	monster	Eddga	1115,3,60000,66000
-pvp_n_7-2,0,0	monster	Mistress	1059,3,60000,66000
-pvp_n_7-2,0,0	monster	Moonlight	1150,2,60000,66000
-pvp_n_7-2,0,0	monster	Maya	1147,2,60000,66000
-pvp_n_8-2,0,0	monster	Eddga	1115,3,60000,66000
-pvp_n_8-2,0,0	monster	Mistress	1059,3,60000,66000
-pvp_n_8-2,0,0	monster	Moonlight	1150,3,60000,66000
-pvp_n_8-2,0,0	monster	Maya	1147,3,60000,66000
+-	script	MVP_Arena_Room_L1_99	-1,{
+	callfunc "F_MvpArenaRoom",1;
+OnMvpDead:
+	mapannounce strnpcinfo(4),getmonsterinfo(killedrid,MOB_NAME)+" has been defeated.",bc_map|bc_blue;
+	end;
+}
+-	script	MVP_Arena_Room_L100_149	-1,{
+	callfunc "F_MvpArenaRoom",2;
+OnMvpDead:
+	mapannounce strnpcinfo(4),getmonsterinfo(killedrid,MOB_NAME)+" has been defeated.",bc_map|bc_blue;
+	end;
+}
+-	script	MVP_Arena_Room_L150_199	-1,{
+	callfunc "F_MvpArenaRoom",3;
+OnMvpDead:
+	mapannounce strnpcinfo(4),getmonsterinfo(killedrid,MOB_NAME)+" has been defeated.",bc_map|bc_blue;
+	end;
+}
+-	script	MVP_Arena_Room_L200_PLUS	-1,{
+	callfunc "F_MvpArenaRoom",4;
+OnMvpDead:
+	mapannounce strnpcinfo(4),getmonsterinfo(killedrid,MOB_NAME)+" has been defeated.",bc_map|bc_blue;
+	end;
+}
 
-// Beta
-pvp_n_1-3,0,0	monster	Phreeoni	1159,3,60000,66000
-pvp_n_1-3,0,0	monster	Turtle General	1312,1,60000,66000
-pvp_n_2-3,0,0	monster	Phreeoni	1159,2,60000,66000
-pvp_n_2-3,0,0	monster	Turtle General	1312,1,60000,66000
-pvp_n_2-3,0,0	monster	Orc Hero	1087,1,60000,66000
-pvp_n_3-3,0,0	monster	Phreeoni	1159,1,60000,66000
-pvp_n_3-3,0,0	monster	Turtle General	1312,1,60000,66000
-pvp_n_3-3,0,0	monster	Orc Hero	1087,1,60000,66000
-pvp_n_3-3,0,0	monster	Orc Lord	1190,1,60000,66000
-pvp_n_4-3,0,0	monster	Phreeoni	1159,2,60000,66000
-pvp_n_4-3,0,0	monster	Turtle General	1312,1,60000,66000
-pvp_n_4-3,0,0	monster	Orc Hero	1087,1,60000,66000
-pvp_n_4-3,0,0	monster	Orc Lord	1190,1,60000,66000
-pvp_n_5-3,0,0	monster	Phreeoni	1159,1,60000,66000
-pvp_n_5-3,0,0	monster	Turtle General	1312,2,60000,66000
-pvp_n_5-3,0,0	monster	Orc Hero	1087,2,60000,66000
-pvp_n_5-3,0,0	monster	Orc Lord	1190,1,60000,66000
-pvp_n_6-3,0,0	monster	Phreeoni	1159,2,60000,66000
-pvp_n_6-3,0,0	monster	Turtle General	1312,1,60000,66000
-pvp_n_6-3,0,0	monster	Orc Hero	1087,2,60000,66000
-pvp_n_6-3,0,0	monster	Orc Lord	1190,2,60000,66000
-pvp_n_7-3,0,0	monster	Phreeoni	1159,3,60000,66000
-pvp_n_7-3,0,0	monster	Turtle General	1312,1,60000,66000
-pvp_n_7-3,0,0	monster	Orc Hero	1087,2,60000,66000
-pvp_n_7-3,0,0	monster	Orc Lord	1190,3,60000,66000
-pvp_n_8-3,0,0	monster	Phreeoni	1159,3,60000,66000
-pvp_n_8-3,0,0	monster	Turtle General	1312,3,60000,66000
-pvp_n_8-3,0,0	monster	Orc Hero	1087,3,60000,66000
-pvp_n_8-3,0,0	monster	Orc Lord	1190,3,60000,66000
+pvp_n_1-2,100,100,4	duplicate(MVP_Arena_Room_L1_99)	MVP Summoner#A01	727
+pvp_n_2-2,100,100,4	duplicate(MVP_Arena_Room_L1_99)	MVP Summoner#A02	727
+pvp_n_3-2,100,100,4	duplicate(MVP_Arena_Room_L1_99)	MVP Summoner#A03	727
+pvp_n_4-2,100,100,4	duplicate(MVP_Arena_Room_L1_99)	MVP Summoner#A04	727
+pvp_n_5-2,100,100,4	duplicate(MVP_Arena_Room_L1_99)	MVP Summoner#A05	727
+pvp_n_6-2,100,100,4	duplicate(MVP_Arena_Room_L1_99)	MVP Summoner#A06	727
+pvp_n_7-2,100,100,4	duplicate(MVP_Arena_Room_L1_99)	MVP Summoner#A07	727
+pvp_n_8-2,100,100,4	duplicate(MVP_Arena_Room_L1_99)	MVP Summoner#A08	727
+pvp_n_1-3,100,100,4	duplicate(MVP_Arena_Room_L100_149)	MVP Summoner#B01	727
+pvp_n_2-3,100,100,4	duplicate(MVP_Arena_Room_L100_149)	MVP Summoner#B02	727
+pvp_n_3-3,100,100,4	duplicate(MVP_Arena_Room_L100_149)	MVP Summoner#B03	727
+pvp_n_4-3,100,100,4	duplicate(MVP_Arena_Room_L100_149)	MVP Summoner#B04	727
+pvp_n_5-3,100,100,4	duplicate(MVP_Arena_Room_L100_149)	MVP Summoner#B05	727
+pvp_n_6-3,100,100,4	duplicate(MVP_Arena_Room_L100_149)	MVP Summoner#B06	727
+pvp_n_7-3,100,100,4	duplicate(MVP_Arena_Room_L100_149)	MVP Summoner#B07	727
+pvp_n_8-3,100,100,4	duplicate(MVP_Arena_Room_L100_149)	MVP Summoner#B08	727
+pvp_n_1-4,100,100,4	duplicate(MVP_Arena_Room_L150_199)	MVP Summoner#C01	727
+pvp_n_2-4,100,100,4	duplicate(MVP_Arena_Room_L150_199)	MVP Summoner#C02	727
+pvp_n_3-4,100,100,4	duplicate(MVP_Arena_Room_L150_199)	MVP Summoner#C03	727
+pvp_n_4-4,100,100,4	duplicate(MVP_Arena_Room_L150_199)	MVP Summoner#C04	727
+pvp_n_5-4,100,100,4	duplicate(MVP_Arena_Room_L150_199)	MVP Summoner#C05	727
+pvp_n_6-4,100,100,4	duplicate(MVP_Arena_Room_L150_199)	MVP Summoner#C06	727
+pvp_n_7-4,100,100,4	duplicate(MVP_Arena_Room_L150_199)	MVP Summoner#C07	727
+pvp_n_8-4,100,100,4	duplicate(MVP_Arena_Room_L150_199)	MVP Summoner#C08	727
+pvp_n_1-5,100,100,4	duplicate(MVP_Arena_Room_L200_PLUS)	MVP Summoner#D01	727
+pvp_n_2-5,100,100,4	duplicate(MVP_Arena_Room_L200_PLUS)	MVP Summoner#D02	727
+pvp_n_3-5,100,100,4	duplicate(MVP_Arena_Room_L200_PLUS)	MVP Summoner#D03	727
+pvp_n_4-5,100,100,4	duplicate(MVP_Arena_Room_L200_PLUS)	MVP Summoner#D04	727
+pvp_n_5-5,100,100,4	duplicate(MVP_Arena_Room_L200_PLUS)	MVP Summoner#D05	727
+pvp_n_6-5,100,100,4	duplicate(MVP_Arena_Room_L200_PLUS)	MVP Summoner#D06	727
+pvp_n_7-5,100,100,4	duplicate(MVP_Arena_Room_L200_PLUS)	MVP Summoner#D07	727
+pvp_n_8-5,100,100,4	duplicate(MVP_Arena_Room_L200_PLUS)	MVP Summoner#D08	727
 
-// Theta
-pvp_n_1-4,0,0	monster	Drake	1112,3,60000,66000
-pvp_n_1-4,0,0	monster	Osiris	1038,1,60000,66000
-pvp_n_2-4,0,0	monster	Drake	1112,2,60000,66000
-pvp_n_2-4,0,0	monster	Osiris	1038,1,60000,66000
-pvp_n_2-4,0,0	monster	Doppelganger	1046,1,60000,66000
-pvp_n_3-4,0,0	monster	Drake	1112,1,60000,66000
-pvp_n_3-4,0,0	monster	Osiris	1038,1,60000,66000
-pvp_n_3-4,0,0	monster	Doppelganger	1046,1,60000,66000
-pvp_n_3-4,0,0	monster	Lord of Death	1373,1,60000,66000
-pvp_n_4-4,0,0	monster	Drake	1112,2,60000,66000
-pvp_n_4-4,0,0	monster	Osiris	1038,1,60000,66000
-pvp_n_4-4,0,0	monster	Doppelganger	1046,2,60000,66000
-pvp_n_4-4,0,0	monster	Lord of Death	1373,1,60000,66000
-pvp_n_5-4,0,0	monster	Drake	1112,3,60000,66000
-pvp_n_5-4,0,0	monster	Osiris	1038,2,60000,66000
-pvp_n_5-4,0,0	monster	Doppelganger	1046,2,60000,66000
-pvp_n_5-4,0,0	monster	Lord of Death	1373,1,60000,66000
-pvp_n_6-4,0,0	monster	Drake	1112,3,60000,66000
-pvp_n_6-4,0,0	monster	Osiris	1038,2,60000,66000
-pvp_n_6-4,0,0	monster	Doppelganger	1046,2,60000,66000
-pvp_n_6-4,0,0	monster	Lord of Death	1373,2,60000,66000
-pvp_n_7-4,0,0	monster	Drake	1112,3,60000,66000
-pvp_n_7-4,0,0	monster	Osiris	1038,2,60000,66000
-pvp_n_7-4,0,0	monster	Doppelganger	1046,3,60000,66000
-pvp_n_7-4,0,0	monster	Lord of Death	1373,2,60000,66000
-pvp_n_8-4,0,0	monster	Drake	1112,3,60000,66000
-pvp_n_8-4,0,0	monster	Osiris	1038,3,60000,66000
-pvp_n_8-4,0,0	monster	Doppelganger	1046,3,60000,66000
-pvp_n_8-4,0,0	monster	Lord of Death	1373,3,60000,66000
+-	script	MVP_Arena_Database	-1,{
+OnInit:
+	setarray $@MVP_ARENA_L1_99[0],
+		3505,3810,1087,1147,1190,1115,1086,1038,1511,1159,1389,1046,
+		1059,1150,1688,1039,1980,1157,1957,1112,1251,2068,2156,1373,
+		2194,1272,1885,1630,1252,1779,1766,1767,2442,1956,1708,2441;
+	$@MVP_ARENA_L1_99_SIZE = 36;
+	setarray $@MVP_ARENA_L100_149[0],
+		2187,3658,1623,1492,2188,3426,3000,3427,1418,3428,3429,3430,
+		3628,1583,1312,3633,1785,3450,20346,2022,3758,20340,3621,2202,
+		1734,1685,3181,3796,1719,2131,20620,1871,20659,3757,1768,20642,
+		3073,2165,2087,2249,1658,1751,2253,2255,2362,3124,20667,2251,
+		1832,1874;
+	$@MVP_ARENA_L100_149_SIZE = 50;
+	setarray $@MVP_ARENA_L150_199[0],
+		2476,2475,2319,2942,1917,2483,2534,2529,2533,2189,2532,2190,
+		2535,3741,3029,1647,2996,2238,2240,2236,2241,1649,1651,3659,
+		1646,2235,2237,3190,1650,2239,3473,1648,3804,3254,20648,20273,
+		20277,3074,20381,3097,21395,21316,20621,21317,3241,3245,3246,3221,
+		3223,3224,20419,3240,3244,3242,3243,3220,3222,3225,20422,20421,
+		20601;
+	$@MVP_ARENA_L150_199_SIZE = 61;
+	setarray $@MVP_ARENA_L200_PLUS[0],
+		20811,20843,21301,20934,21360,21361,20928,20943;
+	$@MVP_ARENA_L200_PLUS_SIZE = 8;
 
-// Epsilon
-pvp_n_1-5,0,0	monster	Incantation Samurai	1492,3,60000,66000
-pvp_n_1-5,0,0	monster	Pharoh	1157,1,60000,66000
-pvp_n_2-5,0,0	monster	Incantation Samurai	1492,2,60000,66000
-pvp_n_2-5,0,0	monster	Pharoh	1157,1,60000,66000
-pvp_n_2-5,0,0	monster	Dark Lord	1272,1,60000,66000
-pvp_n_3-5,0,0	monster	Incantation Samurai	1492,1,60000,66000
-pvp_n_3-5,0,0	monster	Pharoh	1157,1,60000,66000
-pvp_n_3-5,0,0	monster	Dark Lord	1272,1,60000,66000
-pvp_n_3-5,0,0	monster	Baphomet	1039,1,60000,66000
-pvp_n_4-5,0,0	monster	Incantation Samurai	1492,3,60000,66000
-pvp_n_4-5,0,0	monster	Pharoh	1157,1,60000,66000
-pvp_n_4-5,0,0	monster	Dark Lord	1272,1,60000,66000
-pvp_n_4-5,0,0	monster	Baphomet	1039,1,60000,66000
-pvp_n_5-5,0,0	monster	Incantation Samurai	1492,2,60000,66000
-pvp_n_5-5,0,0	monster	Pharoh	1157,2,60000,66000
-pvp_n_5-5,0,0	monster	Dark Lord	1272,2,60000,66000
-pvp_n_5-5,0,0	monster	Baphomet	1039,1,60000,66000
-pvp_n_6-5,0,0	monster	Incantation Samurai	1492,2,60000,66000
-pvp_n_6-5,0,0	monster	Pharoh	1157,2,60000,66000
-pvp_n_6-5,0,0	monster	Dark Lord	1272,2,60000,66000
-pvp_n_6-5,0,0	monster	Baphomet	1039,1,60000,66000
-pvp_n_7-5,0,0	monster	Incantation Samurai	1492,2,60000,66000
-pvp_n_7-5,0,0	monster	Pharoh	1157,2,60000,66000
-pvp_n_7-5,0,0	monster	Dark Lord	1272,2,60000,66000
-pvp_n_7-5,0,0	monster	Baphomet	1039,2,60000,66000
-pvp_n_8-5,0,0	monster	Incantation Samurai	1492,3,60000,66000
-pvp_n_8-5,0,0	monster	Pharoh	1157,2,60000,66000
-pvp_n_8-5,0,0	monster	Dark Lord	1272,2,60000,66000
-pvp_n_8-5,0,0	monster	Baphomet	1039,2,60000,66000
-
-// Mapflags
-pvp_n_1-1	mapflag	pvp_nightmaredrop	off
-pvp_n_2-1	mapflag	pvp_nightmaredrop	off
-pvp_n_3-1	mapflag	pvp_nightmaredrop	off
-pvp_n_4-1	mapflag	pvp_nightmaredrop	off
-pvp_n_5-1	mapflag	pvp_nightmaredrop	off
-pvp_n_6-1	mapflag	pvp_nightmaredrop	off
-pvp_n_7-1	mapflag	pvp_nightmaredrop	off
-pvp_n_8-1	mapflag	pvp_nightmaredrop	off
-pvp_n_1-2	mapflag	pvp_nightmaredrop	off
-pvp_n_2-2	mapflag	pvp_nightmaredrop	off
-pvp_n_3-2	mapflag	pvp_nightmaredrop	off
-pvp_n_4-2	mapflag	pvp_nightmaredrop	off
-pvp_n_5-2	mapflag	pvp_nightmaredrop	off
-pvp_n_6-2	mapflag	pvp_nightmaredrop	off
-pvp_n_7-2	mapflag	pvp_nightmaredrop	off
-pvp_n_8-2	mapflag	pvp_nightmaredrop	off
-pvp_n_1-3	mapflag	pvp_nightmaredrop	off
-pvp_n_2-3	mapflag	pvp_nightmaredrop	off
-pvp_n_3-3	mapflag	pvp_nightmaredrop	off
-pvp_n_4-3	mapflag	pvp_nightmaredrop	off
-pvp_n_5-3	mapflag	pvp_nightmaredrop	off
-pvp_n_6-3	mapflag	pvp_nightmaredrop	off
-pvp_n_7-3	mapflag	pvp_nightmaredrop	off
-pvp_n_8-3	mapflag	pvp_nightmaredrop	off
-pvp_n_1-4	mapflag	pvp_nightmaredrop	off
-pvp_n_2-4	mapflag	pvp_nightmaredrop	off
-pvp_n_3-4	mapflag	pvp_nightmaredrop	off
-pvp_n_4-4	mapflag	pvp_nightmaredrop	off
-pvp_n_5-4	mapflag	pvp_nightmaredrop	off
-pvp_n_6-4	mapflag	pvp_nightmaredrop	off
-pvp_n_7-4	mapflag	pvp_nightmaredrop	off
-pvp_n_8-4	mapflag	pvp_nightmaredrop	off
-pvp_n_1-5	mapflag	pvp_nightmaredrop	off
-pvp_n_2-5	mapflag	pvp_nightmaredrop	off
-pvp_n_3-5	mapflag	pvp_nightmaredrop	off
-pvp_n_4-5	mapflag	pvp_nightmaredrop	off
-pvp_n_5-5	mapflag	pvp_nightmaredrop	off
-pvp_n_6-5	mapflag	pvp_nightmaredrop	off
-pvp_n_7-5	mapflag	pvp_nightmaredrop	off
-pvp_n_8-5	mapflag	pvp_nightmaredrop	off
+	killmonsterall "pvp_n_1-2";
+	killmonsterall "pvp_n_2-2";
+	killmonsterall "pvp_n_3-2";
+	killmonsterall "pvp_n_4-2";
+	killmonsterall "pvp_n_5-2";
+	killmonsterall "pvp_n_6-2";
+	killmonsterall "pvp_n_7-2";
+	killmonsterall "pvp_n_8-2";
+	killmonsterall "pvp_n_1-3";
+	killmonsterall "pvp_n_2-3";
+	killmonsterall "pvp_n_3-3";
+	killmonsterall "pvp_n_4-3";
+	killmonsterall "pvp_n_5-3";
+	killmonsterall "pvp_n_6-3";
+	killmonsterall "pvp_n_7-3";
+	killmonsterall "pvp_n_8-3";
+	killmonsterall "pvp_n_1-4";
+	killmonsterall "pvp_n_2-4";
+	killmonsterall "pvp_n_3-4";
+	killmonsterall "pvp_n_4-4";
+	killmonsterall "pvp_n_5-4";
+	killmonsterall "pvp_n_6-4";
+	killmonsterall "pvp_n_7-4";
+	killmonsterall "pvp_n_8-4";
+	killmonsterall "pvp_n_1-5";
+	killmonsterall "pvp_n_2-5";
+	killmonsterall "pvp_n_3-5";
+	killmonsterall "pvp_n_4-5";
+	killmonsterall "pvp_n_5-5";
+	killmonsterall "pvp_n_6-5";
+	killmonsterall "pvp_n_7-5";
+	killmonsterall "pvp_n_8-5";
+	end;
+}
