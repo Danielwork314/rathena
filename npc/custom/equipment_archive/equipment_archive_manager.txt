@@ -645,7 +645,7 @@ function	script	F_EAW	{
 }
 
 function	script	F_EAHA	{
-	switch(select("Page 1 (40 items):Page 2 (9 items):Back")) {
+	switch(select("Page 1 (40 items):Page 2 (10 items):Back")) {
 	case 1:
 		close2;
 		callshop "EAHA01",1;
@@ -707,7 +707,7 @@ function	script	F_EAHD	{
 }
 
 function	script	F_EAH	{
-	switch(select("Lv 100-129 (49):Lv 130-159 (28):Lv 160-199 (96):Lv 200+ (90):Back")) {
+	switch(select("Lv 100-129 (50):Lv 130-159 (28):Lv 160-199 (96):Lv 200+ (90):Back")) {
 	case 1:
 		callfunc "F_EAHA";
 		return;
