@@ -37,6 +37,9 @@ HIGH_BANDS = [
     ("D", "Lv 200+", 200, None, 2000000),
 ]
 INVALID_TEXT = {"", "(null)", "null", "unknown", "unknown item"}
+KNOWN_RUNTIME_BAD_RESOURCES = {
+    "Record_Mage2_TW": "Known client runtime resource failure: moving an item using Record_Mage2_TW triggers repeated client errors",
+}
 ENTRY_RE = re.compile(rb"(?m)^\s*\[(\d+)\]\s*=\s*\{")
 ASCII_FIELD_RE = {
     name: re.compile(rb"(?m)^\s*" + name.encode("ascii") + rb'\s*=\s*"([^"\r\n]*)"')
@@ -201,7 +204,8 @@ def generate_set(prefix: str, function_prefix: str, bands: list[tuple], selected
         "//===== rAthena Script =======================================",
         "//= Equipment Archive Hidden Shops",
         "//===== Description: =========================================",
-        "//= Exact active Renewal DB + client itemInfo.lua compatibility intersection.",
+        "//= Active Renewal DB + client itemInfo.lua compatibility intersection.",
+        "//= Regional Server-tagged and known runtime-bad resources are excluded.",
         "//============================================================",
         "",
     ]
@@ -269,6 +273,16 @@ def main() -> int:
             excluded.append({"Id": item_id, "AegisName": item.get("AegisName", ""), "Name": item.get("Name", ""), "Category": category, "Reason": reason})
             continue
 
+        server_tag = str(info.get("Server") or "").strip()
+        if server_tag:
+            excluded.append({"Id": item_id, "AegisName": item.get("AegisName", ""), "Name": item.get("Name", ""), "Category": category, "Reason": f"Regional/uncertain client entry excluded from merchant (Server={server_tag})"})
+            continue
+
+        client_resource = str(info.get("identifiedResourceName") or "").strip()
+        if client_resource in KNOWN_RUNTIME_BAD_RESOURCES:
+            excluded.append({"Id": item_id, "AegisName": item.get("AegisName", ""), "Name": item.get("Name", ""), "Category": category, "Reason": KNOWN_RUNTIME_BAD_RESOURCES[client_resource]})
+            continue
+
         slots = int(item.get("Slots", 0) or 0)
         view = int(item.get("View", 0) or 0)
         client_slots = info.get("slotCount")
@@ -312,7 +326,7 @@ def main() -> int:
         "//===== rAthena Script =======================================",
         "//= Equipment Archive: Below Lv 100 Menus",
         "//===== Description: =========================================",
-        "//= Complete active Renewal DB + actual client itemInfo.lua intersection.",
+        "//= Region-safe active Renewal DB + actual client itemInfo.lua intersection.",
         "//============================================================",
         "",
     ])
@@ -324,7 +338,7 @@ def main() -> int:
         "//===== rAthena Script =======================================",
         "//= Equipment Archive Manager",
         "//===== Description: =========================================",
-        "//= Complete standard-equipment intersection of active Renewal DB and actual client itemInfo.lua.",
+        "//= Region-safe standard-equipment intersection of active Renewal DB and actual client itemInfo.lua.",
         "//============================================================",
         "",
         "prontera,153,227,4\tscript\tEquipment Archive#EA\t53,{",
@@ -376,6 +390,17 @@ def main() -> int:
         writer.writeheader()
         writer.writerows(warnings)
 
+    regional_excluded = [row for row in excluded if row["Reason"].startswith("Regional/uncertain client entry")]
+    with (audit_dir / "equipment_archive_regional_items_removed.csv").open("w", encoding="utf-8-sig", newline="") as handle:
+        writer = csv.DictWriter(handle, fieldnames=["Id", "AegisName", "Name", "Category", "Reason"])
+        writer.writeheader()
+        writer.writerows(regional_excluded)
+
+    region_counts = Counter()
+    for row in regional_excluded:
+        match = re.search(r"Server=([^\)]+)", row["Reason"])
+        region_counts[match.group(1) if match else "Unknown"] += 1
+
     summary = {
         "iteminfo_path_name": args.iteminfo.name,
         "iteminfo_sha256": iteminfo_sha,
@@ -388,6 +413,13 @@ def main() -> int:
         "warning_count": len(warnings),
         "clown_smiling_410345_included": any(row["Id"] == 410345 for row in included),
         "clown_smiling_410345_client_name": iteminfo.get(410345, {}).get("identifiedDisplayName"),
+        "regional_server_entries_removed": {
+            "count": len(regional_excluded),
+            "tags": dict(region_counts),
+            "policy": "Exclude every equipment row whose supplied client ItemInfo block has a non-empty or uncertain Server tag",
+            "ring_of_pazuzu_490098_removed": not any(row["Id"] == 490098 for row in included),
+        },
+        "known_runtime_bad_resources": KNOWN_RUNTIME_BAD_RESOURCES,
         "low": low_summary,
         "high": high_summary,
     }

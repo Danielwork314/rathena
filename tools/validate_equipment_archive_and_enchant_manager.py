@@ -47,8 +47,15 @@ with included_path.open(encoding='utf-8-sig',newline='') as f:
 included_ids={int(row['Id']) for row in included}
 if set(shop_ids) != included_ids:
     errors.append(f'shop/audit ID mismatch: shops-only={len(set(shop_ids)-included_ids)}, audit-only={len(included_ids-set(shop_ids))}')
-if 410345 not in included_ids:
-    errors.append('410345 Clown_Smiling_ is missing')
+regional_rows=[row for row in included if (row.get('ClientServerTag') or '').strip()]
+if regional_rows:
+    errors.append(f'regional Server-tagged entries still included: {len(regional_rows)}')
+if 490098 in included_ids:
+    errors.append('490098 Ring of Pazuzu (jRO) is still included')
+if 410345 in included_ids:
+    errors.append('410345 Clown_Smiling_ / Smiling Eyes (iRO) is still included')
+if any((row.get('ClientResource') or '').strip() == 'Record_Mage2_TW' for row in included):
+    errors.append('known runtime-bad resource Record_Mage2_TW is still included')
 
 script_paths=[EA/'equipment_archive_low_level_menu.txt',EA/'equipment_archive_manager.txt']
 all_script='\n'.join(p.read_text(encoding='utf-8-sig') for p in script_paths)
@@ -100,7 +107,9 @@ print(f"Equipment Archive IDs: {len(shop_ids)}")
 print(f"Low / high: {summary['included_low_level']} / {summary['included_high_level']}")
 print(f"Hidden shops: {len(shop_defs)}")
 print(f"Functions: {len(functions)}")
-print(f"410345 included: {410345 in included_ids}")
+print(f"Regional Server-tagged included: {len(regional_rows)}")
+print(f"490098 Ring of Pazuzu included: {490098 in included_ids}")
+print(f"410345 Smiling Eyes included: {410345 in included_ids}")
 print(f"Enchant frontend imported and diagnostic backend isolated: {'yes' if not errors else 'check errors'}")
 if errors:
     print('VALIDATION FAILED:')
