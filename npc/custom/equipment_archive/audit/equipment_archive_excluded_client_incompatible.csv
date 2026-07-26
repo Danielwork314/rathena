@@ -1,0 +1,1823 @@
+﻿Id,AegisName,Name,Category,Reason
+1150,Libra_Krasnaya_J,Libra's Krasnaya,Weapons,Missing from active client itemInfo.lua
+1195,E_Executioner_C,Executioner,Weapons,Missing from active client itemInfo.lua
+1199,Ebony_Toe_Nail,Ebony Toe Nail,Weapons,Missing from active client itemInfo.lua
+1316,Adventure_Axe,Adventure Axe,Weapons,Missing from active client itemInfo.lua
+1327,Axe_Z,Axe,Weapons,Missing from active client itemInfo.lua
+1329,Woe_One_Hand_Axe1_Z,Lesser Guild Member's Cleaver,Weapons,Missing from active client itemInfo.lua
+1330,Sunset_Buster,Sunset Buster,Weapons,Missing from active client itemInfo.lua
+1332,Octopus_Axe,Octopus Axe,Weapons,Missing from active client itemInfo.lua
+1334,Ein_1HAXE,Grinder Axe,Weapons,Missing from active client itemInfo.lua
+1335,Cancer_Axe_J,Cancer Axe,Weapons,Missing from active client itemInfo.lua
+1337,Golden_Wrench_J,Golden Wrench,Weapons,Missing from active client itemInfo.lua
+1339,Hauyne_Huuma_EXE,Hauyne Huuma,Weapons,Missing from active client itemInfo.lua
+1340,Arcanite_Hammer_EXE,Arcanite Hammer,Weapons,Missing from active client itemInfo.lua
+1350,Comp_Avenger,[Not For Sale] Avenger,Weapons,Missing from active client itemInfo.lua
+1439,Half_BF_Spear1,Half BF Spear1,Weapons,Missing from active client itemInfo.lua
+1597,Half_BF_Book2,Half BF Book2,Weapons,Missing from active client itemInfo.lua
+1655,Adventure_Staff,Adventure Staff,Weapons,Missing from active client itemInfo.lua
+1656,Academy_Wand,Academy Wand,Weapons,Missing from active client itemInfo.lua
+1673,Half_BF_Staff4,Half BF Staff4,Weapons,Missing from active client itemInfo.lua
+1674,Half_BF_Staff2,Half BF Staff2,Weapons,Missing from active client itemInfo.lua
+1838,Half_BF_Knuckle1,Half BF Knuckle1,Weapons,Missing from active client itemInfo.lua
+1857,Local01_Claw,Earth Dragon Claw,Weapons,Missing from active client itemInfo.lua
+1858,Local02_Claw,Yinyang Claw,Weapons,Missing from active client itemInfo.lua
+1859,Woe_Pist1_Z,Lesser Guild Member's Fist,Weapons,Missing from active client itemInfo.lua
+1868,Combo_Fist_J,Fierce Dragon Fighting,Weapons,Missing from active client itemInfo.lua
+1869,Asura_Bandage_J,Fighting God's Vantage,Weapons,Missing from active client itemInfo.lua
+1871,Bauxite_Knuckle_EXE,Bauxite Knuckle,Weapons,Missing from active client itemInfo.lua
+1872,Knuckle_Of_Infinite,Knuckle of Infinite,Weapons,Missing from active client itemInfo.lua
+1873,Comp_Iron_Nail_K,[Not For Sale] Iron Nail,Weapons,Missing from active client itemInfo.lua
+1949,2nd_Job_Weapon12,Bard Guild Violin,Weapons,Missing from active client itemInfo.lua
+2047,Jirant_Staff_BR,Witch's Staff,Weapons,Missing from active client itemInfo.lua
+2050,2nd_Job_Weapon8,Wizard Guild Staff,Weapons,Missing from active client itemInfo.lua
+2052,Woe_T_Staff1_Z,Lesser Guild Member's Destruction Staff,Weapons,Missing from active client itemInfo.lua
+2059,Survival_Staff_IL_J,Illusion Survivor's Staff,Weapons,Missing from active client itemInfo.lua
+2061,Staff_Of_Miracle_J,Staff of Miracle,Weapons,Missing from active client itemInfo.lua
+2062,Gravitation_Staff_J,Gravitation Staff,Weapons,Missing from active client itemInfo.lua
+2063,Adorare_Staff_J,Wand of Worship,Weapons,Missing from active client itemInfo.lua
+2064,Comp_Iron_Staff,[Not For Sale] Aeon Staff,Weapons,Missing from active client itemInfo.lua
+2155,Academy_Shield,Academy Shield,Shields,Missing from active client itemInfo.lua
+2567,Academy_Manteau,Academy Manteau,Garments,Missing from active client itemInfo.lua
+2632,Korean_Trinket,Korean Trinket,Accessories,Missing from active client itemInfo.lua
+2633,Jade_Ring,Jade Ring,Accessories,Missing from active client itemInfo.lua
+2846,E_All_In_One_Ring,All In One Ring,Accessories,Missing from active client itemInfo.lua
+2847,E_Critical_Ring_C,Critical Ring,Accessories,Missing from active client itemInfo.lua
+2848,E_Glove_C,Glove,Accessories,Missing from active client itemInfo.lua
+2849,E_Safety_Ring_C,Safety Ring,Accessories,Missing from active client itemInfo.lua
+2850,E_Ring_C,Ring,Accessories,Missing from active client itemInfo.lua
+2851,E_Necklace_C,Necklace,Accessories,Missing from active client itemInfo.lua
+2852,E_Rosary_C,Rosary,Accessories,Missing from active client itemInfo.lua
+2867,Broken_Bamboo_Piece,Broken Bamboo Piece,Accessories,Missing from active client itemInfo.lua
+2868,Green_Batik,Green Batik,Accessories,Missing from active client itemInfo.lua
+2869,Colorful_Ketupat,Colorful Ketupat,Accessories,Missing from active client itemInfo.lua
+5695,E_Blue_Drooping_Kitty,E Blue Drooping Kitty,Headgear,Missing from active client itemInfo.lua
+5696,E_Flying_Angel,E Flying Angel,Headgear,Missing from active client itemInfo.lua
+5697,E_Smoking_Pipe_,E Smoking Pipe,Headgear,Missing from active client itemInfo.lua
+5698,E_Pair_OE_Red_Ribbon_,E Pair OE Red Ribbon,Headgear,Missing from active client itemInfo.lua
+5699,E_Fish_On_Head_,E Fish On Head,Headgear,Missing from active client itemInfo.lua
+5700,E_Hibiscus,E Hibiscus,Headgear,Missing from active client itemInfo.lua
+5701,E_Cat_Hat,E Cat Hat,Headgear,Missing from active client itemInfo.lua
+5702,E_Bunny_Band_,E Bunny Band,Headgear,Missing from active client itemInfo.lua
+5703,E_Magestic_Goat_TW,E Magestic Goat TW,Headgear,Missing from active client itemInfo.lua
+5704,E_Sheep_Hat,E Sheep Hat,Headgear,Missing from active client itemInfo.lua
+5705,E_Mini_Propeller_,E Mini Propeller,Headgear,Missing from active client itemInfo.lua
+5706,E_Alice_Doll,E Alice Doll,Headgear,Missing from active client itemInfo.lua
+5707,E_Red_Glasses,E Red Glasses,Headgear,Missing from active client itemInfo.lua
+5708,E_Chick_Hat,E Chick Hat,Headgear,Missing from active client itemInfo.lua
+5709,E_White_Deviruchi_Cap,E White Deviruchi Cap,Headgear,Missing from active client itemInfo.lua
+5710,E_Vane_Hairpin,E Vane Hairpin,Headgear,Missing from active client itemInfo.lua
+5711,E_Pecopeco_Hairband,E Pecopeco Hairband,Headgear,Missing from active client itemInfo.lua
+5712,E_Vacation_Hat,E Vacation Hat,Headgear,Missing from active client itemInfo.lua
+5713,E_Charming_Ribbon,E Charming Ribbon,Headgear,Missing from active client itemInfo.lua
+5714,E_Water_Lily_Crown,E Water Lily Crown,Headgear,Missing from active client itemInfo.lua
+5715,E_Vanilmirth_Hat,E Vanilmirth Hat,Headgear,Missing from active client itemInfo.lua
+5716,E_Drooping_Bunny_,E Drooping Bunny,Headgear,Missing from active client itemInfo.lua
+5717,E_Kettle_Hat,E Kettle Hat,Headgear,Missing from active client itemInfo.lua
+5718,E_Dragon_Skull,E Dragon Skull,Headgear,Missing from active client itemInfo.lua
+5719,E_Ramen_Hat,E Ramen Hat,Headgear,Missing from active client itemInfo.lua
+5720,E_Pink_Fur_Hat,E Pink Fur Hat,Headgear,Missing from active client itemInfo.lua
+5721,E_Puppy_Hat,E Puppy Hat,Headgear,Missing from active client itemInfo.lua
+5722,E_Magic_Eyes,E Magic Eyes,Headgear,Missing from active client itemInfo.lua
+5723,E_Jumping_Poring,E Jumping Poring,Headgear,Missing from active client itemInfo.lua
+5724,E_Robo_Eye,E Robo Eye,Headgear,Missing from active client itemInfo.lua
+5725,E_Yellow_Wizardry_Hat,E Yellow Wizardry Hat,Headgear,Missing from active client itemInfo.lua
+5726,E_Crescent_Helm,E Crescent Helm,Headgear,Missing from active client itemInfo.lua
+5727,E_Tiger_Mask,E Tiger Mask,Headgear,Missing from active client itemInfo.lua
+5728,E_Fantastic_Wig,E Fantastic Wig,Headgear,Missing from active client itemInfo.lua
+5729,E_Bunny_Band_C,E Bunny Band C,Headgear,Missing from active client itemInfo.lua
+5730,E_Centimental_Flower_C,E Centimental Flower C,Headgear,Missing from active client itemInfo.lua
+5731,E_Apple_OE_Archer_C,E Apple OE Archer C,Headgear,Missing from active client itemInfo.lua
+5732,E_Elven_Ears_C,E Elven Ears C,Headgear,Missing from active client itemInfo.lua
+5733,E_Brooch_C,E Brooch C,Accessories,Missing from active client itemInfo.lua
+5734,E_Magestic_Goat_C,E Magestic Goat C,Headgear,Missing from active client itemInfo.lua
+5735,E_Ribbon_Green,Green Ribbon,Headgear,Missing from active client itemInfo.lua
+5736,EF_Whisper_Mask,Whisper Mask,Headgear,Missing from active client itemInfo.lua
+5787,Tha_Maero_Mask,Thanatos's Maero Mask,Headgear,Missing from active client itemInfo.lua
+5842,Loyal_Ring1,Loyal Ring1,Accessories,Missing from active client itemInfo.lua
+5843,Loyal_Ring2,Loyal Ring2,Accessories,Missing from active client itemInfo.lua
+5844,Loyal_Ring3,Loyal Ring3,Accessories,Missing from active client itemInfo.lua
+5853,1Aniversary_Crown,IdRO Crown,Headgear,Missing from active client itemInfo.lua
+5882,White_Wizardry_Hat_C,White Mage Hat C,Headgear,Missing from active client itemInfo.lua
+5883,Gray_Wizardry_Hat_C,Gray Mage Hat C,Headgear,Missing from active client itemInfo.lua
+5884,Blue_Wizardry_Hat_C,Blue Mage Hat C,Headgear,Missing from active client itemInfo.lua
+5885,Red_Wizardry_Hat_C,Red Mage Hat C,Headgear,Missing from active client itemInfo.lua
+5886,Yellow_Wizardry_Hat_C,Yellow Mage Hat C,Headgear,Missing from active client itemInfo.lua
+5887,Half_L_Magestic_Goat,Half L Majestic Goat,Headgear,Missing from active client itemInfo.lua
+5892,RCC2013_1ST_CROWN,RCC2013 1st Crown,Headgear,Missing from active client itemInfo.lua
+5893,RCC2013_2ND_CROWN,RCC2013 2nd Crown,Headgear,Missing from active client itemInfo.lua
+5894,RCC2013_3RD_CROWN,RCC2013 3rd Crown,Headgear,Missing from active client itemInfo.lua
+5895,RCC2013_ANV_Hat,RCC2013 Commemorative Hat,Headgear,Missing from active client itemInfo.lua
+13057,E_Moonlight_Sword_C,Moonlight Sword,Weapons,Missing from active client itemInfo.lua
+13058,E_Combat_Knife_C,Combat Knife,Weapons,Missing from active client itemInfo.lua
+13059,E_Asura_C,Asura,Weapons,Missing from active client itemInfo.lua
+13060,E_Counter_Dagger_C,Counter Dagger,Weapons,Missing from active client itemInfo.lua
+13063,Adventure_Knife,Adventure Knife,Weapons,Missing from active client itemInfo.lua
+13064,Academy_Knife,Academy Knife,Weapons,Missing from active client itemInfo.lua
+13065,Academy_Eti_Knife,Academy Eti Knife,Weapons,Missing from active client itemInfo.lua
+13096,Half_BF_Dagger2,Half BF Dagger2,Weapons,Missing from active client itemInfo.lua
+13145,Calf_Deathadder_J,Metal Deathadder,Weapons,Missing from active client itemInfo.lua
+13321,Half_BF_Huuma_Shuriken2,Half BF Huuma Shuriken,Weapons,Missing from active client itemInfo.lua
+13429,E_Cutlas_C,Cutlus,Weapons,Missing from active client itemInfo.lua
+13430,E_Solar_Sword_C,Solar Sword,Weapons,Missing from active client itemInfo.lua
+13432,Adventure_Sword,Adventure Sword,Weapons,Missing from active client itemInfo.lua
+13445,Half_BF_Sword1,Half BF Sword1,Weapons,Missing from active client itemInfo.lua
+13474,Sword_Z,Sword,Weapons,Missing from active client itemInfo.lua
+13475,Falchion_Z,Falchion,Weapons,Missing from active client itemInfo.lua
+13476,Blade_Z,Blade,Weapons,Missing from active client itemInfo.lua
+13477,Lapier_Z,Rapier,Weapons,Missing from active client itemInfo.lua
+13478,Scimiter_Z,Scimitar,Weapons,Missing from active client itemInfo.lua
+13479,Tsurugi_z,Tsurugi,Weapons,Missing from active client itemInfo.lua
+13480,Ring_Pommel_Saber_Z,Ring Pommel Saber,Weapons,Missing from active client itemInfo.lua
+13481,Saber_Z,Saber,Weapons,Missing from active client itemInfo.lua
+13482,Orcish_Blade,Orcish Blade,Weapons,Missing from active client itemInfo.lua
+13488,Local01_Sword,Earth Dragon Sword,Weapons,Missing from active client itemInfo.lua
+13489,Local02_Sword,Yinyang Sword,Weapons,Missing from active client itemInfo.lua
+13490,Woe_Onehand_Sword1_Z,Lesser Guild Member's Flamberge,Weapons,Missing from active client itemInfo.lua
+13497,Edge_Z,Edge,Weapons,Missing from active client itemInfo.lua
+13498,Nagan_Z,Nagan,Weapons,Missing from active client itemInfo.lua
+13499,Sword_Kladenets,Kladenets,Weapons,Missing from active client itemInfo.lua
+15035,2010Love_Daddy,2010 Love Dad,Armor,Missing from active client itemInfo.lua
+15059,2011Love_Daddy,2011Love Daddy,Armor,Missing from active client itemInfo.lua
+15207,2017RTCRobe,2017 RTC Battle Robe,Armor,Missing from active client itemInfo.lua
+15211,Return_TW_1th_Armor,1st Anniversary Commemorative Armor,Armor,Missing from active client itemInfo.lua
+15214,IA_Dress,IA Dress,Armor,Missing from active client itemInfo.lua
+15215,Tatenasi_Armor_TW,Sealed Tatenasi Armor,Armor,Missing from active client itemInfo.lua
+15216,Siege_Robe_1Tier,Lesser Guild Member's Robe,Armor,Missing from active client itemInfo.lua
+15217,Siege_Suits_1Tier,Lesser Guild Member's Suit,Armor,Missing from active client itemInfo.lua
+15218,Siege_Plate_1Tier,Lesser Guild Member's Plate,Armor,Missing from active client itemInfo.lua
+15219,Ghostring_Suit_BR,Ghostring Robe,Armor,Missing from active client itemInfo.lua
+15220,60Lv_Suits,Subjugation Team's Armor,Armor,Missing from active client itemInfo.lua
+15221,70Lv_Armor,Expedition's Armor,Armor,Missing from active client itemInfo.lua
+15222,70Lv_Robe,Expedition's Robe,Armor,Missing from active client itemInfo.lua
+15223,80Lv_Mail,Contingent Mail,Armor,Missing from active client itemInfo.lua
+15224,80Lv_Cloth,Contingent Cloth,Armor,Missing from active client itemInfo.lua
+15225,80Lv_Robe,Contingent Robe,Armor,Missing from active client itemInfo.lua
+15226,80Lv_Dress,Contingent Dress,Armor,Missing from active client itemInfo.lua
+15227,90Lv_Mail,Conqueror's Mail,Armor,Missing from active client itemInfo.lua
+15228,90Lv_Cloth,Conqueror's Cloth,Armor,Missing from active client itemInfo.lua
+15229,90Lv_Robe,Conqueror's Robe,Armor,Missing from active client itemInfo.lua
+15230,90Lv_Dress,Conqueror's Dress,Armor,Missing from active client itemInfo.lua
+15231,SimpleSuits10,Low-Level Simple Suits,Armor,Missing from active client itemInfo.lua
+15232,SimpleSuits20,Intermediate Simple Suits,Armor,Missing from active client itemInfo.lua
+15233,SimpleSuits30,Advanced Simple Suits,Armor,Missing from active client itemInfo.lua
+15234,SuitsofKingdom40,Lesser Kingdom Suits,Armor,Missing from active client itemInfo.lua
+15235,SuitsofKingdom50,Intermediate Kingdom Suits,Armor,Missing from active client itemInfo.lua
+15236,SuitsofKingdom60,Upper Kingdom Suits,Armor,Missing from active client itemInfo.lua
+15238,EvilDragon_Armor_BR,Evil Dragon Armor,Armor,Missing from active client itemInfo.lua
+15239,Angeling_Suit_BR,Angeling Robes,Armor,Missing from active client itemInfo.lua
+15240,ArmorOfFlamedragonBR,Red Dragon Armor,Armor,Missing from active client itemInfo.lua
+15248,Whikebain_Suit_BR,Whikebain Suit,Armor,Missing from active client itemInfo.lua
+15251,D_Leather_Armor,Desert Leather Armor,Armor,Missing from active client itemInfo.lua
+15252,D_Leather_Robe,Desert Leather Robe,Armor,Missing from active client itemInfo.lua
+15253,D_Leather_Suits,Desert Leather Suits,Armor,Missing from active client itemInfo.lua
+15254,Abyss_Dress_BR,Abyssal Dress,Armor,Missing from active client itemInfo.lua
+15255,Leather_Jacket_Z,Leather Jacket,Armor,Missing from active client itemInfo.lua
+15256,Adventurer_Suit_Z,Adventurer's Suit,Armor,Missing from active client itemInfo.lua
+15257,Mantle_Z,Mantle,Armor,Missing from active client itemInfo.lua
+15258,Coat_Z,Coat,Armor,Missing from active client itemInfo.lua
+15259,Padded_Armor_Z,Padded Armor,Armor,Missing from active client itemInfo.lua
+15260,Chain_Mail_Z,Chain Mail,Armor,Missing from active client itemInfo.lua
+15261,Plate_Armor_Z,Full Plate,Armor,Missing from active client itemInfo.lua
+15262,Silk_Robe_Z,Silk Robe,Armor,Missing from active client itemInfo.lua
+15263,Scapulare_Z,Scapulare,Armor,Missing from active client itemInfo.lua
+15264,Saint_Robe_Z,Saint's Robe,Armor,Missing from active client itemInfo.lua
+15265,Wooden_Mail_Z,Wooden Mail,Armor,Missing from active client itemInfo.lua
+15266,Tights_Z,Tights,Armor,Missing from active client itemInfo.lua
+15267,Silver_Robe_Z,Silver Robe,Armor,Missing from active client itemInfo.lua
+15268,Thief_Clothes_Z,Thief Clothes,Armor,Missing from active client itemInfo.lua
+15269,Leaf_Robe,Leaf Robe,Armor,Missing from active client itemInfo.lua
+15270,Stem_Suits,Plant Stem Suit,Armor,Missing from active client itemInfo.lua
+15271,Oak_Armor,Oak Armor,Armor,Missing from active client itemInfo.lua
+15272,Khalitzburg_Armor_BR,Khalitzburg Armor,Armor,Missing from active client itemInfo.lua
+15281,Khalitzburg_Armor_Z,Khalitzburg Knight Armor,Armor,Missing from active client itemInfo.lua
+15345,ArmorOfSeadragonBR,Blue Dragon Armor,Armor,Missing from active client itemInfo.lua
+15362,Apollo_Armor_TW,Apollo Armor,Armor,Missing from active client itemInfo.lua
+15363,Mars_Armor_TW,Mars Armor,Armor,Missing from active client itemInfo.lua
+15365,Vinus_Armor_TW,Venus Armor,Armor,Missing from active client itemInfo.lua
+15369,Cylinder_Hairband_BR,Futuristic Tiara,Headgear,Missing from active client itemInfo.lua
+15372,Phreeoni_Wing_BR,Phreeoni Robe,Garments,Missing from active client itemInfo.lua
+15385,MemorialD_Assistant,Little Robot Know-It-All,Headgear,Missing from active client itemInfo.lua
+15408,Leo_Mail_J,Leo Mail,Armor,Missing from active client itemInfo.lua
+15409,Bloody_Dress,Bloody Dress,Armor,Missing from active client itemInfo.lua
+15412,Cancer_Mail_J,Cancer Mail,Armor,Missing from active client itemInfo.lua
+15418,Libra_Mail_J,Libra Mail,Armor,Missing from active client itemInfo.lua
+15421,Triad_God_Mail_J_,Kuraokami's Feather Robe,Armor,Missing from active client itemInfo.lua
+15424,Scorpio_Mail_J,Scorpio Mail,Armor,Missing from active client itemInfo.lua
+15425,Taurus_Mail_J,Taurus Mail,Armor,Missing from active client itemInfo.lua
+15426,Aquarius_Mail_J,Aquarius Mail,Armor,Missing from active client itemInfo.lua
+15430,Diana_Suits,Diana Coat,Armor,Missing from active client itemInfo.lua
+15431,Mercury_Suits,Mercury Suit,Armor,Missing from active client itemInfo.lua
+15432,Bacchus_Armor,Bacchus Armor,Armor,Missing from active client itemInfo.lua
+15433,Neptune_Uniform,Neptune's suit,Armor,Missing from active client itemInfo.lua
+15434,Golden_Angel_Statue_YG,Meta Angel Figure (OSM),Headgear,Missing from active client itemInfo.lua
+15440,Fierce_Physique_Armor_E,Fierce Physique Armor,Armor,Missing from active client itemInfo.lua
+15441,Fierce_Magique_Armor_E,Fierce Magique Armor,Armor,Missing from active client itemInfo.lua
+15442,Fierce_Physique_Manteau,Fierce Physique Manteau,Garments,Missing from active client itemInfo.lua
+15443,Fierce_Magique_Manteau,Fierce Magique Manteau,Garments,Missing from active client itemInfo.lua
+15444,Night_Owl_Shawl_EXE,Night Owl Shawl (OSM),Garments,Missing from active client itemInfo.lua
+15446,Cetrion_Ring_EXE,Cetrion's Ring (OSM),Accessories,Missing from active client itemInfo.lua
+15447,Pollux_Robe_J,Pollux Robe,Armor,Missing from active client itemInfo.lua
+15448,Procyon_Robe_J,Procyon Robe,Armor,Missing from active client itemInfo.lua
+15449,Skarlet_Robe_EXE,Skarlet's Robe (OSM),Armor,Missing from active client itemInfo.lua
+15450,SKahn_Yoroi_EXE,Shao Kahn Yoroi (OSM),Armor,Missing from active client itemInfo.lua
+15451,Albatross_Armor_EXE,Albatross's Armor,Armor,Missing from active client itemInfo.lua
+15460,Rachel_Armor,Awakened Glacier Armor,Armor,Missing from active client itemInfo.lua
+15461,Apollo_Armor_TH,2nd Anniversary Apollo Armor,Armor,Missing from active client itemInfo.lua
+15462,Jupiter_Armor_TH,2nd Anniversary Jupiter Armor,Armor,Missing from active client itemInfo.lua
+15463,Mars_Armor_TH,2nd Anniversary Mars Armor,Armor,Missing from active client itemInfo.lua
+15464,Ceres_Armor_TH,2nd Anniversary Keres Armor,Armor,Missing from active client itemInfo.lua
+15465,Vinus_Armor_TH,2nd Anniversary Venus Armor,Armor,Missing from active client itemInfo.lua
+15466,Vulcan_Armor_TH,2nd Anniversary Vulcan Armor,Armor,Missing from active client itemInfo.lua
+15467,Neptune_Armor_TH,2nd Anniversary Neptune Armor,Armor,Missing from active client itemInfo.lua
+15468,Neptune_ArmorDoram_TH,2nd Anniversary Neptune Armor (Doram),Armor,Missing from active client itemInfo.lua
+15469,Comp_Einherial_Armor,[Not For Sale] Fallen Warrior Armor,Armor,Missing from active client itemInfo.lua
+15470,Comp_Sprint_Glove,[Not For Sale] Sprint Gloves,Accessories,Missing from active client itemInfo.lua
+15471,ROZ_FV_CassockA_VIT,Shining Priest's Robe,Armor,Missing from active client itemInfo.lua
+15472,Comp_Kafra_Suit,[Not For Sale] Kafra Uniform,Armor,Missing from active client itemInfo.lua
+15473,Comp_Overwhelm_Str_Armo,[Not for Sale] Soaring Physical Armor,Armor,Missing from active client itemInfo.lua
+15474,Comp_Overwhelm_V_Armor,[Not for Sale] Strong Healthy Armor,Armor,Missing from active client itemInfo.lua
+15475,Comp_Overwh_Agi_Armor,[Not For Sale] Splendid Swift Armor,Armor,Missing from active client itemInfo.lua
+15476,Comp_Diabolus_Wing,[Not For Sale] Diabolus Wing,Headgear,Missing from active client itemInfo.lua
+15477,Comp_Overwh_D_Armor,[Not For Sale] Excellent Dexterous Armor,Armor,Missing from active client itemInfo.lua
+15478,Comp_Overwh_L_Armor,[Not For Sale] Unexpected Fortune Armor,Armor,Missing from active client itemInfo.lua
+15479,Comp_Holy_Coat,[Not For Sale] Holy White Cloth,Armor,Missing from active client itemInfo.lua
+15480,LunarEclipse_Armor_TH,Lunar Eclipse Armor,Armor,Missing from active client itemInfo.lua
+15481,Comp_LunarEclipse_A_TH,[Not For Sale] Lunar Eclipse Armor,Armor,Missing from active client itemInfo.lua
+15482,Worker_shirt,Worker Shirt,Armor,Missing from active client itemInfo.lua
+15483,Comp_Worker_shirt,[Not For Sale] Worker Shirt,Armor,Missing from active client itemInfo.lua
+15484,Comp_Celine_Dress,[Not For Sale] Celine's Dress,Armor,Missing from active client itemInfo.lua
+15822,Magaleta_Ribbon_EXE,Magaleta's Ribbon,Headgear,Missing from active client itemInfo.lua
+15823,Golden_Crown_J,Pollux Crown,Headgear,Missing from active client itemInfo.lua
+15824,Phoenix_Crown_J,Procyon Crown,Headgear,Missing from active client itemInfo.lua
+15826,Seyrandel_Hat_EXE,Seyrandel's Hat,Headgear,Missing from active client itemInfo.lua
+15827,Ceryne_Hat_EXE,Ceryne's Hat,Headgear,Missing from active client itemInfo.lua
+15828,Germes_Hat_EXE,Cetio's Hat,Headgear,Missing from active client itemInfo.lua
+15829,Flaward_Hat_EXE,Flaward's Hat,Headgear,Missing from active client itemInfo.lua
+15830,Germes_Horn_EXE,Germes's Horn,Headgear,Missing from active client itemInfo.lua
+15831,Kuken_Hat_EXE,Kuken's Hat,Headgear,Missing from active client itemInfo.lua
+15832,Cetrion_Circlet_EXE,Cetrion Circlet (OSM),Headgear,Missing from active client itemInfo.lua
+15833,Cetrion_Bracelet_EXE,Cetrion Bracelet (OSM),Accessories,Missing from active client itemInfo.lua
+15834,DRaiden_Sakkat_EXE,Dark Raiden's Sakkat,Headgear,Missing from active client itemInfo.lua
+15835,STsung_Speller1_EXE,Kronika's Speller (Phy.),Accessories,Missing from active client itemInfo.lua
+15845,Shaokahn_Helmet_EXE,Shao Kahn's Helmet (OSM),Headgear,Missing from active client itemInfo.lua
+15848,Motaro_Horn_EXE,Motaro's Horn (OSM),Headgear,Missing from active client itemInfo.lua
+15849,Kintaro_Bracelet_EXE,Kintaro's Bracelet (OSM),Accessories,Missing from active client itemInfo.lua
+15850,STsung_Speller2_EXE,Kronika's Speller Mag (OSM),Accessories,Missing from active client itemInfo.lua
+15855,Ermac_Veil_EXE,Ermac's Veil (OSM),Headgear,Missing from active client itemInfo.lua
+15856,Kronika_Orb_EXE,Kronika's Orb (OSM),Accessories,Missing from active client itemInfo.lua
+15857,Shang_Rainbow_EXE,Shang Tsung's Rainbow (OSM),Headgear,Missing from active client itemInfo.lua
+15878,Joker_Card_EXE,Joker's Card (OSM),Headgear,Missing from active client itemInfo.lua
+15879,KungJin_Headpiece_EXE,Kung Jin's Headpiece (OSM),Headgear,Missing from active client itemInfo.lua
+15880,Joker_Face_EXE,Joker's Face (OSM),Headgear,Missing from active client itemInfo.lua
+15883,Nezuko_Eyes_EXE,Nezuko's Eyes (OSM),Headgear,Missing from active client itemInfo.lua
+15884,Nezuko_Bamboo_EXE,Nezuko's Bamboo (OSM),Headgear,Missing from active client itemInfo.lua
+15885,Erron_Hat_EXE,Erron's Hat (OSM),Headgear,Missing from active client itemInfo.lua
+15887,Odious_Robe_EXE,Odious's Robe,Garments,Missing from active client itemInfo.lua
+15891,Mountain_Helmet,Mountain Helmet,Headgear,Missing from active client itemInfo.lua
+15892,Themis_Helm,Themis Helm,Headgear,Missing from active client itemInfo.lua
+15898,Kings_Crown_A,Awakened Old King's Crown,Headgear,Missing from active client itemInfo.lua
+15906,Northern_Cross,Northern Cross,Headgear,Missing from active client itemInfo.lua
+15920,Charm_Of_Flame_Heart_BR,Flaming Heart,Headgear,Missing from active client itemInfo.lua
+15921,Charm_Of_Nature_BR,Charm Of Great Nature,Headgear,Missing from active client itemInfo.lua
+15922,Charm_Of_Frozen_BR,Charm Of Mistic Frozen,Headgear,Missing from active client itemInfo.lua
+15923,Charm_Of_Wind_BR,Charm of Leafwind,Headgear,Missing from active client itemInfo.lua
+15924,Tatoo_Brush_BR,Tattoo Brush,Headgear,Missing from active client itemInfo.lua
+15927,Happy_Turtle_Hat,[Rental] Happy Turtle Hat,Headgear,Missing from active client itemInfo.lua
+15928,Comp_Cookie_Hat_TH,[Not For Sale] Cookie Hat,Headgear,Missing from active client itemInfo.lua
+15932,Vassalage_Necklace_TH,Vassalage Necklace,Headgear,Missing from active client itemInfo.lua
+15945,Metal_Riffs_Ring,Metal Riffs Ring,Accessories,Missing from active client itemInfo.lua
+15947,Comp_Blue_Rear_Ribbon,[Not For Sale] Indigo Rear Ribbon,Headgear,Missing from active client itemInfo.lua
+15948,EyePatch_Power_TH,Eye Patch Of Power,Headgear,Missing from active client itemInfo.lua
+15949,Comp_EyePatch_P_TH,[Not for Sale] Eye Patch Of Power,Headgear,Missing from active client itemInfo.lua
+15950,EyePatch_Power_TH_,Eye Patch Of Power,Headgear,Missing from active client itemInfo.lua
+15951,Comp_EyePatch_P_TH_,[Not for Sale] Eye Patch Of Power,Headgear,Missing from active client itemInfo.lua
+15955,Comp_Kafra_Employ_Band,[Not For Sale] Kafra Employee Band,Headgear,Missing from active client itemInfo.lua
+15956,Helmet_Of_Siegfried_TH,Helmet Of Siegfried TH,Headgear,Missing from active client itemInfo.lua
+15957,Comp_Helmet_Of_Sieg_TH,[Not for Sale] Helmet Of Siegfried TH,Headgear,Missing from active client itemInfo.lua
+15958,Comp_FaceWorm_Breath,[Not For Sale] Giant Snake Breath,Headgear,Missing from active client itemInfo.lua
+15959,Comp_Phantom_Cap,[Not for Sale] Phantom of Masquerade,Headgear,Missing from active client itemInfo.lua
+15960,Comp_Scorpio_Diadem_K,[Not for Sale] Scorpio Celestial Coronet K,Headgear,Missing from active client itemInfo.lua
+15961,Comp_Clock_Casket_RD,[Not for Sale] Red Clock Casquette,Headgear,Missing from active client itemInfo.lua
+15962,Comp_L_Sorcerer_Crown,[Not for Sale] Great Sorcerer Crown,Headgear,Missing from active client itemInfo.lua
+15963,Comp_Ignis_CapK,[Not for Sale] Ignis Cap K,Headgear,Missing from active client itemInfo.lua
+15964,Comp_Sagi_DiademK,[Not for Sale] Sagittarius Celestial Coronet K,Headgear,Missing from active client itemInfo.lua
+15965,Comp_Stripe_Hat,[Not for Sale] Stripe Hat,Headgear,Missing from active client itemInfo.lua
+15966,Comp_Sigruns_Wing,[Not For Sale] Sigrun's Wing,Headgear,Missing from active client itemInfo.lua
+15967,Comp_Pink_Angel_B,[Not For Sale] Pink Angeling Bubble,Headgear,Missing from active client itemInfo.lua
+15968,Orange_Rabbit_TH,Orange Rabbit,Headgear,Missing from active client itemInfo.lua
+15969,Twin_Canon_TH,Twin Cannon,Headgear,Missing from active client itemInfo.lua
+15970,Comp_CD_In_MouthK,[Not For Sale] CD in Mouth K,Headgear,Missing from active client itemInfo.lua
+15976,Adams_Apply_TH,Adam's Apple In Mouth,Headgear,Missing from active client itemInfo.lua
+15977,Shrine_Maiden_Hat_TH,Shrine Maiden Ribbon,Headgear,Missing from active client itemInfo.lua
+15978,Comp_ShrineMaiden_TH,[Not For Sale] Shrine Maiden Ribbon,Headgear,Missing from active client itemInfo.lua
+15980,Wonder_Egg_Basket_TH,Wonder Egg Basket,Headgear,Missing from active client itemInfo.lua
+15981,AAT_Magic_TH,All Above Time (Magic),Headgear,Missing from active client itemInfo.lua
+15982,AAT_Range_TH,All Above Time (Range),Headgear,Missing from active client itemInfo.lua
+15983,AAT_Melee_TH,All Above Time (Melee),Headgear,Missing from active client itemInfo.lua
+15984,Comp_Heavenly_Order_,[Not For Sale] Heavenly Order,Headgear,Missing from active client itemInfo.lua
+15985,Comp_LittleGarden,[Not For Sale] Little Garden,Headgear,Missing from active client itemInfo.lua
+16009,E_Spanner_C,Spanner,Weapons,Missing from active client itemInfo.lua
+16011,Adventure_Mace,Adventure Mace,Weapons,Missing from active client itemInfo.lua
+16012,Academy_Mace,Academy Mace,Weapons,Missing from active client itemInfo.lua
+16034,Half_Mjolnir,Half Mjolnir,Weapons,Missing from active client itemInfo.lua
+16035,Half_BF_Morning_Star1,Half BF Morning Star1,Weapons,Missing from active client itemInfo.lua
+16083,Local01_Mace,Earth Dragon Mace,Weapons,Missing from active client itemInfo.lua
+16084,Local02_Mace,Yinyang Mace,Weapons,Missing from active client itemInfo.lua
+16085,Woe_Club_1_Z,Lesser Guild Member's Morning Star,Weapons,Missing from active client itemInfo.lua
+16098,Leo_Mace_J,Leo Mace,Weapons,Missing from active client itemInfo.lua
+18102,E_Bow_Of_Rudra_C,Rudra Bow,Weapons,Missing from active client itemInfo.lua
+18104,Adventure_Bow,Adventure Bow,Weapons,Missing from active client itemInfo.lua
+18105,Academy_Bow,Academy Bow,Weapons,Missing from active client itemInfo.lua
+18124,Half_BF_Bow1,Half BF Bow1,Weapons,Missing from active client itemInfo.lua
+18172,Local01_Bow,Earth Dragon Bow,Weapons,Missing from active client itemInfo.lua
+18173,Local02_Bow,Yinyang Bow,Weapons,Missing from active client itemInfo.lua
+18175,Woe_Bow1_Z,Lesser Guild Member's Hunter Bow,Weapons,Missing from active client itemInfo.lua
+18176,Sky_Lightning_Bow,Thunder Bow,Weapons,Missing from active client itemInfo.lua
+18193,Rapid_Fire_C_Bow_J,Rapid Fire,Weapons,Missing from active client itemInfo.lua
+18194,Sharp_Star_Bow_J,Sharp Star,Weapons,Missing from active client itemInfo.lua
+18195,Aiming_Bow_J,Aiming Bow,Weapons,Missing from active client itemInfo.lua
+18196,Falken_Shooter_J,Falken Shooter,Weapons,Missing from active client itemInfo.lua
+18197,Wind_Gale_J,Wind Gale,Weapons,Missing from active client itemInfo.lua
+18200,Realgar_Shooter_EXE,Realgar Shooter,Weapons,Missing from active client itemInfo.lua
+18201,Comp_Scalet_DragonL_Bow,[Not For Sale] Scarlet Dragon Leather Bow,Weapons,Missing from active client itemInfo.lua
+18202,Comp_Narcis_Bow,[Not For Sale] Narcissus Bow,Weapons,Missing from active client itemInfo.lua
+18544,Blrabbit_Hband,Blrabbit Hband,Headgear,Missing from active client itemInfo.lua
+18545,Whrabbit_Hband,Whrabbit Hband,Headgear,Missing from active client itemInfo.lua
+18686,2011_RMSC_1,2011 RMSC 1,Headgear,Missing from active client itemInfo.lua
+18687,2011_RMSC_2,2011 RMSC 2,Headgear,Missing from active client itemInfo.lua
+18688,2011_RMSC_3,2011 RMSC 3,Headgear,Missing from active client itemInfo.lua
+18689,2011_RMSC_4,2011 RMSC 4,Headgear,Missing from active client itemInfo.lua
+18902,Shovel_Hat,Shovel Hat,Headgear,Missing from active client itemInfo.lua
+18960,Love_Daddy_2013,Love Daddy 2013,Headgear,Missing from active client itemInfo.lua
+19217,TW_Cock_Hat,Cock Hat,Headgear,Missing from active client itemInfo.lua
+19252,KarduiEar_BR,Kardui Ears,Headgear,Missing from active client itemInfo.lua
+19261,2017RTCSymbole,2017 RTC Symbols,Headgear,Missing from active client itemInfo.lua
+19276,Return_TW_1th_Hat,1st Anniversary Commemorative Hat,Headgear,Missing from active client itemInfo.lua
+19286,IA_Choker,IA Choker,Headgear,Missing from active client itemInfo.lua
+19295,Red_Baby_Dragon_TW,Red Baby Dragon,Headgear,Missing from active client itemInfo.lua
+19298,Tatenasi_Helmet_TW,Sealed Tatenasi Helm,Headgear,Missing from active client itemInfo.lua
+19316,Squirrel_Ear_Hat_BR,Aeschylus's Hood,Headgear,Missing from active client itemInfo.lua
+19318,Royalguard_Necklace_BR,Royal Guard Rosary,Headgear,Missing from active client itemInfo.lua
+19319,Beelzebub_Hat,Beelzebub's Hat,Headgear,Missing from active client itemInfo.lua
+19320,Dwarf_Beard_J,Dwarf's Mustache,Headgear,Missing from active client itemInfo.lua
+19321,Bell_Pigeon_J,Mysterious Pigeon,Headgear,Missing from active client itemInfo.lua
+19328,Spider_Temp_TW,Spider's Winks,Headgear,Missing from active client itemInfo.lua
+19353,C_BearBalloon_TW,Bear Catches Balloon,Headgear,Missing from active client itemInfo.lua
+19371,C_BaphoJ_Parachute_TW,Little Buffet Parachute,Headgear,Missing from active client itemInfo.lua
+19373,Sparkler_Stick_TH,Sparkler Stick,Headgear,Missing from active client itemInfo.lua
+19410,Kings_Mini_Melon,Royale Grade Mini Melon,Headgear,Missing from active client itemInfo.lua
+19412,Flame_Bird,Flame Bird,Headgear,Missing from active client itemInfo.lua
+19427,RabbitFamilyBalloon,Lunatic Family Balloon,Headgear,Missing from active client itemInfo.lua
+19435,PoringBeret_TW,Poring Beret,Headgear,Missing from active client itemInfo.lua
+19438,ZilantNecklace,Flame Thunder Witch's Necklace,Headgear,Missing from active client itemInfo.lua
+19443,Star_Eyepatch_JP,Star Eyepatch,Headgear,Missing from active client itemInfo.lua
+19445,Injured_Eyepatch_JP,Injured Eyepatch,Headgear,Missing from active client itemInfo.lua
+19447,Leo_Crown_J,Leo Crown,Headgear,Missing from active client itemInfo.lua
+19449,Cancer_Crown_J,Cancer Crown,Headgear,Missing from active client itemInfo.lua
+19460,Black_Veil_J,Black Veil,Headgear,Missing from active client itemInfo.lua
+19462,Cat_In_Mouth_J,Siam Cat in mouth,Headgear,Missing from active client itemInfo.lua
+19463,Melon_Cap,Melon Bread Hat,Headgear,Missing from active client itemInfo.lua
+19468,Libra_Diadem_J,Libra Diadem,Headgear,Missing from active client itemInfo.lua
+19471,Scorpio_Crown_J,Scorpio Crown,Headgear,Missing from active client itemInfo.lua
+19473,Taurus_Diadem_J,Taurus Diadem,Headgear,Missing from active client itemInfo.lua
+19496,Aquarius_Crown_J,Aquarius Crown,Headgear,Missing from active client itemInfo.lua
+19497,Phantom_Of_Masquerade,Phantom of Masquerade,Headgear,Missing from active client itemInfo.lua
+20833,Fallen_Angel_Wing_TH,Fallen Angel Wing,Garments,Missing from active client itemInfo.lua
+20862,EXE_Backpack,EXE Backpack,Garments,Missing from active client itemInfo.lua
+20864,Siege_Manteau_1Tier,Lesser Guild Member's Manteau,Garments,Missing from active client itemInfo.lua
+20865,Siege_Muffler_1Tier,Lesser Guild Member's Muffler,Garments,Missing from active client itemInfo.lua
+20866,Golden_Angel_Wing_TW,Golden Angel Wing,Garments,Missing from active client itemInfo.lua
+20867,60Lv_Hood,Subjugation Team's Shoulder Belt,Garments,Missing from active client itemInfo.lua
+20868,70Lv_Manteau,Expedition's Manteau,Garments,Missing from active client itemInfo.lua
+20869,70Lv_Muffler,Expedition's Muffler,Garments,Missing from active client itemInfo.lua
+20870,80Lv_Manteau,Contingent Manteau,Garments,Missing from active client itemInfo.lua
+20871,80Lv_Cloak,Contingent Cloak,Garments,Missing from active client itemInfo.lua
+20872,80Lv_Muffler,Contingent Muffler,Garments,Missing from active client itemInfo.lua
+20873,80Lv_Cape,Contingent Cape,Garments,Missing from active client itemInfo.lua
+20874,90Lv_Manteau,Conqueror's Manteau,Garments,Missing from active client itemInfo.lua
+20875,90Lv_Cloak,Conqueror's Cloak,Garments,Missing from active client itemInfo.lua
+20876,90Lv_Muffler,Conqueror's Muffler,Garments,Missing from active client itemInfo.lua
+20877,90Lv_Cape,Conqueror's Cape,Garments,Missing from active client itemInfo.lua
+20904,Etran_Shirt_BR,Etran Shirt,Garments,Missing from active client itemInfo.lua
+20905,Astrea_Cape,Asteria's Cloak,Garments,Missing from active client itemInfo.lua
+20908,Jirant_Cloak_BR,Witch's Cloak,Garments,Missing from active client itemInfo.lua
+20909,BattleSurcoat_BR,Battle Haori,Garments,Missing from active client itemInfo.lua
+20910,Etran_Shirt_TW,Etran Shirt,Garments,Missing from active client itemInfo.lua
+20918,Angel_Poring_Wing,Angel Poring Wing,Garments,Missing from active client itemInfo.lua
+20926,2018_RTC_Cape4_TW,2018-RTC Memorial Cloak,Garments,Missing from active client itemInfo.lua
+20927,2018_RTC_Cape1_TW,2018 RTC Cape1,Garments,Missing from active client itemInfo.lua
+20928,2018_RTC_Cape2_TW,2018 RTC Cape2,Garments,Missing from active client itemInfo.lua
+20929,2018_RTC_Cape3_TW,2018 RTC Cape3,Garments,Missing from active client itemInfo.lua
+20951,Leo_Mantle_J,Leo Manteau,Garments,Missing from active client itemInfo.lua
+20954,Cancer_Manteau_J,Cancer Manteau,Garments,Missing from active client itemInfo.lua
+20962,Skin_Of_Typhon,Skin of Typhon,Garments,Missing from active client itemInfo.lua
+20970,Libra_Manteau_J,Libra Manteau,Garments,Missing from active client itemInfo.lua
+20971,Taurus_Manteau_J,Taurus Manteau,Garments,Missing from active client itemInfo.lua
+20972,Aquarius_Manteau_J,Aquarius Manteau,Garments,Missing from active client itemInfo.lua
+20973,Spiritual_Cloth,Spiritual Cloth,Garments,Missing from active client itemInfo.lua
+20976,Scorpio_Manteau_J,Scorpio Manteau,Garments,Missing from active client itemInfo.lua
+20983,Pollux_Mantle_J,Pollux Mantle,Garments,Missing from active client itemInfo.lua
+20984,Procyon_Mantle_J,Procyon Mantle,Garments,Missing from active client itemInfo.lua
+20986,Scientist_Mantle,Scientists Mantle,Garments,Missing from active client itemInfo.lua
+20994,Ancient_Megalith_Mantle,Ancient Megalith Cloak,Garments,Missing from active client itemInfo.lua
+21041,Local01_T_Sword,Earth Dragon Great Sword,Weapons,Missing from active client itemInfo.lua
+21042,Onimaru_BR,Onimaru Sword,Weapons,Missing from active client itemInfo.lua
+21043,Local02_T_Sword,Yinyang Great Sword,Weapons,Missing from active client itemInfo.lua
+21044,Woe_Twohand_Sword1_Z,Lesser Guild Member's Craymore,Weapons,Missing from active client itemInfo.lua
+21056,Volar_J,Volare,Weapons,Missing from active client itemInfo.lua
+21057,Vernan_J,Vernan,Weapons,Missing from active client itemInfo.lua
+21065,Comp_Oriental_Sword,[Not For Sale] Oriental Sword,Weapons,Missing from active client itemInfo.lua
+21066,Comp_Dragonic_Slayer,[Not For Sale] Dragonic Slayer,Weapons,Missing from active client itemInfo.lua
+21201,Eat_Coin,Ethereum Helm,Headgear,Missing from active client itemInfo.lua
+22139,2017RTCShoes,2017 RTC Boots,Shoes,Missing from active client itemInfo.lua
+22144,IA_Boots,IA Boots,Shoes,Missing from active client itemInfo.lua
+22146,Siege_Shoes_1Tier,Lesser Guild Member's Shoes,Shoes,Missing from active client itemInfo.lua
+22147,Siege_Boots_1Tier,Lesser Guild Member's Boots,Shoes,Missing from active client itemInfo.lua
+22148,Siege_Greave_1Tier,Lesser Guild Member's Greaves,Shoes,Missing from active client itemInfo.lua
+22149,Thorny_Shoes_BR,Spiked Boots,Shoes,Missing from active client itemInfo.lua
+22150,60Lv_Sandal,Subjugation Team's Boots,Shoes,Missing from active client itemInfo.lua
+22151,70Lv_Boots,Expedition's Boots,Shoes,Missing from active client itemInfo.lua
+22152,70Lv_Shoes,Expedition's Shoes,Shoes,Missing from active client itemInfo.lua
+22153,80Lv_Greave,Contingent Greaves,Shoes,Missing from active client itemInfo.lua
+22154,80Lv_Boots,Contingent Boots,Shoes,Missing from active client itemInfo.lua
+22155,80Lv_Shoes,Contingent Shoes,Shoes,Missing from active client itemInfo.lua
+22156,80Lv_Sandal,Contingent Sandal,Shoes,Missing from active client itemInfo.lua
+22157,90Lv_Greave,Conqueror's Greaves,Shoes,Missing from active client itemInfo.lua
+22158,90Lv_Boots,Conqueror's Boots,Shoes,Missing from active client itemInfo.lua
+22159,90Lv_Shoes,Conqueror's Shoes,Shoes,Missing from active client itemInfo.lua
+22160,90Lv_Sandal,Conqueror's Magic Shoes,Shoes,Missing from active client itemInfo.lua
+22167,Astraea_Shoes,Asteria's Boots,Shoes,Missing from active client itemInfo.lua
+22182,Shoes_Of_Punishment_BR,Shoes of Punishment,Shoes,Missing from active client itemInfo.lua
+22191,Nergal_Shoes_TW,Fire Thunder Great Boots,Shoes,Missing from active client itemInfo.lua
+22194,Loli_Ruri_Shoes,Loli Ruri Shoes,Shoes,Missing from active client itemInfo.lua
+22202,Temporal_Boots_TW,Exotic Temporal Boots,Shoes,Missing from active client itemInfo.lua
+22211,BuddhistShoes,Chivalry Shoes,Shoes,Missing from active client itemInfo.lua
+22213,Leo_Shoes_J,Leo Shoes,Shoes,Missing from active client itemInfo.lua
+22216,Cancer_Shoes_J,Cancer Shoes,Shoes,Missing from active client itemInfo.lua
+22221,Demonist_Shoes_,Devil Worshipper Shoes,Shoes,Missing from active client itemInfo.lua
+22222,Agenda_Shoes_TW,Boots of Judgment,Shoes,Missing from active client itemInfo.lua
+22225,Shoes_Of_Punishment_,Shoes of Punishment,Shoes,Missing from active client itemInfo.lua
+22227,Libra_Shoes_J,Libra Shoes,Shoes,Missing from active client itemInfo.lua
+22228,Triad_God_Shoes_J_,Dark Mitsuwa God Shoes,Shoes,Missing from active client itemInfo.lua
+22230,Taurus_Shoes_J,Taurus Shoes,Shoes,Missing from active client itemInfo.lua
+22231,Aquarius_Shoes_J,Aquarius Shoes,Shoes,Missing from active client itemInfo.lua
+22233,Scorpio_Shoes_J,Scorpio Shoes,Shoes,Missing from active client itemInfo.lua
+22240,Fierce_Physique_Boots,Fierce Physique Boots,Shoes,Missing from active client itemInfo.lua
+22241,Fierce_Magique_Boots,Fierce Magique Boots,Shoes,Missing from active client itemInfo.lua
+22242,Procyon_Shoes_J,Procyon Shoes,Shoes,Missing from active client itemInfo.lua
+22244,Chic_Silent_Shoes,Stylish Silent Shoes,Shoes,Missing from active client itemInfo.lua
+22245,Space_shoes_JP_,Awakened Special Environment Boots,Shoes,Missing from active client itemInfo.lua
+22249,Insidious_Shoes_EXE,Insidious's Shoes,Shoes,Missing from active client itemInfo.lua
+22257,Racing_Shoes_TH,Racing Shoes,Shoes,Missing from active client itemInfo.lua
+22258,Comp_Temporal_Boots_TW,[Not For Sale] Exotic Temporal Boots,Shoes,Missing from active client itemInfo.lua
+22259,Tohil_Shoes_TH,Tohil's Shoes,Shoes,Missing from active client itemInfo.lua
+26017,Local01_T_Spear,Earth Dragon Spear,Weapons,Missing from active client itemInfo.lua
+26018,Local02_T_Spear,Yinyang Spear,Weapons,Missing from active client itemInfo.lua
+26019,Woe_T_Lance1_Z,Lesser Guild Member's Lance,Weapons,Missing from active client itemInfo.lua
+26024,Ein_BHSPEAR,Block Lance,Weapons,Missing from active client itemInfo.lua
+26142,Local01_Wand,Earth Dragon Wand,Weapons,Missing from active client itemInfo.lua
+26145,Local02_Wand,Yinyang Wand,Weapons,Missing from active client itemInfo.lua
+26146,Woe_Healstaff1_Z,Lesser Guild Member's Healing Staff,Weapons,Missing from active client itemInfo.lua
+26147,Woe_Wand1_Z,Lesser Guild Member's Arc Wand,Weapons,Missing from active client itemInfo.lua
+26148,Owl_D_Stick,Owl.D Stick,Weapons,Missing from active client itemInfo.lua
+26167,Aquarius_Staff_J,Aquarius Staff,Weapons,Missing from active client itemInfo.lua
+26168,Crimson_Rose_Stick_J,Crimson Rose Stick,Weapons,Missing from active client itemInfo.lua
+26169,Psychic_Spear_Rod_J,Psychic Spear Rod,Weapons,Missing from active client itemInfo.lua
+26170,Dust_Grave_J,Dust Grave,Weapons,Missing from active client itemInfo.lua
+26171,Ponitendtia_J,Ponitendtia,Weapons,Missing from active client itemInfo.lua
+26175,Chromium_Staff_EXE,Chromium Staff,Weapons,Missing from active client itemInfo.lua
+26176,Karlite_Staff_EXE,Karlite Staff,Weapons,Missing from active client itemInfo.lua
+26177,Wizards_Memory,Wizard's Memory,Weapons,Missing from active client itemInfo.lua
+26178,Comp_Shadow_Staff_K,[Not For Sale] Shadow Staff,Weapons,Missing from active client itemInfo.lua
+26207,Local01_Book,Earth Dragon Book,Weapons,Missing from active client itemInfo.lua
+26208,Local01_Whip,Earth Dragon Whip,Weapons,Missing from active client itemInfo.lua
+26209,Local02_Whip,Yinyang Whip,Weapons,Missing from active client itemInfo.lua
+26210,Woe_Whip1_Z,Lesser Guild Member's Lariat,Weapons,Missing from active client itemInfo.lua
+26217,Heart_Whip_J,Heart Whip,Weapons,Missing from active client itemInfo.lua
+26218,Scarlet_Ribbon_J,Scarlet Ribbon,Weapons,Missing from active client itemInfo.lua
+26221,Dark_Illu_Whips_TH,Dark Illusion Whip,Weapons,Missing from active client itemInfo.lua
+28002,Half_BF_Katar2,Half BF Katar2,Weapons,Missing from active client itemInfo.lua
+28034,Local01_Katar,Earth Dragon Katar,Weapons,Missing from active client itemInfo.lua
+28035,Local02_Katar,Yinyang Katar,Weapons,Missing from active client itemInfo.lua
+28036,Woe_Katar1_Z,Lesser Guild Member's Jamadhar,Weapons,Missing from active client itemInfo.lua
+28047,Scorpio_Katar_J,Scorpio Katar,Weapons,Missing from active client itemInfo.lua
+28048,Reaper_Cross_J,Ripper Cross,Weapons,Missing from active client itemInfo.lua
+28049,Agudo_Filo_J,Agate Filo,Weapons,Missing from active client itemInfo.lua
+28053,Comp_Shiver_Katar_K_TH,[Not For Sale] Katar of Shiver,Weapons,Missing from active client itemInfo.lua
+28102,Half_BF_Two_Handed_Axe1,Half BF Two Handed Axe1,Weapons,Missing from active client itemInfo.lua
+28131,Local01_T_Axe,Earth Dragon Axe,Weapons,Missing from active client itemInfo.lua
+28132,Local02_T_Axe,Yinyang Axe,Weapons,Missing from active client itemInfo.lua
+28133,Woe_Twohand_Axe1_Z,Lesser Guild Member's Two-Handed Axe,Weapons,Missing from active client itemInfo.lua
+28142,Maxi_Spanner_J,Maxi Spanner,Weapons,Missing from active client itemInfo.lua
+28145,Sky_Rush_Axe,Sky Rush Axe,Weapons,Missing from active client itemInfo.lua
+28203,Half_BF_Rifle1,Half BF Rifle1,Weapons,Missing from active client itemInfo.lua
+28204,Half_BF_Shotgun1,Half BF Shotgun1,Weapons,Missing from active client itemInfo.lua
+28236,Calf_Kingcobra_J,Metal Kingcobra,Weapons,Missing from active client itemInfo.lua
+28237,Calf_Diamondback_J,Metal Diamondback,Weapons,Missing from active client itemInfo.lua
+28238,Calf_Anaconda_J,Metal Anaconda,Weapons,Missing from active client itemInfo.lua
+28239,Calf_Python_J,Metal Python,Weapons,Missing from active client itemInfo.lua
+28261,Comp_Demon_S_Shot,[Not For Sale] Demon Slayer Shot,Weapons,Missing from active client itemInfo.lua
+28315,RCC2013_ARMLET,RCC2013 Commemorative Bracelet,Accessories,Missing from active client itemInfo.lua
+28316,RCC2013_ARMLET_,RCC2013 Commemorative Bracelet,Accessories,Missing from active client itemInfo.lua
+28317,RCC2013_RING,RCC2013 Commemorative Ring,Accessories,Missing from active client itemInfo.lua
+28318,RCC2013_RING_,RCC2013 Commemorative Ring,Accessories,Missing from active client itemInfo.lua
+28515,Imperial_Ring_BR,Imperial Ring,Accessories,Missing from active client itemInfo.lua
+28516,2017RTCRING,2017 RTC Ring,Accessories,Missing from active client itemInfo.lua
+28536,Emerald_Earring_TW,Emerald Earring,Accessories,Missing from active client itemInfo.lua
+28537,Arquiens_Necklace_BR,Juperos Necklace,Accessories,Missing from active client itemInfo.lua
+28538,Glove_Of_Wizard_BR,Magician's Gloves,Accessories,Missing from active client itemInfo.lua
+28539,60Lv_Ring,Subjugation Team's Ring,Accessories,Missing from active client itemInfo.lua
+28540,70Lv_Ring,Expedition's Ring,Accessories,Missing from active client itemInfo.lua
+28541,70Lv_Mring,Expedition's Magic Ring,Accessories,Missing from active client itemInfo.lua
+28542,80Lv_Aring,Contingent Ring,Accessories,Missing from active client itemInfo.lua
+28543,80Lv_Gloves,Contingent Glove,Accessories,Missing from active client itemInfo.lua
+28544,80Lv_Mring,Contingent Magic Ring,Accessories,Missing from active client itemInfo.lua
+28545,80Lv_Necklace,Contingent Necklace,Accessories,Missing from active client itemInfo.lua
+28546,90Lv_Aring,Conqueror's Ring,Accessories,Missing from active client itemInfo.lua
+28547,90Lv_Gloves,Conqueror's Glove,Accessories,Missing from active client itemInfo.lua
+28548,90Lv_Mring,Conqueror's Magic Ring,Accessories,Missing from active client itemInfo.lua
+28549,90Lv_Necklace,Conqueror's Necklace,Accessories,Missing from active client itemInfo.lua
+28553,Shinobi_Sash_H_BR,Blue Shinobi Belt,Accessories,Missing from active client itemInfo.lua
+28567,King_of_Spirit_Ring_TW,Ring of the Elf King,Accessories,Missing from active client itemInfo.lua
+28592,Angel_Poring_Earing,Angel Poring Earrings,Accessories,Missing from active client itemInfo.lua
+28593,Angel_Poring_Ring,Angel Poring Ring,Accessories,Missing from active client itemInfo.lua
+28597,CherryBlossom_Badge_TW,Cherry Badge,Accessories,Missing from active client itemInfo.lua
+28617,Demon_Hunting_Bible_BR,Holy Bible,Weapons,Missing from active client itemInfo.lua
+28625,Local02_Book,Yinyang Book,Weapons,Missing from active client itemInfo.lua
+28628,Prohibited_Grimoire,Forbidden Grimoire,Weapons,Missing from active client itemInfo.lua
+28637,Boltigin_J,Boltigin,Weapons,Missing from active client itemInfo.lua
+28643,Pollux_Book_J,Pollux Book,Weapons,Missing from active client itemInfo.lua
+28645,Comp_Time_Kamiji_TH,[Not For Sale] Book of the Sun God,Weapons,Missing from active client itemInfo.lua
+28646,Comp_D_Hunt_Bible_K,[Not For Sale] Exoricist's Bible,Weapons,Missing from active client itemInfo.lua
+28747,Local01_Dagger,Earth Dragon Dagger,Weapons,Missing from active client itemInfo.lua
+28748,Local01_Asura,Earth Dragon Nindo,Weapons,Missing from active client itemInfo.lua
+28749,Local02_Dagger,Yinyang Dagger,Weapons,Missing from active client itemInfo.lua
+28750,Local02_Asura,Yinyang Nindo,Weapons,Missing from active client itemInfo.lua
+28751,Woe_Knife1_Z,Lesser Guild Member's Gladius,Weapons,Missing from active client itemInfo.lua
+28754,Koikiri,Yodo Koikiri,Weapons,Missing from active client itemInfo.lua
+28777,Judgement_Slasher_J,Judgement Slasher,Weapons,Missing from active client itemInfo.lua
+28778,Repent_Slasher_J,Repent Slasher,Weapons,Missing from active client itemInfo.lua
+28779,Jack_The_Knife_J,Shark Knife,Weapons,Missing from active client itemInfo.lua
+28780,Platinum_Dagger_J,Platinum Dagger,Weapons,Missing from active client itemInfo.lua
+28784,Procyon_Dagger_J,Procyon Dagger,Weapons,Missing from active client itemInfo.lua
+28786,Comp_Magic_Sword,[Not For Sale] Madogum,Weapons,Missing from active client itemInfo.lua
+28787,Rotten_Garden_knife_TH,Rotten Garden Knife,Weapons,Missing from active client itemInfo.lua
+28944,Scutum_BR,Sleiporing Shield,Shields,Missing from active client itemInfo.lua
+28947,Gaia_Shield_BR,Gaia's Shield,Shields,Missing from active client itemInfo.lua
+28949,Jewel_Shield,Jewel Shield,Shields,Missing from active client itemInfo.lua
+28955,Fotia_Shield,Fotia Shield,Shields,Missing from active client itemInfo.lua
+28962,Haurvatat,Haurvatat,Shields,Missing from active client itemInfo.lua
+28970,Rachel_Sheild_Cru,Glacial Protection Shield,Shields,Missing from active client itemInfo.lua
+28972,Comp_Mad_Bunny_K,[Not For Sale] Cursed Mad Bunny,Shields,Missing from active client itemInfo.lua
+28973,Themis_Balance_TH,Themis Balance,Shields,Missing from active client itemInfo.lua
+28974,Comp_Themis_Balance_TH,[Not For Sale] Themis Balance,Shields,Missing from active client itemInfo.lua
+28977,Fallen_Shield_TH,Fallen Warrior's Shield,Shields,Missing from active client itemInfo.lua
+28979,Blackmithril_Guard_TH,Black Mithril Guard,Shields,Missing from active client itemInfo.lua
+28980,Comp_B_mithril_Guard_TH,[Not For Sale] Black Mithril Guard,Shields,Missing from active client itemInfo.lua
+28983,Comp_Shield_Of_Angel_TH,[Not For Sale] Shield of Angel,Shields,Missing from active client itemInfo.lua
+28985,Protect_Shield_TH,Protect Feather Shield,Shields,Missing from active client itemInfo.lua
+32015,Woe_Onehand_Spear1_Z,Lesser Guild Member's Pike,Weapons,Missing from active client itemInfo.lua
+32028,Argen_Blanco_J,Argen Blanco,Weapons,Missing from active client itemInfo.lua
+32029,Harve_J,Harvest,Weapons,Missing from active client itemInfo.lua
+32030,Fortrage_J,Fortrage,Weapons,Missing from active client itemInfo.lua
+32031,Aries_Spear_J,Aries Spear,Weapons,Missing from active client itemInfo.lua
+32034,Comp_Undine_Spear_K,[Not For Sale] Aquatic Spear,Weapons,Missing from active client itemInfo.lua
+32101,Local01_Violin,Earth Dragon Violin,Weapons,Missing from active client itemInfo.lua
+32102,Local02_Violin,Yinyang Violin,Weapons,Missing from active client itemInfo.lua
+32103,Woe_Instrument1_Z,Lesser Guild Member's Guitar,Weapons,Missing from active client itemInfo.lua
+32104,Hyegun_Erhu,Hyegun Erhu,Weapons,Missing from active client itemInfo.lua
+32112,Black_Circle_J,Black Circle,Weapons,Missing from active client itemInfo.lua
+32113,Antique_Cello_J,Antique Cello,Weapons,Missing from active client itemInfo.lua
+32117,Dark_Illu_Guitar_TH,Dark Illusion Guitar,Weapons,Missing from active client itemInfo.lua
+32219,Astraea_Ring,Asteria's Ring,Accessories,Missing from active client itemInfo.lua
+32245,RingOfThought_TW,Thought Ring,Accessories,Missing from active client itemInfo.lua
+32259,CannonConverter_TW,Cannon Modifier,Accessories,Missing from active client itemInfo.lua
+32261,Libra_Ring_J,Libra Ring,Accessories,Missing from active client itemInfo.lua
+32265,Tip_Of_Thief_Vol2,Thief's Guide Vol.2,Accessories,Missing from active client itemInfo.lua
+32267,Scorpio_Ring_J,Scorpio Ring,Accessories,Missing from active client itemInfo.lua
+32270,Luminous_Blue_Stone_TW,Luminous Blue Stone,Accessories,Missing from active client itemInfo.lua
+32278,Sealed_Ring_TW,Frozen Ring,Accessories,Missing from active client itemInfo.lua
+32281,Scorpion_Chain_EXE,Scorpion's Chain (OSM),Accessories,Missing from active client itemInfo.lua
+32282,Erron_Black_Glove_EXE,Erron's Black Glove (OSM),Accessories,Missing from active client itemInfo.lua
+32285,Record_Mage_TW,Record of Destroy (Mage),Accessories,Missing from active client itemInfo.lua
+32286,Record_Merchant_TW,Record of Destroy (Merchant),Accessories,Missing from active client itemInfo.lua
+32287,Record_Thief_TW,Record of Destroy (Thief),Accessories,Missing from active client itemInfo.lua
+32288,Record_Acol_TW,Record of Destroy (Acolyte),Accessories,Missing from active client itemInfo.lua
+32293,Pollux_Ring_J,Pollux Ring,Accessories,Missing from active client itemInfo.lua
+32294,Procyon_Ring_J,Procyon Ring,Accessories,Missing from active client itemInfo.lua
+32305,Titanium_Gun_EXE,Titanium Gun,Weapons,Missing from active client itemInfo.lua
+32354,Farthezan_J,Farthezan,Weapons,Missing from active client itemInfo.lua
+32355,Estal_J,Estal,Weapons,Missing from active client itemInfo.lua
+32358,Comp_Sword_Of_Bluefire,[Not For Sale] Red Lotus Sword,Weapons,Missing from active client itemInfo.lua
+32404,Engine_Pilebuncker_J,Engine pile bunker,Weapons,Missing from active client itemInfo.lua
+32405,Coolant_Injection_J,Coolant Injection,Weapons,Missing from active client itemInfo.lua
+32406,Gene_Rod_J,Gene Rod,Weapons,Missing from active client itemInfo.lua
+32407,Lucis_Flail_J,Lucis Flail,Weapons,Missing from active client itemInfo.lua
+32408,Bright_Mace_J,Bright Mace,Weapons,Missing from active client itemInfo.lua
+400006,Orcsuccessionhelm_TW,Heritage Symbol of the Orcs,Headgear,Missing from active client itemInfo.lua
+400014,2019RTC_CeleAura_TW,2019 RTC Memorial Poring Pool,Headgear,Missing from active client itemInfo.lua
+400015,Capricon_Diadem_J,Capricon Diadem,Headgear,Missing from active client itemInfo.lua
+400017,Kukulkan_Head_TW,Kukulkan Skull,Headgear,Missing from active client itemInfo.lua
+400018,NettyHeart_Gum_TW,Love Bubble Gum,Headgear,Missing from active client itemInfo.lua
+400043,Fallen_Angel_feather,Fallen Angel Hairband,Headgear,Missing from active client itemInfo.lua
+400047,Runaway_Accelerator,Runaway Accelerator,Headgear,Missing from active client itemInfo.lua
+400050,Gothic_Skull_Ribbon,Gothic Skull Ribbon,Headgear,Missing from active client itemInfo.lua
+400051,Golden_Violet,Golden Violet,Headgear,Missing from active client itemInfo.lua
+400052,Duel_Dragon_Hat,Duel Dragon Hat,Headgear,Missing from active client itemInfo.lua
+400060,Freyja_Crown_J,Shiny Kitty Crown,Headgear,Missing from active client itemInfo.lua
+400064,JP_Helm22_L,Rental Owl Viscount Silk Hat,Headgear,Missing from active client itemInfo.lua
+400070,JP_Helm28_L,Rental Crown of the Phoenix,Headgear,Missing from active client itemInfo.lua
+400075,Astraea_Helm_TW,Asteria's Helm,Headgear,Missing from active client itemInfo.lua
+400077,Cat_Shampoo_Hat,Splash Cat Hat,Headgear,Missing from active client itemInfo.lua
+400082,2020RTC_Imp_TW,2020RTC Naughty Ghost,Headgear,Missing from active client itemInfo.lua
+400083,2020maypay_01,The Truth of Creation and Soul,Headgear,Missing from active client itemInfo.lua
+400084,2020maypay_02,Genlin Heirs,Headgear,Missing from active client itemInfo.lua
+400085,2020maypay_03,Elite Force Cap,Headgear,Missing from active client itemInfo.lua
+400086,2020maypay_04,The Meow Family's Paycheck,Headgear,Missing from active client itemInfo.lua
+400087,2020maypay_05,Potential to Inspire Adventure Cap,Headgear,Missing from active client itemInfo.lua
+400088,2020RTC_01,2020RTC Gold Naughty Ghost,Headgear,Missing from active client itemInfo.lua
+400089,2020RTC_02,2020RTC Silver Naughty Ghost,Headgear,Missing from active client itemInfo.lua
+400090,2020RTC_03,2020RTC Bronze Naughty Ghost,Headgear,Missing from active client itemInfo.lua
+400101,GatesofNetherworld,Gate of Netherworld,Headgear,Missing from active client itemInfo.lua
+400114,Victory_Ear_JP_,Victory Wing Ear,Headgear,Missing from active client itemInfo.lua
+400122,Summer_Promo_Helm1,Booster Power Hat (Physical),Headgear,Missing from active client itemInfo.lua
+400123,Summer_Promo_Helm2,Booster Power Hat (Magical),Headgear,Missing from active client itemInfo.lua
+400125,The_Kings_Hat,Hat of Ancient Kings,Headgear,Missing from active client itemInfo.lua
+400164,2021RTC_Headset_TW,2021RTC Gaming Headset,Headgear,Missing from active client itemInfo.lua
+400187,Purple_Cat_Ears_Beret,Cat Ears Beret,Headgear,Missing from active client itemInfo.lua
+400213,Faith_Of_Yggdrasil,Faith of Yggdrasil,Headgear,Missing from active client itemInfo.lua
+400257,Choco_Banana,Choco Banana Bonnet,Headgear,Missing from active client itemInfo.lua
+400268,Rose_Crispinette,Rose Crespinette,Headgear,Missing from active client itemInfo.lua
+400273,Comp_Smoky_TransformHat,[Not For Sale] Smokie Transformation Leaf,Headgear,Missing from active client itemInfo.lua
+400274,Comp_VanarHelm_ROC,[Not for Sale] Vanargandr Helm,Headgear,Missing from active client itemInfo.lua
+400275,Comp_Skull_Cap_ROC,[Not For Sale] Skull Cap,Headgear,Missing from active client itemInfo.lua
+400276,Comp_Bright_Fury_ROC,[Not For Sale] Sinulog Hat,Headgear,Missing from active client itemInfo.lua
+400279,Comp_Silk_Hat_Of_Earth_,[Not For Sale] Silk Hat of Earth,Headgear,Missing from active client itemInfo.lua
+400286,Comp_Hunting_Cap_Gust,[Not For Sale] Hunting Cap of Gust,Headgear,Missing from active client itemInfo.lua
+400287,Legacy_of_Wise_One_J,Legacy of Wise One,Headgear,Missing from active client itemInfo.lua
+400291,Wing_Of_Bless,Wing of Bless,Headgear,Missing from active client itemInfo.lua
+400295,Comp_Knit_Cap_Of_Water,[Not For Sale] Knit Cap Of Water,Headgear,Missing from active client itemInfo.lua
+400307,Ally_of_the_Demons,Ally of the Demons,Headgear,Missing from active client itemInfo.lua
+400344,Angel_Of_Happiness_ROC,Angel Of Happiness,Headgear,Missing from active client itemInfo.lua
+400345,Comp_AngelHappiness_ROC,[Not For Sale] Angel Of Happiness,Headgear,Missing from active client itemInfo.lua
+400368,20th_Anniversary_Hat_TW,RO 20th Anniversary Limited Cap,Headgear,Missing from active client itemInfo.lua
+400371,1stAniv_Hat_ROC,ROC 1st Anniversary Hat,Headgear,Missing from active client itemInfo.lua
+400399,GWar2022s3_1st_ROC,Bronze Crown,Headgear,Missing from active client itemInfo.lua
+400401,Yggdrasil_Faith,Faith of Yggdrasil,Headgear,Missing from active client itemInfo.lua
+400409,Wild_Beast,Wild Beast,Headgear,Missing from active client itemInfo.lua
+400410,Heaven_Cage_ROC,Heaven Cage,Headgear,Missing from active client itemInfo.lua
+400411,Comp_Heaven_Cage_ROC,[Not For Sale] Heaven Cage,Headgear,Missing from active client itemInfo.lua
+400412,Old_Pink_Poo_Hat_ROC,Pink Poo Hat,Headgear,Missing from active client itemInfo.lua
+400413,Kafra_Employee_Band_ROC,Kafra Employee Band,Headgear,Missing from active client itemInfo.lua
+400416,Squirrel_Ear_Hat_W,Squirrel Ear Hood (Albino),Headgear,Missing from active client itemInfo.lua
+400417,Comp_Deep_Hairband_ROC,[Not For Sale] Deep Blue Angel Hairband,Headgear,Missing from active client itemInfo.lua
+400418,NymphGreen_ROC,Nymph Green Sapphire,Headgear,Missing from active client itemInfo.lua
+400419,Comp_NymphGreen_ROC,[Not For Sale] Nymph Green Sapphire,Headgear,Missing from active client itemInfo.lua
+400420,Dragon_Circlet,Dragon Circlet,Headgear,Missing from active client itemInfo.lua
+400421,Two_tone_Cap,Two Tone Cap,Headgear,Missing from active client itemInfo.lua
+400433,Gothic_HW_TW_LT,Fallen Wing Hairpin-LT,Headgear,Missing from active client itemInfo.lua
+400437,Chic_Peony,Chic Peony,Headgear,Missing from active client itemInfo.lua
+400438,Wildcat_Knit_Cap_W,Bobcat Knit Hat (White),Headgear,Missing from active client itemInfo.lua
+400440,Remorse_C_Crown,Penance Charm Crown,Headgear,Missing from active client itemInfo.lua
+400441,Comp_FoxBellRibbon_ROC,[Not For Sale] Fox Ears Bell Ribbon,Headgear,Missing from active client itemInfo.lua
+400442,Comp_Super_Scell_ROC,[Not For Sale] Super Scell,Headgear,Missing from active client itemInfo.lua
+400443,Comp_Cloud_Buster_ROC,[Not For Sale] Cloud Buster,Headgear,Missing from active client itemInfo.lua
+400447,Poenetentia_B_Crown,Confession Courage Crown,Headgear,Missing from active client itemInfo.lua
+400453,Striking_hat_A,Invincible Crest Hat,Headgear,Missing from active client itemInfo.lua
+400454,Khalitzburg_KN_Helm_W,Khalitzburg Knight White Helm,Headgear,Missing from active client itemInfo.lua
+400455,Diadem_Of_Bruenhild_ROC,Diadem Of Bruenhild,Headgear,Missing from active client itemInfo.lua
+400456,Comp_D_Of_Bruenhild_ROC,[Not For Sale] Diadem Of Bruenhild,Headgear,Missing from active client itemInfo.lua
+400457,Poenetentia_V_Crown,Confession Domineering Crown,Headgear,Missing from active client itemInfo.lua
+400463,Up_Apple_Of_Archer_IL,Opened Illusion Apple of Archer,Headgear,Missing from active client itemInfo.lua
+400464,Up_Nurse_Cap_IL,Opened Illusion Nursing Cap,Headgear,Missing from active client itemInfo.lua
+400467,Tiara_Norte_BR,Northern Tiara,Headgear,Missing from active client itemInfo.lua
+400468,MomChicken_Hat_ROC,Mom Chicken Hat,Headgear,Missing from active client itemInfo.lua
+400469,Poenetentia_D_Crown,Penance Crown,Headgear,Missing from active client itemInfo.lua
+400470,Tiara_Sul_BR,Southern Tiara,Headgear,Missing from active client itemInfo.lua
+400472,Circlet_Of_Phoenix_ROC,Circlet Of Phoenix,Headgear,Missing from active client itemInfo.lua
+400473,Comp_CircletPhoenix_ROC,[Not For Sale] Circlet Of Phoenix,Headgear,Missing from active client itemInfo.lua
+400474,Remorse_Crown,Remorse Crown,Headgear,Missing from active client itemInfo.lua
+400476,Boina_Sustenida_BR,Sustained Beret,Headgear,Missing from active client itemInfo.lua
+400477,Ferramentas_BR,Agricultural Tools,Headgear,Missing from active client itemInfo.lua
+400478,Red_Commando_ROC,Red Commando Beret,Headgear,Missing from active client itemInfo.lua
+400479,Comp_Red_Commando_ROC,[Not For Sale] Red Commando Beret,Headgear,Missing from active client itemInfo.lua
+400481,Flash_of_Lightning,The Brandishing,Headgear,Missing from active client itemInfo.lua
+400482,Poenetentia_H_Crown,Penance Glory Crown,Headgear,Missing from active client itemInfo.lua
+400483,Up_Cap_IL,Opened Illusion Cap,Headgear,Missing from active client itemInfo.lua
+400486,Coroa_Monarca_BR,Monarch's Crown,Headgear,Missing from active client itemInfo.lua
+400487,Up_Fancy_Flower_IL,Opened Illusion Fancy Flower,Headgear,Missing from active client itemInfo.lua
+400488,aegis_400488,Hairband Of Asmodeus,Headgear,Missing from active client itemInfo.lua
+400489,aegis_400489,[Not For Sale] Hairband Of Asmodeus,Headgear,Missing from active client itemInfo.lua
+400490,aegis_400490,[Not for Sale] Boxer Glove,Accessories,Missing from active client itemInfo.lua
+400498,aegis_400498,Germes Horn,Headgear,Missing from active client itemInfo.lua
+400499,aegis_400499,[Not For Sale] Germes Horn,Headgear,Missing from active client itemInfo.lua
+400500,aegis_400500,Gigant Helm,Headgear,Missing from active client itemInfo.lua
+400501,aegis_400501,[Not For Sale] Gigant Helm,Headgear,Missing from active client itemInfo.lua
+400505,StripedRibbonHat,Striped Ribbon Hat,Headgear,Missing from active client itemInfo.lua
+400511,Q_Scaraba_Crown_TW,Queen Scaraba Helmet,Headgear,Missing from active client itemInfo.lua
+400512,aegis_400512,Hat of Desert,Headgear,Missing from active client itemInfo.lua
+400513,aegis_400513,[Not For Sale] Hat of Desert,Headgear,Missing from active client itemInfo.lua
+400528,Escarlate_Hat_BR,Scarlet Beret,Headgear,Missing from active client itemInfo.lua
+400547,2023Seppay_02,The Truth of Creation and Soul-LT,Headgear,Missing from active client itemInfo.lua
+400548,2023Seppay_03,Genlin Heirs-LT,Headgear,Missing from active client itemInfo.lua
+400549,2023Seppay_04,Elite Force Cap-LT,Headgear,Missing from active client itemInfo.lua
+400550,2023Seppay_05,The Meow Family's Paycheck-LT,Headgear,Missing from active client itemInfo.lua
+400551,2023Seppay_06,Potential to Inspire Adventure Cap-LT,Headgear,Missing from active client itemInfo.lua
+400556,Inquisitor_Veil,Inquisitor's Veil,Headgear,Missing from active client itemInfo.lua
+400566,Awaking_Bloom,Awaking Bloom,Headgear,Missing from active client itemInfo.lua
+400574,ROZ_Bijou_Hat_Str,Bijou's Hat (Strength),Headgear,Missing from active client itemInfo.lua
+400575,ROZ_Bijou_Hat_Agi,Bijou's Hat (Agility),Headgear,Missing from active client itemInfo.lua
+400576,ROZ_Bijou_Hat_Vit,Bijou's Hat (Vitality),Headgear,Missing from active client itemInfo.lua
+400577,ROZ_Bijou_Hat_Int,Bijou's Hat (Intelligence),Headgear,Missing from active client itemInfo.lua
+400578,ROZ_Bijou_Hat_Dex,Bijou's Hat (Dexterity),Headgear,Missing from active client itemInfo.lua
+400579,ROZ_Bijou_Hat_Luk,Bijou's Hat (Lucky),Headgear,Missing from active client itemInfo.lua
+400581,Passion_Rabbit_Ribbon,Rabbit Ribbon of Overflowing Passion,Headgear,Missing from active client itemInfo.lua
+400582,Wolf_Rayet,Wolf Rayet,Headgear,Missing from active client itemInfo.lua
+400584,Z_Boost_Hat,Boosting Headband,Headgear,Missing from active client itemInfo.lua
+400592,YellowKitty_HeadPhone,Yellow Kitty Headphone,Headgear,Missing from active client itemInfo.lua
+400593,PGstone_Knit_Hat_GR,Squishy Tootsy Stomphoot,Headgear,Missing from active client itemInfo.lua
+400597,Kiwawa_Cowboy_BR,Kiwawa Cowboy,Headgear,Missing from active client itemInfo.lua
+400601,Steamroller,Steamroller,Headgear,Missing from active client itemInfo.lua
+400602,White_Fox_Bamboo_Hat,White Fox Bamboo Hat,Headgear,Missing from active client itemInfo.lua
+400614,Areias_Helm_BR,Helm of the Sands,Headgear,Missing from active client itemInfo.lua
+400619,Khalitz_Helm_BR,Knight's Helm,Headgear,Missing from active client itemInfo.lua
+400622,Tiger_Glass_BR,Tiger Glasses,Headgear,Missing from active client itemInfo.lua
+400624,White_Cat_Witch_Hat,White Neko Witch Hat,Headgear,Missing from active client itemInfo.lua
+400631,aegis_400631,Themis Helm,Headgear,Missing from active client itemInfo.lua
+400632,aegis_400632,[Not For Sale] Themis Helm,Headgear,Missing from active client itemInfo.lua
+400642,Unyielding_Crown_MSP,[NFS] Crown of Unyielding Force,Headgear,Missing from active client itemInfo.lua
+400643,Supremacy_Crown_MSP,[NFS] Crown of Arcane Supremacy,Headgear,Missing from active client itemInfo.lua
+400644,Soul_Mastery_Crown,Soul Mastery Crown,Headgear,Missing from active client itemInfo.lua
+400645,Garden_Of_Heaven,Garden of Heaven,Headgear,Missing from active client itemInfo.lua
+400646,TiaraCrown_Magic_BR,Magic Crown of Ashes,Headgear,Missing from active client itemInfo.lua
+400647,TiaraCrown_Melee_BR,Mighty Crown of Ashes,Headgear,Missing from active client itemInfo.lua
+400648,TiaraCrown_Ranged_BR,Crown of Ashes,Headgear,Missing from active client itemInfo.lua
+400649,Satanic_Crown,Satanic Crown,Headgear,Missing from active client itemInfo.lua
+400658,aegis_400658,Fairy's Crown,Headgear,Missing from active client itemInfo.lua
+400659,aegis_400659,[Not For Sale] Fairy's Crown,Headgear,Missing from active client itemInfo.lua
+400660,aegis_400660,Ultra Helm,Headgear,Missing from active client itemInfo.lua
+400667,Peco_Warrior_Hat_US,Peco Warrior Hat,Headgear,Missing from active client itemInfo.lua
+400672,Marin_Pattern_Hat,Marin Pattern Hat,Headgear,Missing from active client itemInfo.lua
+400676,aegis_400676,Flaward Hat,Headgear,Missing from active client itemInfo.lua
+400677,aegis_400677,[Not For Sale] Flaward Hat,Headgear,Missing from active client itemInfo.lua
+400679,aegis_400679,Pink Shampoo Hat,Headgear,Missing from active client itemInfo.lua
+400680,aegis_400680,[Not For Sale] Pink Shampoo Hat,Headgear,Missing from active client itemInfo.lua
+400688,Magma_Ignis_Cap,Magma Ignis Cap,Headgear,Missing from active client itemInfo.lua
+400697,FullFaith_Crown_US,Full Faith Crown,Headgear,Missing from active client itemInfo.lua
+400699,Astraea_Helm_LT,Asteria's Helm-LT,Headgear,Missing from active client itemInfo.lua
+400710,DarkSnake_Crown,Snake Queen Crown,Headgear,Missing from active client itemInfo.lua
+400711,Many_Flowers_Love,Many Flowers Love,Headgear,Missing from active client itemInfo.lua
+400721,Sakura_Witch_Hat_W,Sakura White Witch Hat,Headgear,Missing from active client itemInfo.lua
+400722,M_Plant_Hat_W,White Mechanical Plant Hat,Headgear,Missing from active client itemInfo.lua
+400740,aegis_400740,thRO 3rd Anniversary Hat,Headgear,Missing from active client itemInfo.lua
+400742,Leviathan_Helm,Leviathan Helm,Headgear,Missing from active client itemInfo.lua
+400750,aegis_400750,Khalitzburg Knight Blue Helm,Headgear,Missing from active client itemInfo.lua
+400753,aegis_400753,[Not For Sale] Khalitzburg Knight Blue Helm,Headgear,Missing from active client itemInfo.lua
+400758,Cat_FF_Hat,Meow Meow Meatball Potential Hat,Headgear,Missing from active client itemInfo.lua
+400759,Cat_FF_Hat2,Meow Meow Meatball Growth Hat,Headgear,Missing from active client itemInfo.lua
+400766,Mech_Feather_Hairband_B,Mecha Feather Blue Hairband,Headgear,Missing from active client itemInfo.lua
+400787,Blue_Astrologer_Hat,Astrologer Triangle Hat,Headgear,Missing from active client itemInfo.lua
+401055,Stardust_Crown_SV,Silver Stardust Crown,Headgear,Missing from active client itemInfo.lua
+401056,Stardust_Crown_SC,Scarlet Stardust Crown,Headgear,Missing from active client itemInfo.lua
+401057,Stardust_Crown_VI,Violet Stardust Crown,Headgear,Missing from active client itemInfo.lua
+401058,Sky_Rune_Crown_IG,Celestial Rune Crown (Imperial Guard),Headgear,Missing from active client itemInfo.lua
+401059,Sky_Rune_Crown_ABC,Celestial Rune Crown (Abyss Chaser),Headgear,Missing from active client itemInfo.lua
+401060,Sky_Rune_Crown_SH,Rune Crown of the Sky (Spiritualist),Headgear,Missing from active client itemInfo.lua
+401115,Sky_Rune_Crown_MS,Sky Rune Crown (Meister),Headgear,Missing from active client itemInfo.lua
+401116,Sky_Rune_Crown_WH,Sky Rune Crown (Windhawk),Headgear,Missing from active client itemInfo.lua
+401117,Sky_Rune_Crown_HN,Sky Rune Crown (Hyper Novice),Headgear,Missing from active client itemInfo.lua
+401118,Sky_Rune_Crown_CD,Sky Rune Crown (Cardinal),Headgear,Missing from active client itemInfo.lua
+401119,Sky_Rune_Crown_IQ,Sky Rune Crown (Inquisitor),Headgear,Missing from active client itemInfo.lua
+401120,Sky_Rune_Crown_SKE,Sky Rune Crown (Sky Emperor),Headgear,Missing from active client itemInfo.lua
+401239,Hs_Sun_God,Herosria Hat of Sun God,Headgear,Missing from active client itemInfo.lua
+401240,Hs_Loard_Circlet,Herosria Grand Circlet,Headgear,Missing from active client itemInfo.lua
+401241,Hs_Crown,Herosria Crown,Headgear,Missing from active client itemInfo.lua
+401242,Hs_Magestic_Goat,Herosria Majestic Goat,Headgear,Missing from active client itemInfo.lua
+401243,Hs_Corsair,Herosria Corsair,Headgear,Missing from active client itemInfo.lua
+410001,Phalanx,Phalanx,Headgear,Missing from active client itemInfo.lua
+410002,711_Headphone,7-Eleven Headphones,Headgear,Missing from active client itemInfo.lua
+410003,711_Headphone_,7-Eleven Headphones,Headgear,Missing from active client itemInfo.lua
+410004,Gambler_Seal_,Gambler's Seal,Headgear,Missing from active client itemInfo.lua
+410007,JP_Helm31_L,[Rental] Citrus Ribbon,Headgear,Missing from active client itemInfo.lua
+410008,JP_Helm32_L,[Rental] Phalanx,Headgear,Missing from active client itemInfo.lua
+410009,Rainbow_Star_,Rainbow Star,Headgear,Missing from active client itemInfo.lua
+410010,Eyes_Of_Illusion_,Eyes of Illusion,Headgear,Missing from active client itemInfo.lua
+410014,Cor_Core_Headset,Cor Core Headphone,Headgear,Missing from active client itemInfo.lua
+410015,Cor_Core_Headset_,Cor Core Headphone,Headgear,Missing from active client itemInfo.lua
+410023,Ribbon_Of_Life_J,Brazil Twin Ribbon,Headgear,Missing from active client itemInfo.lua
+410024,Ribbon_Of_Life_J_,Twin Ribbon of Gemini,Headgear,Missing from active client itemInfo.lua
+410025,Magic_Heir_J,Floating Artifacts,Headgear,Missing from active client itemInfo.lua
+410026,Magic_Heir_J_,Floating Artifacts,Headgear,Missing from active client itemInfo.lua
+410027,Wonder_Egg_Basket,Wonder Egg Basket,Headgear,Missing from active client itemInfo.lua
+410028,Wonder_Egg_Basket_,Wonder Egg Basket,Headgear,Missing from active client itemInfo.lua
+410057,YinYang_Earring_Y,Yinyang Earring (Yellow),Headgear,Missing from active client itemInfo.lua
+410058,YinYang_Earring_Y_,Yinyang Earring (Yellow),Headgear,Missing from active client itemInfo.lua
+410065,Diving_Goggles_,Diving Goggles,Headgear,Missing from active client itemInfo.lua
+410067,Professor_MiniGlass_,Professor's Mini Glasses,Headgear,Missing from active client itemInfo.lua
+410070,Demons_Familiar,Demon's Familiar,Headgear,Missing from active client itemInfo.lua
+410084,Melon_Headphone_J_,Premium Melon Headphones,Headgear,Missing from active client itemInfo.lua
+410085,Melon_Headphone_J,Premium Melon Headphones,Headgear,Missing from active client itemInfo.lua
+410089,Supplement_P_Income_,Powered Income,Headgear,Missing from active client itemInfo.lua
+410090,Love_Cheek_TW,Love Redness,Headgear,Missing from active client itemInfo.lua
+410096,Pope_Ribbon_R,Red Pope Ribbon,Headgear,Missing from active client itemInfo.lua
+410097,Pope_Ribbon_R_,Red Pope Ribbon,Headgear,Missing from active client itemInfo.lua
+410100,2021RTC_Headset_1_TW,2021RTC Champion Gaming Headset,Headgear,Missing from active client itemInfo.lua
+410101,2021RTC_Headset_2_TW,2021RTC Runner-Up Gaming Headset,Headgear,Missing from active client itemInfo.lua
+410102,2021RTC_Headset_3_TW,2021RTC 3rd Place Gaming Headset,Headgear,Missing from active client itemInfo.lua
+410109,Fluffy_Lovely_Fox,Fluffy Lovely Fox,Headgear,Missing from active client itemInfo.lua
+410110,Fluffy_Lovely_Fox_,Fluffy Lovely Fox,Headgear,Missing from active client itemInfo.lua
+410124,Grisly_Soul,Ears of Grisly Soul,Headgear,Missing from active client itemInfo.lua
+410125,Grisly_Soul_,Ears of Grisly Soul,Headgear,Missing from active client itemInfo.lua
+410136,Raven_Of_Tomb,Raven Of Tomb,Headgear,Missing from active client itemInfo.lua
+410137,Comp_Raven_Of_Tomb,[Not for Sale] Raven Of Tomb,Headgear,Missing from active client itemInfo.lua
+410141,GorgonCoronet,Gorgon Coronet,Headgear,Missing from active client itemInfo.lua
+410142,GorgonCoronet_,Gorgon Coronet,Headgear,Missing from active client itemInfo.lua
+410158,Magic_Celestial_Globe,Magic Celestial Globe,Headgear,Missing from active client itemInfo.lua
+410159,Magic_Celestial_Globe_,Magic Celestial Globe,Headgear,Missing from active client itemInfo.lua
+410186,Rebel_Pocket_Watch_,Rebellion Pocket Watch,Headgear,Missing from active client itemInfo.lua
+410207,aegis_410207,Silk of Soul,Headgear,Missing from active client itemInfo.lua
+410210,Little_Abyss_Dragon,Little Abyss Dragon,Headgear,Missing from active client itemInfo.lua
+410211,Little_Abyss_Dragon_,Little Abyss Dragon,Headgear,Missing from active client itemInfo.lua
+410213,Ear_OF_Bloody,Bloody Ears,Headgear,Missing from active client itemInfo.lua
+410235,Handiness_Telescope,Rescue Binoculars,Headgear,Missing from active client itemInfo.lua
+410243,Wanderer_Grim_Reaper,Wanderer Grim Reaper,Headgear,Missing from active client itemInfo.lua
+410244,Wanderer_Grim_Reaper_,Wanderer Grim Reaper,Headgear,Missing from active client itemInfo.lua
+410247,Lightning_Savage,Lightning Savage,Headgear,Missing from active client itemInfo.lua
+410254,Old_Moroc_Acc,Ancient Morocc Noble Jewelry,Headgear,Missing from active client itemInfo.lua
+410256,Magic_Star_TW_LT,Magic Star-LT,Headgear,Missing from active client itemInfo.lua
+410269,Comp_Crow_Tengu_Mask,[NFS] Crow Tengu Mask,Headgear,Missing from active client itemInfo.lua
+410270,aegis_410270,Cultist's Circlet (Strength),Headgear,Missing from active client itemInfo.lua
+410271,aegis_410271,Cultist's Circlet (Agility),Headgear,Missing from active client itemInfo.lua
+410272,aegis_410272,Cultist's Circlet (Vitality),Headgear,Missing from active client itemInfo.lua
+410273,aegis_410273,Cultist's Circlet (Intelligence),Headgear,Missing from active client itemInfo.lua
+410274,aegis_410274,Cultist's Circlet (Dexterity),Headgear,Missing from active client itemInfo.lua
+410275,aegis_410275,Cultist's Circlet (Lucky),Headgear,Missing from active client itemInfo.lua
+410284,EvilEye_of_FalseGods,Evil Eyes of False God,Headgear,Missing from active client itemInfo.lua
+410285,EvilEye_of_FalseGods_,Evil Eyes of False God,Headgear,Missing from active client itemInfo.lua
+410291,aegis_410291,Little Abyss Dragon,Headgear,Missing from active client itemInfo.lua
+410294,Little_Abyss_DragonTH_,Little Abyss Dragon,Headgear,Missing from active client itemInfo.lua
+410298,Comp_Floating_Ball,[Not For Sale] Floating Ball,Headgear,Missing from active client itemInfo.lua
+410299,Comp_Sunglasses_,[NFS] Sunglasses,Headgear,Missing from active client itemInfo.lua
+410302,Wisdom_Core_Headphones,Wisdom Core Headphones,Headgear,Missing from active client itemInfo.lua
+410303,Little_Abyss_Dragon_MSP,[NFS] Little Abyss Dragon,Headgear,Missing from active client itemInfo.lua
+410304,aegis_410304,Diabolus Wing,Headgear,Missing from active client itemInfo.lua
+410305,aegis_410305,[Not For Sale] Diabolus Wing,Headgear,Missing from active client itemInfo.lua
+410306,Demons_Eye_BR,Illusionary Lens,Headgear,Missing from active client itemInfo.lua
+410313,Eye_Of_Storm_TH,Eye of the Storm,Headgear,Missing from active client itemInfo.lua
+410314,Comp_EyeStorm_TH,[Not For Sale] Eye of the Storm,Headgear,Missing from active client itemInfo.lua
+410322,Interdimensional_Rift,Interdimensional Rift,Headgear,Missing from active client itemInfo.lua
+410323,Interdimensional_Rift_,Interdimensional Rift,Headgear,Missing from active client itemInfo.lua
+410332,Karasu_TenguMask,Karasu Tengu Mask,Headgear,Missing from active client itemInfo.lua
+410334,WishingTree,Wishing Tree,Headgear,Missing from active client itemInfo.lua
+410335,WishingTree_,Wishing Tree,Headgear,Missing from active client itemInfo.lua
+410336,CherubCoronet,Cherub Coronet,Headgear,Missing from active client itemInfo.lua
+410337,CherubCoronet_,Cherub Coronet,Headgear,Missing from active client itemInfo.lua
+410339,Handiness_Telescope_LT,Lightweight Telescope-LT,Headgear,Missing from active client itemInfo.lua
+410340,Interdimensional_Rift2,Interdimensional Rift (Effect Off),Headgear,Missing from active client itemInfo.lua
+410341,Interdimensional_Rift2_,Interdimensional Rift (Effect Off),Headgear,Missing from active client itemInfo.lua
+410344,Clown_Smiling,Clown Smiling,Headgear,Missing from active client itemInfo.lua
+410346,Imperial_Earwing,Imperial Ear Wing,Headgear,Missing from active client itemInfo.lua
+410347,Imperial_Earwing_,Imperial Ear Wing,Headgear,Missing from active client itemInfo.lua
+410348,D_Protect_Shields,Divine Protect Shield,Headgear,Missing from active client itemInfo.lua
+410349,aegis_410349,Adventurous Poring,Headgear,Missing from active client itemInfo.lua
+410362,Exiled_Ninja_US,Exiled Ninja's Eyes,Headgear,Missing from active client itemInfo.lua
+410587,aegis_410587,Mermaid Headphones (Global Cooldown),Headgear,Missing from active client itemInfo.lua
+410588,aegis_410588,Mermaid Headphones (Variable Casting),Headgear,Missing from active client itemInfo.lua
+410589,aegis_410589,Mermaid Headphones (MAXHP),Headgear,Missing from active client itemInfo.lua
+410590,26_3_MidHat1_,Mermaid Headphones (Global Cooldown),Headgear,Missing from active client itemInfo.lua
+410591,26_3_MidHat2_,Mermaid Headphones (Variable Casting),Headgear,Missing from active client itemInfo.lua
+410592,26_3_MidHat3_,Mermaid Headphones (MAXHP),Headgear,Missing from active client itemInfo.lua
+420000,Isabella_Carrot,Isabella Carrot,Headgear,Missing from active client itemInfo.lua
+420004,Nine_Tail_Fox_Hair,Fox Hair,Headgear,Missing from active client itemInfo.lua
+420005,Love_Feeling_TW,Feeling of Love,Headgear,Missing from active client itemInfo.lua
+420013,Spirit_Of_Chung_E_J,Spirit of Chun Yi,Headgear,Missing from active client itemInfo.lua
+420028,Imperial_Glory,Imperial Glory,Headgear,Missing from active client itemInfo.lua
+420032,TwinCannon_TW,Double Barrel Cannon,Headgear,Missing from active client itemInfo.lua
+420064,Noble_Hankie_TW,Noble Handkerchief,Headgear,Missing from active client itemInfo.lua
+420065,Angeling_Balloon_TW,Eternal Poring Balloon,Headgear,Missing from active client itemInfo.lua
+420068,Lord_of_Royals,Lord of Royals,Headgear,Missing from active client itemInfo.lua
+420087,Magic_Circle_TW,Magic Star Array,Headgear,Missing from active client itemInfo.lua
+420089,SLD_Mob_Scarf,[Rental] Sealed Mob Scarf,Headgear,Missing from active client itemInfo.lua
+420105,Curse_Eats_the_World,World-erosive Curse,Headgear,Missing from active client itemInfo.lua
+420106,Temporal_Sprout_TW,Exotic Temporal Young Leaf,Headgear,Missing from active client itemInfo.lua
+420110,ScarfOfHero_J,Old Camouflage Scarf,Headgear,Missing from active client itemInfo.lua
+420112,Guardian_Claus,Guardian Claus,Headgear,Missing from active client itemInfo.lua
+420129,Wei_Brush_Tattoo,Wei Brush Tattoo,Headgear,Missing from active client itemInfo.lua
+420130,Fumi_Fan,Fumi Fan,Headgear,Missing from active client itemInfo.lua
+420131,Comp_Fumi_Fan,[Not for Sale] Fumi Fan,Headgear,Missing from active client itemInfo.lua
+420134,Sprit_Of_World,The Spirit Of World,Headgear,Missing from active client itemInfo.lua
+420135,Comp_Isabella_Carrot,[Not For Sale] Isabella Carrot,Headgear,Missing from active client itemInfo.lua
+420136,Comp_Sprit_Of_World,[Not For Sale] The Spirit Of World,Headgear,Missing from active client itemInfo.lua
+420137,FlyingGalapago_ROC,Frenzy Galapago,Headgear,Missing from active client itemInfo.lua
+420138,Poker_Card_In_Mouth_ROC,Poker Card In Mouth,Headgear,Missing from active client itemInfo.lua
+420139,Comp_FlyingGalapago_ROC,[Not For Sale]Frenzy Galapago,Headgear,Missing from active client itemInfo.lua
+420141,Flutter_Butterfly,Flutter Butterfly,Headgear,Missing from active client itemInfo.lua
+420158,Yesterday_Once_More,Yesterday Once More,Headgear,Missing from active client itemInfo.lua
+420174,Cons_Of_Wind_J,Raging Tempest,Headgear,Missing from active client itemInfo.lua
+420180,Eis_Spinne,Eispinne,Headgear,Missing from active client itemInfo.lua
+420186,20th_Anniversary_TW,20th Anniversary Balloon,Headgear,Missing from active client itemInfo.lua
+420194,Rescue_whistle,Survival Whistle,Headgear,Missing from active client itemInfo.lua
+420198,Sanctus,Sanctus,Headgear,Missing from active client itemInfo.lua
+420215,Gang_Scarf_ROC,Gang Scarf,Headgear,Missing from active client itemInfo.lua
+420216,Comp_Gang_Scarf_ROC,[Not For Sale] Gang Scarf,Headgear,Missing from active client itemInfo.lua
+420223,Consecrate_F_Aureola,Consecrate Fides Aureola,Headgear,Missing from active client itemInfo.lua
+420235,Mobile_Support_Systems,Portable Support System,Headgear,Missing from active client itemInfo.lua
+420238,Morcegos_BR,Illusionary Bat,Headgear,Missing from active client itemInfo.lua
+420247,Comp_Tengu_Scroll,[NFS] Tengu Scroll,Headgear,Missing from active client itemInfo.lua
+420248,ThirdEyeGod_ROC,Third Eye God,Headgear,Missing from active client itemInfo.lua
+420249,Comp_ThirdEyeGod_ROC,[Not For Sale] Third Eye God,Headgear,Missing from active client itemInfo.lua
+420250,Comp_Panda_Balloon,[NFS] Panda Bear Balloon,Headgear,Missing from active client itemInfo.lua
+420251,Faisca_Ilusional_BR,Illusionary Spark,Headgear,Missing from active client itemInfo.lua
+420252,Pires_Ilusional_BR,Illusional Saucer,Headgear,Missing from active client itemInfo.lua
+420253,Republic_Scarf_BR,Republic scarf,Headgear,Missing from active client itemInfo.lua
+420256,aegis_420256,Imperial Glory,Headgear,Missing from active client itemInfo.lua
+420257,aegis_420257,[Not For Sale] Imperial Glory,Headgear,Missing from active client itemInfo.lua
+420258,Protect_Cloth_B,Hero Cloth,Headgear,Missing from active client itemInfo.lua
+420270,Cosmic_Connection,Cosmic Connection,Headgear,Missing from active client itemInfo.lua
+420302,Sound_of_Catbell,Ring-ging Nyan Catbell,Headgear,Missing from active client itemInfo.lua
+420308,Comp_Mob_Scarf,[NFS] Mob Scarf,Headgear,Missing from active client itemInfo.lua
+420316,TwinCannon_LT_TW,Twin Cannon-LT,Headgear,Missing from active client itemInfo.lua
+420323,CharmOfAnywhere,Charm of Anywhere,Headgear,Missing from active client itemInfo.lua
+420324,Twin_Canon_BR,Auto Parts - Cannons,Headgear,Missing from active client itemInfo.lua
+420327,Cat_Ears_Cape_Blue,Nekomimi Cape (Blue),Headgear,Missing from active client itemInfo.lua
+420329,Twinhead_DragonScale_US,Twinhead Dragon Scale,Headgear,Missing from active client itemInfo.lua
+420334,Queen_of_Calamity,Queen of Calamity,Headgear,Missing from active client itemInfo.lua
+420342,WL_Security_Drone_TH,Wireless Security Drone,Headgear,Missing from active client itemInfo.lua
+420343,Rescue_whistle_LT,Survival Whistle-LT,Headgear,Missing from active client itemInfo.lua
+420356,Book_Of_Destruction,Book of Destruction,Headgear,Missing from active client itemInfo.lua
+420368,Reaper_Of_Tomb,Reaper Of Tomb,Headgear,Missing from active client itemInfo.lua
+420369,EarthStone_In_Mouth,Earth Stone In Mouth,Headgear,Missing from active client itemInfo.lua
+420370,Comp_ES_in_Mouth,[Not For Sale] Earth Stone In Mouth,Headgear,Missing from active client itemInfo.lua
+420381,Atque_Poenitentia,Atokwe Poenitentia,Headgear,Missing from active client itemInfo.lua
+420389,Model_Kankrai_TH,Kankrai,Headgear,Missing from active client itemInfo.lua
+420390,Model_Khon_TH,Khon,Headgear,Missing from active client itemInfo.lua
+420391,Model_Kradat_TH,Kradat,Headgear,Missing from active client itemInfo.lua
+420392,Twin_Canon_TH_LT,Twin Cannon-LT,Headgear,Missing from active client itemInfo.lua
+420422,Red_Bat_US,Bat Von Blood,Headgear,Missing from active client itemInfo.lua
+420425,Mob_Scarf_LT,Mob Scarf-LT,Headgear,Missing from active client itemInfo.lua
+430002,Rachel_Helmet,Awakened Glacier Helm,Headgear,Missing from active client itemInfo.lua
+430003,Comp_F_P_Mask_ROC,[Not For Sale] Fancy Phantom Mask,Headgear,Missing from active client itemInfo.lua
+430006,Wanderers_Sakkat_ROC,Wanderer's Sakkat,Headgear,Missing from active client itemInfo.lua
+430007,Comp_WandererSakkat_ROC,[Not For Sale] Wanderer's Sakkat,Headgear,Missing from active client itemInfo.lua
+430008,Comp_Lord_of_Death,[NFS] Helm of Death,Headgear,Missing from active client itemInfo.lua
+450010,Europa_Robe_J,Europa Robe,Armor,Missing from active client itemInfo.lua
+450011,Capricon_Mail_J,Capricon Mail,Armor,Missing from active client itemInfo.lua
+450012,Siege_Robe_2Tier,Intermediate Guild Member's Robe,Armor,Missing from active client itemInfo.lua
+450013,Siege_Suits_2Tier,Intermediate Guild Member's Suit,Armor,Missing from active client itemInfo.lua
+450014,Siege_Plate_2Tier,Intermediate Guild Member's Plate,Armor,Missing from active client itemInfo.lua
+450015,Virgo_Mail_J,Virgo Mail,Armor,Missing from active client itemInfo.lua
+450017,Kukulkan_Skin_TW,Kukulkan Skin,Armor,Missing from active client itemInfo.lua
+450129,Aries_Mail_J,Aries Mail,Armor,Missing from active client itemInfo.lua
+450130,Gemini_Mail_J,Gemini Mail,Armor,Missing from active client itemInfo.lua
+450131,Fallen_Angel_Armor_TW,Fallen Angel Armor,Armor,Missing from active client itemInfo.lua
+450133,Pisces_Mail_J,Pisces Mail,Armor,Missing from active client itemInfo.lua
+450135,Bloody_Celine_Dress_TW,Bloody Celine's Dress,Armor,Missing from active client itemInfo.lua
+450140,Sagittarius_Mail_J,Sagittarius Mail,Armor,Missing from active client itemInfo.lua
+450141,Kingly_Armor,Monarch Mail,Armor,Missing from active client itemInfo.lua
+450142,Orc_Load_Mail,Orc Lord Armor,Armor,Missing from active client itemInfo.lua
+450155,JP_Armor06_L,[Rental] Red Serpent Dress,Armor,Missing from active client itemInfo.lua
+450158,Triad_God_Mail_J__,Awakening Triad God Mail,Armor,Missing from active client itemInfo.lua
+450163,White_Lily_Robe_,White Lily Robe,Armor,Missing from active client itemInfo.lua
+450175,Temporal_Armor_TW,Exotic Temporal Armor,Armor,Missing from active client itemInfo.lua
+450181,White_Lily_Robe__,Awakened White Lily Robe,Armor,Missing from active client itemInfo.lua
+450188,Cursed_Devils_Mail_A,Awakening Magic Curse Mail,Armor,Missing from active client itemInfo.lua
+450189,Oceanus_Blessing,Oceanus Blessing,Armor,Missing from active client itemInfo.lua
+450190,Rachel_Robe,Awakened Glacier Robe,Armor,Missing from active client itemInfo.lua
+450205,Orc_Load_Mail_,Awakened Orc Load Armor,Armor,Missing from active client itemInfo.lua
+450211,Guardian_Mail,Guardian Mail,Armor,Missing from active client itemInfo.lua
+450215,Aramazd_revelation,Revelation of Aramazd,Armor,Missing from active client itemInfo.lua
+450220,Chrome_Plate_Armor,Chrome Metal Plate,Armor,Missing from active client itemInfo.lua
+450222,Requiescat_in_Pace,Requiescat in Pace,Armor,Missing from active client itemInfo.lua
+450224,Ruler_Robe_J_,Robe of Dominator,Armor,Missing from active client itemInfo.lua
+450225,Ruler_Robe_J__,Awakened Ruler's Robe,Armor,Missing from active client itemInfo.lua
+450226,Four_of_a_kind,Four of a Kind,Armor,Missing from active client itemInfo.lua
+450246,BN_H_AD_Suits,Baron Adventurer Suit,Armor,Missing from active client itemInfo.lua
+450247,Brilliant,Brillance,Armor,Missing from active client itemInfo.lua
+450252,Death_Bringer,Death Bringer,Armor,Missing from active client itemInfo.lua
+450259,P_90Lv_Mail,Booster Adventurer's Premium Mail,Armor,Missing from active client itemInfo.lua
+450260,P_90Lv_Cloth,Booster Adventurer's Premium Cloth,Armor,Missing from active client itemInfo.lua
+450261,P_90Lv_Robe,Booster Adventurer's Premium Robe,Armor,Missing from active client itemInfo.lua
+450262,P_90Lv_Dress,Booster Adventurer's Premium Clothing,Armor,Missing from active client itemInfo.lua
+450263,Lunar_E_Armor_LT,Lunar Eclipse Armor-LT,Armor,Missing from active client itemInfo.lua
+450269,Kafra_Suit_ROC,Kafra Suit,Armor,Missing from active client itemInfo.lua
+450286,Robe_of_Devotee_A,Awakened Robe of Worshiper,Armor,Missing from active client itemInfo.lua
+450287,Robe_of_Devotee,Robe of Worshiper,Armor,Missing from active client itemInfo.lua
+450291,Amazing_Grace,Amazing Grace,Armor,Missing from active client itemInfo.lua
+450293,Ceres_Armor_TW_LT,Ceres Leather Armor-LT,Armor,Missing from active client itemInfo.lua
+450294,Jupiter_Armor_TW_LT,Jupiter Light Armor-LT,Armor,Missing from active client itemInfo.lua
+450295,Apollo_Armor_TW_LT,Apollo Armor-LT,Armor,Missing from active client itemInfo.lua
+450296,Mars_Armor_TW_LT,Mars Armor-LT,Armor,Missing from active client itemInfo.lua
+450297,Vinus_Armor_TW_LT,Venus Feather Armor-LT,Armor,Missing from active client itemInfo.lua
+450298,Vulcan_Armor_TW_LT,Vulcanus Armor-LT,Armor,Missing from active client itemInfo.lua
+450300,Z_Boost_Armor,Boosted Adventurer's Armor,Armor,Missing from active client itemInfo.lua
+450301,Z_Boost_Set1_Armor,Boosting Forged Mail Type A,Armor,Missing from active client itemInfo.lua
+450302,Z_Boost_Set2_Armor,Boosting Forged Mail Type B,Armor,Missing from active client itemInfo.lua
+450303,Z_Boost_Set3_Armor,Boosting Forged Mail Type C,Armor,Missing from active client itemInfo.lua
+450304,Z_Boost_Set4_Armor,Boosting Forged Mail Type D,Armor,Missing from active client itemInfo.lua
+450309,Grace_of_Seth,Grace of Seth,Armor,Missing from active client itemInfo.lua
+450333,Gray_W_Suits_JP,[Not For Sale] Gray Wolf Suit,Armor,Missing from active client itemInfo.lua
+450335,Gray_W_Robe_JP,[Not For Sale] Gray Wolf Robe,Armor,Missing from active client itemInfo.lua
+450336,Snowflower_Armor_JP,[Not For Sale] Snowflake Mail,Armor,Missing from active client itemInfo.lua
+450337,Snowflower_Robe_JP,[Not For Sale] Snowflake Robe,Armor,Missing from active client itemInfo.lua
+450338,Screaming_Ghoost_Party,Screaming Ghost Party,Armor,Missing from active client itemInfo.lua
+450340,Z_Boost_Set1_Armor_01,Boosting Mail Type A,Armor,Missing from active client itemInfo.lua
+450341,Z_Boost_Set2_Armor_01,Boosting Mail Type B,Armor,Missing from active client itemInfo.lua
+450342,Z_Boost_Set3_Armor_01,Boosting Mail Type C,Armor,Missing from active client itemInfo.lua
+450343,Z_Boost_Set4_Armor_01,Boosting Mail Type D,Armor,Missing from active client itemInfo.lua
+450368,Howling_Tiger_Pajama,Howling Tiger Pajama,Armor,Missing from active client itemInfo.lua
+450371,aegis_450371,Ultra Armor,Armor,Missing from active client itemInfo.lua
+450372,Vohu_Manah,Vohu Manah,Armor,Missing from active client itemInfo.lua
+450373,Soft_Fawn_Robe,Softy Fawn Robe,Armor,Missing from active client itemInfo.lua
+450375,aegis_450375,Fallen Violet Armor,Armor,Missing from active client itemInfo.lua
+450376,aegis_450376,[Not For Sale] Fallen Violet Armor,Armor,Missing from active client itemInfo.lua
+450377,aegis_450377,Fallen Flame Armor,Armor,Missing from active client itemInfo.lua
+450378,aegis_450378,[Not For Sale] Fallen Flame Armor,Armor,Missing from active client itemInfo.lua
+450379,Lycanthrope,Lykantropos,Armor,Missing from active client itemInfo.lua
+450385,Astraea_Armor_LT,Asteria's Armor-LT,Armor,Missing from active client itemInfo.lua
+450386,Bacchus_Armor_LT,Bacchus Armor-LT,Armor,Missing from active client itemInfo.lua
+450387,Neptune_Uniform_LT,Neptune Uniform-LT,Armor,Missing from active client itemInfo.lua
+450388,Diana_Suits_LT,Diana Suit-LT,Armor,Missing from active client itemInfo.lua
+450389,Mercury_Suits_LT,Mercury Suit-LT,Armor,Missing from active client itemInfo.lua
+450390,Janus_Armor,Janus Armor,Armor,Missing from active client itemInfo.lua
+450391,Janus_Armor_LT,Janus Armor-LT,Armor,Missing from active client itemInfo.lua
+450401,Speculation,Speculation,Armor,Missing from active client itemInfo.lua
+450402,Costume_Petal_W,Petal Costume (Albino),Armor,Missing from active client itemInfo.lua
+450403,Virtuous_Light_US,Virtuous Lightbringer,Armor,Missing from active client itemInfo.lua
+450404,Bougainvillea,Bougainvillea,Armor,Missing from active client itemInfo.lua
+450410,Hatred_Darkness,Hatred Darkness,Armor,Missing from active client itemInfo.lua
+450411,Tirnanog,Tirnanog,Armor,Missing from active client itemInfo.lua
+450416,Lycanthrope_US,Lycanthrope Armor,Armor,Missing from active client itemInfo.lua
+450417,aegis_450417,Robe of Morpheus's,Armor,Missing from active client itemInfo.lua
+450419,World_All,World All,Armor,Missing from active client itemInfo.lua
+450420,Radiant_purify,Radiant Purify,Armor,Missing from active client itemInfo.lua
+450423,Sheratan,Sheratan,Armor,Missing from active client itemInfo.lua
+450424,The_RO_Shirts_ROC,The Ragnarok T-Shirts,Armor,Missing from active client itemInfo.lua
+450425,Striped_Holy_Robe,Striped Holy Robe,Armor,Missing from active client itemInfo.lua
+450426,Santa_Suit_US,Santa Suit,Armor,Missing from active client itemInfo.lua
+450427,Diabolic_Armor_US,Cursed Diabolical Armor,Armor,Missing from active client itemInfo.lua
+450432,Power_Machine_Suit,Power Machine Suit,Armor,Missing from active client itemInfo.lua
+450438,Prana_Suit,Prana Suit,Armor,Missing from active client itemInfo.lua
+460002,Aries_Shield_J,Aries Shield,Shields,Missing from active client itemInfo.lua
+460004,Illusion_Shield_A,Illusion Shield I,Shields,Missing from active client itemInfo.lua
+460009,Apocalypse_Of_Destiny,Apocalypse of the Saint,Shields,Missing from active client itemInfo.lua
+460014,Illusion_Shield_B,Illusion Shield II,Shields,Missing from active client itemInfo.lua
+460015,Auto_Shield_A,Automatic Shield I,Shields,Missing from active client itemInfo.lua
+460016,Auto_Shield_B,Automatic Shield II,Shields,Missing from active client itemInfo.lua
+460025,Spenta_Mainyu,Spenta Mainyu,Shields,Missing from active client itemInfo.lua
+460027,Titan_Shield_TW,Titan Shield,Shields,Missing from active client itemInfo.lua
+460030,Fake_Alloy_Pot,Bionic Aluminum Planter,Shields,Missing from active client itemInfo.lua
+460038,Nob_Lib_Shield,Noble Libra's Shield,Shields,Missing from active client itemInfo.lua
+460046,Black_Mithril_Guard,Black Mythril Guard,Shields,Missing from active client itemInfo.lua
+460050,Symbol_Of_Eden,Symbol of Eden,Shields,Missing from active client itemInfo.lua
+460053,Feather_Shield_LT_TW,Feather Shield-LT,Shields,Missing from active client itemInfo.lua
+460064,Rose_Quartz_Shield,Rose Quartz Shield,Shields,Missing from active client itemInfo.lua
+460065,Comp_Rose_Quartz_Shield,[Not For Sale] Rose Quartz Shield,Shields,Missing from active client itemInfo.lua
+460066,Fake_Alloy_Pot_LT,Fake Alloy Pot-LT,Shields,Missing from active client itemInfo.lua
+460073,aegis_460073,Ultra Shield,Shields,Missing from active client itemInfo.lua
+460074,Glacies_Aranea,Gracies Aranea,Shields,Missing from active client itemInfo.lua
+460075,Prta_Mil_Shield,Prontera Army Shield,Shields,Missing from active client itemInfo.lua
+460077,GEMS_DarkBlood,God-Devouring Demonic Shield,Shields,Missing from active client itemInfo.lua
+460078,GEMS_DarkBlood_LT,God-Devouring Demonic Shield-LT,Shields,Missing from active client itemInfo.lua
+460079,Mesarthim,Mesarthim,Shields,Missing from active client itemInfo.lua
+460083,Forbidden_Grimoire2_TH,Forbidden Grimoire II,Shields,Missing from active client itemInfo.lua
+460084,Alice_Pillow_US,Alice Body Pillow,Shields,Missing from active client itemInfo.lua
+460088,Shingaimutou,Shingaimutou,Shields,Missing from active client itemInfo.lua
+460089,Cursed_Prince_Guard,Cursed Prince Guard,Shields,Missing from active client itemInfo.lua
+460092,Ancient_Prontera_US,Ancient Prontera Book,Shields,Missing from active client itemInfo.lua
+460093,Ninja_Sheild,Hissatsu: Falling Bloom,Shields,Missing from active client itemInfo.lua
+460094,Aegis_Illusive_TH,Aegis of the Illusive,Shields,Missing from active client itemInfo.lua
+460095,Aegis_Illusive_TH_LT,Aegis of the Illusive-LT,Shields,Missing from active client itemInfo.lua
+460096,Hightech_Shield_US,High-tech Shield,Shields,Missing from active client itemInfo.lua
+460097,Forbidden_Grimoire2_LT,Forbidden Grimoire II-LT,Shields,Missing from active client itemInfo.lua
+470007,Sniping_Shoes_J_,Sniping Shoes,Shoes,Missing from active client itemInfo.lua
+470009,Fluffy_DandeShoes_J_,Fluffy Dandelion Shoes,Shoes,Missing from active client itemInfo.lua
+470010,Capricon_Shoes_J,Capricon Shoes,Shoes,Missing from active client itemInfo.lua
+470011,Siege_Shoes_2Tier,Intermediate Guild Member's Shoes,Shoes,Missing from active client itemInfo.lua
+470012,Siege_Boots_2Tier,Intermediate Guild Member's Boots,Shoes,Missing from active client itemInfo.lua
+470013,Siege_Greave_2Tier,Intermediate Guild Member's Greaves,Shoes,Missing from active client itemInfo.lua
+470014,Virgo_Shoes_J,Virgo Shoes,Shoes,Missing from active client itemInfo.lua
+470024,Aries_Shoes_J,Aries Shoes,Shoes,Missing from active client itemInfo.lua
+470028,Juggernaut_,Juggernaut,Shoes,Missing from active client itemInfo.lua
+470030,Discord_Particles_Shoes,Discord Thoughtform Shoes,Shoes,Missing from active client itemInfo.lua
+470031,Discord_Particles_Shoe_,Discord Thoughtform Shoes,Shoes,Missing from active client itemInfo.lua
+470032,Gemini_Shoes_J,Gemini Shoes,Shoes,Missing from active client itemInfo.lua
+470034,Virtue_Particles_Shoes,Immoral Thoughtform Shoes,Shoes,Missing from active client itemInfo.lua
+470035,Virtue_Particles_Shoes_,Immoral Thoughtform Shoes,Shoes,Missing from active client itemInfo.lua
+470037,Military_Boots_IL_,Illusion Military Boots,Shoes,Missing from active client itemInfo.lua
+470038,Pisces_Shoes_J,Pisces Shoes,Shoes,Missing from active client itemInfo.lua
+470045,Sagittarius_Shoes_J,Sagittarius Shoes,Shoes,Missing from active client itemInfo.lua
+470046,Kingly_Boots,Monarch Boots,Shoes,Missing from active client itemInfo.lua
+470047,Awakening_Nergal_Shoes,Awakened Fire Thunder Great Boots,Shoes,Missing from active client itemInfo.lua
+470058,Disillusion_P_Shoes,Disillusion Thoughtform Shoes,Shoes,Missing from active client itemInfo.lua
+470059,Disillusion_P_Shoes_,Disillusion Thoughtform Shoes,Shoes,Missing from active client itemInfo.lua
+470063,Lethargy_P_Shoes_,Lethargy Thoughtform Shoes,Shoes,Missing from active client itemInfo.lua
+470075,Peep_Toe_Sandals,Peep Toe Sandals,Shoes,Missing from active client itemInfo.lua
+470078,Indecisive_P_Shoes,Indecisive Thoughtform Shoes,Shoes,Missing from active client itemInfo.lua
+470079,Indecisive_P_Shoes_,Indecisive Thoughtform Shoes,Shoes,Missing from active client itemInfo.lua
+470080,Arrogance_P_Shoes,Arrogant Thoughtform Shoes,Shoes,Missing from active client itemInfo.lua
+470081,Arrogance_P_Shoes_,Arrogant Thoughtform Shoes,Shoes,Missing from active client itemInfo.lua
+470082,Regeneration_P_Shoes,Regeneration Thoughtform Shoes,Shoes,Missing from active client itemInfo.lua
+470083,Regeneration_P_Shoes_,Regeneration Thoughtform Shoes,Shoes,Missing from active client itemInfo.lua
+470085,Rune_Greave_JP_,Rune Greaves,Shoes,Missing from active client itemInfo.lua
+470086,Lapine_Pray_Shoes,Lapine Prayer Shoes,Shoes,Missing from active client itemInfo.lua
+470089,Runaway_P_Shoes,Runaway Thoughtform Shoes,Shoes,Missing from active client itemInfo.lua
+470090,Runaway_P_Shoes_,Runaway Thoughtform Shoes,Shoes,Missing from active client itemInfo.lua
+470091,Disappointment_P_Shoes,Despair Thoughtform Shoes,Shoes,Missing from active client itemInfo.lua
+470092,Disappointment_P_Shoes_,Despair Thoughtform Shoes,Shoes,Missing from active client itemInfo.lua
+470095,Destroy_World_Boots,Destroyer Boots,Shoes,Missing from active client itemInfo.lua
+470096,Cursed_Devils_Boots_A,Awakening Magic Curse Boots,Shoes,Missing from active client itemInfo.lua
+470098,EC_Boots_TW,Jade Crystal Boots,Shoes,Missing from active client itemInfo.lua
+470099,Rachel_Boots,Awakened Glacier Boots,Shoes,Missing from active client itemInfo.lua
+470117,Guardian_Greave,Guardian Greave,Shoes,Missing from active client itemInfo.lua
+470120,Scrap_Remodel_Shoes_TW,Mechanical Aluminum Modified Boots,Shoes,Missing from active client itemInfo.lua
+470123,Hunting_Shoes,Hunting Shoes,Shoes,Missing from active client itemInfo.lua
+470127,Wine_Shoes,Crimson Magic Boots,Shoes,Missing from active client itemInfo.lua
+470129,Corruption_Boots,Fallen Gods Chant Magic Boots,Shoes,Missing from active client itemInfo.lua
+470158,Temporal_Dex_Boots_ROC,Temporal Boots Dex,Shoes,Missing from active client itemInfo.lua
+470159,Temporal_STR_Boots_ROC,Temporal Boots Str,Shoes,Missing from active client itemInfo.lua
+470160,Temporal_Int_Boots_ROC,Temporal Boots Int,Shoes,Missing from active client itemInfo.lua
+470161,Temporal_Agi_Boots_ROC,Temporal Boots Agi,Shoes,Missing from active client itemInfo.lua
+470162,Temporal_Vit_Boots_ROC,Temporal Boots Vit,Shoes,Missing from active client itemInfo.lua
+470163,Temporal_Luk_Boots_ROC,Temporal Boots Luk,Shoes,Missing from active client itemInfo.lua
+470164,Temporal_Agi_Boots_ROC_,Temporal Boots Agi,Shoes,Missing from active client itemInfo.lua
+470165,Temporal_Vit_Boots_ROC_,Temporal Boots Vit,Shoes,Missing from active client itemInfo.lua
+470166,Temporal_Dex_Boots_ROC_,Temporal Boots Dex,Shoes,Missing from active client itemInfo.lua
+470167,Temporal_STR_Boots_ROC_,Temporal Boots Str,Shoes,Missing from active client itemInfo.lua
+470168,Temporal_Int_Boots_ROC_,Temporal Boots Int,Shoes,Missing from active client itemInfo.lua
+470169,Temporal_Luk_Boots_ROC_,Temporal Boots Luk,Shoes,Missing from active client itemInfo.lua
+470170,Temporal_Boots_ROC,Temporal Boots,Shoes,Missing from active client itemInfo.lua
+470171,ROZ_FV_Cassock_Boots,Shining Priest's Boots,Shoes,Missing from active client itemInfo.lua
+470172,ROZ_FV_Rachel_Boots,Frost Ice Snow Boots,Shoes,Missing from active client itemInfo.lua
+470177,Walk_Of_DarkVoid,Void Darkness Boots,Shoes,Missing from active client itemInfo.lua
+470180,Starry_Sky_Twin_Prime,Starry Sky Twin Prime,Shoes,Missing from active client itemInfo.lua
+470181,Comp_Ancient_Hero_Boots,[Not For Sale] Ancient Hero Boots,Shoes,Missing from active client itemInfo.lua
+470182,Agenda_Boots_LT_TW,Boots of Judgment-LT,Shoes,Missing from active client itemInfo.lua
+470184,Shoes10_ROC,Shoes10,Shoes,Missing from active client itemInfo.lua
+470185,Shoes20_ROC,Shoes40,Shoes,Missing from active client itemInfo.lua
+470186,Shoes30_ROC,Shoes70,Shoes,Missing from active client itemInfo.lua
+470187,Beast_Area_Shoes,Beast Territory Boots,Shoes,Missing from active client itemInfo.lua
+470188,P_90Lv_Greave,Booster Adventurer's Premium Greaves,Shoes,Missing from active client itemInfo.lua
+470189,P_90Lv_Boots,Booster Adventurer's Premium Boots,Shoes,Missing from active client itemInfo.lua
+470190,P_90Lv_Shoes,Booster Adventurer's Premium Shoes,Shoes,Missing from active client itemInfo.lua
+470191,P_90Lv_Sandal,Booster Adventurer's Premium Magic Shoes,Shoes,Missing from active client itemInfo.lua
+470193,Military_Boots_TH,Military Boots TH,Shoes,Missing from active client itemInfo.lua
+470194,Comp_Military_Boots_TH,[Not for Sale] Military Boots TH,Shoes,Missing from active client itemInfo.lua
+470199,Wine_Shoes_LT,Crimson Magic Boots-LT,Shoes,Missing from active client itemInfo.lua
+470205,Astraea_Shoes_LT,Asteria's Boots-LT,Shoes,Missing from active client itemInfo.lua
+470206,Prana_Boots,Prana Boots,Shoes,Missing from active client itemInfo.lua
+470216,Z_Boost_Greave,Boosted Adventurer's Boots,Shoes,Missing from active client itemInfo.lua
+470217,Z_Boost_Set1_Boots,Boosting Forged Boots Type A,Shoes,Missing from active client itemInfo.lua
+470218,Z_Boost_Set2_Boots,Boosting Forged Boots Type B,Shoes,Missing from active client itemInfo.lua
+470219,Z_Boost_Set3_Boots,Boosting Forged Boots Type C,Shoes,Missing from active client itemInfo.lua
+470220,Z_Boost_Set4_Boots,Boosting Forged Boots Type D,Shoes,Missing from active client itemInfo.lua
+470227,aegis_470227,Golden Attack Upgrade Boots,Shoes,Missing from active client itemInfo.lua
+470228,aegis_470228,Golden Magic Upgrade Shoes,Shoes,Missing from active client itemInfo.lua
+470229,aegis_470229,Shoes,Shoes,Missing from active client itemInfo.lua
+470230,aegis_470230,Boots,Shoes,Missing from active client itemInfo.lua
+470231,Z_Sandals,Sandals,Shoes,Missing from active client itemInfo.lua
+470232,aegis_470232,Shoes,Shoes,Missing from active client itemInfo.lua
+470233,aegis_470233,Boots,Shoes,Missing from active client itemInfo.lua
+470234,aegis_470234,Greaves,Shoes,Missing from active client itemInfo.lua
+470235,aegis_470235,Novice Shoes,Shoes,Missing from active client itemInfo.lua
+470239,Gray_W_Boots_JP,[Not For Sale] Gray Wolf Boots,Shoes,Missing from active client itemInfo.lua
+470240,Gray_W_Shoes_JP,[Not For Sale] Gray Wolf Shoes,Shoes,Missing from active client itemInfo.lua
+470241,Snowflower_Boots_JP,[Not For Sale] Snowflake Boots,Shoes,Missing from active client itemInfo.lua
+470242,Snowflower_Shoes_JP,[Not For Sale] Snowflake Shoes,Shoes,Missing from active client itemInfo.lua
+470243,Two_Side_Diamond_Boots,Two Side Diamond Boots,Shoes,Missing from active client itemInfo.lua
+470245,Comp_Destroy_W_Boots,[Not For Sale] Destroyer Boots,Shoes,Missing from active client itemInfo.lua
+470248,Dragon_Slayer_Shoes,Dragon Slayer Shoes,Shoes,Missing from active client itemInfo.lua
+470249,Comp_Drago_Slayer_Shoes,[Not For Sale] Dragon Slayer Shoes,Shoes,Missing from active client itemInfo.lua
+470250,Z_Boost_Set1_Boots_01,Boosting Boots Type A,Shoes,Missing from active client itemInfo.lua
+470251,Z_Boost_Set2_Boots_01,Boosting Boots Type B,Shoes,Missing from active client itemInfo.lua
+470252,Z_Boost_Set3_Boots_01,Boosting Boots Type C,Shoes,Missing from active client itemInfo.lua
+470253,Z_Boost_Set4_Boots_01,Boosting Boots Type D,Shoes,Missing from active client itemInfo.lua
+470256,Comp_Zodiac_Boots_SM,[Not For Sale] Zodiac Boots (Swordsman),Shoes,Missing from active client itemInfo.lua
+470258,Zodiac_Boots_MG,Zodiac Boots (Mage),Shoes,Missing from active client itemInfo.lua
+470259,Comp_Zodiac_Boots_MG,[Not For Sale] Zodiac Boots (Mage),Shoes,Missing from active client itemInfo.lua
+470263,Zodiac_Boots_AC,Zodiac Boots (Archer),Shoes,Missing from active client itemInfo.lua
+470264,Comp_Zodiac_Boots_AC,[Not For Sale] Zodiac Boots (Archer),Shoes,Missing from active client itemInfo.lua
+470267,Zodiac_Boots_MC,Zodiac Boots (Merchant),Shoes,Missing from active client itemInfo.lua
+470268,Comp_Zodiac_Boots_MC,[Not For Sale] Zodiac Boots (Merchant),Shoes,Missing from active client itemInfo.lua
+470269,EC_Boots__LT_TW,Jade Crystal Boots-LT,Shoes,Missing from active client itemInfo.lua
+470270,Zodiac_Boots_AL,Zodiac Boots (Acolyte),Shoes,Missing from active client itemInfo.lua
+470271,Comp_Zodiac_Boots_AL,[Not For Sale] Zodiac Boots (Acolyte),Shoes,Missing from active client itemInfo.lua
+470272,Zodiac_Boots_TF,Zodiac Boots (Thief),Shoes,Missing from active client itemInfo.lua
+470273,Comp_Zodiac_Boots_TF,[Not For Sale] Zodiac Boots (Thief),Shoes,Missing from active client itemInfo.lua
+470274,Twinhead_dragon_Boots,Twinhead Dragon Boots,Shoes,Missing from active client itemInfo.lua
+470277,aegis_470277,Ultra Shoes,Shoes,Missing from active client itemInfo.lua
+470278,Daybreak_Stargazer,Daybreak Stargazer,Shoes,Missing from active client itemInfo.lua
+470279,aegis_470279,Enforcer Shoes,Shoes,Missing from active client itemInfo.lua
+470280,aegis_470280,Enforcer Shoes,Shoes,Missing from active client itemInfo.lua
+470281,aegis_470281,[Not For Sale] Enforcer Shoes,Shoes,Missing from active client itemInfo.lua
+470282,aegis_470282,[Not For Sale] Elemental Boots,Shoes,Missing from active client itemInfo.lua
+470283,Scrap_Remodel_Shoes_LT,Mechanical Aluminum Modified Boots-LT,Shoes,Missing from active client itemInfo.lua
+470284,aegis_470284,Nameless Swordsman Boots,Shoes,Missing from active client itemInfo.lua
+470287,SST_Prime_TH,Starry Sky Twin Prime,Shoes,Missing from active client itemInfo.lua
+470288,Comp_SST_Prime_TH,[Not For Sale] Starry Sky Twin Prime,Shoes,Missing from active client itemInfo.lua
+470289,Mecha_Greaves_US,Ancient Mechanic Greaves,Shoes,Missing from active client itemInfo.lua
+470290,aegis_470290,Mjolnir Mine Shoes,Shoes,Missing from active client itemInfo.lua
+470291,Astrolo_Dawn_Boots,Astrologer's Dawn Boots,Shoes,Missing from active client itemInfo.lua
+470292,Hermit_Shoes_US,Evil Hermit Shoes,Shoes,Missing from active client itemInfo.lua
+470293,Virtue_Shoes_BR,Phantom Boots,Shoes,Missing from active client itemInfo.lua
+470294,aegis_470294,Phantom Boots,Shoes,Missing from active client itemInfo.lua
+470295,Lethargy_Shoes_BR,Phantom Combat Boots,Shoes,Missing from active client itemInfo.lua
+470296,aegis_470296,Phantom Combat Boots,Shoes,Missing from active client itemInfo.lua
+470297,Disillusion_Shoes_BR,Phantom Sneakers,Shoes,Missing from active client itemInfo.lua
+470298,aegis_470298,Phantom Sneakers,Shoes,Missing from active client itemInfo.lua
+470299,Discord_Shoes_BR,Phantom Heels,Shoes,Missing from active client itemInfo.lua
+470300,aegis_470300,Phantom Heels,Shoes,Missing from active client itemInfo.lua
+470306,Hollow_Aggressor,Hollow Aggressor,Shoes,Missing from active client itemInfo.lua
+470312,Kshatra_Vairya,Kshatra Vairya,Shoes,Missing from active client itemInfo.lua
+470317,aegis_470317,Ghost Galoshes,Shoes,Missing from active client itemInfo.lua
+470318,aegis_470318,Ghost Galoshes,Shoes,Missing from active client itemInfo.lua
+470325,Thanos_Boots1,Thanos Boots (Warrior),Shoes,Missing from active client itemInfo.lua
+470326,Thanos_Boots2,Thanos Boots (Shooter),Shoes,Missing from active client itemInfo.lua
+470327,Thanos_Boots3,Thanos Boots (Magic),Shoes,Missing from active client itemInfo.lua
+470328,Thanos_Boots4,Thanos Boots (Fighter),Shoes,Missing from active client itemInfo.lua
+470329,Ranger_Shoes_US,Ancient Ranger Shoes,Shoes,Missing from active client itemInfo.lua
+470330,Santa_Boots,Santa Claus Boots,Shoes,Missing from active client itemInfo.lua
+480006,Capricon_Manteau_J,Capricon Manteau,Garments,Missing from active client itemInfo.lua
+480007,Siege_Muffler_2Tier,Intermediate Guild Member's Muffler,Garments,Missing from active client itemInfo.lua
+480008,Siege_Manteau_2Tier,Intermediate Guild Member's Manteau,Garments,Missing from active client itemInfo.lua
+480009,Virgo_Manteau_J,Virgo Manteau,Garments,Missing from active client itemInfo.lua
+480011,Skin_Of_AzidaHaka,Azi Dahaka's Skin,Garments,Missing from active client itemInfo.lua
+480015,Kukulkan_Feather_TW,Kukulkan Feather,Garments,Missing from active client itemInfo.lua
+480022,Aries_Manteau_J,Aries Manteau,Garments,Missing from active client itemInfo.lua
+480024,Subject_Cape_TW,Great Fallen Manteau,Garments,Missing from active client itemInfo.lua
+480025,Owl_Baron_Mantle,Owl Baron Mantle,Garments,Missing from active client itemInfo.lua
+480026,Gemini_Manteau_J,Gemini Manteau,Garments,Missing from active client itemInfo.lua
+480041,Pisces_Manteau_J,Pisces Manteau,Garments,Missing from active client itemInfo.lua
+480050,Sagittarius_Manteau_J,Sagittarius Manteau,Garments,Missing from active client itemInfo.lua
+480051,Kingly_Manteau,Monarch Manteau,Garments,Missing from active client itemInfo.lua
+480053,Behemoth_Muffler,Behemoth Muffler,Garments,Missing from active client itemInfo.lua
+480076,Temporal_Cape_TW,Exotic Temporal Manteau,Garments,Missing from active client itemInfo.lua
+480077,Magma_Manteau,Magma Manteau,Garments,Missing from active client itemInfo.lua
+480085,Devil_Manteau_JP,Devils Garment,Garments,Missing from active client itemInfo.lua
+480088,Ultio_Cape_TW,Ultio Holy Magic Cloak,Garments,Missing from active client itemInfo.lua
+480109,WhiteKnight_Mantle,White Knight's Cloak,Garments,Missing from active client itemInfo.lua
+480115,Light_Of_World_TW,Light of the World Asprika,Garments,Missing from active client itemInfo.lua
+480116,Cursed_Devils_Manteau_A,Awakening Magic Curse Cloak,Garments,Missing from active client itemInfo.lua
+480120,Guardian_Soul_TH,Guardian Soul,Garments,Missing from active client itemInfo.lua
+480135,Rachel_manteau,Awakened Glacier Manteau,Garments,Missing from active client itemInfo.lua
+480153,S_G_Manteau_TW,Sunshine Gravel Cloak,Garments,Missing from active client itemInfo.lua
+480154,Devil_Flame_Manteau_TW,Devil's Fire Cloak,Garments,Missing from active client itemInfo.lua
+480156,Aegis_System,Aegis System,Garments,Missing from active client itemInfo.lua
+480161,Subject_CapeRange_TH,Subject Cape (Range),Garments,Missing from active client itemInfo.lua
+480163,Guardian_Manteau,Guardian Manteau,Garments,Missing from active client itemInfo.lua
+480166,Subject_CapeMagic_TH,Subject Cape (Magic),Garments,Missing from active client itemInfo.lua
+480172,Subject_CapeMelee_TH,Subject Cape (Melee),Garments,Missing from active client itemInfo.lua
+480175,Changeable_Magic_Cape,Unpredictable Magic Cloak,Garments,Missing from active client itemInfo.lua
+480182,Bastawtozaq_Heart_,Bastawtozaq Heart,Garments,Missing from active client itemInfo.lua
+480183,Comp_Bastawtozaq_Heart_,[Not For Sale] Bastawtozaq Heart,Garments,Missing from active client itemInfo.lua
+480184,Warm_Dandelion_Cape_J,Warm Dandelion Cape,Garments,Missing from active client itemInfo.lua
+480188,Valkyrie_Curse_blight,Valkyrie Curse Bright,Garments,Missing from active client itemInfo.lua
+480192,2022RTC_V_Coat4,2022RTC Memorial Victory Coat,Garments,Missing from active client itemInfo.lua
+480193,Enforcer_Cape_ROC,Enforcer Cape,Garments,Missing from active client itemInfo.lua
+480194,AmistrBag_Heal_ROC,Heal Amistr Bag,Garments,Missing from active client itemInfo.lua
+480195,Comp_Enforcer_Cape_ROC,[Not For Sale] Enforcer Cape,Garments,Missing from active client itemInfo.lua
+480196,Comp_AmistrBag_Heal_ROC,[Not For Sale] Heal Amistr Bag,Garments,Missing from active client itemInfo.lua
+480206,Comp_Anti_Manteau_TH,[Not For Sale] Anti Magic Manteau,Garments,Missing from active client itemInfo.lua
+480220,Whale_Shark_Float,Whale Shark Float,Garments,Missing from active client itemInfo.lua
+480224,ROZ_FV_Cassock_Manteau,Shining Priest's Cloak,Garments,Missing from active client itemInfo.lua
+480225,ROZ_FV_Rachel_manteau,Frosty Cloak,Garments,Missing from active client itemInfo.lua
+480226,Wing_Of_Happiness_ROC,Wing Of Happiness,Garments,Missing from active client itemInfo.lua
+480227,Comp_Wing_Happiness_ROC,[Not For Sale] Wing Of Happiness,Garments,Missing from active client itemInfo.lua
+480229,Comp_MenblattWing,[Not For Sale] Menblatt Wing Manteau,Garments,Missing from active client itemInfo.lua
+480238,Comp_Geffen_M_Muffle,[Not For Sale] Geffen Magic Muffler,Garments,Missing from active client itemInfo.lua
+480240,Mortal_Cape_ROC,Mortal Cape,Garments,Missing from active client itemInfo.lua
+480241,Comp_Mortal_Cape_ROC,[Not For Sale] Mortal Cape,Garments,Missing from active client itemInfo.lua
+480242,Tele_WG_Cape,Wind God Cloak,Garments,Missing from active client itemInfo.lua
+480248,Comp_Bag_Antonio_Melee,[Not For Sale] Candy Bag Backpack (Physical),Garments,Missing from active client itemInfo.lua
+480251,Mystical_Wing,Mystery Wing,Garments,Missing from active client itemInfo.lua
+480256,DID_Cape_TH,DID Cape,Garments,Missing from active client itemInfo.lua
+480262,Comp_Golden_Wings_ROC,[Not For Sale] Golden Wings,Garments,Missing from active client itemInfo.lua
+480265,P_90Lv_Manteau,Booster Adventurer's Premium Cloak,Garments,Missing from active client itemInfo.lua
+480266,P_90Lv_Cloak,Booster Adventurer's Premium Scout Cloak,Garments,Missing from active client itemInfo.lua
+480267,P_90Lv_Muffler,Booster Adventurer's Premium Muffler,Garments,Missing from active client itemInfo.lua
+480268,P_90Lv_Cape,Booster Adventurer's Premium Cape,Garments,Missing from active client itemInfo.lua
+480269,N_Avenger_Cape_TW,Revenge Cloak of Naght Sieger,Garments,Missing from active client itemInfo.lua
+480270,N_Spirit_Cape_TW,Cloak of Naght Sieger,Garments,Missing from active client itemInfo.lua
+480275,Comp_Phreeoni_Wing,[Not For Sale] Phreeoni Wing,Garments,Missing from active client itemInfo.lua
+480276,Occult_Nature_Cape,Graceful Force of Nature Cloak,Garments,Missing from active client itemInfo.lua
+480277,Comp_Chrismas_Tree,[Not For Sale] Christmas Guardian Tree,Garments,Missing from active client itemInfo.lua
+480278,Huse_Luk_R_Wing,Garuda Wings,Garments,Missing from active client itemInfo.lua
+480291,Hero_Favor,Heroic Favor Cloak,Garments,Missing from active client itemInfo.lua
+480292,Hero_Courage,Heroic Valor Cloak,Garments,Missing from active client itemInfo.lua
+480307,Fallen_Angel_Wing_ROC,Fallen Angel Wing,Garments,Missing from active client itemInfo.lua
+480308,Comp_FAngel_Wing_ROC,[Not For Sale] Fallen Angel Wing,Garments,Missing from active client itemInfo.lua
+480313,Hunting_Scarf_TH,Hunting Scarf,Garments,Missing from active client itemInfo.lua
+480314,Comp_Hunting_Scarf_TH,[Not For Sale] Hunting Scarf,Garments,Missing from active client itemInfo.lua
+480317,Magic_Compression,Magic Compression,Garments,Missing from active client itemInfo.lua
+480319,Divine_Phoenix,Divine Phoenix,Garments,Missing from active client itemInfo.lua
+480322,aegis_480322,Opened Illusion Muffler,Garments,Missing from active client itemInfo.lua
+480323,aegis_480323,Opened Illusion Ancient Cape,Garments,Missing from active client itemInfo.lua
+480325,2023RTC_S_Robe1,2023 ROS Champion Spark Cloak,Garments,Missing from active client itemInfo.lua
+480326,2023RTC_S_Robe2,2023 ROS Runner Up Spark Cloak,Garments,Missing from active client itemInfo.lua
+480327,2023RTC_S_Robe3,2023 ROS Third Place Spark Cloak,Garments,Missing from active client itemInfo.lua
+480328,2023RTC_S_Robe4,2023 ROS Decisive Battle Spark Cloak,Garments,Missing from active client itemInfo.lua
+480331,MD_Geffen_Cloth_JP,Magic Barrier Cloth,Garments,Missing from active client itemInfo.lua
+480332,Ice_Dream_Tree_BR,Dream Guardian,Garments,Missing from active client itemInfo.lua
+480333,Medical_Cape_ROC,Medical Cape,Garments,Missing from active client itemInfo.lua
+480334,Comp_Medical_Cape_ROC,[Not For Sale] Medical Cape,Garments,Missing from active client itemInfo.lua
+480338,Astraea_Cape_LT,Asteria's Cloak-LT,Garments,Missing from active client itemInfo.lua
+480339,aegis_480339,Opened Illusion Survivor's Manteau,Garments,Missing from active client itemInfo.lua
+480340,Comp_Supplement_Wing,[Not For Sale] Improved Powered Wing,Garments,Missing from active client itemInfo.lua
+480342,Kings_Twin_Sword_BR,Monarch's Swords,Garments,Missing from active client itemInfo.lua
+480343,aegis_480343,Battle Surcoat,Garments,Missing from active client itemInfo.lua
+480353,Z_Boost_Manteau,Boosted Adventurer's Pauldrons,Garments,Missing from active client itemInfo.lua
+480354,Z_Boost_Set1_Hood,Boosting Forged Cloak Type A,Garments,Missing from active client itemInfo.lua
+480355,Z_Boost_Set2_Hood,Boosting Forged Cloak Type B,Garments,Missing from active client itemInfo.lua
+480356,Z_Boost_Set3_Hood,Boosting Forged Cloak Type C,Garments,Missing from active client itemInfo.lua
+480357,Z_Boost_Set4_Hood,Boosting Forged Cloak Type D,Garments,Missing from active client itemInfo.lua
+480358,Dark_Shadow_Scarf_TH,Dark Shadow Scarf,Garments,Missing from active client itemInfo.lua
+480359,Comp_Shadow_Scarf_TH,[Not For Sale] Dark Shadow Scarf,Garments,Missing from active client itemInfo.lua
+480367,Spendid_Cape_BR,Splendid Cover,Garments,Missing from active client itemInfo.lua
+480372,Giant_Mad_Bunny_TW,Mad Bunny Backpack,Garments,Missing from active client itemInfo.lua
+480388,Gray_W_Muffler_JP,[Not For Sale] Gray Wolf Muffler,Garments,Missing from active client itemInfo.lua
+480389,Gray_W_Manteau_JP,[Not For Sale] Gray Wolf Cloak,Garments,Missing from active client itemInfo.lua
+480390,Snowflower_Manteau_JP,[Not For Sale] Snowflake Cloak,Garments,Missing from active client itemInfo.lua
+480391,Snowflower_Muffler_JP,[Not For Sale] Snowflake Muffler,Garments,Missing from active client itemInfo.lua
+480401,Z_Boost_Set1_Hood_01,Boosting Cloak Type A,Garments,Missing from active client itemInfo.lua
+480402,Z_Boost_Set2_Hood_01,Boosting Cloak Type B,Garments,Missing from active client itemInfo.lua
+480403,Z_Boost_Set3_Hood_01,Boosting Cloak Type C,Garments,Missing from active client itemInfo.lua
+480404,Z_Boost_Set4_Hood_01,Boosting Cloak Type D,Garments,Missing from active client itemInfo.lua
+480409,Comp_Arabian_Manteau,[Not For Sale] Arabian Manteau,Armor,Missing from active client itemInfo.lua
+480412,aegis_480412,Fire Dragon Coat,Garments,Missing from active client itemInfo.lua
+480413,aegis_480413,[Not for Sale] Fire Dragon Coat,Garments,Missing from active client itemInfo.lua
+480414,aegis_480414,Hood,Garments,Missing from active client itemInfo.lua
+480425,Bio_CapeMelee_TH,Biolab Cape (Melee),Garments,Missing from active client itemInfo.lua
+480426,Bio_CapeMagic_TH,Biolab Cape (Magic),Garments,Missing from active client itemInfo.lua
+480427,Bio_CapeRange_TH,Biolab Cape (Range),Garments,Missing from active client itemInfo.lua
+480434,aegis_480434,Giant God Snake Skin,Garments,Missing from active client itemInfo.lua
+480435,aegis_480435,Giant God Snake Skin,Garments,Missing from active client itemInfo.lua
+480439,Blackmithril_Manteau_TH,Black Mithril Manteau,Garments,Missing from active client itemInfo.lua
+480440,Comp_BM_Manteau_TH,[Not For Sale] Black Mithril Manteau,Garments,Missing from active client itemInfo.lua
+480441,aegis_480441,Ultra Cloak,Garments,Missing from active client itemInfo.lua
+480442,Guardian_Of_Abyss,Guardian of Abyss,Garments,Missing from active client itemInfo.lua
+480446,Moonlight_Bell_TH,Moonlight Bell,Garments,Missing from active client itemInfo.lua
+480451,Auto_E_WingC_TH,Automatic Engine Wing C-Type,Garments,Missing from active client itemInfo.lua
+480453,Tristan_Cape_LT,Tristan Imperial Cape-LT,Garments,Missing from active client itemInfo.lua
+480454,Battle_Aura_Manteau_LT,Battle Aura Manteau-LT,Garments,Missing from active client itemInfo.lua
+480471,Olympus_Wing_LT,Wings of Olympus-LT,Garments,Missing from active client itemInfo.lua
+480498,WK_Mantle_Melee_TH,White Knight Mantle (Melee),Garments,Missing from active client itemInfo.lua
+480499,WK_Mantle_Range_TH,White Knight Mantle (Range),Garments,Missing from active client itemInfo.lua
+480500,WK_Mantle_Magic_TH,White Knight Mantle (Magic),Garments,Missing from active client itemInfo.lua
+480502,Stellar_Gratia,Stellar Gratia,Garments,Missing from active client itemInfo.lua
+480509,aegis_480509,Owl Baron Cloak,Garments,Missing from active client itemInfo.lua
+480514,aegis_480514,[Not For Sale] Manteau of Flame Heart,Garments,Missing from active client itemInfo.lua
+480516,Blessing_Of_Yggdrasil,Blessing of Yggdrasil,Garments,Missing from active client itemInfo.lua
+480518,aegis_480518,White Knight Armor,Armor,Missing from active client itemInfo.lua
+480519,aegis_480519,[Not For Sale] White Knight Armor,Armor,Missing from active client itemInfo.lua
+480522,Dual_SW_Cape_LT,Twin Shadow Mirror Cloak-LT,Garments,Missing from active client itemInfo.lua
+480526,Occult_Nature_Cape_LT,Graceful Force of Nature Cloak-LT,Garments,Missing from active client itemInfo.lua
+480669,aegis_480669,Executioner's Cloak,Garments,Missing from active client itemInfo.lua
+480670,aegis_480670,Sharpshooter Muffler,Garments,Missing from active client itemInfo.lua
+480671,aegis_480671,Fighter's Cloak,Garments,Missing from active client itemInfo.lua
+480672,aegis_480672,Champion's Cloak,Garments,Missing from active client itemInfo.lua
+480673,aegis_480673,Scholar's Muffler,Garments,Missing from active client itemInfo.lua
+480674,aegis_480674,Wizard's Cloak,Garments,Missing from active client itemInfo.lua
+480742,Hs_Angelwing_W,Herosria White Angel Wing,Garments,Missing from active client itemInfo.lua
+480743,Hs_Angelwing_BK,Herosria Black Angel Wing,Garments,Missing from active client itemInfo.lua
+480744,Hs_Angelwing_BL,Herosria Blue Angel Wing,Garments,Missing from active client itemInfo.lua
+480745,Hs_Angelwing_R,Herosria Bloody Angel Wing,Garments,Missing from active client itemInfo.lua
+480746,Hs_Angelwing_G,Herosria Golden Angel Wing,Garments,Missing from active client itemInfo.lua
+490009,Capricon_Ring_J,Capricon Ring,Accessories,Missing from active client itemInfo.lua
+490023,Kukulkan_Tooth_TW,Kukulkan's Tooth,Accessories,Missing from active client itemInfo.lua
+490028,Aries_Ring_J,Aries Ring,Accessories,Missing from active client itemInfo.lua
+490030,Temporal_Ring_TW,Temporal Ring,Accessories,Missing from active client itemInfo.lua
+490031,Petal_Tail,Petal Tail,Accessories,Missing from active client itemInfo.lua
+490032,Gemini_Ring_J,Gemini Ring,Accessories,Missing from active client itemInfo.lua
+490033,Fallen_Angel_tear,Fallen Angel's Tear,Accessories,Missing from active client itemInfo.lua
+490034,Pisces_Ring_J,Pisces Ring,Accessories,Missing from active client itemInfo.lua
+490042,Kingly_Ring,Monarch Ring,Accessories,Missing from active client itemInfo.lua
+490084,Dictator_Ring_TW,Dictator Earrings,Accessories,Missing from active client itemInfo.lua
+490086,Eclipsedefmind_TW,Lunar Eclipse Guardian Heart,Accessories,Missing from active client itemInfo.lua
+490088,2020maypay_06,Desperate Connections Ring,Accessories,Missing from active client itemInfo.lua
+490089,Alice_Hug_Pillow_TW,Alice Maid Pillow,Accessories,Missing from active client itemInfo.lua
+490094,Record_Sward_TW,Record of Destroy (Swordman),Accessories,Missing from active client itemInfo.lua
+490095,Record_Acher_TW,Record of Destroy (Archer),Accessories,Missing from active client itemInfo.lua
+490097,TimeOverloadRing_TW,Exotic Temporal Ring,Accessories,Missing from active client itemInfo.lua
+490103,Garnet_Pendant_TW,Garnet Crystal Pendant,Accessories,Missing from active client itemInfo.lua
+490105,Soul_of_Drowned,Undersea Temple Treasure,Accessories,Missing from active client itemInfo.lua
+490114,Paradise_Lost,Paradise Lost,Accessories,Missing from active client itemInfo.lua
+490119,Battle_Core,Alpha Core,Accessories,Missing from active client itemInfo.lua
+490139,Ring_Of_TheAbyssKing_A,Awakening Abyss King's Ring,Accessories,Missing from active client itemInfo.lua
+490140,Cursed_Demon_Ring_A,Awakening Magic Curse Ring,Accessories,Missing from active client itemInfo.lua
+490142,Omega_Core,Omega Core,Accessories,Missing from active client itemInfo.lua
+490143,Omega_Core_,Omega Core,Accessories,Missing from active client itemInfo.lua
+490147,Anniversary_Ring_1TH,1st Anniversary Ring,Accessories,Missing from active client itemInfo.lua
+490168,Wind_Spirit_Ring_TW,Wind Spirit Ring,Accessories,Missing from active client itemInfo.lua
+490170,Record_Mage2_TW,Record of Wrath (Mage),Accessories,Missing from active client itemInfo.lua
+490173,Record_Sward2_TW,Record of Wrath (Swordman),Accessories,Missing from active client itemInfo.lua
+490175,Record_Merchant2_TW,Record of Wrath (Merchant),Accessories,Missing from active client itemInfo.lua
+490182,Immortal_Dog_Tag_IN,Immortal Dog Tag,Accessories,Missing from active client itemInfo.lua
+490189,Wine_Jewel_Brooch_TW,Garnet Brooch,Accessories,Missing from active client itemInfo.lua
+490190,Unknown_Hero_Ring_TW,Unknown Hero Potential Ring,Accessories,Missing from active client itemInfo.lua
+490191,Record_Thief2_TW,Record of Wrath (Thief),Accessories,Missing from active client itemInfo.lua
+490192,Record_Acolyte2_TW,Record of Wrath (Acolyte),Accessories,Missing from active client itemInfo.lua
+490194,Guardian_Ring,Guardian Ring,Accessories,Missing from active client itemInfo.lua
+490197,The_Origin_of_Fire,Origin of Fire,Accessories,Missing from active client itemInfo.lua
+490198,Record_Acher2_TW,Record of Wrath (Archer),Accessories,Missing from active client itemInfo.lua
+490201,The_Origin_of_fertility,Origin of Fertility,Accessories,Missing from active client itemInfo.lua
+490206,Noblesse_oblige,Noblesse Oblige,Accessories,Missing from active client itemInfo.lua
+490208,Palace_Ring,Palace Ring,Accessories,Missing from active client itemInfo.lua
+490209,Comp_Angel_Egg_ROC,[Not for Sale] Angel Egg,Accessories,Missing from active client itemInfo.lua
+490210,Comp_Trapezohedron,[Not For Sale] Shining Trapezohedron,Accessories,Missing from active client itemInfo.lua
+490211,WM_Job_Pick,Discordant Pick,Accessories,Missing from active client itemInfo.lua
+490218,Pure_Heart_TW,Pure Heart,Accessories,Missing from active client itemInfo.lua
+490219,Twin_Dragonic_Ring,Double Head Dragon Ring,Accessories,Missing from active client itemInfo.lua
+490222,Comp_Record_Swordman_TH,[Not for Sale] Record of Swordsman,Accessories,Missing from active client itemInfo.lua
+490223,Copy_Book,Book of Copying - Cloaking Chapter,Accessories,Missing from active client itemInfo.lua
+490231,Comp_Record_Thief_TH,[Not For Sale] Record of Thief,Accessories,Missing from active client itemInfo.lua
+490232,Comp_Luminous_Blue_Ston,[Not For Sale] Luminous Blue Stone,Accessories,Missing from active client itemInfo.lua
+490233,Zongzi_Charm_TW,Rice Dumpling Amulet,Accessories,Missing from active client itemInfo.lua
+490236,Double_Badge_ROC,Double Badge,Accessories,Missing from active client itemInfo.lua
+490237,Comp_Double_Badge_ROC,[Not For Sale] Double Badge,Accessories,Missing from active client itemInfo.lua
+490238,Time_Jewel_Acc,Chrono Gem Blade Chain,Accessories,Missing from active client itemInfo.lua
+490240,Comp_Record_Merchant_TH,[Not For Sale] Record of Merchant,Accessories,Missing from active client itemInfo.lua
+490241,Comp_Gyges_Ring,[Not For Sale] Gyges Ring,Accessories,Missing from active client itemInfo.lua
+490246,Vassalage_Ring_TH,Vassalage Ring,Accessories,Missing from active client itemInfo.lua
+490257,Mob_P_Crystal_Ring,Crystal Ring,Accessories,Missing from active client itemInfo.lua
+490259,Curse_Magic_Ring,Curse Magic Ring,Accessories,Missing from active client itemInfo.lua
+490260,Old_Cart_Acc,Old Cart Modeling Pendant,Accessories,Missing from active client itemInfo.lua
+490261,aegis_490261,Shining Priest's Ring,Accessories,Missing from active client itemInfo.lua
+490262,Firm_Faith_Ring,Firm Faith Ring,Accessories,Missing from active client itemInfo.lua
+490263,RoyalGard_Seal_Ring,Royal Guard Seal Ring,Accessories,Missing from active client itemInfo.lua
+490264,Infinity_Chip_MAX,Infinity Chip MAX,Accessories,Missing from active client itemInfo.lua
+490265,Inception_Ring,Inception Ring,Accessories,Missing from active client itemInfo.lua
+490266,Comp_Inception_Ring,[Not For Sale] Inception Ring,Accessories,Missing from active client itemInfo.lua
+490267,Shadow_Ring_ROC,Shadow Ring,Accessories,Missing from active client itemInfo.lua
+490268,Comp_Shadow_Ring_ROC,[Not For Sale] Shadow Ring,Accessories,Missing from active client itemInfo.lua
+490269,LightOfCardinal,Cardinal Light,Accessories,Missing from active client itemInfo.lua
+490272,Harvest_Festival,Harvest Festival,Accessories,Missing from active client itemInfo.lua
+490279,Raphin_Necklace_TH,Raphin P. Necklace,Accessories,Missing from active client itemInfo.lua
+490281,Armor_Drive_Wheel,Armored Drive Gear,Accessories,Missing from active client itemInfo.lua
+490282,Kenshi_Gauntlet_ROC,Kenshi Gauntlet,Accessories,Missing from active client itemInfo.lua
+490283,Comp_Kenshi_Gauntlet_RO,[Not For Sale] Kenshi Gauntlet,Accessories,Missing from active client itemInfo.lua
+490284,WindHawk_Snip_Ring,Wind Eagle Sniper Ring,Accessories,Missing from active client itemInfo.lua
+490285,aegis_490285,Alternate Clip,Accessories,Missing from active client itemInfo.lua
+490289,Comp_Record_Mage_TH,[Not for Sale] Record of Mage,Accessories,Missing from active client itemInfo.lua
+490290,Ameretat,Ameretat,Accessories,Missing from active client itemInfo.lua
+490295,Armaia_Belt_ROC,Armaia Belt,Accessories,Missing from active client itemInfo.lua
+490296,Comp_Armaia_Belt_ROC,[Not For Sale] Armaia Belt,Accessories,Missing from active client itemInfo.lua
+490308,Golden_Ring_1stAniv_ROC,1st Golden Ring,Accessories,Missing from active client itemInfo.lua
+490312,P_90Lv_Aring,Booster Adventurer's Premium Ring,Accessories,Missing from active client itemInfo.lua
+490313,P_90Lv_Gloves,Booster Adventurer's Premium Gloves,Accessories,Missing from active client itemInfo.lua
+490314,P_90Lv_Necklace,Booster Adventurer's Premium Necklace,Accessories,Missing from active client itemInfo.lua
+490315,P_90Lv_Mring,Booster Adventurer's Premium Magic Ring,Accessories,Missing from active client itemInfo.lua
+490316,Brooch_Of_Matador_TH,Brooch of Matador,Accessories,Missing from active client itemInfo.lua
+490320,Ash_Ring,Ashes Ring,Accessories,Missing from active client itemInfo.lua
+490332,Comp_TimeOverloadR_TW,[Not For Sale] Exotic Temporal Ring,Accessories,Missing from active client itemInfo.lua
+490335,Comp_Record_Acol_TH,[Not For Sale] Record of Acolyte,Accessories,Missing from active client itemInfo.lua
+490336,Dimension_L_Stone,Dimension Linkage Stone,Accessories,Missing from active client itemInfo.lua
+490337,Amulet_of_GenesisStone,Amulet of Genesis Stone,Accessories,Missing from active client itemInfo.lua
+490340,Illegal_Tip,illegal Chip,Accessories,Missing from active client itemInfo.lua
+490351,Assassin_Amulet_ROC,Assassin Amulet,Accessories,Missing from active client itemInfo.lua
+490352,Comp_AssassinAmulet_ROC,[Not For Sale] Assassin Amulet,Accessories,Missing from active client itemInfo.lua
+490364,Book_of_Justice_TH,Above B.E.2 475,Accessories,Missing from active client itemInfo.lua
+490365,Comp_Book_of_Justice_TH,[Not For Sale] Above B.E.2 475,Accessories,Missing from active client itemInfo.lua
+490367,Ullr_Bracelet,Ulle's Bracelet,Accessories,Missing from active client itemInfo.lua
+490370,Comp_Celine_Brooch_K,[Not For Sale] Celine's Brooch K,Accessories,Missing from active client itemInfo.lua
+490371,Comp_Prta_Mil_Glove,[Not For Sale] Prontera Army Glove,Accessories,Missing from active client itemInfo.lua
+490372,Solar_Blessing_TH,Solar Blessing,Accessories,Missing from active client itemInfo.lua
+490373,Comp_Solar_Blessing_TH,[Not For Sale] Solar Blessing,Accessories,Missing from active client itemInfo.lua
+490377,Comp_Record_Swords2_TH,[Not For Sale] Record of Swordsman 2,Accessories,Missing from active client itemInfo.lua
+490378,Maebia_Book_ROC,Curse of Maebia Book,Accessories,Missing from active client itemInfo.lua
+490379,Comp_Maebia_Book_ROC,[Not For Sale] Curse of Maebia Book,Accessories,Missing from active client itemInfo.lua
+490380,Majesty_of_Yggdrasil,Majesty of Yggdrasil,Accessories,Missing from active client itemInfo.lua
+490384,Charm_Of_Moon_CN,Amulet of the Moon,Accessories,Missing from active client itemInfo.lua
+490385,Stellar_Blessing_TH,Stellar Blessing,Accessories,Missing from active client itemInfo.lua
+490386,Comp_Stella_Blessing_TH,[Not For Sale] Stellar Blessing,Accessories,Missing from active client itemInfo.lua
+490387,Zongzi_Lotusleaf_TW,Lotus Leaf Sticky Rice Amulet,Accessories,Missing from active client itemInfo.lua
+490388,Copy_Book_Cold,Book of Copying - Cold Bolt Chapter,Accessories,Missing from active client itemInfo.lua
+490389,ATW_Ring_TW,Barrier Ring,Accessories,Missing from active client itemInfo.lua
+490390,Toy_Ring_TH,Toy Ring,Accessories,Missing from active client itemInfo.lua
+490391,Comp_Toy_Ring_TH,[Not For Sale] Toy Ring,Accessories,Missing from active client itemInfo.lua
+490392,Scarlet_Worm_TH,Scarlet Worm Charm,Accessories,Missing from active client itemInfo.lua
+490393,Comp_Scarlet_Worm_TH,[Not For Sale] Scarlet Worm Charm,Accessories,Missing from active client itemInfo.lua
+490395,Comp_Record_Thief2_TH,[Not For Sale] Record of Thief 2,Accessories,Missing from active client itemInfo.lua
+490397,Unknown_Hero_Ring_RK,Ring of Unknown Hero (Rune Knight),Accessories,Missing from active client itemInfo.lua
+490398,Comp_Unkn_Hero_RK,[Not For Sale] Ring of Unknown Hero (Rune Knight),Accessories,Missing from active client itemInfo.lua
+490399,aegis_490399,Boxer Glove,Accessories,Missing from active client itemInfo.lua
+490401,Comp_Record_Archer_TH,[Not For Sale] Record of Archer,Accessories,Missing from active client itemInfo.lua
+490402,Unknown_Hero_Ring_RG,Ring of Unknown Hero (Royal Guard),Accessories,Missing from active client itemInfo.lua
+490403,Comp_Unkn_Hero_RG,[Not For Sale] Ring of Unknown Hero (Royal Guard),Accessories,Missing from active client itemInfo.lua
+490405,Beast_Ring,Beast Rings,Accessories,Missing from active client itemInfo.lua
+490406,Unknown_Hero_Ring_SR,Ring of Unknown Hero (Sura),Accessories,Missing from active client itemInfo.lua
+490407,Comp_Unkn_Hero_SR,[Not For Sale] Ring of Unknown Hero (Sura),Accessories,Missing from active client itemInfo.lua
+490408,Super_Novice_Figure_TH,Super Novice Figure,Accessories,Missing from active client itemInfo.lua
+490409,Copy_Book_Resur,Book of Copying - Resurrection Chapter,Accessories,Missing from active client itemInfo.lua
+490412,Comp_Record_Merch2_TH,[Not For Sale] Record of Merchant 2,Accessories,Missing from active client itemInfo.lua
+490414,Comp_Dragon_Ring_TH,[Not For Sale] Twin Head Dragon Ring,Accessories,Missing from active client itemInfo.lua
+490415,Unknown_Hero_Ring_SO,Ring of Unknown Hero (Sorcerer),Accessories,Missing from active client itemInfo.lua
+490416,Comp_Unkn_Hero_SO,[Not For Sale] Ring of Unknown Hero (Sorcerer),Accessories,Missing from active client itemInfo.lua
+490417,Ep2_Commemorative_Ring,Commemorative Golden Ring Ep2,Accessories,Missing from active client itemInfo.lua
+490419,Comp_Record_Mage2_TH,[Not For Sale] Record of Mage 2,Accessories,Missing from active client itemInfo.lua
+490420,Unknown_Hero_Ring_RA,Ring of Unknown Hero (Ranger),Accessories,Missing from active client itemInfo.lua
+490421,Comp_Unkn_Hero_RA,[Not For Sale] Ring of Unknown Hero (Ranger),Accessories,Missing from active client itemInfo.lua
+490425,aegis_490425,Magictool Ice,Accessories,Missing from active client itemInfo.lua
+490426,aegis_490426,[Not For Sale] Magictool Ice,Accessories,Missing from active client itemInfo.lua
+490428,Chemical_R_Glove,Chemical Resistant Glove,Accessories,Missing from active client itemInfo.lua
+490431,Comp_Record_Archer2_TH,[Not For Sale] Record of Archer 2,Accessories,Missing from active client itemInfo.lua
+490432,Toy_Screw,Toy Screw,Accessories,Missing from active client itemInfo.lua
+490433,Comp_Toy_Screw_TH,[Not For Sale] Toy Screw,Accessories,Missing from active client itemInfo.lua
+490434,Unknown_Hero_Ring_WL,Ring of Unknown Hero (Warlock),Accessories,Missing from active client itemInfo.lua
+490435,Comp_Unkn_Hero_WL,[Not For Sale] Ring of Unknown Hero (Warlock),Accessories,Missing from active client itemInfo.lua
+490437,Comp_Record_Acol2_TH,[Not For Sale] Record of Acolyte 2,Accessories,Missing from active client itemInfo.lua
+490438,Unknown_Hero_Ring_SC,Ring of Unknown Hero (Shadow Chaser),Accessories,Missing from active client itemInfo.lua
+490439,Comp_Unkn_Hero_SC,[NFS] Ring of Unknown Hero (Shadow Chaser),Accessories,Missing from active client itemInfo.lua
+490440,Eclipsedefmind_LT,Lunar Eclipse Guardian Heart-LT,Accessories,Missing from active client itemInfo.lua
+490451,Colar_Rubi_BR,Crimson Necklace,Accessories,Missing from active client itemInfo.lua
+490453,Elemental_Jewel,Elemental Jewel,Accessories,Missing from active client itemInfo.lua
+490454,Gray_W_Ring_JP,[Not For Sale] Gray Wolf Ring,Accessories,Missing from active client itemInfo.lua
+490455,Gray_W_Earing_JP,[Not For Sale] Gray Wolf Earrings,Accessories,Missing from active client itemInfo.lua
+490456,Gray_W_Pendant_JP,[Not For Sale] Gray Wolf Pendant,Accessories,Missing from active client itemInfo.lua
+490457,Gray_W_Necklace_JP,[Not For Sale] Gray Wolf Necklace,Accessories,Missing from active client itemInfo.lua
+490458,Snowflower_Ring_JP,[Not For Sale] Snowflake Ring,Accessories,Missing from active client itemInfo.lua
+490459,Snowflower_Earring_JP,[Not For Sale] Snowflake Earrings,Accessories,Missing from active client itemInfo.lua
+490460,Snowflower_Pendant_JP,[Not For Sale] Snowflake Pendant,Accessories,Missing from active client itemInfo.lua
+490461,Snowflower_Necklace_JP,[Not For Sale] Snowflake Necklace,Accessories,Missing from active client itemInfo.lua
+490462,Comp_S_Novice_Figure,[NFS] Super Novice Figure,Accessories,Missing from active client itemInfo.lua
+490463,Dawson_Badge_MSP,Dawson Badge,Accessories,Missing from active client itemInfo.lua
+490464,Unknown_Hero_Ring_GC,Ring of Unknown Hero (Guillotine),Accessories,Missing from active client itemInfo.lua
+490465,Comp_Unkn_Hero_GC,[Not For Sale] Ring of Unknown Hero (Guillotine),Accessories,Missing from active client itemInfo.lua
+490469,Unknown_Hero_Ring_TK,Ring of Unknown Hero (Taekwon),Accessories,Missing from active client itemInfo.lua
+490470,Comp_Unkn_Hero_TK,[Not For Sale] Ring of Unknown Hero (Taekwon),Accessories,Missing from active client itemInfo.lua
+490474,Z_Boost_Ring,Boosting Ring,Accessories,Missing from active client itemInfo.lua
+490475,Chemical_Glove_ROC,Chemical Glove,Accessories,Missing from active client itemInfo.lua
+490476,Comp_Chemical_Glove_ROC,[Not For Sale] Chemical Glove,Accessories,Missing from active client itemInfo.lua
+490479,Unknown_Hero_Ring_NJ,Ring of Unknown Hero (Ninja),Accessories,Missing from active client itemInfo.lua
+490480,Comp_Unkn_Hero_NJ,[Not For Sale] Ring of Unknown Hero (Ninja),Accessories,Missing from active client itemInfo.lua
+490481,FiveProngedSeal_Array,Five Elements Seal Array,Accessories,Missing from active client itemInfo.lua
+490482,Cel_Design_Pendant,Celine Kimi Pendant,Accessories,Missing from active client itemInfo.lua
+490488,Unknown_Hero_Ring_AB,Ring of Unknown Hero (Archbishop),Accessories,Missing from active client itemInfo.lua
+490489,Comp_Unkn_Hero_AB,[Not For Sale] Ring of Unknown Hero (Archbishop),Accessories,Missing from active client itemInfo.lua
+490492,Pure_Heart_LT_TW,Heart of Pure Love-LT,Accessories,Missing from active client itemInfo.lua
+490498,Unknown_Hero_Ring_RL,Ring of Unknown Hero (Rebellion),Accessories,Missing from active client itemInfo.lua
+490499,Comp_Unkn_Hero_RL,[Not For Sale] Ring of Unknown Hero (Rebellion),Accessories,Missing from active client itemInfo.lua
+490501,Jade_Emperors_Bracelet,Polar Horizon Bracelet,Accessories,Missing from active client itemInfo.lua
+490502,Pray_Dusk_Bell_ArcM,Evening Bell of Prayer (Arch Mage),Accessories,Missing from active client itemInfo.lua
+490511,Unknown_Hero_Ring_NV,Ring of Unknown Hero (Novice),Accessories,Missing from active client itemInfo.lua
+490512,Comp_Unkn_Hero_NV,[Not For Sale] Ring of Unknown Hero (Novice),Accessories,Missing from active client itemInfo.lua
+490514,Comp_Palace_Ring,[Not For Sale] Palace Ring,Accessories,Missing from active client itemInfo.lua
+490515,Unknown_Hero_Ring_GN,Ring of Unknown Hero (Genetic),Accessories,Missing from active client itemInfo.lua
+490516,Comp_Unkn_Hero_GN,[Not For Sale] Ring of Unknown Hero (Genetic),Accessories,Missing from active client itemInfo.lua
+490517,Pray_Dusk_Bell,Evening Bell of Prayer (Elemental Master),Accessories,Missing from active client itemInfo.lua
+490521,Unknown_Hero_Ring_WM,Ring of Unknown Hero (Minstrel&Wanderer),Accessories,Missing from active client itemInfo.lua
+490522,Comp_Unkn_Hero_Ring_WM,[NFS] Ring of Unknown Hero (Minstrel&Wanderer),Accessories,Missing from active client itemInfo.lua
+490523,Duelist_GoldCoin,Duelist Gold Coin,Accessories,Missing from active client itemInfo.lua
+490524,Electron_Boosters,Electron Booster,Accessories,Missing from active client itemInfo.lua
+490525,P_Dusk_B_Cardinal,Evening Bell of Prayer (Cardinal),Accessories,Missing from active client itemInfo.lua
+490526,Emerald_Ring_LT,Emerald Ring-LT,Accessories,Missing from active client itemInfo.lua
+490527,Emerald_Earring_LT_TW,Emerald Earring-LT,Accessories,Missing from active client itemInfo.lua
+490531,Unknown_Hero_Ring_NC,Ring of Unknown Hero (Mechanic),Accessories,Missing from active client itemInfo.lua
+490532,Comp_Unkn_Hero_NC,[Not For Sale] Ring of Unknown Hero (Mechanic),Accessories,Missing from active client itemInfo.lua
+490534,P_Dusk_B_InQu,Evening Bell of Prayer (Inquisitor),Accessories,Missing from active client itemInfo.lua
+490535,HYOUSENSOU_Page,Secret Technique - Chained Ice Array,Accessories,Missing from active client itemInfo.lua
+490536,HUUJIN_Page,Secret Technique - Thousands of Birds,Accessories,Missing from active client itemInfo.lua
+490537,aegis_490537,Bomber Glove,Accessories,Missing from active client itemInfo.lua
+490538,aegis_490538,[Not For Sale] Bomber Glove,Accessories,Missing from active client itemInfo.lua
+490539,Unknown_Hero_Ring_SU,Ring of Unknown Hero (Summoner),Accessories,Missing from active client itemInfo.lua
+490540,Comp_Unkn_Hero_SU,[Not For Sale] Ring of Unknown Hero (Summoner),Accessories,Missing from active client itemInfo.lua
+490541,P_Dusk_B_Sha_Cro,Evening Bell of Prayer (Shadow Cross),Accessories,Missing from active client itemInfo.lua
+490544,Overdrive_Rampage,Overdrive Rampage,Accessories,Missing from active client itemInfo.lua
+490545,Overdrive_Rampage_,Overdrive Rampage,Accessories,Missing from active client itemInfo.lua
+490546,P_Dusk_B_MT,Evening Bell of Prayer (Meister),Accessories,Missing from active client itemInfo.lua
+490547,P_Dusk_B_BI,Evening Bell of Prayer (Biolo),Accessories,Missing from active client itemInfo.lua
+490548,P_Dusk_B_ABC,Evening Bell of Prayer (Abyss Chaser),Accessories,Missing from active client itemInfo.lua
+490555,aegis_490555,Fairy's Necklace,Accessories,Missing from active client itemInfo.lua
+490556,aegis_490556,[Not For Sale] Fairy's Necklace,Accessories,Missing from active client itemInfo.lua
+490561,Hight_TS_Scroll,Scroll of Time and Space,Accessories,Missing from active client itemInfo.lua
+490572,Infinity_Chip_EX,Infinity Chip-EX,Accessories,Missing from active client itemInfo.lua
+490573,Pray_Dusk_Bell_SS,Evening Bell of Prayer (Shinkiro & Shiranui),Accessories,Missing from active client itemInfo.lua
+490575,Time_B_Limit_Nec,Time Break Necklace,Accessories,Missing from active client itemInfo.lua
+490576,Overlock_Chip_VN,Overlock Chip,Accessories,Missing from active client itemInfo.lua
+490577,aegis_490577,Cooldown Chip,Accessories,Missing from active client itemInfo.lua
+490578,aegis_490578,SSD Card,Accessories,Missing from active client itemInfo.lua
+490579,Pray_Dusk_Bell_SH,Evening Bell of Prayer (Spirit Handler),Accessories,Missing from active client itemInfo.lua
+490580,Rebel_Chain,Rebel Chain,Accessories,Missing from active client itemInfo.lua
+490581,aegis_490581,Fallen Angel Tear,Accessories,Missing from active client itemInfo.lua
+490582,Cat_Can_BR,Cat Food,Accessories,Missing from active client itemInfo.lua
+490583,Time_Jewel_Amulet2,Time Jewelry Amulet (Lv.2),Accessories,Missing from active client itemInfo.lua
+490584,Time_Jewel_Amulet3,Time Jewelry Amulet (Lv.3),Accessories,Missing from active client itemInfo.lua
+490586,Black_Eagle_Ring_TH,Black Eagle Ring,Accessories,Missing from active client itemInfo.lua
+490587,Comp_B_Eagle_Ring_TH,[Not for Sale] Black Eagle Ring,Accessories,Missing from active client itemInfo.lua
+490588,Quick_Ring,Swift Ring,Accessories,Missing from active client itemInfo.lua
+490589,aegis_490589,Amethyst Ring,Accessories,Missing from active client itemInfo.lua
+490590,King_Elemental_Ring_TH,King Of Elemental Ring,Accessories,Missing from active client itemInfo.lua
+490591,Comp_KElement_Ring_TH,[Not for Sale] King Of Elemental Ring,Accessories,Missing from active client itemInfo.lua
+490592,T_Jewel_Earing_TH,Time Jewel Earring,Accessories,Missing from active client itemInfo.lua
+490593,Comp_T_Jewel_Earing_TH,[Not for Sale] Time Jewel Earring,Accessories,Missing from active client itemInfo.lua
+490594,Ice_Pendant,Ice Crystal Pendant,Accessories,Missing from active client itemInfo.lua
+490595,Astraea_Ring_LT,Asteria's Ring-LT,Accessories,Missing from active client itemInfo.lua
+490596,RingOfThought_LT,Thought Ring-LT,Accessories,Missing from active client itemInfo.lua
+490597,aegis_490597,Ring of Chivalry,Accessories,Missing from active client itemInfo.lua
+490598,Giant_Protection_TH,Giant Protection,Accessories,Missing from active client itemInfo.lua
+490599,Comp_G_Protect_TH,[Not For Sale] Giant Protection,Accessories,Missing from active client itemInfo.lua
+490600,Imperial_Glove_TH,Imperial Glove,Accessories,Missing from active client itemInfo.lua
+490601,Comp_ImGlove_TH,[Not For Sale] Imperial Glove,Accessories,Missing from active client itemInfo.lua
+490602,Power_Machine_Arm,Power Machine Arm,Accessories,Missing from active client itemInfo.lua
+490603,ICC_Ring_TH,Ice Crystal Circle,Accessories,Missing from active client itemInfo.lua
+490604,Comp_ICC_Ring_TH,[Not For Sale] Ice Crystal Circle,Accessories,Missing from active client itemInfo.lua
+490605,Document_Swordsman_TH,Document Swordsman,Accessories,Missing from active client itemInfo.lua
+490606,Document_Thief_TH,Document Thief,Accessories,Missing from active client itemInfo.lua
+490607,Document_Merchant_TH,Document Merchant,Accessories,Missing from active client itemInfo.lua
+490608,Document_Mage_TH,Document Mage,Accessories,Missing from active client itemInfo.lua
+490609,Document_Archer_TH,Document Archer,Accessories,Missing from active client itemInfo.lua
+490610,Document_Acolyte_TH,Document Acolyte,Accessories,Missing from active client itemInfo.lua
+490611,Durga_Ring_TH,Durga Ring,Accessories,Missing from active client itemInfo.lua
+490612,Comp_Durga_Ring_TH,[Not For Sale] Durga Ring,Accessories,Missing from active client itemInfo.lua
+490613,Old_DetachmentsRing_TH,Old Detachment Ring,Accessories,Missing from active client itemInfo.lua
+490633,Ring_Of_Liberate,Ring of Liberation,Accessories,Missing from active client itemInfo.lua
+490640,GokuiKaiden_Scroll,Scroll of Essential Arts,Accessories,Missing from active client itemInfo.lua
+490641,Ring_Of_Liberate_R,Ring of Liberation (Right),Accessories,Missing from active client itemInfo.lua
+490642,Memento_ME_WH,Memento Memory (Wind Hawk),Accessories,Missing from active client itemInfo.lua
+490643,Comp_Memento_ME_WH,[Not For Sale] Memento Memory (Wind Hawk),Accessories,Missing from active client itemInfo.lua
+490644,Memento_MI_BO,Memento Mind (Biolo),Accessories,Missing from active client itemInfo.lua
+490645,Comp_Memento_MI_BO,[Not For Sale] Memento Mind (Biolo),Accessories,Missing from active client itemInfo.lua
+490646,Novice_Heart_US,Brave Heart (Hyper Novice),Accessories,Missing from active client itemInfo.lua
+490647,NightW_Heart_US,Brave Heart (Night Watch),Accessories,Missing from active client itemInfo.lua
+490648,aegis_490648,Charm of Flame Heart,Accessories,Missing from active client itemInfo.lua
+490649,aegis_490649,[Not For Sale] Charm of Flame Heart,Accessories,Missing from active client itemInfo.lua
+490650,Comp_Archpri_Ring_MSP,[NFS] Arch Bishop Ring,Accessories,Missing from active client itemInfo.lua
+490651,Comp_Scarf_Rebell_MSP,[NFS] Rebellion's Scarf,Accessories,Missing from active client itemInfo.lua
+490652,Comp_Giant_Protect_MSP,[NFS] Giant's Protection,Accessories,Missing from active client itemInfo.lua
+490653,Comp_Cel_Brooch_K_MSP,[NFS] Celine's Brooch,Accessories,Missing from active client itemInfo.lua
+490654,Comp_Ball_Of_Rasen_MSP,[NFS] Rasen Fuma's Orb,Accessories,Missing from active client itemInfo.lua
+490655,Techi_Cat_Fluffy_Socks,Catwalky Fluffy Socks,Accessories,Missing from active client itemInfo.lua
+490656,Relic_Lantern,Relic Lantern,Accessories,Missing from active client itemInfo.lua
+490658,Memento_ME_IQ,Memento Memory (Inquisitor),Accessories,Missing from active client itemInfo.lua
+490659,Comp_Memento_ME_IQ,[Not For Sale] Memento Memory (Inquisitor),Accessories,Missing from active client itemInfo.lua
+490660,Memento_MI_WH,Memento Mind (Wind Hawk),Accessories,Missing from active client itemInfo.lua
+490661,Comp_Memento_MI_WH,[Not For Sale] Memento Mind (Wind Hawk),Accessories,Missing from active client itemInfo.lua
+490663,Sky_Heart_US,Brave Heart (Sky Emperor),Accessories,Missing from active client itemInfo.lua
+490665,Memento_ME_BO,Memento Memory (Biolo),Accessories,Missing from active client itemInfo.lua
+490666,Comp_Memento_ME_BO,[Not for Sale] Memento Memory (Biolo),Accessories,Missing from active client itemInfo.lua
+490667,Memento_MI_IQ,Memento Mind (Inquisitor),Accessories,Missing from active client itemInfo.lua
+490668,Comp_Memento_MI_IQ,[Not for Sale] Memento Mind (Inquisitor),Accessories,Missing from active client itemInfo.lua
+490669,Bio_S_Abbys_Ring,Biosphere Abyss Ring,Accessories,Missing from active client itemInfo.lua
+490670,Memento_ME_CD,Memento Memory (Cardinal),Accessories,Missing from active client itemInfo.lua
+490671,Comp_Memento_ME_CD,[Not For Sale] Memento Memory (Cardinal),Accessories,Missing from active client itemInfo.lua
+490672,Memento_MI_EM,Memento Mind (Elemental Master),Accessories,Missing from active client itemInfo.lua
+490673,Comp_Memento_MI_EM,[Not For Sale] Memento Mind (Elemental Master),Accessories,Missing from active client itemInfo.lua
+490674,Memento_ME_EM,Memento Memory (Elemental Master),Accessories,Missing from active client itemInfo.lua
+490675,Comp_Memento_ME_EM,[Not for Sale] Memento Memory (Elemental Master),Accessories,Missing from active client itemInfo.lua
+490676,Memento_MI_CD,Memento Mind (Cardinal),Accessories,Missing from active client itemInfo.lua
+490677,Comp_Memento_MI_CD,[Not for Sale] Memento Mind (Cardinal),Accessories,Missing from active client itemInfo.lua
+490678,Leviathan_Orb,Leviathan Orb,Accessories,Missing from active client itemInfo.lua
+490679,Drop_of_Seven_Colors,Drop of Seven Colors,Accessories,Missing from active client itemInfo.lua
+490691,White_Fox_Charm,White Fox Charm,Accessories,Missing from active client itemInfo.lua
+490801,ROS2025_Ring_TH,Ragnarok Stars 2025 Ring,Accessories,Missing from active client itemInfo.lua
+490894,Lucky_Ring,Lucky Ring,Accessories,Missing from active client itemInfo.lua
+490895,Lucky_Ring_LT,Lucky Ring-LT,Accessories,Missing from active client itemInfo.lua
+500005,Magic_Sword_J,Infinity Blade,Weapons,Missing from active client itemInfo.lua
+500006,Woe_Onehand_Sword2_Z,Intermediate Guild Member's Flamberge,Weapons,Missing from active client itemInfo.lua
+500009,Copy_Gram,Dragon Slayer's Longsword,Weapons,Missing from active client itemInfo.lua
+500041,Melon_Blade,Melon Blade,Weapons,Missing from active client itemInfo.lua
+500061,Comp_Light_Blade,[Not For Sale] Light Blade,Weapons,Missing from active client itemInfo.lua
+500073,Comp_Fatalist,[Not For Sale] Fatalist,Weapons,Missing from active client itemInfo.lua
+500081,aegis_500081,Open Illusion Immaterial Sword,Weapons,Missing from active client itemInfo.lua
+500082,Z_Boost_N_OH_Sword,Boosting Glacier One-Handed Sword,Weapons,Missing from active client itemInfo.lua
+500083,Z_Boost_P_OH_Sword,Boosting Ice & Snow One-Handed Sword,Weapons,Missing from active client itemInfo.lua
+500134,Sky_Napalm_Sword,Celestial Napalm Sword,Weapons,Missing from active client itemInfo.lua
+510005,Woe_Knife2_Z,Intermediate Guild Member's Gladius,Weapons,Missing from active client itemInfo.lua
+510031,Rotten_Garden_knife,Rotten Garden Knife,Weapons,Missing from active client itemInfo.lua
+510042,Rebirth_Athame,Rebirth Athame,Weapons,Missing from active client itemInfo.lua
+510043,Kings_Bless_A,Awakened King Sword of Praising Glory,Weapons,Missing from active client itemInfo.lua
+510044,Kings_Eager_A,Awakened Karma Sword of Wearing Destruction,Weapons,Missing from active client itemInfo.lua
+510048,Melon_Dagger,Melon Dagger,Weapons,Missing from active client itemInfo.lua
+510067,Comp_Fog_Dew_Sword,[Not For Sale] Kiri no Tsuyu,Weapons,Missing from active client itemInfo.lua
+510068,Comp_Sharp_Wind_Sword,[Not For Sale] Surudoi Kaze,Weapons,Missing from active client itemInfo.lua
+510118,Skofnung_J,Incurable Evil Sword,Weapons,Missing from active client itemInfo.lua
+510120,aegis_510120,Opened Illusion Moonlight Sword,Weapons,Missing from active client itemInfo.lua
+510123,Z_Boost_N_Sotaedo,Boosting Glacier Sotaedo,Weapons,Missing from active client itemInfo.lua
+510124,Z_Boost_N_Nindo,Boosting Glacier Nindo,Weapons,Missing from active client itemInfo.lua
+510125,Z_Boost_N_Dagger,Boosting Glacier Dagger,Weapons,Missing from active client itemInfo.lua
+510126,Z_Boost_P_Sotaedo,Boosting Ice & Snow Sotaedo,Weapons,Missing from active client itemInfo.lua
+510127,Z_Boost_P_Nindo,Boosting Ice & Snow Nindo,Weapons,Missing from active client itemInfo.lua
+510128,Z_Boost_P_Dagger,Boosting Ice & Snow Dagger,Weapons,Missing from active client itemInfo.lua
+510142,Aikuchi_BR,Aikuchi-OS,Weapons,Missing from active client itemInfo.lua
+510199,Sky_Chasing_Dagger,Chasing Dagger of the Sky,Weapons,Missing from active client itemInfo.lua
+520001,Woe_One_Hand_Axe2_Z,Intermediate Guild Member's Cleaver,Weapons,Missing from active client itemInfo.lua
+520015,Melon_Axe,Melon Axe,Weapons,Missing from active client itemInfo.lua
+520033,aegis_520033,Opened Illusion War Axe,Weapons,Missing from active client itemInfo.lua
+520034,Z_Boost_N_Axe,Boosting Glacier Axe,Weapons,Missing from active client itemInfo.lua
+520035,Z_Boost_P_Axe,Boosting Ice & Snow Axe,Weapons,Missing from active client itemInfo.lua
+530001,Woe_Onehand_Spear2_Z,Intermediate Guild Member's Pike,Weapons,Missing from active client itemInfo.lua
+530022,Melon_Spear,Melon Spear,Weapons,Missing from active client itemInfo.lua
+530028,Rhongomyniad,Shining Silver Spear,Weapons,Missing from active client itemInfo.lua
+530049,aegis_530049,Opened Illusion Pole Axe,Weapons,Missing from active client itemInfo.lua
+530050,Z_Boost_N_Lance,Boosting Glacier Lance,Weapons,Missing from active client itemInfo.lua
+530051,Z_Boost_P_Lance,Boosting Ice & Snow Lance,Weapons,Missing from active client itemInfo.lua
+530076,Sky_Imperial_Spear,Imperial Spear of the Sky,Weapons,Missing from active client itemInfo.lua
+540018,Military_Law_Book,Military Law Book,Weapons,Missing from active client itemInfo.lua
+540038,Melon_Book,Melon Book,Weapons,Missing from active client itemInfo.lua
+540057,Book_of_Thoth,Book of Thoth,Weapons,Missing from active client itemInfo.lua
+540077,Z_Boost_N_Book,Boosting Glacier Book,Weapons,Missing from active client itemInfo.lua
+540078,Z_Boost_P_Book,Boosting Ice & Snow Book,Weapons,Missing from active client itemInfo.lua
+540119,Judgment_Day,Judgment Day,Weapons,Missing from active client itemInfo.lua
+540122,Sky_Moon_Book,Celestial Moonsong Book,Weapons,Missing from active client itemInfo.lua
+550004,Woe_Healstaff2_Z,Intermediate Guild Member's Healing Staff,Weapons,Missing from active client itemInfo.lua
+550005,Woe_Wand2_Z,Intermediate Guild Member's Arc Wand,Weapons,Missing from active client itemInfo.lua
+550017,WhiteknightFox,White Knight's Foxtail,Weapons,Missing from active client itemInfo.lua
+550018,Phoenix_Foxtail,Phoenix Foxtail,Weapons,Missing from active client itemInfo.lua
+550022,Local04_Wand,Commander,Weapons,Missing from active client itemInfo.lua
+550048,Melon_Wand,Melon Wand,Weapons,Missing from active client itemInfo.lua
+550049,Melon_Foxtail,Melon Foxtail,Weapons,Missing from active client itemInfo.lua
+550077,Comp_MeawFoxtail,[Not For Sale] Meowmeow Foxtail,Weapons,Missing from active client itemInfo.lua
+550095,Ancient_Royal_Scepter,Ancient Royal Scepter,Weapons,Missing from active client itemInfo.lua
+550122,Z_Boost_N_Staff,Boosting Glacier Staff,Weapons,Missing from active client itemInfo.lua
+550123,Z_Boost_P_Staff,Boosting Ice & Snow Staff,Weapons,Missing from active client itemInfo.lua
+550142,Orcish_Wand_BR,Orc Scepter,Weapons,Missing from active client itemInfo.lua
+550149,Areias_Staff_BR,Staff of the Sands,Weapons,Missing from active client itemInfo.lua
+550187,Sky_Chulho_Foxtail,Foxtail of the Sky,Weapons,Missing from active client itemInfo.lua
+550190,Sky_Arbi_Rod,Celestial Arby Rod,Weapons,Missing from active client itemInfo.lua
+560003,Woe_Pist2_Z,Intermediate Guild Member's Fist,Weapons,Missing from active client itemInfo.lua
+560029,Melon_Claw,Melon Claw,Weapons,Missing from active client itemInfo.lua
+560050,aegis_560050,Opened Illusion Combo Battle Glove,Weapons,Missing from active client itemInfo.lua
+560051,Z_Boost_N_Claw,Boosting Glacier Knuckle,Weapons,Missing from active client itemInfo.lua
+560052,Z_Boost_P_Claw,Boosting Ice & Snow Knuckle,Weapons,Missing from active client itemInfo.lua
+560063,Bagua_Knuckle_BR,Oriental Knuckle,Weapons,Missing from active client itemInfo.lua
+560086,Sky_Destroy_Knuckle,Celestial Annihilation,Weapons,Missing from active client itemInfo.lua
+570003,Woe_Instrument2_Z,Intermediate Guild Member's Guitar,Weapons,Missing from active client itemInfo.lua
+570004,Gemini_Violin_J,Gemini Violin,Weapons,Missing from active client itemInfo.lua
+570026,Melon_Viollin,Melon Viollin,Weapons,Missing from active client itemInfo.lua
+570052,Z_Boost_N_instrument,Boosting Glacier Instrument,Weapons,Missing from active client itemInfo.lua
+570053,Z_Boost_P_instrumen,Boosting Ice & Snow Instrument,Weapons,Missing from active client itemInfo.lua
+570070,Erhu_BR,Erhu,Weapons,Missing from active client itemInfo.lua
+570090,Geige,Gaig,Weapons,Missing from active client itemInfo.lua
+580003,Woe_Whip2_Z,Intermediate Guild Member's Lariat,Weapons,Missing from active client itemInfo.lua
+580004,Gemini_Rope_J,Gemini Rope,Weapons,Missing from active client itemInfo.lua
+580026,Melon_Whip,Melon Whip,Weapons,Missing from active client itemInfo.lua
+580053,Z_Boost_N_Whip,Boosting Glacier Whip,Weapons,Missing from active client itemInfo.lua
+580054,Z_Boost_P_Whip,Boosting Ice & Snow Whip,Weapons,Missing from active client itemInfo.lua
+580070,Moonlight_Bell_BR,Rattle,Weapons,Missing from active client itemInfo.lua
+580090,Needle_Whip,Needle Whip,Weapons,Missing from active client itemInfo.lua
+590004,Woe_Club_2_Z,Intermediate Guild Member's Morning Star,Weapons,Missing from active client itemInfo.lua
+590014,Meer_Sceptre,Sceptre of Exiled Kingdom,Weapons,Missing from active client itemInfo.lua
+590033,Melon_Mace,Melon Mace,Weapons,Missing from active client itemInfo.lua
+590066,aegis_590066,Opened Illusion Iron Driver,Weapons,Missing from active client itemInfo.lua
+590067,Z_Boost_N_Mace,Boosting Glacier Mace,Weapons,Missing from active client itemInfo.lua
+590068,Z_Boost_P_Mace,Boosting Ice & Snow Mace,Weapons,Missing from active client itemInfo.lua
+590084,Orcish_Mace_BR,Orc Mace,Weapons,Missing from active client itemInfo.lua
+590111,Submarine_Anchor,Submarine Anchor,Weapons,Missing from active client itemInfo.lua
+590112,Jack_O_Rush,Jack O' Rush,Weapons,Missing from active client itemInfo.lua
+600005,Woe_Twohand_Sword2_Z,Intermediate Guild Member's Craymore,Weapons,Missing from active client itemInfo.lua
+600022,Melon_Claymore,Melon Claymore,Weapons,Missing from active client itemInfo.lua
+600025,FullForce_,Awakened Full Force,Weapons,Missing from active client itemInfo.lua
+600045,Z_Boost_N_Sword,Boosting Glacier Sword,Weapons,Missing from active client itemInfo.lua
+600046,Z_Boost_P_Sword,Boosting Ice & Snow Sword,Weapons,Missing from active client itemInfo.lua
+610004,Woe_Katar2_Z,Intermediate Guild Member's Jamadhar,Weapons,Missing from active client itemInfo.lua
+610029,Kings_Double_Edge_A,Awakened Old King's Double Edge,Weapons,Missing from active client itemInfo.lua
+610032,Melon_Katar,Melon Katar,Weapons,Missing from active client itemInfo.lua
+610055,aegis_610055,Open Illusion Infiltrator,Weapons,Missing from active client itemInfo.lua
+610057,Z_Boost_N_Katar,Boosting Glacier Katar,Weapons,Missing from active client itemInfo.lua
+610058,Z_Boost_P_Katar,Boosting Ice & Snow Katar,Weapons,Missing from active client itemInfo.lua
+610070,Monsterworm_Teeth_BR,Fangs of the Worm Queen,Weapons,Missing from active client itemInfo.lua
+610089,Vida_Nocturno,Vida Noctorno,Weapons,Missing from active client itemInfo.lua
+620001,Woe_Twohand_Axe2_Z,Intermediate Guild Member's Two-Handed Axe,Weapons,Missing from active client itemInfo.lua
+620014,Melon_T_Axe,Melon Two-Handed Axe,Weapons,Missing from active client itemInfo.lua
+630001,Woe_T_Lance2_Z,Intermediate Guild Member's Lance,Weapons,Missing from active client itemInfo.lua
+630017,Melon_Lance,Melon Lance,Weapons,Missing from active client itemInfo.lua
+630034,aegis_630034,Opened Illusion Spectral Spear,Weapons,Missing from active client itemInfo.lua
+630042,aegis_630042,Trident,Weapons,Missing from active client itemInfo.lua
+640001,Woe_T_Staff2_Z,Intermediate Guild Member's Destruction Staff,Weapons,Missing from active client itemInfo.lua
+640002,Virgo_Divine_Cross_J,Virgo Divine Cross,Weapons,Missing from active client itemInfo.lua
+640006,Pisces_Staff_O_S_J,Pisces Staff of Soul,Weapons,Missing from active client itemInfo.lua
+640030,Melon_Staff,Melon Staff,Weapons,Missing from active client itemInfo.lua
+640047,aegis_640047,Opened Illusion Wizardry Staff,Weapons,Missing from active client itemInfo.lua
+650000,Woe_Huuma1_Z,Lesser Guild Member's Huuma Shuriken,Weapons,Missing from active client itemInfo.lua
+650001,Woe_Huuma2_Z,Intermediate Guild Member's Huuma Shuriken,Weapons,Missing from active client itemInfo.lua
+650016,Melon_Huuma,Melon Huuma,Weapons,Missing from active client itemInfo.lua
+650043,aegis_650043,Opened Illusion Huuma Fluttering Snow,Weapons,Missing from active client itemInfo.lua
+650044,Z_Boost_N_Huuma,Boosting Glacier Shuriken,Weapons,Missing from active client itemInfo.lua
+650045,Z_Boost_P_Huuma,Boosting Ice & Snow Shuriken,Weapons,Missing from active client itemInfo.lua
+700004,Capricon_Bow_Of_Rogue_J,Capricorn Thief Bow,Weapons,Missing from active client itemInfo.lua
+700005,Woe_Bow2_Z,Intermediate Guild Member's Hunter Bow,Weapons,Missing from active client itemInfo.lua
+700010,Sagittarius_Hunter_Bow,Sagittarius Hunter Bow,Weapons,Missing from active client itemInfo.lua
+700048,Melon_Wing,Melon Wing,Weapons,Missing from active client itemInfo.lua
+700057,Comp_Royal_Bow_K,[Not For Sale] Royal Bow,Weapons,Missing from active client itemInfo.lua
+700069,Triangle_Disaster,Triangle Disaster,Weapons,Missing from active client itemInfo.lua
+700081,Z_Boost_N_Bow,Boosting Glacier Bow,Weapons,Missing from active client itemInfo.lua
+700082,Z_Boost_P_Bow,Boosting Ice & Snow Bow,Weapons,Missing from active client itemInfo.lua
+700109,Gandiva_Bow_US,Divine Bow Gandiva,Weapons,Missing from active client itemInfo.lua
+700125,Sky_Crescive_Bow,Celestial Crescent Bow,Weapons,Missing from active client itemInfo.lua
+800007,Melon_Handgun,Melon Handgun,Weapons,Missing from active client itemInfo.lua
+800035,Comp_Crimson_Rose,[Not For Sale] Crimson Rose,Weapons,Missing from active client itemInfo.lua
+800036,Z_Boost_N_Revolber,Boosting Glacier Revolver,Weapons,Missing from active client itemInfo.lua
+800037,Z_Boost_P_Revolver,Boosting Ice & Snow Revolver,Weapons,Missing from active client itemInfo.lua
+810004,Melon_Rifle,Melon Rifle,Weapons,Missing from active client itemInfo.lua
+810037,Z_Boost_N_Rifle,Boosting Glacier Rifle,Weapons,Missing from active client itemInfo.lua
+810038,Z_Boost_P_Rifle,Boosting Ice & Snow Rifle,Weapons,Missing from active client itemInfo.lua
+820003,Melon_Shotgun,Melon Shotgun,Weapons,Missing from active client itemInfo.lua
+820030,Z_Boost_N_Shotgun,Boosting Glacier Shotgun,Weapons,Missing from active client itemInfo.lua
+820031,Z_Boost_P_Shotgun,Boosting Ice & Snow Shotgun,Weapons,Missing from active client itemInfo.lua
+830005,Antique_Gatling_Gun,Antique Gatling Gun,Weapons,Missing from active client itemInfo.lua
+830006,Melon_Gatling_Gun,Melon Gatling Gun,Weapons,Missing from active client itemInfo.lua
+830014,Comp_The_Black_Gatling,[Not For Sale] The Black,Weapons,Missing from active client itemInfo.lua
+830034,Z_Boost_N_Gatling,Boosting Glacier Minigun,Weapons,Missing from active client itemInfo.lua
+830035,Z_Boost_P_Gatling,Boosting Ice & Snow Minigun,Weapons,Missing from active client itemInfo.lua
+840003,Melon_Launcher,Melon Launcher,Weapons,Missing from active client itemInfo.lua
+840030,Z_Boost_N_Launcher,Boosting Glacier Launcher,Weapons,Missing from active client itemInfo.lua
+840031,Z_Boost_P_Launcher,Boosting Ice & Snow Launcher,Weapons,Missing from active client itemInfo.lua
