@@ -4,8 +4,8 @@
 //= Darkchild's MVP Arena 1.4 structure
 //===== Description: =========================================
 //= One dedicated shared room per unique normally playable MVP.
-//= Each room contains exactly 3 copies of the same MVP ID.
-//= Every defeated slot respawns after exactly 30 seconds.
+//= Each room contains exactly 4 copies of the same MVP ID.
+//= Every defeated slot respawns after exactly 20 seconds.
 //=
 //= Validation rules:
 //= 1) Modes.Mvp: true in current Renewal mob_db.yml;
@@ -25,7 +25,7 @@ prontera,154,197,3	script	MVP Warper	768,{
 	mes "the Complete MVP Arena?";
 	mes " ";
 	mes "^0055FF151 unique normally playable MVPs^000000";
-	mes "One MVP type per room, 3 copies per room.";
+	mes "One MVP type per room, 4 copies per room.";
 	next;
 	if (select("Enter:Cancel") == 2)
 		close;
@@ -37,12 +37,12 @@ prontera,154,197,3	script	MVP Warper	768,{
 quiz_00,49,31,4	script	MVP Arena Guide	778,{
 	mes "[ ^0065DFMVP Arena Guide^000000 ]";
 	mes "Choose a level Keeper and then choose an MVP.";
-	mes "Each MVP has its own shared room containing exactly ^FF00003 identical copies^000000.";
+	mes "Each MVP has its own shared room containing exactly ^FF00004 identical copies^000000.";
 	next;
 	switch(select("Information:Heal me:Return to Prontera:Cancel")) {
 	case 1:
 		mes "[ ^0065DFMVP Arena Guide^000000 ]";
-		mes "Every defeated MVP slot returns after exactly ^0055FF30 seconds^000000.";
+		mes "Every defeated MVP slot returns after exactly ^0055FF20 seconds^000000.";
 		mes "Rooms are shared, hold up to 20 players, and close automatically after being empty for 5 minutes.";
 		mes "Duplicate variants, unused IDs, and script-dependent invulnerable bosses are excluded.";
 		close;
@@ -203,8 +203,8 @@ function	script	F_MvpArenaKeeper	{
 	mes "^FF0000" + getmonsterinfo(.@mob_id,MOB_NAME) + "^000000?";
 	mes "Monster ID: " + .@mob_id;
 	mes "Level: " + getmonsterinfo(.@mob_id,MOB_LV);
-	mes "Room population: 3 identical MVPs";
-	mes "Respawn: exactly 30 seconds";
+	mes "Room population: 4 identical MVPs";
+	mes "Respawn: exactly 20 seconds";
 	next;
 	if (select("Enter room:Cancel") == 2)
 		close;
@@ -228,14 +228,14 @@ pvp_n_1-1,100,100,4	script	MVP Room#ctrl	727,{
 
 	.@map$ = strcharinfo(3);
 	.@active = 0;
-	for (.@slot = 1; .@slot <= 3; ++.@slot)
+	for (.@slot = 1; .@slot <= 4; ++.@slot)
 		.@active += mobcount(.@map$,strnpcinfo(3) + "::OnMvpDead" + .@slot);
 
 	mes "[ MVP Room Controller ]";
 	mes "Room: ^FF0000" + getmonsterinfo('mvp_id,MOB_NAME) + "^000000";
 	mes "Monster ID: " + 'mvp_id;
-	mes "Active MVPs: " + .@active + " / 3";
-	mes "Each defeated slot respawns after exactly 30 seconds.";
+	mes "Active MVPs: " + .@active + " / 4";
+	mes "Each defeated slot respawns after exactly 20 seconds.";
 	next;
 	switch(select("Heal me:Return to MVP lobby:Return to Prontera:Cancel")) {
 	case 1:
@@ -262,9 +262,30 @@ S_EnsureSlot:
 	if (mobcount(.@map$,.@event$) > 0)
 		return;
 
-	// Restrict every slot to the known walkable centre area. Unlike 0,0,
-	// this cannot place the MVP in a distant or separated part of the map.
-	areamonster .@map$,96,96,106,106,"--ja--",'mvp_id,1,.@event$;
+	// Four fixed cardinal positions on the shared template map.
+	// All coordinates are inside the previously validated walkable centre area.
+	switch (.@slot) {
+	case 1: // East
+		.@x = 106;
+		.@y = 102;
+		break;
+	case 2: // South
+		.@x = 102;
+		.@y = 96;
+		break;
+	case 3: // West
+		.@x = 96;
+		.@y = 102;
+		break;
+	case 4: // North
+		.@x = 102;
+		.@y = 106;
+		break;
+	default:
+		return;
+	}
+
+	monster .@map$,.@x,.@y,"--ja--",'mvp_id,1,.@event$;
 	return;
 
 OnConfigure:
@@ -273,25 +294,32 @@ OnConfigure:
 	callsub S_EnsureSlot,1;
 	callsub S_EnsureSlot,2;
 	callsub S_EnsureSlot,3;
+	callsub S_EnsureSlot,4;
 	'configured = 1;
 	end;
 
 OnMvpDead1:
-	sleep 30000;
+	sleep 20000;
 	if ('configured)
 		callsub S_EnsureSlot,1;
 	end;
 
 OnMvpDead2:
-	sleep 30000;
+	sleep 20000;
 	if ('configured)
 		callsub S_EnsureSlot,2;
 	end;
 
 OnMvpDead3:
-	sleep 30000;
+	sleep 20000;
 	if ('configured)
 		callsub S_EnsureSlot,3;
+	end;
+
+OnMvpDead4:
+	sleep 20000;
+	if ('configured)
+		callsub S_EnsureSlot,4;
 	end;
 
 OnInstanceInit:
