@@ -3,7 +3,7 @@
 //= Based on npc/re/merchants/enchan_sage_legacy_17_2.txt
 //============================================================
 
-prontera,171,178,3	script	Lisa#custom_zeny	20698,{
+prontera,151,211,3	script	Lisa#custom_zeny	20698,{
 	if (checkweight(1201,3) == 0) {
 		mes "^ff0000It seems that the type or weight of the item you have is too much. Please organize your inventory.^000000";
 		close;

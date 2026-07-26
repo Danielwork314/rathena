@@ -7,7 +7,7 @@
 //= native enchant pools, failures, resets and destruction remain.
 //============================================================
 
-prontera,171,196,5	script	Master of Relics#custom_zeny	495,{
+prontera,159,215,5	script	Master of Relics#custom_zeny	495,{
 	if (checkweight(1201,1) == 0) {
 		mes "You have too many kinds of things with you to do that. Throw out some of them and try again.";
 		close;
@@ -188,7 +188,7 @@ prontera,171,196,5	script	Master of Relics#custom_zeny	495,{
 //============================================================
 //= Mora Artifact Researcher
 //============================================================
-prontera,171,193,3	script	Artifact Researcher#custom_zeny	521,{
+prontera,163,215,3	script	Artifact Researcher#custom_zeny	521,{
 	if (checkweight(1201,1) == 0) {
 		mes "Reduce the amount of items that you have in your inventory before continuing.";
 		close;
@@ -793,7 +793,7 @@ function	script	F_Mora_Enchant_CustomZeny	{
 	getitem2 getarg(0),1,1,0,0,0,.@enchants[1],.@enchants[2],.@enchants[3];
 	return 1;
 }
-prontera,171,190,4	script	Master Tailor#custom_zeny	509,{
+prontera,167,215,4	script	Master Tailor#custom_zeny	509,{
 	disable_items;
 	if (checkweight(1201,1) == 0) {
 		mes "You have too many kinds of things with you to do that. Throw out some of them and try again.";
@@ -886,7 +886,7 @@ prontera,171,190,4	script	Master Tailor#custom_zeny	509,{
 	}
 }
 
-prontera,171,187,6	script	Pendant Crafter#custom_zeny	509,{
+prontera,139,211,6	script	Pendant Crafter#custom_zeny	509,{
 	disable_items;
 	if (checkweight(1201,1) == 0) {
 		mes "You have too many kinds of things with you to do that. Throw out some of them and try again.";
@@ -957,7 +957,7 @@ prontera,171,187,6	script	Pendant Crafter#custom_zeny	509,{
 	}
 }
 
-prontera,171,184,4	script	Bulberry Westhood#custom_zeny	509,{
+prontera,143,211,4	script	Bulberry Westhood#custom_zeny	509,{
 	disable_items;
 	if (checkweight(1201,1) == 0) {
 		mes "You have too many kinds of things with you to do that. Throw out some of them and try again.";

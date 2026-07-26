@@ -4,7 +4,7 @@
 //= enchant pools, chances, failure and destruction rules remain.
 //============================================================
 
-prontera,171,148,2	script	Wandering Mind#custom_zeny	4_CENERE,{
+prontera,159,207,2	script	Wandering Mind#custom_zeny	4_CENERE,{
 	disable_items;
 	npctalk "Kkk... I can... sense...", "", bc_self;
 	mes "[Wandering Mind]";

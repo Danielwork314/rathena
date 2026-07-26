@@ -4,7 +4,7 @@
 //= enchant pools, chances, failure and destruction rules remain.
 //============================================================
 
-prontera,171,145,4	script	Hugin's Magician#custom_zeny	1_F_01,{
+prontera,163,207,4	script	Hugin's Magician#custom_zeny	1_F_01,{
 	disable_items;
 	if (MaxWeight - Weight < 1000) {
 		mes "Your bag is too heavy. Reduce some weight and come back.";
@@ -158,7 +158,7 @@ prontera,171,145,4	script	Hugin's Magician#custom_zeny	1_F_01,{
 }
 
 
-prontera,171,142,4	script	Dark magic master#custom_zeny	1_F_01,{
+prontera,167,207,4	script	Dark magic master#custom_zeny	1_F_01,{
 	disable_items;
 	if ((MaxWeight - Weight) < 1000) {
 		mes "Your bag is too heavy. Reduce some weight and come back.";

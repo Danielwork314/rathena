@@ -4,7 +4,7 @@
 //= enchant pools, chances, failure and destruction rules remain.
 //============================================================
 
-prontera,171,160,3	script	Artifact Enhancer#custom_zeny	4_F_JOB_BLACKSMITH,{
+prontera,143,207,3	script	Artifact Enhancer#custom_zeny	4_F_JOB_BLACKSMITH,{
 	if (!checkweight(1201,1) || (MaxWeight - Weight) < 1000) {
 		mes "You can't proceed with the conversation because you have a large quantity of items.";
 		mes "Please organize your items and try again.";
