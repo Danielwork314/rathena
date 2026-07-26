@@ -1,0 +1,157 @@
+﻿Item ID,AegisName,Name,Locations,Active Source References
+27197,S_Agnes_Card,Agnes Lugenburg Card,Right_Hand,db/re/item_group_db.yml
+27383,C_Amdarais_Card,Amdarais's Phantom Card,Shoes,db/re/item_group_db.yml
+4018,Andre_Larva_Card,Andre Larva Card,Right_Hand,db/re/item_group_db.yml
+300467,Angel_Iceslug_Card,Angel Slug Card,Right_Accessory,db/re/item_group_db.yml
+300274,Tha_Anger_Card,Anger of Thanatos Card,Left_Hand,db/re/item_group_db.yml
+300382,Aquila_Card,Aquila Card,Garment,db/re/item_group_db.yml
+300010,Plasma_Arch_Card,Arch Plasma Card,Right_Hand,db/re/item_group_db.yml
+300470,Icebear_Card,Bear Bug Card,Right_Accessory,db/re/item_group_db.yml
+300017,Acidus_B_Card,Black Acidus Card,Right_Hand,db/re/item_group_db.yml
+300020,Bone_Acidus_Card,Bone Acidus Card,Right_Accessory,db/re/item_group_db.yml
+300021,Bone_Detale_Card,Bone Detardeurus Card,Armor,db/re/item_group_db.yml
+300019,Bone_Ferus_Card,Bone Ferus Card,Left_Accessory,db/re/item_group_db.yml
+300279,Book_Of_Death_Card,Book of Death Card,Right_Hand,db/re/item_group_db.yml
+300172,MD_Airboat_Card3,Brain Sucker Card,Right_Hand,db/re/item_group_db.yml
+300364,Calmaring_Card,Calmaring Card,Left_Accessory,db/re/item_group_db.yml
+300422,S_Catherine_Card,Catherine Gaebolg Card,Garment,db/re/item_group_db.yml
+300371,Cave_Calmaring_Card,Cave Calmaring Card,Left_Accessory,db/re/item_group_db.yml
+300372,Cave_Un_Flower_Card,Cave Flower Card,Garment,db/re/item_group_db.yml
+27343,Chaos_Acolyte_Card,Chaotic Acolyte Card,Left_Accessory,db/re/item_group_db.yml
+27335,Chaos_Ba_Jr_Card,Chaotic Baphomet Junior Card,Shoes,db/re/item_group_db.yml
+27339,Chaos_Goring_Card,Chaotic Ghostring Card,Right_Hand,db/re/item_group_db.yml
+27337,Chaos_H_Fly_Card,Chaotic Hunter Fly Card,Left_Hand,db/re/item_group_db.yml
+27340,Chaos_K_Mantis_Card,Chaotic Killer Mantis Card,Both_Accessory,db/re/item_group_db.yml
+27341,Chaos_Poporing_Card,Chaotic Poporing Card,Left_Hand,db/re/item_group_db.yml
+27336,Chaos_S_Winder_Card,Chaotic Sidewinder Card,Left_Hand,db/re/item_group_db.yml
+27342,Chaos_Stem_W_Card,Chaotic Stem Worm Card,Garment,db/re/item_group_db.yml
+300510,Cliolima_Card,Cliolima Card,Shoes,db/re/item_group_db.yml
+300455,Copo_Card,Copo Card,Right_Hand,db/re/item_group_db.yml
+300267,Crow_Baron_Card,Crow Baron Card,Left_Accessory,db/re/item_group_db.yml
+300268,Crow_Duke_Card,Crow Duke Card,Right_Accessory,db/re/item_group_db.yml
+300426,S_Crux_Card,Crux Findel Card,Garment,db/re/item_group_db.yml
+27387,C_Raydric_Archer_Card,Cursed Raydric Archer Card,Right_Accessory,db/re/item_group_db.yml
+27386,C_Raydric_Card,Cursed Raydric Card,Left_Accessory,db/re/item_group_db.yml
+4174,Deviling_Card,Deviling Card,Garment,db/re/item_group_db.yml
+300269,Eldest_Card,Eldest Card,Garment,db/re/item_group_db.yml
+300270,Empathizer_Card,Empathizer Card,Garment,db/re/item_group_db.yml
+300380,E_Inter_Rgan_Card,Entangled Intermediate Rgan Card,Shoes,db/re/item_group_db.yml
+300293,Erzsebet_Card,Erzsebet Card,Garment,db/re/item_group_db.yml
+300292,Extra_Joker_Card,Extra Joker Card,Shoes,db/re/item_group_db.yml
+300424,S_Friedrich_Card,Friedrich S. Heine Card,Garment,db/re/item_group_db.yml
+300171,MD_Airboat_Card2,Grave Worm Card,Right_Hand,db/re/item_group_db.yml
+300457,Grey_Icewind_Card,Gray Icewind Card,Shoes,db/re/item_group_db.yml
+300373,B_Hallucigenia_Card,Hallucigenia Baby Card,Left_Hand,db/re/item_group_db.yml
+300374,Hallucigenia_Card,Hallucigenia Card,Shoes,db/re/item_group_db.yml
+300271,Happy_Giver_Card,Happiness Giver Card,Garment,db/re/item_group_db.yml
+300381,Heart_Hunter_AT_Card,Hearthunter AT Card,Armor,db/re/item_group_db.yml
+300310,S_Helmut_Card,Helmut Lugenburg Card,Armor,db/re/item_group_db.yml
+27381,C_Himel_Card,Himmelmez's Phantom Card,Garment,db/re/item_group_db.yml
+300011,Holy_Frus_Card,Holy Frus Card,Right_Hand,db/re/item_group_db.yml
+300012,Holy_Skogul_Card,Holy Skogul Card,Shoes,db/re/item_group_db.yml
+300275,Tha_Horror_Card,Horror of Thanatos Card,Left_Hand,db/re/item_group_db.yml
+300359,Ice_Gangu_Card,Ice Gangu Card,Head_Low|Head_Mid|Head_Top,db/re/item_group_db.yml
+300512,Ice_Seahorse_Card,Ice Seahorse Card,Shoes,db/re/item_group_db.yml
+300361,Ice_Straw_Card,Ice Straw Card,Armor,db/re/item_group_db.yml
+300456,Icewind_Egg_Card,Icewind's Egg Card,Head_Low|Head_Mid|Head_Top,db/re/item_group_db.yml
+300014,Ingrid_Card,Ingrid Card,Armor,db/re/item_group_db.yml
+300368,Middle_G_Rgan_Card,Intermediate Rgan Card,Left_Accessory,db/re/item_group_db.yml
+27396,S_Issac_Card,Isaac Wigner Card,Head_Top|Head_Mid|Head_Low,db/re/item_group_db.yml
+300294,Jeniffer_Card,Jennifer Card,Both_Accessory,db/re/item_group_db.yml
+300459,E_Rgan_Healer_Card,Jormungandr Church Bishop Card,Head_Low|Head_Mid|Head_Top,db/re/item_group_db.yml
+300464,E_Rgan_Warlock_Card,Jormungandr Church Shaman Card,Right_Accessory,db/re/item_group_db.yml
+300460,Jormun_Guardian_Card,Jormungandr Guardian Card,Right_Hand,db/re/item_group_db.yml
+300466,E_Rgan_Cleaner_Card,Jormungandr Sanctuary Cleaner Card,Right_Hand,db/re/item_group_db.yml
+300465,E_Rgan_Guardian_Card,Jormungandr Sanctuary Guardian Card,Left_Hand,db/re/item_group_db.yml
+27198,S_Jurgen_Card,Jurgen Wigner Card,Right_Hand,db/re/item_group_db.yml
+27394,S_Kathryn_Card,Kathryn Wigner Card,Head_Top|Head_Mid|Head_Low,db/re/item_group_db.yml
+4609,Khaliz_Knightage_Card,Khalitzburg Knight Card,Left_Hand,db/re/item_group_db.yml; npc/re/merchants/OldGlastHeim_merchants.txt
+27184,Knight_Sakray_Card,Knight Sakray Card,Right_Hand,db/re/item_group_db.yml
+27331,S_Kronecker_Card,Kronecker G. Heine Card,Right_Accessory,db/re/item_group_db.yml
+300367,Junior_Rgan_Card,Lesser Rgan Card,Left_Accessory,db/re/item_group_db.yml
+300509,Letterster_Card,Letterster Card,Shoes,db/re/item_group_db.yml
+300363,Limacina_Card,Limacina Card,Head_Low|Head_Mid|Head_Top,db/re/item_group_db.yml
+300366,Lowest_Rgan_Card,Lowest Rgan Card,Right_Accessory,db/re/item_group_db.yml
+4198,Maya_Puple_Card,Maya Purple Card,Head_Low|Head_Mid|Head_Top,db/re/item_group_db.yml
+300469,Melibe_Iceslug_Card,Melibe Slug Card,Right_Accessory,db/re/item_group_db.yml
+300174,MD_Airboat_Card5,Melted Poring Card,Head_Top|Head_Mid|Head_Low,db/re/item_group_db.yml
+300308,S_Meyer_Card,Meyer Lugenburg Card,Armor,db/re/item_group_db.yml
+300379,R_Superior_Rgan_Card,Modified Advanced Rgan Card,Left_Hand,db/re/item_group_db.yml
+300173,MD_Airboat_Card4,Mosquilo Card,Both_Accessory,db/re/item_group_db.yml
+27385,C_Khaliz_Knight_Card,Mutated Khalitzburg Card,Left_Hand,db/re/item_group_db.yml
+27384,C_White_Knight_Card,Mutated White Knight Card,Right_Hand,db/re/item_group_db.yml
+4457,Nahtzigger_Card,Naght Sieger Card,Armor,db/re/item_group_db.yml
+27196,S_Nihil_Card,Nihil M. Heine Card,Right_Hand,db/re/item_group_db.yml
+300375,One_E_Dollocaris_Card,One-Eye Dollocaris Card,Garment,db/re/item_group_db.yml
+300295,General_Orc_Card,Orc General Card,Shoes,db/re/item_group_db.yml
+300130,S_Poe_Card,Poe Richard Card,Right_Hand,db/re/item_group_db.yml
+300272,Pray_Giver_Card,Pray Giver Card,Garment,db/re/item_group_db.yml
+300365,Primitive_Rgan_Card,Primitive Rgan Card,Right_Accessory,db/re/item_group_db.yml
+300015,Ferus_P_Card,Purple Ferus Card,Head_Top|Head_Mid|Head_Low,db/re/item_group_db.yml
+4602,AmdaraisH_Card,Realized Amdarais Card,Armor,db/re/item_group_db.yml
+4604,CorruptionRootH_Card,Realized Corruption Root Card,Right_Hand,db/re/item_group_db.yml
+300608,aegis_300608,Rebellion Cotness Card,Shoes,db/re/item_group_db.yml
+300606,aegis_300606,Rebellion Dien Card,Shoes,db/re/item_group_db.yml
+300487,S_Elena_Card,Rebellion Elena Volkova Card,Right_Hand,db/re/item_group_db.yml
+300491,S_Est_Card,Rebellion Est Loveroy Card,Right_Hand,db/re/item_group_db.yml
+300493,S_Gony_Card,Rebellion Gony Card,Right_Hand,db/re/item_group_db.yml
+300489,S_Lookie_Card,Rebellion Lookie Card,Right_Hand,db/re/item_group_db.yml
+300607,aegis_300607,Rebellion Ridsh Card,Shoes,db/re/item_group_db.yml
+300013,Reginleif_Card,Reginleif Card,Armor,db/re/item_group_db.yml
+300276,Tha_Regret_Card,Regret of Thanatos Card,Right_Hand,db/re/item_group_db.yml
+300263,Reken_Guard_Card,Rekenber Guard Card,Right_Hand,db/re/item_group_db.yml
+300264,Reken_H_Guard_Card,Rekenber Senior Guard Card,Right_Hand,db/re/item_group_db.yml
+300277,Tha_Resent_Card,Resentment of Thanatos Card,Left_Hand,db/re/item_group_db.yml
+300511,Rock_Striker_Card,Rockstriker Card,Shoes,db/re/item_group_db.yml
+300170,MD_Airboat_Card,Rotten Tree Card,Armor,db/re/item_group_db.yml
+300192,Sakray_Card,Sakray Card,Head_Low|Head_Mid|Head_Top,db/re/item_group_db.yml
+300506,Scalleg_Card,Scalleg Card,Right_Hand,db/re/item_group_db.yml
+4130,Scorpion_King_Card,Scorpion King Card,Right_Hand,db/re/item_group_db.yml
+300505,Sea_Wind_Card,Seawind Card,Shoes,db/re/item_group_db.yml
+300497,S_Leizi_Card,Secret Wing Leizi Card,Right_Hand,db/re/item_group_db.yml
+300495,S_Tes_Card,Secret Wing Philopontes Card,Right_Hand,db/re/item_group_db.yml
+300360,Shining_Seaweed_Card,Shining Seaweed Card,Head_Low|Head_Mid|Head_Top,db/re/item_group_db.yml
+300296,Sieglouse_Card,Sieglouse Card,Shoes,db/re/item_group_db.yml
+300018,Acidus_S_Card,Silver Acidus Card,Right_Hand,db/re/item_group_db.yml
+300378,Simulation_Juncea_Card,Simulation Juncea Card,Armor,db/re/item_group_db.yml
+27333,S_Skia_Card,Skia Nerius Card,Left_Accessory,db/re/item_group_db.yml
+300508,Skipskipper_Card,Skipskipper Card,Shoes,db/re/item_group_db.yml
+300273,Smile_Giver_Card,Smile Giver Card,Garment,db/re/item_group_db.yml
+300468,Rabbit_Iceslug_card,Snow Rabbit Slug Card,Right_Accessory,db/re/item_group_db.yml
+300009,Plasma_Spt_Card,Spectrum Plasma Card,Right_Hand,db/re/item_group_db.yml
+27199,S_Spica_Card,Spica Nerius Card,Right_Hand,db/re/item_group_db.yml
+300463,S_Rgan_Healer_Card,Superior Rgan Healer Card,Right_Hand,db/re/item_group_db.yml
+300462,S_Rgan_Warlock_Card,Superior Rgan Shaman Card,Right_Hand,db/re/item_group_db.yml
+300461,Fake_Iwin_S_Card,Suspicious Iwin Soldier Card,Right_Hand,db/re/item_group_db.yml
+300193,Tiara_Card,Tiara Card,Head_Low|Head_Mid|Head_Top,db/re/item_group_db.yml
+4587,Tiyanak_Card,Tiyanak Card,Both_Accessory,db/re/item_group_db.yml
+300016,Treasure_Mimic_Card,Treasure Mimic Card,Garment,db/re/item_group_db.yml
+300376,Eyes_Dollocaris_Card,Two-Eye Dollocaris Card,Armor,db/re/item_group_db.yml
+300377,Ultra_Limacina_Card,Ultra Limacina Card,Head_Low|Head_Mid|Head_Top,db/re/item_group_db.yml
+300362,Unfrost_Flower_card,Unfrost Flower Card,Armor,db/re/item_group_db.yml
+300176,MD_Airboat_Card7,Unidentified Creature card,Right_Hand,db/re/item_group_db.yml
+300175,MD_Airboat_Card6,Unknown Creature Card,Right_Accessory,db/re/item_group_db.yml
+4549,Upd_Maya_Puple_Card,Upd Maya Puple Card,Head_Low|Head_Mid|Head_Top,db/re/item_group_db.yml
+4550,Upd_Bow_Guardian_Card,Upgrade Bow Guardian Card,Right_Hand,db/re/item_group_db.yml
+300507,Velelling_Card,Velelling Card,Right_Hand,db/re/item_group_db.yml
+300278,Void_Mimic_Card,Void Mimic Card,Both_Accessory,db/re/item_group_db.yml
+300370,Discarded_L_R_Card,Wasted Intermediate Rgan Card,Left_Accessory,db/re/item_group_db.yml
+300369,Discarded_P_R_Card,Wasted Primitive Rgan Card,Left_Accessory,db/re/item_group_db.yml
+4608,White_Knightage_Card,White Knight Card,Right_Hand,db/re/item_group_db.yml; npc/re/merchants/OldGlastHeim_merchants.txt
+300128,S_Wolf_Card,Wolf Lugenburg Card,Right_Hand,db/re/item_group_db.yml
+300523,Yordos_Execute_Card,Yordos Executor Card,Armor,db/re/item_group_db.yml
+300521,Yordos_Inve_Card,Yordos Investigator Card,Garment,db/re/item_group_db.yml
+300522,Yordos_Judge_Card,Yordos Judge Card,Garment,db/re/item_group_db.yml
+300527,Yorker_R_Worker_Card,Yorker Trader Card,Left_Accessory,db/re/item_group_db.yml
+300526,Yorker_Worker_Card,Yorker Worker Card,Right_Accessory,db/re/item_group_db.yml
+300519,Yormi_Card,Yormi Card,Right_Hand,db/re/item_group_db.yml
+300520,Yormi_M_Card,Yormi Missionary Card,Right_Hand,db/re/item_group_db.yml
+300528,Yortus_Bishop_Card,Yortus Bishop Card,Head_Low|Head_Mid|Head_Top,db/re/item_group_db.yml
+300529,Yortus_Conjur_Card,Yortus Warlock Card,Armor,db/re/item_group_db.yml
+300524,Yoscopus_G_Cards,Yoscopus Guardian Card,Armor,db/re/item_group_db.yml
+300525,Yoscopus_S_Card,Yoscopus Warlock Card,Armor,db/re/item_group_db.yml
+300514,Yoster_Cleaner_Card,Yoster Cleaner Card,Shoes,db/re/item_group_db.yml
+300516,Yoster_Collect_Card,Yoster Collector Card,Shoes,db/re/item_group_db.yml
+300518,Yoster_Cooker_Card,Yoster Cooker Card,Shoes,db/re/item_group_db.yml
+300515,Yoster_Fixer_Card,Yoster Fixer Card,Garment,db/re/item_group_db.yml
+300517,Yoster_Nego_Card,Yoster Negotiator Card,Garment,db/re/item_group_db.yml

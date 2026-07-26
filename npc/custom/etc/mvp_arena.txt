@@ -1,5 +1,5 @@
 //===== rAthena Script =======================================
-//= Complete Unique MVP Arena
+//= Complete Unique MVP Arena - Large Cardinal Room
 //===== Based On: ============================================
 //= Darkchild's MVP Arena 1.4 structure
 //===== Description: =========================================
@@ -15,7 +15,7 @@
 //=
 //= The original client supplies only 40 pvp_n maps, while this validated
 //= roster contains 151 unique MVP names. Rooms therefore use shared IM_NONE
-//= instances of pvp_n_1-1, created on demand and destroyed after 5 idle minutes.
+//= instances of pvp_y_2-5, created on demand and destroyed after 5 idle minutes.
 //============================================================
 
 // Entrance
@@ -37,7 +37,7 @@ prontera,154,197,3	script	MVP Warper	768,{
 quiz_00,49,31,4	script	MVP Arena Guide	778,{
 	mes "[ ^0065DFMVP Arena Guide^000000 ]";
 	mes "Choose a level Keeper and then choose an MVP.";
-	mes "Each MVP has its own shared room containing exactly ^FF00004 identical copies^000000.";
+	mes "Each MVP has its own large shared room containing exactly ^FF00004 identical copies^000000.";
 	next;
 	switch(select("Information:Heal me:Return to Prontera:Cancel")) {
 	case 1:
@@ -137,7 +137,7 @@ function	script	F_MvpArenaEnter	{
 
 	// Instance maps are created through rAthena's queue. Do not access
 	// instance variables until instance_mapname confirms the room is busy.
-	.@map$ = instance_mapname("pvp_n_1-1",.@instance_id);
+	.@map$ = instance_mapname("pvp_y_2-5",.@instance_id);
 	if (.@map$ == "") {
 		mes "[ MVP Arena ]";
 		mes "The " + getmonsterinfo(.@mob_id,MOB_NAME) + " room is being prepared.";
@@ -185,7 +185,7 @@ function	script	F_MvpArenaEnter	{
 	}
 
 	close2;
-	warp .@map$,102,102;
+	warp .@map$,160,160;
 	end;
 }
 
@@ -203,7 +203,7 @@ function	script	F_MvpArenaKeeper	{
 	mes "^FF0000" + getmonsterinfo(.@mob_id,MOB_NAME) + "^000000?";
 	mes "Monster ID: " + .@mob_id;
 	mes "Level: " + getmonsterinfo(.@mob_id,MOB_LV);
-	mes "Room population: 4 identical MVPs";
+	mes "Room population: 4 identical MVPs, spread far apart";
 	mes "Respawn: exactly 20 seconds";
 	next;
 	if (select("Enter room:Cancel") == 2)
@@ -219,7 +219,7 @@ quiz_00,60,31,4	script	Lv 150-199 MVPs	774,{ callfunc "F_MvpArenaKeeper",85,58,"
 quiz_00,62,31,4	script	Lv 200+ MVPs	776,{ callfunc "F_MvpArenaKeeper",143,8,"Lv 200+ MVPs"; }
 
 // This controller is copied into every on-demand instance room.
-pvp_n_1-1,100,100,4	script	MVP Room#ctrl	727,{
+pvp_y_2-5,160,190,4	script	MVP Room#ctrl	727,{
 	if (!instance_id()) {
 		mes "[ MVP Room Controller ]";
 		mes "This is the inactive template map.";
@@ -254,7 +254,7 @@ pvp_n_1-1,100,100,4	script	MVP Room#ctrl	727,{
 
 S_EnsureSlot:
 	.@slot = getarg(0);
-	.@map$ = instance_mapname("pvp_n_1-1");
+	.@map$ = instance_mapname("pvp_y_2-5");
 	if (.@map$ == "" || 'mvp_id <= 0)
 		return;
 
@@ -262,24 +262,25 @@ S_EnsureSlot:
 	if (mobcount(.@map$,.@event$) > 0)
 		return;
 
-	// Four fixed cardinal positions on the shared template map.
-	// All coordinates are inside the previously validated walkable centre area.
+	// Four fixed cardinal positions on the 320x320 shared template map.
+	// The slots are deliberately placed about 100-125 cells from the entry
+	// so the four MVPs no longer begin clustered around the room centre.
 	switch (.@slot) {
-	case 1: // East
-		.@x = 106;
-		.@y = 102;
+	case 1: // East - 100 cells east of entry
+		.@x = 260;
+		.@y = 160;
 		break;
-	case 2: // South
-		.@x = 102;
-		.@y = 96;
+	case 2: // South - 125 cells south of entry
+		.@x = 160;
+		.@y = 35;
 		break;
-	case 3: // West
-		.@x = 96;
-		.@y = 102;
+	case 3: // West - 100 cells west of entry
+		.@x = 60;
+		.@y = 160;
 		break;
-	case 4: // North
-		.@x = 102;
-		.@y = 106;
+	case 4: // North - 123 cells north of entry
+		.@x = 160;
+		.@y = 283;
 		break;
 	default:
 		return;
@@ -360,7 +361,7 @@ OnInit:
 		$@MVP_ARENA_INSTANCE[.@i] = 0;
 
 	// Recover active room mappings after @reloadscript.
-	.@count = instance_list("pvp_n_1-1",IM_NONE);
+	.@count = instance_list("pvp_y_2-5",IM_NONE);
 	for (.@i = 0; .@i < .@count; ++.@i) {
 		.@instance_id = .@instance_list[.@i];
 		if (instance_live_info(ILI_NAME,.@instance_id) != "Complete MVP Arena Room")
@@ -376,4 +377,4 @@ OnInit:
 }
 
 // Preserve the original arena's no-nightmare-drop behavior on the template.
-pvp_n_1-1	mapflag	pvp_nightmaredrop	off
+pvp_y_2-5	mapflag	pvp_nightmaredrop	off
