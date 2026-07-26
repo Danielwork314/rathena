@@ -1,0 +1,243 @@
+diff --git a/src/map/clif.hpp b/src/map/clif.hpp
+--- a/src/map/clif.hpp
++++ b/src/map/clif.hpp
+@@ -1469,6 +1469,7 @@ void clif_item_reform_open( map_session_data& sd, t_itemid item );
+ 
+ // Item Enchant UI
+ void clif_enchantwindow_open( map_session_data& sd, uint64 clientLuaIndex );
++void clif_enchantwindow_open_zeny( map_session_data& sd, uint64 clientLuaIndex );
+ 
+ // Enchanting Shadow / Shadow Scar Spirit
+ void clif_enchantingshadow_spirit(const unit_data &ud);
+diff --git a/src/map/clif.cpp b/src/map/clif.cpp
+--- a/src/map/clif.cpp
++++ b/src/map/clif.cpp
+@@ -24489,6 +24489,16 @@ void clif_parse_item_reform_start( int32 fd, map_session_data* sd ){
+ #endif
+ }
+ 
++static constexpr uint64 ITEM_ENCHANT_ZENY_ONLY_FLAG = static_cast<uint64>( 1 ) << 63;
++
++static bool clif_enchantwindow_is_zeny_only( const map_session_data& sd ){
++	return ( sd.state.item_enchant_index & ITEM_ENCHANT_ZENY_ONLY_FLAG ) != 0;
++}
++
++static uint64 clif_enchantwindow_group( const map_session_data& sd ){
++	return sd.state.item_enchant_index & ~ITEM_ENCHANT_ZENY_ONLY_FLAG;
++}
++
+ void clif_enchantwindow_open( map_session_data& sd, uint64 clientLuaIndex ){
+ #if PACKETVER_RE_NUM >= 20211103 || PACKETVER_MAIN_NUM >= 20220330
+ 	// Hardcoded clientside check
+@@ -24510,6 +24520,18 @@ void clif_enchantwindow_open( map_session_data& sd, uint64 clientLuaIndex ){
+ #endif
+ }
+ 
++void clif_enchantwindow_open_zeny( map_session_data& sd, uint64 clientLuaIndex ){
++#if PACKETVER_RE_NUM >= 20211103 || PACKETVER_MAIN_NUM >= 20220330
++	clif_enchantwindow_open( sd, clientLuaIndex );
++
++	// The plain group ID is sent to the client. The high bit is server-only state.
++	if( sd.state.item_enchant_index == clientLuaIndex ){
++		sd.state.item_enchant_index |= ITEM_ENCHANT_ZENY_ONLY_FLAG;
++	}
++#endif
++}
++
+ void clif_enchantwindow_result( map_session_data& sd, bool success, t_itemid enchant = 0 ){
+ #if PACKETVER_RE_NUM >= 20211103 || PACKETVER_MAIN_NUM >= 20220330
+ 	PACKET_ZC_RESPONSE_ENCHANT p = {};
+@@ -24569,7 +24591,7 @@ void clif_parse_enchantwindow_general( int32 fd, map_session_data* sd ){
+ #if PACKETVER_MAIN_NUM >= 20201118 || PACKETVER_RE_NUM >= 20211103 || PACKETVER_ZERO_NUM >= 20221024
+ 	const PACKET_CZ_REQUEST_RANDOM_ENCHANT* p = reinterpret_cast<PACKET_CZ_REQUEST_RANDOM_ENCHANT*>( RFIFOP( fd, 0 ) );
+ 
+-	if( sd->state.item_enchant_index != p->enchant_group ){
++	if( clif_enchantwindow_group( *sd ) != p->enchant_group ){
+ 		return;
+ 	}
+@@ -24629,18 +24651,20 @@ void clif_parse_enchantwindow_general( int32 fd, map_session_data* sd ){
+ 
+ 	std::unordered_map<uint16, uint16> materials;
+ 
+-	for( const auto& entry : enchant_slot->normal.materials ){
+-		int16 idx = pc_search_inventory( sd, entry.first );
++	if( !clif_enchantwindow_is_zeny_only( *sd ) ){
++		for( const auto& entry : enchant_slot->normal.materials ){
++			int16 idx = pc_search_inventory( sd, entry.first );
+ 
+-		if( idx < 0 ){
+-			return;
+-		}
++			if( idx < 0 ){
++				return;
++			}
+ 
+-		if( sd->inventory.u.items_inventory[idx].amount < entry.second ){
+-			return;
+-		}
++			if( sd->inventory.u.items_inventory[idx].amount < entry.second ){
++				return;
++			}
+ 
+-		materials[idx] = entry.second;
++			materials[idx] = entry.second;
++		}
+ 	}
+ 
+ 	if( pc_payzeny( sd, enchant_slot->normal.zeny, LOG_TYPE_ENCHANT ) != 0 ){
+@@ -24696,7 +24720,7 @@ void clif_parse_enchantwindow_perfect( int32 fd, map_session_data* sd ){
+ #if PACKETVER_MAIN_NUM >= 20201118 || PACKETVER_RE_NUM >= 20211103 || PACKETVER_ZERO_NUM >= 20221024
+ 	const PACKET_CZ_REQUEST_PERFECT_ENCHANT* p = reinterpret_cast<PACKET_CZ_REQUEST_PERFECT_ENCHANT*>( RFIFOP( fd, 0 ) );
+ 
+-	if( sd->state.item_enchant_index != p->enchant_group ){
++	if( clif_enchantwindow_group( *sd ) != p->enchant_group ){
+ 		return;
+ 	}
+@@ -24756,18 +24780,20 @@ void clif_parse_enchantwindow_perfect( int32 fd, map_session_data* sd ){
+ 
+ 	std::unordered_map<uint16, uint16> materials;
+ 
+-	for( const auto& entry : perfect_enchant->materials ){
+-		int16 idx = pc_search_inventory( sd, entry.first );
++	if( !clif_enchantwindow_is_zeny_only( *sd ) ){
++		for( const auto& entry : perfect_enchant->materials ){
++			int16 idx = pc_search_inventory( sd, entry.first );
+ 
+-		if( idx < 0 ){
+-			return;
+-		}
++			if( idx < 0 ){
++				return;
++			}
+ 
+-		if( sd->inventory.u.items_inventory[idx].amount < entry.second ){
+-			return;
+-		}
++			if( sd->inventory.u.items_inventory[idx].amount < entry.second ){
++				return;
++			}
+ 
+-		materials[idx] = entry.second;
++			materials[idx] = entry.second;
++		}
+ 	}
+ 
+ 	if( pc_payzeny( sd, perfect_enchant->zeny, LOG_TYPE_ENCHANT ) != 0 ){
+@@ -24796,7 +24822,7 @@ void clif_parse_enchantwindow_upgrade( int32 fd, map_session_data* sd ){
+ #if PACKETVER_MAIN_NUM >= 20201118 || PACKETVER_RE_NUM >= 20211103 || PACKETVER_ZERO_NUM >= 20221024
+ 	const PACKET_CZ_REQUEST_UPGRADE_ENCHANT* p = reinterpret_cast<PACKET_CZ_REQUEST_UPGRADE_ENCHANT*>( RFIFOP( fd, 0 ) );
+ 
+-	if( sd->state.item_enchant_index != p->enchant_group ){
++	if( clif_enchantwindow_group( *sd ) != p->enchant_group ){
+ 		return;
+ 	}
+@@ -24851,18 +24877,20 @@ void clif_parse_enchantwindow_upgrade( int32 fd, map_session_data* sd ){
+ 
+ 	std::unordered_map<uint16, uint16> materials;
+ 
+-	for( const auto& entry : upgrade->materials ){
+-		int16 idx = pc_search_inventory( sd, entry.first );
++	if( !clif_enchantwindow_is_zeny_only( *sd ) ){
++		for( const auto& entry : upgrade->materials ){
++			int16 idx = pc_search_inventory( sd, entry.first );
+ 
+-		if( idx < 0 ){
+-			return;
+-		}
++			if( idx < 0 ){
++				return;
++			}
+ 
+-		if( sd->inventory.u.items_inventory[idx].amount < entry.second ){
+-			return;
+-		}
++			if( sd->inventory.u.items_inventory[idx].amount < entry.second ){
++				return;
++			}
+ 
+-		materials[idx] = entry.second;
++			materials[idx] = entry.second;
++		}
+ 	}
+ 
+ 	if( pc_payzeny( sd, upgrade->zeny, LOG_TYPE_ENCHANT ) != 0 ){
+@@ -24891,7 +24919,7 @@ void clif_parse_enchantwindow_reset( int32 fd, map_session_data* sd ){
+ #if PACKETVER_MAIN_NUM >= 20201118 || PACKETVER_RE_NUM >= 20211103 || PACKETVER_ZERO_NUM >= 20221024
+ 	const PACKET_CZ_REQUEST_RESET_ENCHANT* p = reinterpret_cast<PACKET_CZ_REQUEST_RESET_ENCHANT*>( RFIFOP( fd, 0 ) );
+ 
+-	if( sd->state.item_enchant_index != p->enchant_group ){
++	if( clif_enchantwindow_group( *sd ) != p->enchant_group ){
+ 		return;
+ 	}
+@@ -24953,18 +24981,20 @@ void clif_parse_enchantwindow_reset( int32 fd, map_session_data* sd ){
+ 
+ 	std::unordered_map<uint16, uint16> materials;
+ 
+-	for( const auto& entry : enchant->reset.materials ){
+-		int16 idx = pc_search_inventory( sd, entry.first );
++	if( !clif_enchantwindow_is_zeny_only( *sd ) ){
++		for( const auto& entry : enchant->reset.materials ){
++			int16 idx = pc_search_inventory( sd, entry.first );
+ 
+-		if( idx < 0 ){
+-			return;
+-		}
++			if( idx < 0 ){
++				return;
++			}
+ 
+-		if( sd->inventory.u.items_inventory[idx].amount < entry.second ){
+-			return;
+-		}
++			if( sd->inventory.u.items_inventory[idx].amount < entry.second ){
++				return;
++			}
+ 
+-		materials[idx] = entry.second;
++			materials[idx] = entry.second;
++		}
+ 	}
+ 
+ 	if( pc_payzeny( sd, enchant->reset.zeny, LOG_TYPE_ENCHANT ) != 0 ){
+diff --git a/src/map/script.cpp b/src/map/script.cpp
+--- a/src/map/script.cpp
++++ b/src/map/script.cpp
+@@ -27391,6 +27391,30 @@ BUILDIN_FUNC(item_enchant){
+ #endif
+ }
+ 
++BUILDIN_FUNC(item_enchant_zeny){
++#if !( PACKETVER_RE_NUM >= 20211103 || PACKETVER_MAIN_NUM >= 20220330 )
++	ShowError( "buildin_item_enchant_zeny: This command requires packet version 2021-11-03 or newer.\n" );
++	return SCRIPT_CMD_FAILURE;
++#else
++	map_session_data* sd;
++
++	if( !script_charid2sd( 3, sd ) ){
++		return SCRIPT_CMD_FAILURE;
++	}
++
++	uint64 clientLuaIndex = script_getnum64( st, 2 );
++
++	if( !item_enchant_db.exists( clientLuaIndex ) ){
++		ShowError( "buildin_item_enchant_zeny: %" PRIu64 " is not a valid item enchant index.\n", clientLuaIndex );
++		return SCRIPT_CMD_FAILURE;
++	}
++
++	clif_enchantwindow_open_zeny( *sd, clientLuaIndex );
++
++	return SCRIPT_CMD_SUCCESS;
++#endif
++}
++
+ /**
+ * Generate item link string for client
+ * itemlink(<item_id>,<refine>,<card0>,<card1>,<card2>,<card3>,<enchantgrade>{,<RandomIDArray>,<RandomValueArray>,<RandomParamArray>});
+@@ -28631,6 +28655,7 @@ struct script_function buildin_func[] = {
+ 	BUILDIN_DEF(add_reputation_points, "ii?"),
+ 	BUILDIN_DEF(item_reform, "??"),
+ 	BUILDIN_DEF(item_enchant, "i?"),
++	BUILDIN_DEF(item_enchant_zeny, "i?"),
+ 	BUILDIN_DEF(itemlink, "i?????????"),
+ 	BUILDIN_DEF(mesitemlink, "v??"),
+ 	BUILDIN_DEF(addfame, "i?"),

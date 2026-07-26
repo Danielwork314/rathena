@@ -1,0 +1,54 @@
+Enchant and Warper Audit
+=========================
+
+Enchant database access
+-----------------------
+New NPC: Enchant Database Manager#custom_db
+Location: prontera 156,176
+
+The manager exposes every active item_enchant group that has no existing item_enchant() script entry in this NPC package.
+Existing entry groups excluded: 1, 2, 3, 4, 5, 33
+Unsupported/skipped database groups excluded: 7-13, 117-124, 128, 132, 142, 163, 164
+Newly exposed active groups:
+6, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 125, 126, 127, 129, 130, 131, 133, 134, 135, 136, 137, 138, 139, 140, 141, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162
+
+Important recent groups:
+- 143: Gaebolg Armor / Robe
+- 144: Gaebolg Manteau / Muffler
+- 145: Gaebolg Boots / Shoes
+- 146: Gaebolg Accessories
+- 147: Furious Weapons
+- 148: Furious Circlets
+- 149: Furious Boots
+- 150: Time Gap Weapons
+- 151: Rising Circlet
+- 152: Yorscalp Armor / Robe
+- 153: Yorscalp Manteau / Muffler
+- 154: Yorscalp Boots / Shoes
+- 155: Yorscalp Accessories
+- 156: Yorscalp Crowns
+- 157: Royal Hunting Armor
+- 158: Royal Hunting Manteau
+- 159: Royal Hunting Boots
+- 160: Entwined Armor / Robe
+- 161: Entwined Manteau / Muffler
+- 162: Entwined Boots / Shoes
+
+The manager uses official item_enchant database prices, materials, refine requirements, grade requirements and slot rules.
+
+Warper dungeon audit
+--------------------
+Added:
+- Garden of Time hub: t_garden (116,47)
+- Spirit Sanctuary Area 1: for_dun01 (159,35)
+- Spirit Sanctuary Area 2: for_dun02 (33,55)
+- Werner Laboratory: slabw01 (14,88)
+- Inside Glast Heim: gl_in01 (77,68)
+- Underground Swamp Zone: tur_dun05 (89,69)
+
+Intentional exclusions from the general dungeon list:
+- kh_kiehl01: quest-controlled Kiehl interior, not a normal dungeon entrance
+- rockmi2: quest/event restricted map with nowarp/nowarpto flags
+- treasure_n1 and treasure_n2: academy/new-player variants; the normal Sunken Ship floors are already listed
+
+Result: all ordinary static Renewal dungeon maps found in the dungeon monster/warp scripts are covered, while quest-only and training variants remain excluded.

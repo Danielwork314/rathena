@@ -1,0 +1,23 @@
+Validation summary
+==================
+
+PASS - Python source modifier compiles with Python 3.
+PASS - Synthetic upstream source transformation completed.
+PASS - Native item_enchant() command remains unchanged.
+PASS - New item_enchant_zeny() command is independently registered.
+PASS - Four enchant request types are covered:
+       1. random/general enchant
+       2. perfect/selectable enchant
+       3. enchant upgrade
+       4. enchant reset
+PASS - All four request types preserve Zeny checks and payments.
+PASS - Only material validation is bypassed in Zeny-only mode.
+PASS - Standard official enchant windows retain material validation.
+PASS - Manager still lists 138 enabled missing enchant groups.
+PASS - Manager uses item_enchant_zeny(), not item_enchant().
+PASS - Manager NPC remains at prontera,156,176.
+PASS - NPC file uses CRLF line endings.
+
+Not runtime-tested:
+- No rAthena compiler or matching game client was available in this environment.
+- Client EnchantList.lub may continue to display official material requirements.
