@@ -4,7 +4,7 @@
 //= enchant pools, chances, failure and destruction rules remain.
 //============================================================
 
-mal_in01,24,113,3	script	Aver De Dosh#custom_zeny	4_WHITETIGER,{
+prontera,171,157,3	script	Aver De Dosh#custom_zeny	4_WHITETIGER,{
 	disable_items;
 	mes "[Aver De Dosh]";
 	mes "Welcome to Fashion Stone!!";
@@ -842,7 +842,7 @@ mal_in01,24,113,3	script	Aver De Dosh#custom_zeny	4_WHITETIGER,{
 }
 
 // Costume enchant (garment)
-mal_in01,22,107,3	script	Lace La Zard#custom_zeny	4_FROG,{
+prontera,171,154,3	script	Lace La Zard#custom_zeny	4_FROG,{
 	disable_items;
 	mes "[Lace La Zard]";
 	mes "Welcome to Fashion Stone!!";

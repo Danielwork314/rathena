@@ -17,7 +17,7 @@
 
 // Main NPC :: 201105_luk_enc
 //============================================================
-itemmall,31,71,3	script	Devil Enchant Master#custom_zeny	63,{
+prontera,171,175,3	script	Devil Enchant Master#custom_zeny	63,{
 	disable_items;
 	if (checkweight(1201,1) == 0) {
 		mes "You are carrying too many items, please reduce it and come back again!";

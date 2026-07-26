@@ -3,7 +3,7 @@
 //= Based on npc/re/merchants/enchan_illusion_dungeons.txt
 //============================================================
 
-prontera,92,115,5	script	Illusion Enchanter#custom_zeny	4_GEFFEN_09,3,3,{
+prontera,171,135,5	script	Illusion Enchanter#custom_zeny	4_GEFFEN_09,3,3,{
 	if (checkweight(1201,1) == 0 || MaxWeight - Weight < 2000) {
 		mes "I'm overweight. I'd better lighten my bag first.";
 		close;

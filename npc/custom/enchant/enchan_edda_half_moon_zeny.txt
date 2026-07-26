@@ -8,7 +8,7 @@
 //= 1.1 Clean-up [Capuche]
 //============================================================
 
-rachel,179,139,3	script	Temple Item Manager#custom_zeny	4_M_TRAINEE,{
+prontera,171,208,3	script	Temple Item Manager#custom_zeny	4_M_TRAINEE,{
 	disable_items;
 	if (MaxWeight - Weight < 1000 || checkweight(5819,1) == 0) {
 		npctalk "Reduce your weight please.", "", bc_self;

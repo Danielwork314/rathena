@@ -4,7 +4,7 @@
 //= enchant pools, chances, failure and destruction rules remain.
 //============================================================
 
-xmas,242,294,3	script	Black Beard Joe#custom_zeny	4_M_05,{
+prontera,171,163,3	script	Black Beard Joe#custom_zeny	4_M_05,{
 	disable_items;
 	if (checkweight(1201,1) == 0) {
 		mes "The kind of items you have is too various. Retry after reducing the sort of items.";

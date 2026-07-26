@@ -1,0 +1,321 @@
+﻿Monster ID,AegisName,Name,Level,Exclusion Reason,First Enabled Reference
+1877,CRYSTAL_5,Crystal,1,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+1951,CRYSTAL_6,Crystal,1,Utility/event target with less than 500 HP; not a practical private-room combat boss,npc/events/god_se_festival.txt:176
+1952,CRYSTAL_7,Crystal,1,Utility/event target with less than 500 HP; not a practical private-room combat boss,npc/events/god_se_festival.txt:177
+1953,CRYSTAL_8,Crystal,1,Utility/event target with less than 500 HP; not a practical private-room combat boss,npc/events/god_se_festival.txt:178
+1954,CRYSTAL_9,Crystal,1,Utility/event target with less than 500 HP; not a practical private-room combat boss,npc/events/god_se_festival.txt:179
+2080,CRYSTAL_L,Crystal,1,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+1396,CRYSTAL_2,Earth Crystal,1,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+1397,CRYSTAL_3,Fire Crystal,1,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+20351,MD_MANHOLE2,Manhole,1,Immune to all normal damage categories in mob_db; not generically fightable,npc/re/instances/OsOccupation.txt:654
+1815,EVENT_RICECAKE,Rice Cake,1,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+1955,TREASURE_BOX_I,Treasure Chest,1,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+1398,CRYSTAL_4,Water Crystal,1,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+1395,CRYSTAL_1,Wind Crystal,1,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+1879,ECLIPSE_P,Eclipse,6,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+1247,ANTONIO,Antonio,10,Utility/event target with less than 500 HP; not a practical private-room combat boss,npc/custom/etc/monster_arena.txt:95
+1806,G_EREMES_,Assassin Cross Eremes,10,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+1962,ANTONIO_,Christmas Thief,10,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+2408,DUMMY_10,Dummy 10,10,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/jobs/novice/academy.txt:3837
+2413,DUMMY_10_FIRE,Dummy 10,10,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/jobs/novice/academy.txt:3835
+1808,G_MAGALETA_,High Priest Margaretha,10,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+1810,G_KATRINN_,High Wizard Kathryne,10,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+3203,INORGANIC_JAKK,Inorganic Pumpkin,10,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+1805,G_SEYREN_,Lord Knight Seyren,10,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+1807,G_HARWORD_,Mastersmith Howard,10,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+3202,ORGANIC_JAKK,Organic Pumpkin,10,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+1809,G_SHECIL_,Sniper Cecil,10,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+1816,EVENT_GOURD,Gourd,12,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+2150,WATERMELON,Ripe Watermelon,12,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+1690,G_SPRING_RABBIT,Spring Rabbit,12,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+1841,G_SNAKE_,Snake Lord's Minion,15,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+1828,EVENT_GULLINBURSTI,Gullinbursti,20,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+1842,G_ANACONDAQ_,Snake Lord's Minion,23,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+1904,BOMBPORING,Bomb Poring,28,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+1591,A_LUNATIC,Lunatic,29,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+1610,A_MUNAK,Munak,30,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+1136,KOBOLD_4,Kobold,31,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+1137,KOBOLD_5,Kobold,31,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+1843,G_SIDE_WINDER_,Snake Lord's Minion,43,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+1844,G_ISIS_,Snake Lord's Minion,47,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+1848,EVENT_BAPHOMET,Baphomet,50,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+2409,DUMMY_50,Dummy 50,50,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+2001,F_GAMEMASTER,Female Game Master,50,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+2000,M_GAMEMASTER,Male Game Master,50,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+1850,EVENT_ORCHERO,Orc Hero,50,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+1593,A_ANCIENT_MUMMY,Ancient Mummy,52,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+1612,A_HYEGUN,Yao Jun,56,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+1611,A_BON_GUN,Bongun,59,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+1849,EVENT_OSIRIS,Osiris,60,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+1449,G_MUTANT_DRAGON,Mutant Dragonoid,65,Exact-stat slave/quest clone of enabled ID 1262 (MUTANT_DRAGON),npc/other/powernpc.txt:199
+2933,T_DEVILING,Deviling,66,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+1456,G_CHIMERA,Chimera,70,Exact-stat slave/quest clone of enabled ID 1283 (CHIMERA),npc/other/powernpc.txt:199
+1966,M_DOPPELGANGER,Doppelganger,72,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+1568,G_ANGELING,Angeling,77,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+2079,CRYSTAL_H,Crystal,77,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+1731,G_DOPPELGANGER,Doppelganger,77,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+1967,M_YGNIZEM,Egnigem Cenia,79,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+1900,BOW_GUARDIAN_,Archer Guardian,80,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+1932,GARDEN_KEEPER,Garden Keeper,80,Utility/event target with less than 500 HP; not a practical private-room combat boss,npc/quests/okolnir.txt:2361
+1814,EVENT_MOON,Moonlight Flower,80,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+1897,EVENT_BAPHOMET_,Baphomet,81,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+2008,WOOMAWANG,Woomawang,82,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+2009,WOOMAWANG_,Woomawang,82,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+1609,G_DANCING_DRAGON,Zhu Po Long,82,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+2215,M_KASA,Kasa,83,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+2934,T_ARCHANGELING,Arc Angeling,84,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+3514,POPE_MD_E_BISHOP,Enraged High Priest,87,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+2216,M_SALAMANDER,Salamander,87,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+1846,DREAMMETAL,Dream Metal,90,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+1288,EMPELIUM,Emperium,90,Utility/event target with less than 500 HP; not a practical private-room combat boss,npc/guild2/agit_main_se.txt:108
+3516,POPE_MD_E_LUWMIN,Enraged Luwmin,90,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+1576,G_GHOSTRING,Ghostring,90,Exact-stat slave/quest clone of enabled ID 1120 (GHOSTRING),npc/other/arena/arena_party.txt:781
+1907,S_EMPEL_1,Guardian Stone,90,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+1908,S_EMPEL_2,Guardian Stone,90,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+1947,PIAMETTE_,Piamette,90,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+2599,G_WILD_RIDER,Wild Rider,95,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+1605,G_DARK_ILLUSION,Dark Illusion,96,Exact-stat slave/quest clone of enabled ID 1302 (DARK_ILLUSION),npc/quests/the_sign_quest.txt:12355
+1689,G_BACSOJIN,White Lady,97,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+1934,BLUE_FLOWER,Blue Flower,98,Immune to all normal damage categories in mob_db; not generically fightable,npc/quests/okolnir.txt:830
+1847,EVENT_PORING,Poring,98,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+1935,RED_FLOWER,Red Flower,98,Immune to all normal damage categories in mob_db; not generically fightable,npc/quests/okolnir.txt:867
+1936,YELL_FLOWER,Yellow Flower,98,Immune to all normal damage categories in mob_db; not generically fightable,npc/quests/okolnir.txt:905
+1852,G_EM_ANGELING,Angeling,99,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+1800,B_EREMES_,Assassin Cross Eremes,99,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+2318,BANGUNGOT_2,Bangungot,99,Immune to all normal damage categories in mob_db; not generically fightable,npc/re/instances/BangungotHospital.txt:967
+1853,G_EM_DEVILING,Deviling,99,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+1840,GOLDEN_SAVAGE,Golden Savage,99,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+1802,B_MAGALETA_,High Priest Margaretha,99,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+1804,B_KATRINN_,High Wizard Kathryne,99,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+1799,B_SEYREN_,Lord Knight Seyren,99,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+1801,B_HARWORD_,Mastersmith Howard,99,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+1803,B_SHECIL_,Sniper Cecil,99,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+1902,E_TREASURE1,Treasure Box,99,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+1903,E_TREASURE2,Treasure Box,99,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+2323,EVENT_BOMB,Bomb Poring,100,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+2186,COELACANTH_N_E,Coelacanth,100,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+22636,S_DUMMY2_ANGEL,Dummy (Angel Race),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:154
+22646,S_DUMMY3_ANGEL,Dummy (Angel Race),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:235
+22630,S_DUMMY2_ANIMAL,Dummy (Brute Race),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:157
+22640,S_DUMMY3_ANIMAL,Dummy (Brute Race),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:238
+21084,S_DUMMY_100_DARKNESS,Dummy (Dark Lv1),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:50
+22655,S_DUMMY2_DARKNESS,Dummy (Dark),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:133
+22665,S_DUMMY3_DARKNESS,Dummy (Dark),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:214
+22634,S_DUMMY2_DEMON,Dummy (Demon Race),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:158
+22644,S_DUMMY3_DEMON,Dummy (Demon Race),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:239
+21088,S_DUMMY_100_DORAMP,Dummy (Doram Player),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:26
+22629,S_DUMMY2_DRAGON,Dummy (Dragon Race),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:155
+22639,S_DUMMY3_DRAGON,Dummy (Dragon Race),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:236
+21079,S_DUMMY_100_GROUND,Dummy (Earth Lv1),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:54
+22650,S_DUMMY2_GROUND,Dummy (Earth),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:132
+22660,S_DUMMY3_GROUND,Dummy (Earth),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:213
+22554,S_DUMMY_XLARGE_R40,Dummy (Extra Large),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:24
+22558,S_DUMMY_XLARGE_R50,Dummy (Extra Large),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:23
+22567,S_DUMMY_XLARGE1_R40,Dummy (Extra Large),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:107
+22571,S_DUMMY_XLARGE1_R50,Dummy (Extra Large),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:106
+22581,S_DUMMY_XLARGE2_R40,Dummy (Extra Large),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:188
+22585,S_DUMMY_XLARGE2_R50,Dummy (Extra Large),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:187
+22592,S_DUMMY_XLARGE_M40,Dummy (Extra Large),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:42
+22596,S_DUMMY_XLARGE_M50,Dummy (Extra Large),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:41
+22606,S_DUMMY_XLARGE1_M40,Dummy (Extra Large),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:124
+22610,S_DUMMY_XLARGE1_M50,Dummy (Extra Large),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:123
+22620,S_DUMMY_XLARGE2_M40,Dummy (Extra Large),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:204
+22624,S_DUMMY_XLARGE2_M50,Dummy (Extra Large),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:205
+21080,S_DUMMY_100_FIRE,Dummy (Fire Lv1),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:49
+22651,S_DUMMY2_FIRE,Dummy (Fire),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:131
+22661,S_DUMMY3_FIRE,Dummy (Fire),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:212
+22633,S_DUMMY2_FISH,Dummy (Fish Race),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:160
+22643,S_DUMMY3_FISH,Dummy (Fish Race),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:241
+22628,S_DUMMY2_NOTHING,Dummy (Formless Race),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:153
+22638,S_DUMMY3_NOTHING,Dummy (Formless Race),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:234
+21085,S_DUMMY_100_TELEKINESIS,Dummy (Ghost Lv1),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:56
+22656,S_DUMMY2_TELEKINESIS,Dummy (Ghost),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:136
+22666,S_DUMMY3_TELEKINESIS,Dummy (Ghost),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:217
+21083,S_DUMMY_100_SAINT,Dummy (Holy Lv1),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:57
+22654,S_DUMMY2_SAINT,Dummy (Holy),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:138
+22664,S_DUMMY3_SAINT,Dummy (Holy),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:219
+21087,S_DUMMY_100_HUMANP,Dummy (Human Player),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:27
+22631,S_DUMMY2_HUMAN,Dummy (Human Race),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:159
+22641,S_DUMMY3_HUMAN,Dummy (Human Race),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:240
+22632,S_DUMMY2_INSECT,Dummy (Insect Race),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:161
+22642,S_DUMMY3_INSECT,Dummy (Insect Race),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:242
+22553,S_DUMMY_LARGE_R10,Dummy (Large),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:21
+22557,S_DUMMY_LARGE_R20,Dummy (Large),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:20
+22563,S_DUMMY_LARGE1,Dummy (Large),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:105
+22566,S_DUMMY_LARGE1_R10,Dummy (Large),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:104
+22570,S_DUMMY_LARGE1_R20,Dummy (Large),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:103
+22574,S_DUMMY_LARGE1_R30,Dummy (Large),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:102
+22577,S_DUMMY_LARGE2,Dummy (Large),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:186
+22580,S_DUMMY_LARGE2_R10,Dummy (Large),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:185
+22584,S_DUMMY_LARGE2_R20,Dummy (Large),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:184
+22588,S_DUMMY_LARGE2_R30,Dummy (Large),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:183
+22591,S_DUMMY_LARGE_M10,Dummy (Large),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:39
+22595,S_DUMMY_LARGE_M20,Dummy (Large),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:38
+22599,S_DUMMY_LARGE_M30,Dummy (Large),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:37
+22602,S_DUMMY_LARGE3,Dummy (Large),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:122
+22605,S_DUMMY_LARGE3_M10,Dummy (Large),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:121
+22609,S_DUMMY_LARGE3_M20,Dummy (Large),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:120
+22613,S_DUMMY_LARGE3_M30,Dummy (Large),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:119
+22616,S_DUMMY_LARGE4,Dummy (Large),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:203
+22619,S_DUMMY_LARGE4_M10,Dummy (Large),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:202
+22623,S_DUMMY_LARGE4_M20,Dummy (Large),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:201
+22627,S_DUMMY_LARGE4_M30,Dummy (Large),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:200
+22668,S_DUMMY_LARGE_R30,Dummy (Large),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:19
+22552,S_DUMMY_MEDIUM_R10,Dummy (Medium),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:17
+22556,S_DUMMY_MEDIUM_R20,Dummy (Medium),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:16
+22560,S_DUMMY_MEDIUM_R30,Dummy (Medium),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:15
+22562,S_DUMMY_MEDIUM1,Dummy (Medium),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:101
+22565,S_DUMMY_MEDIUM1_R10,Dummy (Medium),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:100
+22569,S_DUMMY_MEDIUM1_R20,Dummy (Medium),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:99
+22573,S_DUMMY_MEDIUM1_R30,Dummy (Medium),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:98
+22576,S_DUMMY_MEDIUM2,Dummy (Medium),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:182
+22579,S_DUMMY_MEDIUM2_R10,Dummy (Medium),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:181
+22583,S_DUMMY_MEDIUM2_R20,Dummy (Medium),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:180
+22587,S_DUMMY_MEDIUM2_R30,Dummy (Medium),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:179
+22590,S_DUMMY_MEDIUM_M10,Dummy (Medium),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:35
+22594,S_DUMMY_MEDIUM_M20,Dummy (Medium),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:34
+22598,S_DUMMY_MEDIUM_M30,Dummy (Medium),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:33
+22601,S_DUMMY_MEDIUM3,Dummy (Medium),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:118
+22604,S_DUMMY_MEDIUM3_M10,Dummy (Medium),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:117
+22608,S_DUMMY_MEDIUM3_M20,Dummy (Medium),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:116
+22612,S_DUMMY_MEDIUM3_M30,Dummy (Medium),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:115
+22615,S_DUMMY_MEDIUM4,Dummy (Medium),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:199
+22618,S_DUMMY_MEDIUM4_M10,Dummy (Medium),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:198
+22622,S_DUMMY_MEDIUM4_M20,Dummy (Medium),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:197
+22626,S_DUMMY_MEDIUM4_M30,Dummy (Medium),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:196
+21077,S_DUMMY_100_NOTHING2,Dummy (Neutral Lv1),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:55
+22648,S_DUMMY2_NOTHING2,Dummy (Neutral),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:134
+22658,S_DUMMY3_NOTHING2,Dummy (Neutral),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:215
+22635,S_DUMMY2_PLANT,Dummy (Plant Race),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:156
+22645,S_DUMMY3_PLANT,Dummy (Plant Race),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:237
+21082,S_DUMMY_100_POISON,Dummy (Poison Lv1),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:51
+22653,S_DUMMY2_POISON,Dummy (Poison),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:135
+22663,S_DUMMY3_POISON,Dummy (Poison),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:216
+22551,S_DUMMY_SMALL_R10,Dummy (Small),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:13
+22555,S_DUMMY_SMALL_R20,Dummy (Small),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:12
+22559,S_DUMMY_SMALL_R30,Dummy (Small),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:11
+22561,S_DUMMY_SMALL1,Dummy (Small),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:97
+22564,S_DUMMY_SMALL1_R10,Dummy (Small),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:96
+22568,S_DUMMY_SMALL1_R20,Dummy (Small),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:95
+22572,S_DUMMY_SMALL1_R30,Dummy (Small),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:94
+22575,S_DUMMY_SMALL2,Dummy (Small),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:178
+22578,S_DUMMY_SMALL2_R10,Dummy (Small),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:177
+22582,S_DUMMY_SMALL2_R20,Dummy (Small),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:176
+22586,S_DUMMY_SMALL2_R30,Dummy (Small),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:175
+22589,S_DUMMY_SMALL_M10,Dummy (Small),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:31
+22593,S_DUMMY_SMALL_M20,Dummy (Small),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:30
+22597,S_DUMMY_SMALL_M30,Dummy (Small),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:29
+22600,S_DUMMY_SMALL3,Dummy (Small),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:114
+22603,S_DUMMY_SMALL3_M10,Dummy (Small),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:113
+22607,S_DUMMY_SMALL3_M20,Dummy (Small),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:112
+22611,S_DUMMY_SMALL3_M30,Dummy (Small),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:111
+22614,S_DUMMY_SMALL4,Dummy (Small),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:195
+22617,S_DUMMY_SMALL4_M10,Dummy (Small),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:194
+22621,S_DUMMY_SMALL4_M20,Dummy (Small),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:193
+22625,S_DUMMY_SMALL4_M30,Dummy (Small),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:192
+21086,S_DUMMY_100_UNDEAD2,Dummy (Undead Lv1),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:52
+22637,S_DUMMY2_UNDEAD,Dummy (Undead Race),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:152
+22647,S_DUMMY3_UNDEAD,Dummy (Undead Race),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:233
+22657,S_DUMMY2_UNDEAD2,Dummy (Undead),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:137
+22667,S_DUMMY3_UNDEAD2,Dummy (Undead),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:218
+21078,S_DUMMY_100_WATER,Dummy (Water Lv1),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:53
+22649,S_DUMMY2_WATER,Dummy (Water),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:130
+22659,S_DUMMY3_WATER,Dummy (Water),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:211
+21081,S_DUMMY_100_WIND,Dummy (Wind Lv1),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:48
+22652,S_DUMMY2_WIND,Dummy (Wind),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:129
+22662,S_DUMMY3_WIND,Dummy (Wind),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:210
+2410,DUMMY_100,Dummy 100,100,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+1791,G_GALION,Galion,100,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+3494,IFN_POIRING,Shining Poring,100,Utility/event target with less than 500 HP; not a practical private-room combat boss,npc/re/instances/InfiniteSpace.txt:229
+21075,S_DUMMY_100_ANGEL,Training Dummy (Angel),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:73
+21069,S_DUMMY_100_ANIMAL,Training Dummy (Brute),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:76
+21073,S_DUMMY_100_DEMON,Training Dummy (Demon),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:77
+21068,S_DUMMY_100_DRAGON,Training Dummy (Dragon),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:74
+21072,S_DUMMY_100_FISH,Training Dummy (Fish),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:79
+21070,S_DUMMY_100_HUMAN,Training Dummy (Human),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:78
+21071,S_DUMMY_100_INSECT,Training Dummy (Insect),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:80
+21066,S_DUMMY_100_LARGE,Training Dummy (Large),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:22
+21065,S_DUMMY_100_MEDIUM,Training Dummy (Medium),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:18
+21067,S_DUMMY_100_NOTHING,Training Dummy (Neutral),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:72
+21074,S_DUMMY_100_PLANT,Training Dummy (Plant),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:75
+21064,S_DUMMY_100_SMALL,Training Dummy (Small),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:14
+21076,S_DUMMY_100_UNDEAD,Training Dummy (Undead),100,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/mobs/tra_fild_123.txt:71
+1487,G_EXECUTIONER,Executioner,101,Exact-stat slave/quest clone of enabled ID 1205 (EXECUTIONER),npc/other/powernpc.txt:199
+3425,MIN_CHIMERA,Infinite Chimera,105,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+3424,MIN_ECLIPSE,Infinite Eclipse,105,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+3421,MIN_TOAD,Infinite Toad,105,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+3422,MIN_VAGABOND_WOLF,Infinite Vagabond Wolf,105,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+1486,G_TIRFING,Ogretooth,114,Exact-stat slave/quest clone of enabled ID 1204 (TIRFING),npc/other/powernpc.txt:199
+2327,BANGUNGOT_3,Bangungot,115,Utility/event target with less than 500 HP; not a practical private-room combat boss,npc/re/instances/BangungotHospital.txt:842
+20347,MD_MIGUEL_G,Miguel G.,115,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+1795,BLOODY_KNIGHT_,Bloody Knight,116,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+2146,G_S_NYDHOG,Shade of Dragon,117,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+1756,G_HYDRO,Hydrolancer,121,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+2930,T_SOLACE,Solace,123,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+2206,KRAKEN_LEG,Kraken Tentacle,124,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+1872,BEELZEBUB_FLY,Hell Fly,127,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+1710,G_THA_DESPERO,Despero of Thanatos,129,Exact-stat slave/quest clone of enabled ID 1705 (THA_DESPERO),npc/re/mobs/dungeons/tha_t.txt:142
+1712,G_THA_DOLOR,Dolor of Thanatos,129,Exact-stat slave/quest clone of enabled ID 1707 (THA_DOLOR),npc/re/mobs/dungeons/tha_t.txt:120
+1711,G_THA_MAERO,Maero of Thanatos,129,Exact-stat slave/quest clone of enabled ID 1706 (THA_MAERO),npc/re/mobs/dungeons/tha_t.txt:131
+1709,G_THA_ODIUM,Odium of Thanatos,129,Exact-stat slave/quest clone of enabled ID 1704 (THA_ODIUM),npc/re/mobs/dungeons/tha_t.txt:153
+2172,I_G_HORN_SCARABA,Gold One-Horn Scaraba,130,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+1485,G_MYSTELTAINN,Mysteltainn,130,Exact-stat slave/quest clone of enabled ID 1203 (MYSTELTAINN),npc/other/powernpc.txt:201
+2138,NYDHOG_MEMORY1_1,Nydhoggur Memory,130,Utility/event target with less than 500 HP; not a practical private-room combat boss,npc/re/instances/HazyForest.txt:1003
+2139,NYDHOG_MEMORY1_2,Nydhoggur Memory,130,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+2140,NYDHOG_MEMORY2_1,Nydhoggur Memory,130,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+2141,NYDHOG_MEMORY2_2,Nydhoggur Memory,130,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+2142,NYDHOG_MEMORY3_1,Nydhoggur Memory,130,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+2143,NYDHOG_MEMORY3_2,Nydhoggur Memory,130,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+1763,G_SKEGGIOLD,Skeggiold,131,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+1764,G_SKEGGIOLD_,Skeggiold,131,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+1922,G_MOROCC_1,Shadow of Morocc,132,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+1923,G_MOROCC_2,Shadow of Morocc,132,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+1924,G_MOROCC_3,Shadow of Morocc,133,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+1899,SWORD_GUARDIAN_,Sword Guardian,133,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+2173,I_G_HORN_SCARABA2,Gold Two-Horn Scaraba,134,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+1925,G_MOROCC_4,Shadow of Morocc,134,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+1835,G_KASA,Kasa,135,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+2280,G_RUDO,Rudo,135,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+2170,I_G_ANTLER_SCARABA,Gold Antler Scaraba,136,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+2277,G_LORA,Warrior Laura,136,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+2279,G_SOHEON,Samurai Soheon,137,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+2278,G_ELVIRA,Elvira,138,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+1834,G_SALAMANDER,Salamander,138,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+2333,BUWAYA_WEAK,Weakpoint,138,Utility/event target with less than 500 HP; not a practical private-room combat boss,npc/re/instances/BuwayaCave.txt:257
+2171,I_G_RAKE_SCARABA,Gold Rake Scaraba,139,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+2335,MA_TREASURE,Bakonawa's Treasure,140,Utility/event target with less than 500 HP; not a practical private-room combat boss,npc/re/instances/BakonawaLake.txt:505
+3522,POPE_MD_H_BISHOP,Enraged High Priest,140,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+2288,GLD_TREASURE,Treasure Chest,140,Utility/event target with less than 500 HP; not a practical private-room combat boss,npc/re/mobs/dungeons/gld_re.txt:97
+2531,VENOM_BUG,Venom Bug,140,"No normal attack data; treated as a dummy, objective, or script mechanic",npc/re/instances/FacewormsNest.txt:1049
+2308,KO_KAGE,Zanzou,140,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+20647,EP17_2_BATH_MERMAID,Elder of Chung-Geum,141,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+1891,G_RANDGRIS_,Valkyrie,141,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+2196,MD_G_STROUF,Strouf,145,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+2988,XM_ANTONIO,Wicked Vice Plant Manage,149,Utility/event target with less than 500 HP; not a practical private-room combat boss,npc/re/instances/HorrorToyFactory.txt:939
+2411,DUMMY_150,Dummy 150,150,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+2536,HIDDEN_MOB3,Monster 3,151,Immune to all normal damage categories in mob_db; not generically fightable,npc/re/instances/OsOccupation.txt:269
+2537,HIDDEN_MOB4,Monster 4,151,Immune to all normal damage categories in mob_db; not generically fightable,npc/re/instances/WaterGarden.txt:964
+2539,HIDDEN_MOB5,Monster 5,151,Immune to all normal damage categories in mob_db; not generically fightable,npc/re/instances/FacewormsNest.txt:850
+3038,HIDDEN_MOB7,Monster 7,151,Immune to all normal damage categories in mob_db; not generically fightable,npc/re/instances/HorrorToyFactory.txt:1221
+3007,EP14_MORS_DUMMY,Death Soul,158,Immune to all normal damage categories in mob_db; not generically fightable,npc/re/instances/MorseCave.txt:322
+2562,GEFFEN_MAGE_12,Dwigh,160,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+2563,FEI_KANABIAN,Fay Kanavian,160,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+2922,G_OWL_VISCOUNT,Owl Viscount,168,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+20846,MD_HIDDEN_GROUND01,Plague of Corruption,170,Immune to all normal damage categories in mob_db; not generically fightable,npc/re/instances/VillaofDeception.txt:578
+20847,MD_HIDDEN_GROUND02,Plague of Corruption,170,Immune to all normal damage categories in mob_db; not generically fightable,npc/re/instances/VillaofDeception.txt:824
+22208,SPIRIT_C_LAND_S,L Polluted Earth Spirit,263,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+22232,SPIRIT_C_WATER_S,L Polluted Water Spirit,263,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+22212,SPIRIT_C_FLAME_S,L Tainted Flame Spirit,263,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+22236,SPIRIT_C_WIND_S,L Tainted Wind Spirit,263,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+22209,SPIRIT_C_LAND_M,Polluted Earth Spirit,264,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+22233,SPIRIT_C_WATER_M,Polluted Water Spirit,264,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+22213,SPIRIT_C_FLAME_M,Tainted Flame Spirit,264,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+22237,SPIRIT_C_WIND_M,Tainted Wind Spirit,264,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+22210,SPIRIT_C_LAND_L,G Polluted Earth Spirit,265,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+22234,SPIRIT_C_WATER_L,G Polluted Water Spirit,265,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+22214,SPIRIT_C_FLAME_L,G Tainted Flame Spirit,265,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+22238,SPIRIT_C_WIND_L,G Tainted Wind Spirit,265,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+22211,SPIRIT_C_LAND_SL,M Polluted Earth Spirit,265,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+22235,SPIRIT_C_WATER_SL,M Polluted Water Spirit,265,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+22215,SPIRIT_C_FLAME_SL,M Tainted Flame Spirit,265,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,
+22239,SPIRIT_C_WIND_SL,M Tainted Wind Spirit,265,No confirmed reference in an enabled script imported by npc/re/scripts_main.conf,

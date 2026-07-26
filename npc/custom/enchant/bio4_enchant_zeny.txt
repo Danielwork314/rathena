@@ -4,7 +4,7 @@
 //= enchant pools, chances, failure and destruction rules remain.
 //============================================================
 
-lhz_cube,235,24,4	script	Sorcerer#custom_zeny	4_M_UMDANCEKID,{
+prontera,171,166,4	script	Sorcerer#custom_zeny	4_M_UMDANCEKID,{
 	if ((MaxWeight - Weight) < 1200 || !checkweight(1201, 1)) {
 		mes "^FF0000 Check up your inventory. You got too many items to carry out the quest. ^000000";
 		close;

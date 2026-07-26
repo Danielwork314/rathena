@@ -1,101 +1,230 @@
 //===== rAthena Script =======================================
-//= Private MVP & Branch Room
-//===== By: ==================================================
-//= AnnieRuru
+//= Private MVP & Mini Boss Room - Free 20 Second Respawn
+//===== Based On: ============================================
+//= AnnieRuru / Euphy Private MVP & Branch Room
 //===== Current Version: =====================================
-//= 1.0
+//= 2.0
 //===== Compatible With: =====================================
-//= rAthena Project
+//= rAthena Project (Renewal)
 //===== Description: =========================================
-//= Allows players to rent an MVP room for personal use,
-//= or for a party or guild.
-//===== Additional Comments: =================================
-//= 1.0 First version, edited. [Euphy]
+//= Eight private rooms reserved for a party, guild, or account.
+//= Entry and summoning are free. The selected monster respawns
+//= automatically 20 seconds after death for the same 60-minute rental.
+//=
+//= Validated roster:
+//= - 151 implemented, generically fightable MVP entries;
+//= - 222 implemented, combat-capable Boss-class non-MVP entries.
+//= Menus are grouped by level and paginated.
 //============================================================
+
+function	script	F_MvpRoomSelectMonster	{
+	.@start = getarg(0);
+	.@size = getarg(1);
+	.@title$ = getarg(2);
+
+	mes "[" + .@title$ + "]";
+	mes "Choose a level range.";
+	next;
+	.@category = select(
+		"Level 1-99",
+		"Level 100-149",
+		"Level 150-199",
+		"Level 200-249",
+		"Level 250+",
+		"All levels",
+		"Cancel"
+	);
+	if (.@category == 7)
+		return 0;
+
+	switch (.@category) {
+	case 1:
+		.@minimum = 1;
+		.@maximum = 99;
+		break;
+	case 2:
+		.@minimum = 100;
+		.@maximum = 149;
+		break;
+	case 3:
+		.@minimum = 150;
+		.@maximum = 199;
+		break;
+	case 4:
+		.@minimum = 200;
+		.@maximum = 249;
+		break;
+	case 5:
+		.@minimum = 250;
+		.@maximum = 9999;
+		break;
+	default:
+		.@minimum = 1;
+		.@maximum = 9999;
+		break;
+	}
+
+	deletearray .@matches[0], getarraysize(.@matches);
+	.@match_count = 0;
+	for (.@i = 0; .@i < .@size; ++.@i) {
+		.@mob_id = $@MVP_ROOM_MONSTER_ID[.@start + .@i];
+		.@level = getmonsterinfo(.@mob_id, MOB_LV);
+		if (.@level >= .@minimum && .@level <= .@maximum)
+			.@matches[.@match_count++] = .@mob_id;
+	}
+
+	if (!.@match_count) {
+		mes "[" + .@title$ + "]";
+		mes "There are no validated monsters in this level range.";
+		return 0;
+	}
+
+	.@per_page = 6;
+	.@page = 0;
+	while (1) {
+		.@offset = .@page * .@per_page;
+		.@remaining = .@match_count - .@offset;
+		.@shown = (.@remaining > .@per_page) ? .@per_page : .@remaining;
+		.@menu$ = "";
+
+		for (.@i = 0; .@i < .@shown; ++.@i) {
+			.@mob_id = .@matches[.@offset + .@i];
+			.@menu$ += getmonsterinfo(.@mob_id, MOB_NAME)
+				+ " [Lv " + getmonsterinfo(.@mob_id, MOB_LV)
+				+ " / ID " + .@mob_id + "]:";
+		}
+
+		.@has_previous = (.@page > 0);
+		.@has_next = ((.@offset + .@shown) < .@match_count);
+		if (.@has_previous)
+			.@menu$ += "^777777Previous page^000000:";
+		if (.@has_next)
+			.@menu$ += "^0055FFNext page^000000:";
+		.@menu$ += "Cancel";
+
+		clear;
+		mes "[" + .@title$ + "]";
+		mes "Choose the monster to summon.";
+		mes "It will return automatically 20 seconds after every defeat.";
+		.@choice = select(.@menu$) - 1;
+
+		if (.@choice < .@shown)
+			return .@matches[.@offset + .@choice];
+
+		.@navigation = .@choice - .@shown;
+		if (.@has_previous) {
+			if (.@navigation == 0) {
+				--.@page;
+				continue;
+			}
+			--.@navigation;
+		}
+		if (.@has_next && .@navigation == 0) {
+			++.@page;
+			continue;
+		}
+		return 0;
+	}
+}
 
 prontera,148,174,5	script	Private MVP Room	100,{
 	mes "[Private MVP Room]";
-	mes "Please select a private MVP room.";
-	if ( getvariableofnpc( .rentcost, "MVP Summoner" ) )
-		mes "The cost to rent a room for "+ getvariableofnpc( .timeout, "MVP Summoner" ) +" minutes is "+ callfunc("F_InsertComma", getvariableofnpc( .rentcost, "MVP Summoner" ) ) +" zeny.";
-	else
-		mes "You can only use the room for only "+ getvariableofnpc( .timeout, "MVP Summoner" ) +" minutes.";
+	mes "Select one of the eight private rooms.";
+	mes "Entry and all monster summons are ^0055FFfree^000000.";
+	mes "Each reservation lasts "
+		+ getvariableofnpc(.timeout, "MVP Summoner") + " minutes.";
 	mes " ";
-	for ( .@i = 1; .@i <= 8; .@i++ )
-		if ( getvariableofnpc( .renttime[.@i], "MVP Summoner" ) )
-			mes "Room #"+ .@i +" = "+ .color$[ .type[.@i] ] + .whoinuse$[.@i] +"^000000";
+	for (.@i = 1; .@i <= 8; ++.@i)
+		if (getvariableofnpc(.renttime[.@i], "MVP Summoner"))
+			mes "Room #" + .@i + " = " + .color$[.type[.@i]]
+				+ .whoinuse$[.@i] + "^000000";
 	next;
+
 	.@room = select(
-		"MVP Room 1 ["+ getmapusers("06guild_01") +"]",
-		"MVP Room 2 ["+ getmapusers("06guild_02") +"]",
-		"MVP Room 3 ["+ getmapusers("06guild_03") +"]",
-		"MVP Room 4 ["+ getmapusers("06guild_04") +"]",
-		"MVP Room 5 ["+ getmapusers("06guild_05") +"]",
-		"MVP Room 6 ["+ getmapusers("06guild_06") +"]",
-		"MVP Room 7 ["+ getmapusers("06guild_07") +"]",
-		"MVP Room 8 ["+ getmapusers("06guild_08") +"]");
-	if ( getvariableofnpc( .renttime[.@room], "MVP Summoner" ) ) {
-		if ( .inuseid[.@room] == getcharid( .type[.@room] ) ) {
-			warp "06guild_0"+ .@room, 0,0;
-			close;
-		} else {
-			mes "[Private MVP Room]";
-			mes "This room is reserved for ";
-			mes .color$[ .type[.@room] ] + .whoinuse$[.@room] +"^000000.";
-			mes "Please select another.";
+		"MVP Room 1 [" + getmapusers("06guild_01") + "]",
+		"MVP Room 2 [" + getmapusers("06guild_02") + "]",
+		"MVP Room 3 [" + getmapusers("06guild_03") + "]",
+		"MVP Room 4 [" + getmapusers("06guild_04") + "]",
+		"MVP Room 5 [" + getmapusers("06guild_05") + "]",
+		"MVP Room 6 [" + getmapusers("06guild_06") + "]",
+		"MVP Room 7 [" + getmapusers("06guild_07") + "]",
+		"MVP Room 8 [" + getmapusers("06guild_08") + "]"
+	);
+
+	if (getvariableofnpc(.renttime[.@room], "MVP Summoner")) {
+		if (.inuseid[.@room] == getcharid(.type[.@room])) {
+			warp "06guild_0" + .@room, 0, 0;
 			close;
 		}
+		mes "[Private MVP Room]";
+		mes "This room is reserved for";
+		mes .color$[.type[.@room]] + .whoinuse$[.@room] + "^000000.";
+		mes "Please select another room.";
+		close;
 	}
+
 	mes "[Private MVP Room]";
-	mes "Reserve this room for...";
+	mes "Reserve this free room for...";
 	next;
-	set .@type, select( "For my party members", "For my guild members", "For personal account use" );
-	if ( !getcharid(.@type) ) {
+	.@type = select(
+		"For my party members",
+		"For my guild members",
+		"For personal account use"
+	);
+
+	if (!getcharid(.@type)) {
 		mes "[Private MVP Room]";
-		mes "You do not own a "+( ( .@type == 1 )? "Party" : "Guild" )+".";
+		mes "You do not own a " + ((.@type == 1) ? "Party" : "Guild") + ".";
 		close;
 	}
-	else if ( Zeny < getvariableofnpc( .rentcost, "MVP Summoner" ) ) {
-		mes "You don't have enough zeny to rent a room.";
-		close;
-	}
-	else if ( getvariableofnpc( .renttime[.@room], "MVP Summoner" ) ) {
+	if (getvariableofnpc(.renttime[.@room], "MVP Summoner")) {
 		mes "[Private MVP Room]";
-		mes "I'm sorry, somebody else has already registered this room faster than you.";
+		mes "Somebody else registered this room first.";
 		close;
 	}
-	for ( .@i = 1; .@i <= 8; .@i++ ) {
-		if ( ( getvariableofnpc( .renttime[.@i], "MVP Summoner" ) ) && .@type == .type[.@i] && getcharid(.@type) == .inuseid[.@i] ) {
+
+	for (.@i = 1; .@i <= 8; ++.@i) {
+		if (getvariableofnpc(.renttime[.@i], "MVP Summoner")
+			&& .@type == .type[.@i]
+			&& getcharid(.@type) == .inuseid[.@i]) {
 			mes "[Private MVP Room]";
-			mes "You already rented Room#"+ .@i +". Use that room instead.";
+			mes "You already reserved Room #" + .@i + ".";
 			close;
 		}
 	}
-	set .type[.@room], .@type;
-	set .inuseid[.@room], getcharid(.@type);
-	set .whoinuse$[.@room], strcharinfo( ( .@type == 3 )? 0 : .@type );
-	Zeny -= getvariableofnpc( .rentcost, "MVP Summoner" );
-	warp "06guild_0"+ .@room, 0,0;
-	killmonsterall "06guild_0"+ .@room;
-	donpcevent "MVP Summoner#"+ .@room +"::OnEnterMap";
+
+	.type[.@room] = .@type;
+	.inuseid[.@room] = getcharid(.@type);
+	.whoinuse$[.@room] = strcharinfo((.@type == 3) ? 0 : .@type);
+
+	killmonsterall "06guild_0" + .@room;
+	warp "06guild_0" + .@room, 0, 0;
+	donpcevent "MVP Summoner#" + .@room + "::OnEnterMap";
 	close;
+
 OnInit:
-	.color$[1] =  "^EE8800"; // party color
-	.color$[2] =  "^70CC11"; // guild color
-	.color$[3] =  "^0000FF"; // account color
+	.color$[1] = "^EE8800";
+	.color$[2] = "^70CC11";
+	.color$[3] = "^0000FF";
 	end;
 }
 
 -	script	MVP Summoner	-1,{
 	mes "[MVP Summoner]";
-	mes "Time left: " + callfunc( "Time2Str", .renttime[ atoi( strnpcinfo(2) ) ] + .timeout * 60 );
-	mes "Hi, what can I do for you?";
+	mes "Time left: " + callfunc("Time2Str",
+		.renttime[atoi(strnpcinfo(2))] + .timeout * 60);
+	if (.selectedmob[atoi(strnpcinfo(2))])
+		mes "Selected: ^0055FF"
+			+ getmonsterinfo(.selectedmob[atoi(strnpcinfo(2))], MOB_NAME)
+			+ "^000000.";
+	mes "What would you like to do?";
 	next;
-	switch ( select(.menu$) ) {
+
+	switch (select(.menu$)) {
 	case 1:
 		mes "[MVP Summoner]";
-		if ( mobcount( "this", strnpcinfo(3)+"::OnMobDead" ) ) {
-			mes "I cannot offer heal service when there are monsters around.";
+		if (mobcount("this", strnpcinfo(3) + "::OnMobDead")) {
+			mes "Healing is unavailable while the selected monster is alive.";
 			close;
 		}
 		sc_end SC_STONE;
@@ -120,229 +249,161 @@ OnInit:
 		sc_end SC_SKE;
 		sc_end SC_SWOO;
 		sc_end SC_SKA;
-		percentheal 100,100;
+		percentheal 100, 100;
 		specialeffect2 EF_HEAL;
 		mes "You are completely healed.";
 		close;
+
 	case 2:
-		if ( mobcount( "this", strnpcinfo(3)+"::OnMobDead" ) ) {
+		if (mobcount("this", strnpcinfo(3) + "::OnMobDead")) {
 			mes "[MVP Summoner]";
-			mes "I cannot summon another MVP when there are monsters around.";
+			mes "Defeat the current monster before selecting another.";
 			close;
-		} else if ( .mvpcost ) {
-			mes "[MVP Summoner]";
-			mes "The cost to summon an MVP is "+ callfunc( "F_InsertComma", .mvpcost ) +" zeny.";
-			next;
-			set .@menu, select(.mvpid_menu$) -1;
-			mes "[MVP Summoner]";
-			if ( Zeny < .mvpcost ) {
-				mes "You don't have enough zeny to summon an MVP.";
-				close;
-			}
-		} else {
-			set .@menu, select(.mvpid_menu$) -1;
-			mes "[MVP Summoner]";
 		}
-		mes "Please get ready.";
-		close2;
-		if ( Zeny < .mvpcost ) end;
-		Zeny -= .mvpcost;
-		monster "this", 0, 0, "--ja--", .mvpid[.@menu], 1, strnpcinfo(3)+"::OnMobDead";
-		end;
+		.@mob_id = callfunc("F_MvpRoomSelectMonster",
+			$@MVP_ROOM_MVP_START, $@MVP_ROOM_MVP_SIZE, "MVP List");
+		if (!.@mob_id)
+			close;
+		callsub S_SummonSelected, .@mob_id;
+		close;
+
 	case 3:
-		if ( mobcount( "this", strnpcinfo(3)+"::OnMobDead" ) ) {
+		if (mobcount("this", strnpcinfo(3) + "::OnMobDead")) {
 			mes "[MVP Summoner]";
-			mes "I cannot summon another mini-boss when there are monsters around.";
+			mes "Defeat the current monster before selecting another.";
 			close;
-		} else if ( .bosscost ) {
-			mes "[MVP Summoner]";
-			mes "The cost to summon a mini-boss is "+ callfunc( "F_InsertComma", .bosscost ) +" zeny.";
-			next;
-			set .@menu, select(.bossid_menu$) -1;
-			mes "[MVP Summoner]";
-			if ( Zeny < .bosscost ) {
-				mes "You doesn't have enough zeny to summon a mini-boss.";
-				close;
-			}
-		} else {
-			set .@menu, select(.bossid_menu$) -1;
-			mes "[MVP Summoner]";
 		}
-		mes "Please get ready.";
-		close2;
-		if ( Zeny < .bosscost ) end;
-		Zeny -= .bosscost;
-		monster "this", 0, 0, "--ja--", .bossid[.@menu], 1, strnpcinfo(3)+"::OnMobDead";
-		end;
+		.@mob_id = callfunc("F_MvpRoomSelectMonster",
+			$@MVP_ROOM_MINI_START, $@MVP_ROOM_MINI_SIZE, "Mini Boss List");
+		if (!.@mob_id)
+			close;
+		callsub S_SummonSelected, .@mob_id;
+		close;
+
 	case 4:
-		if ( mobcount( "this", strnpcinfo(3)+"::OnMobDead" ) > 0 ) {
-			mes "[MVP Summoner]";
-			mes "I cannot offer this service when there are monsters around.";
-			close;
-		}
-		close2;
-		callshop "MVP room#branch", 1;
-		end;
-	case 5:
 		mes "[MVP Summoner]";
 		mes "Are you sure you want to leave this room?";
 		next;
-		if ( select( "Yes:No") == 1 )
+		if (select("Yes:No") == 1)
 			warp .respawnmap$, .respawnx, .respawny;
 		close;
-	case 6:
+
+	case 5:
 		mes "[MVP Summoner]";
-		if ( getmapusers( strcharinfo(3) ) > 1 ) {
-			mes "There are still some players in this room. Make sure you are the last member in this room to use this option.";
+		if (getmapusers(strcharinfo(3)) > 1) {
+			mes "Other players are still in this room.";
+			mes "Only the last player should give up the reservation.";
 			close;
 		}
-		mes "Are you sure you want to give up this room?";
-		if ( .rentcost )
-			mes "You will need to pay again to enter this room.";
+		mes "Give up this room now?";
 		next;
-		if ( select( "Yes", "No" ) == 2 ) close;
+		if (select("Yes:No") == 2)
+			close;
 		awake strnpcinfo(0);
 		end;
 	}
 	close;
 
+S_SummonSelected:
+	.@mob_id = getarg(0);
+	.@room = atoi(strnpcinfo(2));
+	.selectedmob[.@room] = .@mob_id;
+	++.spawnserial[.@room];
+	.respawnpending[.@room] = 0;
+	monster "this", 0, 0, "--ja--", .@mob_id, 1,
+		strnpcinfo(3) + "::OnMobDead";
+	mapannounce strnpcinfo(4),
+		getmonsterinfo(.@mob_id, MOB_NAME)
+		+ " has been summoned. It will respawn 20 seconds after defeat.",
+		bc_map;
+	return;
+
 OnMobDead:
+	.@room = atoi(strnpcinfo(2));
+	.@mob_id = .selectedmob[.@room];
+	.@serial = .spawnserial[.@room];
+	.@map$ = strnpcinfo(4);
+	.@event$ = strnpcinfo(3) + "::OnMobDead";
+
+	if (!.renttime[.@room] || !.@mob_id)
+		end;
+
+	.respawnpending[.@room] = 1;
+	mapannounce .@map$,
+		getmonsterinfo(.@mob_id, MOB_NAME)
+		+ " was defeated and will respawn in 20 seconds.",
+		bc_map;
+	sleep 20000;
+
+	if (.renttime[.@room]
+		&& .selectedmob[.@room] == .@mob_id
+		&& .spawnserial[.@room] == .@serial
+		&& mobcount(.@map$, .@event$) == 0) {
+		monster .@map$, 0, 0, "--ja--", .@mob_id, 1, .@event$;
+		mapannounce .@map$,
+			getmonsterinfo(.@mob_id, MOB_NAME) + " has respawned.",
+			bc_map;
+	}
+	if (.spawnserial[.@room] == .@serial)
+		.respawnpending[.@room] = 0;
 	end;
 
 OnEnterMap:
-	.@id = atoi( strnpcinfo(2) );
-	.renttime[.@id] = gettimetick(2);
+	.@room = atoi(strnpcinfo(2));
+	.selectedmob[.@room] = 0;
+	.respawnpending[.@room] = 0;
+	++.spawnserial[.@room];
+	.renttime[.@room] = gettimetick(2);
+
 	sleep .timeout * 60000;
-	mapwarp strnpcinfo(4), .respawnmap$, .respawnx, .respawny;
-	.renttime[.@id] = 0;
+
+	.selectedmob[.@room] = 0;
+	.respawnpending[.@room] = 0;
+	++.spawnserial[.@room];
+	.renttime[.@room] = 0;
 	killmonsterall strnpcinfo(4);
+	mapwarp strnpcinfo(4), .respawnmap$, .respawnx, .respawny;
 	end;
 
 OnInit:
-	if ( !getstrlen( strnpcinfo(2) ) ) {
+	if (!getstrlen(strnpcinfo(2))) {
+		.timeout = 60;
 
-//	Config ---------------------------------------------------------------------------------------
+		.menu$ = "Heal:";
+		.menu$ += "Summon or change MVP:";
+		.menu$ += "Summon or change Mini Boss:";
+		.menu$ += "Leave this room:";
+		.menu$ += "Give up this room";
 
-	// Room rental time, in minutes.
-	// When time runs out, all players inside the room will be kicked out.
-	// Do NOT set this to zero!
-	set .timeout, 60;
+		.respawnmap$ = "prontera";
+		.respawnx = 150;
+		.respawny = 174;
 
-	set .rentcost, 100000;	// Zeny cost for renting a room (0 = free)
-	set .mvpcost, 100000;	// Zeny cost to summon an MVP (0 = free)
-	set .bosscost, 50000;	// Zeny cost to summon a boss monster (0 = free)
-
-	//	Options setting inside MVP room
-	set .@menu[1], 1;	// Turn Heal option On/Off
-	set .@menu[2], 1;	// Turn MVP Summoning On/Off
-	set .@menu[3], 1;	// Turn Mini boss Summoning On/Off
-	set .@menu[4], 0;	// Sell items (branches) On/Off (see shop below, before the mapflags)
-
-	// Respawn point when players leave the room
-	set .respawnmap$, "prontera";
-	set .respawnx, 150;
-	set .respawny, 174;
-
-	setarray .mvpid[0],
-		1511,//	Amon Ra
-		1647,// Assassin Cross Eremes
-		1785,//	Atroce
-		1630,//	Bacsojin
-		1039,//	Baphomet
-		1874,//	Beelzebub
-		1272,//	Dark Lord
-		1719,//	Datale
-		1046,//	Doppelgangger
-		1389,//	Dracula
-		1112,//	Drake
-		1115,//	Eddga
-		1418,//	Evil Snake Lord
-		1871,//	Fallen Bishop
-		1252,//	Garm
-		1768,//	Gloom Under Night
-		1086,//	Golden Thief Bug
-		1885,//	Gopinich
-		1649,// High Priest Magaleta
-		1651,// High Wizard Katrinn
-		1832,//	Ifrit
-		1492,//	Incantation Samurai
-		1734,//	Kiel D-01
-		1251,//	Knight of Windstorm
-		1779,//	Ktullanux
-		1688,//	Lady Tanee
-		1646,// Lord Knight Seyren
-		1373,//	Lord of Death
-		1147,//	Maya
-		1059,//	Mistress
-		1150,//	Moonlight Flower
-		1087,//	Orc Hero
-		1190,//	Orc Lord
-		1038,//	Osiris
-		1157,//	Pharaoh
-		1159,//	Phreeoni
-		1623,//	RSX 0806
-		1650,// Sniper Shecil
-		1583,//	Tao Gunka
-		1708,//	Thanatos
-		1312,//	Turtle General
-		1751,//	Valkyrie Randgris
-		1685,// Vesper
-		1648,// Whitesmith Harword
-		1917,// Wounded Morocc
-		1658;//	Ygnizem
-
-	setarray .bossid[0],
-		1096,// Angeling
-		1388,// Archangeling
-		1795,// Bloody Knight
-		1830,// Bow Guardian
-		1839,// Byorgue
-		1309,// Cat O' Nine Tail
-		1283,// Chimera
-		1302,// Dark Illusion
-		1198,// Dark Priest
-		1582,// Deviling
-		1091,// Dragon Fly
-		1093,// Eclipse
-		1205,// Executioner
-		1783,// Galion
-		1592,// Gangster
-		1120,// Ghostring
-		1259,// Gryphon
-		1720,// Hydro
-		1090,// Mastering
-		1289,// Maya Purple
-		1262,// Mutant Dragon
-		1203,// Mysteltainn
-		1870,// Necromancer
-		1295,// Owl Baron
-		1829,// Sword Guardian
-		1204,// Tirfing
-		1089,// Toad
-		1092,// Vagabond Wolf
-		1765;// Valkyrie
-
-//	Config Ends ------------------------------------------------------------------------
-
-		if ( !.timeout ) set .timeout, 60;
-		.menu$ = ( .@menu[1] ? "Heal" : "" ) +":" ;
-		.menu$ = .menu$ + ( .@menu[2] ? "Summon MVP" : "" ) +":";
-		.menu$ = .menu$ + ( .@menu[3] ? "Summon Mini-boss" : "" ) +":";
-		.menu$ = .menu$ + ( .@menu[4] ? "Buy branches" : "" ) +":";
-		.menu$ = .menu$ + "Leave this room:Give up this room";
-		if ( .@menu[2] ) {
-			.@size = getarraysize( .mvpid );
-			for ( .@i = 0; .@i < .@size; .@i++ )
-				.mvpid_menu$ = .mvpid_menu$ + getmonsterinfo( .mvpid[.@i], MOB_NAME ) +":";
-		}
-		if ( .@menu[3] ) {
-			.@size = getarraysize( .bossid );
-			for ( .@i = 0; .@i < .@size; .@i++ )
-				.bossid_menu$ = .bossid_menu$ + getmonsterinfo( .bossid[.@i], MOB_NAME ) +":";
-		}
+		deletearray $@MVP_ROOM_MONSTER_ID[0],
+			getarraysize($@MVP_ROOM_MONSTER_ID);
+	setarray $@MVP_ROOM_MONSTER_ID[0], 3505, 3810, 1087, 1147, 1190, 1115, 1086, 1038, 1511, 1159, 1389, 1046, 1059, 1150, 1688, 1039, 1980, 1157, 1957, 1112, 1251, 2068, 2156, 1373, 2194, 1272, 1885, 1630;
+	setarray $@MVP_ROOM_MONSTER_ID[28], 1252, 1779, 1766, 1767, 2442, 1956, 1708, 2441, 2187, 1623, 1492, 2188, 3426, 3000, 3427, 1418, 3428, 3429, 3430, 3628, 1583, 1312, 3633, 1785, 3450, 20346, 2022, 3758;
+	setarray $@MVP_ROOM_MONSTER_ID[56], 20340, 3621, 2202, 1734, 1685, 3181, 3796, 1719, 2131, 20620, 1871, 20659, 3757, 1768, 20642, 3073, 2165, 2087, 2249, 1658, 1751, 2253, 2255, 2362, 3124, 20667, 2251, 1832;
+	setarray $@MVP_ROOM_MONSTER_ID[84], 1874, 2476, 2475, 2319, 2942, 1917, 2483, 2534, 2529, 2533, 2189, 2532, 2190, 2535, 3741, 3029, 1647, 2996, 2238, 2240, 2236, 2241, 1649, 1651, 3659, 1646, 2235, 2237;
+	setarray $@MVP_ROOM_MONSTER_ID[112], 1650, 2239, 3473, 1648, 3804, 3254, 20648, 20273, 20277, 3074, 20381, 3097, 21395, 20621, 3241, 3245, 3246, 3221, 3223, 3224, 20419, 3240, 3244, 3242, 3243, 3220, 3222, 3225;
+	setarray $@MVP_ROOM_MONSTER_ID[140], 20422, 20421, 20601, 20811, 20843, 21301, 20934, 21360, 21361, 20928, 20943, 1089, 1093, 3812, 3811, 1592, 1090, 1091, 1626, 1888, 2039, 1262, 1582, 1283, 2040, 1889, 1530, 2041;
+	setarray $@MVP_ROOM_MONSTER_ID[168], 1096, 1307, 1950, 1933, 1289, 1388, 1890, 1949, 1674, 1960, 1961, 1959, 1958, 1120, 1733, 2192, 2193, 1930, 1320, 1092, 1887, 2176, 2175, 2174, 2208, 1302, 1929, 1931;
+	setarray $@MVP_ROOM_MONSTER_ID[196], 2443, 2446, 2444, 2447, 2445, 2448, 2449, 2177, 2179, 2178, 1783, 1542, 2375, 2376, 1205, 1529, 1259, 1447, 20353, 1204, 2317, 3630, 2198, 1295, 1702, 1720, 1703, 1701;
+	setarray $@MVP_ROOM_MONSTER_ID[224], 1991, 1700, 1705, 1707, 1706, 1704, 2161, 1203, 1754, 1755, 1830, 1918, 1919, 1920, 1870, 1829, 2162, 1921, 1839, 1681, 3108, 3109, 1833, 2256, 2163, 2250, 3756, 1990;
+	setarray $@MVP_ROOM_MONSTER_ID[252], 2254, 2332, 2252, 1831, 2164, 2485, 1765, 3526, 2470, 2472, 2471, 2530, 2473, 2474, 2182, 2180, 2181, 1873, 3039, 3105, 3106, 3040, 3041, 2183, 2185, 2184, 1916, 2320;
+	setarray $@MVP_ROOM_MONSTER_ID[280], 2321, 2322, 3008, 2999, 3003, 3001, 3006, 3002, 3005, 3004, 2998, 3196, 3193, 1641, 2231, 2233, 2229, 3191, 3192, 2234, 1643, 1645, 3474, 3475, 2997, 3194, 3195, 1640;
+	setarray $@MVP_ROOM_MONSTER_ID[308], 3098, 3099, 2228, 2230, 3478, 1644, 2232, 3484, 1642, 3091, 3092, 2921, 2923, 3096, 3231, 3227, 3232, 3212, 3210, 3209, 3228, 3229, 3230, 3226, 3208, 3213, 3211, 3234;
+	setarray $@MVP_ROOM_MONSTER_ID[336], 3238, 21315, 3239, 3215, 3218, 3216, 3233, 3237, 3235, 3236, 3214, 3217, 3219, 22193, 22197, 22205, 22221, 22217, 22225, 22229, 22201, 22199, 22194, 22198, 22206, 22222, 22218, 22226;
+	setarray $@MVP_ROOM_MONSTER_ID[364], 22230, 22202, 22195, 22207, 22223, 22219, 22227, 22231, 22203;
+		$@MVP_ROOM_MVP_START = 0;
+		$@MVP_ROOM_MVP_SIZE = 151;
+		$@MVP_ROOM_MINI_START = 151;
+		$@MVP_ROOM_MINI_SIZE = 222;
 	}
 	else {
-		mapannounce strnpcinfo(4), "An administrator has refreshed the server. Please re-register this room.", bc_map;
+		mapannounce strnpcinfo(4),
+			"Scripts were reloaded. Please reserve this room again.",
+			bc_map;
 		mapwarp strnpcinfo(4), .respawnmap$, .respawnx, .respawny;
 	}
 	end;
