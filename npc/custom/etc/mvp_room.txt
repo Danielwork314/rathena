@@ -3,14 +3,14 @@
 //===== Based On: ============================================
 //= AnnieRuru / Euphy Private MVP & Branch Room
 //===== Current Version: =====================================
-//= 2.1
+//= 2.2
 //===== Compatible With: =====================================
 //= rAthena Project (Renewal)
 //===== Description: =========================================
 //= Eight private rooms reserved for a party, guild, or account.
 //= Entry and summoning are free. After selecting a monster, players
 //= may summon it once, ten times total, or continuously. Repeated modes
-//= respawn the monster 20 seconds after each defeat.
+//= respawn the monster 10 seconds after each defeat.
 //=
 //= Validated roster:
 //= - 151 implemented, generically fightable MVP entries;
@@ -348,12 +348,12 @@ S_SummonSelected:
 	else if (.spawnlimit[.@room] == 10)
 		mapannounce strnpcinfo(4),
 			getmonsterinfo(.@mob_id, MOB_NAME)
-			+ " has been summoned (1/10). It will respawn 20 seconds after defeat until all 10 summons are used.",
+			+ " has been summoned (1/10). It will respawn 10 seconds after defeat until all 10 summons are used.",
 			bc_map;
 	else
 		mapannounce strnpcinfo(4),
 			getmonsterinfo(.@mob_id, MOB_NAME)
-			+ " has been summoned in unlimited mode. It will respawn 20 seconds after every defeat.",
+			+ " has been summoned in unlimited mode. It will respawn 10 seconds after every defeat.",
 			bc_map;
 	return;
 
@@ -387,14 +387,14 @@ OnMobDead:
 	if (.@limit == 10)
 		mapannounce .@map$,
 			getmonsterinfo(.@mob_id, MOB_NAME)
-			+ " was defeated (" + .@used + "/10). The next summon will appear in 20 seconds.",
+			+ " was defeated (" + .@used + "/10). The next summon will appear in 10 seconds.",
 			bc_map;
 	else
 		mapannounce .@map$,
 			getmonsterinfo(.@mob_id, MOB_NAME)
-			+ " was defeated and will respawn in 20 seconds.",
+			+ " was defeated and will respawn in 10 seconds.",
 			bc_map;
-	sleep 20000;
+	sleep 10000;
 
 	if (.renttime[.@room]
 		&& .selectedmob[.@room] == .@mob_id

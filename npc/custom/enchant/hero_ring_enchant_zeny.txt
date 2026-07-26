@@ -4,7 +4,7 @@
 //= enchant pools, chances, failure and destruction rules remain.
 //============================================================
 
-prontera,155,207,5	script	Expert Enchanter Byrnes#custom_zeny	1_M_03,{
+prontera,152,128,5	script	Expert Enchanter Byrnes#custom_zeny	1_M_03,{
 	disable_items;
 	mes "[Byrnes]";
 	mes "Have you heard of Hero Ring? Only true heroes deserve to possess that magnificent ring, and I've been waiting for one.";

@@ -4,7 +4,7 @@
 //============================================================
 
 // enchant npc
-prontera,147,211,7	script	Contraband Processor#custom_zeny	4_DR_SOLDIER,{
+prontera,152,148,7	script	Contraband Processor#custom_zeny	4_DR_SOLDIER,{
 	if (checkweight(1201,1) == 0) {
 		mes "I'm carrying too many types of items. I should lighten my bag first.";
 		close;

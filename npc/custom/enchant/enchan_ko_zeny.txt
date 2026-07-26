@@ -15,7 +15,7 @@
 
 // Main NPC :: job_ko
 //============================================================
-prontera,151,215,3	script	Artisan Tene#custom_zeny	762,{
+prontera,159,164,3	script	Artisan Tene#custom_zeny	762,{
 	disable_items;
 	mes "[Artisan Tene]";
 	mes "Hello? I'm Artisan Tene, the most respectful blacksmith of them all.";

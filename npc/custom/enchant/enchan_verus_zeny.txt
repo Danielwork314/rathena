@@ -8,7 +8,7 @@
 //= reset behavior and target-equipment reconstruction remain.
 //============================================================
 
-prontera,159,211,5	script	Mass Charleston#custom_zeny	4_F_CHARLESTON01,{
+prontera,159,144,5	script	Mass Charleston#custom_zeny	4_F_CHARLESTON01,{
 	disable_items;
 	if (!checkweight(1201,1)) {
 		mes "You have too many types of items. Lighten your inventory first.";
@@ -701,7 +701,7 @@ prontera,159,211,5	script	Mass Charleston#custom_zeny	4_F_CHARLESTON01,{
 //============================================================
 //= Excelion Reactor Enchanter
 //============================================================
-prontera,163,211,4	script	MARS_01#custom_zeny	4_SCR_MT_ROBOTS,{
+prontera,152,140,4	script	MARS_01#custom_zeny	4_SCR_MT_ROBOTS,{
 	disable_items;
 	.@cost = 500000;
 	if (checkweight(1201,1) == 0 || (MaxWeight - Weight) < 10000) {

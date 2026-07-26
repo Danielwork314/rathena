@@ -4,7 +4,7 @@
 //============================================================
 
 // Illusion Enchanter - Walkthrough Conversion
-prontera,147,215,3	script	RS26#custom_zeny	4_SYS_MSG,{
+prontera,152,164,3	script	RS26#custom_zeny	4_SYS_MSG,{
 	if(!checkweight(1201,1) || (MaxWeight - Weight) < 1000){
 		mes "You can't proceed with the conversation because you have a large quantity of items.";
 		mes "Please organize your items and try again.";
