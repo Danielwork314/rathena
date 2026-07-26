@@ -37,13 +37,12 @@ HIGH_BANDS = [
     ("D", "Lv 200+", 200, None, 2000000),
 ]
 INVALID_TEXT = {"", "(null)", "null", "unknown", "unknown item"}
-KNOWN_RUNTIME_BAD_RESOURCES = {
-    "Record_Mage2_TW": "Known client runtime resource failure: moving an item using Record_Mage2_TW triggers repeated client errors",
-}
+KNOWN_RUNTIME_BAD_IDS = {490098, 490376, 490411, 490418, 490430, 490436}
+KNOWN_RUNTIME_BAD_RESOURCES = {"Record_Mage2_TW", "Ring_of_Pazuzu"}
 ENTRY_RE = re.compile(rb"(?m)^\s*\[(\d+)\]\s*=\s*\{")
 ASCII_FIELD_RE = {
     name: re.compile(rb"(?m)^\s*" + name.encode("ascii") + rb'\s*=\s*"([^"\r\n]*)"')
-    for name in ("identifiedDisplayName", "identifiedResourceName", "unidentifiedDisplayName")
+    for name in ("identifiedDisplayName", "identifiedResourceName", "unidentifiedDisplayName", "unidentifiedResourceName")
 }
 INT_FIELD_RE = {
     name: re.compile(rb"(?m)^\s*" + name.encode("ascii") + rb"\s*=\s*(\d+)")
@@ -109,6 +108,73 @@ def client_compatible(info: dict | None) -> tuple[bool, str]:
     if resource.lower() in INVALID_TEXT:
         return False, "Missing/Unknown identifiedResourceName in active client itemInfo.lua"
     return True, ""
+
+
+def build_resource_evidence(iteminfo: dict[int, dict], database: list[dict]) -> dict:
+    nonregion_resource_ids: dict[str, list[int]] = defaultdict(list)
+    nonregion_class_ids: dict[int, list[int]] = defaultdict(list)
+    for item_id, info in iteminfo.items():
+        if str(info.get("Server") or "").strip():
+            continue
+        resource = str(info.get("identifiedResourceName") or "").strip()
+        if resource:
+            nonregion_resource_ids[resource].append(item_id)
+        class_num = info.get("ClassNum")
+        if class_num is not None:
+            nonregion_class_ids[int(class_num)].append(item_id)
+
+    nonregion_weapon_view_ids: dict[tuple[int, str], list[int]] = defaultdict(list)
+    for item in database:
+        item_id = int(item["Id"])
+        info = iteminfo.get(item_id)
+        if info is None or str(info.get("Server") or "").strip():
+            continue
+        if standard_category(item) != "Weapons":
+            continue
+        view = int(item.get("View", 0) or 0)
+        subtype = str(item.get("SubType", "") or "")
+        nonregion_weapon_view_ids[(view, subtype)].append(item_id)
+
+    return {
+        "resource": nonregion_resource_ids,
+        "class": nonregion_class_ids,
+        "weapon_view": nonregion_weapon_view_ids,
+    }
+
+
+def regional_resource_compatible(item: dict, info: dict, category: str, evidence: dict) -> tuple[bool, str, str, str]:
+    server_tag = str(info.get("Server") or "").strip()
+    if not server_tag:
+        return True, "native_untagged", "", ""
+
+    item_id = int(item["Id"])
+    resource = str(info.get("identifiedResourceName") or "").strip()
+    if item_id in KNOWN_RUNTIME_BAD_IDS or resource in KNOWN_RUNTIME_BAD_RESOURCES:
+        return False, f"Known runtime-bad regional resource (Server={server_tag}, Resource={resource})", "", ""
+
+    resource_ids = [x for x in evidence["resource"].get(resource, []) if x != item_id]
+    if not resource_ids:
+        return False, f"Regional unique identified resource has no non-regional reuse evidence (Server={server_tag}, Resource={resource})", "", ""
+
+    appearance_ids: list[int] = []
+    if category == "Headgear":
+        class_num = int(info.get("ClassNum") or 0)
+        server_view = int(item.get("View", 0) or 0)
+        if class_num != server_view:
+            return False, f"Regional headgear ClassNum/View mismatch (Server={server_tag}, ClassNum={class_num}, View={server_view})", ",".join(map(str, resource_ids[:8])), ""
+        if class_num > 0:
+            appearance_ids = [x for x in evidence["class"].get(class_num, []) if x != item_id]
+            if not appearance_ids:
+                return False, f"Regional headgear appearance ClassNum has no non-regional reuse evidence (Server={server_tag}, ClassNum={class_num})", ",".join(map(str, resource_ids[:8])), ""
+    elif category == "Weapons":
+        view = int(item.get("View", 0) or 0)
+        subtype = str(item.get("SubType", "") or "")
+        if view > 0:
+            appearance_ids = [x for x in evidence["weapon_view"].get((view, subtype), []) if x != item_id]
+            if not appearance_ids:
+                return False, f"Regional weapon View/SubType has no non-regional reuse evidence (Server={server_tag}, View={view}, SubType={subtype})", ",".join(map(str, resource_ids[:8])), ""
+
+    return True, "regional_resource_reused", ",".join(map(str, resource_ids[:8])), ",".join(map(str, appearance_ids[:8]))
 
 
 def has_usable_jobs(item: dict) -> bool:
@@ -204,8 +270,7 @@ def generate_set(prefix: str, function_prefix: str, bands: list[tuple], selected
         "//===== rAthena Script =======================================",
         "//= Equipment Archive Hidden Shops",
         "//===== Description: =========================================",
-        "//= Active Renewal DB + client itemInfo.lua compatibility intersection.",
-        "//= Regional Server-tagged and known runtime-bad resources are excluded.",
+        "//= Active Renewal DB + client ItemInfo with regional resource-reuse safety evidence.",
         "//============================================================",
         "",
     ]
@@ -250,6 +315,7 @@ def main() -> int:
 
     iteminfo, iteminfo_sha = parse_iteminfo(args.iteminfo)
     database = yaml.safe_load(item_db_path.read_text(encoding="utf-8"))["Body"]
+    resource_evidence = build_resource_evidence(iteminfo, database)
 
     included: list[dict] = []
     excluded: list[dict] = []
@@ -273,14 +339,9 @@ def main() -> int:
             excluded.append({"Id": item_id, "AegisName": item.get("AegisName", ""), "Name": item.get("Name", ""), "Category": category, "Reason": reason})
             continue
 
-        server_tag = str(info.get("Server") or "").strip()
-        if server_tag:
-            excluded.append({"Id": item_id, "AegisName": item.get("AegisName", ""), "Name": item.get("Name", ""), "Category": category, "Reason": f"Regional/uncertain client entry excluded from merchant (Server={server_tag})"})
-            continue
-
-        client_resource = str(info.get("identifiedResourceName") or "").strip()
-        if client_resource in KNOWN_RUNTIME_BAD_RESOURCES:
-            excluded.append({"Id": item_id, "AegisName": item.get("AegisName", ""), "Name": item.get("Name", ""), "Category": category, "Reason": KNOWN_RUNTIME_BAD_RESOURCES[client_resource]})
+        resource_ok, compatibility_tier, resource_evidence_ids, appearance_evidence_ids = regional_resource_compatible(item, info, category, resource_evidence)
+        if not resource_ok:
+            excluded.append({"Id": item_id, "AegisName": item.get("AegisName", ""), "Name": item.get("Name", ""), "Category": category, "Reason": compatibility_tier})
             continue
 
         slots = int(item.get("Slots", 0) or 0)
@@ -301,6 +362,9 @@ def main() -> int:
             "ClientName": info.get("identifiedDisplayName") or "",
             "ClientResource": info.get("identifiedResourceName") or "",
             "ClientServerTag": info.get("Server") or "",
+            "CompatibilityTier": compatibility_tier,
+            "ResourceEvidenceIds": resource_evidence_ids,
+            "AppearanceEvidenceIds": appearance_evidence_ids,
             "Category": category,
             "Type": item.get("Type", ""),
             "SubType": item.get("SubType", ""),
@@ -318,6 +382,8 @@ def main() -> int:
     included.sort(key=lambda row: (row["Category"], row["EquipLevelMin"], row["Name"].casefold(), row["Id"]))
     low = [row for row in included if row["EquipLevelMin"] < 100]
     high = [row for row in included if row["EquipLevelMin"] >= 100]
+    regional_kept = [row for row in included if str(row.get("ClientServerTag") or "").strip()]
+    regional_high_risk_excluded = [row for row in excluded if row["Reason"].startswith("Regional ") or row["Reason"].startswith("Known runtime-bad regional")]
 
     low_shops, low_menus, low_summary = generate_set("EAL", "F_EAL", LOW_BANDS, low)
     high_shops, high_menus, high_summary = generate_set("EA", "F_EA", HIGH_BANDS, high)
@@ -326,7 +392,7 @@ def main() -> int:
         "//===== rAthena Script =======================================",
         "//= Equipment Archive: Below Lv 100 Menus",
         "//===== Description: =========================================",
-        "//= Region-safe active Renewal DB + actual client itemInfo.lua intersection.",
+        "//= Client-recognized equipment; regional entries require non-regional resource reuse evidence.",
         "//============================================================",
         "",
     ])
@@ -338,13 +404,13 @@ def main() -> int:
         "//===== rAthena Script =======================================",
         "//= Equipment Archive Manager",
         "//===== Description: =========================================",
-        "//= Region-safe standard-equipment intersection of active Renewal DB and actual client itemInfo.lua.",
+        "//= Standard equipment validated against ItemInfo and regional resource-reuse evidence.",
         "//============================================================",
         "",
         "prontera,153,227,4\tscript\tEquipment Archive#EA\t53,{",
         '\tmes "[Equipment Archive]";',
         '\tmes "Browse every standard weapon, headgear, armor, shield, garment, shoe and accessory that exists in both the active Renewal server database and this server\'s validated client ItemInfo list.";',
-        '\tmes "Both slotted and unslotted variants are retained. Client-unknown IDs are excluded.";',
+        '\tmes "Both slotted and unslotted variants are retained. Regional entries are kept only when their icon and required appearance resources are reused by non-regional client entries.";',
         "\tnext;",
         '\tswitch(select("Below Lv 100 equipment:Lv 100+ Weapons:Lv 100+ Headgear:Lv 100+ Armor:Lv 100+ Shields:Lv 100+ Garments:Lv 100+ Shoes:Lv 100+ Accessories:Price / scope information:Close")) {',
         "\tcase 1: callfunc \"F_EAL\"; close;",
@@ -362,8 +428,8 @@ def main() -> int:
         '\t\tmes "Lv 130-159: 500,000 Zeny";',
         '\t\tmes "Lv 160-199: 1,000,000 Zeny";',
         '\t\tmes "Lv 200+: 2,000,000 Zeny";',
-        '\t\tmes "Included: all standard-location Weapon/Armor records recognized by the supplied client itemInfo.lua.";',
-        '\t\tmes "Excluded: costumes, shadow gear, pet equipment, and IDs missing/Unknown in the supplied client ItemInfo. Those remain in their dedicated systems.";',
+        '\t\tmes "Included: standard equipment recognized by ItemInfo; regional entries additionally require non-regional icon and appearance reuse evidence.";',
+        '\t\tmes "Excluded: costumes, shadow gear, pet equipment, missing/Unknown ItemInfo records, unique regional resources without reuse evidence, and known runtime-bad resources.";',
         "\t\tclose;",
         "\tdefault: close;",
         "\t}",
@@ -389,17 +455,14 @@ def main() -> int:
         writer = csv.DictWriter(handle, fieldnames=["Id", "AegisName", "Warning"])
         writer.writeheader()
         writer.writerows(warnings)
-
-    regional_excluded = [row for row in excluded if row["Reason"].startswith("Regional/uncertain client entry")]
-    with (audit_dir / "equipment_archive_regional_items_removed.csv").open("w", encoding="utf-8-sig", newline="") as handle:
+    with (audit_dir / "equipment_archive_regional_resources_kept.csv").open("w", encoding="utf-8-sig", newline="") as handle:
+        writer = csv.DictWriter(handle, fieldnames=fields)
+        writer.writeheader()
+        writer.writerows(regional_kept)
+    with (audit_dir / "equipment_archive_regional_high_risk_excluded.csv").open("w", encoding="utf-8-sig", newline="") as handle:
         writer = csv.DictWriter(handle, fieldnames=["Id", "AegisName", "Name", "Category", "Reason"])
         writer.writeheader()
-        writer.writerows(regional_excluded)
-
-    region_counts = Counter()
-    for row in regional_excluded:
-        match = re.search(r"Server=([^\)]+)", row["Reason"])
-        region_counts[match.group(1) if match else "Unknown"] += 1
+        writer.writerows(regional_high_risk_excluded)
 
     summary = {
         "iteminfo_path_name": args.iteminfo.name,
@@ -411,15 +474,12 @@ def main() -> int:
         "included_high_level": len(high),
         "excluded_standard_equipment": len(excluded),
         "warning_count": len(warnings),
+        "regional_resource_reused_kept": len(regional_kept),
+        "regional_high_risk_excluded": len(regional_high_risk_excluded),
+        "regional_kept_tags": dict(Counter(row["ClientServerTag"] for row in regional_kept)),
+        "known_runtime_bad_ids_excluded": sorted(KNOWN_RUNTIME_BAD_IDS),
         "clown_smiling_410345_included": any(row["Id"] == 410345 for row in included),
         "clown_smiling_410345_client_name": iteminfo.get(410345, {}).get("identifiedDisplayName"),
-        "regional_server_entries_removed": {
-            "count": len(regional_excluded),
-            "tags": dict(region_counts),
-            "policy": "Exclude every equipment row whose supplied client ItemInfo block has a non-empty or uncertain Server tag",
-            "ring_of_pazuzu_490098_removed": not any(row["Id"] == 490098 for row in included),
-        },
-        "known_runtime_bad_resources": KNOWN_RUNTIME_BAD_RESOURCES,
         "low": low_summary,
         "high": high_summary,
     }

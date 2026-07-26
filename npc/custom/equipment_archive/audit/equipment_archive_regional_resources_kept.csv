@@ -1,0 +1,772 @@
+﻿Id,AegisName,Name,ClientName,ClientResource,ClientServerTag,CompatibilityTier,ResourceEvidenceIds,AppearanceEvidenceIds,Category,Type,SubType,Locations,EquipLevelMin,EquipLevelMax,Slots,ClientSlots,View,ClientClassNum,Refineable,Gradable,ShopPrice
+2834,F_All_In_One_Ring,All In One Ring,All In One Ring,¸µ¿Àºê·¹Á¶³Í½º,iRO,regional_resource_reused,"2679,2741,2958",,Accessories,Armor,,Both_Accessory,0,0,0,0,0,0,False,False,100000
+28388,Bloody_Iron_Ball_,Bloodied Shackle Ball,Bloody Iron Ball,ÇÇ¹¯ÀºÃ¶±¸,jRO,regional_resource_reused,"2655,2710",,Accessories,Armor,,Both_Accessory,0,0,1,1,0,0,False,False,100000
+2943,Critical_Ring_,Critical Ring,Critical Ring,Å©¸®Æ¼ÄÃ¸µ,jRO,regional_resource_reused,"2616,2688,2945",,Accessories,Armor,,Both_Accessory,0,0,1,1,0,0,False,False,100000
+2909,Darkness_Ring,Darkness Ring,Ring of Darkness,¾îµÒÀÇ¹ÝÁö,jRO,regional_resource_reused,28562,,Accessories,Armor,,Both_Accessory,0,0,1,1,0,0,False,False,100000
+28581,MiddleSaurelCharm_J,High Grade Horse Mackerel Amulet,Luxury Tuna Amulet,Àü°»ÀÌ,jRO,regional_resource_reused,"13068,28413,28414,28415",,Accessories,Armor,,Both_Accessory,0,0,1,1,0,0,False,False,100000
+28584,MiddleLeafCharm_J,High Grade Leaf Amulet,Luxurious Leaf Amulet,±¸¾à,jRO,regional_resource_reused,"7792,28416,28417,28418",,Accessories,Armor,,Both_Accessory,0,0,1,1,0,0,False,False,100000
+28587,MiddleRabbitCharm_J,High Grade Rabbit Amulet,Luxurious Rabbit Amulet,ºÀÁ¦ÀÎÇü,jRO,regional_resource_reused,"740,6996,25143,28419,28420,28421",,Accessories,Armor,,Both_Accessory,0,0,1,1,0,0,False,False,100000
+28580,LowSaurelCharm_J,Horse Mackerel Amulet,Tuna Amulet,Àü°»ÀÌ,jRO,regional_resource_reused,"13068,28413,28414,28415",,Accessories,Armor,,Both_Accessory,0,0,1,1,0,0,False,False,100000
+28583,LowLeafCharm_J,Leaf Amulet,Leaf Amulet,±¸¾à,jRO,regional_resource_reused,"7792,28416,28417,28418",,Accessories,Armor,,Both_Accessory,0,0,1,1,0,0,False,False,100000
+2908,Light_Ring,Light Ring,Ring of Light,ºûÀÇ¹ÝÁö,jRO,regional_resource_reused,28563,,Accessories,Armor,,Both_Accessory,0,0,1,1,0,0,False,False,100000
+2895,Medal_Of_Valor1,Medal Of Valor1,Medal of Valor 1,½Å±âÇÑ¸Þ´Þ,idRO,regional_resource_reused,7515,,Accessories,Armor,,Both_Accessory,0,0,0,0,0,0,False,False,100000
+2896,Medal_Of_Valor2,Medal Of Valor2,Medal of Valor 2,½Å±âÇÑ¸Þ´Þ,idRO,regional_resource_reused,7515,,Accessories,Armor,,Both_Accessory,0,0,0,0,0,0,False,False,100000
+28586,LowRabbitCharm_J,Rabbit Amulet,Rabbit Amulet,ºÀÁ¦ÀÎÇü,jRO,regional_resource_reused,"740,6996,25143,28419,28420,28421",,Accessories,Armor,,Both_Accessory,0,0,1,1,0,0,False,False,100000
+28432,Spiritual_Ring_,Spiritual Ring,Spiritual Ring,½ºÇÇ¸®Ãò¾ó¸µ,jRO,regional_resource_reused,"2677,2680,2711,2782,2786,2811,2812,2813",,Accessories,Armor,,Both_Accessory,0,0,1,1,0,0,False,False,100000
+28324,Steam_Starter_Ring,Steam Starter Ring,Steam Starter Ring,¼¼¸°ÀÇ±Ý¹ÝÁö,iRO,regional_resource_reused,"2642,2643",,Accessories,Armor,,Both_Accessory,0,0,0,0,0,0,False,False,100000
+2905,Super_Ora_Ora,Super Ora Ora,Ultra-Strong Ora Ora,¿À¶ó¿À¶ó,jRO,regional_resource_reused,701,,Accessories,Armor,,Both_Accessory,0,0,0,0,0,0,False,False,100000
+2965,Angel_Egg,Angel Egg,Angel's Egg,Ãµ»çÀÇ¾Ë,bRO,regional_resource_reused,102562,,Accessories,Armor,,Both_Accessory,1,0,1,1,0,0,False,False,100000
+2929,Charm_Str,Battle Hardened Amulet,Veteran Amulet,ÇÇ»çÇâÆ÷,jRO,regional_resource_reused,2638,,Accessories,Armor,,Both_Accessory,1,0,0,0,0,0,False,False,100000
+2835,F_Critical_Ring_C,Critical Ring,Rental Critical Ring,Å©¸®Æ¼ÄÃ¸µ,iRO,regional_resource_reused,"2616,2688,2945",,Accessories,Armor,,Both_Accessory,1,0,0,0,0,0,False,False,100000
+28341,Sachet,Dragon Boat Festival Sachet,Dragon Boat Festival Sachet,±¸¸¶ÇâÆ÷,bRO,regional_resource_reused,2639,,Accessories,Armor,,Both_Accessory,1,0,1,1,0,0,False,False,100000
+5651,F_Brooch_C,F Brooch C,Brooch,ºê·ÎÄ¡,iRO,regional_resource_reused,"2605,2625,2693,2704,2705",,Accessories,Armor,,Both_Accessory,1,0,0,0,0,0,False,False,100000
+2836,F_Glove_C,Glove,Rental Glove,±Û·¯ºê,iRO,regional_resource_reused,"2604,2624,2692",,Accessories,Armor,,Both_Accessory,1,0,0,0,0,0,False,False,100000
+2931,Charm_Vit,Good Health Amulet,Amulet of Good Health,ÇÇ»çÇâÆ÷,jRO,regional_resource_reused,2638,,Accessories,Armor,,Both_Accessory,1,0,0,0,0,0,False,False,100000
+2974,Eternal_Protected_Love,Guardianship Eternal Love,Guardian Eternal Love,¿µ¿øÇÑ¼öÈ£ÀÇ»ç¶û,bRO,regional_resource_reused,490099,,Accessories,Armor,,Both_Accessory,1,0,1,1,0,0,False,False,100000
+2932,Charm_Dex,Infallible Amulet,Infallible Amulet,ÇÇ»çÇâÆ÷,jRO,regional_resource_reused,2638,,Accessories,Armor,,Both_Accessory,1,0,0,0,0,0,False,False,100000
+2933,Charm_Int,Knowledgeable Amulet,Amulet of Erudite Versatile,ÇÇ»çÇâÆ÷,jRO,regional_resource_reused,2638,,Accessories,Armor,,Both_Accessory,1,0,0,0,0,0,False,False,100000
+28306,Bless_Of_Moon,Luna's Blessing,Luna's Blessing,»ç¶ó±Í°ÉÀÌ,bRO,regional_resource_reused,"28310,28311",,Accessories,Armor,,Both_Accessory,1,0,0,0,0,0,False,False,100000
+2838,F_Necklace_C,Necklace,Rental Necklace,³×Å¬¸®½º,iRO,regional_resource_reused,"2603,2623,2691,2798,2881,6581",,Accessories,Armor,,Both_Accessory,1,0,0,0,0,0,False,False,100000
+2934,Charm_Luk,Prosperous Business Amulet,Amulet of Trading Prosperity,ÇÇ»çÇâÆ÷,jRO,regional_resource_reused,2638,,Accessories,Armor,,Both_Accessory,1,0,0,0,0,0,False,False,100000
+2839,F_Ring_C,Ring,Rental Ring,¸µ,iRO,regional_resource_reused,"2601,2621,2690,14569,14570,14571",,Accessories,Armor,,Both_Accessory,1,0,0,0,0,0,False,False,100000
+28595,BlueDragonRing_TW,Ring of the Blue Dragon,Ring of Azure Dragon,·çÆÄÅ©ÀÇ¹ÝÁö,twRO,regional_resource_reused,2981,,Accessories,Armor,,Right_Accessory,1,0,1,1,0,0,False,False,100000
+2937,RJC_Exp,RJC2012 EXP Necklace,RJC2012EXP Necklace,±Ý¸ñ°ÉÀÌ_,jRO,regional_resource_reused,2669,,Accessories,Armor,,Both_Accessory,1,0,0,0,0,0,False,False,100000
+2939,RJC_Spell,RJC2012 Spell Necklace,RJC2012 Spell Necklace,±Ý¸ñ°ÉÀÌ_,jRO,regional_resource_reused,2669,,Accessories,Armor,,Both_Accessory,1,0,0,0,0,0,False,False,100000
+2938,RJC_Status,RJC2012 Status Necklace,RJC2012 Status Necklace,±Ý¸ñ°ÉÀÌ_,jRO,regional_resource_reused,2669,,Accessories,Armor,,Both_Accessory,1,0,0,0,0,0,False,False,100000
+2840,F_Rosary_C,Rosary,Rental Rosary,·ÎÀÚ¸®,iRO,regional_resource_reused,"2608,2626,2694,6502,6913,490253",,Accessories,Armor,,Both_Accessory,1,0,0,0,0,0,False,False,100000
+2837,F_Safety_Ring_C,Safety Ring,Rental Safety Ring,¼¼ÀÌÇÁÆ¼¸µ,iRO,regional_resource_reused,"2615,2673,2695,2815,2944,2950,2956,5817",,Accessories,Armor,,Both_Accessory,1,0,0,0,0,0,False,False,100000
+28431,Sprint_Ring_,Sprint Ring,Sprint Ring,½ºÇÁ¸°Æ®¹ÝÁö,jRO,regional_resource_reused,2744,,Accessories,Armor,,Both_Accessory,1,0,1,1,0,0,False,False,100000
+28302,Vesper_Core01_,Vesper Core 01,Vesper Core 01,º£½ºÆÛÄÚ¾î,jRO,regional_resource_reused,"2659,2660,2661,2662,2696,2697,2698,2699",,Accessories,Armor,,Both_Accessory,1,0,1,1,0,0,False,False,100000
+28303,Vesper_Core02_,Vesper Core 02,Vesper Core 02,º£½ºÆÛÄÚ¾î,jRO,regional_resource_reused,"2659,2660,2661,2662,2696,2697,2698,2699",,Accessories,Armor,,Both_Accessory,1,0,1,1,0,0,False,False,100000
+28304,Vesper_Core03_,Vesper Core 03,Vesper Core 03,º£½ºÆÛÄÚ¾î,jRO,regional_resource_reused,"2659,2660,2661,2662,2696,2697,2698,2699",,Accessories,Armor,,Both_Accessory,1,0,1,1,0,0,False,False,100000
+28305,Vesper_Core04_,Vesper Core 04,Vesper Core 04,º£½ºÆÛÄÚ¾î,jRO,regional_resource_reused,"2659,2660,2661,2662,2696,2697,2698,2699",,Accessories,Armor,,Both_Accessory,1,0,1,1,0,0,False,False,100000
+2930,Charm_Agi,Winning First Move Amulet,Sente Amulet Victory,ÇÇ»çÇâÆ÷,jRO,regional_resource_reused,2638,,Accessories,Armor,,Both_Accessory,1,0,0,0,0,0,False,False,100000
+2876,Necklace_Spica,Necklace Spica,Spica Necklace,½ºÇÇÄ«ÀÇ¸ñ°ÉÀÌ,jRO,regional_resource_reused,"490091,490093",,Accessories,Armor,,Both_Accessory,10,0,0,0,0,0,False,False,100000
+2880,Ring_Lupak,Ring Lupak,Rfak Ring,·çÆÄÅ©ÀÇ¹ÝÁö,jRO,regional_resource_reused,2981,,Accessories,Armor,,Both_Accessory,10,0,0,0,0,0,False,False,100000
+28429,Arquien's_Necklace,Arquien's Necklace,Arquien's Necklace,¾ËÄû¿£ÀÇ¸ñ°ÉÀÌ,jRO,regional_resource_reused,490125,,Accessories,Armor,,Both_Accessory,20,0,1,1,0,0,False,False,100000
+2955,Neutral_Ring_J,Neutral Ring,Neutral Ring,ÅÂ±¹¹ÝÁö,jRO,regional_resource_reused,"2753,2754,2755,2756,2757,2758,2759,2760",,Accessories,Armor,,Both_Accessory,30,0,1,1,0,0,False,False,100000
+28350,Shinobi's_Sash_S,Shinobi Sash,Shinobi Sash,½Ã³ëºñÀÇÇã¸®¶ì,jRO,regional_resource_reused,2654,,Accessories,Armor,,Both_Accessory,30,0,1,1,0,0,False,False,100000
+2994,Water_Crystal_Stone,Water Crystal Stone,Water Crystal Stone,Çª¸¥¹¦¾È¼®,jRO,regional_resource_reused,"4993,6423,7816,29022,29023,29032,29057,100147",,Accessories,Armor,,Both_Accessory,30,0,0,0,0,0,False,False,100000
+2903,Morpheus's_Armlet_,Morpheus's Armlet,Morpheus's Bracelet,¸ð¸£ÇÇ¼Å½ºÆÈÂî,jRO,regional_resource_reused,2649,,Accessories,Armor,,Both_Accessory,33,0,1,1,0,0,False,False,100000
+2902,Morpheus's_Ring_,Morpheus's Ring,Morpheus's Ring,¸ð¸£ÇÇ¼Å½º¹ÝÁö,jRO,regional_resource_reused,"2648,2772,2773,2774,2863,28566,490254",,Accessories,Armor,,Both_Accessory,33,0,1,1,0,0,False,False,100000
+2871,Brazilian_Emblem,Brazilian Emblem,Brazil Badge,ÀüÅõÈÖÀå,bRO,regional_resource_reused,"2733,7773,7828,7829,490163,1001880",,Accessories,Armor,,Both_Accessory,60,0,1,1,0,0,False,False,100000
+2889,Endure_Ring,Endure Ring,Ring of Endurance,¼¼ÀÌÇÁÆ¼¸µ,jRO,regional_resource_reused,"2615,2673,2695,2815,2944,2950,2956,5817",,Accessories,Armor,,Both_Accessory,60,0,1,1,0,0,False,False,100000
+2962,Willpower_Ring,Spirit Ring,Ring of Willpower,Á¤½Å·ÂÀÇ¹ÝÁö,jRO,regional_resource_reused,28522,,Accessories,Armor,,Both_Accessory,60,0,1,1,0,0,False,False,100000
+2900,Morrigane's_Belt_,Morrigane's Belt,Morrigan's Belt,¸ð¸®¾Æ³×ÀÇº§Æ®,jRO,regional_resource_reused,2650,,Accessories,Armor,,Both_Accessory,61,0,1,1,0,0,False,False,100000
+2901,Morrigane's_Pendant_,Morrigane's Pendant,Morrigan's Pendant,¸ð¸®¾Æ³×ÆÒ´øÆ®,jRO,regional_resource_reused,"2651,490256",,Accessories,Armor,,Both_Accessory,61,0,1,1,0,0,False,False,100000
+28348,Bowman_Scarf_S,Bowman Scarf,Sniper Scarf,¸í±ÃÀÇ½ºÄ«ÇÁ,jRO,regional_resource_reused,2727,,Accessories,Armor,,Both_Accessory,70,0,1,1,0,0,False,False,100000
+28347,Icarus_Wing_S,Icarus Wings,Wing of Icarus,ÀÌÄ«·ç½ºÀÇ³¯°³,jRO,regional_resource_reused,2726,,Accessories,Armor,,Both_Accessory,70,0,1,1,0,0,False,False,100000
+2893,Cursed_Heart,Cursed Heart,Cursed Heart,ÀúÁÖ¹ÞÀº½ÉÀå,jRO,regional_resource_reused,6413,,Accessories,Armor,,Both_Accessory,80,0,1,1,0,0,False,False,100000
+28314,Hand_Of_Glory,Glorious Hand,Hand of Glory,¿µ±¤ÀÇ¼Õ,jRO,regional_resource_reused,"25133,25422",,Accessories,Armor,,Both_Accessory,80,0,1,1,0,0,False,False,100000
+28349,Cursed_Star_S,Cursed Star,Cursed Star,Ä¿Áîµå½ºÅ¸,jRO,regional_resource_reused,2748,,Accessories,Armor,,Both_Accessory,84,0,1,1,0,0,False,False,100000
+28434,Boxer_Glove,Boxing Gloves,Fighter's Glove,±ÇÅõ»çÀÇ±Û·¯ºê,jRO,regional_resource_reused,490123,,Accessories,Armor,,Both_Accessory,90,0,1,1,0,0,False,False,100000
+28433,Luminous_Blue_Stone,Luminous Blue Stone,Luminous Blue Light Stone,Çª¸¥¾ß±¤¼®,jRO,regional_resource_reused,"29579,29580,29581,29655,29656,29657,29658,311460",,Accessories,Armor,,Both_Accessory,90,0,1,1,0,0,False,False,100000
+28370,Broken_Chip_1_J,Broken Chip (Green),Broken Chip(Green),ºÎ·¯Áø_Ä¨_1,jRO,regional_resource_reused,28326,,Accessories,Armor,,Both_Accessory,100,0,1,1,0,0,False,False,200000
+28371,Broken_Chip_2_J,Broken Chip (Red),Broken Chip(Red),ºÎ·¯Áø_Ä¨_2,jRO,regional_resource_reused,28327,,Accessories,Armor,,Both_Accessory,100,0,1,1,0,0,False,False,200000
+28513,Celine_Brooch,Celine's Brooch,Celine's Brooch,Celine_Brooch,jRO,regional_resource_reused,32237,,Accessories,Armor,,Both_Accessory,100,0,1,1,0,0,False,False,200000
+28591,PlumpyWormCharm_J,Chubby Earthworm Amulet,Chubby Earthworm Amulet,Åä½ÇÅä½ÇÁö··ÀÌ,jRO,regional_resource_reused,"632,6781,11537,11628,25642,28424",,Accessories,Armor,,Both_Accessory,100,0,1,1,0,0,False,False,200000
+32295,Crystal_Blade_Necklace,Crystal Blade Necklace,Crystal Blade Necklace,Crystal_Blade_Necklace,jRO,regional_resource_reused,490235,,Accessories,Armor,,Right_Accessory,100,0,0,0,0,0,False,False,200000
+32296,Crystal_Blade_Necklace_,Crystal Blade Necklace,Crystal Blade Necklace,Crystal_Blade_Necklace,jRO,regional_resource_reused,490235,,Accessories,Armor,,Right_Accessory,100,0,1,1,0,0,False,False,200000
+28578,Pretty_G_Necklace_J,Cute Grass Necklace,Cute Grass Necklace,µµ¶÷¸ñ°ÉÀÌ,jRO,regional_resource_reused,"28380,28381,28382",,Accessories,Armor,,Both_Accessory,100,0,1,1,0,0,False,False,200000
+28505,RingOfDevil,Demon God's Ring,Demon's Ring,¸¶½ÅÀÇ¹ÝÁö,jRO,regional_resource_reused,490004,,Accessories,Armor,,Both_Accessory,100,0,1,1,0,0,False,False,200000
+28520,EgirRing,Egir Ring,Egir's Ring,EgirRing,jRO,regional_resource_reused,"490007,490090,490092",,Accessories,Armor,,Both_Accessory,100,0,1,1,0,0,False,False,200000
+32227,Fenrir_Chain,Fenrir Chain,Fenrir Chain,Fenrir_Chain,jRO,regional_resource_reused,1001074,,Accessories,Armor,,Both_Accessory,100,0,1,1,0,0,False,False,200000
+28577,Fresh_G_Necklace_J,Fresh Grass Necklace,Fresh Grass Necklace,µµ¶÷¸ñ°ÉÀÌ,jRO,regional_resource_reused,"28380,28381,28382",,Accessories,Armor,,Both_Accessory,100,0,1,1,0,0,False,False,200000
+28590,FreshTunaCharm_J,Fresh Tuna Amulet,Fresh Tuna Amulet,Âü´Ù¶û¾î,jRO,regional_resource_reused,"6771,16016,28423",,Accessories,Armor,,Both_Accessory,100,0,1,1,0,0,False,False,200000
+28369,Upgrade_Part_Gun_B_J,Guardian Barrel,Guardian Barrel,°­È­ÆÄÃ÷Æ÷½Å,jRO,regional_resource_reused,2996,,Accessories,Armor,,Both_Accessory,100,0,1,1,0,0,False,False,200000
+28503,Keraunos,Keraunos,Keraunos,ÄÉ¶ó¿ì³ë½º,jRO,regional_resource_reused,26154,,Accessories,Armor,,Both_Accessory,100,0,1,1,0,0,False,False,200000
+28579,Charm_G_Necklace_J,Magic Grass Necklace,Magical Grass Necklace,µµ¶÷¸ñ°ÉÀÌ,jRO,regional_resource_reused,"28380,28381,28382",,Accessories,Armor,,Both_Accessory,100,0,1,1,0,0,False,False,200000
+28368,Supplement_Part_Dex_J,Powered Arm,Powered Arm,¼ÕÀçÁÖº¸¿ÏÀåÄ¡,jRO,regional_resource_reused,2995,,Accessories,Armor,,Both_Accessory,100,0,1,1,0,0,False,False,200000
+28499,BadgeOfProntera__J,Proof of Glory,Token of Glory,ÇÁ·ÐÅ×¶ó¹îÁö,jRO,regional_resource_reused,"22847,28356",,Accessories,Armor,,Both_Accessory,100,0,0,0,0,0,False,False,200000
+32262,Ball_Of_RasenHuuma,Rasen Fuma's Orb,Spiral Huuma Jewel,Ball_Of_RasenHuuma,jRO,regional_resource_reused,7925,,Accessories,Armor,,Both_Accessory,100,0,1,1,0,0,False,False,200000
+490334,Record_Acol_TH,Record of Acolyte,Record of Acolyte,¿¬±¸¿ø±â·ÏÇ¥,iRO,regional_resource_reused,7347,,Accessories,Armor,,Right_Accessory,100,0,1,1,0,0,False,False,200000
+490400,Record_Archer_TH,Record of Archer,Record of Archer,¿¬±¸¿ø±â·ÏÇ¥,iRO,regional_resource_reused,7347,,Accessories,Armor,,Right_Accessory,100,0,1,1,0,0,False,False,200000
+490288,Record_Mage_TH,Record of Mage,Record of Mage,¿¬±¸¿ø±â·ÏÇ¥,iRO,regional_resource_reused,7347,,Accessories,Armor,,Right_Accessory,100,0,1,1,0,0,False,False,200000
+490239,Record_Merchant_TH,Record of Merchant,Record of Merchant,¿¬±¸¿ø±â·ÏÇ¥,iRO,regional_resource_reused,7347,,Accessories,Armor,,Both_Accessory,100,0,1,1,0,0,False,False,200000
+490221,Record_Swordsman_TH,Record of Swordsman,Record of Swordman,¿¬±¸¿ø±â·ÏÇ¥,iRO,regional_resource_reused,7347,,Accessories,Armor,,Both_Accessory,100,0,1,1,0,0,False,False,200000
+490229,Record_Thief_TH,Record of Thief,Record of Thief,¿¬±¸¿ø±â·ÏÇ¥,iRO,regional_resource_reused,7347,,Accessories,Armor,,Right_Accessory,100,0,1,1,0,0,False,False,200000
+490394,Record_Thief2_TH,Record of Thief 2,Record of Thief Vol.2,¿¬±¸¿ø±â·ÏÇ¥,iRO,regional_resource_reused,7347,,Accessories,Armor,,Left_Accessory,100,0,1,1,0,0,False,False,200000
+490118,RingOfAdoramus,Ring of Adoramus,Ring of Adoramus,RingOfAdoramus,jRO,regional_resource_reused,490557,,Accessories,Armor,,Both_Accessory,100,0,1,1,0,0,False,False,200000
+28589,ShiningTwigCharm_J,Shining Branch Amulet,Glowing Branch Amulet,¿¤´õÀÇ°¡Áö,jRO,regional_resource_reused,"7939,25221,28422",,Accessories,Armor,,Both_Accessory,100,0,1,1,0,0,False,False,200000
+490035,Pendant_of_Solomon,Solomon's Pendant,Solomon's Pendant,Pendant_of_Solomon,jRO,regional_resource_reused,"490152,490153,490155,490156,490164,490165,490166,490167",,Accessories,Armor,,Left_Accessory,100,0,0,0,0,0,False,False,200000
+490036,Pendant_of_Solomon_,Solomon's Pendant,Solomon's Pendant,Pendant_of_Solomon,jRO,regional_resource_reused,"490152,490153,490155,490156,490164,490165,490166,490167",,Accessories,Armor,,Left_Accessory,100,0,1,1,0,0,False,False,200000
+28582,HigherSaurelCharm_J,Special Horse Mackerel Amulet,Special Tuna Amulet,Àü°»ÀÌ,jRO,regional_resource_reused,"13068,28413,28414,28415",,Accessories,Armor,,Both_Accessory,100,0,1,1,0,0,False,False,200000
+28585,HigherLeafCharm_J,Special Leaf Amulet,Special Leaf Amulet,±¸¾à,jRO,regional_resource_reused,"7792,28416,28417,28418",,Accessories,Armor,,Both_Accessory,100,0,1,1,0,0,False,False,200000
+28588,HigherRabbitCharm_J,Special Rabbit Amulet,Special Rabbit Amulet,ºÀÁ¦ÀÎÇü,jRO,regional_resource_reused,"740,6996,25143,28419,28420,28421",,Accessories,Armor,,Both_Accessory,100,0,1,1,0,0,False,False,200000
+28564,Valkyrie_Drop,Valkyrie Drop,Valkyrie Drop,Valkyrie_Drop,jRO,regional_resource_reused,102900,,Accessories,Armor,,Both_Accessory,100,0,1,1,0,0,False,False,200000
+28500,Fanatic_Necklace,Zealous Necklace,Zealous Necklace,½Å°üÀÇ¸ñ°ÉÀÌ,jRO,regional_resource_reused,28387,,Accessories,Armor,,Both_Accessory,100,0,1,1,0,0,False,False,200000
+15045,Armor_Of_Valor,Armor Of Valor,Armor of Valor,¸ÞÀÏ,idRO,regional_resource_reused,"2314,2315,2377,15063",,Armor,Armor,,Armor,0,0,0,0,0,0,False,False,100000
+15057,Pure_White_Apron,Pure White Apron,White Apron,ÇÏ´ÃÇÏ´Ã¾ÕÄ¡¸¶,jRO,regional_resource_reused,661,,Armor,Armor,,Armor,0,0,1,1,0,0,True,False,100000
+15114,Wedding_Dress_,Wedding Dress,Wedding Dress,¿þµùµå·¹½º,jRO,regional_resource_reused,2338,,Armor,Armor,,Armor,0,0,0,1,0,0,True,False,100000
+15022,Brazil_Swimsuit,Brazil Swimsuit,Swimming Suit,ºê¶óÁú¼ö¿µº¹,iRO,regional_resource_reused,"15174,15210",,Armor,Armor,,Armor,1,0,0,0,0,0,True,False,100000
+15275,Doram_Only_Suit_J,Doram Suit,Doram Suit,µµ¶÷¿Ê,jRO,regional_resource_reused,"15126,15129,15156",,Armor,Armor,,Armor,1,0,1,1,0,0,True,False,100000
+15276,Doram_High_Suit_J,High-End Doram Suit,Luxury Doram Suit,µµ¶÷¿Ê,jRO,regional_resource_reused,"15126,15129,15156",,Armor,Armor,,Armor,1,0,1,1,0,0,True,False,100000
+15072,Nectar_Suit,Nectar Suit,Nectar Suit,ÀÎÅ©·¹µðºí¿ÜÅõ,jRO,regional_resource_reused,"2397,15031",,Armor,Armor,,Armor,1,0,1,1,0,0,True,False,100000
+15071,Valkyrie_Robe,Valkyrian Robe,Valkyrie Robe,ÇÁ·¹ÀÌ¾ßÀÇ¿ÜÅõ,jRO,regional_resource_reused,"2369,15007,15167",,Armor,Armor,,Armor,1,0,1,1,0,0,True,False,100000
+15274,White_Eco_Shirt_J,White Leaf T-Shirt,White Leaf T-shirt,ÇÏ¾áÄ£È¯°æ¼ÅÃ÷,jRO,regional_resource_reused,15151,,Armor,Armor,,Armor,1,0,1,0,0,0,False,False,100000
+15273,White_Shirt_J,White T-Shirt,White T-shirt,ÇÏ¾á¼ÅÃ÷,jRO,regional_resource_reused,"15150,29224",,Armor,Armor,,Armor,1,0,1,0,0,0,False,False,100000
+5829,Ordinary_Armor,Ordinary Armor,Ordinary Armor,¿ìµç¸ÞÀÏ,iRO,regional_resource_reused,"2328,2329",,Armor,Armor,,Armor,30,0,0,0,0,0,True,False,100000
+15122,Botany_Mail,Botany Mail,Botany Mail,º¸Å¸´Ï¸ÞÀÏ,jRO,regional_resource_reused,15141,,Armor,Armor,,Armor,50,0,1,1,0,0,True,False,100000
+15102,Hunter_Mail,Hunter Mail,Hunter's Mail,ÇåÅÍ¸ÞÀÏ,jRO,regional_resource_reused,450004,,Armor,Armor,,Armor,50,0,1,1,0,0,True,False,100000
+15170,Goibne's_Armor_,Goibne's Armor,Goibne's Armor,°Ôºê³×ÀÌÀÇ°©¿Ê,jRO,regional_resource_reused,"2354,2384",,Armor,Armor,,Armor,54,0,1,1,0,0,True,False,100000
+15041,Boitata_Armor,Boitata Armor,Boitata Armor,µå·¡°ïÀÇ¼û°á,iRO,regional_resource_reused,2527,,Armor,Armor,,Armor,60,0,1,1,0,0,True,False,100000
+18863,Exorcist_Robe,Exorcist Robe,Exorcist Robe,È¦¸®·Îºê,jRO,regional_resource_reused,"2327,2373",,Armor,Armor,,Armor,60,0,1,1,0,0,True,False,100000
+15092,Black_Tortoise_Armor,Black Turtle Armor,Armor of Genbu,Çö¹«ÀÇ°©¿Ê,jRO,regional_resource_reused,15354,,Armor,Armor,,Armor,70,0,1,1,0,0,True,False,100000
+18862,Armor_Chiu_J,Chiu Armor,Armor of Chiyou,Ä¡¿ìÀÇ°©¿Ê,jRO,regional_resource_reused,15346,,Armor,Armor,,Armor,70,0,1,1,0,0,True,False,100000
+15103,Kirin_Armor,Kirin Armor,Kirin Armor,±â¸°ÀÇ°©¿Ê,jRO,regional_resource_reused,15353,,Armor,Armor,,Armor,70,0,1,1,0,0,False,False,100000
+15139,Shepherd_Cloth,Shepherd Clothes,Shepherd Clothes,½¦ÆÛµåÅ¬·Î½º,jRO,regional_resource_reused,450002,,Armor,Armor,,Armor,70,0,1,1,0,0,True,False,100000
+15108,VenomInsect_Armor,Venomous Insect Armor,Venomous Insect Armor,µ¶ÃæÀÇ°©¿Ê,jRO,regional_resource_reused,15347,,Armor,Armor,,Armor,70,0,1,1,0,0,True,False,100000
+15086,Vermilion_Bird_Armor,Vermilion Bird Armor,Armor of Suzaku,È­¿°ÀÇ°©¿Ê,jRO,regional_resource_reused,15008,,Armor,Armor,,Armor,70,0,1,1,0,0,True,False,100000
+15134,Vicious_Cloth,Vicious Cloth,Vicious Clothes,ºñ¼Å½ºÅ¬·Î½º,jRO,regional_resource_reused,450003,,Armor,Armor,,Armor,70,0,1,1,0,0,True,False,100000
+15162,Lounge_Suit_,Lounge Suit,Lounge Suit,±Û¸®ÅÍ¸µÅ¬·Î½º,jRO,regional_resource_reused,"2319,15067,15089",,Armor,Armor,,Armor,80,0,1,1,0,0,True,False,100000
+15175,Armor_Of_Flamedragon,Flame Dragon Armor,Flame Dragon Armor,¿°·æÀÇ°©¿Ê,jRO,regional_resource_reused,15278,,Armor,Armor,,Armor,90,0,1,1,0,0,True,False,100000
+15196,Armor_Of_Seadragon,Sea Dragon Armor,Sea Dragon Armor,ÇØ·æÀÇ°©¿Ê,jRO,regional_resource_reused,15279,,Armor,Armor,,Armor,90,0,1,1,0,0,True,False,100000
+15367,Astraea_Armor,Asteria's Armor,Astraea Armor,µð¹Ù·Îºê,iRO,regional_resource_reused,"15250,450184",,Armor,Armor,,Armor,94,0,1,1,0,0,True,False,100000
+15082,AB_Battle_Armor,Arcbishop Battle Armor,Archbishop Battle Armor,ÀÚ¾ÖÀÇ·Îºê,bRO,regional_resource_reused,15029,,Armor,Armor,,Armor,99,0,1,1,0,0,True,False,100000
+15145,EvilDragon_Armor,Evil Dragon Armor,Evil Dragon Armor,»ç·æÀÇ°©¿Ê,jRO,regional_resource_reused,450001,,Armor,Armor,,Armor,99,0,1,1,0,0,True,False,100000
+15085,GN_Battle_Armor,Geneticist Battle Armor,Genetic Battle Armor,°Ôºê³×ÀÌÀÇ°©¿Ê,bRO,regional_resource_reused,"2354,2384",,Armor,Armor,,Armor,99,0,1,1,0,0,True,False,100000
+15075,GC_Battle_Armor,Guillotine Cross Battle Armor,Guillotine Cross Battle Armor,Æ¯¼ö´ÑÀÚ½´Ã÷,bRO,regional_resource_reused,"15053,15056",,Armor,Armor,,Armor,99,0,1,1,0,0,True,False,100000
+15079,NC_Battle_Armor,Mechanic Battle Armor,Mechanic Artisan Battle Armor,¹öÄÚ³Ê¿öºñ´Ã°©¿Ê,bRO,regional_resource_reused,15051,,Armor,Armor,,Armor,99,0,1,1,0,0,True,False,100000
+15084,WA_Battle_Armor,Performer Battle Armor,Performer Battle Armor,µå·¡°ïÀÇ¼û°á,bRO,regional_resource_reused,2527,,Armor,Armor,,Armor,99,0,1,1,0,0,True,False,100000
+15076,RA_Battle_Armor,Ranger Battle Armor,Ranger Battle Armor,½º³ªÀÌÇÎ½´Ã÷,bRO,regional_resource_reused,"2367,2381,2398",,Armor,Armor,,Armor,99,0,1,1,0,0,True,False,100000
+15077,LG_Battle_Armor,Royal Guard Battle Armor,Royal Guard Battle Armor,Ç®ÇÃ·¹ÀÌÆ®¾Æ¸Ó,bRO,regional_resource_reused,"2341,2342,2368,15066",,Armor,Armor,,Armor,99,0,1,1,0,0,True,False,100000
+15080,SC_Battle_Armor,Shadow Chaser Battle Armor,Shadow Chaser Battle Armor,»ç¹ÙÈåÀÇÅ¬·Î½º,bRO,regional_resource_reused,15038,,Armor,Armor,,Armor,99,0,1,1,0,0,True,False,100000
+15081,SR_Battle_Armor,Sura Battle Armor,Sura Battle Armor,Å¬·¹¸£½´Ã÷,bRO,regional_resource_reused,"15013,15047",,Armor,Armor,,Armor,99,0,1,1,0,0,True,False,100000
+15083,WL_Battle_Armor,Warlock Battle Armor,Archmage Battle Armor,Ä³½ºÆÃÀÇ·Îºê,bRO,regional_resource_reused,"2343,2360,15074,450232",,Armor,Armor,,Armor,99,0,1,1,0,0,True,False,100000
+19281,Agenda_RobeJ,Agenda Robe,Assaulter Robe,ÀÇÁ¦ÀÇ·Îºê,jRO,regional_resource_reused,"15163,15164",,Armor,Armor,,Armor,100,0,1,1,0,0,True,False,200000
+19282,Consultation_RobeJ,Consultation Robe,Eraser's Robe,ÀÇÁ¦ÀÇ·Îºê,jRO,regional_resource_reused,"15163,15164",,Armor,Armor,,Armor,100,0,1,1,0,0,True,False,200000
+15209,Drake_Coat,Drake Coat,Drake Coat,Drake_Coat,jRO,regional_resource_reused,480174,,Armor,Armor,,Armor,100,0,1,1,0,0,True,False,200000
+15149,Upgrade_Part_Plate_J,Guardian Unit,Guardian Unit,°­È­ÆÄÃ÷Àå°©,jRO,regional_resource_reused,"15111,15344",,Armor,Armor,,Armor,100,0,0,0,0,0,True,False,200000
+450209,Imp_Powered_Suit,Imp Powered Suit,Improved Powered Suit,Imp_Powered_Suit,jRO,regional_resource_reused,"450405,450406,450407",,Armor,Armor,,Armor,100,0,1,1,0,0,True,False,200000
+15148,Supplement_Part_Str_J,Powered Mail,Powered Mail,±Ù·Âº¸¿ÏÀåÄ¡,jRO,regional_resource_reused,"15110,15343",,Armor,Armor,,Armor,100,0,0,0,0,0,True,False,200000
+15277,Doram_Ele_Suit_J,Special Doram Suit,Special Doram Suit,µµ¶÷¿Ê,jRO,regional_resource_reused,"15126,15129,15156",,Armor,Armor,,Armor,100,0,1,1,0,0,True,False,200000
+15061,Egir_Armor,Egir Armor,Aegir Armor,¿¡±æ¾Æ¸Ó,jRO,regional_resource_reused,"15138,450164",,Armor,Armor,,Armor,110,0,1,1,0,0,True,False,200000
+15243,Golden_Ninja_Suit_J,Bodyguard Suit,Bouncer's Suit,°ñµç´ÑÀÚ½´Ã÷,jRO,regional_resource_reused,15178,,Armor,Armor,,Armor,130,0,1,1,0,0,True,False,500000
+15173,Cursed_Devils_Mail,Curse-Spell Mail,Cursed Magic Mail,ÀúÁÖ¹ÞÀº¾Ç¸¶ÀÇ¸ÞÀÏ,jRO,regional_resource_reused,15390,,Armor,Armor,,Armor,130,0,1,1,0,0,True,False,500000
+15244,Mine_Worker_Vest_J,Miner's Vest,Miner's Vest,¸¶ÀÎ¿öÄ¿º£½ºÆ®,jRO,regional_resource_reused,15179,,Armor,Armor,,Armor,130,0,1,1,0,0,True,False,500000
+15245,Hippie_Cloth_J,Nature Suit,Great Nature Suit,È÷ÇÇÅ¬·Î½º,jRO,regional_resource_reused,15180,,Armor,Armor,,Armor,130,0,1,1,0,0,True,False,500000
+15242,Robe_Of_Elemental_J,Spirit Robe,Spirit Robe,¿ø¼ÒÀÇ·Îºê,jRO,regional_resource_reused,15177,,Armor,Armor,,Armor,130,0,1,1,0,0,True,False,500000
+15241,Vigilante_Suits_J,Vigilante Suit,Vigilante Suit,ÀÚ°æ´Ü½´Ã÷,jRO,regional_resource_reused,15176,,Armor,Armor,,Armor,130,0,1,1,0,0,True,False,500000
+15187,Diva_Robe,Diva Robe,Diva Robe,µð¹Ù·Îºê,jRO,regional_resource_reused,"15250,450184",,Armor,Armor,,Armor,150,0,1,1,0,0,True,False,500000
+15188,Mirage_Robe,Mirage Robe,Mirage Robe,¹Ì¶óÁê·Îºê,jRO,regional_resource_reused,"15383,450183",,Armor,Armor,,Armor,150,0,1,1,0,0,True,False,500000
+15349,Brave_suit,Brave Suit,Brave Suit,¾îµå¹êÃÄ½´Ã÷,jRO,regional_resource_reused,"2305,2306,2352,2393,2394,2395,2396,15410",,Armor,Armor,,Armor,165,0,1,1,0,0,True,False,1000000
+15213,YSF01_Plate_J,Y.S.F.0.1 Plate,Y.S.F.0.1 Plate (jRO),YSF01_Plate,jRO,regional_resource_reused,15212,,Armor,Armor,,Armor,170,0,1,1,0,0,True,False,1000000
+20707,Kirin_Wing,Kirin Wing,Kirin Wings,±â¸°ÀÇ³¯°³,iRO,regional_resource_reused,20737,,Garments,Armor,,Garment,0,0,0,0,6,6,True,False,100000
+2585,Muffler_Of_Valor,Muffler Of Valor,Muffler of Valor,¸ÓÇÃ·¯,idRO,regional_resource_reused,"2503,2504,2534,2548,2555,2556,2557,2558",,Garments,Armor,,Garment,0,0,0,0,0,0,False,False,100000
+20938,Rudra_Wing,Seraphim's Wings,Rudra's Wings,·çµå¶óÀÇ³¯°³,twRO,regional_resource_reused,"20746,480055",,Garments,Armor,,Garment,0,0,1,1,8,8,True,False,100000
+20767,Bravery_Bag_J,Adventurer's Backpack,Adventurer's Backpack,¸ðÇè°¡¹è³¶,jRO,regional_resource_reused,"2576,20817",,Garments,Armor,,Garment,1,0,0,0,0,0,True,False,100000
+20706,Amistr_Bag,Amistr Bag,Amistr Bag,¾Æ¹Ì½ºÆ®¸£°¡¹æ,iRO,regional_resource_reused,"20802,20803,20804,20805,20806,20807,20808,20809",,Garments,Armor,,Garment,1,0,0,0,4,4,False,False,100000
+20784,Amistr_Bag_J,Amistr Bag,Amistr Bag,¾Æ¹Ì½ºÆ®¸£°¡¹æ,jRO,regional_resource_reused,"20802,20803,20804,20805,20806,20807,20808,20809",,Garments,Armor,,Garment,1,0,1,1,4,4,False,False,100000
+20768,Archangel_Wing_J,Archangel Wing,Large Angel Wings,´ëÃµ»çÀÇ³¯°³,jRO,regional_resource_reused,"2573,20765,480069",,Garments,Armor,,Garment,1,0,0,0,1,10,True,False,100000
+20915,Doram_Only_Cape_J,Doram Cape,Doram Cape,µµ¶÷¸ÁÅä,jRO,regional_resource_reused,"20788,20789,20790",,Garments,Armor,,Garment,1,0,1,1,0,0,True,False,100000
+20916,Doram_High_Cape_J,High-End Doram Cape,Luxury Doram Cape,µµ¶÷¸ÁÅä,jRO,regional_resource_reused,"20788,20789,20790",,Garments,Armor,,Garment,1,0,1,1,0,0,True,False,100000
+20812,Kirin_Wing_J,Kirin Wing,Wings of Kirin,±â¸°ÀÇ³¯°³,jRO,regional_resource_reused,20737,,Garments,Armor,,Garment,1,0,1,1,6,0,True,False,100000
+20778,RedLotus_Stole,Red Lotus Stole,Crimson Stole,È«·ÃÀÇ½ºÅç,jRO,regional_resource_reused,20834,,Garments,Armor,,Garment,1,0,1,1,0,0,True,False,100000
+20861,SwordWing_J,Sword Wing,Sword Wings,°ËÀÇ³¯°³,jRO,regional_resource_reused,20510,,Garments,Armor,,Garment,1,0,1,1,19,19,True,False,100000
+20712,Valkyrie_Cape,Valkyrie Cape,Valkyrie Cape,ÇÁ·¹ÀÌ¾ßÀÇ¸ÁÅä,jRO,regional_resource_reused,"2533,2559,20801",,Garments,Armor,,Garment,1,0,1,1,0,0,True,False,100000
+20830,Seraphim_Wing_J2,Wings of Seraph,Wings of Seraph,·çµå¶óÀÇ³¯°³,jRO,regional_resource_reused,"20746,480055",,Garments,Armor,,Garment,1,0,1,1,8,8,True,False,100000
+20783,Hero_Cape,Hero Manteau,Hero Manteau,¿µ¿õÀÇ¸ÁÅä,jRO,regional_resource_reused,480003,,Garments,Armor,,Garment,10,0,1,1,0,0,True,False,100000
+20725,Ribbon_Piamat,Ribbon Piamat,Piamette Ribbon,ÇÇ¾Æ¸äÆ®ÀÇ¸®º»,jRO,regional_resource_reused,19097,,Garments,Armor,,Garment,30,0,1,1,7,7,True,False,100000
+2588,Ragamuffin_Cape_,Ragamuffin Cape,Ragamuffin Manteau,´©´õ±â¸ÁÅä,jRO,regional_resource_reused,"2508,2540",,Garments,Armor,,Garment,40,0,1,1,0,0,True,False,100000
+2599,Goibne_Shoulder_Arms_,Goibne's Spaulders,Goibne's Spaulders,°Ôºê³×ÀÌ¾î±úÀå½Ä,jRO,regional_resource_reused,2520,,Garments,Armor,,Garment,54,0,1,1,0,0,True,False,100000
+2572,Katabart_Sholder,Katabart Sholder,Catapult Shoulder,Æúµå·±,jRO,regional_resource_reused,"2514,480219",,Garments,Armor,,Garment,70,0,1,1,0,0,True,False,100000
+20766,Beam_Of_Light_Manteau,Radiance Manteau,Radiance Manteau,±¤¸ÁÀÇ¸ÁÅä,jRO,regional_resource_reused,20779,,Garments,Armor,,Garment,70,0,1,1,0,0,True,False,100000
+20813,Clack_Of_Servival_,Survivor's Manteau,Manteau of Survival,»ýÁ¸ÀÇ¸ÁÅä,jRO,regional_resource_reused,"2509,2535",,Garments,Armor,,Garment,75,0,1,1,0,0,True,False,100000
+20719,BF_Hood,Battle Cape,Battle Shawl,½ÃÁî¸ÁÅä,bRO,regional_resource_reused,"2586,480217",,Garments,Armor,,Garment,99,0,0,0,0,0,True,False,100000
+20907,Fairy_Cloth,Fairy Cloth,Fairy Cloth,Fairy_Cloth,jRO,regional_resource_reused,20944,,Garments,Armor,,Garment,100,0,1,1,0,0,True,False,200000
+20777,Upgrade_Part_Engine_J,Guardian Engine,Guardian Engine,°­È­ÆÄÃ÷¿£Áø,jRO,regional_resource_reused,20733,,Garments,Armor,,Garment,100,0,1,1,0,0,True,False,200000
+20952,Anony_As_Muffler,Mysterious Muffler,Mysterious Muffler,¿¡·¹¸Þ½º½ºÄ«ÇÁ,jRO,regional_resource_reused,20405,,Garments,Armor,,Garment,100,0,1,1,0,0,True,False,200000
+20859,Phreeoni_Wing,Phreeoni Wings,Phreeoni Wings,Phreeoni_Wing,jRO,regional_resource_reused,450217,,Garments,Armor,,Garment,100,0,1,1,0,0,True,False,200000
+20776,Supplement_Part_Con_J,Powered Tank,Powered Tank,Ã¼·Âº¸¿ÏÀåÄ¡,jRO,regional_resource_reused,20732,,Garments,Armor,,Garment,100,0,1,1,0,0,True,False,200000
+450176,Supplement_Part_Wing,Powered Wing,Powered Wing,Supplement_Part_Wing,jRO,regional_resource_reused,"480124,480125,480197",,Garments,Armor,,Garment,100,0,0,1,0,0,True,False,200000
+480539,Royal_Nightwatch_US,Royal Nightwatch Cape,Royal Nightwatch Cape,C_H_Knight_Cloak,iRO,regional_resource_reused,420047,,Garments,Armor,,Garment,100,0,1,1,0,0,True,True,200000
+20917,Doram_Ele_Cape_J,Special Doram Cape,Exlusive Doram Cape,µµ¶÷¸ÁÅä,jRO,regional_resource_reused,"20788,20789,20790",,Garments,Armor,,Garment,100,0,1,1,0,0,True,False,200000
+20846,Temporal_Manteau,Temporal Manteau,Temporal Manteau,Temporal_Manteau,jRO,regional_resource_reused,"20963,20964,20965,20966,20967,20968",,Garments,Armor,,Garment,100,0,1,1,0,13,True,False,200000
+20814,Wakwak_Manteau,Wakwak Manteau,Wakwak Manteau,pp¸ÁÅä,jRO,regional_resource_reused,480000,,Garments,Armor,,Garment,100,0,1,1,0,0,True,False,200000
+20700,Egir_Manteau,Egir Manteau,Aegir Mantle,¿¡±æ¸ÁÅä,jRO,regional_resource_reused,"20756,480083",,Garments,Armor,,Garment,110,0,1,1,0,0,True,False,200000
+20900,Golden_Scarf_J,Bouncer's Scarf,Bodyguard's Scarf,°ñµç½ºÄ«ÇÁ,jRO,regional_resource_reused,20821,,Garments,Armor,,Garment,130,0,1,1,0,0,True,False,500000
+20818,Cursed_Devils_Manteau,Curse-Spell Manteau,Cursed Magic Manteau,ÀúÁÖ¹ÞÀº¾Ç¸¶ÀÇ¸ÁÅä,jRO,regional_resource_reused,20945,,Garments,Armor,,Garment,130,0,1,1,0,0,True,False,500000
+20827,Diva_Manteau,Diva Manteau,Diva Manteau,µð¹Ù¸ÁÅä,jRO,regional_resource_reused,"20906,480104",,Garments,Armor,,Garment,150,0,1,1,0,0,True,False,500000
+20828,Mirage_Manteau,Mirage Manteau,Mirage Manteau,¹Ì¶óÁê¸ÁÅä,jRO,regional_resource_reused,"20939,480103",,Garments,Armor,,Garment,150,0,1,1,0,0,True,False,500000
+20924,Brave_muffler,Brave Muffler,Brave Muffler,¿ïÇÁÇìµò,jRO,regional_resource_reused,"2531,2549,2560",,Garments,Armor,,Garment,165,0,1,1,0,0,True,False,1000000
+20858,YSF01_Manteau_J,Y.S.F.0.1 Manteau,Y.S.F.0.1 Manteau (jRO),YSF01_Manteau,jRO,regional_resource_reused,20856,,Garments,Armor,,Garment,170,0,1,1,0,0,True,False,1000000
+18845,Banshee_Master_Kiss,Banshee Master Kiss,Banshee Master Kiss,¹ê½Ã¸¶½ºÅÍÀÇÅ°½º,iRO,regional_resource_reused,20201,20201,Headgear,Armor,,Head_Low,0,0,0,0,959,959,False,False,100000
+18611,Black_Glasses_,Black Glasses,Black Frame Glasses,°ËÀº»ÔÅ×¾È°æ,iRO,regional_resource_reused,"5401,19722","5401,19722",Headgear,Armor,,Head_Mid,0,0,1,1,404,404,False,False,100000
+5506,Blue_Pajamas_Hat,Blue Night Cap,Blue Pajamas Hat,ÆÄ¶õÆÄÀÚ¸¶¸ðÀÚ,idRO,regional_resource_reused,19866,19866,Headgear,Armor,,Head_Top,0,0,0,0,501,501,True,False,100000
+18819,Blue_Pencil_In_Mouth,Blue Pencil In Mouth,Blue Pencil in Mouth,ÀÔ¿¡¹«´ÂÆÄ¶õ¿¬ÇÊ,jRO,regional_resource_reused,31927,31927,Headgear,Armor,,Head_Low,0,0,0,0,932,932,False,False,100000
+18659,Boitata_Hat,Boitata Hat,Boitata Hat,º¸ÀÌÅ¸Å¸¸ðÀÚ,iRO,regional_resource_reused,"15889,400109","15889,400109",Headgear,Armor,,"Head_Mid,Head_Top",0,0,1,1,808,808,True,False,100000
+18782,Butterfly_Wing_Ear_J,Butterfly Wing Ear,Butterfly Wing Ear,³ªºñ³¯°³±Í,jRO,regional_resource_reused,19509,19509,Headgear,Armor,,Head_Mid,0,0,0,0,695,695,False,False,100000
+18739,Carnation_Hairband,Carnation Hairband,Carnation Hairband,Ä«³×ÀÌ¼Ç¸Ó¸®¶ì,iRO,regional_resource_reused,19800,19800,Headgear,Armor,,Head_Top,0,0,0,0,878,878,True,False,100000
+5563,Dolor_Hat,Dolor Hat,Dolor Hat,°í³úÀÇ¸ðÀÚ,jRO,regional_resource_reused,"25145,400023,400465","400023,400465",Headgear,Armor,,Head_Top,0,0,1,1,547,547,False,False,100000
+18735,Drooping_Elven_Ears,Drooping Elven Ears,Fairy Ears,Å¸·¹¿äÁ¤ÀÇ±Í,jRO,regional_resource_reused,"19039,20136","19039,20136",Headgear,Armor,,Head_Mid,0,0,0,0,875,875,False,False,100000
+18812,Elder_Crown,Elder Crown,Elder Crown,¿¤´õÅ©¶ó¿î,jRO,regional_resource_reused,400373,400373,Headgear,Armor,,Head_Top,0,0,1,1,933,933,True,False,100000
+18747,Eyes_Of_Ifrit,Eyes Of Ifrit,Eyes of Ifrit,ÀÌÇÁ¸®Æ®ÀÇ´«,iRO,regional_resource_reused,20221,20221,Headgear,Armor,,Head_Mid,0,0,1,1,886,886,False,False,100000
+5612,F_Blue_Drooping_Kitty,F Blue Drooping Kitty,Blue Drooping Cat,ÆÄ¶û´Ã¾îÁø°í¾çÀÌ,iRO,regional_resource_reused,5233,5233,Headgear,Armor,,Head_Top,0,0,0,0,277,277,True,False,100000
+5619,F_Bunny_Band_,F Bunny Band,Evolved Bunny Band,Åä³¢¸Ó¸®¶ì,iRO,regional_resource_reused,"2214,5218,5266,5553,18764,19625,400003","1550,1552,1559,1560,1561,1562,1563,1564",Headgear,Armor,,Head_Top,0,0,0,0,15,15,True,False,100000
+5618,F_Cat_Hat,F Cat Hat,Neko Mimi,°í¾çÀÌ¸ðÀÚ,iRO,regional_resource_reused,"5099,31171","5099,31171",Headgear,Armor,,Head_Top,0,0,0,0,182,182,True,False,100000
+5633,F_Drooping_Bunny_,F Drooping Bunny,Drooping Bunny,´Ã¾îÁøÅä³¢,iRO,regional_resource_reused,"5198,5290,5459,19878","5198,5290,5459,19878,480505",Headgear,Armor,,Head_Top,0,0,0,0,249,249,True,False,100000
+5645,F_Fantastic_Wig,F Fantastic Wig,Fantastic Wig,È¯»óÀûÀÎ°¡¹ß,iRO,regional_resource_reused,5276,5276,Headgear,Armor,,"Head_Mid,Head_Top",0,0,0,0,308,308,True,False,100000
+5640,F_Jumping_Poring,F Jumping Poring,Jumping Poring,ÆúÂ¦ÀÌ´ÂÆ÷¸µ,iRO,regional_resource_reused,"5335,5770,19675","5335,19675",Headgear,Armor,,Head_Top,0,0,0,0,349,349,False,False,100000
+5652,F_Magestic_Goat_C,F Magestic Goat C,Majestic Goat,¸¶Á¦½ºÆ½°í¿ìÆ®,iRO,regional_resource_reused,"2256,5160,5217,5280,5683,19549","1123,1128,2256,5160,5217,5280,5683,19549",Headgear,Armor,,Head_Top,0,0,0,0,41,41,False,False,100000
+5620,F_Magestic_Goat_TW,F Magestic Goat TW,Evolved Majestic Goat,¸¶Á¦½ºÆ½°í¿ìÆ®,iRO,regional_resource_reused,"2256,5160,5217,5280,5683,19549","1123,1128,2256,5160,5217,5280,5683,19549",Headgear,Armor,,Head_Top,0,0,0,0,41,41,True,False,100000
+5622,F_Mini_Propeller_,F Mini Propeller,Mini Propeller,ÇÁ·ÎÆç¶ó_,iRO,regional_resource_reused,5226,5226,Headgear,Armor,,Head_Top,0,0,0,0,270,270,True,False,100000
+5628,F_Pecopeco_Hairband,F Pecopeco Hairband,Pecopeco Hairband,ÆäÄÚÆäÄÚ¸Ó¸®¶ì,iRO,regional_resource_reused,5286,5286,Headgear,Armor,,Head_Top,0,0,0,0,314,314,False,False,100000
+5637,F_Pink_Fur_Hat,F Pink Fur Hat,Pink Beanie,ºÐÈ«ÅÐ¸ðÀÚ,iRO,regional_resource_reused,"5237,20237","5237,20237",Headgear,Armor,,Head_Top,0,0,0,0,281,281,True,False,100000
+5636,F_Ramen_Hat,F Ramen Hat,Ramen Hat,¶ó¸é¸ðÀÚ,iRO,regional_resource_reused,"5293,12395",5293,Headgear,Armor,,Head_Top,0,0,0,0,320,320,False,False,100000
+5624,F_Red_Glasses,F Red Glasses,Red Glasses,»¡°£¾È°æ,iRO,regional_resource_reused,5288,5288,Headgear,Armor,,Head_Mid,0,0,0,0,316,316,False,False,100000
+5621,F_Sheep_Hat,F Sheep Hat,Sheep Hat,¾ç¸ðÀÚ,iRO,regional_resource_reused,"5133,31163","5133,31163",Headgear,Armor,,Head_Top,0,0,0,0,205,205,False,False,100000
+5614,F_Smoking_Pipe_,F Smoking Pipe,Evolved Pipe,ÆÄÀÌÇÁ´ã¹è,iRO,regional_resource_reused,"2268,5220,20091","1463,1464,1465,2268,5220,20091,31737",Headgear,Armor,,Head_Low,0,0,0,0,55,55,False,False,100000
+5646,F_Whisper_Mask,F Whisper Mask,Whisper Mask,À§½ºÆÛ¸¶½ºÅ©,iRO,regional_resource_reused,5294,5294,Headgear,Armor,,"Head_Low,Head_Mid,Head_Top",0,0,0,0,321,321,False,False,100000
+5642,F_Yellow_Wizardry_Hat,F Yellow Wizardry Hat,Yellow Mage Hat,³ë¶û¸¶¹ý»çÀÇ¸ðÀÚ,iRO,regional_resource_reused,5242,5242,Headgear,Armor,,Head_Top,0,0,0,0,286,286,True,False,100000
+18801,Gale_Hairband,Gale Hair Ornament,Gale Hair Ornament,ÀÎµð¾È±êÅÐ¸Ó¸®¶ì,jRO,regional_resource_reused,31144,31144,Headgear,Armor,,Head_Top,0,0,0,0,809,809,True,False,100000
+18621,Gangster_Mask_A,Gangster Mask A,Mobster's Disguise,½ÃÀ§¿ë¸¶½ºÅ©,iRO,regional_resource_reused,2265,"1410,1411,2265,20575,630003,630008,630009,630012",Headgear,Armor,,Head_Low,0,0,0,0,52,52,False,False,100000
+18925,GodOfWinds_Fan,God of Winds Fan,Wind Fan,Ç³½ÅÀÇºÎÃ¤,jRO,regional_resource_reused,"31304,31319","31304,31319",Headgear,Armor,,Head_Low,0,0,0,0,1051,1051,False,False,100000
+18842,Hat_Of_Girl,Hat Of Girl,Hat of Girl,¼Ò³àÀÇ¸ðÀÚ,iRO,regional_resource_reused,20372,20372,Headgear,Armor,,Head_Top,0,0,1,1,956,956,True,False,100000
+18578,Helm_Of_Valor,Helm Of Valor,Helm of Valor,°Ôºê³×ÀÌÅõ±¸,idRO,regional_resource_reused,5128,"5128,19366",Headgear,Armor,,Head_Top,0,0,0,0,258,258,False,False,100000
+18660,Indi_Feather_Band,Indian Feather Headband,Indian Feather Headband,ÀÎµð¾È±êÅÐ¸Ó¸®¶ì,iRO,regional_resource_reused,31144,31144,Headgear,Armor,,Head_Top,0,0,1,1,809,809,True,False,100000
+18919,Jack_Castle_Bat,Jack Castle Bat,Jack Castle Bat,ÀèÄ³½½¹èÆ®,iRO,regional_resource_reused,20034,20034,Headgear,Armor,,Head_Low,0,0,0,0,1041,1041,False,False,100000
+18554,King_Prawn_Hat,King Prawn Hat,King Prawn Hat,¿Õ»õ¿ì¸ðÀÚ,jRO,regional_resource_reused,19857,19857,Headgear,Armor,,Head_Top,0,0,0,0,728,728,False,False,100000
+18546,Lover_In_Mouth,Lover In Mouth,Sweetheart Gum of Mouth,ÀÔ¾ÈÀÇ¿¬ÀÎ,jRO,regional_resource_reused,"19080,20305","19080,20305",Headgear,Armor,,Head_Low,0,0,0,0,720,720,False,False,100000
+18649,Lude_Mask,Lude Mask,Lude Mask,·çµå¸¶½ºÅ©,jRO,regional_resource_reused,19918,19918,Headgear,Armor,,"Head_Low,Head_Mid",0,0,0,0,802,802,False,False,100000
+18594,Magni_Cap_,Magni Cap,Magni's Cap,¸Þ±äÄ¸,jRO,regional_resource_reused,"5122,20186","5122,20186,480506",Headgear,Armor,,Head_Top,0,0,1,1,250,250,True,False,100000
+5475,Cube_Mask,Mask Cube,Gozarian Hat,Å¥ºê¸¶½ºÅ©,jRO,regional_resource_reused,"19531,19919","19531,19919",Headgear,Armor,,"Head_Low,Head_Mid",0,0,0,0,472,472,False,False,100000
+5869,Mimic_Egg_Shell,Mimic Egg Shell,Mimic Egg Shell,¹Ì¹Í¾Ë²®Áú,bRO,regional_resource_reused,"19341,31467","19341,31467",Headgear,Armor,,Head_Top,0,0,0,0,999,999,True,False,100000
+18591,Mini_Glasses_,Mini Glasses,Mini Glasses,¹Ì´Ï±Û·¡½º,iRO,regional_resource_reused,"2260,19218,20125","2260,19218,20125,20570",Headgear,Armor,,Head_Mid,0,0,1,1,47,47,False,False,100000
+18598,Mini_Tree_J,Mini Tree J,Holy Xmas Tree,¹Ì´ÏÆ®¸®,jRO,regional_resource_reused,"18553,19955","18553,19955",Headgear,Armor,,Head_Top,0,0,1,1,727,727,False,False,100000
+18583,Navy_Drooping_Kitty,Navy Drooping Kitty,Navy Drooping Kitty,³²»ö´Ã¾îÁø°í¾çÀÌ,iRO,regional_resource_reused,400193,400193,Headgear,Armor,,Head_Top,0,0,0,0,749,749,True,False,100000
+5468,Parade_Cap,Parade Hat,Parade Hat,ÆÛ·¹ÀÌµå¸ðÀÚ,jRO,regional_resource_reused,"5583,400138,400140","5583,400138,400140",Headgear,Armor,,Head_Top,0,0,1,1,465,465,True,False,100000
+5871,Picky_Egg_Shell,Picky Egg Shell,Picky Egg Shell,ÇÈÅ°¾Ë²®Áú,bRO,regional_resource_reused,400557,400557,Headgear,Armor,,Head_Top,0,0,0,0,1001,1001,True,False,100000
+5507,Pink_Pajamas_Hat,Pink Night Cap,Pink Pajamas Hat,ÇÎÅ©ÆÄÀÚ¸¶¸ðÀÚ,bRO,regional_resource_reused,19867,19867,Headgear,Armor,,Head_Top,0,0,0,0,502,502,True,False,100000
+18535,Pumpkin_Hat_2010,Pumpkin Hat 2010,Pumpkin Hat 2010,È£¹Ú¸ðÀÚ,jRO,regional_resource_reused,"5134,5202,5356,5668,20225","5134,5202,5356,5668,20225",Headgear,Armor,,Head_Top,0,0,0,0,206,206,True,False,100000
+18778,Pink_Bunny_Band_J,Rabbit Hairband (Peach),Pink Bunnyband,ºÐÈ«Åä³¢¸Ó¸®¶ì,jRO,regional_resource_reused,19586,19586,Headgear,Armor,,Head_Top,0,0,0,0,898,898,True,False,100000
+18790,Rainbow_Poring_Hat,Rainbow Poring Hat,Rainbow Poring Hat,¹«Áö°³Æ÷¸µ¸ðÀÚ,bRO,regional_resource_reused,19676,19676,Headgear,Armor,,Head_Top,0,0,1,1,900,900,True,False,100000
+18834,Sakura_Hairband,Sakura Hairband,Sakura Hairband,»çÄí¶ó¸Ó¸®¶ì,jRO,regional_resource_reused,20437,20437,Headgear,Armor,,Head_Top,0,0,0,0,949,949,True,False,100000
+18791,Shrine_Maiden_Hat,Shrine Maiden Hat,Shrine Maiden Hat,¼ºÀÚÀÇ¸®º»¸ðÀÚ,iRO,regional_resource_reused,19894,19894,Headgear,Armor,,Head_Top,0,0,1,1,908,908,True,False,100000
+18841,Small_Poring_Band,Small Poring Band,Small Poring Band,½º¸ôÆ÷¸µ¸Ó¸®¶ì,iRO,regional_resource_reused,20447,20447,Headgear,Armor,,Head_Top,0,0,1,1,955,955,True,False,100000
+18538,Devil_Whisper,Spirit Whispers,Spirit Whispers,¾Ç¸¶ÀÇ¼Ó»èÀÓ,jRO,regional_resource_reused,19542,19542,Headgear,Armor,,Head_Mid,0,0,0,0,712,712,False,False,100000
+18923,RokBlackCat,Stylist Black Cat Ear,Stylish Black Cat Ears,ÈÖÄÉ¹ÙÀÎÀÇ±Í,bRO,regional_resource_reused,"5360,19134,19643,400153","5360,19134,19643,400153",Headgear,Armor,,Head_Top,0,0,1,1,368,368,True,False,100000
+18827,Valkyrie_Circlet,Valkyrie Circlet,Valkyrie Circlet,¹ßÅ°¸®ÀÇ¼­Å¬¸´,jRO,regional_resource_reused,5909,5909,Headgear,Armor,,Head_Top,0,0,1,1,940,940,True,False,100000
+5888,Wedding_Veil_,Wedding Veil,Wedding Veil,¸é»çÆ÷,jRO,regional_resource_reused,"2206,19790","1143,2206,19790,20543",Headgear,Armor,,Head_Top,0,0,1,1,44,44,True,False,100000
+5881,Weissbier_Hat,Weissbier Hat,Weissbier Hat,¹ÙÀÌ½ººñ¾îÇÞ,bRO,regional_resource_reused,400174,400174,Headgear,Armor,,Head_Top,0,0,0,0,1079,1079,True,False,100000
+18811,JRO_White_Snake,White Snake,White Snake Hat,ÇÏ¾á¹ì¸ðÀÚ,jRO,regional_resource_reused,"5411,19708","5411,19708",Headgear,Armor,,Head_Top,0,0,1,1,413,413,True,False,100000
+5953,Love_Guard_L,[Rental] Love Guard,Rental Benevolent Guardian,¹Ú¾ÖÀÇ¼öÈ£,jRO,regional_resource_reused,19673,19673,Headgear,Armor,,"Head_Mid,Head_Top",1,0,0,0,716,716,False,False,100000
+420239,Adventure_Clover,Adventure Clover,Adventure Clover,ÀÔ¿¡¹®³×ÀÙÅ¬·Î¹ö,iRO,regional_resource_reused,"5596,19713","5596,19713",Headgear,Armor,,Head_Low,1,0,0,0,571,571,False,False,100000
+18922,ILCHONGOM,Angeling Woolly Hat,Machi Bear Cap,Å©¸®½º¸¶½ºÈò°õ¸ðÀÚ,bRO,regional_resource_reused,"18850,19707","18850,19707",Headgear,Armor,,Head_Top,1,0,1,1,966,966,True,False,100000
+420246,Arbitrator_Shawl_US,Arbitrator Shawl,Arbitrator Shawl,C_Feather_Stola,iRO,regional_resource_reused,420071,420071,Headgear,Armor,,Head_Low,1,0,0,0,2130,2130,False,False,100000
+19405,Autumnal_Flavor,Autumn Taste,Autumn Taste,Autumnal_Flavor,iRO,regional_resource_reused,31580,31580,Headgear,Armor,,Head_Mid,1,0,0,0,1792,1792,False,False,100000
+18914,Kid_Deviling,Baby Deviling,Baby Devilring,²¿¸¶µ¥ºô¸µ,iRO,regional_resource_reused,5912,5912,Headgear,Armor,,Head_Mid,1,0,1,1,1036,1036,False,False,100000
+18912,Bell_Pigeon,Bell Pigeon,Bell Pigeon,º§ÀÇºñµÑ±â,iRO,regional_resource_reused,20147,20147,Headgear,Armor,,Head_Mid,1,0,1,1,1034,1034,False,False,100000
+5776,Blazing_Sun,Blazing Sun,Blazin Sun,ºÒÅ¸´ÂÅÂ¾ç,jRO,regional_resource_reused,19507,19507,Headgear,Armor,,Head_Top,1,0,0,0,654,654,True,False,100000
+5795,Red_Dress_Hat,Bright Red Dress Hat,Red Dress Hat,»¡°£µå·¹½ºÇÞ,jRO,regional_resource_reused,19706,19706,Headgear,Armor,,Head_Top,1,0,1,1,670,670,True,False,100000
+420314,White_Fox_US,Calming White Fox,Calming White Fox,C_Friendly_White_Fox,iRO,regional_resource_reused,420192,420192,Headgear,Armor,,Head_Low,1,0,0,0,2335,2335,False,False,100000
+5744,Capricon_Crown,Capricorn Crown,Capricorn Crown,¸¶°¥±Ã¿Õ°ü,iRO,regional_resource_reused,400120,400120,Headgear,Armor,,Head_Top,1,0,1,1,621,621,True,False,100000
+18683,Carrot_In_Mouth,Carrot In Mouth,Carrot in Mouth,ÀÔ¿¡¹«´ÂÈ«´ç¹«,iRO,regional_resource_reused,"19239,420081","19239,420081",Headgear,Armor,,Head_Low,1,0,0,0,829,829,False,False,100000
+18956,Chocolate_Bomb,Chocolate Bomb,Chocolate Bomb,ÃÊÄÝ·¿ÆøÅº,iRO,regional_resource_reused,420108,420108,Headgear,Armor,,Head_Low,1,0,0,0,1110,1110,False,False,100000
+18672,Tare_Pope,Drooping Pope,Drooping Pope,Å¸·¹±³È²ÀÎÇü¸ðÀÚ,jRO,regional_resource_reused,"18673,19576","18673,19576",Headgear,Armor,,Head_Top,1,0,0,0,817,817,False,False,100000
+19142,Droop_Gunslinger_J,Drooping Rebellion,Drooping Rebel,´Ã¾îÁø°Ç½½¸µ°Å,jRO,regional_resource_reused,19157,19157,Headgear,Armor,,Head_Top,1,0,1,1,1444,1444,False,False,100000
+19006,Victory_Ear_Accessary,Ear of Victory,Victory Wing Ears,½Â¸®ÀÇ±ÍÀå½Ä,iRO,regional_resource_reused,"400001,400002","400001,400002",Headgear,Armor,,Head_Mid,1,0,1,1,1185,1185,False,False,100000
+5649,F_Apple_Of_Archer_C,F Apple Of Archer C,Apple Of Archer,¸í»ç¼öÀÇ»ç°ú,iRO,regional_resource_reused,"2285,5265,19797,400337","1615,2285,5265,19210,19797,400337,480055",Headgear,Armor,,Head_Top,1,0,0,0,72,72,False,False,100000
+5647,F_Bunny_Band_C,F Bunny Band C,Bunny Band,Åä³¢¸Ó¸®¶ì,iRO,regional_resource_reused,"2214,5218,5266,5553,18764,19625,400003","1550,1552,1559,1560,1561,1562,1563,1564",Headgear,Armor,,Head_Top,1,0,0,0,15,15,False,False,100000
+5648,F_Centimental_Flower_C,F Centimental Flower C,Centimental Flower,²ÉÀÙ,iRO,regional_resource_reused,"2269,2687,19552","1466,1476,2269,2687,19552,20578",Headgear,Armor,,Head_Low,1,0,0,0,56,56,False,False,100000
+5650,F_Elven_Ears_C,F Elven Ears C,Elven Ears,¿äÁ¤ÀÇ±Í,iRO,regional_resource_reused,"2286,2686,5244,5245,5250,5251,18507,19551","1701,1702,1703,1704,1705,1706,1707,1708",Headgear,Armor,,Head_Mid,1,0,0,0,73,73,False,False,100000
+19221,Golden_Angel_Band_TH,Golden Angel Hairband,Golden Angel Hairband,¾Æ¹öÁö»ç¶û2013,iRO,regional_resource_reused,20079,20079,Headgear,Armor,,Head_Top,1,0,0,0,1104,1104,True,False,100000
+18913,Gossip_Raven,Gossip Raven,Gossip Raven,¼ö´ÙÀïÀÌ±î¸¶±Í,iRO,regional_resource_reused,31380,31380,Headgear,Armor,,Head_Mid,1,0,1,1,1035,1035,False,False,100000
+19406,Harvest_Festa_Hat,Harvest Festa Hat,Harvest Festa Hat,Harvest_Festa_Hat,iRO,regional_resource_reused,31368,31368,Headgear,Armor,,Head_Top,1,0,0,0,1677,1677,False,False,100000
+18658,Holy_Santa_Beard,Holy Santa Beard,Santa's Holy Beard,Èò¼ö¿°,jRO,regional_resource_reused,"2238,2241,5155,5811,19783","2241,5155,5811,19783,20517",Headgear,Armor,,Head_Low,1,0,0,0,25,25,False,False,100000
+18909,Isabella_Brown_Ear,Isabella Brown Ear,Piamette's Brown Ears,ÀÌ»çº§¶óºê¶ó¿î±Í¸ðÀÚ,iRO,regional_resource_reused,20413,20413,Headgear,Armor,,Head_Top,1,0,1,1,1031,1031,True,False,100000
+5782,Hoplite_Helmet,Legionaire Helm,Legionaire Helm,ÁßÀåº¸º´ÀÇÅõ±¸,jRO,regional_resource_reused,18637,18637,Headgear,Armor,,"Head_Low,Head_Mid,Head_Top",1,0,1,1,660,660,True,False,100000
+5663,Libra_Diadem,Libra Diadem,Libra Diadem,ÃµÄª±Ãº¸°ü,iRO,regional_resource_reused,400079,400079,Headgear,Armor,,Head_Top,1,0,0,0,594,594,True,False,100000
+19050,Loki_Nidhogg_Hat,Loki & Nidhoggur's Hat,Nidhoggur and Loki Hat,·ÎÅ°¿Í´ÏµåÈ£±×¸ðÀÚ,jRO,regional_resource_reused,20212,20212,Headgear,Armor,,Head_Top,1,0,1,1,1304,1304,True,False,100000
+18918,Long_Octopus_Balloon,Long Octopus Balloon,Cute Octopus Balloon,³«ÁöÇ³¼±,iRO,regional_resource_reused,31425,31425,Headgear,Armor,,Head_Low,1,0,0,0,1040,1040,False,False,100000
+19393,Magic_Star_TW,Magic Star,Strawberry Flavored Rice Ball,·°¿ä¸®08,iRO,regional_resource_reused,12098,,Headgear,Armor,,Head_Mid,1,0,0,0,0,0,False,False,100000
+18883,Black_Witch_Hat,Mystery Witch Hat,Black Witch Hat,°ËÀº¸¶³àÀÇ¸ðÀÚ,iRO,regional_resource_reused,20395,20395,Headgear,Armor,,Head_Top,1,0,1,1,1006,1006,True,False,100000
+420315,Morcegos_US,Naughty Bats,Naughty Bats,C_Ghost_Bat_TW,iRO,regional_resource_reused,420078,420078,Headgear,Armor,,Head_Low,1,0,0,0,2093,2093,False,False,100000
+18639,Naval_Officer_Hat,Naval Officer Hat,Naval Officer Hat,ÇØ±º»ç°ü¸ðÀÚ,jRO,regional_resource_reused,400459,400459,Headgear,Armor,,Head_Top,1,0,1,1,792,792,True,False,100000
+5759,Noah_Hat,Noah Hat,Noah's Hat,³ë¾ÆÀÇ¸ðÀÚ,jRO,regional_resource_reused,19922,19922,Headgear,Armor,,Head_Top,1,0,1,1,636,636,True,False,100000
+5669,Poring_Party_Hat_J,Poring Party Hat J,Poring Party Hat,Æ÷¸µÆÄÆ¼¸ðÀÚ,jRO,regional_resource_reused,5318,5318,Headgear,Armor,,Head_Top,1,0,0,0,340,340,True,False,100000
+18839,Poring_Sunglasses,Poring Sunglasses,Poring Sunglasses,Æ÷¸µ¼±±Û·¡½º,iRO,regional_resource_reused,"19117,19118,20295","19117,19118,20295",Headgear,Armor,,Head_Mid,1,0,1,1,954,954,False,False,100000
+19175,Jack_Head,Pumpkin Head,Pumpkin Head,Àè¸Ó¸®,jRO,regional_resource_reused,20397,20397,Headgear,Armor,,"Head_Top,Head_Mid,Head_Low",1,0,1,1,1415,1415,True,False,100000
+5763,Red_Bunny_Band,Red Bunny Band,Red Bunny Band,»¡°£Åä³¢¸Ó¸®¶ì,iRO,regional_resource_reused,19532,19532,Headgear,Armor,,Head_Top,1,0,0,0,640,640,True,False,100000
+5740,Sagittarius_Diadem,Sagittarius Diadem,Sagittarius Diadem,ÀÎ¸¶±Ãº¸°ü,iRO,regional_resource_reused,"400061,400261","400061,400261",Headgear,Armor,,Head_Top,1,0,1,0,618,618,True,False,100000
+18645,Sailor_Hat,Sailor Hat,Sailor Hat,¹Ù´å»ç¶÷ÀÇ¸ðÀÚ,jRO,regional_resource_reused,31059,31059,Headgear,Armor,,Head_Top,1,0,1,1,798,798,True,False,100000
+5768,Sakura_Coronet,Sakura Coronet,Sakura Coronet,º¢²ÉÈ­°ü,jRO,regional_resource_reused,19768,19768,Headgear,Armor,,Head_Top,1,0,1,1,645,645,True,False,100000
+18684,Showy_High_Cap,Showy High Cap,Showy High Cap,È­·ÁÇÑÇÏÀÌÄ¸,iRO,regional_resource_reused,19868,19868,Headgear,Armor,,Head_Top,1,0,1,1,830,830,True,False,100000
+410215,Ear_OF_Spirit,Spirit Ears,Ear of Spirit,Grisly_Soul,iRO,regional_resource_reused,410276,410276,Headgear,Armor,,Head_Mid,1,0,0,0,2212,2212,False,False,100000
+18647,Star_Eyepatch,Star Eyepatch,Stunning Star Eyepatch,º°¸ð¾ç¾È´ë,iRO,regional_resource_reused,410170,410170,Headgear,Armor,,Head_Top,1,0,0,0,800,800,False,False,100000
+18640,Starfish_Headband,Starfish Headband,Starfish Headband,ºÒ°¡»ç¸®¸Ó¸®¶ì,iRO,regional_resource_reused,31060,31060,Headgear,Armor,,Head_Top,1,0,1,1,793,793,True,False,100000
+18703,Stem_In_Mouth,Stem In Mouth,Stem in Mouth,ÀÔ¿¡¹«´Â½Ä¹°ÁÙ±â,iRO,regional_resource_reused,"420017,420018,420019,420020,420021,420022","420017,420018,420019,420020,420021,420022",Headgear,Armor,,Head_Low,1,0,0,0,848,848,False,False,100000
+18869,Donut_In_Mouth_J,Sugar Donut,Sugar Donut,ÀÔ¿¡¹®µµ³Ó,jRO,regional_resource_reused,5594,5594,Headgear,Armor,,Head_Low,1,0,0,0,569,569,False,False,100000
+18751,Extreme_Luck_Clover,Super Lucky Clover,Lucky Clover,ÀÔ¿¡¹®³×ÀÙÅ¬·Î¹ö,jRO,regional_resource_reused,"5596,19713","5596,19713",Headgear,Armor,,Head_Low,1,0,0,0,571,571,False,False,100000
+18523,Super_Scell,Super Scell,Thunderstorm Cloud,º­¶ô±¸¸§,jRO,regional_resource_reused,19519,19519,Headgear,Armor,,Head_Top,1,0,0,0,688,688,False,False,100000
+18873,Sweet_Valentine_Out,Sweet Valentine Out,Sweet Valentine,½ºÀ§Æ®¹ß·»Å¸ÀÎ¸ðÀÚ,iRO,regional_resource_reused,18854,18854,Headgear,Armor,,Head_Top,1,0,0,0,865,865,True,False,100000
+18682,Teardrop,Teardrop,Teardrop,´«¹°,iRO,regional_resource_reused,20335,20335,Headgear,Armor,,Head_Mid,1,0,0,0,828,828,False,False,100000
+18856,W_King_Tiger_Doll_Hat,W King Tiger Doll Hat,White Tiger King Doll Hat,ÈòÈ£¶ûÀÌ¿Õ¸ðÀÚ,iRO,regional_resource_reused,20053,20053,Headgear,Armor,,Head_Top,1,0,0,0,973,973,True,False,100000
+19145,Whistle,Whistle,Whistle,ÈÖÆÄ¶÷,jRO,regional_resource_reused,"20492,400000","20492,400000",Headgear,Armor,,Head_Low,1,0,0,0,1478,1478,False,False,100000
+18577,24_Bolt,24 Bolt,24 Bolt,¸Ó¸®¹ÚÈù³ª»ç,jRO,regional_resource_reused,19510,19510,Headgear,Armor,,Head_Mid,10,0,0,0,696,696,False,False,100000
+19041,666_DevilEar,666 Styles Demon's Ears,Black Fairy Ears,°ËÀº¿äÁ¤ÀÇ±Í,jRO,regional_resource_reused,5820,5820,Headgear,Armor,,Head_Mid,10,0,0,0,498,498,False,False,100000
+19036,Brabery_Hat,Adventurer's Hat,Adventurer's Hat,¸ðÇè°¡ÀÇ¸ðÀÚ,jRO,regional_resource_reused,19581,19581,Headgear,Armor,,Head_Top,10,0,1,0,891,891,True,False,100000
+18786,Anemos_Mask,Anemos Mask,Anemos Mask,¾Æ³×¸ð½º°¡¸é,jRO,regional_resource_reused,410020,410020,Headgear,Armor,,Head_Mid,10,0,0,0,906,906,False,False,100000
+19010,Baby_Dragon_Hat,Baby Dragon Hat,Baby Dragon Hat,¾Æ±âµå·¡°ï,jRO,regional_resource_reused,"5531,19559","5531,19559",Headgear,Armor,,Head_Top,10,0,0,0,525,525,False,False,100000
+18969,Boss_Beret,Beret Boss Hat,Boss Beret Hat,º¸½ºº£·¹¸ð,jRO,regional_resource_reused,"19189,19190,19191,19192,19193,19194,19195,19196","19189,19190,19191,19192,19193,19194,19195,19196",Headgear,Armor,,Head_Top,10,0,1,1,1134,1134,True,False,100000
+18746,Chilly_Breath,Chilly Breath,Chilly Breath,³Ã±âÀÔ±è,jRO,regional_resource_reused,"19992,101161,1000227,1000709",19992,Headgear,Armor,,Head_Low,10,0,0,0,885,885,False,False,100000
+18627,Dried_Leaf,Dried Leaf,Dried Leaf,°­¾ÆÁöÇ®,iRO,regional_resource_reused,"18536,20193,26120","18536,20193",Headgear,Armor,,Head_Low,10,0,0,0,711,711,False,False,100000
+5679,Engineer_Cap,Engineer Cap,Engineer Cap,¿£Áö´Ï¾îÄ¸,jRO,regional_resource_reused,19364,19364,Headgear,Armor,,Head_Top,10,0,1,1,608,608,True,False,100000
+5916,Exosrcist_Glass,Exorcist Glasses,Demon's Glasses,Åð¸¶ÀÇ±Û·¡½º,jRO,regional_resource_reused,"410079,410080","410079,410080",Headgear,Armor,,Head_Mid,10,0,0,0,1169,1169,False,False,100000
+5630,F_Charming_Ribbon,F Charming Ribbon,Charming Ribbon,¿¹»Û¸®º»,iRO,regional_resource_reused,5140,5140,Headgear,Armor,,Head_Top,10,0,1,1,211,211,True,False,100000
+5625,F_Chick_Hat,F Chick Hat,Chick Hat,º´¾Æ¸®¸ðÀÚ,iRO,regional_resource_reused,"5283,19129,19608","5283,19129,19608",Headgear,Armor,,Head_Top,10,0,0,0,311,311,False,False,100000
+5613,F_Flying_Angel,F Flying Angel,Flapping Angel Wing,ºñ»óÇÏ´ÂÃµ»ç,iRO,regional_resource_reused,"5210,5269,19859","5210,5269,19859,480565",Headgear,Armor,,Head_Top,10,0,0,0,264,264,True,False,100000
+5617,F_Hibiscus,F Hibiscus,Hibiscus,ºÎ¿ë,iRO,regional_resource_reused,5139,"5139,480422",Headgear,Armor,,Head_Top,10,0,0,0,210,210,False,False,100000
+5641,F_Robo_Eye,F Robo Eye,Robo Eye,·Îº¸¾ÆÀÌ,iRO,regional_resource_reused,"5325,19086,20145","5325,19086,20145",Headgear,Armor,,Head_Mid,10,0,0,0,345,345,False,False,100000
+5865,Filir_Wing_Ears,Filir's Wing Ears,Filir's Pinions,ÇÊ¸®¸£ÀÇ³¯°³,jRO,regional_resource_reused,"5664,19853","5664,19853",Headgear,Armor,,Head_Mid,10,0,0,0,595,595,False,False,100000
+18737,Fortier_Mask,Fortier Masque,Fortier Mask,Æ÷Æ¼¾îÀÇ°¡¸é,jRO,regional_resource_reused,410018,410018,Headgear,Armor,,Head_Mid,10,0,0,0,876,876,False,False,100000
+18590,Gemma_Hairband,Gemma Hairband,Demon Hairband,·é¸Åµì¸Ó¸®¶ì,jRO,regional_resource_reused,"5585,31206","5585,31206",Headgear,Armor,,Head_Top,10,0,1,1,564,564,True,False,100000
+18555,General_Helmet,General Helmet,Dragon General Helm,Àå±ºÀÇÅõ±¸,jRO,regional_resource_reused,"19263,20008","19263,20008",Headgear,Armor,,Head_Top,10,0,1,1,729,729,True,False,100000
+5934,Happy_Balloon_J,Happy Balloon,Happy Balloon,ÇØÇÇ¹ú·é,jRO,regional_resource_reused,"19095,20344","19095,20344",Headgear,Armor,,Head_Low,10,0,0,0,1289,1289,False,False,100000
+18532,Heart_Ribbon_Band,Heart Ribbon Hairband,Heart Ribbon Hairband,ÇÏÆ®¸®º»¸Ó¸®¶ì,jRO,regional_resource_reused,20021,20021,Headgear,Armor,,Head_Top,10,0,1,1,708,708,True,False,100000
+18568,Humming_Bird,Humming Bird,Humming Bird,³ë·¡ÇÏ´Â»õ,jRO,regional_resource_reused,19516,19516,Headgear,Armor,,Head_Top,10,0,0,0,702,702,False,False,100000
+5610,Ice_Wing_Ear,Ice Wing Ear,Ice Wing Ears,¾óÀ½³¯°³±Í,jRO,regional_resource_reused,19826,19826,Headgear,Armor,,Head_Mid,10,0,0,0,584,584,False,False,100000
+18542,Love_Guard,Love Guard,Benevolent Guardian,¹Ú¾ÖÀÇ¼öÈ£,jRO,regional_resource_reused,19673,19673,Headgear,Armor,,"Head_Mid,Head_Top",10,0,1,1,716,716,True,False,100000
+5764,Love_Rabbit_Hood,Love Rabbit Hood,Love Rabbit Hood,Åä³¢º¸´Ö,jRO,regional_resource_reused,"5568,5593,19875,19938","5568,5593,19875,19938",Headgear,Armor,,"Head_Low,Head_Mid,Head_Top",10,0,1,1,549,549,False,False,100000
+5930,Magical_Feather,Magical Feather,Magical Feather,¸ÅÁöÄÃÆä´õ,jRO,regional_resource_reused,"19211,31040","19211,31040",Headgear,Armor,,Head_Top,10,0,1,1,1279,1279,True,False,100000
+5971,Moon_Eyepatch,Moon Eyepatch,Moon Eyepatch,´ÞÀÇ¾È´ë,jRO,regional_resource_reused,19289,19289,Headgear,Armor,,Head_Mid,10,0,1,1,1370,1370,False,False,100000
+18799,Nero_Mask,Nero Mask,Mask of Nero,³×·Î°¡¸é,jRO,regional_resource_reused,410019,410019,Headgear,Armor,,Head_Mid,10,0,0,0,917,917,False,False,100000
+5674,Pig_Moneybox,Pig Moneybox,Piggie Bank,µÅÁöÀú±ÝÅë,jRO,regional_resource_reused,20228,20228,Headgear,Armor,,Head_Top,10,0,0,0,603,603,False,False,100000
+18955,Pirates_Foolish,Pirate's Folly,Pirate's Folly,ÇØÀûÀÇÀÚÁ¸½É,iRO,regional_resource_reused,5501,"5501,5774",Headgear,Armor,,Head_Top,10,0,1,1,496,496,True,False,100000
+5879,Poring_Sunglasses_J,Poring Sunglasses,Poring Sunglasses,Æ÷¸µ¼±±Û·¡½º,jRO,regional_resource_reused,"19117,19118,20295","19117,19118,20295",Headgear,Armor,,Head_Mid,10,0,0,0,954,954,False,False,100000
+18552,Proba_Angel_Blessing,Proba Angel Blessing,Blessed Apprentice Angel,¾Æ±âÃµ»ç»ó,jRO,regional_resource_reused,"5443,23545",5443,Headgear,Armor,,Head_Top,10,0,1,1,444,444,True,False,100000
+18558,Sinsuncho_Hat,Sinsuncho Hat,Sinsuncho Hat,½Å¼±ÃÊ¸ðÀÚ,jRO,regional_resource_reused,19535,19535,Headgear,Armor,,Head_Top,10,0,0,0,730,730,False,False,100000
+18935,There_Is_Something,There is Something,There is...Something...,¹º°¡ÀÖ¾î,jRO,regional_resource_reused,"20183,29162",20183,Headgear,Armor,,Head_Top,10,0,1,1,1091,1091,False,False,100000
+19018,White_Choco_Bear,White Chocolate Bear Hat,White Chocolate Bear Hat,Å©¸®½º¸¶½ºÈò°õ¸ðÀÚ,jRO,regional_resource_reused,"18850,19707","18850,19707",Headgear,Armor,,Head_Top,15,0,1,1,966,966,True,False,100000
+5814,Ati_Atihan_Hat3,2011 Pagdayaw,2011 Pagdayaw,¾ÆÆ¼¾ÆÆ¼¸ðÀÚ,iRO,regional_resource_reused,"5263,5299","5263,5299",Headgear,Armor,,"Head_Low,Head_Mid,Head_Top",20,0,0,0,303,303,False,False,100000
+18618,Airplane_Hat,Airplane Hat,Rockabilly Hair,ºñÇà±â¸ðÀÚ,iRO,regional_resource_reused,20278,20278,Headgear,Armor,,Head_Top,20,0,1,1,775,775,True,False,100000
+18708,Candy_Hat,Candy Hat,Candy Hat,Äµµð¸ðÀÚ,iRO,regional_resource_reused,31459,31459,Headgear,Armor,,Head_Top,20,0,0,0,853,853,True,False,100000
+18666,CD_In_Mouth,CD In Mouth,CD in Mouth,ÀÔ¿¡¹«´ÂÄÞÆÑÆ®µð½ºÅ©,jRO,regional_resource_reused,420003,420003,Headgear,Armor,,Head_Low,20,0,0,0,815,815,False,False,100000
+19079,CelestialWoman_Flower,Celestial Woman's Flower,Celestial Woman's Flower,¼±³àÀÇ²É,jRO,regional_resource_reused,5437,5437,Headgear,Armor,,Head_Top,20,0,1,1,438,438,True,False,100000
+18711,Electric_Sunglass,Electric Sunglass,Electric Sunglass,µ¶Æ¯ÇÑÆÐ¼Ç¾È°æ,iRO,regional_resource_reused,"18813,19181,19284","18813,19181,19284",Headgear,Armor,,Head_Mid,20,0,0,0,856,856,False,False,100000
+18712,Fan_In_Mouth,Fan In Mouth,Fan in Mouth,ÀÔ¿¡¹«´ÂºÎÃ¤,iRO,regional_resource_reused,420055,420055,Headgear,Armor,,Head_Low,20,0,0,0,857,857,False,False,100000
+18512,Necktie_Of_Tippler,Juho Necktie,Necktie of Drunkard,³ØÅ¸ÀÌ,jRO,regional_resource_reused,"5442,20208","5442,20208",Headgear,Armor,,Head_Top,20,0,1,1,443,443,True,False,100000
+18882,Kannam_On_Head,Kannam On Head,Kannam on Head,Ä­³²¸ðÀÚ,iRO,regional_resource_reused,400319,400319,Headgear,Armor,,Head_Top,20,0,0,0,1003,1003,True,False,100000
+18678,Leek_In_Mouth,Leek In Mouth,Leek in Mouth,ÀÔ¿¡¹«´Â´ëÆÄ,iRO,regional_resource_reused,19238,19238,Headgear,Armor,,Head_Low,20,0,0,0,824,824,False,False,100000
+18713,Monkey_On_Fur_Hat,Monkey On Fur Hat,Monkey Fur Hat,¿ø¼þÀÌÅÐ¸ðÀÚ,iRO,regional_resource_reused,20179,20179,Headgear,Armor,,Head_Top,20,0,1,1,858,858,True,False,100000
+19035,Otter_Hat,Otto Hat,Fur Seal Hat,ÆÛ¾Á¸ðÀÚ,jRO,regional_resource_reused,5556,5556,Headgear,Armor,,Head_Top,20,0,1,1,540,540,True,False,100000
+18693,Sleeping_Kitty_Cat,Sleeping Kitty Cat,Sleeping Kitty Cat,ÀáÀÚ´Â°í¾çÀÌ¸ðÀÚ,iRO,regional_resource_reused,19739,19739,Headgear,Armor,,Head_Top,20,0,1,1,838,838,True,False,100000
+18710,Sugared_Fruit_Stick,Sugared Fruit Stick,Sugared Fruit Stick,ÀÔ¿¡¹«´Â¼³ÅÁ°úÀÏ,iRO,regional_resource_reused,20336,20336,Headgear,Armor,,Head_Low,20,0,0,0,855,855,False,False,100000
+18663,Sunglasses_Bball_Hat,Sunglasses Baseball Hat,Sunglasses Baseball Hat,¼±±Û¶ó½º¾ß±¸¸ðÀÚ,iRO,regional_resource_reused,31805,31805,Headgear,Armor,,Head_Top,20,0,1,1,812,812,True,False,100000
+18697,Syringe_In_Mouth,Syringe In Mouth,Syringe in Mouth,ÀÔ¿¡¹«´ÂÁÖ»ç±â,iRO,regional_resource_reused,19240,19240,Headgear,Armor,,Head_Low,20,0,0,0,842,842,False,False,100000
+18619,Thief_Bandana,Thief Bandana,Thief Bandana,µµÀûµÎ°Ç,iRO,regional_resource_reused,5944,5944,Headgear,Armor,,Head_Top,20,0,0,0,776,776,True,False,100000
+18543,Witchs_Hat,Witchs Hat,Witch Hat,¸¶³àÀÇ¸ðÀÚ,jRO,regional_resource_reused,"18656,18810,19903","18656,18810,19903",Headgear,Armor,,Head_Top,20,0,1,1,717,717,True,False,100000
+18529,Drooping_Wild_Rose,Accurate Wild Rose,Drooping Wild Rose,¿ÍÀÏµå·ÎÁî¸ðÀÚ,jRO,regional_resource_reused,"5557,19530","5557,19530",Headgear,Armor,,"Head_Mid,Head_Top",30,0,1,1,541,541,True,False,100000
+18550,Asgard_Blessing,Asgard Blessing,Asgard Blessing,¾Æ½º°¡¸£µåÀÇÃàº¹,iRO,regional_resource_reused,19742,19742,Headgear,Armor,,Head_Top,30,0,1,1,724,724,True,False,100000
+18939,Black_Cat_Ears_Beret,Black Cat Ears Beret,Black Cat Ears Beret,°ËÀº°í¾çÀÌ±Íº£·¹¸ð,jRO,regional_resource_reused,20191,20191,Headgear,Armor,,Head_Top,30,0,1,1,1071,1071,True,False,100000
+5657,Antique_Pipe_J,Captain's Pipe,Captain's Pipe,¾ØÆ¼Å©´ã¹î´ë,jRO,regional_resource_reused,5377,"5377,420351",Headgear,Armor,,Head_Low,30,0,0,0,383,383,False,False,100000
+5623,F_Alice_Doll,F Alice Doll,Alice Doll,¿¤¸®½º¸ðÀÚ,iRO,regional_resource_reused,"5137,19716","5137,19716,480420",Headgear,Armor,,Head_Top,30,0,1,1,208,208,False,False,100000
+5634,F_Kettle_Hat,F Kettle Hat,Kettle Hat,ÁÖÀüÀÚ¸ðÀÚ,iRO,regional_resource_reused,5291,5291,Headgear,Armor,,Head_Top,30,0,0,0,318,318,True,False,100000
+5639,F_Magic_Eyes,F Magic Eyes,Magic Eyes,¸ÅÁ÷¾ÆÀÌÁî,iRO,regional_resource_reused,"5138,18734,19130","5138,18734,19130",Headgear,Armor,,Head_Top,30,0,0,0,209,209,True,False,100000
+5638,F_Puppy_Hat,F Puppy Hat,Puppy Hat,°­¾ÆÁö¸ðÀÚ,iRO,regional_resource_reused,"5182,5454","5182,5454,480476",Headgear,Armor,,Head_Top,30,0,0,0,234,234,False,False,100000
+5629,F_Vacation_Hat,F Vacation Hat,Vacation Hat,¹ÙÄ²½º¸ðÀÚ,iRO,regional_resource_reused,"5287,5456","5287,5456",Headgear,Armor,,Head_Top,30,0,1,1,315,315,False,False,100000
+5627,F_Vane_Hairpin,F Vane Hairpin,Vane Hairpin,Ç³Â÷ºñ³à,iRO,regional_resource_reused,5285,5285,Headgear,Armor,,Head_Top,30,0,1,1,313,313,False,False,100000
+5632,F_Vanilmirth_Hat,F Vanilmirth Hat,Vanilmirth Hat,¹Ù´Ò¹Ì¸£½º¸ðÀÚ,iRO,regional_resource_reused,"5289,19839","5289,19839",Headgear,Armor,,Head_Top,30,0,0,0,317,317,False,False,100000
+5631,F_Water_Lily_Crown,F Water Lily Crown,Water Lily Crown,¼ö·Ã¿Õ°ü,iRO,regional_resource_reused,5284,5284,Headgear,Armor,,Head_Top,30,0,1,1,312,312,False,False,100000
+18593,Fancy_Mini_Crown,Fancy Mini Crown,Fancy Mini Crown,¹Ì´ÏÅ©¶ó¿î1,jRO,regional_resource_reused,19522,19522,Headgear,Armor,,Head_Top,30,0,1,1,707,707,True,False,100000
+18822,Flame_Wing_Ear,Flame Wing Ear,Flame Wing Ears,ÀÌÇÁ¸®Æ®ÀÇ±Í,jRO,regional_resource_reused,"5421,19128","5421,19128",Headgear,Armor,,Head_Mid,30,0,0,0,422,422,False,False,100000
+5673,Home_Cherry_Blossom,Home Cherry Blossom,Hometown Sakura,°íÇâÀÇº¢²É,jRO,regional_resource_reused,31245,31245,Headgear,Armor,,Head_Top,30,0,1,1,602,602,True,False,100000
+18720,Magical_Booster,Magical Booster,Magical Booster,¸ÅÁöÄÃºÎ½ºÅÍ,jRO,regional_resource_reused,"5864,19126,19241,20311","5864,19126,19241,20311",Headgear,Armor,,Head_Mid,30,0,0,0,873,873,False,False,100000
+5931,Niflheim_Bunny_Hat,Niflheim Bunny Hat,Nifleheim Bunny Hat,´ÏÇÃÇìÀÓ¹ö´ÏÇÞ,jRO,regional_resource_reused,20398,20398,Headgear,Armor,,Head_Top,30,0,1,1,1285,1285,True,False,100000
+5473,Forceps_Hairpin,Nipper Crab Hairpin,Crab Nipper Hat,Áý°Ô¹ß¸Ó¸®ÇÉ,jRO,regional_resource_reused,31061,31061,Headgear,Armor,,Head_Top,30,0,0,0,470,470,True,False,100000
+5866,Red_Cherry_Blossom,Red Cherry Blossom,Crimson Cherry Blossom,ÀÔ¿¡¹«´Âº¢²É°¡Áö,jRO,regional_resource_reused,18677,18677,Headgear,Armor,,Head_Low,30,0,0,0,823,823,False,False,100000
+5841,Shaman_Hat_,Shaman Hat,Shaman Hat,¹«¼ÓÀÎÀÇ¸ðÀÚ,idRO,regional_resource_reused,5665,5665,Headgear,Armor,,Head_Top,30,0,1,0,596,596,True,False,100000
+5867,Hat_Of_Drowsy_Cat,Sleeping Cat,Sleeping Cat,ÀáÀÚ´Â°í¾çÀÌ¸ðÀÚ,jRO,regional_resource_reused,19739,19739,Headgear,Armor,,Head_Top,30,0,1,1,838,838,True,False,100000
+18788,Starlight_Scope,Starlight Scope,Starlight Scope,¸Á¿ø°æ,jRO,regional_resource_reused,"2296,18772,19088,19734","1811,1812,2296,18772,19088,19734,20599",Headgear,Armor,,Head_Mid,30,0,0,0,83,83,False,False,100000
+18852,D_Strawberry_Hat,Tasty Strawberry Hat,Tasty Strawberry Hat,¸ÀÀÖ´Âµþ±â¸ð,iRO,regional_resource_reused,19778,19778,Headgear,Armor,,Head_Top,30,0,0,0,968,968,True,False,100000
+18853,D_Strawberry_Hat_,Tasty Strawberry Hat,Tasty Strawberry Hat,¸ÀÀÖ´Âµþ±â¸ð,iRO,regional_resource_reused,19778,19778,Headgear,Armor,,Head_Top,30,0,0,1,968,968,True,False,100000
+18530,Tha_Despero_Mask,Thanatos Despero Mask,Thanatos Despero Mask,Å¸³ªÅä½ºÀÇÀý¸Á°¡¸é,jRO,regional_resource_reused,"19534,436001,436004","19534,436001,436004",Headgear,Armor,,"Head_Low,Head_Mid",30,0,0,0,693,693,False,False,100000
+5789,Thanatos_Mal_Mask,Thanatos Mal Mask,Thanatos Odium Mask,Å¸³ªÅä½ºÀÇÁõ¿À°¡¸é,jRO,regional_resource_reused,"436002,436003","436002,436003",Headgear,Armor,,"Head_Low,Head_Mid",30,0,0,0,667,667,False,False,100000
+18954,Rabbit_Head_Dress,White Rabbit Bonnet,White Rabbit Bonnet,·¹ºøÇìµåµå·¹½º,jRO,regional_resource_reused,20200,20200,Headgear,Armor,,Head_Top,30,0,1,1,1095,1095,True,False,100000
+19108,Wild_Poring_Rider,Wild Poring Rider,Wild Poring Rider,¿ÍÀÏµåÆ÷¸µ¶óÀÌ´õ,jRO,regional_resource_reused,20458,20458,Headgear,Armor,,Head_Top,30,0,1,1,1422,1422,True,False,100000
+5466,Wind_Milestone,Wind Milestone,Wind's Guide,¹Ù¶÷ÀÇÀÌÁ¤Ç¥,jRO,regional_resource_reused,19668,19668,Headgear,Armor,,Head_Top,30,0,1,1,463,463,True,False,100000
+18725,Rabbit_Ear_Knit_Hat,Rabbit Ear Knitted Hat,Rabbit Knit Hat,Åä³¢±Í´ÏÆ®¸ðÀÚ,jRO,regional_resource_reused,19780,19780,Headgear,Armor,,Head_Top,33,0,1,1,867,867,True,False,100000
+19028,Minions_Of_Devil,Devil's Servant,Devil's Minion,²¿¸¶µ¥ºô¸µ,jRO,regional_resource_reused,5912,5912,Headgear,Armor,,Head_Mid,40,0,0,0,1036,1036,False,False,100000
+5465,Celestial_Hat,Hat Of Fortune,Hat of Fortune,ÇÏ´Ã¸ðÀÚ,jRO,regional_resource_reused,400305,400305,Headgear,Armor,,Head_Top,40,0,1,1,462,462,True,False,100000
+18651,Ignis_Cap,Ignis Cap,Ignis Cap,ÀÌ±×´Ï½ºÄ¸,jRO,regional_resource_reused,"400022,400266","400022,400266",Headgear,Armor,,Head_Top,40,0,1,1,803,803,True,False,100000
+19402,Many_StarsJ,Many Stars,Group of Stars,ManyStars,jRO,regional_resource_reused,31479,31479,Headgear,Armor,,Head_Low,40,0,0,0,1729,1729,False,False,100000
+5932,Heaven_Cage,Paradise Bird Cage,Bird Cage of Paradise,³«¿øÀÇ»õÀå,jRO,regional_resource_reused,20482,20482,Headgear,Armor,,Head_Top,40,0,1,1,1286,1286,True,False,100000
+18565,St_Pat_Hat,St Patrick's Hat,St Patrick's Hat,·¹ÇÁ¸®ÄÁÀÇ¸ðÀÚ,iRO,regional_resource_reused,"19338,20085","19338,20085",Headgear,Armor,,Head_Top,40,0,1,1,735,735,True,False,100000
+5615,F_Pair_Of_Red_Ribbon_,F Pair Of Red Ribbon,Evolved Pair of Red Ribbon,¾çÂÊ±Í¹Ø¸®º»,iRO,regional_resource_reused,"5085,5221,18608,19889","5085,5221,18608,19889,480297",Headgear,Armor,,Head_Mid,45,0,0,0,169,169,False,False,100000
+18933,Mechanical_Plant_Hat,Mechanical Plant Hat,Mechanical Plant Hat,±â°è½Ä¹°¸ðÀÚ,jRO,regional_resource_reused,20374,20374,Headgear,Armor,,Head_Top,45,0,1,1,1069,1069,True,False,100000
+5790,Holy_Mom_Love,TM,Mother's Kindness,Æ®¶óÀÌ¾Þ±Û·éÄ¸,jRO,regional_resource_reused,5682,5682,Headgear,Armor,,"Head_Mid,Head_Top",45,0,1,1,610,610,True,False,100000
+5986,Whikebain_Ears_,Wickebine's Black Cat Ears,Wickebine's Black Cat Ears,ÈÖÄÉ¹ÙÀÎÀÇ±Í,jRO,regional_resource_reused,"5360,19134,19643,400153","5360,19134,19643,400153",Headgear,Armor,,Head_Top,45,0,1,1,368,368,True,False,100000
+18824,Mask_Of_Bankrupt,Bankruptcy Mask,Mask of Bankrupt,ÆÄ»êÀÚÀÇ°¡¸é,jRO,regional_resource_reused,20230,20230,Headgear,Armor,,"Head_Mid,Head_Low",49,0,1,0,936,936,False,False,100000
+18756,Black_Shiba_Inu_Hat,Black Shiba Inu Hat,Black Shiba Inu Hat,°ËÀº½Ã¹ÙÀÌ´©¸ðÀÚ,jRO,regional_resource_reused,20496,20496,Headgear,Armor,,Head_Top,50,0,1,1,894,894,True,False,100000
+18895,Celestial_Dark_Flame,Celestial Dark Flame,Celestial Dark Flame,Ãµ»óÀÇ¾îµÒÈ­¿°,iRO,regional_resource_reused,5936,5936,Headgear,Armor,,Head_Mid,50,0,0,0,1008,1008,False,False,100000
+18784,Elder_Devil_Horn,Elder Devil Horn,Elder Devil Horns,°í´ëÀÎÀÇ»Ô,jRO,regional_resource_reused,"18595,19568","18595,19568",Headgear,Armor,,Head_Top,50,0,1,1,757,757,True,False,100000
+19019,Elemental_Crown,Elemental Crown,Elemental Crown,Á¤·ÉÀÇ¿Õ°ü,jRO,regional_resource_reused,"19177,19178","19177,19178",Headgear,Armor,,Head_Top,50,0,1,1,1219,1219,True,False,100000
+5470,Eyes_Of_Darkness,Eye Of Darkness,Darkness Eyes,´ÙÅ©´Ï½º¾ÆÀÌÁî,jRO,regional_resource_reused,19877,19877,Headgear,Armor,,Head_Mid,50,0,0,0,467,467,False,False,100000
+5643,F_Crescent_Helm,F Crescent Helm,Crescent Helm,ÃÊ½Â´ÞÅõ±¸,iRO,regional_resource_reused,"5142,19555","5142,19555,480430",Headgear,Armor,,"Head_Mid,Head_Top",50,0,0,0,213,213,True,False,100000
+5635,F_Dragon_Skull,F Dragon Skull,Dragon Skull,¿ëÀÇÇØ°ñ,iRO,regional_resource_reused,5292,5292,Headgear,Armor,,Head_Top,50,0,0,0,319,319,True,False,100000
+5616,F_Fish_On_Head_,F Fish On Head,Evolved Blue Fish,»ý¼±¸ðÀÚ,iRO,regional_resource_reused,"5065,5222,6049,6451,20157","5065,5222,20157,480236",Headgear,Armor,,Head_Top,50,0,0,0,149,149,True,False,100000
+5644,F_Tiger_Mask,F Tiger Mask,Tiger Mask,Å¸ÀÌ°Å¸¶½ºÅ©,iRO,regional_resource_reused,5098,5098,Headgear,Armor,,"Head_Mid,Head_Top",50,0,0,0,181,181,False,False,100000
+18787,Goal_Tender_Mask,Goal Tender Mask,Goaltender Mask,ÇÏÅ°¸¶½ºÅ©,jRO,regional_resource_reused,5314,5314,Headgear,Armor,,"Head_Low,Head_Mid",50,0,0,0,336,336,False,False,100000
+5471,Hairband_Of_Reginleif,Hairband Of Reginleif,Reginleif's Wings,·¹±ä·¹ÀÌºêÀÇ³¯°³,jRO,regional_resource_reused,19539,19539,Headgear,Armor,,Head_Mid,50,0,0,0,468,468,False,False,100000
+5602,Jaguar_Hat_J,Jaguar Hat J,Jaguar Face,Àç±Ô¾î¸ðÀÚ,jRO,regional_resource_reused,"5539,19562","5539,19562",Headgear,Armor,,"Head_Low,Head_Mid",50,0,1,0,530,530,False,False,100000
+18860,Preschool_Hat,Kindergartener's Hat,Kindergarten Hat,À¯Ä¡¿ø»ýÀÇ¸ðÀÚ,jRO,regional_resource_reused,20281,20281,Headgear,Armor,,Head_Top,50,0,1,1,977,977,True,False,100000
+18564,Love_Piece,Love Piece,Fragment of Love,»ç¶ûÀÇÁ¶°¢,jRO,regional_resource_reused,"20022,1000232",20022,Headgear,Armor,,Head_Low,50,0,0,0,734,734,False,False,100000
+18521,Lucky_Clover,Lucky Clover,Lucky Clover,ÀÔ¿¡¹®³×ÀÙÅ¬·Î¹ö,jRO,regional_resource_reused,"5596,19713","5596,19713",Headgear,Armor,,Head_Low,50,0,0,0,571,571,False,False,100000
+18700,Rabbit_Ribbon,Rabbit Ribbon,Rabbit Ribbon Hat,Åä³¢¸®º»¸ðÀÚ,iRO,regional_resource_reused,31092,31092,Headgear,Armor,,Head_Top,50,0,1,1,845,845,True,False,100000
+18581,Red_Tiger_Mask,Red Tiger Mask,Red Tiger Mask,»¡°£Å¸ÀÌ°Å¸¶½ºÅ©,iRO,regional_resource_reused,400185,400185,Headgear,Armor,,"Head_Mid,Head_Top",50,0,0,0,747,747,False,False,100000
+18783,Rose_Crown,Rose Crown,Rose Corolla,Ã»³ª¶ó¸Ó¸®Àå½Ä,jRO,regional_resource_reused,"5609,19565","5609,19565",Headgear,Armor,,Head_Top,50,0,1,1,583,583,True,False,100000
+5970,RuneHelm,Rune Helm,Rune Helm,·éÇï¸§,jRO,regional_resource_reused,"31160,400178,400179","31160,400178,400179",Headgear,Armor,,Head_Top,50,0,1,1,1361,1361,True,False,100000
+18690,Sirt_Evil_Eye,Sirt Evil Eye,Sirt Evil Eye,·Îº¸¾ÆÀÌ,jRO,regional_resource_reused,"5325,19086,20145","5325,19086,20145",Headgear,Armor,,Head_Mid,50,0,0,0,345,345,False,False,100000
+19020,Survive_Circlet,Survivor's Circlet,Circlet of Survival,¼­¹ÙÀÌ¹ú¼­Å¬¸´,jRO,regional_resource_reused,"19266,400154","19266,400154",Headgear,Armor,,Head_Top,50,0,1,1,1220,1220,True,False,100000
+19139,SurviveOrb,Survivor's Orb,Orbs of Survival,¼­¹ÙÀÌ¹ú¿Àºê,jRO,regional_resource_reused,"19267,420066","19267,420066",Headgear,Armor,,Head_Low,50,0,0,0,1488,1488,False,False,100000
+18865,Sword_Master_Crown,Sword Master Crown,Sword Saint Crown,°Ë¼ºÀÇ¿Õ°ü,jRO,regional_resource_reused,20036,20036,Headgear,Armor,,Head_Top,50,0,1,1,981,981,True,False,100000
+18759,Stretched_Nose_M,Wood Goblin's Nose,Wood Goblin's Nose,´Ã¾î³­ÄÚ,jRO,regional_resource_reused,18567,18567,Headgear,Armor,,Head_Mid,50,0,0,0,737,737,False,False,100000
+18861,Zaha_Doll_Hat_J,Zaha Doll Hat,Zaha Doll Hat,ÀÚÇÏÀÎÇü¸ðÀÚ,jRO,regional_resource_reused,"5464,400246","5464,400246",Headgear,Armor,,Head_Top,50,0,1,1,461,461,True,False,100000
+19043,Goibne's_Helmet_S,Goibne's Helm,Goibne's Helm,°Ôºê³×ÀÌÅõ±¸,jRO,regional_resource_reused,5128,"5128,19366",Headgear,Armor,,Head_Top,54,0,1,1,258,258,True,False,100000
+5095,Orc_Hero_Helm_,Helmet of Orc Hero,Helmet of Orc Hero,¿ÀÅ©È÷¾î·ÎÅõ±¸,Unknown,regional_resource_reused,"5094,5224,5327",480320,Headgear,Armor,,"Head_Mid,Head_Top",55,0,1,1,179,179,True,False,100000
+5889,L_Orc_Hero_Helm_,Large Orc Hero Helm,Large Orc Hero Helm,´ëÇü¿ÀÅ©È÷¾î·ÎÅõ±¸,jRO,regional_resource_reused,"5375,31205","5375,31205",Headgear,Armor,,"Head_Top,Head_Mid",55,0,1,1,381,381,True,False,100000
+19159,Barrel_Helm,Barrel Helm,Barrel Helm,¹è·²Çï¸§,jRO,regional_resource_reused,31409,31409,Headgear,Armor,,"Head_Low,Head_Mid,Head_Top",60,0,1,1,1498,1498,True,False,100000
+18667,Cat_Lace_Hairband,Cat Lace Hairband,Cat Lace Hairband,°í¾çÀÌ·¹ÀÌ½º¸Ó¸®¶ì,jRO,regional_resource_reused,19242,19242,Headgear,Armor,,Head_Top,60,0,1,1,816,816,False,False,100000
+5655,Dark_Snake_Lord_Hat_J,Evil Snake Lord Hat,Dark Snake Lord Hat,Èæ»ç¿ÕÀÇ¸ðÀÚ,jRO,regional_resource_reused,5364,5364,Headgear,Armor,,Head_Top,60,0,0,0,372,372,True,False,100000
+5873,Helmet_Of_Siegfried,Helmet Of Siegfried,Helmet of Siegfried,ÁöÅ©ÇÁ¸®Æ®ÀÇÅõ±¸,iRO,regional_resource_reused,15905,15905,Headgear,Armor,,Head_Top,60,0,1,0,1055,1055,True,False,100000
+5607,Lyria_Doll_Hat,Lyria Doll Hat,Lyria Doll Hat,¸®¸®¾ÆÀÎÇü¸ðÀÚ,jRO,regional_resource_reused,"19096,20371","19096,20371",Headgear,Armor,,Head_Top,60,0,1,1,581,581,False,False,100000
+19107,Mad_Hatter,Mad Hatter,Mad Hatter,¸ÅµåÇØÅÍ,jRO,regional_resource_reused,31088,31088,Headgear,Armor,,"Head_Top,Head_Low",60,0,1,1,1421,1421,True,False,100000
+5938,Octopus_Hat_J,Octopus Hat,Octopus Hat,¹®¾î¸ðÀÚ,jRO,regional_resource_reused,5554,5554,Headgear,Armor,,Head_Top,60,0,1,1,538,538,True,False,100000
+15166,Necklace_Rosary,Rosary Necklace,Rosario Necklace,·ÎÀÚ¸®¿À¸ñ°ÉÀÌ,jRO,regional_resource_reused,19244,19244,Headgear,Armor,,Head_Low,60,0,0,0,1471,1471,False,False,100000
+5831,Woe_Big_Sis_Ribbon,Woe Big Sis Ribbon,Siege Big Ribbon,¿Õ¸®º»,iRO,regional_resource_reused,"2244,5348,19847,25086","2244,5348,19847",Headgear,Armor,,Head_Top,60,0,0,0,28,28,True,False,100000
+5836,Woe_Boys_Cap,Woe Boys Cap,Siege Boy's Cap,ÇÐ»ý¸ð,iRO,regional_resource_reused,"5016,5349,5492,19310,19545","5016,5349,5492,19310,19545,26111,26155,26164",Headgear,Armor,,Head_Top,60,0,0,0,102,102,True,False,100000
+5834,Woe_Crown,Woe Crown,Siege Crown,Å©¶ó¿î,iRO,regional_resource_reused,"2235,5165,19630","2235,5165,13412,19630,20545,20955",Headgear,Armor,,Head_Top,60,0,0,0,45,45,True,False,100000
+5833,Woe_Picnic_Hat,Woe Picnic Hat,Siege Sunday Hat,³ªµéÀÌ¸ðÀÚ,iRO,regional_resource_reused,"5032,7911,20348","5032,20348,480130",Headgear,Armor,,Head_Top,60,0,0,0,117,117,True,False,100000
+5830,Woe_Sahkkat,Woe Sahkkat,Siege Sakkat,»ñ°«,iRO,regional_resource_reused,"2280,5267,5806,19639","1529,2280,5267,5806,16065,19639,20590",Headgear,Armor,,Head_Top,60,0,0,0,67,67,True,False,100000
+5835,Woe_Tiara,Woe Tiara,Siege Tiara,Æ¼¾Æ¶ó,iRO,regional_resource_reused,"2234,5164,19629","2234,5164,13157,13158,13159,13172,13177,13182",Headgear,Armor,,Head_Top,60,0,0,0,19,19,True,False,100000
+5832,Woe_Vane_Hairpin,Woe Vane Hairpin,Siege Vane Hairpin,Ç³Â÷ºñ³à,iRO,regional_resource_reused,5285,5285,Headgear,Armor,,Head_Top,60,0,0,0,313,313,True,False,100000
+19044,Morrigane's_Helm_S,Morrigane's Helm,Morrigan's Helm,¸ð¸®¾Æ³×Çï¸§,jRO,regional_resource_reused,"5127,19784","5127,19784,400053",Headgear,Armor,,Head_Top,61,0,1,1,257,257,True,False,100000
+5626,F_White_Deviruchi_Cap,F White Deviruchi Cap,Gray Deviruchi Hat,Èò»ö»õ³¢¾Ç¸¶¸ðÀÚ,iRO,regional_resource_reused,5228,5228,Headgear,Armor,,Head_Top,64,0,0,0,272,272,True,False,100000
+5973,Ancient_Elven_Ear_J,Ancient Elven Ear,Ancient Elven Ears,°í´ë¿äÁ¤ÀÇ±Í,jRO,regional_resource_reused,5786,5786,Headgear,Armor,,Head_Mid,70,0,0,0,665,665,False,False,100000
+18504,Anubis_Helm_J,Anubis Helm J,Anubis Helm,¾Æ´©ºñ½ºÅõ±¸,jRO,regional_resource_reused,"5490,19180","5490,19180",Headgear,Armor,,"Head_Low,Head_Mid,Head_Top",70,0,0,0,485,485,False,False,100000
+18868,Assassin_Skull_Mask,Assassin's Skull Mask,Assassin Skull Mask,¾Ï»ìÀÚÇØ°ñ°¡¸é,jRO,regional_resource_reused,31118,31118,Headgear,Armor,,"Head_Low,Head_Mid",70,0,0,0,984,984,False,False,100000
+18938,Astro_Circle,Astro Circle,Astro Circle,ÃµÃ¼¼­Å¬,jRO,regional_resource_reused,31433,31433,Headgear,Armor,,Head_Top,70,0,0,1,1073,1073,True,False,100000
+5653,Darkness_Helm_J,Darkness Helm,Darkness Helm,´ÙÅ©³×½ºÇï¸§,jRO,regional_resource_reused,"5373,19721",19721,Headgear,Armor,,Head_Top,70,0,1,1,586,586,True,False,100000
+19499,FortunetellinSealed,Fortunetelling Sealed,Eight Trigrams Seal,FortunetellinSealed,jRO,regional_resource_reused,31735,31735,Headgear,Armor,,Head_Low,70,0,0,0,1901,1901,False,False,100000
+5918,Gambler_Seal,Gambler's Seal,Gambler's Seal,°·ºí·¯ÀÇ¾Á,jRO,regional_resource_reused,"410232,410233","410232,410233",Headgear,Armor,,Head_Mid,70,0,0,0,1202,1202,False,False,100000
+18891,Husky_Hat,Husky Hat,Husky Hat,Çã½ºÅ°¸ðÀÚ,iRO,regional_resource_reused,20227,20227,Headgear,Armor,,Head_Top,70,0,1,1,1016,1016,True,False,100000
+18948,Mask_Of_Orochimaru,Orochimaru's Mask,Orochimaru's Mask,¿À·ÎÄ¡¸¶·çÀÇ¸¶½ºÅ©,jRO,regional_resource_reused,420031,420031,Headgear,Armor,,Head_Low,70,0,0,0,1089,1089,False,False,100000
+18894,Rainbow_Star,Rainbow Star,Rainbow Star,¹«Áö°³½ºÅ¸,jRO,regional_resource_reused,31534,31534,Headgear,Armor,,Head_Mid,70,0,0,0,1019,1019,False,False,100000
+19138,SeraphimCoronet,Seraphim Coronet,Seraphim Coronet,Ä¡Ãµ»çÀÇÈ­°ü,jRO,regional_resource_reused,31416,31416,Headgear,Armor,,Head_Mid,70,0,0,0,1487,1487,False,False,100000
+19114,Sting_Silk_Ribbon,Sting Silk Ribbon,Sting Silk Ribbon,½ºÆÃ½ÇÅ©¸®º»,jRO,regional_resource_reused,31448,31448,Headgear,Armor,,Head_Top,70,0,1,1,1457,1457,True,False,100000
+5978,Toy_Syringe,Toy Syringe,Toy Syringe,ÀÔ¿¡¹«´ÂÁÖ»ç±â,jRO,regional_resource_reused,19240,19240,Headgear,Armor,,Head_Low,70,0,0,0,842,842,False,False,100000
+19109,Valhalla_Idol,Valhalla Idol,Valhalla Idol,¹ßÇÒ¶ó¾ÆÀÌµ¹,jRO,regional_resource_reused,20459,20459,Headgear,Armor,,Head_Mid,70,0,0,0,1423,1423,False,False,100000
+19110,Valhalla_Idol_,Valhalla Idol,Valhalla Idol,¹ßÇÒ¶ó¾ÆÀÌµ¹,jRO,regional_resource_reused,20459,20459,Headgear,Armor,,Head_Mid,70,0,1,1,1423,1423,False,False,100000
+420006,Vassalage_Necklace,Vassalage Necklace,Collar of Servitude,Vassalage_Necklace,jRO,regional_resource_reused,420076,420076,Headgear,Armor,,Head_Low,70,0,0,0,2018,2018,False,False,100000
+5839,Woe_Blush,Woe Blush,Siege Blush,¹ß±×·¹,iRO,regional_resource_reused,"5040,5800,18607,19550","5040,5800,18607,19550,480169",Headgear,Armor,,Head_Mid,70,0,0,0,125,125,False,False,100000
+5840,Woe_Elven_Ears,Woe Elven Ears,Siege Elven Ears,¿äÁ¤ÀÇ±Í,iRO,regional_resource_reused,"2286,2686,5244,5245,5250,5251,18507,19551","1701,1702,1703,1704,1705,1706,1707,1708",Headgear,Armor,,Head_Mid,70,0,0,0,73,73,False,False,100000
+5838,Woe_Fin_Helm,Woe Fin Helm,Siege Fin Helm,ÇÉÇï¸§,iRO,regional_resource_reused,"5014,18773,19735","1681,1683,1684,1685,1686,1687,1690,1691",Headgear,Armor,,Head_Mid,70,0,0,0,100,100,False,False,100000
+5837,Woe_Sunglass,Woe Sunglass,Siege Shades,¼±±Û·¡½º,iRO,regional_resource_reused,"2201,2202,5154,18557,19504,19830","1800,1815,1818,1819,1820,1821,1822,1823",Headgear,Armor,,Head_Mid,70,0,0,0,12,12,False,False,100000
+18985,Falconer_Flute,Falconer Flute,Falconer Flute,¸ÅºÎ¸®ÀÇÇÇ¸®,jRO,regional_resource_reused,420030,420030,Headgear,Armor,,Head_Low,75,0,0,0,1143,1143,False,False,100000
+5972,Chatty_Parrot,Chatty Parrot,Talking Parrot,Áñ°Å¿î¾Þ¹«»õ,jRO,regional_resource_reused,31134,31134,Headgear,Armor,,Head_Low,80,0,0,0,1116,1116,False,False,100000
+5933,Crow_Tengu_Mask,Crow Tengu Mask,Crow Tengu Mask,±î¸¶±ÍÃµ±¸ÀÇ°¡¸é,jRO,regional_resource_reused,20399,20399,Headgear,Armor,,Head_Mid,80,0,0,0,1287,1287,False,False,100000
+19101,Glastheim_Onlooker,Glast Heim Spectator,Glastheim Observer,ÀèÄ³½½¹èÆ®,jRO,regional_resource_reused,20034,20034,Headgear,Armor,,Head_Low,80,0,0,0,1041,1041,False,False,100000
+19306,Heart_Card_In_Mouth,Heart Card in Mouth,Heart Card in Mouth,Heart_Card_In_Mouth,jRO,regional_resource_reused,420210,420210,Headgear,Armor,,Head_Low,80,0,0,0,1679,1679,False,False,100000
+18657,Pegasus_Wing_Ears,Pegasus Wing Ears,Pegasus Wing Ears,»çÀÌ±×·éÀÇ³¯°³,jRO,regional_resource_reused,"5592,19052,19085","5592,19052,19085",Headgear,Armor,,Head_Mid,80,0,0,0,568,568,False,False,100000
+19246,Royalguard_Necklace,Royal Guard Necklace,Royal Guard Necklace,Royalguard_Necklace,jRO,regional_resource_reused,31559,31559,Headgear,Armor,,Head_Low,80,0,0,0,1629,1629,False,False,100000
+18965,Shaving_Foam,Shaving Foam,Shaving Foam,½¦ÀÌºùÆû,jRO,regional_resource_reused,31162,31162,Headgear,Armor,,Head_Low,80,0,0,0,1129,1129,False,False,100000
+19299,Tree_Of_Sprout_JP,Tree Sprout,Giant Tree's Young Leaves,ÀÔ¿¡¹«´Â½Ä¹°ÁÙ±â,jRO,regional_resource_reused,"420017,420018,420019,420020,420021,420022","420017,420018,420019,420020,420021,420022",Headgear,Armor,,Head_Low,80,0,0,0,848,848,False,False,100000
+18652,Vanargand_Helm,Vanargandr Helm,Vanargand Helm,¹Ù³ª¸£°£µåÀÇÅõ±¸,jRO,regional_resource_reused,19884,19884,Headgear,Armor,,Head_Top,80,0,1,1,804,804,True,False,100000
+18940,10_Gallon_Hat_Of_Flame,10 Gallon Hat Of Flame,Flaming Ten-gallon Hat,ºÒ²ÉÀÇÅÙ°Ö·ÐÇÞ,jRO,regional_resource_reused,19934,19934,Headgear,Armor,,Head_Top,90,0,0,1,1075,1075,True,False,100000
+19326,Book_of_Soyga,Book of Soyga,Book of Soyga,¹®ÀÚÃ¥¸ðÀÚ,jRO,regional_resource_reused,"5422,5827","5422,5827",Headgear,Armor,,Head_Top,90,0,1,1,423,423,True,False,100000
+19381,Protect_cloth,Cloth of Protection,Protect Cloth,Protect_cloth,jRO,regional_resource_reused,31625,31625,Headgear,Armor,,Head_Low,90,0,0,0,1761,1761,False,False,100000
+19173,Luwmin_Ice,Floating Ice,Floating Ice,ºÎÀ¯ÇÏ´Â¾óÀ½,jRO,regional_resource_reused,31432,31432,Headgear,Armor,,Head_Low,90,0,0,0,1562,1562,False,False,100000
+19174,Flying_Drone,Flying Drone,Small Scouting Machine,¼ÒÇüÁ¤Âû±â,jRO,regional_resource_reused,31463,31463,Headgear,Armor,,Head_Mid,90,0,0,0,1561,1561,False,False,100000
+18942,Knit_Cap_Of_Water,Knit Cap of Water,Knit Cap of Water,¹°ÀÇ´ÏÆ®Ä¸,jRO,regional_resource_reused,19936,19936,Headgear,Armor,,Head_Top,90,0,1,1,1077,1077,True,False,100000
+19274,OpenAir_Headset,Open Air Headset,Open Air Headset,OpenAir_Headset,jRO,regional_resource_reused,31569,31569,Headgear,Armor,,Head_Low,90,0,0,0,1655,1655,False,False,100000
+18943,Silk_Hat_Of_Earth,Silk Hat of Earth,Silk Hat of Earth,´ëÁöÀÇ½ÇÅ©ÇÞ,jRO,regional_resource_reused,19937,19937,Headgear,Armor,,Head_Top,90,0,1,1,1078,1078,True,False,100000
+19433,ResonateTaego_TW,Ancient Resonance,Ancient Resonance,ResonateTaego,twRO,regional_resource_reused,31721,31721,Headgear,Armor,,Head_Top,99,0,1,0,1823,1823,True,False,100000
+19444,Star_Eyepatch_JP_,Star Eyepatch,Star Eyepatch,º°¸ð¾ç¾È´ë,jRO,regional_resource_reused,410170,410170,Headgear,Armor,,Head_Mid,99,0,1,1,800,800,False,False,100000
+5898,Autumn_Headband,Autumn Headband,Autumn Headband,°¡À»¸Ó¸®¶ì,iRO,regional_resource_reused,31606,31606,Headgear,Armor,,Head_Top,100,0,1,1,1119,1119,True,False,200000
+420182,Book_of_Sorcery,Book of Sorcery,Book of Sorcery,Book_of_Sorcery,jRO,regional_resource_reused,420344,420344,Headgear,Armor,,Head_Low,100,0,0,0,2327,2327,False,False,200000
+19350,Carrot_In_Mouth_J,Carrot In Mouth,Carrot in the Mouth,ÀÔ¿¡¹«´ÂÈ«´ç¹«,jRO,regional_resource_reused,"19239,420081","19239,420081",Headgear,Armor,,Head_Low,100,0,0,0,829,829,False,False,200000
+410345,Clown_Smiling_,Clown Smiling,Smiling Eyes,C_Smiling_Eyes,iRO,regional_resource_reused,31699,31699,Headgear,Armor,,Head_Mid,100,0,1,1,1880,1880,False,False,200000
+19185,Blackhand_Of_Fate,Dark Hand,Dark Hand,¿î¸íÀÇ°ËÀº¼Õ,jRO,regional_resource_reused,20247,20247,Headgear,Armor,,Head_Top,100,0,1,1,1310,1310,True,False,200000
+410071,Demons_Familiar_,Demons Familiar,Demon's Familiar,Demons_Familiar,jRO,regional_resource_reused,410087,410087,Headgear,Armor,,Head_Mid,100,0,1,1,2127,2127,False,False,200000
+410064,Diving_Goggles,Diving Goggles,Blubby Diving Goggles,Diving_Goggles,jRO,regional_resource_reused,410187,410187,Headgear,Armor,,Head_Mid,100,0,0,0,2116,2116,False,False,200000
+400177,Fafnir_Helm,Fafnir Helm,Fafnir Helm,Fafnir_Helm,jRO,regional_resource_reused,"400180,400181","400180,400181",Headgear,Armor,,Head_Top,100,0,1,1,2149,2149,True,False,200000
+19380,Floating_Ball,Floating Ball,Floating Tai-Chi Spheres,Floating_Ball,jRO,regional_resource_reused,31568,31568,Headgear,Armor,,Head_Mid,100,0,0,0,1760,1760,False,False,200000
+5901,Focus_Beret_,Focus Beret,Focus Beret,ÁýÁßÀÇº£·¹¸ð,iRO,regional_resource_reused,31976,31976,Headgear,Armor,,Head_Top,100,0,1,1,1122,1122,True,False,200000
+19272,Garden_Of_Eden,Garden of Eden,Garden of Eden,Garden_Of_Eden,jRO,regional_resource_reused,31388,31388,Headgear,Armor,,Head_Top,100,0,1,1,1653,1653,True,False,200000
+19113,Gemini_Eyes,Gemini-S58 Eyes,Gemini-S58 Eyes(Blue),Á¦¹Ì´ÏS58ÀÇ´«,jRO,regional_resource_reused,19158,19158,Headgear,Armor,,Head_Mid,100,0,0,0,1456,1456,False,False,200000
+400396,Ghost_Whisper,Ghost Whisper,Ghost Whisper,Ghost_Whisper,jRO,regional_resource_reused,400634,400634,Headgear,Armor,,Head_Top,100,0,1,1,2338,2338,True,False,200000
+400048,Gift_of_Panagia,Gift of Panagia,Gift of Panagia,Gift_Of_Panagia,jRO,regional_resource_reused,31850,31850,Headgear,Armor,,Head_Top,100,0,1,1,1948,1948,True,False,200000
+19311,Greater_Dracul_Horn,Greater Dracule Horn,Greater Dracul Horn,Greater_Dracul_Horn,jRO,regional_resource_reused,31530,31530,Headgear,Armor,,Head_Top,100,0,1,1,1695,1695,True,False,200000
+19170,Guardian_Processor,Guardian Processor,Guardian Processor,°¡µð¾ðÇÁ·Î¼¼¼­,jRO,regional_resource_reused,"410016,410017","410016,410017",Headgear,Armor,,Head_Top,100,0,0,0,1552,1552,True,False,200000
+410333,Karasu_TenguMask_,Karasu Tengu Mask,Crow Tengu Mask,Å¸³ªÅä½ºÀÇ½½ÇÄ°¡¸é,iRO,regional_resource_reused,"436000,436005","436000,436005",Headgear,Armor,,Head_Mid,100,0,1,1,666,666,False,False,200000
+19111,Laser_Of_Eagle,Laser of Eagle,Laser of Eagle,·¹ÀÌÀú¿ÀºêÀÌ±Û,jRO,regional_resource_reused,20491,20491,Headgear,Armor,,Head_Top,100,0,1,1,1424,1424,True,False,200000
+19437,LittleGarden,Little Garden,Little Garden,LittleGarden,jRO,regional_resource_reused,31911,31911,Headgear,Armor,,Head_Mid,100,0,0,0,1830,1830,False,False,200000
+420236,Moroc_Slave_TW,Loyal Servant of the Demon Lord Morroc,Loyal Servant of Morroc,¼Ò³â¸ð·ÎÅ©¼öÇÏ,iRO,regional_resource_reused,20430,20430,Headgear,Armor,,Head_Low,100,0,0,0,1440,1440,False,False,200000
+19141,Tha_Maero_Mask_J,Maero Mask,Dolor Thanatos Mask,Å¸³ªÅä½ºÀÇ½½ÇÄ°¡¸é,jRO,regional_resource_reused,"436000,436005","436000,436005",Headgear,Armor,,"Head_Low,Head_Mid",100,0,0,0,666,666,False,False,200000
+28502,Mob_Scarf,Mob Scarf,Mob Scarf,ÆøÁÖÀÇ½ºÄ«ÇÁ,jRO,regional_resource_reused,31844,31844,Headgear,Armor,,Head_Low,100,0,0,0,1568,1568,False,False,200000
+19312,Neev_Barrette,Neev Barrette,Neev Barrette,Neev_Barrette,jRO,regional_resource_reused,31532,31532,Headgear,Armor,,Head_Mid,100,0,0,0,1696,1696,False,False,200000
+19313,Neev_Barrette_,Neev Barrette,Neev Barrette,Neev_Barrette,jRO,regional_resource_reused,31532,31532,Headgear,Armor,,Head_Mid,100,0,1,1,1696,1696,False,False,200000
+19349,Pizza_Hat_J,Pepperoni Pizza,Pepperoni Pizza,ÇÇÀÚ¸ðÀÚ,jRO,regional_resource_reused,5499,5499,Headgear,Armor,,Head_Top,100,0,1,1,487,487,True,False,200000
+19172,PoPe_Osuwari_Head,Pope Osuwari Head,Sitting Pope(Casual),¾É¾ÆÀÖ´Â±³È²,jRO,regional_resource_reused,31397,31397,Headgear,Armor,,Head_Top,100,0,1,1,1553,1553,True,False,200000
+410066,Professor_MiniGlass,Professor's Mini Glasses,Professor's Mini Glasses,Professor_MiniGlass,jRO,regional_resource_reused,410126,410126,Headgear,Armor,,Head_Mid,100,0,0,0,2118,2118,False,False,200000
+410342,Purified_Pigeon_US,Purified Pigeon,Purified Pigeon,º§ÀÇºñµÑ±â,iRO,regional_resource_reused,20147,20147,Headgear,Armor,,Head_Mid,100,0,1,1,1034,1034,False,False,200000
+5969,QueenAnzRevenge,Queen Anz Revenge,Queen Anne's Revenge,Äý¾ÈÁî¸®º¥Áö,jRO,regional_resource_reused,31125,31125,Headgear,Armor,,Head_Top,100,0,1,1,1360,1360,True,False,200000
+19390,Mira_Tower_Hat,Research Team Hat,Investigation Team of Hat,¾îºÎÀÇ¸ðÀÚ,jRO,regional_resource_reused,5317,5317,Headgear,Armor,,Head_Top,100,0,1,1,339,339,True,False,200000
+5965,Riot_Chip_J,Riot Chip,Riot Chip,ÆøÁÖÇÏ´ÂÄ¨,jRO,regional_resource_reused,18997,18997,Headgear,Armor,,Head_Top,100,0,1,1,1201,1201,True,False,200000
+19469,Crown_Of_Saint_Jp,Sacred Crown,Crown of Saint,¼ºÀÚÀÇ¿Õ°ü,jRO,regional_resource_reused,"19038,20135","19038,20135",Headgear,Armor,,Head_Top,100,0,0,0,1117,1117,True,False,200000
+19285,Helmet_Of_Siegfried_J,Siegfried's Helmet,Siegfried's Helmet,ÁöÅ©ÇÁ¸®Æ®ÀÇÅõ±¸,jRO,regional_resource_reused,15905,15905,Headgear,Armor,,Head_Top,100,0,1,1,1055,1055,True,False,200000
+18793,Sorc_Night_Cap,Sorcerer's Night Cap,Sorc Night Cap,¸ÅÁö¼ÇÀÇ³ªÀÌÆ®Ä¸,iRO,regional_resource_reused,19895,19895,Headgear,Armor,,Head_Top,100,0,1,1,911,911,True,False,200000
+19140,Squirrel_Ear_Hat,Squirrel Ears Hood Hat,Squirrel Ears Hoodie Cap,´Ù¶÷Áã±Í¸ðÀÚ,jRO,regional_resource_reused,440007,440007,Headgear,Armor,,Head_Top,100,0,1,1,1486,1486,True,False,200000
+19379,Striking_hat,Striking Hat,Striking Hat,Striking_hat,jRO,regional_resource_reused,"400011,400445","400011,400445",Headgear,Armor,,Head_Top,100,0,1,1,1759,1759,True,False,200000
+19436,VesperHeadGear,Vesper Headgear,Vesper Headgear,VesperHeadGear,jRO,regional_resource_reused,"31720,400111","31720,400111",Headgear,Armor,,Head_Top,100,0,1,1,1827,1827,True,False,200000
+400113,Victory_Ear_JP,Victory Wing Ear,Valkyrie's Feather Ears,½Â¸®ÀÇ±ÍÀå½Ä,jRO,regional_resource_reused,"400001,400002","400001,400002",Headgear,Armor,,Head_Mid,100,0,0,0,1185,1185,False,False,200000
+18728,Egir_Helm,Egir Helm,Aegir Helm,¿¡±æÇï¸§,jRO,regional_resource_reused,"19026,400097","19026,400097",Headgear,Armor,,Head_Top,110,0,1,1,870,870,True,False,200000
+5967,FlyingGalapago,Flying Galapago,Flying Galapago,³¯À¸´Â°¥¶óÆÄ°í,jRO,regional_resource_reused,20349,20349,Headgear,Armor,,Head_Low,110,0,0,0,1358,1358,False,False,200000
+19411,Floating_Gioia,Floating Gioia,Floating Gioia,Jioia,jRO,regional_resource_reused,31480,31480,Headgear,Armor,,Head_Low,130,0,0,0,1730,1730,False,False,500000
+19367,Burst_Flame,Burst Flame,Burst Flame,ÅÂ¾ç¸ðÀÚ,jRO,regional_resource_reused,5450,5450,Headgear,Armor,,Head_Top,165,0,1,1,451,451,True,False,1000000
+2157,Insecticide,Pesticide,Insecticide,µ¥µé¸®Æ÷ÀÌÁðº´,jRO,regional_resource_reused,"678,7824,22549,23660,25479",,Shields,Armor,,Left_Hand,0,0,0,0,3,3,True,False,100000
+28903,Scutum,Scutum,Scutum,½ºÄíÅè,jRO,regional_resource_reused,28953,,Shields,Armor,,Left_Hand,1,0,1,1,1,1,True,False,100000
+2189,Mad_Bunny,Mad Bunny Shield,Mad Bunny,¸Åµå¹Ù´Ï,jRO,regional_resource_reused,"25147,28901,28902,460020",,Shields,Armor,,Left_Hand,30,0,1,1,6,6,True,False,100000
+2184,Bunker_Shield,Bunker Shield,Bunker shield,ÆÄÀÏº¡Ä¿,jRO,regional_resource_reused,1549,,Shields,Armor,,Left_Hand,50,0,0,0,3,3,True,False,100000
+28915,Bunker_Shield_,Bunker Shield,Bunker Shield,ÆÄÀÏº¡Ä¿,jRO,regional_resource_reused,1549,,Shields,Armor,,Left_Hand,50,0,1,1,1,1,True,False,100000
+2166,Exorcism_Bible_,Devil's Bible Drive,Devil's Bible,±¸¸¶ÀÇ¼º¼­,jRO,regional_resource_reused,2129,,Shields,Armor,,Left_Hand,50,0,1,1,5,5,True,False,100000
+2176,Dark_Book,Black Book,Dark Book,¹¬½Ã·Ï,jRO,regional_resource_reused,"1557,1577,11003",,Shields,Armor,,Left_Hand,65,0,1,1,5,5,True,False,100000
+28928,Ultra_Light_MShieldJ,David Shield,David Shield,ÃÊ°æ·®¸ÅÁ÷½¯µå,jRO,regional_resource_reused,28913,,Shields,Armor,,Left_Hand,65,0,1,1,2,1,True,False,100000
+2188,Svalinn_J,Svalinn,Svalinn,È¦¸®°¡µå,jRO,regional_resource_reused,"2110,2132,460036",,Shields,Armor,,Left_Hand,65,0,1,1,3,3,True,False,100000
+2192,Rose_Of_Eden,Rose of Eden,Rose of Eden,·ÎÁî¿Àºê¿¡µ§,jRO,regional_resource_reused,460072,,Shields,Armor,,Left_Hand,70,0,1,1,3,3,True,False,100000
+28920,ShieldOfGuardsman_J,Diamond Shield,Diamond Shield,±ÙÀ§º´ÀÇ¹æÆÐ,jRO,regional_resource_reused,28900,,Shields,Armor,,Left_Hand,100,0,0,0,1,1,True,False,200000
+2190,Ancient_Shield_Of_Aeon,Ancient Shield Of Aeon,Ancient Shield Of Aeon,Ä®¶ó»è,iRO,regional_resource_reused,2169,,Shields,Armor,,Left_Hand,130,0,0,0,2,2,True,False,500000
+2494,Chrystal_Pumps_,Crystal Pumps,Crystal Pumps,À¯¸®±¸µÎ,jRO,regional_resource_reused,"2407,2427",,Shoes,Armor,,Shoes,0,0,1,1,0,0,True,False,100000
+2400,Pollux_Shoes_J,Pollux Shoes,Pollux Shoes,Grace_Attack_Boots,jRO,regional_resource_reused,470020,,Shoes,Armor,,Shoes,0,0,0,0,0,0,True,False,100000
+22105,Cuffs_,Shackles,Shackles (jRO),Á·¼è,jRO,regional_resource_reused,2408,,Shoes,Armor,,Shoes,0,0,1,1,0,0,True,False,100000
+2482,Shoes_Of_Valor,Shoes Of Valor,Shoes of Valor,½´Áî,idRO,regional_resource_reused,"2403,2404,2443,2496",,Shoes,Armor,,Shoes,0,0,0,0,0,0,False,False,100000
+22185,Doram_Only_Shoes_J,Doram Shoes,Doram Shoes,µµ¶÷½´Áî,jRO,regional_resource_reused,"22083,22084,22085",,Shoes,Armor,,Shoes,1,0,1,1,0,0,True,False,100000
+22186,Doram_High_Shoes_J,High-End Doram Shoes,Luxury Doram Shoes,µµ¶÷½´Áî,jRO,regional_resource_reused,"22083,22084,22085",,Shoes,Armor,,Shoes,1,0,1,1,0,0,True,False,100000
+2466,Training_Shoes,Training Shoes,Training Shoes,Ãà±¸È­,jRO,regional_resource_reused,7548,,Shoes,Armor,,Shoes,1,0,1,1,0,0,True,False,100000
+5920,Medical_Boots,Medical Boots,Medical Boots,¸ÞµðÄÃºÎÃ÷,jRO,regional_resource_reused,22101,,Shoes,Armor,,Shoes,10,0,0,0,0,0,True,False,100000
+22100,Medical_Boots_,Medical Boots,Medical Boots,¸ÞµðÄÃºÎÃ÷,jRO,regional_resource_reused,22101,,Shoes,Armor,,Shoes,10,0,1,1,0,0,True,False,100000
+22016,Assassin_Shoes,Assassin's Shoes,Assassin's Shoes,½´Áî,jRO,regional_resource_reused,"2403,2404,2443,2496",,Shoes,Armor,,Shoes,30,0,0,0,0,0,True,False,100000
+22058,DragonTrainer_Shoes,Dragon Trainer Shoes,Dragon Slayer's Shoes,½´Áî,jRO,regional_resource_reused,"2403,2404,2443,2496",,Shoes,Armor,,Shoes,30,0,0,0,0,0,True,False,100000
+22097,DragonTrainer_Shoes_,Dragon Trainer Shoes,Dragon Slayer's Shoes,½´Áî,jRO,regional_resource_reused,"2403,2404,2443,2496",,Shoes,Armor,,Shoes,30,0,1,1,0,0,True,False,100000
+22062,Mechanic_Shoes,Engineer's Shoes,Astonomer's Shoes,½´Áî,jRO,regional_resource_reused,"2403,2404,2443,2496",,Shoes,Armor,,Shoes,30,0,0,0,0,0,True,False,100000
+22032,Shoes_Of_Exorcism,Exorcist's Shoes,Demon's Shoes,½´Áî,jRO,regional_resource_reused,"2403,2404,2443,2496",,Shoes,Armor,,Shoes,30,0,0,0,0,0,True,False,100000
+22093,Shoes_Of_Exorcism_,Exorcist's Shoes,Exorcist's Shoes,½´Áî,jRO,regional_resource_reused,"2403,2404,2443,2496",,Shoes,Armor,,Shoes,30,0,1,1,0,0,True,False,100000
+22056,Fallen_Angel_Shoes,Fallen Angel Shoes,Fallen Angel's Shoes,½´Áî,jRO,regional_resource_reused,"2403,2404,2443,2496",,Shoes,Armor,,Shoes,30,0,1,0,0,0,True,False,100000
+22096,Fallen_Angel_Shoes_,Fallen Angel Shoes,Fallen Angel's Shoes,½´Áî,jRO,regional_resource_reused,"2403,2404,2443,2496",,Shoes,Armor,,Shoes,30,0,1,1,0,0,True,False,100000
+22017,Fisherman_Shoes,Fisherman's Shoes,Fisherman Shoes,½´Áî,jRO,regional_resource_reused,"2403,2404,2443,2496",,Shoes,Armor,,Shoes,30,0,0,0,0,0,True,False,100000
+22091,Fisherman_Shoes_,Fisherman's Shoes,Fisherman's Shoes,½´Áî,jRO,regional_resource_reused,"2403,2404,2443,2496",,Shoes,Armor,,Shoes,30,0,1,1,0,0,True,False,100000
+22050,Gardener_Shoes,Gardener Shoes,Gardener Shoes,½´Áî,jRO,regional_resource_reused,"2403,2404,2443,2496",,Shoes,Armor,,Shoes,30,0,0,0,0,0,True,False,100000
+22094,Gardener_Shoes_,Gardener Shoes,Gardener's Shoes,½´Áî,jRO,regional_resource_reused,"2403,2404,2443,2496",,Shoes,Armor,,Shoes,30,0,1,1,0,0,True,False,100000
+22052,Gravekeepr_Shoes,Gravekeeper Shoes,Grave Keeper's Shoes,½´Áî,jRO,regional_resource_reused,"2403,2404,2443,2496",,Shoes,Armor,,Shoes,30,0,0,0,0,0,True,False,100000
+22095,Gravekeepr_Shoes_,Gravekeeper Shoes,Grave Keeper's Shoes,½´Áî,jRO,regional_resource_reused,"2403,2404,2443,2496",,Shoes,Armor,,Shoes,30,0,1,1,0,0,True,False,100000
+22060,Boots_Of_Hunter,Hunter Shoes,Hunter's Shoes,½´Áî,jRO,regional_resource_reused,"2403,2404,2443,2496",,Shoes,Armor,,Shoes,30,0,0,0,0,0,True,False,100000
+22098,Boots_Of_Hunter_,Hunter's Shoes,Hunter's Shoes,½´Áî,jRO,regional_resource_reused,"2403,2404,2443,2496",,Shoes,Armor,,Shoes,30,0,1,1,0,0,True,False,100000
+22031,Aurelian_Shoes,Insect Collector's Shoes,Insect Collector's Shoes,½´Áî,jRO,regional_resource_reused,"2403,2404,2443,2496",,Shoes,Armor,,Shoes,30,0,0,0,0,0,True,False,100000
+22092,Aurelian_Shoes_,Insect Collector's Shoes,Insect Collector's Shoes,½´Áî,jRO,regional_resource_reused,"2403,2404,2443,2496",,Shoes,Armor,,Shoes,30,0,1,1,0,0,True,False,100000
+22099,Mechanic_Shoes_,Mechanic Shoes,Astonomer's Shoes,½´Áî,jRO,regional_resource_reused,"2403,2404,2443,2496",,Shoes,Armor,,Shoes,30,0,1,1,0,0,True,False,100000
+22089,Scarlet_Gaites_,Crimson Gaiter,Crimson Gaiter,ÁøÈ«»ö°¢¹Ý,jRO,regional_resource_reused,470003,,Shoes,Armor,,Shoes,50,0,1,1,0,0,True,False,100000
+22034,Scarlet_Gaites,Crimson Leggings,Crimson Gaiter,ÁøÈ«»ö°¢¹Ý,jRO,regional_resource_reused,470003,,Shoes,Armor,,Shoes,50,0,0,0,0,0,True,False,100000
+22018,Shoes_Of_Wise_Man,Sage's Shoes,Shoes of Wise Man,ÇÁ·¹ÀÌ¾ßÀÇÀåÈ­,jRO,regional_resource_reused,"2428,2455,2499,22102",,Shoes,Armor,,Shoes,50,0,1,1,0,0,True,False,100000
+22042,Talaria_Shoes,Talaria Shoes,Tararia,Å»¶ó¸®¾Æ½Å¹ß,jRO,regional_resource_reused,22131,,Shoes,Armor,,Shoes,50,0,1,1,0,0,True,False,100000
+2493,Goibne_Combat_Boots_,Goibne's Greaves,Goibne's Greaves,°Ôºê³×ÀÌÀÇ±ºÈ­,jRO,regional_resource_reused,2419,,Shoes,Armor,,Shoes,54,0,1,1,0,0,True,False,100000
+2474,Lehmannza_Shoes,Lehmannza Shoes,Lehmannza Shoes,Ãµ»çÀÇÀç·¡,bRO,regional_resource_reused,"2420,22015",,Shoes,Armor,,Shoes,60,0,1,1,0,0,True,False,100000
+2487,Vital_Tree_Shoes_,Vital Tree Shoes,Vital Tree Shoes,»ý¸í³ª¹«ÁÙ±â½´Áî,jRO,regional_resource_reused,"2450,470157",,Shoes,Armor,,Shoes,60,0,1,1,0,0,True,False,100000
+2488,Fricco_Shoes_,Fricco Shoes,Fricco's Shoes,ÇÁ¸®ÄÚ½´Áî,jRO,regional_resource_reused,2417,,Shoes,Armor,,Shoes,65,0,1,1,0,0,True,False,100000
+2489,Vidar's_Boots_,Vidar's Boots,Vidar's Boots,ºñ´Ù¸£ÀÇºÎÃ÷,jRO,regional_resource_reused,"2418,2456,2457,2458",,Shoes,Armor,,Shoes,65,0,1,1,0,0,True,False,100000
+22106,Giant_Boots,Giant Boots,Gigant Boots,±â°£Æ®ºÎÃ÷,jRO,regional_resource_reused,470000,,Shoes,Armor,,Shoes,85,0,1,1,0,0,True,False,100000
+22027,AB_Battle_Boots,Archbishop Battle Boots,Archbishop Battle Boots,ÇÁ·¹ÀÌ¾ßÀÇÀåÈ­,bRO,regional_resource_reused,"2428,2455,2499,22102",,Shoes,Armor,,Shoes,99,0,1,1,0,0,True,False,100000
+22132,Nergal_Shoes,Fire Thunder Great Boots,Lightning God's Shoes,³×¸£°¥½´Áî,jRO,regional_resource_reused,470122,,Shoes,Armor,,Shoes,99,0,1,1,0,0,True,False,100000
+22030,GN_Battle_Boots,Geneticist Battle Boots,Genetic Battle Boots,½ÃÁîºÎÃ÷,bRO,regional_resource_reused,2484,,Shoes,Armor,,Shoes,99,0,1,1,0,0,True,False,100000
+22020,GC_Battle_Boots,Guillotine Cross Battle Boots,Guillotine Cross Battle Boots,°ËÀº°¡Á×ºÎÃ÷,bRO,regional_resource_reused,"2425,2434",,Shoes,Armor,,Shoes,99,0,1,1,0,0,True,False,100000
+22024,NC_Battle_Boots,Mechanic Battle Boots,Mechanic Battle Boots,¾ÈÀüÈ­,bRO,regional_resource_reused,"2413,2437,2444,2445,2446",,Shoes,Armor,,Shoes,99,0,1,1,0,0,True,False,100000
+470112,Moaning_of_EvilSpirits,Moaning of Evil Spirits,Moaning of Evil Spirits,Moaning_of_EvilSpirits,jRO,regional_resource_reused,470204,,Shoes,Armor,,Shoes,99,0,1,1,0,0,True,False,100000
+22029,WA_Battle_Boots,Performer Battle Boots,Performer Battle Boots,Ãµ»çÀÇÀç·¡,bRO,regional_resource_reused,"2420,22015",,Shoes,Armor,,Shoes,99,0,1,1,0,0,True,False,100000
+22021,RA_Battle_Boots,Ranger Battle Boots,Ranger Battle Boots,±º¿ëºÎÃ÷,bRO,regional_resource_reused,"2447,2473,22012",,Shoes,Armor,,Shoes,99,0,1,1,0,0,True,False,100000
+22022,LG_Battle_Boots,Royal Guard Battle Boots,Royal Guard Battle Boots,±×¸®ºê,bRO,regional_resource_reused,"2411,2412,2429,2430,2435",,Shoes,Armor,,Shoes,99,0,1,1,0,0,True,False,100000
+22023,RK_Battle_Boots,Rune Knight Battle Boots,Rune Knight Battle Boots,°Ôºê³×ÀÌÀÇ±ºÈ­,bRO,regional_resource_reused,2419,,Shoes,Armor,,Shoes,99,0,1,1,0,0,True,False,100000
+22025,SC_Battle_Boots,Shadow Chaser Battle Boots,Shadow Chaser Battle Boots,½ºÇÁ¸°Æ®½´Áî,bRO,regional_resource_reused,2440,,Shoes,Armor,,Shoes,99,0,1,1,0,0,True,False,100000
+22026,SR_Battle_Boots,Sura Battle Boots,Sura Battle Boots,¹ßÅ°¸®ÀÇ½´Áî,bRO,regional_resource_reused,"2421,2431,2439,2448",,Shoes,Armor,,Shoes,99,0,1,1,0,0,True,False,100000
+22028,WL_Battle_Boots,Warlock Battle Boots,Archmage Battle Boots,½ÉÆÇÀÇ½´Áî,bRO,regional_resource_reused,2472,,Shoes,Armor,,Shoes,99,0,1,1,0,0,True,False,100000
+22074,Upgrade_Part_Booster_J,Guardian Booster,Guardian Boots,°­È­ÆÄÃ÷ºÎ½ºÅÍ,jRO,regional_resource_reused,22044,,Shoes,Armor,,Shoes,100,0,0,0,0,0,True,False,200000
+22073,Supplement_Part_Agi_J,Powered Boots,Powered Boots,¹ÎÃ¸¼ºº¸¿ÏÀåÄ¡,jRO,regional_resource_reused,22043,,Shoes,Armor,,Shoes,100,0,0,0,0,0,True,False,200000
+22142,ShoesOfGuardsman,Shoes Of Guardsman,Kongo Stone Shoes,ShoesOfGuardsman,jRO,regional_resource_reused,22171,,Shoes,Armor,,Shoes,100,0,1,1,0,0,True,False,200000
+22187,Doram_Ele_Shoes_J,Special Doram Shoes,Exlusive Doram Shoes,µµ¶÷½´Áî,jRO,regional_resource_reused,"22083,22084,22085",,Shoes,Armor,,Shoes,100,0,1,1,0,0,True,False,200000
+2495,Egir_Shoes,Egir Shoes,Aegir Shoes,¿¡±æ½´Áî,jRO,regional_resource_reused,"22059,470070",,Shoes,Armor,,Shoes,110,0,1,1,0,0,True,False,200000
+22119,Cursed_Devils_Boots,Curse-Spell Boots,Cursed Magic Boots,ÀúÁÖ¹ÞÀº¾Ç¸¶ÀÇºÎÃ÷,jRO,regional_resource_reused,22206,,Shoes,Armor,,Shoes,130,0,1,1,0,0,True,False,500000
+470266,Mythical_Moonlight_US,Mythical Moonlight Paw,Mythical Moonlight Paw,³×¸£°¥½´Áî,iRO,regional_resource_reused,470122,,Shoes,Armor,,Shoes,130,0,1,1,0,0,True,True,500000
+22127,Diva_Shoes,Diva Shoes,Diva Shoes,µð¹Ù½´Áî,jRO,regional_resource_reused,"22173,470068",,Shoes,Armor,,Shoes,150,0,1,1,0,0,True,False,500000
+22128,Mirage_Shoes,Mirage Shoes,Mirage Shoes,¹Ì¶óÁê½´Áî,jRO,regional_resource_reused,"22204,470067",,Shoes,Armor,,Shoes,150,0,1,1,0,0,True,False,500000
+22193,Brave_shoes,Brave Shoes,Brave Shoes,¾ÈÀüÈ­,jRO,regional_resource_reused,"2413,2437,2444,2445,2446",,Shoes,Armor,,Shoes,165,0,1,1,0,0,True,False,1000000
+22143,YSF01_Greave_J,Y.S.F.0.1 Greaves,Y.S.F.0.1 Greaves (jRO),YSF01_Greave,jRO,regional_resource_reused,22141,,Shoes,Armor,,Shoes,170,0,1,1,0,0,True,False,1000000
+13426,F_Cutlas_C,Cutlus,Cutlas,Ä¿Æ²·¯½º,iRO,regional_resource_reused,"1135,13400,13402",,Weapons,Weapon,1hSword,Right_Hand,0,0,0,0,0,2,False,False,100000
+1194,F_Executioner_C,Executioner,Rental Executioner,¾×¼­Å¥¼Å³Ê,iRO,regional_resource_reused,"1169,1174,1179",,Weapons,Weapon,2hSword,Both_Hand,0,0,0,0,0,49,False,False,100000
+13053,F_Moonlight_Sword_C,Moonlight Sword,Moonlight Sword,¿ù±¤°Ë,iRO,regional_resource_reused,"1234,13026",,Weapons,Weapon,Dagger,Right_Hand,0,0,0,0,0,1,False,False,100000
+1314,F_Tomahawk_C,Rental Tomahawk,Rental Tomahawk,Åä¸¶È£Å©,iRO,regional_resource_reused,"1368,1374",,Weapons,Weapon,2hAxe,Both_Hand,0,0,0,0,0,6,False,False,100000
+18101,F_Bow_Of_Rudra_C,Rudra Bow,Rudra Bow,·çµå¶óÀÇÈ°,iRO,regional_resource_reused,"1720,1729,18100",,Weapons,Weapon,Bow,Both_Hand,0,0,0,0,0,77,False,False,100000
+13427,F_Solar_Sword_C,Solar Sword,Solar Sword,ÅÂ¾ç°Ë,iRO,regional_resource_reused,"1136,13403,13440",,Weapons,Weapon,1hSword,Right_Hand,0,0,0,0,0,2,False,False,100000
+16008,F_Spanner_C,Spanner,Wrench,½ºÆÐ³Ê,iRO,regional_resource_reused,"1531,1534,6186",,Weapons,Weapon,Mace,Right_Hand,0,0,0,0,0,8,False,False,100000
+1100,Taurus_Sword_J,Taurus Sword,Taurus Sword,Taurus_Sword_J,jRO,regional_resource_reused,510006,,Weapons,Weapon,1hSword,Right_Hand,0,0,1,1,0,2,True,False,100000
+1389,E_Tomahawk_C,Tomahawk,Tomahawk,Åä¸¶È£Å©,Unknown,regional_resource_reused,"1368,1374",,Weapons,Weapon,2hAxe,Both_Hand,0,0,0,0,0,6,False,False,100000
+13055,F_Asura_C,Asura,Asura,¾Æ½´¶ó,iRO,regional_resource_reused,"13010,13011,13023,13075,510089,510090",,Weapons,Weapon,Dagger,Right_Hand,1,0,0,0,0,1,False,False,100000
+28103,Ru_Blue_Axe_M,Blue Twohand Axe,Blue Axe,¼­´ÃÇÑ¾ç³¯µµ³¢,iRO,regional_resource_reused,28105,,Weapons,Weapon,2hAxe,Both_Hand,1,0,1,1,0,7,True,False,100000
+13054,F_Combat_Knife_C,Combat Knife,Combat Knife,ÄÄ¹î³ªÀÌÇÁ,iRO,regional_resource_reused,"1228,13021",,Weapons,Weapon,Dagger,Right_Hand,1,0,0,0,0,1,False,False,100000
+13056,F_Counter_Dagger_C,Counter Dagger,Dagger of Counter,Ä«¿îÅÍ´Ü°Ë,iRO,regional_resource_reused,"1242,13022,510037",,Weapons,Weapon,Dagger,Right_Hand,1,0,0,0,0,1,False,False,100000
+1581,F_Diary_Of_Great_Sage_C,Diary Of Great Sage,Diary Of Great Sage,ÇöÀÚÀÇÀÏ±â,iRO,regional_resource_reused,"1560,1563,1566,6652,7755,11004,28613,540027",,Weapons,Weapon,Book,Right_Hand,1,0,2,2,0,15,False,False,100000
+1582,E_Diary_Of_Great_Sage_C,Diary Of Great Sage,Diary of Great Sage,ÇöÀÚÀÇÀÏ±â,Unknown,regional_resource_reused,"1560,1563,1566,6652,7755,11004,28613,540027",,Weapons,Weapon,Book,Right_Hand,1,0,2,2,0,15,False,False,100000
+1390,E_Right_Epsilon_C,Light Epsilon,Light Epsilon,¶óÀÌÆ®¿¦½Ç·Ð,Unknown,regional_resource_reused,"1366,1372",,Weapons,Weapon,2hAxe,Both_Hand,1,0,0,0,0,61,False,False,100000
+1431,F_Pole_Axe_C,Pole Axe,Rental Pole Axe,Æú¾×½º,iRO,regional_resource_reused,"1417,1419,1423",,Weapons,Weapon,1hSpear,Right_Hand,1,0,0,0,0,4,False,False,100000
+1432,E_Pole_Axe_C,Pole Axe,Pole Axe,Æú¾×½º,Unknown,regional_resource_reused,"1417,1419,1423",,Weapons,Weapon,1hSpear,Right_Hand,1,0,0,0,0,4,False,False,100000
+1315,F_Right_Epsilon_C,Right Epsilon,Right Epsilon,¶óÀÌÆ®¿¦½Ç·Ð,iRO,regional_resource_reused,"1366,1372",,Weapons,Weapon,2hAxe,Both_Hand,1,0,0,0,0,61,False,False,100000
+13437,Orcish_Sword_,Orcish Sword,Orcish Sword,¿ÀÅ°½¬¼Òµå,jRO,regional_resource_reused,1124,,Weapons,Weapon,1hSword,Right_Hand,5,0,4,4,0,2,True,False,100000
+1593,Book_Of_Destiny,Book of Destiny,Book of Fate,¾çÀåº»,jRO,regional_resource_reused,"1561,1567,7756,11002,11008,28614,540030,540034",,Weapons,Weapon,Book,Right_Hand,24,0,1,1,0,15,True,False,100000
+1662,Bone_Wand_,Evil Bone Wand,Evil Bone Wand,ÇØ°ñÁöÆÎÀÌ,jRO,regional_resource_reused,"1615,1636,1664,550101",,Weapons,Weapon,Staff,Right_Hand,24,0,2,2,0,72,True,False,100000
+1596,Earth_Pedigree_Book,Earth Pedigree Book,Genealogy of Earth God,¶¥ÀÇÃ¥,jRO,regional_resource_reused,"1554,1569",,Weapons,Weapon,Book,Right_Hand,27,0,2,2,0,15,True,False,100000
+1594,Fire_Pedigree_Book,Flame Pedigree Book,Genealogy of Flame God,ºÒÀÇÃ¥,jRO,regional_resource_reused,"1555,1570",,Weapons,Weapon,Book,Right_Hand,27,0,2,2,0,15,True,False,100000
+1595,Ice_Pedigree_Book,Ice Pedigree Book,Genealogy of Ice God,¹°ÀÇÃ¥,jRO,regional_resource_reused,"1553,1568,540061",,Weapons,Weapon,Book,Right_Hand,27,0,2,2,0,15,True,False,100000
+1592,Thor_Pedigree_Book,Thunder Pedigree Book,Genealogy of Thunder God,¹Ù¶÷ÀÇÃ¥,jRO,regional_resource_reused,"1556,1571,540062",,Weapons,Weapon,Book,Right_Hand,27,0,2,2,0,15,True,False,100000
+13433,Academy_Sword,Academy Sword,Academy Sword,¼Òµå,idRO,regional_resource_reused,"1101,1102,1103,13425,13439,500067,500068,500069",,Weapons,Weapon,1hSword,Right_Hand,30,0,1,1,0,2,True,False,100000
+13447,Byeorrun_Gum_,Byeollungum,Byeollungum,º°¿î°Ë,jRO,regional_resource_reused,1140,,Weapons,Weapon,1hSword,Right_Hand,40,0,2,2,0,2,True,False,100000
+2031,Tw_Staff_Of_Malang_J,Cat's cane - Swordfish,Two-Handed Cat Wand - Fish Flag,Ã»»õÄ¡_,jRO,regional_resource_reused,1489,,Weapons,Weapon,2hStaff,Both_Hand,40,0,1,0,0,23,True,False,100000
+13435,Fire_Brand_,Fireblend,Fire Brand,È­ÀÌ¾îºê·£µå,jRO,regional_resource_reused,"1133,13408",,Weapons,Weapon,1hSword,Right_Hand,40,0,3,3,0,2,True,False,100000
+13436,Ice_Falchon_,Ice Falchion,Ice Falchion,¾ÆÀÌ½ºÆÈ½Ã¿Â,jRO,regional_resource_reused,1131,,Weapons,Weapon,1hSword,Right_Hand,40,0,3,3,0,2,True,False,100000
+13453,Mysteltainn_S,Mysteltainn,Mysteltainn,¹Ì½ºÆ¿Å×ÀÎ,jRO,regional_resource_reused,1138,,Weapons,Weapon,1hSword,Right_Hand,40,0,3,3,0,2,True,False,100000
+1300,Cleaver_,Cleaver,Cleaver,Å¬¸®¹ö,jRO,regional_resource_reused,"1305,1310,520010",,Weapons,Weapon,1hAxe,Right_Hand,44,0,3,3,0,6,True,False,100000
+13446,Star_Dust_Blade_,Star Dust Blade,Star Dust Blade,½ºÅ¸ºí·¹ÀÌµå,jRO,regional_resource_reused,"1148,13410,13411,13423,500000",,Weapons,Weapon,1hSword,Right_Hand,45,0,3,3,0,2,True,False,100000
+1449,Gelerdria_,Gelerdria,Gelerdria,°Ö·¯µå¸®¾Æ,jRO,regional_resource_reused,1414,,Weapons,Weapon,1hSpear,Right_Hand,48,0,3,3,0,4,True,False,100000
+1497,Hell_Fire_S,Hellfire,Hellfire,ÇïÆÄÀÌ¾î,jRO,regional_resource_reused,1471,,Weapons,Weapon,2hSpear,Both_Hand,48,0,3,3,0,5,True,False,100000
+32000,Blue_Spear,Blue Spear,Azure One-Handed Spear,²¿Ã¬ÀÌ,jRO,regional_resource_reused,"1415,1424,6442,530018",,Weapons,Weapon,1hSpear,Right_Hand,50,0,3,3,0,4,True,False,100000
+26104,Blue_Staff,Blue Staff,Blue Staff,ÀÏº®Àå,jRO,regional_resource_reused,550007,,Weapons,Weapon,Staff,Right_Hand,50,0,2,2,0,10,True,False,100000
+1675,Walking_Stick_,Gentleman's Staff,Gentleman Staff,½Å»çÀÇÁöÆÎÀÌ,jRO,regional_resource_reused,"1629,1668",,Weapons,Weapon,Staff,Right_Hand,50,0,3,3,0,10,True,False,100000
+1837,Iron_nail,Iron Nail,Iron Nail,¾ÆÀÌ¾ð³×ÀÏ,jRO,regional_resource_reused,"1847,1864",,Weapons,Weapon,Knuckle,Right_Hand,50,0,1,1,0,82,True,False,100000
+13082,Ivory_Knife_,Ivory Knife,Ivory Knife,¾ÆÀÌº¸¸®³ªÀÌÇÁ,jRO,regional_resource_reused,"13039,510086",,Weapons,Weapon,Dagger,Right_Hand,50,0,3,3,0,1,True,False,100000
+21008,Kogarasu_Maru,Kogarasumaru,Small Karasuma,¸¶»ç¹«³×,jRO,regional_resource_reused,1165,,Weapons,Weapon,2hSword,Both_Hand,50,0,2,2,0,48,True,False,100000
+13091,Owl_Cutter,Owl's Dagger,Dagger of Owl,ºí·¢À®,jRO,regional_resource_reused,13061,,Weapons,Weapon,Dagger,Right_Hand,50,0,1,1,0,1,True,False,100000
+13428,Priest_Sword,Priest Sword,Frist Sword,ÇÁ¸®½ºÆ®ÀÇ°Ë,jRO,regional_resource_reused,510069,,Weapons,Weapon,1hSword,Right_Hand,50,0,3,3,0,47,True,False,100000
+1835,Spartacus,Spartacus,Spartacus,Ä«ÀÌÀú³ÊÅ¬,jRO,regional_resource_reused,"1813,1817,1828,1845,25166",,Weapons,Weapon,Knuckle,Right_Hand,50,0,2,2,0,12,True,False,100000
+1663,Staff_Of_Bordeaux_,Staff Of Bordeaux,Staff of Bordeaux,½ºÅÂÇÁ¿Àºê¿À¸£µµ,jRO,regional_resource_reused,1648,,Weapons,Weapon,Staff,Right_Hand,50,0,2,2,0,10,True,False,100000
+13133,UnrivaledGun,Unrivaled Gun,Warrior Gun,¹«½ÖÃÑ,jRO,regional_resource_reused,32302,,Weapons,Weapon,Revolver,Both_Hand,50,0,2,2,0,17,True,False,100000
+18137,Burning_Bow_,Burning Bow,Burning Bow,ºÒÅ¸´ÂÈ°,jRO,regional_resource_reused,1730,,Weapons,Weapon,Bow,Both_Hand,55,0,2,2,0,11,True,False,100000
+13073,Counter_Dagger_,Counter Dagger,Dagger of Counter,Ä«¿îÅÍ´Ü°Ë,jRO,regional_resource_reused,"1242,13022,510037",,Weapons,Weapon,Dagger,Right_Hand,55,0,1,1,0,1,True,False,100000
+18139,Earth_Bow_,Earth Bow,Earth Bow,´ëÁöÀÇÈ°,jRO,regional_resource_reused,1732,,Weapons,Weapon,Bow,Both_Hand,55,0,2,2,0,11,True,False,100000
+18138,Frozen_Bow_,Frozen Bow,Frozen Bow,³Ã°¢ÀÇÈ°,jRO,regional_resource_reused,1731,,Weapons,Weapon,Bow,Both_Hand,55,0,2,2,0,11,True,False,100000
+18140,Gust_Bow_,Gust Bow,Gust Bow,ÁúÇ³ÀÇÈ°,jRO,regional_resource_reused,"1733,700062",,Weapons,Weapon,Bow,Both_Hand,55,0,2,2,0,11,True,False,100000
+1666,Healing_Staff_,Healing Staff,Staff of Healing,Ä¡À¯ÀÇÁöÆÎÀÌ,jRO,regional_resource_reused,"1625,1638,26107,550036,550041,550102",,Weapons,Weapon,Staff,Right_Hand,55,0,2,2,0,10,True,False,100000
+28716,Tooth_Blade_,Tooth Blade,Tooth Blade,Åõ½ººí·¹ÀÌµå,jRO,regional_resource_reused,13028,,Weapons,Weapon,Dagger,Right_Hand,55,0,3,3,0,1,True,False,100000
+16022,Nemesis_,Nemesis,Nemesis,³×¸Þ½Ã½º,jRO,regional_resource_reused,1541,,Weapons,Weapon,Mace,Right_Hand,60,0,2,2,0,8,True,False,100000
+1440,Battle_Hook_,Battle Hook,Battle Hook,¹èÆ²ÈÅ,jRO,regional_resource_reused,1421,,Weapons,Weapon,1hSpear,Right_Hand,65,0,3,3,0,4,True,False,100000
+18115,Orc_Archer_Bow_,Orc Archer Bow,Orc Archer's Bow,¿ÀÅ©¾ÆÃÄÀÇÈ°,jRO,regional_resource_reused,1734,,Weapons,Weapon,Bow,Both_Hand,65,0,1,1,0,11,True,False,100000
+26103,JP_Rod01_L,[Rental] Holy Stick,Rental Holy Stick,È¦¸®½ºÆ½,jRO,regional_resource_reused,"1631,1653,1671",,Weapons,Weapon,Staff,Right_Hand,70,0,0,0,0,10,True,False,100000
+2029,TStaff_Of_E_Slayer_J,Devil God's Staff,Devil God's Staff,È¦¸®½ºÆ½,jRO,regional_resource_reused,"1631,1653,1671",,Weapons,Weapon,2hStaff,Both_Hand,70,0,0,0,0,23,True,False,100000
+2017,Divine_Cross_,Divine Cross,Divine Cross,µð¹ÙÀÎÅ©·Î½º,jRO,regional_resource_reused,2001,,Weapons,Weapon,2hStaff,Both_Hand,70,0,1,1,0,23,True,False,100000
+1589,Legacy_Of_Dragon_,Legacy of Dragon,Legacy of Dragon,µå·¡°ïÀÇÀ¯»ê,jRO,regional_resource_reused,"1559,11005,540028,540032",,Weapons,Weapon,Book,Right_Hand,70,0,2,2,0,15,True,False,100000
+1665,Piercing_Staff_,Piercing Staff,Staff of Piercing,½ºÅÂÇÁ¿ÀºêÇÇ¾î½Ì,jRO,regional_resource_reused,"1626,1644,550037,640025",,Weapons,Weapon,Staff,Right_Hand,70,0,2,2,0,10,True,False,100000
+16051,Valkyrie_Hammer,Valkyrie Hammer,Valkyrie Hammer,¹ßÅ°¸®ÇØ¸Ó,jRO,regional_resource_reused,590000,,Weapons,Weapon,Mace,Right_Hand,70,0,4,4,0,8,True,False,100000
+1397,Bradium_Stonehammer_,Bradium Stone Hammer,Bradium Stone Hammer,ºê¶óµð¿òµ¹¸ÁÄ¡,jRO,regional_resource_reused,"1385,16027",,Weapons,Weapon,2hAxe,Both_Hand,75,0,2,2,0,7,True,False,100000
+1324,War_Axe_S,War Axe,War Axe,¿ö¾×½º,jRO,regional_resource_reused,"1306,1395,28120",,Weapons,Weapon,1hAxe,Right_Hand,76,0,3,3,0,6,True,False,100000
+16052,Iron_Driver_,Iron Driver,Iron Driver,¾ÆÀÌ¾ðµå¶óÀÌ¹ö,jRO,regional_resource_reused,1529,,Weapons,Weapon,Mace,Right_Hand,78,0,0,3,0,67,True,False,100000
+18125,Arcus_Daemonicus,Arcus Daemonicus,Arcus Daemonicus,¾ÆÅ©¿À½º´ÙÀÌ¸ð´ÏÄí½º,iRO,regional_resource_reused,700003,,Weapons,Weapon,Bow,Both_Hand,80,0,2,2,0,11,True,False,100000
+28114,Veteran_Axe_,Veteran Axe,Veteran Axe,º£Å×¶û¾×½º,jRO,regional_resource_reused,1384,,Weapons,Weapon,2hAxe,Both_Hand,80,0,3,3,0,7,True,False,100000
+16056,Veteran_Hammer_,Veteran Hammer,Veteran Hammer,º£Å×¶ûÇÜ¸Ó,jRO,regional_resource_reused,"1548,590027,590029",,Weapons,Weapon,Mace,Right_Hand,80,0,3,3,0,8,True,False,100000
+21024,Veteran_Sword_,Veteran Sword,Veteran Sword,º£Å×¶û¼Òµå,jRO,regional_resource_reused,1188,,Weapons,Weapon,2hSword,Both_Hand,80,0,3,3,0,3,True,False,100000
+1682,Shadow_Staff,Shadow Staff,Shadow Staff,½¦µµ¿ì½ºÅÂÇÁ,jRO,regional_resource_reused,"26118,26156",,Weapons,Weapon,Staff,Right_Hand,90,0,2,2,0,10,True,False,100000
+21053,FullForce,Full Force,Full Force,FullForce,jRO,regional_resource_reused,600001,,Weapons,Weapon,2hSword,Both_Hand,99,0,1,1,0,3,True,False,100000
+21004,Alca_Bringer_,Alca Bringer,Alca Bringer,¾ËÄ«ºê¸µ°Å,jRO,regional_resource_reused,1191,,Weapons,Weapon,2hSword,Both_Hand,100,0,2,2,0,3,True,False,200000
+13134,ALTAIR_ARES_J,Altair Ares,Altea Ares,¾ËÅ×¾î_¾Æ·¹½º,jRO,regional_resource_reused,"13122,13124,13136",,Weapons,Weapon,Revolver,Both_Hand,100,0,1,2,0,17,True,False,200000
+18126,Ru_Blue_Bow,Blue Bow,Blue Bow,¼­´ÃÇÑÈ°,iRO,regional_resource_reused,18128,,Weapons,Weapon,Bow,Both_Hand,100,0,1,1,0,11,True,False,200000
+13099,Ru_Blue_Knife,Blue Knife,Blue Knife,¼­´ÃÇÑ³ªÀÌÇÁ,iRO,regional_resource_reused,28703,,Weapons,Weapon,Dagger,Right_Hand,100,0,1,1,0,1,True,False,200000
+16036,Ru_Blue_Mace,Blue Mace,Blue Mace,¼­´ÃÇÑÃ¶Åð,iRO,regional_resource_reused,16038,,Weapons,Weapon,Mace,Right_Hand,100,0,1,1,0,8,True,False,200000
+28611,Sinister_Book_J,Book of Evil,Vicious Mind Book,»ç³äÀÇºÏ,jRO,regional_resource_reused,28605,,Weapons,Weapon,Book,Right_Hand,100,0,0,0,0,15,True,False,200000
+28618,Time_Kamiji,Book of the Sun God,Book of Sun God,Time_Kamiji,jRO,regional_resource_reused,28631,,Weapons,Weapon,Book,Right_Hand,100,0,4,4,0,15,True,False,200000
+18148,Sinister_Bow_J,Bow of Evil,Vicious Mind Bow (jRO),»ç³äÀÇº¸¿ì,jRO,regional_resource_reused,18121,,Weapons,Weapon,Bow,Both_Hand,100,0,0,0,0,11,True,False,200000
+1328,Blut_Axe,Brute Cleaver,Brute Axe,Blut_Axe,jRO,regional_resource_reused,520000,,Weapons,Weapon,1hAxe,Right_Hand,100,0,0,0,0,6,True,False,200000
+32014,Blut_Spear,Brute Spear,Brute Spear,Blut_Spear,jRO,regional_resource_reused,530000,,Weapons,Weapon,1hSpear,Right_Hand,100,0,0,0,0,4,True,False,200000
+28724,Sinister_Dagger_J,Dagger of Evil,Vicious Mind Dagger,»ç³äÀÇ´ë°Å,jRO,regional_resource_reused,28706,,Weapons,Weapon,Dagger,Right_Hand,100,0,0,0,0,1,True,False,200000
+550021,Deus_Ex_Machina_JP,Deus Ex Machina,Deus Ex Machina,¾ÆÀÌ¿Â½ºÅÂÇÁ,jRO,regional_resource_reused,"2048,2054",,Weapons,Weapon,Staff,Right_Hand,100,0,3,3,0,10,True,False,200000
+1844,Sinister_Fist_J,Fist of Evil,Vicious Mind Fist,»ç³äÀÇÇÇ½ºÆ®,jRO,regional_resource_reused,1800,,Weapons,Weapon,Knuckle,Right_Hand,100,0,0,0,0,12,True,False,200000
+13142,Sinister_Revolver_J,Handgun of Evil,Vicious Mind Handgun,»ç³äÀÇ¸®º¼¹ö,jRO,regional_resource_reused,13128,,Weapons,Weapon,Revolver,Both_Hand,100,0,0,0,0,17,True,False,200000
+13135,H_FEATHER_H_FIRE_J,Heaven's Feather & Hell's Fire,Heaven Feather & Hell's Fire,ÇìºìÁîÆä´õ_ÇïÁîÆÄÀÌ¾î,jRO,regional_resource_reused,13120,,Weapons,Weapon,Revolver,Both_Hand,100,0,1,2,0,17,True,False,200000
+13335,Sinister_Huuma_J,Huuma of Evil,Vicious Mind Huuma Shuriken,»ç³äÀÇÇ³¸¶¼ö¸®°Ë,jRO,regional_resource_reused,13328,,Weapons,Weapon,Huuma,Both_Hand,100,0,0,0,0,22,True,False,200000
+28020,Sinister_Katar_J,Katar of Evil,Vicious Mind Katar,»ç³äÀÇÄ«Å¸¸£,jRO,regional_resource_reused,28008,,Weapons,Weapon,Katar,Both_Hand,100,0,0,0,0,16,True,False,200000
+26006,Sinister_Lance_J,Lance of Evil,Vicious Mind Lance,»ç³äÀÇ·£½º,jRO,regional_resource_reused,1450,,Weapons,Weapon,2hSpear,Both_Hand,100,0,0,0,0,5,True,False,200000
+1679,Rafini_Staff_S,Laphine Staff,Lapine Staff,¶óÇÇ´Ï½ºÅÂÇÁ,jRO,regional_resource_reused,"1649,2016",,Weapons,Weapon,Staff,Right_Hand,100,0,2,2,0,10,True,False,200000
+16061,Sinister_Mace_J,Mace of Evil,Vicious Mind Mace,»ç³äÀÇ¸ÞÀÌ½º,jRO,regional_resource_reused,16041,,Weapons,Weapon,Mace,Right_Hand,100,0,0,0,0,8,True,False,200000
+1698,Thanos_Staff_J,Requiem Arc Wand,Requiem Wand,Å¸³ë½ºÀÇÁöÆÎÀÌ,jRO,regional_resource_reused,1669,,Weapons,Weapon,Staff,Right_Hand,100,0,0,0,0,10,True,False,200000
+1998,Thanos_Whip_J,Requiem Blade Whip,Requiem Blade Whip,Å¸³ë½ºÀÇÀ¬¼Òµå,jRO,regional_resource_reused,1988,,Weapons,Weapon,Whip,Right_Hand,100,0,0,0,0,14,True,False,200000
+1840,Thanos_Knuckle_J,Requiem Knuckle,Requiem Knuckle,Å¸³ë½ºÀÇ³ÊÅ¬,jRO,regional_resource_reused,1836,,Weapons,Weapon,Knuckle,Right_Hand,100,0,0,0,0,12,True,False,200000
+1499,Thanos_Long_Spear_J,Requiem Lance,Requiem Lance,Å¸³ë½ºÀÇ¾ç¼ÕÃ¢,jRO,regional_resource_reused,1496,,Weapons,Weapon,2hSpear,Both_Hand,100,0,0,0,0,5,True,False,200000
+1446,Thanos_Spear_J,Requiem Spear,Requiem Spear,Å¸³ë½ºÀÇÃ¢,jRO,regional_resource_reused,1438,,Weapons,Weapon,1hSpear,Right_Hand,100,0,0,0,0,4,True,False,200000
+1942,Thanos_Violin_J,Requiem Violin,Requiem Violin,Å¸³ë½ºÀÇ¹ÙÀÌ¿Ã¸°,jRO,regional_resource_reused,1933,,Weapons,Weapon,Musical,Right_Hand,100,0,0,0,0,13,True,False,200000
+2032,Thanos_Rod_J,Requiem Wizardry Staff,Requiem Wizard Staff,Å¸³ë½ºÀÇ¾ç¼ÕÁöÆÎÀÌ,jRO,regional_resource_reused,2023,,Weapons,Weapon,Staff,Both_Hand,100,0,0,0,0,23,True,False,200000
+26108,Sinister_Rod_J,Rod of Evil,Vicious Mind Rod,»ç³äÀÇ·Îµå,jRO,regional_resource_reused,1600,,Weapons,Weapon,Staff,Right_Hand,100,0,0,0,0,10,True,False,200000
+13451,Ru_Blue_Sword,Ru Blue Sword,Blue Sword,¼­´ÃÇÑ°Ë,iRO,regional_resource_reused,21014,,Weapons,Weapon,1hSword,Right_Hand,100,0,1,1,0,2,True,False,200000
+1936,Ru_Blue_Violin,Ru Blue Violin,Ru Blue Violin,¼­´ÃÇÑ¹ÙÀÌ¿Ã¸°,iRO,regional_resource_reused,"1938,570024",,Weapons,Weapon,Musical,Right_Hand,100,0,1,1,0,13,True,False,200000
+1677,Ru_Blue_Wand,Ru Blue Wand,Ru Blue Wand,¼­´ÃÇÑÁöÆÎÀÌ,iRO,regional_resource_reused,2024,,Weapons,Weapon,Staff,Right_Hand,100,0,1,1,0,10,True,False,200000
+1991,Ru_Blue_Whip,Ru Blue Whip,Ru Blue Whip,¼­´ÃÇÑÃ¤Âï,iRO,regional_resource_reused,"1994,580024",,Weapons,Weapon,Whip,Right_Hand,100,0,1,1,0,14,True,False,200000
+13468,Sinister_Saber_J,Saber of Evil,Vicious Mind Saber,»ç³äÀÇ¼¼ÀÌ¹ö,jRO,regional_resource_reused,13455,,Weapons,Weapon,1hSword,Right_Hand,100,0,0,0,0,2,True,False,200000
+13465,Save_The_King,Save the King,Save the King,¼¼ÀÌºê´õÅ·,jRO,regional_resource_reused,500003,,Weapons,Weapon,1hSword,Right_Hand,100,0,3,3,0,2,True,False,200000
+32003,Sinister_Spear_J,Spear of Evil,Vicious Mind Spear,»ç³äÀÇ½ºÇÇ¾î,jRO,regional_resource_reused,1400,,Weapons,Weapon,1hSpear,Right_Hand,100,0,0,0,0,4,True,False,200000
+2037,Sinister_Staff_J,Staff of Evil,Vicious Mind Staff,»ç³äÀÇ½ºÅÂÇÁ,jRO,regional_resource_reused,2026,,Weapons,Weapon,2hStaff,Both_Hand,100,0,0,0,0,23,True,False,200000
+28119,Sinister_Twohand_Axe_J,Two-Handed Axe of Evil,Vicious Mind Two-Handed Axe (jRO),»ç³äÀÇÅõÇÚµå¾×½º,jRO,regional_resource_reused,28107,,Weapons,Weapon,2hAxe,Both_Hand,100,0,0,0,0,7,True,False,200000
+21028,Sinister_Thand_Sword_J,Two-Handed Sword of Evil,Vicious Mind Two-Handed Sword,»ç³äÀÇÅõÇÚµå¼Òµå,jRO,regional_resource_reused,21016,,Weapons,Weapon,2hSword,Both_Hand,100,0,0,0,0,3,True,False,200000
+1947,Sinister_Viollin_J,Violin of Evil,Vicious Mind Violin,»ç³äÀÇ¹ÙÀÌ¿Ã¸°,jRO,regional_resource_reused,1900,,Weapons,Weapon,Musical,Right_Hand,100,0,0,0,0,13,True,False,200000
+26203,Sinister_Wire_J,Wire of Evil,Vicious Mind Wire,»ç³äÀÇ¿ÍÀÌ¾î,jRO,regional_resource_reused,1996,,Weapons,Weapon,Whip,Right_Hand,100,0,0,0,0,14,True,False,200000
+1993,Concertina_Wire,Barbed Wire,Barbed Wire,°¡½ÃÃ¶»ç,jRO,regional_resource_reused,580002,,Weapons,Weapon,Whip,Right_Hand,105,0,1,1,0,14,True,False,200000
+1833,Claw_Of_Flash,Claw of Flash,Claw of Flash,¼¶±¤ÀÇ¼ÕÅé,jRO,regional_resource_reused,560002,,Weapons,Weapon,Knuckle,Right_Hand,105,0,2,2,0,82,True,False,200000
+1841,Claw_Of_Flash_,Claw of Flash,Claw of Flash,¼¶±¤ÀÇ¼ÕÅé,jRO,regional_resource_reused,560002,,Weapons,Weapon,Knuckle,Right_Hand,105,0,3,3,0,82,True,False,200000
+13438,Magical_Blade,Magical Blade,Magical Blade,¸ÅÁöÄÃºí·¹ÀÌµå,jRO,regional_resource_reused,510070,,Weapons,Weapon,1hSword,Right_Hand,105,0,2,2,0,2,True,False,200000
+13448,Magical_Blade_,Magical Blade,Magical Blade,¸ÅÁöÄÃºí·¹ÀÌµå,jRO,regional_resource_reused,510070,,Weapons,Weapon,1hSword,Right_Hand,105,0,3,3,0,2,True,False,200000
+18117,Royal_Bow,Royal Bow,Royal Bow,¿Õ°¡ÀÇÈ°,jRO,regional_resource_reused,"18164,18182",,Weapons,Weapon,Bow,Both_Hand,105,0,1,1,0,11,True,False,200000
+1298,Shiver_Katar,Shiver Katar,Katar of Shiver,ÀüÀ²ÀÇÄ«Å¸¸£,jRO,regional_resource_reused,"28039,28040",,Weapons,Weapon,Katar,Both_Hand,105,0,2,2,0,16,True,False,200000
+1494,Undine_Spear,Spear Of Odin,Undine Spear,¿îµð³×ÀÇÃ¢,jRO,regional_resource_reused,"32018,32021",,Weapons,Weapon,2hSpear,Both_Hand,105,0,3,3,0,5,True,False,200000
+28602,Demon_Hunting_Bible,Demon Hunting Bible,Book of Exorcism,Åð¸¶ÀÇ¼º¼­,jRO,regional_resource_reused,"28630,28632",,Weapons,Weapon,Book,Right_Hand,110,0,2,2,0,15,True,False,200000
+21013,Hetairoi_Sword,Hetairoi's Sword,Companion Cavalry Sword,ÇìÅ¸ÀÌ·ÎÀÌÀÇ°Ë,jRO,regional_resource_reused,600004,,Weapons,Weapon,2hSword,Both_Hand,110,0,2,2,0,3,True,False,200000
+2028,Aion_Staff,Iron Staff,Iron Staff,¾ÆÀÌ¿Â½ºÅÂÇÁ,jRO,regional_resource_reused,"2048,2054",,Weapons,Weapon,2hStaff,Both_Hand,110,0,2,2,0,23,True,False,200000
+21012,Some_Wizard_MagicSword,Magic Sword,Magic Lead Sword,¾î´À¸¶¹ý»çÀÇ¸¶µµ°Ë,jRO,regional_resource_reused,"28744,28759",,Weapons,Weapon,2hSword,Both_Hand,110,0,2,2,0,3,True,False,200000
+16043,Meteor_Strike,Meteor Strike,Meteor Strike,¸ÞÅ×¿À½ºÆ®¶óÀÌÅ©,jRO,regional_resource_reused,590002,,Weapons,Weapon,Mace,Right_Hand,110,0,2,2,0,8,True,False,200000
+28601,Ru_Gold_Book,Ru Gold Book,Ru Gold Book,ºû³ª´ÂÃ¥,iRO,regional_resource_reused,"28616,540000,540066",,Weapons,Weapon,Book,Right_Hand,120,0,2,2,0,15,True,False,200000
+18127,Ru_Gold_Bow,Ru Gold Bow,Ru Gold Bow,ºû³ª´ÂÈ°,iRO,regional_resource_reused,"18165,18166",,Weapons,Weapon,Bow,Both_Hand,120,0,2,2,0,11,True,False,200000
+28700,Ru_Gold_Dagger,Ru Gold Dagger,Ru Gold Dagger,ºû³ª´Â´ë°Å,iRO,regional_resource_reused,"28740,510002",,Weapons,Weapon,Dagger,Right_Hand,120,0,2,2,0,1,True,False,200000
+28006,Ru_Gold_Katar,Ru Gold Katar,Ru Gold Katar,ºû³ª´ÂÄ«Å¸¸£,iRO,regional_resource_reused,28027,,Weapons,Weapon,Katar,Both_Hand,120,0,2,2,0,16,True,False,200000
+16037,Ru_Gold_Mace,Ru Gold Mace,Ru Gold Mace,ºû³ª´ÂÃ¶Åð,iRO,regional_resource_reused,"16075,16076",,Weapons,Weapon,Mace,Right_Hand,120,0,2,2,0,8,True,False,200000
+13452,Ru_Gold_Sword,Ru Gold Sword,Ru Gold Sword,ºû³ª´Â°Ë,iRO,regional_resource_reused,"13483,500001",,Weapons,Weapon,1hSword,Right_Hand,120,0,2,2,0,2,True,False,200000
+1678,Ru_Gold_Wand,Ru Gold Wand,Ru Gold Wand,ºû³ª´ÂÁöÆÎÀÌ,iRO,regional_resource_reused,"26119,550001",,Weapons,Weapon,Staff,Right_Hand,120,0,2,1,0,10,True,False,200000
+13471,Sealed_Evil_SwordJ,Sealed Evil Sword,Abyss Sword,ºÀÀÎµÈÀÌºí¼Òµå,jRO,regional_resource_reused,13461,,Weapons,Weapon,1hSword,Right_Hand,120,0,3,3,0,2,True,False,200000
+13470,Sealed_Magic_SwordJ,Sealed Magic Sword,Burning Sword,ºÀÀÎµÈ¸ÅÁ÷¼Òµå,jRO,regional_resource_reused,13460,,Weapons,Weapon,1hSword,Right_Hand,120,0,3,3,0,2,True,False,200000
+13472,Sealed_Max_SwordJ,Sealed Maximum Sword,Purification Sword,ºÀÀÎµÈ¸Æ½Ã¸Ø¼Òµå,jRO,regional_resource_reused,13462,,Weapons,Weapon,1hSword,Right_Hand,120,0,3,3,0,2,True,False,200000
+28615,Origin_Of_Elemental_J,Elemental Origin,Book of Origin,¿ø¼ÒÀÇ±â¿ø,jRO,regional_resource_reused,28608,,Weapons,Weapon,Book,Right_Hand,130,0,3,3,0,15,True,False,500000
+1948,Hippie_Guitar_J,Hippie Guitar,Guitar of Nature,È÷ÇÇ±âÅ¸,jRO,regional_resource_reused,1944,,Weapons,Weapon,Musical,Right_Hand,130,0,3,3,0,13,True,False,500000
+26204,Hippie_Rope_J,Hippie Rope,Rope of Nature,È÷ÇÇ·ÎÇÁ,jRO,regional_resource_reused,26200,,Weapons,Weapon,Whip,Right_Hand,130,0,3,3,0,14,True,False,500000
+13340,Huuma_Hundred_Petal_J,Huuma Shuriken of Dancing Petals,Sakura Blossom Huuma Shuriken,Ç³¸¶_¹éÈ­¿±,jRO,regional_resource_reused,13332,,Weapons,Weapon,Huuma,Both_Hand,130,0,3,3,0,22,True,False,500000
+28127,Mine_Worker_Pickax_J,Mine Worker's Pickaxe,Miner's Pickaxe,¸¶ÀÎ¿öÄ¿ÇÈ¾×½º,jRO,regional_resource_reused,28116,,Weapons,Weapon,2hAxe,Both_Hand,130,0,3,3,0,7,True,False,500000
+28737,Mist_Sword,Mist Sword,Haze Demon Blade,¾È°³ÀÇ¿äµµ,jRO,regional_resource_reused,28764,,Weapons,Weapon,Dagger,Right_Hand,130,0,3,3,0,1,True,False,500000
+28738,Monokage_J,Monokage,Monokage,¸ð³ëÄ«°Ô,jRO,regional_resource_reused,28721,,Weapons,Weapon,Dagger,Right_Hand,130,0,3,3,0,1,True,False,500000
+21019,Onimaru,Onimaru,Onimaru,¿À´Ï¸¶·ç,jRO,regional_resource_reused,"21038,21049",,Weapons,Weapon,2hSword,Both_Hand,130,0,2,2,0,48,True,False,500000
+1940,Trumpet_Shell,Trumpet Shell,Conch,¼Ò¶ó°íµÕ,jRO,regional_resource_reused,570002,,Weapons,Weapon,Musical,Right_Hand,130,0,1,1,0,13,True,False,500000
+18163,Vigilante_Bow_J,Vigilante Bow,Vigilante's Bow (jRO),ÀÚ°æ´Üº¸¿ì,jRO,regional_resource_reused,18145,,Weapons,Weapon,Bow,Both_Hand,130,0,3,3,0,11,True,False,500000
+13466,Diva_Blade,Diva Blade,Diva Blade,ºû³ª´Â°Ë,jRO,regional_resource_reused,"13483,500001",,Weapons,Weapon,1hSword,Both_Hand,150,0,1,1,0,2,True,False,500000
+28609,Diva_Book,Diva Book,Diva Book,ºû³ª´ÂÃ¥,jRO,regional_resource_reused,"28616,540000,540066",,Weapons,Weapon,Book,Right_Hand,150,0,1,1,0,15,True,False,500000
+1842,Diva_Claw,Diva Claw,Diva Claw,µð¹ÙÅ©·Î,jRO,regional_resource_reused,"1848,560000",,Weapons,Weapon,Knuckle,Right_Hand,150,0,1,1,0,12,True,False,500000
+21026,Diva_Claymore,Diva Claymore,Diva Claymore,µð¹ÙÅ¬·¹ÀÌ¸ð¾î,jRO,regional_resource_reused,21037,,Weapons,Weapon,2hSword,Both_Hand,150,0,1,1,0,3,True,False,500000
+28722,Diva_Dagger,Diva Dagger,Diva Dagger,ºû³ª´Â´ë°Å,jRO,regional_resource_reused,"28740,510002",,Weapons,Weapon,Dagger,Right_Hand,150,0,1,1,0,1,True,False,500000
+26143,Diva_Foxtail,Diva Foxtail,Diva Foxtail,Diva_Foxtail,jRO,regional_resource_reused,550002,,Weapons,Weapon,Staff,Right_Hand,150,0,1,1,0,99,True,False,500000
+13140,Diva_Handgun,Diva Handgun,Diva Handgun,µð¹ÙÇÚµå°Ç,jRO,regional_resource_reused,13144,,Weapons,Weapon,Revolver,Both_Hand,150,0,1,1,0,17,True,False,500000
+13333,Diva_Huuma,Diva Huuma,Diva Huuma Shuriken,µð¹ÙÇ³¸¶¼ö¸®°Ë,jRO,regional_resource_reused,13341,,Weapons,Weapon,Huuma,Both_Hand,150,0,1,1,0,22,True,False,500000
+28018,Diva_Katar,Diva Katar,Diva Katar,ºû³ª´ÂÄ«Å¸¸£,jRO,regional_resource_reused,28027,,Weapons,Weapon,Katar,Both_Hand,150,0,1,1,0,16,True,False,500000
+26004,Diva_Lance,Diva Lance,Diva Lance,µð¹Ù·£½º,jRO,regional_resource_reused,26015,,Weapons,Weapon,2hSpear,Both_Hand,150,0,1,1,0,5,True,False,500000
+28231,Diva_Launcher,Diva Launcher,Diva Grenade Gun,µð¹Ù±×·¹³×ÀÌµå°Ç,jRO,regional_resource_reused,28257,,Weapons,Weapon,Grenade,Both_Hand,150,0,1,1,0,21,True,False,500000
+16058,Diva_Mace,Diva Mace,Diva Mace,ºû³ª´ÂÃ¶Åð,jRO,regional_resource_reused,"16075,16076",,Weapons,Weapon,Mace,Right_Hand,150,0,1,1,0,8,True,False,500000
+2035,Diva_Staff,Diva Staff,Diva Staff,µð¹Ù½ºÅÂÇÁ,jRO,regional_resource_reused,2046,,Weapons,Weapon,2hStaff,Both_Hand,150,0,1,1,0,0,True,False,500000
+26105,Diva_Wand,Diva Wand,Diva Wand,ºû³ª´ÂÁöÆÎÀÌ,jRO,regional_resource_reused,"26119,550001",,Weapons,Weapon,Staff,Right_Hand,150,0,1,1,0,10,True,False,500000
+18146,Diva_Wing,Diva Wing,Diva Wing,ºû³ª´ÂÈ°,jRO,regional_resource_reused,"18165,18166",,Weapons,Weapon,Bow,Both_Hand,150,0,1,1,0,11,True,False,500000
+1325,Mirage_Axe,Mirage Axe,Mirage Axe,¼­´ÃÇÑ¾ç³¯µµ³¢,jRO,regional_resource_reused,28105,,Weapons,Weapon,1hAxe,Right_Hand,150,0,1,1,0,6,True,False,500000
+13467,Mirage_Blade,Mirage Blade,Mirage Blade,¼­´ÃÇÑ°Ë,jRO,regional_resource_reused,21014,,Weapons,Weapon,1hSword,Both_Hand,150,0,1,1,0,2,True,False,500000
+26202,Mirage_Blade_Whip,Mirage Blade Whip,Mirage Blade Whip,¼­´ÃÇÑÃ¤Âï,jRO,regional_resource_reused,"1994,580024",,Weapons,Weapon,Whip,Right_Hand,150,0,1,1,0,14,True,False,500000
+13334,Mirage_Huuma,Mirage Huuma,Mirage Huuma Shuriken,¹Ì¶óÁêÇ³¸¶¼ö¸®°Ë,jRO,regional_resource_reused,13345,,Weapons,Weapon,Huuma,Both_Hand,150,0,1,1,0,22,True,False,500000
+16059,Mirage_Mace,Mirage Mace,Mirage Mace,¼­´ÃÇÑÃ¶Åð,jRO,regional_resource_reused,16038,,Weapons,Weapon,Mace,Right_Hand,150,0,1,1,0,8,True,False,500000
+2036,Mirage_Staff,Mirage Staff,Mirage Staff,¹Ì¶óÁê½ºÅÂÇÁ,jRO,regional_resource_reused,640004,,Weapons,Weapon,2hStaff,Both_Hand,150,0,1,1,0,0,True,False,500000
+1946,Mirage_Viollin,Mirage Viollin,Mirage Violin,¼­´ÃÇÑ¹ÙÀÌ¿Ã¸°,jRO,regional_resource_reused,"1938,570024",,Weapons,Weapon,Musical,Right_Hand,150,0,1,1,0,13,True,False,500000
+26106,Mirage_Wand,Mirage Wand,Mirage Wand,¼­´ÃÇÑÁöÆÎÀÌ,jRO,regional_resource_reused,2024,,Weapons,Weapon,Staff,Right_Hand,150,0,1,1,0,10,True,False,500000
+18147,Mirage_Wing,Mirage Wing,Mirage Wing,¼­´ÃÇÑÈ°,jRO,regional_resource_reused,18128,,Weapons,Weapon,Bow,Both_Hand,150,0,1,1,0,11,True,False,500000
+2038,Staff_170_J,Sunflower Kid,Sunflower Boy,ÇØ¹Ù¶ó±â¼Ò³â,jRO,regional_resource_reused,2027,,Weapons,Weapon,2hStaff,Both_Hand,150,0,1,1,0,23,True,False,500000
+28251,Variant_Shotgun,Abyss Shotgun,Abyss Shotgun,µ¥¸ó¼¦°Ç,jRO,regional_resource_reused,28256,,Weapons,Weapon,Shotgun,Both_Hand,165,0,1,1,0,20,True,False,1000000
+18153,Neev_Bow_Of_Rogue,Neev Bow Of Rogue,Neev Thief Bow,Neev_Bow_Of_Rogue,jRO,regional_resource_reused,"18170,18183",,Weapons,Weapon,Bow,Both_Hand,170,0,1,1,0,11,True,False,1000000
+28235,Neev_Rifle,Neev Rifle,Neev Rifle,Neev_Rifle,jRO,regional_resource_reused,28255,,Weapons,Weapon,Rifle,Both_Hand,170,0,1,1,0,18,True,False,1000000

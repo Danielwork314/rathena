@@ -1,7 +1,7 @@
 //===== rAthena Script =======================================
 //= Equipment Archive: Below Lv 100 Menus
 //===== Description: =========================================
-//= Region-safe active Renewal DB + actual client itemInfo.lua intersection.
+//= Client-recognized equipment; regional entries require non-regional resource reuse evidence.
 //============================================================
 function	script	F_EALWAG01	{
 	switch(select("Page 1 (40 items):Page 2 (40 items):Page 3 (40 items):Page 4 (40 items):Page 5 (40 items):Page 6 (40 items):Page 7 (40 items):Page 8 (40 items):Back")) {
@@ -44,7 +44,7 @@ function	script	F_EALWAG01	{
 }
 
 function	script	F_EALWAG02	{
-	switch(select("Page 9 (40 items):Page 10 (40 items):Page 11 (40 items):Page 12 (40 items):Page 13 (17 items):Back")) {
+	switch(select("Page 9 (40 items):Page 10 (40 items):Page 11 (40 items):Page 12 (40 items):Page 13 (40 items):Page 14 (3 items):Back")) {
 	case 1:
 		close2;
 		callshop "EALWA09",1;
@@ -66,13 +66,17 @@ function	script	F_EALWAG02	{
 		callshop "EALWA13",1;
 		end;
 	case 6:
+		close2;
+		callshop "EALWA14",1;
+		end;
+	case 7:
 		return;
 	}
 	return;
 }
 
 function	script	F_EALWA	{
-	switch(select("Pages 1-8:Pages 9-13:Back")) {
+	switch(select("Pages 1-8:Pages 9-14:Back")) {
 	case 1:
 		callfunc "F_EALWAG01";
 		return;
@@ -86,7 +90,7 @@ function	script	F_EALWA	{
 }
 
 function	script	F_EALWB	{
-	switch(select("Page 1 (40 items):Page 2 (40 items):Page 3 (40 items):Page 4 (40 items):Page 5 (40 items):Page 6 (40 items):Page 7 (40 items):Page 8 (10 items):Back")) {
+	switch(select("Page 1 (40 items):Page 2 (40 items):Page 3 (40 items):Page 4 (40 items):Page 5 (40 items):Page 6 (40 items):Page 7 (40 items):Page 8 (38 items):Back")) {
 	case 1:
 		close2;
 		callshop "EALWB01",1;
@@ -126,7 +130,7 @@ function	script	F_EALWB	{
 }
 
 function	script	F_EALWC	{
-	switch(select("Page 1 (40 items):Page 2 (40 items):Page 3 (40 items):Page 4 (20 items):Back")) {
+	switch(select("Page 1 (40 items):Page 2 (40 items):Page 3 (40 items):Page 4 (32 items):Back")) {
 	case 1:
 		close2;
 		callshop "EALWC01",1;
@@ -150,7 +154,7 @@ function	script	F_EALWC	{
 }
 
 function	script	F_EALWD	{
-	switch(select("Page 1 (40 items):Page 2 (40 items):Page 3 (40 items):Page 4 (9 items):Back")) {
+	switch(select("Page 1 (40 items):Page 2 (40 items):Page 3 (40 items):Page 4 (15 items):Back")) {
 	case 1:
 		close2;
 		callshop "EALWD01",1;
@@ -174,7 +178,7 @@ function	script	F_EALWD	{
 }
 
 function	script	F_EALW	{
-	switch(select("Req. Lv 0-29 (497):Req. Lv 30-59 (290):Req. Lv 60-79 (140):Req. Lv 80-99 (129):Back")) {
+	switch(select("Req. Lv 0-29 (523):Req. Lv 30-59 (318):Req. Lv 60-79 (152):Req. Lv 80-99 (135):Back")) {
 	case 1:
 		callfunc "F_EALWA";
 		return;
@@ -274,7 +278,7 @@ function	script	F_EALHAG02	{
 }
 
 function	script	F_EALHAG03	{
-	switch(select("Page 17 (40 items):Page 18 (40 items):Page 19 (40 items):Page 20 (14 items):Back")) {
+	switch(select("Page 17 (40 items):Page 18 (40 items):Page 19 (40 items):Page 20 (40 items):Page 21 (40 items):Page 22 (40 items):Page 23 (40 items):Page 24 (19 items):Back")) {
 	case 1:
 		close2;
 		callshop "EALHA17",1;
@@ -292,13 +296,29 @@ function	script	F_EALHAG03	{
 		callshop "EALHA20",1;
 		end;
 	case 5:
+		close2;
+		callshop "EALHA21",1;
+		end;
+	case 6:
+		close2;
+		callshop "EALHA22",1;
+		end;
+	case 7:
+		close2;
+		callshop "EALHA23",1;
+		end;
+	case 8:
+		close2;
+		callshop "EALHA24",1;
+		end;
+	case 9:
 		return;
 	}
 	return;
 }
 
 function	script	F_EALHA	{
-	switch(select("Pages 1-8:Pages 9-16:Pages 17-20:Back")) {
+	switch(select("Pages 1-8:Pages 9-16:Pages 17-24:Back")) {
 	case 1:
 		callfunc "F_EALHAG01";
 		return;
@@ -315,7 +335,7 @@ function	script	F_EALHA	{
 }
 
 function	script	F_EALHB	{
-	switch(select("Page 1 (40 items):Page 2 (40 items):Page 3 (40 items):Page 4 (23 items):Back")) {
+	switch(select("Page 1 (40 items):Page 2 (40 items):Page 3 (40 items):Page 4 (40 items):Page 5 (40 items):Page 6 (12 items):Back")) {
 	case 1:
 		close2;
 		callshop "EALHB01",1;
@@ -333,13 +353,21 @@ function	script	F_EALHB	{
 		callshop "EALHB04",1;
 		end;
 	case 5:
+		close2;
+		callshop "EALHB05",1;
+		end;
+	case 6:
+		close2;
+		callshop "EALHB06",1;
+		end;
+	case 7:
 		return;
 	}
 	return;
 }
 
 function	script	F_EALHC	{
-	switch(select("Page 1 (40 items):Page 2 (40 items):Page 3 (3 items):Back")) {
+	switch(select("Page 1 (40 items):Page 2 (40 items):Page 3 (40 items):Page 4 (1 items):Back")) {
 	case 1:
 		close2;
 		callshop "EALHC01",1;
@@ -353,25 +381,33 @@ function	script	F_EALHC	{
 		callshop "EALHC03",1;
 		end;
 	case 4:
+		close2;
+		callshop "EALHC04",1;
+		end;
+	case 5:
 		return;
 	}
 	return;
 }
 
 function	script	F_EALHD	{
-	switch(select("Page 1 (25 items):Back")) {
+	switch(select("Page 1 (40 items):Page 2 (4 items):Back")) {
 	case 1:
 		close2;
 		callshop "EALHD01",1;
 		end;
 	case 2:
+		close2;
+		callshop "EALHD02",1;
+		end;
+	case 3:
 		return;
 	}
 	return;
 }
 
 function	script	F_EALH	{
-	switch(select("Req. Lv 0-29 (774):Req. Lv 30-59 (143):Req. Lv 60-79 (83):Req. Lv 80-99 (25):Back")) {
+	switch(select("Req. Lv 0-29 (939):Req. Lv 30-59 (212):Req. Lv 60-79 (121):Req. Lv 80-99 (44):Back")) {
 	case 1:
 		callfunc "F_EALHA";
 		return;
@@ -391,7 +427,7 @@ function	script	F_EALH	{
 }
 
 function	script	F_EALAA	{
-	switch(select("Page 1 (40 items):Page 2 (40 items):Page 3 (19 items):Back")) {
+	switch(select("Page 1 (40 items):Page 2 (40 items):Page 3 (29 items):Back")) {
 	case 1:
 		close2;
 		callshop "EALAA01",1;
@@ -411,7 +447,7 @@ function	script	F_EALAA	{
 }
 
 function	script	F_EALAB	{
-	switch(select("Page 1 (35 items):Back")) {
+	switch(select("Page 1 (39 items):Back")) {
 	case 1:
 		close2;
 		callshop "EALAB01",1;
@@ -423,7 +459,7 @@ function	script	F_EALAB	{
 }
 
 function	script	F_EALAC	{
-	switch(select("Page 1 (17 items):Back")) {
+	switch(select("Page 1 (26 items):Back")) {
 	case 1:
 		close2;
 		callshop "EALAC01",1;
@@ -435,7 +471,7 @@ function	script	F_EALAC	{
 }
 
 function	script	F_EALAD	{
-	switch(select("Page 1 (21 items):Back")) {
+	switch(select("Page 1 (36 items):Back")) {
 	case 1:
 		close2;
 		callshop "EALAD01",1;
@@ -447,7 +483,7 @@ function	script	F_EALAD	{
 }
 
 function	script	F_EALA	{
-	switch(select("Req. Lv 0-29 (99):Req. Lv 30-59 (35):Req. Lv 60-79 (17):Req. Lv 80-99 (21):Back")) {
+	switch(select("Req. Lv 0-29 (109):Req. Lv 30-59 (39):Req. Lv 60-79 (26):Req. Lv 80-99 (36):Back")) {
 	case 1:
 		callfunc "F_EALAA";
 		return;
@@ -467,7 +503,7 @@ function	script	F_EALA	{
 }
 
 function	script	F_EALSA	{
-	switch(select("Page 1 (40 items):Page 2 (4 items):Back")) {
+	switch(select("Page 1 (40 items):Page 2 (6 items):Back")) {
 	case 1:
 		close2;
 		callshop "EALSA01",1;
@@ -483,7 +519,7 @@ function	script	F_EALSA	{
 }
 
 function	script	F_EALSB	{
-	switch(select("Page 1 (10 items):Back")) {
+	switch(select("Page 1 (14 items):Back")) {
 	case 1:
 		close2;
 		callshop "EALSB01",1;
@@ -495,7 +531,7 @@ function	script	F_EALSB	{
 }
 
 function	script	F_EALSC	{
-	switch(select("Page 1 (17 items):Back")) {
+	switch(select("Page 1 (21 items):Back")) {
 	case 1:
 		close2;
 		callshop "EALSC01",1;
@@ -519,7 +555,7 @@ function	script	F_EALSD	{
 }
 
 function	script	F_EALS	{
-	switch(select("Req. Lv 0-29 (44):Req. Lv 30-59 (10):Req. Lv 60-79 (17):Req. Lv 80-99 (10):Back")) {
+	switch(select("Req. Lv 0-29 (46):Req. Lv 30-59 (14):Req. Lv 60-79 (21):Req. Lv 80-99 (10):Back")) {
 	case 1:
 		callfunc "F_EALSA";
 		return;
@@ -539,7 +575,7 @@ function	script	F_EALS	{
 }
 
 function	script	F_EALGA	{
-	switch(select("Page 1 (40 items):Page 2 (24 items):Back")) {
+	switch(select("Page 1 (40 items):Page 2 (39 items):Back")) {
 	case 1:
 		close2;
 		callshop "EALGA01",1;
@@ -555,7 +591,7 @@ function	script	F_EALGA	{
 }
 
 function	script	F_EALGB	{
-	switch(select("Page 1 (20 items):Back")) {
+	switch(select("Page 1 (23 items):Back")) {
 	case 1:
 		close2;
 		callshop "EALGB01",1;
@@ -567,7 +603,7 @@ function	script	F_EALGB	{
 }
 
 function	script	F_EALGC	{
-	switch(select("Page 1 (22 items):Back")) {
+	switch(select("Page 1 (25 items):Back")) {
 	case 1:
 		close2;
 		callshop "EALGC01",1;
@@ -579,7 +615,7 @@ function	script	F_EALGC	{
 }
 
 function	script	F_EALGD	{
-	switch(select("Page 1 (20 items):Back")) {
+	switch(select("Page 1 (21 items):Back")) {
 	case 1:
 		close2;
 		callshop "EALGD01",1;
@@ -591,7 +627,7 @@ function	script	F_EALGD	{
 }
 
 function	script	F_EALG	{
-	switch(select("Req. Lv 0-29 (64):Req. Lv 30-59 (20):Req. Lv 60-79 (22):Req. Lv 80-99 (20):Back")) {
+	switch(select("Req. Lv 0-29 (79):Req. Lv 30-59 (23):Req. Lv 60-79 (25):Req. Lv 80-99 (21):Back")) {
 	case 1:
 		callfunc "F_EALGA";
 		return;
@@ -611,7 +647,7 @@ function	script	F_EALG	{
 }
 
 function	script	F_EALFA	{
-	switch(select("Page 1 (40 items):Page 2 (17 items):Back")) {
+	switch(select("Page 1 (40 items):Page 2 (26 items):Back")) {
 	case 1:
 		close2;
 		callshop "EALFA01",1;
@@ -627,7 +663,7 @@ function	script	F_EALFA	{
 }
 
 function	script	F_EALFB	{
-	switch(select("Page 1 (15 items):Back")) {
+	switch(select("Page 1 (39 items):Back")) {
 	case 1:
 		close2;
 		callshop "EALFB01",1;
@@ -639,7 +675,7 @@ function	script	F_EALFB	{
 }
 
 function	script	F_EALFC	{
-	switch(select("Page 1 (10 items):Back")) {
+	switch(select("Page 1 (14 items):Back")) {
 	case 1:
 		close2;
 		callshop "EALFC01",1;
@@ -651,7 +687,7 @@ function	script	F_EALFC	{
 }
 
 function	script	F_EALFD	{
-	switch(select("Page 1 (40 items):Page 2 (9 items):Back")) {
+	switch(select("Page 1 (40 items):Page 2 (23 items):Back")) {
 	case 1:
 		close2;
 		callshop "EALFD01",1;
@@ -667,7 +703,7 @@ function	script	F_EALFD	{
 }
 
 function	script	F_EALF	{
-	switch(select("Req. Lv 0-29 (57):Req. Lv 30-59 (15):Req. Lv 60-79 (10):Req. Lv 80-99 (49):Back")) {
+	switch(select("Req. Lv 0-29 (66):Req. Lv 30-59 (39):Req. Lv 60-79 (14):Req. Lv 80-99 (63):Back")) {
 	case 1:
 		callfunc "F_EALFA";
 		return;
@@ -687,7 +723,7 @@ function	script	F_EALF	{
 }
 
 function	script	F_EALXA	{
-	switch(select("Page 1 (40 items):Page 2 (40 items):Page 3 (40 items):Page 4 (40 items):Page 5 (40 items):Page 6 (2 items):Back")) {
+	switch(select("Page 1 (40 items):Page 2 (40 items):Page 3 (40 items):Page 4 (40 items):Page 5 (40 items):Page 6 (40 items):Page 7 (7 items):Back")) {
 	case 1:
 		close2;
 		callshop "EALXA01",1;
@@ -713,13 +749,17 @@ function	script	F_EALXA	{
 		callshop "EALXA06",1;
 		end;
 	case 7:
+		close2;
+		callshop "EALXA07",1;
+		end;
+	case 8:
 		return;
 	}
 	return;
 }
 
 function	script	F_EALXB	{
-	switch(select("Page 1 (29 items):Back")) {
+	switch(select("Page 1 (34 items):Back")) {
 	case 1:
 		close2;
 		callshop "EALXB01",1;
@@ -731,7 +771,7 @@ function	script	F_EALXB	{
 }
 
 function	script	F_EALXC	{
-	switch(select("Page 1 (29 items):Back")) {
+	switch(select("Page 1 (36 items):Back")) {
 	case 1:
 		close2;
 		callshop "EALXC01",1;
@@ -743,7 +783,7 @@ function	script	F_EALXC	{
 }
 
 function	script	F_EALXD	{
-	switch(select("Page 1 (40 items):Page 2 (17 items):Back")) {
+	switch(select("Page 1 (40 items):Page 2 (22 items):Back")) {
 	case 1:
 		close2;
 		callshop "EALXD01",1;
@@ -759,7 +799,7 @@ function	script	F_EALXD	{
 }
 
 function	script	F_EALX	{
-	switch(select("Req. Lv 0-29 (202):Req. Lv 30-59 (29):Req. Lv 60-79 (29):Req. Lv 80-99 (57):Back")) {
+	switch(select("Req. Lv 0-29 (247):Req. Lv 30-59 (34):Req. Lv 60-79 (36):Req. Lv 80-99 (62):Back")) {
 	case 1:
 		callfunc "F_EALXA";
 		return;
@@ -778,7 +818,7 @@ function	script	F_EALX	{
 	return;
 }
 function	script	F_EAL	{
-	switch(select("Weapons (1056):Headgear (1025):Armor (172):Shields (81):Garments (126):Shoes (131):Accessories (317):Back")) {
+	switch(select("Weapons (1128):Headgear (1316):Armor (210):Shields (91):Garments (148):Shoes (182):Accessories (379):Back")) {
 	case 1:
 		callfunc "F_EALW";
 		return;
