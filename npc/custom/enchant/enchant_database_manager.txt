@@ -6,7 +6,7 @@
 //= Uses official enchant rules with Zeny-only payment in this custom NPC.
 //============================================================
 
-prontera,156,176,4	script	Enchant Database Manager#custom_db	4_F_TELEPORTER,{
+prontera,156,168,4	script	Enchant Database Manager#custom_db	4_F_TELEPORTER,{
 	mes "[Enchant Database Manager]";
 	mes "I provide access to supported equipment enchant groups that currently have no NPC entrance in this server package.";
 	mes "Only the official Zeny price is charged. Material items are neither required nor consumed. Refine, grade, equipment, slot-order, chance, reset and upgrade rules remain unchanged.";
