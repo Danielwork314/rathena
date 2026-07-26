@@ -1,11 +1,13 @@
 //===== rAthena Script =======================================
-//= Complete Unique MVP Arena - Large Cardinal Room
+//= Complete Unique MVP Arena - Large Cardinal Room v2
 //===== Based On: ============================================
 //= Darkchild's MVP Arena 1.4 structure
 //===== Description: =========================================
 //= One dedicated shared room per unique normally playable MVP.
 //= Each room contains exactly 4 copies of the same MVP ID.
 //= Every defeated slot respawns after exactly 20 seconds.
+//= v2 uses a stable global runtime controller for deterministic spawn and
+//= respawn events, avoiding freshly duplicated NPC event dispatch.
 //=
 //= Validation rules:
 //= 1) Modes.Mvp: true in current Renewal mob_db.yml;
@@ -109,6 +111,66 @@ function	script	F_MvpArenaSelect	{
 	}
 }
 
+// Spawn one cardinal slot directly through a stable global event label.
+// This avoids calling an event on a freshly duplicated instance NPC.
+function	script	F_MvpArenaEnsureSlot	{
+	.@instance_id = getarg(0);
+	.@mob_id = getarg(1);
+	.@slot = getarg(2);
+	.@map$ = instance_mapname("pvp_y_2-5",.@instance_id);
+	if (.@map$ == "" || .@mob_id <= 0)
+		return 0;
+
+	.@event$ = "MVP_Arena_Runtime::OnMvpDead" + .@slot;
+	if (mobcount(.@map$,.@event$) > 0)
+		return 1;
+
+	switch (.@slot) {
+	case 1: // East
+		.@x = 260;
+		.@y = 160;
+		break;
+	case 2: // South
+		.@x = 160;
+		.@y = 35;
+		break;
+	case 3: // West
+		.@x = 60;
+		.@y = 160;
+		break;
+	case 4: // North
+		.@x = 160;
+		.@y = 283;
+		break;
+	default:
+		return 0;
+	}
+
+	monster .@map$,.@x,.@y,"--ja--",.@mob_id,1,.@event$;
+	return mobcount(.@map$,.@event$) > 0;
+}
+
+function	script	F_MvpArenaEnsureRoom	{
+	.@instance_id = getarg(0);
+	.@mob_id = getarg(1);
+	.@ready = 1;
+	for (.@slot = 1; .@slot <= 4; ++.@slot)
+		.@ready = callfunc("F_MvpArenaEnsureSlot",.@instance_id,.@mob_id,.@slot) && .@ready;
+	return .@ready;
+}
+
+// Resolve the instance that owns a unique instance-map name.
+function	script	F_MvpArenaFindInstanceByMap	{
+	.@target$ = getarg(0);
+	.@count = instance_list("pvp_y_2-5",IM_NONE);
+	for (.@i = 0; .@i < .@count; ++.@i) {
+		.@instance_id = .@instance_list[.@i];
+		if (instance_mapname("pvp_y_2-5",.@instance_id) == .@target$)
+			return .@instance_id;
+	}
+	return 0;
+}
+
 function	script	F_MvpArenaEnter	{
 	.@index = getarg(0);
 	if (.@index < 0 || .@index >= $@MVP_ARENA_SIZE)
@@ -159,23 +221,13 @@ function	script	F_MvpArenaEnter	{
 	}
 
 	if (!getinstancevar('configured,.@instance_id)) {
-		.@controller$ = instance_npcname("MVP Room#ctrl",.@instance_id);
-		if (.@controller$ == "") {
+		if (!callfunc("F_MvpArenaEnsureRoom",.@instance_id,.@mob_id)) {
 			mes "[ MVP Arena ]";
-			mes "The room controller is not ready yet.";
-			mes "Please choose the same room again shortly.";
-			close;
-		}
-		donpcevent .@controller$ + "::OnConfigure";
-		for (.@wait = 0; .@wait < 10 && !getinstancevar('configured,.@instance_id); ++.@wait)
-			sleep2 100;
-
-		if (!getinstancevar('configured,.@instance_id)) {
-			mes "[ MVP Arena ]";
-			mes "The room failed to initialize.";
+			mes "The room failed to initialize its four MVP slots.";
 			mes "Please report MVP ID " + .@mob_id + ".";
 			close;
 		}
+		setinstancevar('configured,1,.@instance_id);
 	}
 
 	if (getmapusers(.@map$) >= 20) {
@@ -229,7 +281,7 @@ pvp_y_2-5,160,190,4	script	MVP Room#ctrl	727,{
 	.@map$ = strcharinfo(3);
 	.@active = 0;
 	for (.@slot = 1; .@slot <= 4; ++.@slot)
-		.@active += mobcount(.@map$,strnpcinfo(3) + "::OnMvpDead" + .@slot);
+		.@active += mobcount(.@map$,"MVP_Arena_Runtime::OnMvpDead" + .@slot);
 
 	mes "[ MVP Room Controller ]";
 	mes "Room: ^FF0000" + getmonsterinfo('mvp_id,MOB_NAME) + "^000000";
@@ -252,82 +304,14 @@ pvp_y_2-5,160,190,4	script	MVP Room#ctrl	727,{
 		close;
 	}
 
-S_EnsureSlot:
-	.@slot = getarg(0);
-	.@map$ = instance_mapname("pvp_y_2-5");
-	if (.@map$ == "" || 'mvp_id <= 0)
-		return;
-
-	.@event$ = strnpcinfo(3) + "::OnMvpDead" + .@slot;
-	if (mobcount(.@map$,.@event$) > 0)
-		return;
-
-	// Four fixed cardinal positions on the 320x320 shared template map.
-	// The slots are deliberately placed about 100-125 cells from the entry
-	// so the four MVPs no longer begin clustered around the room centre.
-	switch (.@slot) {
-	case 1: // East - 100 cells east of entry
-		.@x = 260;
-		.@y = 160;
-		break;
-	case 2: // South - 125 cells south of entry
-		.@x = 160;
-		.@y = 35;
-		break;
-	case 3: // West - 100 cells west of entry
-		.@x = 60;
-		.@y = 160;
-		break;
-	case 4: // North - 123 cells north of entry
-		.@x = 160;
-		.@y = 283;
-		break;
-	default:
-		return;
-	}
-
-	monster .@map$,.@x,.@y,"--ja--",'mvp_id,1,.@event$;
-	return;
-
-OnConfigure:
-	if (!instance_id() || 'mvp_id <= 0)
-		end;
-	callsub S_EnsureSlot,1;
-	callsub S_EnsureSlot,2;
-	callsub S_EnsureSlot,3;
-	callsub S_EnsureSlot,4;
-	'configured = 1;
-	end;
-
-OnMvpDead1:
-	sleep 20000;
-	if ('configured)
-		callsub S_EnsureSlot,1;
-	end;
-
-OnMvpDead2:
-	sleep 20000;
-	if ('configured)
-		callsub S_EnsureSlot,2;
-	end;
-
-OnMvpDead3:
-	sleep 20000;
-	if ('configured)
-		callsub S_EnsureSlot,3;
-	end;
-
-OnMvpDead4:
-	sleep 20000;
-	if ('configured)
-		callsub S_EnsureSlot,4;
-	end;
 
 OnInstanceInit:
-	// A queued instance may initialize before the Keeper can assign its owner.
-	// When ownership is already available, reuse the same idempotent configure path.
-	if ('mvp_id > 0)
-		donpcevent strnpcinfo(3) + "::OnConfigure";
+	// On @reloadscript, existing instance variables are already available.
+	// New rooms are initialized by F_MvpArenaEnter after ownership is assigned.
+	if ('mvp_id > 0) {
+		if (callfunc("F_MvpArenaEnsureRoom",instance_id(),'mvp_id))
+			'configured = 1;
+	}
 	end;
 
 OnInstanceDestroy:
@@ -335,6 +319,39 @@ OnInstanceDestroy:
 	if (.@index >= 0 && .@index < $@MVP_ARENA_SIZE && $@MVP_ARENA_INSTANCE[.@index] == instance_id())
 		$@MVP_ARENA_INSTANCE[.@index] = 0;
 	'configured = 0;
+	end;
+}
+
+
+// Stable global death-event owner. Monster death labels always exist independently
+// of instance NPC duplication timing. The killer RID supplies the unique room map.
+-	script	MVP_Arena_Runtime	-1,{
+S_Respawn:
+	.@slot = getarg(0);
+	.@map$ = strcharinfo(3);
+	detachrid;
+	sleep 20000;
+
+	.@instance_id = callfunc("F_MvpArenaFindInstanceByMap",.@map$);
+	if (.@instance_id <= 0)
+		return;
+	.@mob_id = getinstancevar('mvp_id,.@instance_id);
+	if (.@mob_id <= 0 || !getinstancevar('configured,.@instance_id))
+		return;
+	callfunc "F_MvpArenaEnsureSlot",.@instance_id,.@mob_id,.@slot;
+	return;
+
+OnMvpDead1:
+	callsub S_Respawn,1;
+	end;
+OnMvpDead2:
+	callsub S_Respawn,2;
+	end;
+OnMvpDead3:
+	callsub S_Respawn,3;
+	end;
+OnMvpDead4:
+	callsub S_Respawn,4;
 	end;
 }
 
