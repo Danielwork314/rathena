@@ -1,15 +1,16 @@
 //===== rAthena Script =======================================
-//= Private MVP & Mini Boss Room - Free 20 Second Respawn
+//= Private MVP & Mini Boss Room - Selectable Summon Count
 //===== Based On: ============================================
 //= AnnieRuru / Euphy Private MVP & Branch Room
 //===== Current Version: =====================================
-//= 2.0
+//= 2.1
 //===== Compatible With: =====================================
 //= rAthena Project (Renewal)
 //===== Description: =========================================
 //= Eight private rooms reserved for a party, guild, or account.
-//= Entry and summoning are free. The selected monster respawns
-//= automatically 20 seconds after death for the same 60-minute rental.
+//= Entry and summoning are free. After selecting a monster, players
+//= may summon it once, ten times total, or continuously. Repeated modes
+//= respawn the monster 20 seconds after each defeat.
 //=
 //= Validated roster:
 //= - 151 implemented, generically fightable MVP entries;
@@ -105,7 +106,7 @@ function	script	F_MvpRoomSelectMonster	{
 		clear;
 		mes "[" + .@title$ + "]";
 		mes "Choose the monster to summon.";
-		mes "It will return automatically 20 seconds after every defeat.";
+		mes "You will choose the summon count after selecting it.";
 		.@choice = select(.@menu$) - 1;
 
 		if (.@choice < .@shown)
@@ -213,10 +214,19 @@ OnInit:
 	mes "[MVP Summoner]";
 	mes "Time left: " + callfunc("Time2Str",
 		.renttime[atoi(strnpcinfo(2))] + .timeout * 60);
-	if (.selectedmob[atoi(strnpcinfo(2))])
+	.@room = atoi(strnpcinfo(2));
+	if (.selectedmob[.@room]) {
 		mes "Selected: ^0055FF"
-			+ getmonsterinfo(.selectedmob[atoi(strnpcinfo(2))], MOB_NAME)
+			+ getmonsterinfo(.selectedmob[.@room], MOB_NAME)
 			+ "^000000.";
+		if (.spawnlimit[.@room] == 1)
+			mes "Summon mode: ^0055FFOnce (no respawn)^000000.";
+		else if (.spawnlimit[.@room] == 10)
+			mes "Summon mode: ^0055FF10 times^000000 ("
+				+ .spawnsused[.@room] + "/10 summoned).";
+		else
+			mes "Summon mode: ^0055FFUnlimited^000000.";
+	}
 	mes "What would you like to do?";
 	next;
 
@@ -307,20 +317,51 @@ OnInit:
 S_SummonSelected:
 	.@mob_id = getarg(0);
 	.@room = atoi(strnpcinfo(2));
+
+	mes "[MVP Summoner]";
+	mes "Selected: ^0055FF" + getmonsterinfo(.@mob_id, MOB_NAME) + "^000000.";
+	mes "Choose the total summon count.";
+	mes "For 10 times, the first summon counts as 1 and it will respawn up to 9 more times.";
+	next;
+	.@mode = select(
+		"Once (no respawn)",
+		"10 times total",
+		"Unlimited",
+		"Cancel"
+	);
+	if (.@mode == 4)
+		return;
+
 	.selectedmob[.@room] = .@mob_id;
+	.spawnlimit[.@room] = (.@mode == 1) ? 1 : ((.@mode == 2) ? 10 : 0);
+	.spawnsused[.@room] = 1;
 	++.spawnserial[.@room];
 	.respawnpending[.@room] = 0;
 	monster "this", 0, 0, "--ja--", .@mob_id, 1,
 		strnpcinfo(3) + "::OnMobDead";
-	mapannounce strnpcinfo(4),
-		getmonsterinfo(.@mob_id, MOB_NAME)
-		+ " has been summoned. It will respawn 20 seconds after defeat.",
-		bc_map;
+
+	if (.spawnlimit[.@room] == 1)
+		mapannounce strnpcinfo(4),
+			getmonsterinfo(.@mob_id, MOB_NAME)
+			+ " has been summoned once. It will not respawn after defeat.",
+			bc_map;
+	else if (.spawnlimit[.@room] == 10)
+		mapannounce strnpcinfo(4),
+			getmonsterinfo(.@mob_id, MOB_NAME)
+			+ " has been summoned (1/10). It will respawn 20 seconds after defeat until all 10 summons are used.",
+			bc_map;
+	else
+		mapannounce strnpcinfo(4),
+			getmonsterinfo(.@mob_id, MOB_NAME)
+			+ " has been summoned in unlimited mode. It will respawn 20 seconds after every defeat.",
+			bc_map;
 	return;
 
 OnMobDead:
 	.@room = atoi(strnpcinfo(2));
 	.@mob_id = .selectedmob[.@room];
+	.@limit = .spawnlimit[.@room];
+	.@used = .spawnsused[.@room];
 	.@serial = .spawnserial[.@room];
 	.@map$ = strnpcinfo(4);
 	.@event$ = strnpcinfo(3) + "::OnMobDead";
@@ -328,11 +369,31 @@ OnMobDead:
 	if (!.renttime[.@room] || !.@mob_id)
 		end;
 
+	if (.@limit > 0 && .@used >= .@limit) {
+		.selectedmob[.@room] = 0;
+		.spawnlimit[.@room] = 0;
+		.spawnsused[.@room] = 0;
+		.respawnpending[.@room] = 0;
+		++.spawnserial[.@room];
+		mapannounce .@map$,
+			getmonsterinfo(.@mob_id, MOB_NAME)
+			+ " was defeated. The selected summon cycle is complete ("
+			+ .@used + "/" + .@limit + ").",
+			bc_map;
+		end;
+	}
+
 	.respawnpending[.@room] = 1;
-	mapannounce .@map$,
-		getmonsterinfo(.@mob_id, MOB_NAME)
-		+ " was defeated and will respawn in 20 seconds.",
-		bc_map;
+	if (.@limit == 10)
+		mapannounce .@map$,
+			getmonsterinfo(.@mob_id, MOB_NAME)
+			+ " was defeated (" + .@used + "/10). The next summon will appear in 20 seconds.",
+			bc_map;
+	else
+		mapannounce .@map$,
+			getmonsterinfo(.@mob_id, MOB_NAME)
+			+ " was defeated and will respawn in 20 seconds.",
+			bc_map;
 	sleep 20000;
 
 	if (.renttime[.@room]
@@ -340,9 +401,18 @@ OnMobDead:
 		&& .spawnserial[.@room] == .@serial
 		&& mobcount(.@map$, .@event$) == 0) {
 		monster .@map$, 0, 0, "--ja--", .@mob_id, 1, .@event$;
-		mapannounce .@map$,
-			getmonsterinfo(.@mob_id, MOB_NAME) + " has respawned.",
-			bc_map;
+		if (.@limit > 0)
+			++.spawnsused[.@room];
+
+		if (.@limit == 10)
+			mapannounce .@map$,
+				getmonsterinfo(.@mob_id, MOB_NAME) + " has respawned ("
+				+ .spawnsused[.@room] + "/10).",
+				bc_map;
+		else
+			mapannounce .@map$,
+				getmonsterinfo(.@mob_id, MOB_NAME) + " has respawned.",
+				bc_map;
 	}
 	if (.spawnserial[.@room] == .@serial)
 		.respawnpending[.@room] = 0;
@@ -351,6 +421,8 @@ OnMobDead:
 OnEnterMap:
 	.@room = atoi(strnpcinfo(2));
 	.selectedmob[.@room] = 0;
+	.spawnlimit[.@room] = 0;
+	.spawnsused[.@room] = 0;
 	.respawnpending[.@room] = 0;
 	++.spawnserial[.@room];
 	.renttime[.@room] = gettimetick(2);
@@ -358,6 +430,8 @@ OnEnterMap:
 	sleep .timeout * 60000;
 
 	.selectedmob[.@room] = 0;
+	.spawnlimit[.@room] = 0;
+	.spawnsused[.@room] = 0;
 	.respawnpending[.@room] = 0;
 	++.spawnserial[.@room];
 	.renttime[.@room] = 0;
