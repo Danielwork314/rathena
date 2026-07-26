@@ -1,0 +1,6 @@
+﻿Id,AegisName,ServerName,ClientName,ClientResource,Reason
+490376,Record_Swordsman2_TH,Record of Swordsman 2,Record of Swordman Vol.2,Record_Mage2_TW,Known client runtime resource failure: shared icon/resource Record_Mage2_TW triggers repeated client errors
+490411,Record_Merchant2_TH,Record of Merchant 2,Record of Merchant vol.2,Record_Mage2_TW,Known client runtime resource failure: shared icon/resource Record_Mage2_TW triggers repeated client errors
+490418,Record_Mage2_TH,Record of Mage 2,Record of Mage Vol.2,Record_Mage2_TW,Known client runtime resource failure: shared icon/resource Record_Mage2_TW triggers repeated client errors
+490430,Record_Archer2_TH,Record of Archer 2,Record of Archer Vol.2,Record_Mage2_TW,Known client runtime resource failure: shared icon/resource Record_Mage2_TW triggers repeated client errors
+490436,Record_Acol2_TH,Record of Acolyte 2,Record of Acolyte vol.2,Record_Mage2_TW,Known client runtime resource failure: shared icon/resource Record_Mage2_TW triggers repeated client errors

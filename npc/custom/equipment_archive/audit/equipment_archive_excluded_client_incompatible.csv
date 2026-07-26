@@ -1482,6 +1482,7 @@
 490371,Comp_Prta_Mil_Glove,[Not For Sale] Prontera Army Glove,Accessories,Missing from active client itemInfo.lua
 490372,Solar_Blessing_TH,Solar Blessing,Accessories,Missing from active client itemInfo.lua
 490373,Comp_Solar_Blessing_TH,[Not For Sale] Solar Blessing,Accessories,Missing from active client itemInfo.lua
+490376,Record_Swordsman2_TH,Record of Swordsman 2,Accessories,Known client runtime resource failure: shared icon/resource Record_Mage2_TW triggers repeated client errors
 490377,Comp_Record_Swords2_TH,[Not For Sale] Record of Swordsman 2,Accessories,Missing from active client itemInfo.lua
 490378,Maebia_Book_ROC,Curse of Maebia Book,Accessories,Missing from active client itemInfo.lua
 490379,Comp_Maebia_Book_ROC,[Not For Sale] Curse of Maebia Book,Accessories,Missing from active client itemInfo.lua
@@ -1508,22 +1509,26 @@
 490407,Comp_Unkn_Hero_SR,[Not For Sale] Ring of Unknown Hero (Sura),Accessories,Missing from active client itemInfo.lua
 490408,Super_Novice_Figure_TH,Super Novice Figure,Accessories,Missing from active client itemInfo.lua
 490409,Copy_Book_Resur,Book of Copying - Resurrection Chapter,Accessories,Missing from active client itemInfo.lua
+490411,Record_Merchant2_TH,Record of Merchant 2,Accessories,Known client runtime resource failure: shared icon/resource Record_Mage2_TW triggers repeated client errors
 490412,Comp_Record_Merch2_TH,[Not For Sale] Record of Merchant 2,Accessories,Missing from active client itemInfo.lua
 490414,Comp_Dragon_Ring_TH,[Not For Sale] Twin Head Dragon Ring,Accessories,Missing from active client itemInfo.lua
 490415,Unknown_Hero_Ring_SO,Ring of Unknown Hero (Sorcerer),Accessories,Missing from active client itemInfo.lua
 490416,Comp_Unkn_Hero_SO,[Not For Sale] Ring of Unknown Hero (Sorcerer),Accessories,Missing from active client itemInfo.lua
 490417,Ep2_Commemorative_Ring,Commemorative Golden Ring Ep2,Accessories,Missing from active client itemInfo.lua
+490418,Record_Mage2_TH,Record of Mage 2,Accessories,Known client runtime resource failure: shared icon/resource Record_Mage2_TW triggers repeated client errors
 490419,Comp_Record_Mage2_TH,[Not For Sale] Record of Mage 2,Accessories,Missing from active client itemInfo.lua
 490420,Unknown_Hero_Ring_RA,Ring of Unknown Hero (Ranger),Accessories,Missing from active client itemInfo.lua
 490421,Comp_Unkn_Hero_RA,[Not For Sale] Ring of Unknown Hero (Ranger),Accessories,Missing from active client itemInfo.lua
 490425,aegis_490425,Magictool Ice,Accessories,Missing from active client itemInfo.lua
 490426,aegis_490426,[Not For Sale] Magictool Ice,Accessories,Missing from active client itemInfo.lua
 490428,Chemical_R_Glove,Chemical Resistant Glove,Accessories,Missing from active client itemInfo.lua
+490430,Record_Archer2_TH,Record of Archer 2,Accessories,Known client runtime resource failure: shared icon/resource Record_Mage2_TW triggers repeated client errors
 490431,Comp_Record_Archer2_TH,[Not For Sale] Record of Archer 2,Accessories,Missing from active client itemInfo.lua
 490432,Toy_Screw,Toy Screw,Accessories,Missing from active client itemInfo.lua
 490433,Comp_Toy_Screw_TH,[Not For Sale] Toy Screw,Accessories,Missing from active client itemInfo.lua
 490434,Unknown_Hero_Ring_WL,Ring of Unknown Hero (Warlock),Accessories,Missing from active client itemInfo.lua
 490435,Comp_Unkn_Hero_WL,[Not For Sale] Ring of Unknown Hero (Warlock),Accessories,Missing from active client itemInfo.lua
+490436,Record_Acol2_TH,Record of Acolyte 2,Accessories,Known client runtime resource failure: shared icon/resource Record_Mage2_TW triggers repeated client errors
 490437,Comp_Record_Acol2_TH,[Not For Sale] Record of Acolyte 2,Accessories,Missing from active client itemInfo.lua
 490438,Unknown_Hero_Ring_SC,Ring of Unknown Hero (Shadow Chaser),Accessories,Missing from active client itemInfo.lua
 490439,Comp_Unkn_Hero_SC,[NFS] Ring of Unknown Hero (Shadow Chaser),Accessories,Missing from active client itemInfo.lua

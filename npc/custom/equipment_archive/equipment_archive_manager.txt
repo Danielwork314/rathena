@@ -34,7 +34,7 @@ prontera,153,227,4	script	Equipment Archive#EA	53,{
 }
 
 function	script	F_EAWAG01	{
-	switch(select("Page 1 (40 items):Page 2 (40 items):Page 3 (40 items):Page 4 (40 items):Page 5 (40 items):Page 6 (40 items):Page 7 (40 items):Page 8 (40 items):Back")) {
+	switch(select("Page 1 (40 items):Page 2 (40 items):Page 3 (35 items):Page 4 (40 items):Page 5 (40 items):Page 6 (40 items):Page 7 (40 items):Page 8 (40 items):Back")) {
 	case 1:
 		close2;
 		callshop "EAWA01",1;
@@ -762,7 +762,7 @@ function	script	F_EAXD	{
 }
 
 function	script	F_EAX	{
-	switch(select("Lv 100-129 (184):Lv 130-159 (59):Lv 160-199 (52):Lv 200+ (84):Back")) {
+	switch(select("Lv 100-129 (179):Lv 130-159 (59):Lv 160-199 (52):Lv 200+ (84):Back")) {
 	case 1:
 		callfunc "F_EAXA";
 		return;

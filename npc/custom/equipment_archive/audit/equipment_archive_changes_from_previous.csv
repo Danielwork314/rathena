@@ -2580,20 +2580,15 @@ Added,490288,Record_Mage_TH,Record of Mage,Accessories,Previously omitted; valid
 Added,490319,YSF01_Ring,Y.S.F. Ring,Accessories,Previously omitted; valid in active Renewal DB and supplied client itemInfo.lua
 Added,490334,Record_Acol_TH,Record of Acolyte,Accessories,Previously omitted; valid in active Renewal DB and supplied client itemInfo.lua
 Added,490359,Lord_of_Elemental,Lord of Elemental,Accessories,Previously omitted; valid in active Renewal DB and supplied client itemInfo.lua
-Added,490376,Record_Swordsman2_TH,Record of Swordsman 2,Accessories,Previously omitted; valid in active Renewal DB and supplied client itemInfo.lua
 Added,490381,Majesty_of_Yggdrasil_,Majesty of Yggdrasil,Accessories,Previously omitted; valid in active Renewal DB and supplied client itemInfo.lua
 Added,490394,Record_Thief2_TH,Record of Thief 2,Accessories,Previously omitted; valid in active Renewal DB and supplied client itemInfo.lua
 Added,490396,Establish,Establish,Accessories,Previously omitted; valid in active Renewal DB and supplied client itemInfo.lua
 Added,490400,Record_Archer_TH,Record of Archer,Accessories,Previously omitted; valid in active Renewal DB and supplied client itemInfo.lua
 Added,490404,Temporal_Ring_TW_LT,Temporal Ring-LT,Accessories,Previously omitted; valid in active Renewal DB and supplied client itemInfo.lua
 Added,490410,Into_The_Abyss,Intuiabis,Accessories,Previously omitted; valid in active Renewal DB and supplied client itemInfo.lua
-Added,490411,Record_Merchant2_TH,Record of Merchant 2,Accessories,Previously omitted; valid in active Renewal DB and supplied client itemInfo.lua
 Added,490413,Twin_Dragon_Ring_TH,Twin Head Dragon Ring,Accessories,Previously omitted; valid in active Renewal DB and supplied client itemInfo.lua
-Added,490418,Record_Mage2_TH,Record of Mage 2,Accessories,Previously omitted; valid in active Renewal DB and supplied client itemInfo.lua
 Added,490427,Ring_Of_Storm,Ring of Storm,Accessories,Previously omitted; valid in active Renewal DB and supplied client itemInfo.lua
 Added,490429,Petal_Tail_W,Petal's Tail (Albino),Accessories,Previously omitted; valid in active Renewal DB and supplied client itemInfo.lua
-Added,490430,Record_Archer2_TH,Record of Archer 2,Accessories,Previously omitted; valid in active Renewal DB and supplied client itemInfo.lua
-Added,490436,Record_Acol2_TH,Record of Acolyte 2,Accessories,Previously omitted; valid in active Renewal DB and supplied client itemInfo.lua
 Added,490452,2023Seppay_01,Ring of Despair-LT,Accessories,Previously omitted; valid in active Renewal DB and supplied client itemInfo.lua
 Added,490466,Fallen_Seraphim_ring,Fallen Seraphim Ring,Accessories,Previously omitted; valid in active Renewal DB and supplied client itemInfo.lua
 Added,490471,Ring_of_Artemis,Ring of Artemis,Accessories,Previously omitted; valid in active Renewal DB and supplied client itemInfo.lua
@@ -3202,3 +3197,8 @@ Removed,500009,Copy_Gram,Dragon Slayer's Longsword,Weapons,Missing from active c
 Removed,550022,Local04_Wand,Commander,Weapons,Missing from active client itemInfo.lua
 Removed,600025,FullForce_,Awakened Full Force,Weapons,Missing from active client itemInfo.lua
 Removed,700010,Sagittarius_Hunter_Bow,Sagittarius Hunter Bow,Weapons,Missing from active client itemInfo.lua
+Removed,490436,Record_Acol2_TH,Record of Acolyte 2,Accessories,Known client runtime resource failure: shared icon/resource Record_Mage2_TW triggers repeated client errors
+Removed,490430,Record_Archer2_TH,Record of Archer 2,Accessories,Known client runtime resource failure: shared icon/resource Record_Mage2_TW triggers repeated client errors
+Removed,490418,Record_Mage2_TH,Record of Mage 2,Accessories,Known client runtime resource failure: shared icon/resource Record_Mage2_TW triggers repeated client errors
+Removed,490411,Record_Merchant2_TH,Record of Merchant 2,Accessories,Known client runtime resource failure: shared icon/resource Record_Mage2_TW triggers repeated client errors
+Removed,490376,Record_Swordsman2_TH,Record of Swordsman 2,Accessories,Known client runtime resource failure: shared icon/resource Record_Mage2_TW triggers repeated client errors
