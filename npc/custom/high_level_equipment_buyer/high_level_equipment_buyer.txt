@@ -2,10 +2,11 @@
 //= High-Level Equipment Buyer - Script-only Edition
 //===== Description: =========================================
 //= Uses the normal batch Sell interface.
-//= Approved high-level monster-drop equipment with native
-//= sell value 10 Zeny has a base purchase price of 100,000.
-//= Selected Garden of Time and Shadowdecon/Zelunium materials
-//= have a separate base purchase price of 10,000 Zeny.
+//= Only the explicitly listed materials receive special prices.
+//= Garden of Time materials (1001424-1001436) have a base
+//= purchase price of 10,000 Zeny. Shadowdecon/Zelunium
+//= materials (25728-25731) have a base price of 5,000 Zeny.
+//= All equipment and all other items use their native Sell value.
 //= Every transaction is force-calculated as Overcharge Lv.10
 //= (+24%), even when the player does not know the skill.
 //= No source modification or recompilation is required.
@@ -13,18 +14,19 @@
 
 -	shop	HLBuyerShop#HLEB	-1,501:10
 
-prontera,161,227,4	script	High-Level Buyer#HLEB	1_M_MERCHANT,{
+prontera,161,227,4	script	Special Material Buyer#HLEB	1_M_MERCHANT,{
 	disable_items;
 	mes "[High-Level Equipment Buyer]";
-	mes "I purchase approved high-level equipment and selected rare materials.";
-	mes "High-level equipment has a base price of ^0000FF100,000 Zeny each^000000.";
-	mes "Listed special materials have a base price of ^0000FF10,000 Zeny each^000000.";
+	mes "I purchase items through the normal Sell interface.";
+	mes "Only the explicitly listed materials receive special prices.";
+	mes "Garden of Time materials: ^0000FF10,000 Zeny base each^000000.";
+	mes "Shadowdecon/Zelunium materials: ^0000FF5,000 Zeny base each^000000.";
 	next;
 	mes "[High-Level Equipment Buyer]";
 	mes "Every sale here automatically receives ^0000FFOvercharge Lv.10 (+24%)^000000,";
 	mes "even if you do not know the skill.";
-	mes "Approved equipment therefore pays ^0000FF124,000 Zeny each^000000.";
-	mes "Listed special materials pay ^0000FF12,400 Zeny each^000000.";
+	mes "Garden of Time materials pay ^0000FF12,400 Zeny each^000000.";
+	mes "Shadowdecon/Zelunium materials pay ^0000FF6,200 Zeny each^000000.";
 	next;
 	switch(select("Sell items:How pricing works:Close")) {
 	case 1:
@@ -41,18 +43,17 @@ prontera,161,227,4	script	High-Level Buyer#HLEB	1_M_MERCHANT,{
 		end;
 	case 2:
 		mes "[High-Level Equipment Buyer]";
-		mes "Approved special equipment must meet all of these rules:";
-		mes "- Equipment requirement is Level 100 or higher.";
-		mes "- Its native sell value is 10 Zeny.";
-		mes "- Every known direct monster source is Level 100 or higher.";
+		mes "There is no special equipment price anymore.";
+		mes "Every weapon, armor, headgear, accessory and shadow item";
+		mes "uses its native database Sell value.";
 		next;
 		mes "[High-Level Equipment Buyer]";
-		mes "Approved equipment:";
-		mes "100,000 base + Overcharge Lv.10 = ^0000FF124,000 Zeny each^000000.";
-		next;
-		mes "[High-Level Equipment Buyer]";
-		mes "Special materials (IDs 1001424-1001436 and 25728-25731):";
+		mes "Garden of Time materials (IDs 1001424-1001436):";
 		mes "10,000 base + Overcharge Lv.10 = ^0000FF12,400 Zeny each^000000.";
+		next;
+		mes "[High-Level Equipment Buyer]";
+		mes "Shadowdecon/Zelunium materials (IDs 25728-25731):";
+		mes "5,000 base + Overcharge Lv.10 = ^0000FF6,200 Zeny each^000000.";
 		next;
 		mes "[High-Level Equipment Buyer]";
 		mes "Other normally sellable items keep their database Sell value,";
@@ -72,11 +73,11 @@ OnSellItem:
 	}
 
 	.@total = 0;
-	.@equipment_total = 0;
-	.@material_total = 0;
+	.@garden_total = 0;
+	.@refine_total = 0;
 	.@normal_total = 0;
-	.@equipment_quantity = 0;
-	.@material_quantity = 0;
+	.@garden_quantity = 0;
+	.@refine_quantity = 0;
 	.@unique_count = 0;
 
 	// First pass: validate the submitted values, calculate payment and
@@ -103,12 +104,12 @@ OnSellItem:
 
 		.@base_price = getiteminfo(.@item_id, ITEMINFO_SELL);
 		.@price_tier = 0;
-		if (inarray(.SpecialItems[0], .@item_id) >= 0) {
-			.@base_price = .SpecialPrice;
+		if (inarray(.GardenMaterialItems[0], .@item_id) >= 0) {
+			.@base_price = .GardenMaterialPrice;
 			.@price_tier = 1;
 		}
-		else if (inarray(.MaterialItems[0], .@item_id) >= 0) {
-			.@base_price = .MaterialPrice;
+		else if (inarray(.RefineMaterialItems[0], .@item_id) >= 0) {
+			.@base_price = .RefineMaterialPrice;
 			.@price_tier = 2;
 		}
 
@@ -133,12 +134,12 @@ OnSellItem:
 
 		.@total += .@line_total;
 		if (.@price_tier == 1) {
-			.@equipment_total += .@line_total;
-			.@equipment_quantity += .@quantity;
+			.@garden_total += .@line_total;
+			.@garden_quantity += .@quantity;
 		}
 		else if (.@price_tier == 2) {
-			.@material_total += .@line_total;
-			.@material_quantity += .@quantity;
+			.@refine_total += .@line_total;
+			.@refine_quantity += .@quantity;
 		}
 		else
 			.@normal_total += .@line_total;
@@ -231,34 +232,27 @@ OnSellItem:
 	Zeny += .@total;
 	mes "[High-Level Equipment Buyer]";
 	mes "Sale completed with forced Overcharge Lv.10.";
-	if (.@equipment_quantity > 0)
-		mes "Special equipment: " + .@equipment_quantity + " item(s), " + callfunc("F_InsertComma", .@equipment_total) + " Zeny.";
-	if (.@material_quantity > 0)
-		mes "Special materials: " + .@material_quantity + " item(s), " + callfunc("F_InsertComma", .@material_total) + " Zeny.";
+	if (.@garden_quantity > 0)
+		mes "Garden materials: " + .@garden_quantity + " item(s), " + callfunc("F_InsertComma", .@garden_total) + " Zeny.";
+	if (.@refine_quantity > 0)
+		mes "Refine materials: " + .@refine_quantity + " item(s), " + callfunc("F_InsertComma", .@refine_total) + " Zeny.";
 	if (.@normal_total > 0)
 		mes "Other items: " + callfunc("F_InsertComma", .@normal_total) + " Zeny.";
 	mes "Total received: ^0000FF" + callfunc("F_InsertComma", .@total) + " Zeny^000000.";
 	close;
 
 OnInit:
-	.SpecialPrice = 100000;
-	.MaterialPrice = 10000;
+	.GardenMaterialPrice = 10000;
+	.RefineMaterialPrice = 5000;
 	.OverchargePercent = 124;
-	setarray .SpecialItems[0],
-		2859,2860,2861,2862,2883,2884,2886,2887,2890,2891,15025,15026,
-		15027,15028,15029,15030,15036,15037,15038,15039,15042,15043,28380,1191,
-		1287,1649,1746,13090,16003,28608,2153,1433,1654,1830,1930,1984,
-		13061,16010,2465,2853,2864,2865,2866,1985,13062,13138,28223,28224,
-		28225,28226,2854,2894,2988,2989,2990,2991,15100,15101,1660,1935,
-		1989,1990,2011,2012,2013,2014,16018,16031,18122,18123,15129,20789,
-		22084,1400,1450,1600,1800,1900,1996,2026,13128,13328,13455,16041,
-		18121,21016,28008,28107,28605,28706,21018,28010,15156,20790,22085;
 
-	// Explicit 10,000-Zeny material tier requested for Garden of Time
-	// gems/wrath materials and Shadowdecon/Zelunium materials.
-	setarray .MaterialItems[0],
+	// Garden of Time materials: 10,000-Zeny base price.
+	setarray .GardenMaterialItems[0],
 		1001424,1001425,1001426,1001427,1001428,1001429,1001430,1001431,
-		1001432,1001433,1001434,1001435,1001436,
+		1001432,1001433,1001434,1001435,1001436;
+
+	// Shadowdecon/Zelunium materials: 5,000-Zeny base price.
+	setarray .RefineMaterialItems[0],
 		25728,25729,25730,25731;
 
 	// The dummy item only initializes the invisible shop. The NPC is opened

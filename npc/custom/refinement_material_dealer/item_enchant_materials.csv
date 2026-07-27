@@ -1,0 +1,370 @@
+item_id,aegis_name,display_name,item_type,price,occurrences,reset_uses,normal_uses,perfect_uses,upgrade_uses,enchant_database_ids,target_item_count,source_file,shop_page
+903,Reptile_Tongue,Reptile Tongue,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,9
+906,Pointed_Scale,Pointed Scale,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,8
+907,Resin,Resin,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,9
+916,Feather_Of_Birds,Feather of Birds,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,3
+918,Sticky_Webfoot,Sticky Webfoot,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,10
+924,Powder_Of_Butterfly,Powder of Butterfly,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,8
+925,Bill_Of_Birds,Bill of Birds,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,1
+926,Scale_Of_Snakes,Snake Scale,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,9
+929,Immortal_Heart,Immortal Heart,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,7
+932,Skel_Bone,Skel-Bone,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,9
+934,Mementos,Memento,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,8
+937,Posionous_Canine,Venom Canine,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,11
+939,Bee_Sting,Bee Sting,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,1
+949,Feather,Feather,Etc,20000,2,0,0,2,0,31,26,db/re/item_db_etc.yml,3
+950,Heart_Of_Mermaid,Heart of Mermaid,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,4
+952,Cactus_Needle,Cactus Needle,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,2
+953,Stone_Heart,Stone Heart,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,10
+954,Shining_Scales,Shining Scale,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,9
+963,Sharp_Scale,Sharp Scale,Etc,20000,2,0,0,2,0,31,26,db/re/item_db_etc.yml,9
+1001,Sparkling_Dust,Star Dust,Etc,20000,2,0,0,2,0,31,26,db/re/item_db_etc.yml,10
+1013,Colorful_Shell,Rainbow Shell,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,9
+1017,Moustache_Of_Mole,Mole Whiskers,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,8
+1018,Nail_Of_Mole,Mole Claw,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,8
+1021,Dokkaebi_Horn,Dokebi Horn,Etc,20000,2,0,0,2,0,31,26,db/re/item_db_etc.yml,3
+1027,Porcupine_Spike,Porcupine Quill,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,8
+1028,Wild_Boar's_Mane,Mane,Etc,20000,2,0,0,2,0,31,26,db/re/item_db_etc.yml,8
+1033,Root_Of_Maneater,Maneater Root,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,8
+1035,Dragon_Canine,Dragon Canine,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,3
+1036,Dragon_Scale,Dragon Scale,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,3
+1037,Dragon_Train,Dragon Tail,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,3
+1040,Elder_Pixie's_Beard,Elder Pixie's Moustache,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,3
+1041,Lantern,Lantern,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,7
+1044,Tooth_Of_,Zenorc's Fang,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,11
+1053,Tooth_Of_Ancient_Fish,Ancient Tooth,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,1
+1056,Grit,Grit,Etc,20000,2,0,0,2,0,31,26,db/re/item_db_etc.yml,4
+1059,Transparent_Cloth,Fabric,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,3
+1060,Golden_Hair,Golden Hair,Etc,20000,2,0,0,2,0,31,26,db/re/item_db_etc.yml,4
+1061,Starsand_Of_Witch,Witched Starsand,Etc,20000,2,0,0,2,0,31,26,db/re/item_db_etc.yml,11
+1062,Pumpkin_Head,Jack o' Pumpkin,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,7
+1063,Sharpened_Cuspid,Fang,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,3
+1094,Short_Daenggie,Short Daenggie,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,9
+1095,Needle_Of_Alarm,Needle of Alarm,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,8
+1096,Round_Shell,Round Shell,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,9
+6032,Horn_Of_Hilsrion,Horn of Hillslion,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,4
+6089,Piece_Of_Darkness,Dark Piece,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,2
+6394,Golden_Feather,Golden Feather,Etc,20000,2,0,0,2,0,31,26,db/re/item_db_etc.yml,4
+6395,Angel_Magic_Power,Angel Magic Powder,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,1
+6498,Jejellopy,Jejellopy,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,7
+6608,Coagulated_Spell,Coagulated Spell,Etc,20000,11,1,2,0,8,104,1,db/re/item_db_etc.yml,2
+6672,Gray_Shard,Gray Shard,Etc,20000,33,0,0,11,22,32,4,db/re/item_db_etc.yml,4
+6755,Polluted_Spell,Contaminated Magic,Etc,20000,11,1,2,0,8,104,1,db/re/item_db_etc.yml,2
+7002,Ogre_Tooth,Ogre Tooth,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,8
+7004,Mud_Lump,Mud Lump,Etc,20000,2,0,0,2,0,31,26,db/re/item_db_etc.yml,8
+7006,Wing_Of_Red_Bat,Wing of Red Bat,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,11
+7012,Tough_Scalelike_Stem,Tough Scalelike Stem,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,11
+7030,Claw_Of_Desert_Wolf,Claw of Desert Wolf,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,2
+7033,Poison_Spore,Poison Spore,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,8
+7063,Soft_Feather,Soft Feather,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,10
+7066,Ice_Piece,Ice Cubic,Etc,20000,2,0,0,2,0,31,26,db/re/item_db_etc.yml,4
+7069,Broken_Armor_Piece,Destroyed Armor,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,3
+7072,Rust_Suriken,Old Shuriken,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,8
+7094,Mystery_Piece,Fragment,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,4
+7095,Broken_Steel_Piece,Metal Fragment,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,8
+7096,Cold_Magma,Lava,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,7
+7097,Burning_Heart,Burning Heart,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,2
+7098,Live_Coal,Live Coal,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,8
+7099,Old_Magic_Circle,Worn-out Magic Scroll,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,11
+7100,Sharp_Leaf,Sharp Leaf,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,9
+7120,Burning_Horse_Shoe,Burning Horseshoe,Etc,20000,2,0,0,2,0,31,26,db/re/item_db_etc.yml,2
+7126,Large_Jellopy,Large Jellopy,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,7
+7154,Poison_Powder,Poisonous Powder,Etc,20000,2,0,0,2,0,31,26,db/re/item_db_etc.yml,8
+7156,Broken_Shuriken,Broken Shuriken,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,1
+7161,Black_Bear's_Skin,Black Bear Skin,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,1
+7162,Cloud_Piece,Cloud Crumb,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,2
+7163,Sharp_Feeler,Hard Feeler,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,4
+7164,Hard_Peach,Solid Peach,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,10
+7167,Mystery_Iron_Bit,Strange Steel Piece,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,10
+7186,Thin_Stem,Thin Trunk,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,11
+7188,Browny_Root,Brown Root,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,2
+7190,Solid_Peeling,Solid Husk,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,10
+7192,Blade_Of_Pinwheel,Vane,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,11
+7203,Solid_Twig,Strong Branch,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,10
+7205,Piece_Of_Black_Cloth,Piece of Black Cloth,Etc,20000,2,0,0,2,0,31,26,db/re/item_db_etc.yml,8
+7210,Dullahan_Armor,Armor Piece of Dullahan,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,1
+7215,Broken_Needle,Broken Needle,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,1
+7267,Tiger_Skin_Panties,Tiger Panty,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,11
+7315,Dark_Crystal_Fragment,Dark Crystal Fragment,Etc,20000,2,0,0,2,0,31,26,db/re/item_db_etc.yml,2
+7319,Old_Steel_Plate,Used Iron Plate,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,11
+7321,Fragment_Of_Crystal,Crystal Fragment,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,2
+7323,Battered_Kettle,Battered Kettle,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,1
+7345,Armlet_Of_Prisoner,Handcuffs,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,4
+7507,Sturdy_Iron_Piece,Solid Iron Piece,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,10
+7511,Rune_Of_Darkness,Rune of Darkness,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,9
+7561,Ice_Heart,Glacial Heart,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,4
+7565,Sticky_Poison,Sticky Poison,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,10
+7925,M_Dimension_Essence,Essence of a Powerful Dimension,Etc,20000,323,0,1,102,220,65;66;67;104;106;107;108;109;110;111;114;115;116;125;126;127;129;130;131;134;135;136,87,db/re/item_db_etc.yml,3
+9585,Small_Spray_Of_Flowers,Small Flower Branches,Usable,20000,6,1,1,0,4,6,1,db/re/item_db_usable.yml,9
+25278,BanditsScarf,Bandit's Scarf,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,1
+25279,CrudeAmmo,Crude Ammo,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,2
+25280,BrokenShotgun,Broken Shotgun,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,1
+25282,WornRevolver,Worn Revolver,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,11
+25283,BrownMuffler,Brown Muffler,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,2
+25298,SpritJewel,Spirit Jewel,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,10
+25299,Snowball,Snowball,Etc,20000,2,0,0,2,0,31,26,db/re/item_db_etc.yml,10
+25313,OldShell,Old Shell,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,8
+25340,Golden_Corn,Golden Corn,Etc,20000,6,1,1,0,4,14,1,db/re/item_db_etc.yml,4
+25341,Red_Hot_Marble,Eagle Eagle Bead,Etc,20000,6,1,1,0,4,14,1,db/re/item_db_etc.yml,3
+25342,Healthful_Herb,A healthy herb,Etc,20000,6,1,1,0,4,14,1,db/re/item_db_etc.yml,1
+25615,NasariansSoulstone,Nasarin's Soul Stone,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,8
+25641,Hard_Mud,Hard Mud,Etc,20000,2,0,0,2,0,31,26,db/re/item_db_etc.yml,4
+25669,EP17_1_EVT02,Mysterious Component,Etc,20000,114,0,0,86,28,33;34;39;40;42;43,26,db/re/item_db_etc.yml,8
+25723,EP17_1_EVT39,Cor Core,Etc,20000,94,0,0,82,12,33;34;39;40;42;43,26,db/re/item_db_etc.yml,2
+25729,Shadowdecon,Shadowdecon,Etc,20000,63,3,0,40,20,15;24;133;150;156,86,db/re/item_db_etc.yml,9
+25731,Zelunium,Zelunium,Etc,20000,63,3,0,40,20,15;24;133;150;156,86,db/re/item_db_etc.yml,11
+25739,GH_Cursed_Crystal,Curse Eroded Crystal,Etc,20000,234,18,0,36,180,106;107;108;109;110;111;114;115;116;125;126;127;129;130;131;134;135;136,18,db/re/item_db_etc.yml,2
+25740,GH_Cursed_Gemstone,Curse Eroded Gemstone,Etc,20000,288,18,0,90,180,106;107;108;109;110;111;114;115;116;125;126;127;129;130;131;134;135;136,18,db/re/item_db_etc.yml,2
+25767,Angel_Dream,Angel's Dream,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,1
+25773,Snake_Deadly_Poison,Snake's Venom,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,9
+25775,Soft_Scarf,Fluffy Cloth Piece,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,4
+25776,Purple_Solid_Shell,Very Solid Purple Shell,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,11
+25778,Brilliant_Jelly,Autumn Light Jelly Piece,Etc,20000,1,0,0,1,0,31,26,db/re/item_db_etc.yml,1
+25814,Ein_DYNITE,Dynite,Etc,20000,36,1,0,7,28,63,18,db/re/item_db_etc.yml,3
+25924,Boost_C_Enchant_1,Booster Costume Enchantment Ticket,Etc,20000,117,0,0,117,0,37;38,8,db/re/item_db_etc.yml,1
+100479,Sakray_Fury,Sakrai's Wraith,DelayConsume,20000,22,0,0,0,22,32,4,db/re/item_db_usable.yml,9
+100485,Sakray_Regret,Sakrai's Regret,DelayConsume,20000,22,0,0,0,22,32,4,db/re/item_db_usable.yml,9
+100579,PendantStoneForWork,Pendant Gemstone of Force,DelayConsume,20000,2,1,1,0,0,105,2,db/re/item_db_usable.yml,8
+100580,Dark_Stone,Dark Stone,DelayConsume,20000,2,1,1,0,0,105,2,db/re/item_db_usable.yml,2
+1000103,BarMealTicket,Barmil Ticket,Etc,20000,243,0,0,195,48,35;41;44;45;46;52;53;54;55,22,db/re/item_db_etc.yml,1
+1000254,Booster_Coin,Booster Coin,Etc,20000,7,0,0,7,0,36,38,db/re/item_db_etc.yml,1
+1000257,Sin_Fragment,Piece of Sin,Etc,20000,58,2,1,15,40,66;67,45,db/re/item_db_etc.yml,8
+1000263,Fate_Fragment,Fragment of Good Will,Etc,20000,58,2,1,15,40,65;67,45,db/re/item_db_etc.yml,4
+1000322,Etel_Dust,Etel Dust,Etc,20000,2,2,0,0,0,133;150,57,db/re/item_db_etc.yml,3
+1000405,Ep18_Amethyst_Fragment,Amethyst Fragment,Etc,20000,137,5,15,91,26,1;2;3;4;5;25,44,db/re/item_db_etc.yml,1
+1000608,Ep19_Snow_Flower,Snow Flower,Etc,20000,9,0,0,9,0,98,3,db/re/item_db_etc.yml,9
+1000636,Plain_Barmund_Rune,Glade Rune Fragment,Etc,20000,8,0,0,0,8,99;100,4,db/re/item_db_etc.yml,4
+1000637,Flame_Barmund_Rune,Fire Rune Fragment,Etc,20000,4,0,0,0,4,99,2,db/re/item_db_etc.yml,4
+1000638,Ice_Barmund_Rune,Ice Rune Fragment,Etc,20000,4,0,0,0,4,100,2,db/re/item_db_etc.yml,7
+1000639,Death_Barmund_Rune,Death Rune Fragment,Etc,20000,4,0,0,0,4,102,2,db/re/item_db_etc.yml,2
+1000640,Plain_Barmund_Rune2,Glade Rune,Etc,20000,37,2,5,2,28,16;52;99;100,10,db/re/item_db_etc.yml,4
+1000641,Flame_Barmund_Rune2,Fire Rune,Etc,20000,28,2,5,1,20,17;53;99,8,db/re/item_db_etc.yml,4
+1000642,Ice_Barmund_Rune2,Ice Rune,Etc,20000,28,2,5,1,20,18;54;100,8,db/re/item_db_etc.yml,7
+1000643,Death_Barmund_Rune2,Death Rune,Etc,20000,28,2,5,1,20,19;55;102,8,db/re/item_db_etc.yml,2
+1000680,ClockTower_Lead,Lead,Etc,20000,15,1,1,13,0,24,26,db/re/item_db_etc.yml,8
+1000681,ClockTower_Gear,Clock Gear,Etc,20000,54,0,1,53,0,24,26,db/re/item_db_etc.yml,2
+1000711,Ice_F_Stone_Str,Ice Magic Stone (STR),Etc,20000,2,0,0,2,0,27;29,4,db/re/item_db_etc.yml,7
+1000712,Ice_F_Stone_Dex,Ice Magic Stone (DEX),Etc,20000,2,0,0,2,0,27;29,4,db/re/item_db_etc.yml,5
+1000713,Ice_F_Stone_Agi,Ice Magic Stone (AGI),Etc,20000,2,0,0,2,0,27;30,4,db/re/item_db_etc.yml,5
+1000714,Ice_F_Stone_Int,Ice Magic Stone (INT),Etc,20000,2,0,0,2,0,27;29,4,db/re/item_db_etc.yml,6
+1000715,Ice_F_Stone_Vit,Ice Magic Stone (VIT),Etc,20000,2,0,0,2,0,27;30,4,db/re/item_db_etc.yml,7
+1000716,Ice_F_Stone_luk,Ice Magic Stone (LUK),Etc,20000,2,0,0,2,0,27;30,4,db/re/item_db_etc.yml,6
+1000717,Ice_F_Stone_Def,Ice Magic Stone (Defense),Etc,20000,3,0,0,3,0,26;27;28,6,db/re/item_db_etc.yml,5
+1000718,Ice_F_Stone_Mdef,Ice Magic Stone (Magic Defense),Etc,20000,3,0,0,3,0,26;27;28,6,db/re/item_db_etc.yml,6
+1000719,Ice_F_Stone_Ran,Ice Magic Stone (Sniper),Etc,20000,1,0,0,1,0,26,2,db/re/item_db_etc.yml,7
+1000720,Ice_F_Stone_War,Ice Magic Stone (Warrior),Etc,20000,1,0,0,1,0,26,2,db/re/item_db_etc.yml,7
+1000721,Ice_F_Stone_Mag,Ice Magic Stone (Mage),Etc,20000,1,0,0,1,0,26,2,db/re/item_db_etc.yml,6
+1000722,Ice_F_Stone_R_Reject,Ice Magic Stone (Reject Reflection),Etc,20000,1,0,0,1,0,26,2,db/re/item_db_etc.yml,7
+1000723,Ice_F_Stone_Force,Ice Magic Stone (Power Force),Etc,20000,1,0,0,1,0,26,2,db/re/item_db_etc.yml,7
+1000724,Ice_F_Stone_S_Delay,Ice Magic Stone (Cast Delay),Etc,20000,1,0,0,1,0,26,2,db/re/item_db_etc.yml,5
+1000725,Ice_F_Stone_Speed,Ice Magic Stone (Speed),Etc,20000,1,0,0,1,0,27,2,db/re/item_db_etc.yml,7
+1000726,Ice_F_Stone_Caster,Ice Magic Stone (Caster),Etc,20000,1,0,0,1,0,27,2,db/re/item_db_etc.yml,5
+1000727,Ice_F_Stone_Critical,Ice Flower Magic Stone (Critical),Etc,20000,1,0,0,1,0,27,2,db/re/item_db_etc.yml,4
+1000728,Ice_F_Stone_Guide,Ice Magic Stone (Guide Attack),Etc,20000,1,0,0,1,0,27,2,db/re/item_db_etc.yml,6
+1000729,Ice_F_Stone_Above,Ice Magic Stone (Above All),Etc,20000,1,0,0,1,0,27,2,db/re/item_db_etc.yml,4
+1000730,Ice_F_Stone_P_Full,Ice Magic Stone (Powerful),Etc,20000,1,0,0,1,0,27,2,db/re/item_db_etc.yml,7
+1000731,Ice_F_Stone_M_Counter,Ice Magic Stone (Mirror Counter),Etc,20000,1,0,0,1,0,27,2,db/re/item_db_etc.yml,6
+1000732,Ice_F_Stone_Hp,Ice Magic Stone (Stamina),Etc,20000,1,0,0,1,0,28,2,db/re/item_db_etc.yml,7
+1000733,Ice_F_Stone_Sp,Ice Magic Stone (Spirit),Etc,20000,1,0,0,1,0,28,2,db/re/item_db_etc.yml,7
+1000734,Ice_F_Stone_Heal,Ice Magic Stone (Heal),Etc,20000,1,0,0,1,0,28,2,db/re/item_db_etc.yml,6
+1000735,Ice_F_Stone_Robust,Ice Magic Stone (Robust),Etc,20000,1,0,0,1,0,28,2,db/re/item_db_etc.yml,7
+1000736,Ice_F_Stone_F_Cast,Ice Magic Stone (Fixed Casting),Etc,20000,1,0,0,1,0,28,2,db/re/item_db_etc.yml,6
+1000737,Ice_F_Stone_M_F,Ice Magic Stone (Magical Force),Etc,20000,1,0,0,1,0,28,2,db/re/item_db_etc.yml,6
+1000738,Ice_F_Stone_P_F,Ice Magic Stone (Physical Force),Etc,20000,1,0,0,1,0,28,2,db/re/item_db_etc.yml,6
+1000739,Ice_F_Stone_Un_Vit,Ice Magic Stone (Unlimited Vital),Etc,20000,1,0,0,1,0,28,2,db/re/item_db_etc.yml,7
+1000740,Ice_F_Stone_Sp_Int,Ice Magic Stone (Spell Buster),Etc,20000,1,0,0,1,0,28,2,db/re/item_db_etc.yml,7
+1000741,Ice_F_Stone_Fi_Dex,Ice Magic Stone (Firing Shot),Etc,20000,1,0,0,1,0,28,2,db/re/item_db_etc.yml,6
+1000742,Ice_F_Stone_Ov_Str,Ice Magic Stone (Overpower),Etc,20000,1,0,0,1,0,28,2,db/re/item_db_etc.yml,6
+1000743,Ice_F_Stone_Fa_Agi,Ice Magic Stone (Fatal Flash),Etc,20000,1,0,0,1,0,28,2,db/re/item_db_etc.yml,5
+1000744,Ice_F_Stone_Lu_Luk,Ice Magic Stone (Lucky Strike),Etc,20000,1,0,0,1,0,28,2,db/re/item_db_etc.yml,6
+1000745,Ice_F_Stone_A_Delay,Ice Magic Stone (Delay After Attack),Etc,20000,2,0,0,2,0,29;30,4,db/re/item_db_etc.yml,5
+1000746,Ice_F_Stone_E_Archer,Ice Magic Stone (Expert Archer),Etc,20000,2,0,0,2,0,29;30,4,db/re/item_db_etc.yml,5
+1000747,Ice_F_Stone_Fatal,Ice Magic Stone (Fatal),Etc,20000,2,0,0,2,0,29;30,4,db/re/item_db_etc.yml,5
+1000748,Ice_F_Stone_F_Spirit,Ice Magic Stone (Fighting Spirit),Etc,20000,2,0,0,2,0,29;30,4,db/re/item_db_etc.yml,5
+1000749,Ice_F_Stone_Spell,Ice Magic Stone (Magic),Etc,20000,2,0,0,2,0,29;30,4,db/re/item_db_etc.yml,6
+1000750,Ice_F_Stone_HealHP,Ice Magic Stone (HP Recovery),Etc,20000,1,0,0,1,0,29,2,db/re/item_db_etc.yml,6
+1000751,Ice_F_Stone_HealSP,Ice Magic Stone (SP Recovery),Etc,20000,1,0,0,1,0,30,2,db/re/item_db_etc.yml,7
+1000752,Ice_F_Stone_Life,Ice Magic Stone (Drain Life),Etc,20000,1,0,0,1,0,29,2,db/re/item_db_etc.yml,5
+1000753,Ice_F_Stone_Soul,Ice Magic Stone (Drain Soul),Etc,20000,1,0,0,1,0,30,2,db/re/item_db_etc.yml,5
+1000754,Ice_F_Stone_M_Heal,Ice Magic Stone (Magic Healing),Etc,20000,1,0,0,1,0,29,2,db/re/item_db_etc.yml,6
+1000755,Ice_F_Stone_M_Soul,Ice Magic Stone (Magic Soul),Etc,20000,1,0,0,1,0,30,2,db/re/item_db_etc.yml,6
+1000756,Ice_F_Stone_A_Force,Ice Magic Stone (All Force),Etc,20000,2,0,0,2,0,29;30,4,db/re/item_db_etc.yml,5
+1000757,Ice_F_Stone_Skill_1,Ice Magic Stone (Dragonic Breach),Etc,20000,1,0,0,1,0,26,2,db/re/item_db_etc.yml,5
+1000758,Ice_F_Stone_Skill_2,Ice Magic Stone (Cutter Break),Etc,20000,1,0,0,1,0,26,2,db/re/item_db_etc.yml,5
+1000759,Ice_F_Stone_Skill_3,Ice Magic Stone (Hundred Wave),Etc,20000,1,0,0,1,0,26,2,db/re/item_db_etc.yml,6
+1000760,Ice_F_Stone_Skill_4,Ice Magic Stone (Brand Drive),Etc,20000,1,0,0,1,0,26,2,db/re/item_db_etc.yml,5
+1000761,Ice_F_Stone_Skill_5,Ice Magic Stone (Banishing Cannon),Etc,20000,1,0,0,1,0,26,2,db/re/item_db_etc.yml,5
+1000762,Ice_F_Stone_Skill_6,Ice Magic Stone (Genesis Pressure),Etc,20000,1,0,0,1,0,26,2,db/re/item_db_etc.yml,6
+1000763,Ice_F_Stone_Skill_7,Ice Magic Stone (Genesis Pressure),Etc,20000,1,0,0,1,0,26,2,db/re/item_db_etc.yml,6
+1000764,Ice_F_Stone_Skill_8,Ice Magic Stone (Vulkan Boomerang),Etc,20000,1,0,0,1,0,26,2,db/re/item_db_etc.yml,7
+1000765,Ice_F_Stone_Skill_9,Ice Magic Stone (Tornado Swing),Etc,20000,1,0,0,1,0,26,2,db/re/item_db_etc.yml,7
+1000766,Ice_F_Stone_Skill_10,Ice Magic Stone (Hell Tornado),Etc,20000,1,0,0,1,0,26,2,db/re/item_db_etc.yml,6
+1000767,Ice_F_Stone_Skill_11,Ice Magic Stone (Crazy Cannon),Etc,20000,1,0,0,1,0,26,2,db/re/item_db_etc.yml,5
+1000768,Ice_F_Stone_Skill_12,Ice Magic Stone (Acid Explosion),Etc,20000,1,0,0,1,0,26,2,db/re/item_db_etc.yml,4
+1000769,Ice_F_Stone_Skill_13,Ice Magic Stone (Sonic Impact),Etc,20000,1,0,0,1,0,26,2,db/re/item_db_etc.yml,7
+1000770,Ice_F_Stone_Skill_14,Ice Magic Stone (Cutter Slasher),Etc,20000,1,0,0,1,0,26,2,db/re/item_db_etc.yml,5
+1000771,Ice_F_Stone_Skill_15,Ice Magic Stone (Berserk Slash),Etc,20000,1,0,0,1,0,26,2,db/re/item_db_etc.yml,5
+1000772,Ice_F_Stone_Skill_16,Ice Magic Stone (Fatal Attack),Etc,20000,1,0,0,1,0,26,2,db/re/item_db_etc.yml,5
+1000773,Ice_F_Stone_Skill_17,Ice Magic Stone (Shadow Spell),Etc,20000,1,0,0,1,0,26,2,db/re/item_db_etc.yml,7
+1000774,Ice_F_Stone_Skill_18,Ice Magic Stone (Angle Shot),Etc,20000,1,0,0,1,0,26,2,db/re/item_db_etc.yml,5
+1000775,Ice_F_Stone_Skill_19,Ice Magic Stone (Crimson Strain),Etc,20000,1,0,0,1,0,26,2,db/re/item_db_etc.yml,5
+1000776,Ice_F_Stone_Skill_20,Ice Magic Stone (Jack Lightning),Etc,20000,1,0,0,1,0,26,2,db/re/item_db_etc.yml,6
+1000777,Ice_F_Stone_Skill_21,Ice Magic Stone (Soul Comet),Etc,20000,1,0,0,1,0,26,2,db/re/item_db_etc.yml,7
+1000778,Ice_F_Stone_Skill_22,Ice Magic Stone (Cloud Buster),Etc,20000,1,0,0,1,0,26,2,db/re/item_db_etc.yml,5
+1000779,Ice_F_Stone_Skill_23,Ice Magic Stone (Varetyr Wave),Etc,20000,1,0,0,1,0,26,2,db/re/item_db_etc.yml,7
+1000780,Ice_F_Stone_Skill_24,Ice Magic Stone (Diamond Grave),Etc,20000,1,0,0,1,0,26,2,db/re/item_db_etc.yml,5
+1000781,Ice_F_Stone_Skill_25,Ice Magic Stone (Magnusmus),Etc,20000,1,0,0,1,0,26,2,db/re/item_db_etc.yml,6
+1000782,Ice_F_Stone_Skill_26,Ice Magic Stone (Holy Judex),Etc,20000,1,0,0,1,0,26,2,db/re/item_db_etc.yml,6
+1000783,Ice_F_Stone_Skill_27,Ice Magic Stone (Milliduple),Etc,20000,1,0,0,1,0,26,2,db/re/item_db_etc.yml,6
+1000784,Ice_F_Stone_Skill_28,Ice Magic Stone (Cannon Empire),Etc,20000,1,0,0,1,0,26,2,db/re/item_db_etc.yml,5
+1000785,Ice_F_Stone_Skill_29,Ice Magic Stone (Thunder Blast),Etc,20000,1,0,0,1,0,26,2,db/re/item_db_etc.yml,7
+1000786,Ice_F_Stone_Skill_30,Ice Magic Stone (Hell Arrow),Etc,20000,1,0,0,1,0,26,2,db/re/item_db_etc.yml,6
+1000787,Ice_F_Stone_Skill_31,Ice Magic Stone (Aimed Rush),Etc,20000,1,0,0,1,0,26,2,db/re/item_db_etc.yml,5
+1000788,Ice_F_Stone_Skill_32,Ice Magic Stone (Breeze Shooting),Etc,20000,1,0,0,1,0,26,2,db/re/item_db_etc.yml,5
+1000789,Ice_F_Stone_Skill_33,Ice Magic Stone (Arrow Gale),Etc,20000,1,0,0,1,0,26,2,db/re/item_db_etc.yml,5
+1000790,Ice_F_Stone_Skill_34,Ice Magic Stone (Sound Metal),Etc,20000,1,0,0,1,0,26,2,db/re/item_db_etc.yml,7
+1000791,Ice_F_Stone_Skill_35,Ice Magic Stone (Rainstorm),Etc,20000,1,0,0,1,0,26,2,db/re/item_db_etc.yml,7
+1000792,Ice_F_Stone_Skill_36,Ice Magic Stone (Vulcan Shooting),Etc,20000,1,0,0,1,0,26,2,db/re/item_db_etc.yml,7
+1000793,Ice_F_Stone_Skill_37,Ice Magic Stone (Prominence Burst),Etc,20000,1,0,0,1,0,26,2,db/re/item_db_etc.yml,7
+1000794,Ice_F_Stone_Skill_38,Ice Magic Stone (Moon Kick),Etc,20000,1,0,0,1,0,26,2,db/re/item_db_etc.yml,6
+1000795,Ice_F_Stone_Skill_39,Ice Magic Stone (Flash Fall),Etc,20000,1,0,0,1,0,26,2,db/re/item_db_etc.yml,6
+1000796,Ice_F_Stone_Skill_40,Ice Magic Stone (Eswhoo),Etc,20000,1,0,0,1,0,26,2,db/re/item_db_etc.yml,5
+1000797,Ice_F_Stone_Skill_41,Ice Magic Stone (Espa),Etc,20000,1,0,0,1,0,26,2,db/re/item_db_etc.yml,5
+1000798,Ice_F_Stone_Skill_42,Ice Magic Stone (Curse Explosion),Etc,20000,1,0,0,1,0,26,2,db/re/item_db_etc.yml,5
+1000799,Ice_F_Stone_Skill_43,Ice Magic Stone (Death Hammer Dance),Etc,20000,1,0,0,1,0,26,2,db/re/item_db_etc.yml,5
+1000800,Ice_F_Stone_Skill_44,Ice Magic Stone (Fire Howling Tail),Etc,20000,1,0,0,1,0,26,2,db/re/item_db_etc.yml,6
+1000801,Ice_F_Stone_Skill_45,Ice Magic Stone (Storm Buster Trip),Etc,20000,1,0,0,1,0,26,2,db/re/item_db_etc.yml,7
+1000802,Ice_F_Stone_Skill_46,Ice Magic Stone (Flame Ice Wind),Etc,20000,1,0,0,1,0,26,2,db/re/item_db_etc.yml,6
+1000803,Ice_F_Stone_Skill_47,Ice Magic Stone (Cross Petal),Etc,20000,1,0,0,1,0,26,2,db/re/item_db_etc.yml,5
+1000804,Ice_F_Stone_Skill_48,Ice Magic Stone (Flame Wind),Etc,20000,1,0,0,1,0,26,2,db/re/item_db_etc.yml,6
+1000805,Ice_F_Stone_Skill_49,Ice Magic Stone (Life Force),Etc,20000,1,0,0,1,0,26,2,db/re/item_db_etc.yml,6
+1000806,Ice_F_Stone_Skill_50,Ice Magic Stone (Earth Power),Etc,20000,1,0,0,1,0,26,2,db/re/item_db_etc.yml,5
+1000807,Ice_F_Stone_Skill_51,Ice Magic Stone (Power of Savage),Etc,20000,1,0,0,1,0,26,2,db/re/item_db_etc.yml,7
+1000808,Ice_F_Stone_Skill_52,Ice Magic Stone (Hyper Melee),Etc,20000,1,0,0,1,0,26,2,db/re/item_db_etc.yml,6
+1000809,Ice_F_Stone_Skill_53,Ice Magic Stone (Hyper Range),Etc,20000,1,0,0,1,0,26,2,db/re/item_db_etc.yml,6
+1000810,Ice_F_Stone_Skill_54,Ice Magic Stone (Hyper Magic),Etc,20000,1,0,0,1,0,26,2,db/re/item_db_etc.yml,6
+1000812,Snow_F_Stone1,Snowflower Gem,,20000,240,0,0,240,0,31;89;90;91;92;93;94,37,db/re/item_db_etc.yml,10
+1000813,Snow_F_Stone2,Shining Snowflower Gem,,20000,236,0,0,236,0,31;89;90;91;92;93;94,37,db/re/item_db_etc.yml,9
+1000814,Snow_F_Stone3,Brilliant Snow Flower Manastone,Etc,20000,213,0,0,213,0,31;89;90;91;92;93;94,37,db/re/item_db_etc.yml,1
+1000874,Enchant_Ticket,Enchant Ticket,Etc,20000,200,4,8,72,116,15;20;21;22;23;25;32;65;66;67;98;104;106;107;108;109;110;111;114;115;116;125;126;127;129;130;131;134;135;136;165,159,db/re/item_db_etc.yml,3
+1000995,Boost_C_Enchant_2,Booster Costume Premium Enchantment Ticket,Etc,20000,23,0,0,23,0,37;38,8,db/re/item_db_etc.yml,1
+1001009,Evt_20th_Coin,20th Anniversary Coin,Etc,20000,1,0,0,1,0,51,1,db/re/item_db_etc.yml,1
+1001029,EP19_D_P_Ore,Encroached Magical Ore,Etc,20000,3,0,0,3,0,95;96;97,6,db/re/item_db_etc.yml,3
+1001030,EP19_N_P_Ore,Neutralized Magical Ore,Etc,20000,3,0,0,3,0,95;96;97,6,db/re/item_db_etc.yml,8
+1001031,EP19_D_P_Crystal,Encroached Magical Crystal,Etc,20000,94,3,0,65,26,47;95;96;97;147;148;149,89,db/re/item_db_etc.yml,3
+1001032,EP19_N_P_Crystal,Neutralized Magical Crystal,Etc,20000,94,3,0,65,26,47;95;96;97;147;148;149,89,db/re/item_db_etc.yml,8
+1001033,EP19_D_P_Stone,Miasmal Spell,Etc,20000,27,0,0,3,24,47;95;96;97;148,50,db/re/item_db_etc.yml,8
+1001034,EP19_S_F_1_Extract,Snow Flower Magic Stone Extract,Etc,20000,409,0,0,365,44,47;95;96;97;98;143;144;145;146;152;153;154;155,55,db/re/item_db_etc.yml,10
+1001035,EP19_S_F_2_Extract,Shining Snow Flower Magic Stone Extract,Etc,20000,412,0,0,368,44,47;95;96;97;98;143;144;145;146;152;153;154;155,55,db/re/item_db_etc.yml,9
+1001036,EP19_S_F_3_Extract,Brilliant Snow Flower Magic Stone Extract,Etc,20000,403,0,0,368,35,47;95;96;97;98;143;144;145;146;152;153;154;155,55,db/re/item_db_etc.yml,1
+1001037,EP19_Gla_Extract,Glacier Extract,Etc,20000,130,0,0,86,44,47;95;96;97;143;144;145;146;152;153;154;155,52,db/re/item_db_etc.yml,4
+1001100,Heros_Gold_Bar,Herosria Gold Bar,Etc,20000,6,1,0,5,0,56,3,db/re/item_db_etc.yml,4
+1001101,Heros_Silver_Bar,Herosria Silver Bar,Etc,20000,5,0,0,5,0,56,3,db/re/item_db_etc.yml,4
+1001102,Heros_Copper_Bar,Herosria Copper Bar,Etc,20000,5,0,0,5,0,56,3,db/re/item_db_etc.yml,4
+1001103,Heros_Iron_Bar,Herosria Iron Bar,Etc,20000,5,0,0,5,0,56,3,db/re/item_db_etc.yml,4
+1001109,Heros_Ruby,Herosria Ruby,Etc,20000,30,0,0,0,30,56,3,db/re/item_db_etc.yml,4
+1001110,Heros_Topaz,Herosria Topaz,Etc,20000,30,0,0,0,30,56,3,db/re/item_db_etc.yml,4
+1001111,Heros_Sapphire,Herosria Sapphire,Etc,20000,30,0,0,0,30,56,3,db/re/item_db_etc.yml,4
+1001112,Heros_Emerald,Herosria Emerald,Etc,20000,30,0,0,0,30,56,3,db/re/item_db_etc.yml,4
+1001113,Heros_Diamond,Herosria Diamond,Etc,20000,30,0,0,0,30,56,3,db/re/item_db_etc.yml,4
+1001118,Heros_Ruby_1,Shining Herosria Ruby,Etc,20000,29,0,0,0,29,56,3,db/re/item_db_etc.yml,9
+1001119,Heros_Topaz_1,Shining Herosria Topaz,Etc,20000,29,0,0,0,29,56,3,db/re/item_db_etc.yml,9
+1001120,Heros_Sapphire_1,Shining Herosria Sapphire,Etc,20000,29,0,0,0,29,56,3,db/re/item_db_etc.yml,9
+1001121,Heros_Emerald_1,Shining Herosria Emerald,Etc,20000,29,0,0,0,29,56,3,db/re/item_db_etc.yml,9
+1001122,Heros_Diamond_1,Shining Herosria Diamond,Etc,20000,29,0,0,0,29,56,3,db/re/item_db_etc.yml,9
+1001123,Heros_Ruby_2,Brilliant Herosria Ruby,Etc,20000,21,0,0,0,21,56,3,db/re/item_db_etc.yml,1
+1001124,Heros_Topaz_2,Brilliant Herosria Topaz,Etc,20000,21,0,0,0,21,56,3,db/re/item_db_etc.yml,1
+1001125,Heros_Sapphire_2,Brilliant Herosria Sapphire,Etc,20000,21,0,0,0,21,56,3,db/re/item_db_etc.yml,1
+1001126,Heros_Emerald_2,Brilliant Herosria Emerald,Etc,20000,21,0,0,0,21,56,3,db/re/item_db_etc.yml,1
+1001127,Heros_Diamond_2,Brilliant Herosria Diamond,Etc,20000,21,0,0,0,21,56,3,db/re/item_db_etc.yml,1
+1001138,Barmund_Plain_Essence,Plain Essence,Etc,20000,25,0,1,2,22,52;99;100,7,db/re/item_db_etc.yml,8
+1001139,Barmund_Flame_Essence,Flame Essence,Etc,20000,19,0,1,1,17,53;99,5,db/re/item_db_etc.yml,4
+1001140,Barmund_Ice_Essence,Ice Essence,Etc,20000,19,0,1,1,17,54;100,5,db/re/item_db_etc.yml,4
+1001141,Barmund_Death_Essence,Death Essence,Etc,20000,19,0,1,1,17,55;102,5,db/re/item_db_etc.yml,2
+1001177,Temple_Barmund_Rune,Temple Rune Fragment,Etc,20000,4,0,0,0,4,101,2,db/re/item_db_etc.yml,10
+1001178,Temple_Barmund_Rune2,Temple Rune,Etc,20000,16,2,5,1,8,59;62;101,5,db/re/item_db_etc.yml,10
+1001179,Venom_Barmund_Rune,Venom Rune Fragment,Etc,20000,4,0,0,0,4,102,2,db/re/item_db_etc.yml,11
+1001180,Venom_Barmund_Rune2,Venom Rune,Etc,20000,16,2,5,1,8,58;61;102,5,db/re/item_db_etc.yml,11
+1001181,Soul_Barmund_Rune,Soul Rune Fragment,Etc,20000,4,0,0,0,4,101,2,db/re/item_db_etc.yml,10
+1001182,Soul_Barmund_Rune2,Soul Rune,Etc,20000,16,2,5,1,8,57;60;101,5,db/re/item_db_etc.yml,10
+1001183,Barmund_Temple_Essence,Temple Essence,Etc,20000,6,0,0,1,5,101,2,db/re/item_db_etc.yml,10
+1001184,Barmund_Venom_Essence,Venom Essence,Etc,20000,6,0,0,1,5,102,2,db/re/item_db_etc.yml,11
+1001185,Barmund_Soul_Essence,Soul Essence,Etc,20000,6,0,0,1,5,101,2,db/re/item_db_etc.yml,10
+1001186,Barmund_Water,Soul Magical Water,Etc,20000,3,0,3,0,0,60,2,db/re/item_db_etc.yml,10
+1001188,Barmund_Water2,Temple Magical Water,Etc,20000,3,0,3,0,0,62,2,db/re/item_db_etc.yml,10
+1001189,Barmund_Water3,Venom Magical Water,Etc,20000,3,0,3,0,0,61,2,db/re/item_db_etc.yml,11
+1001201,Mocadas_Gold,Bishop's Relic,Etc,20000,10,1,1,8,0,64,22,db/re/item_db_etc.yml,1
+1001202,Mocadas_Water,Bishop's Holy Water,Etc,20000,10,1,1,8,0,64,22,db/re/item_db_etc.yml,1
+1001203,Mjo_Treasure,Mjolnir's Treasure,Etc,20000,36,1,0,7,28,63,18,db/re/item_db_etc.yml,8
+1001204,Mjo_Energy,Mjolnir's Energy,Etc,20000,36,1,0,7,28,63,18,db/re/item_db_etc.yml,8
+1001217,Ep20_Cat_Whiskers,Sacred Cat Whiskers,Etc,20000,64,0,0,64,0,89;90;91;92;93;94;98,14,db/re/item_db_etc.yml,9
+1001248,EP20_D_P_Ore,Pure Magical Ore,Etc,20000,3,0,0,3,0,95;96;97,6,db/re/item_db_etc.yml,8
+1001249,EP20_D_P_Crystal,Pure Magical Crystal,Etc,20000,62,1,0,25,36,95;96;97;148,24,db/re/item_db_etc.yml,8
+1001250,EP20_D_P_Extract,Pure Magic Extract,Etc,20000,132,0,0,87,45,95;96;97;143;144;145;146;152;153;154;155,26,db/re/item_db_etc.yml,8
+1001251,EP20_D_Scale,Scale of the Snake God,Etc,20000,21,0,0,3,18,95;96;97,6,db/re/item_db_etc.yml,9
+1001253,S_Enchant_Essence,Shadow Essence,Etc,20000,335,0,0,335,0,70;71;72;73;74;75;76;77;78;79;80;81;82;83;84;85;86;87;88,74,db/re/item_db_etc.yml,9
+1001290,Bar_D_Fl_Energy,Deep Fire Energy,Etc,20000,1,0,0,0,1,99,2,db/re/item_db_etc.yml,2
+1001291,Bar_D_Ea_Energy,Deep Earth Energy,Etc,20000,1,0,0,0,1,99,2,db/re/item_db_etc.yml,2
+1001292,Bar_D_Ic_Energy,Deep Cold Energy,Etc,20000,1,0,0,0,1,100,2,db/re/item_db_etc.yml,2
+1001293,Bar_D_St_Energy,Deep Storm Energy,Etc,20000,1,0,0,0,1,100,2,db/re/item_db_etc.yml,3
+1001294,Bar_D_So_Energy,Deep Soul Energy,Etc,20000,1,0,0,0,1,101,2,db/re/item_db_etc.yml,3
+1001295,Bar_D_Pu_Energy,Deep Cleansing Energy,Etc,20000,1,0,0,0,1,101,2,db/re/item_db_etc.yml,2
+1001296,Bar_D_Co_Energy,Deep Corruption Energy,Etc,20000,1,0,0,0,1,102,2,db/re/item_db_etc.yml,2
+1001297,Bar_D_Po_Energy,Deep Poison Energy,Etc,20000,1,0,0,0,1,102,2,db/re/item_db_etc.yml,3
+1001298,Bar_D_Fl_Crystal,Deep Flame Crystal,Etc,20000,6,0,0,0,6,99,2,db/re/item_db_etc.yml,2
+1001299,Bar_D_Ea_Crystal,Deep Earth Crystal,Etc,20000,6,0,0,0,6,99,2,db/re/item_db_etc.yml,2
+1001300,Bar_D_Ic_Crystal,Deep Ice Crystal,Etc,20000,6,0,0,0,6,100,2,db/re/item_db_etc.yml,2
+1001301,Bar_D_St_Crystal,Deep Storm Crystal,Etc,20000,6,0,0,0,6,100,2,db/re/item_db_etc.yml,3
+1001302,Bar_D_So_Crystal,Deep Soul Crystal,Etc,20000,6,0,0,0,6,101,2,db/re/item_db_etc.yml,3
+1001303,Bar_D_Pu_Crystal,Deep Purification Crystal,Etc,20000,6,0,0,0,6,101,2,db/re/item_db_etc.yml,3
+1001304,Bar_D_Co_Crystal,Depth Corruption Crystal,Etc,20000,6,0,0,0,6,102,2,db/re/item_db_etc.yml,3
+1001305,Bar_D_Po_Crystal,Deep Poison Crystal,Etc,20000,6,0,0,0,6,102,2,db/re/item_db_etc.yml,2
+1001306,Bar_D_Fl_Rune,Rune of Deep Fire,Etc,20000,11,0,0,3,8,99;150,21,db/re/item_db_etc.yml,9
+1001307,Bar_D_Ea_Rune,Deep Earth Rune,Etc,20000,11,0,0,3,8,99;150,21,db/re/item_db_etc.yml,2
+1001308,Bar_D_Ic_Rune,Deep Cold Rune,Etc,20000,11,0,0,3,8,100;150,21,db/re/item_db_etc.yml,2
+1001309,Bar_D_St_Rune,Deep Storm Rune,Etc,20000,11,0,0,3,8,100;150,21,db/re/item_db_etc.yml,3
+1001310,Bar_D_So_Rune,Deep Soul Rune,Etc,20000,12,0,0,4,8,101;150,21,db/re/item_db_etc.yml,3
+1001311,Bar_D_Pu_Rune,Deep Cleansing Rune,Etc,20000,11,0,0,3,8,101;150,21,db/re/item_db_etc.yml,2
+1001312,Bar_D_Co_Rune,Deep Corruption Rune,Etc,20000,11,0,0,3,8,102;150,21,db/re/item_db_etc.yml,2
+1001313,Bar_D_Po_Rune,Rune of Deep Poison,Etc,20000,12,0,0,4,8,102;150,21,db/re/item_db_etc.yml,9
+1001314,Bar_D_Fl_Essence,Essence of Deep Fire,Etc,20000,5,0,0,2,3,99,2,db/re/item_db_etc.yml,3
+1001315,Bar_D_Ea_Essence,Essence of Deep Earth,Etc,20000,5,0,0,2,3,99,2,db/re/item_db_etc.yml,3
+1001316,Bar_D_Ic_Essence,Essence of Deep Cold,Etc,20000,5,0,0,2,3,100,2,db/re/item_db_etc.yml,3
+1001317,Bar_D_St_Essence,Essence of the Deep Storm,Etc,20000,5,0,0,2,3,100,2,db/re/item_db_etc.yml,3
+1001318,Bar_D_So_Essence,Deep Soul Essence,Etc,20000,5,0,0,2,3,101,2,db/re/item_db_etc.yml,3
+1001319,Bar_D_Pu_Essence,Essence of Deep Purification,Etc,20000,5,0,0,2,3,101,2,db/re/item_db_etc.yml,3
+1001320,Bar_D_Co_Essence,Essence of Deep Corruption,Etc,20000,5,0,0,2,3,102,2,db/re/item_db_etc.yml,3
+1001321,Bar_D_Po_Essence,Essence of Deep Venom,Etc,20000,5,0,0,2,3,102,2,db/re/item_db_etc.yml,3
+1001555,Abyss_Rune,Abyss Magic Rune,Etc,20000,10,0,0,10,0,133,38,db/re/item_db_etc.yml,1
+1001556,Time_D_Ma_Rune,Time Dimension Magic Rune,Etc,20000,20,0,0,20,0,133;150,57,db/re/item_db_etc.yml,11
+1001591,Sp_Amethyst_Fragment,Special Amethyst Fragment,Etc,20000,144,0,0,144,0,137;138;139;140;141,10,db/re/item_db_etc.yml,10
+1001600,Energy_Of_Elemental,Energy of Elemental,Etc,20000,5,0,0,5,0,150,19,db/re/item_db_etc.yml,3
+1001653,Ep21_Armor_E_Stone1,Turquoise Magic Stone,Etc,20000,12,0,0,12,0,143;152,4,db/re/item_db_etc.yml,11
+1001654,Ep21_Armor_E_Stone2,Shining Turquoise Magic Stone,Etc,20000,8,0,0,8,0,143;152,4,db/re/item_db_etc.yml,9
+1001655,Ep21_Armor_E_Stone3,Brilliant Turquoise Magic Stone,Etc,20000,6,0,0,6,0,143;152,4,db/re/item_db_etc.yml,1
+1001656,Ep21_Robe_E_Stone1,Sunset Magic Stone,Etc,20000,4,0,0,4,0,144;153,4,db/re/item_db_etc.yml,10
+1001657,Ep21_Robe_E_Stone2,Shining Sunset Magic Stone,Etc,20000,4,0,0,4,0,144;153,4,db/re/item_db_etc.yml,9
+1001658,Ep21_Robe_E_Stone3,Brilliant Sunset Magic Stone,Etc,20000,10,0,0,10,0,144;153,4,db/re/item_db_etc.yml,1
+1001659,Ep21_Shoes_E_Stone1,Crimson Magic Stone,Etc,20000,8,0,0,8,0,145;154,4,db/re/item_db_etc.yml,2
+1001660,Ep21_Shoes_E_Stone2,Shining Crimson Magic Stone,Etc,20000,4,0,0,4,0,145;154,4,db/re/item_db_etc.yml,9
+1001661,Ep21_Shoes_E_Stone3,Brilliant Crimson Magic Stone,Etc,20000,8,0,0,8,0,145;154,4,db/re/item_db_etc.yml,1
+1001662,Ep21_Acc_E_Stone1,Livid Magic Stone,Etc,20000,8,0,0,8,0,146;155,8,db/re/item_db_etc.yml,8
+1001663,Ep21_Acc_E_Stone2,Shining Livid Magic Stone,Etc,20000,8,0,0,8,0,146;155,8,db/re/item_db_etc.yml,9
+1001664,Ep21_Acc_E_Stone3,Brilliant Livid Magic Stone,Etc,20000,4,0,0,4,0,146;155,8,db/re/item_db_etc.yml,1
+1001815,Symposium_Card_RD,Symposium Certification Card (Red),Etc,20000,3,0,0,3,0,151,1,db/re/item_db_etc.yml,10
+1001816,Symposium_Card_OR,Symposium Certification Card (Orange),Etc,20000,3,0,0,3,0,151,1,db/re/item_db_etc.yml,10
+1001817,Symposium_Card_YL,Symposium Certification Card (Yellow),Etc,20000,3,0,0,3,0,151,1,db/re/item_db_etc.yml,10
+1001818,Symposium_Card_GR,Symposium Certification Card (Green),Etc,20000,3,0,0,3,0,151,1,db/re/item_db_etc.yml,10
+1001819,Symposium_Card_SB,Symposium Certification Card (Sky Blue),Etc,20000,3,0,0,3,0,151,1,db/re/item_db_etc.yml,10
+1001820,Symposium_Card_BU,Symposium Certification Card (Blue),Etc,20000,3,0,0,3,0,151,1,db/re/item_db_etc.yml,10
+1001821,Symposium_Card_PP,Symposium Certification Card (Purple),Etc,20000,3,0,0,3,0,151,1,db/re/item_db_etc.yml,10
+1001822,Symposium_Card_BL,Symposium Certification Card (Black),Etc,20000,3,0,0,3,0,151,1,db/re/item_db_etc.yml,10
+1001823,Symposium_Coin,Symposium Coin,Etc,20000,6,0,0,6,0,151,1,db/re/item_db_etc.yml,10
+1001834,Yorscalp_Serpent,Shape of Fallen Serpent,Etc,20000,4,0,2,2,0,156,2,db/re/item_db_etc.yml,9
+1001835,Yorscalp_Symbol,Symbol of Curse,Etc,20000,4,0,2,2,0,156,2,db/re/item_db_etc.yml,10
+1001836,Yorscalp_Spirit,Spirit of Yorscalp,Etc,20000,5,1,2,2,0,156,2,db/re/item_db_etc.yml,10
+1001880,E_Hunter_Bdg,Proof of Brave Hunter,Etc,20000,19,0,0,19,0,157;158;159,6,db/re/item_db_etc.yml,8
+1001881,E_Hunting_Tag,Hunting Tag,Etc,20000,19,0,0,19,0,157;158;159,6,db/re/item_db_etc.yml,4
+1001972,Ch1_Root_Coin,Root Gold Coin,Etc,20000,35,0,0,35,0,160;161;162,6,db/re/item_db_etc.yml,9
+1001996,Ch1_Mana_Ring,Mana Ring,Etc,20000,35,0,0,35,0,160;161;162,6,db/re/item_db_etc.yml,8
+1001998,Frontier_M_Stone,Boundary Magic Stone,Etc,20000,25,0,0,25,0,160;161;162,6,db/re/item_db_etc.yml,1

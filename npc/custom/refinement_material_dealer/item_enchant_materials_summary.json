@@ -1,0 +1,14 @@
+{
+  "source": "db/re/item_enchant.yml",
+  "unique_materials": 369,
+  "material_references": 6835,
+  "reset_references": 94,
+  "normal_references": 94,
+  "perfect_references": 4417,
+  "upgrade_references": 2230,
+  "enchant_material_price": 20000,
+  "page_size": 35,
+  "shop_pages": 11,
+  "original_refinement_items_preserved": 12,
+  "unresolved_materials": []
+}
