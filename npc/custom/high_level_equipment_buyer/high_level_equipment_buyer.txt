@@ -1,10 +1,10 @@
 //===== rAthena Script =======================================
-//= High-Level Equipment Buyer - Script-only Edition
+//= Special Material Buyer - Script-only Edition
 //===== Description: =========================================
 //= Uses the normal batch Sell interface.
 //= Only the explicitly listed materials receive special prices.
 //= Garden of Time materials (1001424-1001436) have a base
-//= purchase price of 10,000 Zeny. Shadowdecon/Zelunium
+//= purchase price of 50,000 Zeny. Shadowdecon/Zelunium
 //= materials (25728-25731) have a base price of 5,000 Zeny.
 //= All equipment and all other items use their native Sell value.
 //= Every transaction is force-calculated as Overcharge Lv.10
@@ -16,25 +16,25 @@
 
 prontera,161,227,4	script	Special Material Buyer#HLEB	1_M_MERCHANT,{
 	disable_items;
-	mes "[High-Level Equipment Buyer]";
+	mes "[Special Material Buyer]";
 	mes "I purchase items through the normal Sell interface.";
 	mes "Only the explicitly listed materials receive special prices.";
-	mes "Garden of Time materials: ^0000FF10,000 Zeny base each^000000.";
+	mes "Garden of Time materials: ^0000FF50,000 Zeny base each^000000.";
 	mes "Shadowdecon/Zelunium materials: ^0000FF5,000 Zeny base each^000000.";
 	next;
-	mes "[High-Level Equipment Buyer]";
+	mes "[Special Material Buyer]";
 	mes "Every sale here automatically receives ^0000FFOvercharge Lv.10 (+24%)^000000,";
 	mes "even if you do not know the skill.";
-	mes "Garden of Time materials pay ^0000FF12,400 Zeny each^000000.";
+	mes "Garden of Time materials pay ^0000FF62,000 Zeny each^000000.";
 	mes "Shadowdecon/Zelunium materials pay ^0000FF6,200 Zeny each^000000.";
 	next;
 	switch(select("Sell items:How pricing works:Close")) {
 	case 1:
-		mes "[High-Level Equipment Buyer]";
+		mes "[Special Material Buyer]";
 		mes "The Sell window cannot display this NPC's script-calculated prices.";
 		mes "It may show the database price or your own Overcharge rate.";
 		next;
-		mes "[High-Level Equipment Buyer]";
+		mes "[Special Material Buyer]";
 		mes "The final payment is always recalculated here with Overcharge Lv.10.";
 		mes "You may select many item types and quantities in one transaction.";
 		close2;
@@ -42,20 +42,20 @@ prontera,161,227,4	script	Special Material Buyer#HLEB	1_M_MERCHANT,{
 		npcshopattach "HLBuyerShop#HLEB";
 		end;
 	case 2:
-		mes "[High-Level Equipment Buyer]";
+		mes "[Special Material Buyer]";
 		mes "There is no special equipment price anymore.";
 		mes "Every weapon, armor, headgear, accessory and shadow item";
 		mes "uses its native database Sell value.";
 		next;
-		mes "[High-Level Equipment Buyer]";
+		mes "[Special Material Buyer]";
 		mes "Garden of Time materials (IDs 1001424-1001436):";
-		mes "10,000 base + Overcharge Lv.10 = ^0000FF12,400 Zeny each^000000.";
+		mes "50,000 base + Overcharge Lv.10 = ^0000FF62,000 Zeny each^000000.";
 		next;
-		mes "[High-Level Equipment Buyer]";
+		mes "[Special Material Buyer]";
 		mes "Shadowdecon/Zelunium materials (IDs 25728-25731):";
 		mes "5,000 base + Overcharge Lv.10 = ^0000FF6,200 Zeny each^000000.";
 		next;
-		mes "[High-Level Equipment Buyer]";
+		mes "[Special Material Buyer]";
 		mes "Other normally sellable items keep their database Sell value,";
 		mes "then receive the same forced Overcharge Lv.10 bonus.";
 		close;
@@ -67,7 +67,7 @@ OnSellItem:
 	disable_items;
 	.@sale_count = getarraysize(@sold_nameid);
 	if (.@sale_count <= 0) {
-		mes "[High-Level Equipment Buyer]";
+		mes "[Special Material Buyer]";
 		mes "You did not select anything.";
 		close;
 	}
@@ -87,7 +87,7 @@ OnSellItem:
 		.@quantity = @sold_quantity[.@i];
 
 		if (.@item_id <= 0 || .@quantity <= 0 || getiteminfo(.@item_id, ITEMINFO_ID) != .@item_id) {
-			mes "[High-Level Equipment Buyer]";
+			mes "[Special Material Buyer]";
 			mes "The submitted sale contains invalid item data.";
 			mes "No item was removed and no Zeny was paid.";
 			close;
@@ -96,7 +96,7 @@ OnSellItem:
 		// Pet eggs carry a separate pet database record. The native C++ shop
 		// deletes that record, while a pure script cannot safely do so.
 		if (getiteminfo(.@item_id, ITEMINFO_TYPE) == IT_PETEGG) {
-			mes "[High-Level Equipment Buyer]";
+			mes "[Special Material Buyer]";
 			mes "Pet eggs cannot be sold through this special buyer.";
 			mes "Remove the pet egg from the batch and try again.";
 			close;
@@ -114,7 +114,7 @@ OnSellItem:
 		}
 
 		if (.@base_price < 0) {
-			mes "[High-Level Equipment Buyer]";
+			mes "[Special Material Buyer]";
 			mes "One selected item has no valid Sell value.";
 			mes "No item was removed and no Zeny was paid.";
 			close;
@@ -126,7 +126,7 @@ OnSellItem:
 
 		.@line_total = .@unit_price * .@quantity;
 		if (.@line_total < 0 || .@total > MAX_ZENY - .@line_total) {
-			mes "[High-Level Equipment Buyer]";
+			mes "[Special Material Buyer]";
 			mes "The selected transaction is too large.";
 			mes "Please sell fewer items at one time.";
 			close;
@@ -190,7 +190,7 @@ OnSellItem:
 	}
 
 	if (Zeny > MAX_ZENY - .@total) {
-		mes "[High-Level Equipment Buyer]";
+		mes "[Special Material Buyer]";
 		mes "Receiving this payment would exceed the Zeny limit.";
 		mes "Spend some Zeny or sell fewer items, then try again.";
 		close;
@@ -208,7 +208,7 @@ OnSellItem:
 		if (countitem4(.@unique_item_id[.@u], .@unique_identify[.@u], .@unique_refine[.@u], .@unique_attribute[.@u],
 			.@unique_card1[.@u], .@unique_card2[.@u], .@unique_card3[.@u], .@unique_card4[.@u], .@unique_grade[.@u],
 			.@option_id[0], .@option_val[0], .@option_param[0]) < .@unique_quantity[.@u]) {
-			mes "[High-Level Equipment Buyer]";
+			mes "[Special Material Buyer]";
 			mes "Your inventory changed before the sale could be completed.";
 			mes "No item was removed and no Zeny was paid.";
 			close;
@@ -230,7 +230,7 @@ OnSellItem:
 	}
 
 	Zeny += .@total;
-	mes "[High-Level Equipment Buyer]";
+	mes "[Special Material Buyer]";
 	mes "Sale completed with forced Overcharge Lv.10.";
 	if (.@garden_quantity > 0)
 		mes "Garden materials: " + .@garden_quantity + " item(s), " + callfunc("F_InsertComma", .@garden_total) + " Zeny.";
@@ -242,11 +242,11 @@ OnSellItem:
 	close;
 
 OnInit:
-	.GardenMaterialPrice = 10000;
+	.GardenMaterialPrice = 50000;
 	.RefineMaterialPrice = 5000;
 	.OverchargePercent = 124;
 
-	// Garden of Time materials: 10,000-Zeny base price.
+	// Garden of Time materials: 50,000-Zeny base price.
 	setarray .GardenMaterialItems[0],
 		1001424,1001425,1001426,1001427,1001428,1001429,1001430,1001431,
 		1001432,1001433,1001434,1001435,1001436;
