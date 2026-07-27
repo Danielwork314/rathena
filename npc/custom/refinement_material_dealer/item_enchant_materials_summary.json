@@ -9,6 +9,8 @@
   "enchant_material_price": 20000,
   "page_size": 35,
   "shop_pages": 11,
+  "browse_groups": 3,
+  "maximum_select_length": 190,
   "original_refinement_items_preserved": 12,
   "unresolved_materials": []
 }

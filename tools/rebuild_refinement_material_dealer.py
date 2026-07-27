@@ -18,6 +18,8 @@ SUMMARY_JSON = AUDIT_DIR / "item_enchant_materials_summary.json"
 
 ENCHANT_PRICE = 20_000
 PAGE_SIZE = 35
+BROWSE_GROUP_SIZE = 4
+MAX_SELECT_LENGTH = 240
 
 # Preserve the existing refinement-material inventory and prices exactly.
 REFINEMENT_ITEMS = [
@@ -126,47 +128,76 @@ def chunks(values: list[Any], size: int) -> list[list[Any]]:
 def emit_setarray(lines: list[str], var: str, values: list[Any], chunk_size: int = 50) -> None:
     for offset, group in enumerate(chunks(values, chunk_size)):
         start = offset * chunk_size
-        rendered = []
-        for value in group:
-            rendered.append(quote_script_string(value) if isinstance(value, str) else str(value))
+        rendered = [quote_script_string(v) if isinstance(v, str) else str(v) for v in group]
         lines.append(f"\tsetarray {var}[{start}],")
-        for row in chunks(rendered, 10):
-            ending = "," if row is not chunks(rendered, 10)[-1] else ";"
-            # Avoid relying on list identity by fixing the ending afterward below.
-            lines.append("\t\t" + ",".join(row) + ",")
-        lines[-1] = lines[-1][:-1] + ";"
+        rendered_rows = chunks(rendered, 10)
+        for row_index, row in enumerate(rendered_rows):
+            suffix = ";" if row_index == len(rendered_rows) - 1 else ","
+            lines.append("\t\t" + ",".join(row) + suffix)
 
 
-def short_label(name: str, limit: int = 26) -> str:
-    clean = " ".join(name.split())
+def short_label(name: str, limit: int = 20) -> str:
+    clean = " ".join(name.split()).replace(":", "-")
     if len(clean) <= limit:
         return clean
     return clean[: limit - 3] + "..."
 
 
-def build() -> None:
-    item_index = load_item_index()
-    usage = collect_material_usage()
-    missing = sorted(set(usage) - set(item_index))
-    if missing:
-        raise SystemExit(f"Unresolved material Aegis names: {missing}")
+def make_menu(options: list[str], context: str) -> str:
+    if any(":" in option for option in options):
+        raise SystemExit(f"Internal colon in {context} option: {options}")
+    menu = ":".join(options)
+    if len(menu) > MAX_SELECT_LENGTH:
+        raise SystemExit(f"{context} menu too long: {len(menu)}")
+    return menu
 
+
+def build() -> None:
     rows: list[dict[str, Any]] = []
-    for aegis, stats in usage.items():
-        item = item_index[aegis]
-        rows.append(
-            {
-                **item,
-                "price": ENCHANT_PRICE,
-                "occurrences": stats["occurrences"],
-                "reset_uses": stats["reset"],
-                "normal_uses": stats["normal"],
-                "perfect_uses": stats["perfect"],
-                "upgrade_uses": stats["upgrade"],
-                "enchant_database_ids": ";".join(map(str, sorted(stats["enchant_ids"]))),
-                "target_item_count": len(stats["targets"]),
-            }
-        )
+    if ENCHANT_DB.exists():
+        item_index = load_item_index()
+        usage = collect_material_usage()
+        missing = sorted(set(usage) - set(item_index))
+        if missing:
+            raise SystemExit(f"Unresolved material Aegis names: {missing}")
+
+        for aegis, stats in usage.items():
+            item = item_index[aegis]
+            rows.append(
+                {
+                    **item,
+                    "price": ENCHANT_PRICE,
+                    "occurrences": stats["occurrences"],
+                    "reset_uses": stats["reset"],
+                    "normal_uses": stats["normal"],
+                    "perfect_uses": stats["perfect"],
+                    "upgrade_uses": stats["upgrade"],
+                    "enchant_database_ids": ";".join(map(str, sorted(stats["enchant_ids"]))),
+                    "target_item_count": len(stats["targets"]),
+                }
+            )
+    elif AUDIT_CSV.exists():
+        with AUDIT_CSV.open(encoding="utf-8", newline="") as handle:
+            for raw in csv.DictReader(handle):
+                rows.append(
+                    {
+                        "item_id": int(raw["item_id"]),
+                        "aegis_name": raw["aegis_name"],
+                        "display_name": raw["display_name"],
+                        "item_type": raw["item_type"],
+                        "source_file": raw["source_file"],
+                        "price": ENCHANT_PRICE,
+                        "occurrences": int(raw["occurrences"]),
+                        "reset_uses": int(raw["reset_uses"]),
+                        "normal_uses": int(raw["normal_uses"]),
+                        "perfect_uses": int(raw["perfect_uses"]),
+                        "upgrade_uses": int(raw["upgrade_uses"]),
+                        "enchant_database_ids": raw["enchant_database_ids"],
+                        "target_item_count": int(raw["target_item_count"]),
+                    }
+                )
+    else:
+        raise SystemExit("Neither db/re/item_enchant.yml nor the existing material audit CSV is available")
 
     by_name = sorted(rows, key=lambda row: (row["display_name"].casefold(), row["item_id"]))
     pages = chunks(by_name, PAGE_SIZE)
@@ -176,6 +207,22 @@ def build() -> None:
             item_page[row["item_id"]] = page_index
 
     by_id = sorted(rows, key=lambda row: row["item_id"])
+    page_labels = [
+        f"Page {i + 1} - {short_label(page[0]['display_name'])} to {short_label(page[-1]['display_name'])}"
+        for i, page in enumerate(pages)
+    ]
+    page_groups = chunks(list(range(len(pages))), BROWSE_GROUP_SIZE)
+
+    main_menu = make_menu(
+        [
+            f"Refinement materials ({len(REFINEMENT_ITEMS)})",
+            "Find enchant material by Item ID",
+            f"Browse enchant materials ({len(rows)})",
+            "Price and coverage information",
+            "Close",
+        ],
+        "main",
+    )
 
     lines: list[str] = [
         "//===== rAthena Script =======================================",
@@ -183,17 +230,18 @@ def build() -> None:
         "//===== Description: =========================================",
         "//= Preserves the original refinement-material stock and adds",
         "//= every unique Material consumed by db/re/item_enchant.yml.",
-        "//= Enchant materials are alphabetical, paged, and searchable",
-        "//= by Item ID. Generated by tools/rebuild_refinement_material_dealer.py.",
+        "//= Menus are split into safe groups; no select option contains",
+        "//= an internal colon and every select string stays below 240 chars.",
+        "//= Generated by tools/rebuild_refinement_material_dealer.py.",
         "//============================================================",
         "",
         "prontera,160,187,4\tscript\tRefinement Material Dealer#custom\t53,{",
         "\twhile (1) {",
         "\t\tclear;",
         "\t\tmes \"[Refinement Material Dealer]\";",
-        "\t\tmes \"Refinement supplies and every material currently consumed by the Item Enchant database are available here.\";",
+        "\t\tmes \"Refinement supplies and all materials currently consumed by the Item Enchant database are available here.\";",
         "\t\tnext;",
-        f"\t\tswitch(select(\"Refinement materials ({len(REFINEMENT_ITEMS)}):Find enchant material by Item ID:Browse enchant materials ({len(rows)}):Price and coverage information:Close\")) {{",
+        f"\t\tswitch(select({quote_script_string(main_menu)})) {{",
         "\t\tcase 1:",
         "\t\t\tclose2;",
         "\t\t\tcallshop \"RMD_REFINE\",1;",
@@ -207,11 +255,11 @@ def build() -> None:
         "\t\tcase 4:",
         "\t\t\tmes \"[Refinement Material Dealer]\";",
         f"\t\t\tmes \"Enchant-material price: {ENCHANT_PRICE:,} Zeny each.\";",
-        f"\t\t\tmes \"Coverage: {len(rows)} unique Material entries referenced by Common, Perfect, Upgrade, or Reset operations in db/re/item_enchant.yml.\";",
-        "\t\t\tmes \"Target equipment and enchant-result cards are not included unless the database consumes them as a Material.\";",
+        f"\t\t\tmes \"Coverage: {len(rows)} unique materials from Common, Perfect, Upgrade, and Reset entries.\";",
+        "\t\t\tmes \"The list is alphabetical and divided into small shop pages for reliable client display.\";",
         "\t\t\tnext;",
         "\t\t\tbreak;",
-        "\t\tdefault:",
+        "\t\tcase 5:",
         "\t\t\tclose;",
         "\t\t}",
         "\t}",
@@ -222,11 +270,6 @@ def build() -> None:
         f"\t$@RMD_PageCount = {len(pages)};",
     ]
 
-    emit_setarray(lines, "$@RMD_PageShop$", [f"RMD_E{i+1:02d}" for i in range(len(pages))])
-    page_labels = [
-        f"Page {i+1}: {short_label(page[0]['display_name'])} - {short_label(page[-1]['display_name'])}"
-        for i, page in enumerate(pages)
-    ]
     emit_setarray(lines, "$@RMD_PageLabel$", page_labels, 30)
     emit_setarray(lines, "$@RMD_ItemId", [row["item_id"] for row in by_id])
     emit_setarray(lines, "$@RMD_ItemPage", [item_page[row["item_id"]] for row in by_id])
@@ -235,11 +278,12 @@ def build() -> None:
     lines += [
         "function\tscript\tF_RMD_SEARCH\t{",
         "\tmes \"[Enchant Material Search]\";",
-        "\tmes \"Enter the numeric Item ID of a material.\";",
+        "\tmes \"Enter the numeric Item ID.\";",
         "\tinput .@item_id;",
-        "\tif (.@item_id <= 0 || getiteminfo(.@item_id, ITEMINFO_ID) != .@item_id) {",
+        "\tif (.@item_id <= 0) {",
         "\t\tmes \"[Enchant Material Search]\";",
-        "\t\tmes \"That is not a valid server Item ID.\";",
+        "\t\tmes \"The Item ID must be greater than zero.\";",
+        "\t\tnext;",
         "\t\treturn;",
         "\t}",
         "\t.@low = 0;",
@@ -258,43 +302,95 @@ def build() -> None:
         "\t}",
         "\tmes \"[Enchant Material Search]\";",
         "\tif (.@found < 0) {",
-        "\t\tmes mesitemlink(.@item_id) + \" is not consumed as a Material by the current Item Enchant database.\";",
+        "\t\tmes \"Item ID \" + .@item_id + \" is not sold by this dealer.\";",
+        "\t\tnext;",
         "\t\treturn;",
         "\t}",
         "\t.@page = $@RMD_ItemPage[.@found];",
         "\tmes mesitemlink(.@item_id);",
         f"\tmes \"Price: {ENCHANT_PRICE:,} Zeny each.\";",
-        "\tmes \"Shop: \" + $@RMD_PageLabel$[.@page];",
+        "\tmes \"Location: \" + $@RMD_PageLabel$[.@page];",
         "\tnext;",
-        "\tif (select(\"Open exact shop page:Back\") == 1) {",
-        "\t\tclose2;",
-        "\t\tcallshop($@RMD_PageShop$[.@page],1);",
+        "\tif (select(\"Open shop page:Back\") == 1) {",
+        "\t\tcallfunc \"F_RMD_OPEN_PAGE\", .@page;",
         "\t\tend;",
         "\t}",
         "\treturn;",
         "}",
         "",
-        "function\tscript\tF_RMD_BROWSE\t{",
-        "\tmes \"[Enchant Material Browser]\";",
-        "\tmes \"Materials are sorted by their displayed item name.\";",
-        "\tnext;",
+        "function\tscript\tF_RMD_OPEN_PAGE\t{",
+        "\t.@page = getarg(0, -1);",
+        "\tclose2;",
+        "\tswitch (.@page) {",
     ]
-    browse_options = page_labels + ["Back"]
-    lines.append("\tswitch(select(" + quote_script_string(":".join(browse_options)) + ")) {")
-    for i in range(len(pages)):
+    for page_index in range(len(pages)):
         lines += [
-            f"\tcase {i+1}:",
-            "\t\tclose2;",
-            f"\t\tcallshop \"RMD_E{i+1:02d}\",1;",
+            f"\tcase {page_index}:",
+            f"\t\tcallshop \"RMD_E{page_index + 1:02d}\",1;",
             "\t\tend;",
         ]
-    lines += [f"\tcase {len(pages)+1}:", "\t\treturn;", "\t}", "\treturn;", "}", ""]
+    lines += ["\t}", "\tend;", "}", ""]
+
+    group_options = [
+        f"Pages {group[0] + 1}-{group[-1] + 1}" if len(group) > 1 else f"Page {group[0] + 1}"
+        for group in page_groups
+    ] + ["Back"]
+    group_menu = make_menu(group_options, "browse group")
+    lines += [
+        "function\tscript\tF_RMD_BROWSE\t{",
+        "\twhile (1) {",
+        "\t\tclear;",
+        "\t\tmes \"[Enchant Material Browser]\";",
+        "\t\tmes \"Materials are sorted alphabetically. Choose a page group.\";",
+        "\t\tnext;",
+        f"\t\tswitch(select({quote_script_string(group_menu)})) {{",
+    ]
+    for group_index in range(len(page_groups)):
+        lines += [
+            f"\t\tcase {group_index + 1}:",
+            f"\t\t\tcallfunc \"F_RMD_BROWSE_GROUP_{group_index + 1}\";",
+            "\t\t\tbreak;",
+        ]
+    lines += [
+        f"\t\tcase {len(page_groups) + 1}:",
+        "\t\t\treturn;",
+        "\t\t}",
+        "\t}",
+        "\treturn;",
+        "}",
+        "",
+    ]
+
+    for group_index, group in enumerate(page_groups):
+        submenu_options = [page_labels[page_index] for page_index in group] + ["Back"]
+        submenu = make_menu(submenu_options, f"browse submenu {group_index + 1}")
+        lines += [
+            f"function\tscript\tF_RMD_BROWSE_GROUP_{group_index + 1}\t{{",
+            "\tmes \"[Enchant Material Browser]\";",
+            "\tmes \"Choose the shop page to open.\";",
+            "\tnext;",
+            f"\tswitch(select({quote_script_string(submenu)})) {{",
+        ]
+        for option_index, page_index in enumerate(group):
+            lines += [
+                f"\tcase {option_index + 1}:",
+                f"\t\tcallfunc \"F_RMD_OPEN_PAGE\", {page_index};",
+                "\t\tend;",
+            ]
+        lines += [
+            f"\tcase {len(group) + 1}:",
+            "\t\treturn;",
+            "\t}",
+            "\treturn;",
+            "}",
+            "",
+        ]
 
     refine_stock = ",".join(f"{item_id}:{price}" for item_id, price in REFINEMENT_ITEMS)
     lines.append(f"-\tshop\tRMD_REFINE\t-1,{refine_stock}")
-    for i, page in enumerate(pages):
+    for page_index, page in enumerate(pages):
         stock = ",".join(f"{row['item_id']}:{ENCHANT_PRICE}" for row in page)
-        lines.append(f"-\tshop\tRMD_E{i+1:02d}\t-1,{stock}")
+        lines.append(f"-\tshop\tRMD_E{page_index + 1:02d}\t-1,{stock}")
     lines.append("")
 
     DEALER.write_text("\n".join(lines), encoding="utf-8")
@@ -335,6 +431,12 @@ def build() -> None:
         "enchant_material_price": ENCHANT_PRICE,
         "page_size": PAGE_SIZE,
         "shop_pages": len(pages),
+        "browse_groups": len(page_groups),
+        "maximum_select_length": max(
+            len(main_menu),
+            len(group_menu),
+            *(len(make_menu([page_labels[i] for i in group] + ["Back"], "summary")) for group in page_groups),
+        ),
         "original_refinement_items_preserved": len(REFINEMENT_ITEMS),
         "unresolved_materials": [],
     }

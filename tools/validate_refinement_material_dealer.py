@@ -15,6 +15,7 @@ SCRIPT = ROOT / "npc/custom/refinement_material_dealer.txt"
 AUDIT = ROOT / "npc/custom/refinement_material_dealer/item_enchant_materials.csv"
 SUMMARY = ROOT / "npc/custom/refinement_material_dealer/item_enchant_materials_summary.json"
 EXPECTED_PRICE = 20_000
+MAX_SELECT_LENGTH = 240
 EXPECTED_REFINEMENT = {
     7619: 10_000,
     7620: 10_000,
@@ -31,7 +32,9 @@ EXPECTED_REFINEMENT = {
 }
 
 
-def load_materials() -> set[str]:
+def load_materials() -> set[str] | None:
+    if not SOURCE.exists():
+        return None
     data = yaml.safe_load(SOURCE.read_text(encoding="utf-8")) or {}
     result: set[str] = set()
 
@@ -50,86 +53,161 @@ def load_materials() -> set[str]:
     return result
 
 
-def parse_stock(line: str) -> dict[int, int]:
-    stock = line.split("\t-1,", 1)[1]
+def parse_stock(raw: str) -> dict[int, int]:
     result: dict[int, int] = {}
-    for token in stock.split(","):
-        item_id, price = token.split(":")
+    for token in raw.split(","):
+        item_id, price = token.split(":", 1)
         result[int(item_id)] = int(price)
     return result
 
 
+def parse_array(text: str, variable: str) -> list[int]:
+    pattern = re.compile(
+        rf"setarray {re.escape(variable)}\[(\d+)\],\s*(.*?);",
+        re.S,
+    )
+    values: dict[int, int] = {}
+    for match in pattern.finditer(text):
+        offset = int(match.group(1))
+        body_values = [int(value) for value in re.findall(r"\b\d+\b", match.group(2))]
+        for index, value in enumerate(body_values):
+            absolute = offset + index
+            assert absolute not in values, f"Overlapping {variable} array index {absolute}"
+            values[absolute] = value
+    assert values, f"No values found for {variable}"
+    assert sorted(values) == list(range(max(values) + 1)), f"Gaps in {variable} array"
+    return [values[index] for index in range(max(values) + 1)]
+
+
+def assert_balanced(text: str) -> None:
+    # Strip line comments and quoted strings before delimiter checks.
+    cleaned_lines = []
+    for line in text.splitlines():
+        if "//" in line:
+            line = line.split("//", 1)[0]
+        cleaned_lines.append(line)
+    cleaned = "\n".join(cleaned_lines)
+    cleaned = re.sub(r'"(?:\\.|[^"\\])*"', '""', cleaned)
+    for opener, closer in [("{", "}"), ("(", ")")]:
+        depth = 0
+        for char in cleaned:
+            if char == opener:
+                depth += 1
+            elif char == closer:
+                depth -= 1
+                assert depth >= 0, f"Unexpected {closer}"
+        assert depth == 0, f"Unbalanced {opener}{closer}: depth={depth}"
+
+
 def main() -> None:
     text = SCRIPT.read_text(encoding="utf-8")
-    assert "-1,shop\tRMD_" not in text, "Invalid hidden-shop map syntax remains"
     with AUDIT.open(encoding="utf-8", newline="") as handle:
         rows = list(csv.DictReader(handle))
 
+    assert "-1,shop" not in text, "Invalid -1,shop declaration remains"
+    assert_balanced(text)
+
     source_materials = load_materials()
     audit_aegis = {row["aegis_name"] for row in rows}
+    if source_materials is not None:
+        assert source_materials == audit_aegis, (
+            f"Material set mismatch: source={len(source_materials)} audit={len(audit_aegis)}"
+        )
+
     audit_ids = [int(row["item_id"]) for row in rows]
-    assert source_materials == audit_aegis, (
-        f"Material set mismatch: source={len(source_materials)} audit={len(audit_aegis)}"
-    )
     assert len(audit_ids) == len(set(audit_ids)) == 369
     assert all(int(row["price"]) == EXPECTED_PRICE for row in rows)
 
-    shop_lines = [line for line in text.splitlines() if line.startswith("-\tshop\tRMD_E")]
-    assert len(shop_lines) == 11
-    shop_ids: list[int] = []
-    for line in shop_lines:
-        stock = parse_stock(line)
-        assert 1 <= len(stock) <= 35
+    shop_pattern = re.compile(r"^-\tshop\t(RMD_(?:REFINE|E\d{2}))\t-1,(.+)$", re.M)
+    shop_defs = {name: parse_stock(stock) for name, stock in shop_pattern.findall(text)}
+    expected_names = {"RMD_REFINE", *(f"RMD_E{i:02d}" for i in range(1, 12))}
+    assert set(shop_defs) == expected_names, f"Shop definitions mismatch: {sorted(shop_defs)}"
+    assert shop_defs["RMD_REFINE"] == EXPECTED_REFINEMENT
+
+    page_ids: list[int] = []
+    for page in range(1, 12):
+        name = f"RMD_E{page:02d}"
+        stock = shop_defs[name]
+        assert 1 <= len(stock) <= 35, f"{name} has {len(stock)} items"
         assert all(price == EXPECTED_PRICE for price in stock.values())
-        shop_ids.extend(stock)
-    assert len(shop_ids) == len(set(shop_ids)) == 369
-    assert set(shop_ids) == set(audit_ids)
+        page_ids.extend(stock)
+    assert len(page_ids) == len(set(page_ids)) == 369
+    assert set(page_ids) == set(audit_ids)
 
-    refine_line = next(line for line in text.splitlines() if line.startswith("-\tshop\tRMD_REFINE"))
-    assert parse_stock(refine_line) == EXPECTED_REFINEMENT
+    calls = re.findall(r'callshop\s+"(RMD_(?:REFINE|E\d{2}))"\s*,\s*1', text)
+    assert set(calls) == expected_names, f"callshop targets mismatch: {sorted(set(calls))}"
 
-    defined_shops = {
-        line.split("\t")[2]
-        for line in text.splitlines()
-        if line.startswith("-\tshop\tRMD_")
-    }
-    called_shops = set(re.findall(r'callshop(?:\s+|\()\"?(RMD_[A-Z0-9]+)', text))
-    # Dynamic search calls resolve through the page-shop array, so validate that array separately.
-    expected_shops = {"RMD_REFINE"} | {f"RMD_E{i:02d}" for i in range(1, 12)}
-    assert defined_shops == expected_shops
-    assert called_shops <= defined_shops, f"Undefined callshop targets: {called_shops - defined_shops}"
-
-    # Search arrays must contain every ID once and be sorted for binary search.
-    id_block = re.search(
-        r"setarray \$@RMD_ItemId\[0\],(?P<body>.*?)setarray \$@RMD_ItemPage\[0\],",
+    dispatcher = re.search(
+        r"function\tscript\tF_RMD_OPEN_PAGE\t\{(?P<body>.*?)\n\}",
         text,
         re.S,
     )
-    assert id_block
-    ids = [int(value) for value in re.findall(r"\b\d+\b", id_block.group("body"))]
-    # Remove the numeric offsets from subsequent setarray declarations.
-    ids = [value for value in ids if value not in {50, 100, 150, 200, 250, 300, 350}]
+    assert dispatcher, "Missing F_RMD_OPEN_PAGE"
+    mappings = re.findall(
+        r"case\s+(\d+):\s*callshop\s+\"(RMD_E\d{2})\",1;",
+        dispatcher.group("body"),
+        re.S,
+    )
+    assert mappings == [(str(i), f"RMD_E{i + 1:02d}") for i in range(11)], mappings
+
+    select_strings = re.findall(r'select\("([^"\\]*(?:\\.[^"\\]*)*)"\)', text)
+    assert select_strings, "No select menus found"
+    lengths = [len(value) for value in select_strings]
+    assert max(lengths) <= MAX_SELECT_LENGTH, f"select too long: {max(lengths)}"
+    for menu in select_strings:
+        options = menu.split(":")
+        assert all(option.strip() for option in options), f"Empty menu option: {menu}"
+
+    page_menus = [menu for menu in select_strings if menu.startswith("Page ")]
+    assert len(page_menus) == 3, f"Expected 3 page submenus, got {len(page_menus)}"
+    for menu in page_menus:
+        options = menu.split(":")
+        assert options[-1] == "Back"
+        assert all(option.startswith("Page ") for option in options[:-1])
+    assert [len(menu.split(":")) for menu in page_menus] == [5, 5, 4]
+
+    group_menu = next(menu for menu in select_strings if menu.startswith("Pages 1-4"))
+    assert group_menu.split(":") == ["Pages 1-4", "Pages 5-8", "Pages 9-11", "Back"]
+
+    ids = parse_array(text, "$@RMD_ItemId")
+    pages = parse_array(text, "$@RMD_ItemPage")
     assert ids == sorted(audit_ids), f"Search ID array mismatch: {len(ids)}"
+    assert len(pages) == len(ids) == 369
+    assert all(0 <= page <= 10 for page in pages)
+
+    expected_page_by_id = {
+        int(row["item_id"]): int(row["shop_page"]) - 1
+        for row in rows
+    }
+    assert pages == [expected_page_by_id[item_id] for item_id in ids]
+
+    function_defs = re.findall(r"^function\tscript\t([A-Za-z0-9_]+)\t\{", text, re.M)
+    assert len(function_defs) == len(set(function_defs))
+    expected_functions = {
+        "F_RMD_SEARCH",
+        "F_RMD_OPEN_PAGE",
+        "F_RMD_BROWSE",
+        "F_RMD_BROWSE_GROUP_1",
+        "F_RMD_BROWSE_GROUP_2",
+        "F_RMD_BROWSE_GROUP_3",
+    }
+    assert set(function_defs) == expected_functions
 
     summary = json.loads(SUMMARY.read_text(encoding="utf-8"))
     assert summary["unique_materials"] == 369
     assert summary["shop_pages"] == 11
+    assert summary["browse_groups"] == 3
+    assert summary["maximum_select_length"] == max(lengths)
     assert summary["unresolved_materials"] == []
 
-    max_shop_line = max(len(line) for line in shop_lines)
-    browse_start = text.index('function\tscript\tF_RMD_BROWSE')
-    browse_switch = re.search(r'switch\(select\("(.*?)"\)\)', text[browse_start:], re.S)
-    assert browse_switch
-    max_menu_option = max(len(option) for option in browse_switch.group(1).split(':'))
-
-    print("PASS")
+    print("REFINEMENT MATERIAL DEALER VALIDATION PASSED")
     print(f"unique enchant materials: {len(audit_ids)}")
-    print(f"item-enchant material references: {summary['material_references']}")
-    print(f"shop pages: {len(shop_lines)}")
-    print(f"maximum items per page: {max(len(parse_stock(line)) for line in shop_lines)}")
-    print(f"maximum hidden-shop line length: {max_shop_line}")
-    print(f"maximum browser menu option length: {max_menu_option}")
-    print(f"original refinement materials preserved: {len(EXPECTED_REFINEMENT)}")
+    print(f"shop pages: {len(page_ids) // 35 + (1 if len(page_ids) % 35 else 0)}")
+    print(f"registered hidden shops: {len(shop_defs)}")
+    print(f"maximum select length: {max(lengths)}")
+    print("page submenu option counts: 5, 5, 4")
+    print("static page dispatcher mappings: 11")
+    print(f"refinement materials preserved: {len(EXPECTED_REFINEMENT)}")
     print(f"enchant material unit price: {EXPECTED_PRICE}")
 
 
