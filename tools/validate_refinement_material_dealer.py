@@ -61,6 +61,7 @@ def parse_stock(line: str) -> dict[int, int]:
 
 def main() -> None:
     text = SCRIPT.read_text(encoding="utf-8")
+    assert "-1,shop\tRMD_" not in text, "Invalid hidden-shop map syntax remains"
     with AUDIT.open(encoding="utf-8", newline="") as handle:
         rows = list(csv.DictReader(handle))
 
@@ -73,7 +74,7 @@ def main() -> None:
     assert len(audit_ids) == len(set(audit_ids)) == 369
     assert all(int(row["price"]) == EXPECTED_PRICE for row in rows)
 
-    shop_lines = [line for line in text.splitlines() if line.startswith("-1,shop\tRMD_E")]
+    shop_lines = [line for line in text.splitlines() if line.startswith("-\tshop\tRMD_E")]
     assert len(shop_lines) == 11
     shop_ids: list[int] = []
     for line in shop_lines:
@@ -84,8 +85,19 @@ def main() -> None:
     assert len(shop_ids) == len(set(shop_ids)) == 369
     assert set(shop_ids) == set(audit_ids)
 
-    refine_line = next(line for line in text.splitlines() if line.startswith("-1,shop\tRMD_REFINE"))
+    refine_line = next(line for line in text.splitlines() if line.startswith("-\tshop\tRMD_REFINE"))
     assert parse_stock(refine_line) == EXPECTED_REFINEMENT
+
+    defined_shops = {
+        line.split("\t")[2]
+        for line in text.splitlines()
+        if line.startswith("-\tshop\tRMD_")
+    }
+    called_shops = set(re.findall(r'callshop(?:\s+|\()\"?(RMD_[A-Z0-9]+)', text))
+    # Dynamic search calls resolve through the page-shop array, so validate that array separately.
+    expected_shops = {"RMD_REFINE"} | {f"RMD_E{i:02d}" for i in range(1, 12)}
+    assert defined_shops == expected_shops
+    assert called_shops <= defined_shops, f"Undefined callshop targets: {called_shops - defined_shops}"
 
     # Search arrays must contain every ID once and be sorted for binary search.
     id_block = re.search(

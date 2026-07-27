@@ -291,10 +291,10 @@ def build() -> None:
     lines += [f"\tcase {len(pages)+1}:", "\t\treturn;", "\t}", "\treturn;", "}", ""]
 
     refine_stock = ",".join(f"{item_id}:{price}" for item_id, price in REFINEMENT_ITEMS)
-    lines.append(f"-1,shop\tRMD_REFINE\t-1,{refine_stock}")
+    lines.append(f"-\tshop\tRMD_REFINE\t-1,{refine_stock}")
     for i, page in enumerate(pages):
         stock = ",".join(f"{row['item_id']}:{ENCHANT_PRICE}" for row in page)
-        lines.append(f"-1,shop\tRMD_E{i+1:02d}\t-1,{stock}")
+        lines.append(f"-\tshop\tRMD_E{i+1:02d}\t-1,{stock}")
     lines.append("")
 
     DEALER.write_text("\n".join(lines), encoding="utf-8")
