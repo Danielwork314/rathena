@@ -34527,214 +34527,54 @@ Body:
         Enchants:
           - Enchantgrade: 0
             Items:
-              - Item: Strength1
-                Chance: 11500
-              - Item: Strength2
-                Chance: 8000
-              - Item: Strength3
-                Chance: 3500
-              - Item: Strength4
-                Chance: 1500
               - Item: Strength5
-                Chance: 500
-              - Item: Inteligence1
-                Chance: 11500
-              - Item: Inteligence2
-                Chance: 8000
-              - Item: Inteligence3
-                Chance: 3500
-              - Item: Inteligence4
-                Chance: 1500
+                Chance: 25000
               - Item: Inteligence5
-                Chance: 500
-              - Item: Vitality1
-                Chance: 11500
-              - Item: Vitality2
-                Chance: 8000
-              - Item: Vitality3
-                Chance: 3500
-              - Item: Vitality4
-                Chance: 1500
+                Chance: 25000
               - Item: Vitality5
-                Chance: 500
-              - Item: Luck1
-                Chance: 11500
-              - Item: Luck2
-                Chance: 8000
-              - Item: Luck3
-                Chance: 3500
-              - Item: Luck4
-                Chance: 1500
+                Chance: 25000
               - Item: Luck5
-                Chance: 500
+                Chance: 25000
           - Enchantgrade: 1
             Items:
-              - Item: Strength1
-                Chance: 11500
-              - Item: Strength2
-                Chance: 8000
-              - Item: Strength3
-                Chance: 3500
-              - Item: Strength4
-                Chance: 1500
               - Item: Strength5
-                Chance: 500
-              - Item: Inteligence1
-                Chance: 11500
-              - Item: Inteligence2
-                Chance: 8000
-              - Item: Inteligence3
-                Chance: 3500
-              - Item: Inteligence4
-                Chance: 1500
+                Chance: 25000
               - Item: Inteligence5
-                Chance: 500
-              - Item: Vitality1
-                Chance: 11500
-              - Item: Vitality2
-                Chance: 8000
-              - Item: Vitality3
-                Chance: 3500
-              - Item: Vitality4
-                Chance: 1500
+                Chance: 25000
               - Item: Vitality5
-                Chance: 500
-              - Item: Luck1
-                Chance: 11500
-              - Item: Luck2
-                Chance: 8000
-              - Item: Luck3
-                Chance: 3500
-              - Item: Luck4
-                Chance: 1500
+                Chance: 25000
               - Item: Luck5
-                Chance: 500
+                Chance: 25000
           - Enchantgrade: 2
             Items:
-              - Item: Strength1
-                Chance: 11500
-              - Item: Strength2
-                Chance: 8000
-              - Item: Strength3
-                Chance: 3500
-              - Item: Strength4
-                Chance: 1500
               - Item: Strength5
-                Chance: 500
-              - Item: Inteligence1
-                Chance: 11500
-              - Item: Inteligence2
-                Chance: 8000
-              - Item: Inteligence3
-                Chance: 3500
-              - Item: Inteligence4
-                Chance: 1500
+                Chance: 25000
               - Item: Inteligence5
-                Chance: 500
-              - Item: Vitality1
-                Chance: 11500
-              - Item: Vitality2
-                Chance: 8000
-              - Item: Vitality3
-                Chance: 3500
-              - Item: Vitality4
-                Chance: 1500
+                Chance: 25000
               - Item: Vitality5
-                Chance: 500
-              - Item: Luck1
-                Chance: 11500
-              - Item: Luck2
-                Chance: 8000
-              - Item: Luck3
-                Chance: 3500
-              - Item: Luck4
-                Chance: 1500
+                Chance: 25000
               - Item: Luck5
-                Chance: 500
+                Chance: 25000
           - Enchantgrade: 3
             Items:
-              - Item: Strength1
-                Chance: 11500
-              - Item: Strength2
-                Chance: 8000
-              - Item: Strength3
-                Chance: 3500
-              - Item: Strength4
-                Chance: 1500
               - Item: Strength5
-                Chance: 500
-              - Item: Inteligence1
-                Chance: 11500
-              - Item: Inteligence2
-                Chance: 8000
-              - Item: Inteligence3
-                Chance: 3500
-              - Item: Inteligence4
-                Chance: 1500
+                Chance: 25000
               - Item: Inteligence5
-                Chance: 500
-              - Item: Vitality1
-                Chance: 11500
-              - Item: Vitality2
-                Chance: 8000
-              - Item: Vitality3
-                Chance: 3500
-              - Item: Vitality4
-                Chance: 1500
+                Chance: 25000
               - Item: Vitality5
-                Chance: 500
-              - Item: Luck1
-                Chance: 11500
-              - Item: Luck2
-                Chance: 8000
-              - Item: Luck3
-                Chance: 3500
-              - Item: Luck4
-                Chance: 1500
+                Chance: 25000
               - Item: Luck5
-                Chance: 500
+                Chance: 25000
           - Enchantgrade: 4
             Items:
-              - Item: Strength1
-                Chance: 11500
-              - Item: Strength2
-                Chance: 8000
-              - Item: Strength3
-                Chance: 3500
-              - Item: Strength4
-                Chance: 1500
               - Item: Strength5
-                Chance: 500
-              - Item: Inteligence1
-                Chance: 11500
-              - Item: Inteligence2
-                Chance: 8000
-              - Item: Inteligence3
-                Chance: 3500
-              - Item: Inteligence4
-                Chance: 1500
+                Chance: 25000
               - Item: Inteligence5
-                Chance: 500
-              - Item: Vitality1
-                Chance: 11500
-              - Item: Vitality2
-                Chance: 8000
-              - Item: Vitality3
-                Chance: 3500
-              - Item: Vitality4
-                Chance: 1500
+                Chance: 25000
               - Item: Vitality5
-                Chance: 500
-              - Item: Luck1
-                Chance: 11500
-              - Item: Luck2
-                Chance: 8000
-              - Item: Luck3
-                Chance: 3500
-              - Item: Luck4
-                Chance: 1500
+                Chance: 25000
               - Item: Luck5
-                Chance: 500
+                Chance: 25000
       - Slot: 2
         Price: 300000
         Materials:
@@ -34747,214 +34587,64 @@ Body:
         Enchants:
           - Enchantgrade: 0
             Items:
-              - Item: Yorscalp_Str1
-                Chance: 11400
-              - Item: Yorscalp_Str2
-                Chance: 6000
-              - Item: Yorscalp_Str3
-                Chance: 2500
               - Item: Yorscalp_Str4
-                Chance: 100
-              - Item: Yorscalp_Int1
-                Chance: 11400
-              - Item: Yorscalp_Int2
-                Chance: 6000
-              - Item: Yorscalp_Int3
-                Chance: 2500
+                Chance: 20000
               - Item: Yorscalp_Int4
-                Chance: 100
-              - Item: Yorscalp_Smart1
-                Chance: 11400
-              - Item: Yorscalp_Smart2
-                Chance: 6000
-              - Item: Yorscalp_Smart3
-                Chance: 2500
+                Chance: 20000
               - Item: Yorscalp_Smart4
-                Chance: 100
-              - Item: Yorscalp_Speed1
-                Chance: 11400
-              - Item: Yorscalp_Speed2
-                Chance: 6000
-              - Item: Yorscalp_Speed3
-                Chance: 2500
+                Chance: 20000
               - Item: Yorscalp_Speed4
-                Chance: 100
-              - Item: Yorscalp_Def1
-                Chance: 11400
-              - Item: Yorscalp_Def2
-                Chance: 6000
-              - Item: Yorscalp_Def3
-                Chance: 2500
+                Chance: 20000
               - Item: Yorscalp_Def4
-                Chance: 100
+                Chance: 20000
           - Enchantgrade: 1
             Items:
-              - Item: Yorscalp_Str1
-                Chance: 11400
-              - Item: Yorscalp_Str2
-                Chance: 6000
-              - Item: Yorscalp_Str3
-                Chance: 2500
               - Item: Yorscalp_Str4
-                Chance: 100
-              - Item: Yorscalp_Int1
-                Chance: 11400
-              - Item: Yorscalp_Int2
-                Chance: 6000
-              - Item: Yorscalp_Int3
-                Chance: 2500
+                Chance: 20000
               - Item: Yorscalp_Int4
-                Chance: 100
-              - Item: Yorscalp_Smart1
-                Chance: 11400
-              - Item: Yorscalp_Smart2
-                Chance: 6000
-              - Item: Yorscalp_Smart3
-                Chance: 2500
+                Chance: 20000
               - Item: Yorscalp_Smart4
-                Chance: 100
-              - Item: Yorscalp_Speed1
-                Chance: 11400
-              - Item: Yorscalp_Speed2
-                Chance: 6000
-              - Item: Yorscalp_Speed3
-                Chance: 2500
+                Chance: 20000
               - Item: Yorscalp_Speed4
-                Chance: 100
-              - Item: Yorscalp_Def1
-                Chance: 11400
-              - Item: Yorscalp_Def2
-                Chance: 6000
-              - Item: Yorscalp_Def3
-                Chance: 2500
+                Chance: 20000
               - Item: Yorscalp_Def4
-                Chance: 100
+                Chance: 20000
           - Enchantgrade: 2
             Items:
-              - Item: Yorscalp_Str1
-                Chance: 11400
-              - Item: Yorscalp_Str2
-                Chance: 6000
-              - Item: Yorscalp_Str3
-                Chance: 2500
               - Item: Yorscalp_Str4
-                Chance: 100
-              - Item: Yorscalp_Int1
-                Chance: 11400
-              - Item: Yorscalp_Int2
-                Chance: 6000
-              - Item: Yorscalp_Int3
-                Chance: 2500
+                Chance: 20000
               - Item: Yorscalp_Int4
-                Chance: 100
-              - Item: Yorscalp_Smart1
-                Chance: 11400
-              - Item: Yorscalp_Smart2
-                Chance: 6000
-              - Item: Yorscalp_Smart3
-                Chance: 2500
+                Chance: 20000
               - Item: Yorscalp_Smart4
-                Chance: 100
-              - Item: Yorscalp_Speed1
-                Chance: 11400
-              - Item: Yorscalp_Speed2
-                Chance: 6000
-              - Item: Yorscalp_Speed3
-                Chance: 2500
+                Chance: 20000
               - Item: Yorscalp_Speed4
-                Chance: 100
-              - Item: Yorscalp_Def1
-                Chance: 11400
-              - Item: Yorscalp_Def2
-                Chance: 6000
-              - Item: Yorscalp_Def3
-                Chance: 2500
+                Chance: 20000
               - Item: Yorscalp_Def4
-                Chance: 100
+                Chance: 20000
           - Enchantgrade: 3
             Items:
-              - Item: Yorscalp_Str1
-                Chance: 11400
-              - Item: Yorscalp_Str2
-                Chance: 6000
-              - Item: Yorscalp_Str3
-                Chance: 2500
               - Item: Yorscalp_Str4
-                Chance: 100
-              - Item: Yorscalp_Int1
-                Chance: 11400
-              - Item: Yorscalp_Int2
-                Chance: 6000
-              - Item: Yorscalp_Int3
-                Chance: 2500
+                Chance: 20000
               - Item: Yorscalp_Int4
-                Chance: 100
-              - Item: Yorscalp_Smart1
-                Chance: 11400
-              - Item: Yorscalp_Smart2
-                Chance: 6000
-              - Item: Yorscalp_Smart3
-                Chance: 2500
+                Chance: 20000
               - Item: Yorscalp_Smart4
-                Chance: 100
-              - Item: Yorscalp_Speed1
-                Chance: 11400
-              - Item: Yorscalp_Speed2
-                Chance: 6000
-              - Item: Yorscalp_Speed3
-                Chance: 2500
+                Chance: 20000
               - Item: Yorscalp_Speed4
-                Chance: 100
-              - Item: Yorscalp_Def1
-                Chance: 11400
-              - Item: Yorscalp_Def2
-                Chance: 6000
-              - Item: Yorscalp_Def3
-                Chance: 2500
+                Chance: 20000
               - Item: Yorscalp_Def4
-                Chance: 100
+                Chance: 20000
           - Enchantgrade: 4
             Items:
-              - Item: Yorscalp_Str1
-                Chance: 11400
-              - Item: Yorscalp_Str2
-                Chance: 6000
-              - Item: Yorscalp_Str3
-                Chance: 2500
               - Item: Yorscalp_Str4
-                Chance: 100
-              - Item: Yorscalp_Int1
-                Chance: 11400
-              - Item: Yorscalp_Int2
-                Chance: 6000
-              - Item: Yorscalp_Int3
-                Chance: 2500
+                Chance: 20000
               - Item: Yorscalp_Int4
-                Chance: 100
-              - Item: Yorscalp_Smart1
-                Chance: 11400
-              - Item: Yorscalp_Smart2
-                Chance: 6000
-              - Item: Yorscalp_Smart3
-                Chance: 2500
+                Chance: 20000
               - Item: Yorscalp_Smart4
-                Chance: 100
-              - Item: Yorscalp_Speed1
-                Chance: 11400
-              - Item: Yorscalp_Speed2
-                Chance: 6000
-              - Item: Yorscalp_Speed3
-                Chance: 2500
+                Chance: 20000
               - Item: Yorscalp_Speed4
-                Chance: 100
-              - Item: Yorscalp_Def1
-                Chance: 11400
-              - Item: Yorscalp_Def2
-                Chance: 6000
-              - Item: Yorscalp_Def3
-                Chance: 2500
+                Chance: 20000
               - Item: Yorscalp_Def4
-                Chance: 100
+                Chance: 20000
       - Slot: 1
         PerfectEnchants:
           - Item: Arbiter_Warrant
