@@ -1,0 +1,38 @@
+{
+  "source_database": "db/re/mob_db.yml",
+  "source_database_total_entries": 2675,
+  "mvp_detection_rule": "Modes.Mvp: true",
+  "database_mvp_id_count": 190,
+  "database_unique_visible_name_count": 160,
+  "duplicate_visible_name_group_count": 26,
+  "mvp_room_before_count": 151,
+  "mvp_arena_before_count": 151,
+  "missing_from_room_before_count": 39,
+  "missing_from_arena_before_count": 39,
+  "mvp_room_after_count": 190,
+  "mvp_arena_after_count": 190,
+  "missing_from_room_after_count": 0,
+  "missing_from_arena_after_count": 0,
+  "level_group_counts": {
+    "Lv 1-99": 56,
+    "Lv 100-149": 59,
+    "Lv 150-199": 67,
+    "Lv 200+": 8
+  },
+  "spawn_local_fightability_adjustments": [
+    {
+      "monster_id": 2075,
+      "aegis_name": "E_VADON_X",
+      "name": "Ragunta",
+      "reason": "database ignores melee, magic, ranged, and misc damage"
+    },
+    {
+      "monster_id": 3190,
+      "aegis_name": "MM_SARAH",
+      "name": "Sarah Irene",
+      "reason": "database ignores melee, magic, ranged, and misc damage"
+    }
+  ],
+  "database_or_official_instance_modified": false,
+  "mini_boss_roster_preserved_count": 222
+}

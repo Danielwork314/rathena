@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "checks": {
+    "db_mvp_count_190": true,
+    "arena_size_190": true,
+    "room_mvp_size_190": true,
+    "room_mini_start_190": true,
+    "room_mini_size_222": true,
+    "arena_exact_db_roster": true,
+    "room_exact_db_roster": true,
+    "room_miniboss_preserved": true,
+    "arena_no_duplicates": true,
+    "db_all_mvp_true": true,
+    "room_arena_same_mvp_order": true,
+    "fenrir_present": true,
+    "gran_papilia_present": true,
+    "sarah_present": true,
+    "ragunta_present": true,
+    "normalization_constants_present": true,
+    "arena_normalize_spawn_call": true,
+    "room_normalize_spawn_calls": true,
+    "room_brace_balance": true,
+    "room_paren_balance": true,
+    "arena_brace_balance": true,
+    "arena_paren_balance": true
+  }
+}
