@@ -1,0 +1,22 @@
+{
+  "validated_item_count": 5885,
+  "shop_page_count": 252,
+  "page_size": 40,
+  "duplicate_item_ids": 0,
+  "category_counts": {
+    "Accessories": 684,
+    "Armor": 487,
+    "Garments": 284,
+    "Headgear": 1639,
+    "Shields": 123,
+    "Shoes": 322,
+    "Weapons": 2346
+  },
+  "navigation": {
+    "weapons": "family > exact weapon subtype > required-level band > alphabetical page",
+    "headgear": "head slot > required-level band > alphabetical page",
+    "armor_shields_garments_shoes": "required-level band > alphabetical page",
+    "accessories": "equip side > required-level band > alphabetical page",
+    "direct_lookup": "binary Item ID lookup opens exact page"
+  }
+}
