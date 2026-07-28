@@ -444,6 +444,7 @@ struct Battle_Config
 	int32 idle_no_share;
 	int32 party_update_interval;
 	int32 party_even_share_bonus;
+	int32 party_drop_rate_bonus;
 	int32 delay_battle_damage;
 	int32 hide_woe_damage;
 	int32 display_version;

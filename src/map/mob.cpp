@@ -2927,6 +2927,33 @@ map_session_data* mob_data::get_mvp_player(map_session_data* first_sd) {
 	return mvp_sd;
 }
 
+/**
+ * Applies the fixed party bonus to a regular monster drop rate.
+ * Only parties with EXP sharing enabled and at least two eligible members on
+ * the monster's map qualify. The normal drop cap remains enforced and item
+ * quantity is not changed.
+ */
+static int32 mob_apply_party_drop_rate_bonus(int32 drop_rate, int32 base_rate, map_session_data* sd, int32 factor = 1)
+{
+	if (sd == nullptr || battle_config.party_drop_rate_bonus <= 0 || sd->status.party_id == 0)
+		return drop_rate;
+
+	party_data* p = party_search(sd->status.party_id);
+
+	if (party_count_share_eligible(p, sd->m) < 2)
+		return drop_rate;
+
+	int64 bonus_rate = 100LL + battle_config.party_drop_rate_bonus;
+	int64 modified_rate = (static_cast<int64>(drop_rate) * bonus_rate + 50) / 100;
+	int32 cap = (pc_isvip(sd) ? battle_config.drop_rate_cap_vip : battle_config.drop_rate_cap) * factor;
+
+	// Preserve rAthena's rule: an original rate already above the cap stays above it.
+	if (modified_rate > cap && base_rate < cap)
+		modified_rate = cap;
+
+	return static_cast<int32>(modified_rate > 10000LL * factor ? 10000LL * factor : modified_rate);
+}
+
 /*==========================================
  * Signals death of mob.
  * type&1 -> no drops, type&2 -> no exp
@@ -3330,6 +3357,7 @@ int32 mob_dead(mob_data *md, block_list *src, int32 type)
 				continue;
 
 			drop_rate = mob_getdroprate(src, md->db, entry->rate, drop_modifier, md);
+			drop_rate = mob_apply_party_drop_rate_bonus(drop_rate, entry->rate, first_sd);
 
 			// attempt to drop the item
 			if (rnd() % 10000 >= drop_rate)

@@ -1227,6 +1227,37 @@ int32 party_send_xy_clear(struct party_data *p)
 	return 0;
 }
 
+/**
+ * Checks whether a party member is eligible for EXP/item sharing on a map.
+ * This keeps custom party EXP and drop bonuses aligned with the normal
+ * same-map, alive and idle exclusion rules.
+ */
+static bool party_member_is_share_eligible(map_session_data* sd, int16 map_id)
+{
+	return sd != nullptr && sd->m == map_id && !pc_isdead(sd) &&
+		!(battle_config.idle_no_share && pc_isidle_party(sd));
+}
+
+/**
+ * Counts members eligible for even-share benefits on the specified map.
+ * The party must have EXP sharing enabled; the char server already enforces
+ * the configured party level range when that option is enabled.
+ */
+uint32 party_count_share_eligible(const party_data* p, int16 map_id)
+{
+	if (p == nullptr || !p->party.exp)
+		return 0;
+
+	uint32 count = 0;
+
+	for (uint32 i = 0; i < MAX_PARTY; ++i) {
+		if (party_member_is_share_eligible(p->data[i].sd, map_id))
+			++count;
+	}
+
+	return count;
+}
+
 /** Party EXP and Zeny sharing
  * @param p Party data
  * @param src EXP source (for renewal level penalty)
@@ -1250,7 +1281,8 @@ void party_exp_share(struct party_data* p, block_list* src, t_exp base_exp, t_ex
 
 	// count the number of players eligible for exp sharing
 	for (i = c = 0; i < MAX_PARTY; i++) {
-		if( (sd[c] = p->data[i].sd) == nullptr || sd[c]->m != src->m || pc_isdead(sd[c]) || (battle_config.idle_no_share && pc_isidle_party(sd[c])) )
+		sd[c] = p->data[i].sd;
+		if (!party_member_is_share_eligible(sd[c], src->m))
 			continue;
 		c++;
 	}
@@ -1262,14 +1294,14 @@ void party_exp_share(struct party_data* p, block_list* src, t_exp base_exp, t_ex
 	zeny/=c;
 
 	if (battle_config.party_even_share_bonus && c > 1) {
-		double bonus = 100 + battle_config.party_even_share_bonus*(c-1);
+		// Apply the configured bonus once when at least two members are eligible.
+		// It is intentionally fixed instead of increasing for every extra member.
+		double bonus = 100 + battle_config.party_even_share_bonus;
 
 		if (base_exp)
 			base_exp = (t_exp) cap_value(base_exp * bonus/100, 0, MAX_EXP);
 		if (job_exp)
 			job_exp = (t_exp) cap_value(job_exp * bonus/100, 0, MAX_EXP);
-		if (zeny)
-			zeny = (uint32)cap_value(zeny * bonus/100, INT_MIN, INT_MAX);
 	}
 
 	for (i = 0; i < c; i++) {
